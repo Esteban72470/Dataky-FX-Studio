@@ -533,6 +533,39 @@ function Runtime.apply(data, opts)
     return Runtime.status()
 end
 
+-- Pilote des objets déjà présents (modèle .rbxmx glissé dans Studio) au lieu d'en construire :
+-- chaque node est retrouvé sous target par son attribut DatakyFXNodeId. Le modèle n'est jamais détruit.
+function Runtime.adopt(data, target, opts)
+    local normalized, decodedTracks, duration = validate(data)
+    opts = opts or {}
+    if typeof(target) ~= "Instance" then fail("adopt exige l'Instance qui contient l'effet") end
+    local byId, found, foundSpecs = {}, {}, {}
+    for _, node in ipairs(normalized) do byId[node.id] = node end
+    for _, object in ipairs(target:GetDescendants()) do
+        local id = object:GetAttribute("DatakyFXNodeId")
+        if type(id) == "string" and byId[id] and not found[id] and object.ClassName == byId[id].class then
+            found[id], foundSpecs[id] = object, byId[id]
+        end
+    end
+    for _, node in ipairs(normalized) do
+        if not found[node.id] then fail(node.id .. " (" .. tostring(node.name) .. ") introuvable sous " .. target:GetFullName()) end
+    end
+    generation += 1
+    cancelAssetMonitor()
+    Runtime.stop()
+    restoreCamera()
+    if root and root ~= target and root:GetAttribute(OWNED) == true then root:Destroy() end
+    root, project, objects, specs, tracks = target, data, found, foundSpecs, decodedTracks
+    options, activeOptions = opts, opts
+    origin = opts.origin and vector(opts.origin, 3, "options.origin") or Vector3.zero
+    options.duration = duration
+    errors, warnings, fired, elapsed, assetFailures = {}, {}, {}, 0, {}
+    for id, spec in pairs(specs) do
+        if isSwitchClass(spec.class) then objects[id].Enabled = false end
+    end
+    return Runtime.status()
+end
+
 local function lerp(a, b, alpha)
     local kind = typeof(a)
     if kind == "number" then return a + (b-a)*alpha end

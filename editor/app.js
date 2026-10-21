@@ -59,7 +59,8 @@
   let animationNode = null;
   let dragState = null;
   let screenStream = null;
-  let viewportMode = 'native';
+  let viewportMode = 'emu';
+  let emulator=null,emulatorError=null,playheadLabelWidth=134,blocks=[],cursorTime=0;
   let nativeFrameSequence=null,nativeFrameBusy=false,nativeFrameObjectURL=null,nativeFrameMeta=null,autoPreviewTimer=null,nativeFrameToken=0,replayAfterPermission=false;
   let planScale = 29;
   let cameraPan = [0,0];
@@ -175,8 +176,8 @@
       if(kind==='impact'&&schema.classes.PointLight){const light=makeNode('PointLight',attachment.id,'Éclair');setKnown(light,{Color:[0.55,0.95,1],Range:12,Brightness:3});light.timing={start:0,duration:0.12};p.nodes.push(light);}
     } else {
       p.name=kind==='beam'?'Arc lumineux':'Traînée en mouvement';
-      const a=makeNode('Attachment',source.id,'Départ');const b=makeNode('Attachment',source.id,'Arrivée');setKnown(a,{Position:kind==='beam'?[-3,0,0]:[0,0.6,0]});setKnown(b,{Position:kind==='beam'?[3,0,0]:[0,-0.6,0]});p.nodes.push(a,b);
-      const fx=makeNode(kind==='beam'?'Beam':'Trail',source.id,kind==='beam'?'Arc':'Ruban');setKnown(fx,{Attachment0:a.id,Attachment1:b.id,Color:[[0,[0.55,0.95,0.88]],[1,[0.65,0.45,1]]],Transparency:[[0,0,0],[1,kind==='beam'?0:1,0]],Width0:0.45,Width1:0.15,LightEmission:1,FaceCamera:true,CurveSize0:2,CurveSize1:-2,Lifetime:0.55});fx.timing={start:0,duration:kind==='beam'?p.duration:2,mode:'continuous'};p.nodes.push(fx);
+      const a=makeNode('Attachment',source.id,'Départ');const b=makeNode('Attachment',source.id,'Arrivée');setKnown(a,kind==='beam'?{Position:[-3,0,0],Orientation:[0,0,60]}:{Position:[0,0.6,0]});setKnown(b,kind==='beam'?{Position:[3,0,0],Orientation:[0,0,-60]}:{Position:[0,-0.6,0]});p.nodes.push(a,b);
+      const fx=makeNode(kind==='beam'?'Beam':'Trail',source.id,kind==='beam'?'Arc':'Ruban');setKnown(fx,{Attachment0:a.id,Attachment1:b.id,Color:[[0,[0.55,0.95,0.88]],[1,[0.65,0.45,1]]],Transparency:[[0,0,0],[1,kind==='beam'?0:1,0]],Width0:0.45,Width1:0.15,LightEmission:1,FaceCamera:true,CurveSize0:3,CurveSize1:3,Lifetime:0.55});fx.timing={start:0,duration:kind==='beam'?p.duration:2,mode:'continuous'};p.nodes.push(fx);
       if(kind==='trail')p.animations=[{node:source.id,property:'Position',keyframes:[{time:0,value:[-4,1,0]},{time:1,value:[0,3,0]},{time:2,value:[4,1,0]}]}];
     }
     return p;
@@ -188,10 +189,10 @@
   function renderAll(properties=true) {
     $('#project-name').value=project.name;$('#composition-name').textContent=project.name;
     $('#duration').value=project.duration;$('#loop').checked=!!project.loop;$('#playhead-time').max=project.duration;$('#playhead-time').value=round(time);
-    $('#node-count').textContent=project.nodes.length+' objets';$('#scene-empty').classList.toggle('hidden',!!project.nodes.length||viewportMode!=='plan');
+    $('#node-count').textContent=project.nodes.length+' objets';$('#scene-empty').classList.toggle('hidden',!!project.nodes.length||viewportMode==='native');
     $('#undo-button').disabled=!history.length;$('#redo-button').disabled=!future.length;
     $('#clone-button').disabled=!selected();$('#delete-button').disabled=!selected();
-    renderTree();if(properties)renderProperties();renderTimeline();drawScene();
+    renderTree();if(properties)renderProperties();renderTimeline();drawScene();syncEmulator();
   }
   function renderTree() {
     const tree=$('#node-tree');tree.replaceChildren();
@@ -314,10 +315,57 @@
     for(const node of tracks){const timing=node.timing||{start:0,duration:1};const row=document.createElement('div');row.className='timeline-row'+(selectedId===node.id?' selected':'');row.innerHTML=`<div class="track-label"><span class="node-icon">${ICONS[node.class]||'◇'}</span><span>${escape(node.name)}</span></div><div class="track-surface"></div>`;$('.track-label',row).onclick=()=>selectNode(node.id);const surface=$('.track-surface',row);surface.onpointerdown=e=>{if(e.target===surface)scrubAt(e,surface);};const bar=document.createElement('div');bar.className='track-bar '+node.class.toLowerCase();bar.style.left=(num(timing.start)/duration*100)+'%';bar.style.width=(Math.min(num(timing.duration,1),Math.max(0,duration-num(timing.start)))/duration*100)+'%';bar.textContent=node.class==='ParticleEmitter'&&timing.mode==='burst'?'✦ '+(timing.count??30):round(num(timing.duration,1))+' s';bar.title=`Début ${timing.start||0} s · Durée ${timing.duration??1} s`;const handle=document.createElement('span');handle.className='bar-handle';bar.append(handle);bar.onpointerdown=e=>startBarDrag(e,node,surface,e.target===handle);bar.ondblclick=()=>selectNode(node.id);surface.append(bar);host.append(row);}
     for(const [index,animation]of (project.animations||[]).entries()){const node=nodeById(animation.node);if(!node)continue;const row=document.createElement('div');row.className='timeline-row'+(selectedId===node.id?' selected':'');row.innerHTML=`<div class="track-label"><span class="node-icon">◇</span><span>${escape(node.name)} · ${escape(animation.property)}</span></div><div class="track-surface"></div>`;$('.track-label',row).onclick=()=>{selectNode(node.id);openAnimation(node);$('#animation-property').value=animation.property;loadAnimationKeyframes();};const surface=$('.track-surface',row);surface.onpointerdown=e=>scrubAt(e,surface);const frames=animation.keyframes||[];const start=frames[0]?.time||0;const end=frames.at(-1)?.time||duration;const bar=document.createElement('div');bar.className='track-bar animation';bar.style.left=(start/duration*100)+'%';bar.style.width=((end-start)/duration*100)+'%';bar.innerHTML=frames.map(f=>`<span style="position:absolute;left:${(f.time-start)/(end-start||1)*95}%;font-size:8px">◆</span>`).join('');bar.onclick=()=>{openAnimation(node);$('#animation-property').value=animation.property;loadAnimationKeyframes();};surface.append(bar);host.append(row);}
     if(!tracks.length&&!project.animations?.length){const empty=document.createElement('div');empty.className='timeline-placeholder';empty.textContent='Les émetteurs, beams, trails et animations apparaissent ici.';host.append(empty);}
-    const playhead=document.createElement('div');playhead.className='timeline-playhead';const labelWidth=parseFloat(getComputedStyle(ruler).gridTemplateColumns.split(' ')[0])||134;playhead.style.left=`calc(${labelWidth}px + (100% - ${labelWidth}px) * ${bounded(time/duration,0,1)})`;host.append(playhead);host.scrollTop=scroll;
+    const playhead=document.createElement('div');playhead.className='timeline-playhead';const labelWidth=parseFloat(getComputedStyle(ruler).gridTemplateColumns.split(' ')[0])||134;playheadLabelWidth=labelWidth;playhead.style.left=`calc(${labelWidth}px + (100% - ${labelWidth}px) * ${bounded(time/duration,0,1)})`;host.append(playhead);host.scrollTop=scroll;
   }
   function scrubAt(event,surface) {
-    const rect=surface.getBoundingClientRect();time=round(bounded((event.clientX-rect.left)/rect.width,0,1)*project.duration);$('#playhead-time').value=time;renderTimeline();drawScene();
+    const rect=surface.getBoundingClientRect();time=cursorTime=round(bounded((event.clientX-rect.left)/rect.width,0,1)*project.duration);$('#playhead-time').value=time;renderTimeline();drawScene();seekEmulator();
+  }
+  function movePlayhead() {
+    const playhead=$('.timeline-playhead');if(playhead)playhead.style.left=`calc(${playheadLabelWidth}px + (100% - ${playheadLabelWidth}px) * ${bounded(time/Math.max(0.1,num(project.duration,3)),0,1)})`;$('#playhead-time').value=round(time);
+  }
+
+  // Émulation navigateur : rendu par défaut, déterministe et sans Roblox Studio. Studio reste la vérification native.
+  function emulatorView() {
+    if(emulator||emulatorError)return emulator;
+    if(!window.DatakyEmulator){emulatorError='Rechargez l’application pour charger l’émulateur.';return null;}
+    try{emulator=window.DatakyEmulator.createView($('#emu-canvas'),{background:$('#emu-background').value,ground:$('#emu-ground').checked,dummy:$('#emu-dummy').checked,onFrame:emulatorFrame,resolveTexture:catalogImage});}
+    catch(e){emulatorError=e.message;$('#emu-message').textContent=e.message;$('#emu-message').hidden=false;}
+    return emulator;
+  }
+  function catalogImage(id) {
+    if(!catalogLoaded)return null;for(const key of ['textures','beams','meshes']){const item=catalog[key].find(asset=>String(asset.asset_id)===id);if(item?.image_path)return['/library/'+(key==='textures'?'':key+'/')+item.image_path];}return null;
+  }
+  // Briques prêtes à l’emploi (tool/fx_modules.py) ajoutées au dernier instant choisi dans la timeline (pas à la lecture en cours).
+  async function addBlock(name) {
+    try{const next=validateProject(await api('/api/compose',{method:'POST',body:JSON.stringify({project,blocks:[{block:name,at:round(cursorTime)}]})}));const known=new Set(project.nodes.map(n=>n.id));remember();project=next;selectedId=project.nodes.find(n=>!known.has(n.id))?.id||selectedId;dirty=true;persist();renderAll();message('Brique ajoutée. Ses objets restent modifiables comme les autres.','success');}
+    catch(e){message('Brique : '+e.message,'error');}
+  }
+  function syncEmulator() {
+    if(viewportMode!=='emu')return;const view=emulatorView();if(!view)return;
+    if(view.setProject(project)&&$('#auto-preview').checked&&project.nodes.length)view.play();
+  }
+  function seekEmulator() {if(viewportMode==='emu')emulatorView()?.seek(time);}
+  function emulatorFrame(info) {
+    if(viewportMode!=='emu')return;
+    if(info.fromPlayback){time=info.time;movePlayhead();}
+    $('#emu-status').textContent=`Émulation · ${round(info.time).toFixed(2)} s · ${numberFormat.format(info.particles)} particule${info.particles>1?'s':''}`+(info.ended&&!info.playing?' · terminé':'');
+    $('#emu-status').title=info.warnings.join('\n');renderTransport();
+  }
+  function renderTransport() {
+    const native=viewportMode==='native';const playing=native?nativePlaying&&!nativePaused:!!emulator?.playing;
+    $('#pause-button').disabled=native&&!nativeStatus.connected;$('#pause-button').textContent=(native?nativePaused:!playing)?'▶ Reprendre':'Ⅱ Pause';
+    $('#play-button').title=native?'Lire dans Studio':'Lire l’émulation';$('#stop-button').title=native?'Arrêter dans Studio':'Revenir au début';
+  }
+  function transport(action) {
+    if(viewportMode==='native')return nativeAction(action==='toggle'?(nativePaused?'resume':'pause'):action);
+    if(viewportMode!=='emu')setViewport('emu');const view=emulatorView();if(!view)return message(emulatorError||'Émulation indisponible.','error');
+    syncEmulator();
+    if(action==='play')view.play();else if(action==='stop'){view.stop();time=cursorTime=0;movePlayhead();}else if(action==='toggle')view.playing?view.pause():view.resume();
+    renderTransport();
+  }
+  function keepEmulatorCamera() {
+    const view=emulatorView();if(!view)return;const camera=view.camera;const fixed=v=>v.map(x=>Math.round(x*1000)/1000);
+    commit(p=>{p.camera={...(p.camera||{}),position:fixed(camera.position),target:fixed(camera.target)};},{properties:false});message('Cadrage enregistré comme caméra du projet : il sert aux rendus et à Studio.','success');
   }
   function startBarDrag(event,node,surface,resize) {
     event.preventDefault();event.stopPropagation();selectedId=node.id;const rect=surface.getBoundingClientRect();remember();const original=clone(node.timing||{start:0,duration:1});const startX=event.clientX;const id=node.id;const move=e=>{const delta=(e.clientX-startX)/rect.width*project.duration;const timing=resize?{...original,duration:round(Math.max(0.01,original.duration+delta))}:{...original,start:round(Math.max(0,original.start+delta))};nodeById(id).timing=timing;dirty=true;renderTimeline();drawScene();};const up=()=>{window.removeEventListener('pointermove',move);window.removeEventListener('pointerup',up);persist();renderAll();};window.addEventListener('pointermove',move);window.addEventListener('pointerup',up,{once:true});
@@ -383,7 +431,7 @@
   async function copyText(value,success='Copié') {try{await navigator.clipboard.writeText(value);message(success,'success');}catch(_){message('La copie a été refusée par le navigateur. Sélectionnez et copiez le texte manuellement.','error');}}
   function showJSON() {$('#project-json').value=JSON.stringify(project,null,2);$('#json-error').textContent='';$('#json-dialog').showModal();}
   function openExportMenu(button) {
-    showMenu(button,[['menu-label','EXPORTER VOTRE EFFET'],['Recette JSON · brouillon',()=>download(JSON.stringify(project,null,2),projectFilename())],['Script Roblox Luau',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.lua';link.download=projectFilename('lua');document.body.append(link);link.click();link.remove();}],['Recette JSON validée',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.json';link.download=projectFilename();document.body.append(link);link.click();link.remove();}]]);
+    showMenu(button,[['menu-label','EXPORTER VOTRE EFFET'],['Recette JSON · brouillon',()=>download(JSON.stringify(project,null,2),projectFilename())],['Modèle Roblox .rbxmx · à glisser dans Studio',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.rbxmx';link.download=projectFilename('rbxmx');document.body.append(link);link.click();link.remove();}],['Script Roblox Luau',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.lua';link.download=projectFilename('lua');document.body.append(link);link.click();link.remove();}],['Recette JSON validée',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.json';link.download=projectFilename();document.body.append(link);link.click();link.remove();}]]);
   }
   function showMenu(anchor,items) {
     const menu=$('#floating-menu');menu.replaceChildren();
@@ -401,11 +449,11 @@
     catch(e){nativeStatus={connected:false,last_error:e.message};renderNativeStatus();if(announce)message('Serveur local inaccessible : '+e.message,'error');}
   }
   function renderNativeStatus() {
-    const connected=!!nativeStatus.connected;const button=$('#connection-button');button.classList.toggle('connected',connected);$('span',button).textContent=connected?'Studio connecté':'Studio déconnecté';$('#native-indicator').classList.toggle('connected',connected);$('#native-indicator').innerHTML='<i></i>'+(connected?'Rendu natif connecté':'Rendu natif dans Studio');
+    const connected=!!nativeStatus.connected;const button=$('#connection-button');button.classList.toggle('connected',connected);$('span',button).textContent=connected?'Studio connecté':'Studio déconnecté';$('#native-indicator').classList.toggle('connected',connected||viewportMode==='emu');$('#native-indicator').innerHTML='<i></i>'+(viewportMode==='emu'?'Émulation navigateur'+(connected?' · Studio connecté':' · Studio facultatif'):connected?'Rendu natif connecté':'Rendu natif dans Studio');
     const studioName=typeof nativeStatus.studio==='string'?nativeStatus.studio:(nativeStatus.studio?.name||nativeStatus.studio?.place_name||'Roblox Studio');const summary=$('#connection-summary');summary.classList.toggle('connected',connected);summary.textContent=connected?'Connecté à '+studioName+'. Appliquez votre composition pour créer un aperçu isolé.':'Le pont local attend Roblox Studio. Vous pouvez continuer à construire votre effet et connecter Studio ensuite.';
     if(connected&&nativeStatus.bridge_update_required){$('span',button).textContent='Pont à mettre à jour';summary.textContent='Studio utilise encore une ancienne connexion. Redémarrez Studio et activez Plugins → Dataky FX → Connexion. Le nouveau pont est déjà installé.';}else if(connected&&nativeStatus.bridge_capabilities?.capture_context==='command_bar'){summary.textContent='Connexion temporaire active. Pour l’aperçu intégré, redémarrez Studio puis activez le plugin Dataky FX avec son bouton Connexion.';}
     $('#connection-diagnostics').textContent=JSON.stringify(nativeStatus,null,2);
-    $('#pause-button').disabled=!connected;$('#pause-button').textContent=nativePaused?'▶ Reprendre':'Ⅱ Pause';
+    renderTransport();
   }
   async function showConnection() {
     $('#connection-dialog').showModal();await Promise.allSettled([refreshStatus(),(async()=>{try{runtime=await api('/api/runtime');$('#bootstrap-command').textContent=runtime.bootstrap_command||runtime.command||'Le serveur ne fournit pas encore de commande de connexion.';$('#bootstrap-download').href=runtime.bootstrap_url||'/bridge/bootstrap.lua';}catch(e){$('#bootstrap-command').textContent='Impossible de charger la commande : '+e.message;}})()]);
@@ -420,7 +468,8 @@
     }catch(e){message('Aperçu Studio : '+e.message,'error');}
   }
   function setViewport(mode) {
-    viewportMode=mode;$('#view-plan').classList.toggle('active',mode==='plan');$('#view-native').classList.toggle('active',mode==='native');$('#native-view').classList.toggle('hidden',mode!=='native');$('#scene-empty').classList.toggle('hidden',!!project.nodes.length||mode!=='plan');$('.scene-corner').classList.toggle('hidden',mode!=='plan');$('.scene-label').classList.toggle('hidden',mode!=='plan');
+    viewportMode=mode;$('#view-emu').classList.toggle('active',mode==='emu');$('#view-plan').classList.toggle('active',mode==='plan');$('#view-native').classList.toggle('active',mode==='native');$('#native-view').classList.toggle('hidden',mode!=='native');$('#emu-view').classList.toggle('hidden',mode!=='emu');$('#scene-empty').classList.toggle('hidden',!!project.nodes.length||mode==='native');$('.scene-corner').classList.toggle('hidden',mode!=='plan');$('.scene-label').classList.toggle('hidden',mode!=='plan');$('#clear-preview').classList.toggle('hidden',mode!=='native');
+    if(mode!=='emu')emulator?.pause();else{syncEmulator();emulator?.draw();}renderNativeStatus();
   }
   function clearNativeFrame(){nativeFrameToken++;nativeFrameSequence=null;nativeFrameMeta=null;$('#native-frame').hidden=true;$('#native-frame').removeAttribute('src');$('#native-view').classList.remove('has-native-frame');if(nativeFrameObjectURL){URL.revokeObjectURL(nativeFrameObjectURL);nativeFrameObjectURL=null;}if(!screenStream)$('#video-tools').classList.add('hidden');}
   async function startNativePreview(){
@@ -463,6 +512,7 @@
     try{if(!window.DatakyCurves)throw new Error('Rechargez l’application pour charger l’éditeur de courbes.');const node=nodeById(animationNode);const property=$('#animation-property').value;const def=schema.classes[node.class].properties[property];if(!['number','integer','Vector2','Vector3','Color3','NumberRange'].includes(def.type))throw new Error('L’éditeur graphique s’utilise avec des nombres, des vecteurs ou des couleurs.');const value=JSON.parse($('#animation-json').value);const key=node.id+'::'+property;$('#animation-dialog').close();window.DatakyCurves.open({type:'animation',value,definition:def,duration:project.duration,title:node.name+' · '+property,editor:project.editor?.curves?.[key],onApply:result=>{commit(p=>{p.animations=p.animations.filter(a=>!(a.node===node.id&&a.property===property));p.animations.push({node:node.id,property,keyframes:result.value});p.editor??={version:1,curves:{}};p.editor.curves??={};p.editor.curves[key]=result.editor;});}});}catch(e){$('#animation-error').textContent=e.message;}
   }
   async function takeSnapshot() {
+    if(viewportMode==='emu'){const view=emulatorView();if(!view)return message(emulatorError||'Émulation indisponible.','error');try{await api('/api/snapshot',{method:'POST',body:JSON.stringify({image:view.snapshot(),project_id:project.id||null,time:round(view.time),source:'emulator'})});message('Image de l’émulation enregistrée avec son instant.','success');}catch(e){message('Capture : '+e.message,'error');}return;}
     if(nativeFrameMeta&&!screenStream){try{await api('/api/snapshot',{method:'POST',body:JSON.stringify({native:true})});message('Aperçu natif enregistré avec son projet et son instant de capture.','success');}catch(e){message('Capture : '+e.message,'error');}return;}
     const video=$('#studio-video');if(!screenStream||!video.videoWidth)return message('Partagez la fenêtre Studio avant de capturer un aperçu.','error');
     try{const canvas=document.createElement('canvas');const max=1920;const ratio=Math.min(1,max/video.videoWidth);canvas.width=Math.round(video.videoWidth*ratio);canvas.height=Math.round(video.videoHeight*ratio);const ctx=canvas.getContext('2d');const zoom=num($('#video-zoom').value,1);const sw=video.videoWidth/zoom,sh=video.videoHeight/zoom;ctx.drawImage(video,(video.videoWidth-sw)/2,(video.videoHeight-sh)/2,sw,sh,0,0,canvas.width,canvas.height);const data=await api('/api/snapshot',{method:'POST',body:JSON.stringify({image:canvas.toDataURL('image/png'),project_id:project.id||null,time})});message('Aperçu enregistré'+(data.filename?' : '+data.filename:'.'),'success');}
@@ -470,14 +520,16 @@
   }
   function bindEvents() {
     $('#project-name').onchange=e=>commit(p=>{p.name=e.target.value.trim()||'Effet sans nom';},{properties:false});$('#save-button').onclick=()=>saveProject();$('#undo-button').onclick=undo;$('#redo-button').onclick=redo;$('#clone-button').onclick=duplicateNode;$('#delete-button').onclick=removeNode;
-    $('#add-button').onclick=e=>showMenu(e.currentTarget,[['menu-label','STRUCTURE'],...['Part','MeshPart','Attachment','Folder','Model'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),['menu-label','EFFETS'],...['ParticleEmitter','Beam','Trail','SpecialMesh','PointLight','SpotLight','SurfaceLight'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)])]);
+    $('#add-button').onclick=e=>showMenu(e.currentTarget,[['menu-label','STRUCTURE'],...['Part','MeshPart','Attachment','Folder','Model'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),['menu-label','EFFETS'],...['ParticleEmitter','Beam','Trail','SpecialMesh','PointLight','SpotLight','SurfaceLight'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),...(blocks.length?[['menu-label','BRIQUES · À '+round(cursorTime)+' S'],...blocks.map(b=>['✦ '+b.title,()=>addBlock(b.block)])]:[])]);
     $('#empty-add').onclick=()=>addNode('Part');$$('[data-template]').forEach(b=>b.onclick=()=>useTemplate(b.dataset.template));$('#project-menu').onclick=listProjects;
     $('#json-button').onclick=showJSON;$('#export-button').onclick=e=>openExportMenu(e.currentTarget);$('#copy-json').onclick=()=>copyText($('#project-json').value,'Recette copiée');$('#download-json').onclick=()=>download($('#project-json').value,projectFilename());
     $('#apply-json').onclick=()=>{try{const value=validateProject(JSON.parse($('#project-json').value));remember();project=value;selectedId=project.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();$('#json-dialog').close();message('Recette appliquée au brouillon.');}catch(e){$('#json-error').textContent=e.message;}};
     $('#import-file').onchange=async e=>{const file=e.target.files[0];if(!file)return;$('#project-json').value=await file.text();$('#json-error').textContent='';e.target.value='';};
     $$('[data-collection]').forEach(b=>b.onclick=()=>{collection=b.dataset.collection;renderCatalog(true);});$('#catalog-search').oninput=e=>{filters[collection].search=e.target.value;filters[collection].page=0;renderCatalog();};$('#catalog-tag').onchange=e=>{filters[collection].tag=e.target.value;filters[collection].page=0;renderCatalog();};$('#clear-filters').onclick=()=>{filters[collection]={search:'',tag:'',page:0};renderCatalog(true);};$('#catalog-prev').onclick=()=>{filters[collection].page--;renderCatalog();$('#catalog-grid').scrollTop=0;};$('#catalog-next').onclick=()=>{filters[collection].page++;renderCatalog();$('#catalog-grid').scrollTop=0;};
-    $('#duration').onchange=e=>{const duration=Number(e.target.value);if(!Number.isFinite(duration)||duration<=0||duration>(schema.limits?.duration||600)){e.target.value=project.duration;return;}commit(p=>{p.duration=duration;time=Math.min(time,duration);},{properties:false});};$('#loop').onchange=e=>commit(p=>{p.loop=e.target.checked;},{properties:false});$('#playhead-time').onchange=e=>{time=bounded(num(e.target.value),0,project.duration);e.target.value=time;renderTimeline();drawScene();};
-    $('#play-button').onclick=()=>nativeAction('play');$('#stop-button').onclick=()=>nativeAction('stop');$('#apply-button').onclick=()=>nativeAction(nativeStatus.preview?.enabled?'play':'apply');$('#clear-preview').onclick=()=>nativeAction('clear');$('#pause-button').onclick=()=>nativeAction(nativePaused?'resume':'pause');
+    $('#duration').onchange=e=>{const duration=Number(e.target.value);if(!Number.isFinite(duration)||duration<=0||duration>(schema.limits?.duration||600)){e.target.value=project.duration;return;}commit(p=>{p.duration=duration;time=Math.min(time,duration);},{properties:false});};$('#loop').onchange=e=>commit(p=>{p.loop=e.target.checked;},{properties:false});$('#playhead-time').onchange=e=>{time=cursorTime=bounded(num(e.target.value),0,project.duration);e.target.value=time;renderTimeline();drawScene();seekEmulator();};
+    $('#play-button').onclick=()=>transport('play');$('#stop-button').onclick=()=>transport('stop');$('#apply-button').onclick=()=>viewportMode==='native'?nativeAction(nativeStatus.preview?.enabled?'play':'apply'):transport('play');$('#clear-preview').onclick=()=>nativeAction('clear');$('#pause-button').onclick=()=>transport('toggle');
+    $('#view-emu').onclick=()=>setViewport('emu');$('#emu-snapshot').onclick=takeSnapshot;$('#emu-camera').onclick=()=>emulatorView()?.resetCamera(project);$('#emu-keep-camera').onclick=keepEmulatorCamera;
+    $('#emu-background').onchange=e=>emulatorView()?.setView({background:e.target.value});$('#emu-ground').onchange=e=>emulatorView()?.setView({ground:e.target.checked});$('#emu-dummy').onchange=e=>emulatorView()?.setView({dummy:e.target.checked});$('#emu-frame').onclick=()=>emulatorView()?.frameEffect();
     $('#connection-button').onclick=showConnection;$('#refresh-connection').onclick=()=>refreshStatus(true);$('#copy-bootstrap').onclick=()=>copyText($('#bootstrap-command').textContent,'Commande copiée. Collez-la dans la barre de commande de Studio.');$('#view-plan').onclick=()=>setViewport('plan');$('#view-native').onclick=()=>setViewport('native');$('#share-studio').onclick=startSharing;$('#start-native-preview').onclick=startNativePreview;$('#stop-sharing').onclick=stopNativePreview;$('#capture-snapshot').onclick=takeSnapshot;$('#video-zoom').oninput=e=>{for(const element of [$('#studio-video'),$('#native-frame')])element.style.transform=`scale(${e.target.value})`;};
     $('#animation-graph').onclick=openAnimationGraph;
     $('#recenter-button').onclick=()=>{cameraPan=[0,0];planScale=29;drawScene();};
@@ -488,16 +540,20 @@
     $('#animation-remove').onclick=()=>{const property=$('#animation-property').value;commit(p=>{p.animations=p.animations.filter(a=>!(a.node===animationNode&&a.property===property));});$('#animation-dialog').close();};
     document.addEventListener('pointerdown',e=>{if(!$('#floating-menu').contains(e.target)&&!e.target.closest('#add-button,#export-button'))hideMenu();});
     document.addEventListener('keydown',e=>{const typing=e.target.closest('input,textarea,select,[contenteditable]');const modal=$$('dialog[open]').length>0;const mod=e.ctrlKey||e.metaKey;if(mod&&e.key.toLowerCase()==='s'){e.preventDefault();saveProject();return;}if(mod&&e.key.toLowerCase()==='z'&&!typing&&!modal){e.preventDefault();e.shiftKey?redo():undo();return;}if(mod&&e.key.toLowerCase()==='y'&&!typing&&!modal){e.preventDefault();redo();return;}if(mod&&e.key.toLowerCase()==='d'&&!typing&&!modal){e.preventDefault();duplicateNode();return;}if(!typing&&!modal){if(e.key==='Delete'||e.key==='Backspace'){e.preventDefault();removeNode();}if(e.key==='/'){e.preventDefault();$('#catalog-search').focus();}if(e.key==='Escape')hideMenu();}});
-    window.addEventListener('resize',()=>{drawScene();renderTimeline();});window.addEventListener('beforeunload',()=>{persist();stopSharing(false);if(nativeStatus.preview?.enabled)fetch('/api/preview',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'preview_stop'}),keepalive:true}).catch(()=>{});});attachCanvasEvents();
+    window.addEventListener('resize',()=>{drawScene();renderTimeline();if(viewportMode==='emu')emulator?.draw();});window.addEventListener('beforeunload',()=>{persist();stopSharing(false);if(nativeStatus.preview?.enabled)fetch('/api/preview',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'preview_stop'}),keepalive:true}).catch(()=>{});});attachCanvasEvents();
   }
   async function loadData() {
     await Promise.allSettled([
       (async()=>{try{const data=await api('/api/schema');if(!data.classes)throw new Error('Le schéma ne contient pas de classes.');schema=data;schemaOnline=true;$('#duration').max=schema.limits?.duration||600;try{localStorage.setItem(CACHE_SCHEMA,JSON.stringify(schema));}catch(_){}renderProperties();}catch(e){if(!schemaWarning){schemaWarning=true;message('Schéma local indisponible. Votre brouillon reste accessible; reconnectez le serveur avant l’export.','error');}}})(),
+      (async()=>{try{blocks=(await api('/api/blocks')).blocks||[];}catch(_){blocks=[];}})(),
       (async()=>{try{const data=await api('/api/catalog');catalog={textures:data.textures||[],beams:data.beams||[],meshes:data.meshes||[]};catalogLoaded=true;renderCatalog(true);}catch(e){catalogFailed=true;renderCatalog(true);message('La bibliothèque n’a pas pu être chargée. Les modèles intégrés restent disponibles.','error');}})(),refreshStatus()
     ]);
   }
   if(!Array.isArray(project.animations))project.animations=[];
   bindEvents();renderAll();renderCatalog(true);renderNativeStatus();setViewport(viewportMode);persist();loadData();setInterval(()=>refreshStatus(),3500);setInterval(()=>pollNativeFrame(),250);
   // A compact public automation surface uses the same editor validation and commands.
-  window.DatakyFX = Object.freeze({getProject:()=>clone(project),getSchema:()=>clone(schema),getStatus:()=>clone(nativeStatus),setProject:value=>{const next=validateProject(value);remember();project=next;selectedId=next.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();return clone(project);},save:()=>saveProject(),preview:action=>nativeAction(action),select:selectNode});
+  window.DatakyFX = Object.freeze({getProject:()=>clone(project),getSchema:()=>clone(schema),getStatus:()=>clone(nativeStatus),setProject:value=>{const next=validateProject(value);remember();project=next;selectedId=next.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();return clone(project);},save:()=>saveProject(),preview:action=>nativeAction(action),select:selectNode,
+    emulator:Object.freeze({play:()=>transport('play'),stop:()=>transport('stop'),seek:value=>{setViewport('emu');time=cursorTime=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return time;},
+      frame:value=>{setViewport('emu');time=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return emulatorView()?.snapshot()||null;},
+      sheet:(options={})=>window.DatakyEmulator.renderSheet(clone(project),options)})});
 })();

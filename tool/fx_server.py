@@ -82,6 +82,10 @@ def decode_png_data_url(image, max_bytes=8_000_000):
     return png, width, height
 
 
+def sibling(name):
+    return importlib.import_module((__package__ + "." if __package__ else "") + name)
+
+
 def confined(base, relative):
     base = base.resolve()
     candidate = (base / relative).resolve()
@@ -400,7 +404,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def get(self, path, query):
         server = self.server
-        if path in {"/", "/index.html", "/app.js", "/curves.js", "/styles.css"}:
+        if path in {"/", "/index.html", "/app.js", "/curves.js", "/emulator.js", "/render.html", "/render.js", "/styles.css"}:
             self.file(confined(server.editor, "index.html" if path in {"/", "/index.html"} else path[1:]))
         elif path == "/api/schema":
             self.send_json(SCHEMA)
@@ -441,10 +445,13 @@ class Handler(BaseHTTPRequestHandler):
         elif path.startswith("/api/export/"):
             export = path.removeprefix("/api/export/")
             ident, separator, kind = export.rpartition(".")
-            if not separator or kind not in {"json", "lua"}:
+            if not separator or kind not in {"json", "lua", "rbxmx"}:
                 raise APIError(404, "Format d’export inconnu")
             project = self.load_project(ident)
-            if kind == "json":
+            if kind == "rbxmx":
+                source = sibling("fx_rbxmx").export_rbxmx(project)
+                self.send_bytes(source.encode("utf-8"), "application/xml; charset=utf-8", filename=ident + ".rbxmx")
+            elif kind == "json":
                 self.send_bytes((json.dumps(project, ensure_ascii=False, indent=2) + "\n").encode("utf-8"), "application/json; charset=utf-8", filename=ident + ".json")
             else:
                 try:
@@ -453,6 +460,8 @@ class Handler(BaseHTTPRequestHandler):
                     raise APIError(503, "Exportateur Lua absent") from exc
                 source = exporter.export_project(project)
                 self.send_bytes(source.encode("utf-8"), "text/plain; charset=utf-8", filename=ident + ".lua")
+        elif path == "/api/blocks":
+            self.send_json({"blocks": sibling("fx_modules").list_blocks()})
         elif path == "/api/snapshots":
             items = []
             if server.snapshots.is_dir():
@@ -521,6 +530,10 @@ class Handler(BaseHTTPRequestHandler):
             with server.lock:
                 atomic_json(self.project_path(project["id"]), project)
             self.send_json(project, 201)
+        elif path == "/api/compose":
+            # Ajoute des briques à la recette fournie (ou en crée une) ; rien n’est enregistré.
+            plan = data.get("plan") or {"blocks": data.get("blocks")}
+            self.send_json(sibling("fx_modules").compose(plan, data.get("project")))
         elif path == "/api/preview":
             action = data.get("action", "apply")
             if action not in {"apply", "play", "stop", "clear", "pause", "resume", "status", "preview_start", "preview_stop", "capture_status"}:
@@ -659,7 +672,10 @@ class Handler(BaseHTTPRequestHandler):
             if not native_meta and "time" in data:
                 item["time"] = number(data["time"], "time", 0, 600)
             if not native_meta:
-                item.update({"captured_at": item["created_at"], "capture_source": "screen-share"})
+                source = data.get("source", "screen-share")
+                if source not in {"screen-share", "emulator"}:
+                    raise ValidationError("source doit valoir screen-share ou emulator")
+                item.update({"captured_at": item["created_at"], "capture_source": "browser-emulator" if source == "emulator" else "screen-share"})
             with server.lock:
                 atomic_bytes(confined(server.snapshots, item["id"] + ".png"), png)
                 atomic_json(confined(server.snapshots, item["id"] + ".json"), item)
