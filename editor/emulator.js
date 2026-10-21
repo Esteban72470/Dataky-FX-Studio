@@ -413,7 +413,7 @@
   function buildFrame(sim, cameraInput) {
     const camera = cameraBasis(cameraInput);
     let data = new Float32Array(STRIDE * 6 * 1024), count = 0;
-    const batches = [], parts = [], lights = [], placeholders = [];
+    const batches = [], parts = [], lights = [], placeholders = [], points = [];
     const push = (p, u, v, u2, v2, color, alpha, blend, emission) => {
       if ((count + 1) * STRIDE > data.length) { const next = new Float32Array(data.length * 2); next.set(data); data = next; }
       const o = count * STRIDE;
@@ -426,7 +426,9 @@
       for (const i of [0, 2, 3, 0, 3, 1]) push(corners[i], uv[i][0], uv[i][1], uv2[i][0], uv2[i][1], colors[i], alphas[i], blend, emission);
     };
     // Ruban entre deux bords successifs (beam ou trail) : couleur et transparence propres à chaque bord.
-    const ribbon = (a, b, emission) => quad([a.top, b.top, a.bottom, b.bottom], [[a.u, 0], [b.u, 0], [a.u, 1], [b.u, 1]],
+    // L’axe vertical de l’image suit la longueur du ruban et l’axe horizontal sa largeur : les textures
+    // de la collection Beams sont dessinées ainsi (motifs majoritairement verticaux).
+    const ribbon = (a, b, emission) => quad([a.top, b.top, a.bottom, b.bottom], [[0, a.u], [0, b.u], [1, a.u], [1, b.u]],
       [a.color, b.color, a.color, b.color], [a.alpha, b.alpha, a.alpha, b.alpha], emission);
     const depthOf = p => dot(sub(p, camera.position), camera.forward);
     const intensity = node => lerp(Math.max(0, num(sim.prop(node, 'Brightness'), 1)), 1, clamp(num(sim.prop(node, 'LightInfluence')), 0, 1));
@@ -494,6 +496,7 @@
         }
         const color = scale(sampleColor(colorSeq, t), light);
         quad(corners, uv, [color, color, color, color], [alpha, alpha, alpha, alpha], emission, uv2, blend);
+        points.push({p: world, size: Math.max(width, height), alpha});
         depthSum += depth; drawn++;
       }
       if (drawn) batches.push({kind: 'particles', node: node.id, texture: sim.prop(node, 'Texture') ?? '', first, count: count - first, depth: depthSum / drawn - zOffset});
@@ -612,7 +615,67 @@
           brightness: Math.max(0, num(sim.prop(node, 'Brightness'), 1)), range: clamp(num(sim.prop(node, 'Range'), 8), 0, 60), angle: clamp(num(sim.prop(node, 'Angle'), 90), 0, 180)});
       }
     }
-    return {camera, data: data.subarray(0, count * STRIDE), vertices: count, batches: batches.sort((a, b) => b.depth - a.depth), parts, lights, placeholders};
+    return {camera, data: data.subarray(0, count * STRIDE), vertices: count, batches: batches.sort((a, b) => b.depth - a.depth), parts, lights, placeholders, points};
+  }
+
+  // ---- Étendue de l’effet, cadrage automatique et mannequin d’échelle ----
+  // L’étendue couvre ce qui est visible sur toute la durée : particules assez opaques, beams, trails et Parts.
+  function effectBounds(input, options = {}) {
+    const sim = createSimulation(input, {seed: options.seed});
+    const samples = Math.max(2, options.samples || 24);
+    const min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity];
+    const grow = (p, r = 0) => { for (let i = 0; i < 3; i++) { min[i] = Math.min(min[i], p[i] - r); max[i] = Math.max(max[i], p[i] + r); } };
+    for (let i = 0; i <= samples; i++) {
+      sim.seek(sim.duration * i / samples);
+      const frame = buildFrame(sim, input?.camera);
+      // Particules : le contenu d’une texture est surtout près du centre ; les particules presque transparentes sont ignorées.
+      for (const point of frame.points) if (point.alpha >= 0.2) grow(point.p, point.size * 0.3);
+      for (const batch of frame.batches) {
+        if (batch.kind === 'particles') continue;
+        for (let v = batch.first; v < batch.first + batch.count; v++) grow([frame.data[v * STRIDE], frame.data[v * STRIDE + 1], frame.data[v * STRIDE + 2]]);
+      }
+      for (const part of frame.parts) grow(part.p, length(part.size) / 2);
+      for (const box of frame.placeholders) grow(box.frame.p, length(box.size) / 2);
+    }
+    if (!Number.isFinite(min[0])) return null;
+    return boundsOf(min, max);
+  }
+  const boundsOf = (min, max) => ({min, max, center: scale(add(min, max), 0.5), radius: Math.max(0.5, length(sub(max, min)) / 2)});
+  const unionBounds = (a, b) => !a ? b : !b ? a : boundsOf(a.min.map((v, i) => Math.min(v, b.min[i])), a.max.map((v, i) => Math.max(v, b.max[i])));
+
+  // Mannequin R15 simplifié (≈ 5,2 studs, pieds au sol), à gauche de l’effet vu depuis la caméra, tourné vers elle.
+  const DUMMY = [[[0, 4.6, 0], [1.2, 1.2, 1.2]], [[0, 3, 0], [2, 2, 1]], [[-1.5, 3, 0], [1, 2, 1]], [[1.5, 3, 0], [1, 2, 1]], [[-0.5, 1, 0], [1, 2, 1]], [[0.5, 1, 0], [1, 2, 1]]];
+  function dummyParts(bounds, cameraInput) {
+    const camera = cameraBasis(cameraInput);
+    const flat = normalize([camera.right[0], 0, camera.right[2]], [1, 0, 0]);
+    const center = bounds ? bounds.center : [0, 0, 0];
+    const corners = bounds ? [0, 1, 2, 3, 4, 5, 6, 7].map(k => [0, 1, 2].map(i => (k >> i) & 1 ? bounds.max[i] : bounds.min[i])) : [];
+    const reach = bounds ? Math.max(...corners.map(c => Math.abs(dot(sub(c, center), flat)))) : 2;
+    const base = add([center[0], 0, center[2]], scale(flat, -(reach + 1.8)));
+    const toCamera = sub(camera.position, base);
+    const m = rotation(1, Math.atan2(toCamera[0], toCamera[2]) * 180 / Math.PI);
+    return DUMMY.map(([offset, size]) => ({node: 'dummy', shape: 'Block', p: add(base, apply(m, offset)), m, size, color: [0.5, 0.52, 0.58], alpha: 1, neon: false, depth: 0}));
+  }
+  const dummyBounds = parts => parts.reduce((acc, part) => unionBounds(acc, boundsOf(sub(part.p, scale(part.size, 0.75)), add(part.p, scale(part.size, 0.75)))), null);
+
+  // Garde la direction de la caméra donnée et recule jusqu’à voir toute l’étendue (et le mannequin).
+  function autoCamera(input, options = {}) {
+    let bounds = options.bounds !== undefined ? options.bounds : effectBounds(input, options);
+    const reference = options.camera || input?.camera;
+    if (options.dummy) bounds = unionBounds(bounds, dummyBounds(dummyParts(bounds, reference)));
+    const basis = cameraBasis(reference);
+    if (!bounds) return {position: basis.position, target: basis.target, fov: basis.fov};
+    // Distance minimale pour que les 8 coins de la boîte tiennent dans le champ horizontal et vertical.
+    const tanV = Math.tan(basis.fov * Math.PI / 360), tanH = tanV * (options.aspect || 16 / 9);
+    let distance = 2;
+    for (let k = 0; k < 8; k++) {
+      const corner = [0, 1, 2].map(i => (k >> i) & 1 ? bounds.max[i] : bounds.min[i]);
+      const rel = sub(corner, bounds.center), along = dot(rel, basis.forward);
+      distance = Math.max(distance, Math.abs(dot(rel, basis.right)) / tanH - along, Math.abs(dot(rel, basis.up)) / tanV - along, 0.5 - along);
+    }
+    distance = clamp(distance * (options.margin || 1.06), 2, 1500);
+    const round = v => v.map(x => Math.round(x * 1000) / 1000);
+    return {position: round(add(bounds.center, scale(basis.forward, -distance))), target: round(bounds.center), fov: basis.fov};
   }
 
   // ---- Rendu WebGL2 ----
@@ -752,7 +815,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT);
-      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.REPEAT);
       return texture;
     }
     const builtins = {};
@@ -835,7 +898,8 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         if (part.shape === 'Ball') { const d = Math.min(...part.size); return {name: 'sphere', m: part.m, size: [d, d, d]}; }
         return {name: part.shape === 'Cylinder' ? 'cylinder' : 'box', m: part.m, size: part.size};
       };
-      for (const part of scene.parts.filter(p => p.alpha >= 0.999)) { const g = meshFor(part); drawSolid(g.name, g.m, part.p, g.size, part.color, 1, part.neon ? 1 : 0); }
+      const solids = view.extraParts ? scene.parts.concat(view.extraParts) : scene.parts;
+      for (const part of solids.filter(p => p.alpha >= 0.999)) { const g = meshFor(part); drawSolid(g.name, g.m, part.p, g.size, part.color, 1, part.neon ? 1 : 0); }
       gl.enable(gl.BLEND); gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA); gl.depthMask(false);
       for (const box of scene.placeholders) drawSolid('wire', box.frame.m, box.frame.p, box.size, [0.66, 0.56, 0.88], 0.8, 1, gl.LINES);
       for (const part of scene.parts.filter(p => p.alpha < 0.999).sort((a, b) => b.depth - a.depth)) { const g = meshFor(part); drawSolid(g.name, g.m, part.p, g.size, part.color, part.alpha, part.neon ? 1 : 0); }
@@ -859,7 +923,10 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     const renderer = createRenderer(canvas, {assetBase: options.assetBase, resolveTexture: options.resolveTexture, preserveDrawingBuffer: true, onTexture: () => draw()});
     let sim = null, signature = '', playing = false, frameRequest = 0, last = 0;
     let camera = {position: [10, 6, 12], target: [0, 1, 0], fov: 50};
-    const view = {background: options.background || 'sombre', ground: options.ground !== false};
+    const view = {background: options.background || 'sombre', ground: options.ground !== false, dummy: !!options.dummy, extraParts: null};
+    let bounds;
+    const currentBounds = () => bounds !== undefined ? bounds : (bounds = sim ? effectBounds(sim.project, {seed: options.seed}) : null);
+    const placeDummy = () => { view.extraParts = view.dummy && sim ? dummyParts(currentBounds(), camera) : null; };
     const projectCamera = project => ({position: vec(project?.camera?.position, [10, 6, 12]).slice(), target: vec(project?.camera?.target, [0, 1, 0]).slice(), fov: num(project?.camera?.fov, 50)});
     function resize() {
       const rect = canvas.getBoundingClientRect();
@@ -893,8 +960,9 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         if (next === signature) return false;
         const first = !sim;
         const time = sim ? sim.time : 0;
-        signature = next; sim = createSimulation(project, {seed: options.seed});
+        signature = next; sim = createSimulation(project, {seed: options.seed}); bounds = undefined;
         if (first || !keepCamera) camera = projectCamera(project);
+        placeDummy();
         renderer.preload(project).then(() => draw());
         if (!playing) sim.seek(time);
         draw();
@@ -909,8 +977,15 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       get playing() { return playing; }, get time() { return sim ? sim.time : 0; },
       get camera() { return JSON.parse(JSON.stringify(camera)); },
       setCamera(next) { camera = {...camera, ...next}; draw(); },
-      resetCamera(project) { camera = projectCamera(project || sim?.project); draw(); },
-      setView(next) { Object.assign(view, next); draw(); },
+      resetCamera(project) { camera = projectCamera(project || sim?.project); placeDummy(); draw(); },
+      setView(next) { Object.assign(view, next); if ('dummy' in next) placeDummy(); draw(); },
+      // Cadre toute l’étendue de l’effet depuis l’angle de vue actuel.
+      frameEffect() {
+        if (!sim) return null;
+        camera = autoCamera(sim.project, {bounds: currentBounds(), camera, dummy: view.dummy, aspect: canvas.width / Math.max(1, canvas.height)});
+        placeDummy(); draw(); options.onCamera?.(api.camera);
+        return api.camera;
+      },
       snapshot(type = 'image/png') { draw(); return canvas.toDataURL(type); },
       destroy() { halt(); },
     };
@@ -934,7 +1009,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       }
       if (!playing) draw();
     });
-    const release = () => { if (drag) { drag = null; options.onCamera?.(api.camera); } };
+    const release = () => { if (drag) { drag = null; placeDummy(); if (!playing) draw(); options.onCamera?.(api.camera); } };
     canvas.addEventListener('pointerup', release); canvas.addEventListener('pointercancel', release);
     canvas.addEventListener('wheel', e => {
       e.preventDefault();
@@ -948,38 +1023,80 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
   }
 
   // Planche d’images à des instants précis : la même recette donne toujours la même planche.
-  async function renderSheet(project, options = {}) {
-    const times = Array.isArray(options.times) && options.times.length ? options.times
-      : Array.from({length: options.frames || 8}, (_, i) => (num(project?.duration, 3) * (i + 0.5)) / (options.frames || 8));
-    const width = options.width || 480, height = options.height || 270;
-    const columns = Math.max(1, Math.min(options.columns || 4, times.length));
-    const rows = Math.ceil(times.length / columns);
+  // Une ligne par projet pour comparer des variantes avec la même caméra et les mêmes instants.
+  async function renderRows(projects, options = {}) {
+    const longest = Math.max(...projects.map(p => num(p?.duration, 3)));
+    const count = options.frames || 8;
+    const times = Array.isArray(options.times) && options.times.length ? options.times : Array.from({length: count}, (_, i) => longest * (i + 0.5) / count);
+    const width = options.width || 480, height = options.height || 270, label = 22;
+    const compare = projects.length > 1;
+    const columns = compare ? times.length : Math.max(1, Math.min(options.columns || 4, times.length));
+    const cells = projects.flatMap((project, row) => times.map(time => ({project, row, time})));
+    const rows = Math.ceil(cells.length / columns);
     const canvas = document.createElement('canvas');
     canvas.width = width; canvas.height = height;
-    const renderer = createRenderer(canvas, {assetBase: options.assetBase, preserveDrawingBuffer: true});
-    await renderer.preload(project);
-    const sim = createSimulation(project, {seed: options.seed});
-    const camera = options.camera || project?.camera;
+    const renderer = createRenderer(canvas, {assetBase: options.assetBase, resolveTexture: options.resolveTexture, preserveDrawingBuffer: true});
+    await Promise.all(projects.map(p => renderer.preload(p)));
+    const reference = options.camera || projects[0]?.camera;
+    let bounds = null;
+    if (options.autoCamera || options.dummy) for (const p of projects) bounds = unionBounds(bounds, effectBounds(p, {seed: options.seed}));
+    const camera = options.autoCamera ? autoCamera(projects[0], {bounds, camera: reference, dummy: options.dummy, aspect: width / height}) : reference;
+    const extraParts = options.dummy ? dummyParts(bounds, camera) : null;
     const sheet = document.createElement('canvas');
-    const label = 22;
     sheet.width = columns * width; sheet.height = rows * (height + label);
     const ctx = sheet.getContext('2d');
     ctx.fillStyle = '#0d0b12'; ctx.fillRect(0, 0, sheet.width, sheet.height);
-    const frames = [];
-    for (const [i, time] of times.entries()) {
-      sim.seek(time);
-      renderer.render(sim, camera, {background: options.background, ground: options.ground});
+    const frames = [], sims = projects.map(p => createSimulation(p, {seed: options.seed}));
+    for (const [i, cell] of cells.entries()) {
+      const sim = sims[cell.row];
+      sim.seek(cell.time);
+      renderer.render(sim, camera, {background: options.background, ground: options.ground, extraParts});
       const x = (i % columns) * width, y = Math.floor(i / columns) * (height + label);
       ctx.drawImage(canvas, x, y + label);
       ctx.fillStyle = '#e8e0f0'; ctx.font = '13px monospace';
       const particles = sim.stats().particles;
-      ctx.fillText(`t = ${sim.time.toFixed(2)} s · ${particles} particule${particles > 1 ? 's' : ''}`, x + 8, y + 15);
-      if (options.individual) frames.push({time: sim.time, image: canvas.toDataURL('image/png')});
+      const name = compare ? `${String.fromCharCode(65 + cell.row % 26)} ${cell.project?.name || ''}`.slice(0, 28) + ' · ' : '';
+      ctx.fillText(`${name}t = ${sim.time.toFixed(2)} s · ${particles} particule${particles > 1 ? 's' : ''}`, x + 8, y + 15);
+      if (options.individual) frames.push({row: cell.row, time: sim.time, image: canvas.toDataURL('image/png')});
     }
-    return {image: sheet.toDataURL('image/png'), frames, times: times.map(t => Math.round(t / STEP) * STEP), warnings: [...renderer.warnings]};
+    return {image: sheet.toDataURL('image/png'), frames, times: times.map(t => Math.round(t / STEP) * STEP), camera, bounds, warnings: [...renderer.warnings]};
+  }
+  const renderSheet = (project, options = {}) => renderRows([project], options);
+  const renderComparison = (projects, options = {}) => renderRows(projects, options);
+
+  // Planche de textures du catalogue : chaque case montre l’image, son ID et la grille du flipbook.
+  async function renderTextureSheet(items, options = {}) {
+    const cell = options.cell || 176, label = 34, columns = Math.max(1, Math.min(options.columns || 6, items.length || 1));
+    const rows = Math.max(1, Math.ceil(items.length / columns));
+    const sheet = document.createElement('canvas');
+    sheet.width = columns * cell; sheet.height = rows * (cell + label);
+    const ctx = sheet.getContext('2d');
+    ctx.fillStyle = '#0d0b12'; ctx.fillRect(0, 0, sheet.width, sheet.height);
+    const load = url => new Promise(resolve => { const image = new Image(); image.onload = () => resolve(image); image.onerror = () => resolve(null); image.src = url; });
+    const images = await Promise.all(items.map(item => item.url ? load(item.url) : null));
+    for (const [i, item] of items.entries()) {
+      const x = (i % columns) * cell, y = Math.floor(i / columns) * (cell + label);
+      ctx.fillStyle = '#1d1826'; ctx.fillRect(x + 3, y + 3, cell - 6, cell - 6);
+      const image = images[i], pad = 8;
+      if (image) ctx.drawImage(image, x + pad, y + pad, cell - pad * 2, cell - pad * 2);
+      else { ctx.fillStyle = '#6b5b77'; ctx.font = '12px sans-serif'; ctx.fillText('aperçu absent', x + 14, y + cell / 2); }
+      if (item.grid > 1) {
+        ctx.strokeStyle = '#8ce9e255'; ctx.lineWidth = 1;
+        for (let g = 1; g < item.grid; g++) {
+          const o = pad + (cell - pad * 2) * g / item.grid;
+          ctx.beginPath(); ctx.moveTo(x + o, y + pad); ctx.lineTo(x + o, y + cell - pad); ctx.moveTo(x + pad, y + o); ctx.lineTo(x + cell - pad, y + o); ctx.stroke();
+        }
+      }
+      ctx.fillStyle = '#e8e0f0'; ctx.font = 'bold 12px monospace';
+      ctx.fillText(String(item.id), x + 6, y + cell + 13);
+      ctx.fillStyle = '#a99bb8'; ctx.font = '11px sans-serif';
+      ctx.fillText(String(item.label || '').slice(0, 26), x + 6, y + cell + 28);
+    }
+    return {image: sheet.toDataURL('image/png'), count: items.length};
   }
 
-  const api = Object.freeze({STEP, createSimulation, buildFrame, createRenderer, createView, renderSheet, fromOrientation, sampleNumber, sampleColor});
+  const api = Object.freeze({STEP, createSimulation, buildFrame, effectBounds, autoCamera, dummyParts, createRenderer, createView,
+    renderSheet, renderComparison, renderTextureSheet, fromOrientation, sampleNumber, sampleColor});
   if (typeof module === 'object' && module.exports) module.exports = api;
   global.DatakyEmulator = api;
 })(typeof window !== 'undefined' ? window : globalThis);

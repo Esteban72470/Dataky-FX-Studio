@@ -6,3 +6,7 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+
+# Sorties des outils IA (tool/fx.py, tool/fx_mcp.py)
+rendus/
+exports/

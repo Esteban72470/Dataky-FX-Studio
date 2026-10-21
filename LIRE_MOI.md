@@ -1,6 +1,6 @@
 # Dataky FX Studio
 
-Pour créer et modifier des effets, double-cliquez sur **DATAKY_FX_STUDIO.bat**. L’atelier local s’ouvre dans le navigateur : bibliothèque, hiérarchie, propriétés, courbes, timeline et émulation 3D de l’effet, sans Roblox Studio. Studio reste disponible pour la vérification finale. Le guide de création et de connexion native est **DATAKY_FX_STUDIO.md**.
+Pour créer et modifier des effets, double-cliquez sur **DATAKY_FX_STUDIO.bat**. L’atelier local s’ouvre dans le navigateur : bibliothèque, hiérarchie, propriétés, courbes, timeline et émulation 3D de l’effet, sans Roblox Studio. Studio reste disponible pour la vérification finale. Pour créer des effets avec Claude, double-cliquez sur **INSTALLER_CLAUDE_DESKTOP.bat** (Claude Desktop) ou ouvrez ce dossier dans Claude Code (**CLAUDE.md**) ; les outils et l’export **.rbxmx** sont décrits dans **DATAKY_FX_STUDIO.md**. Le guide de création et de connexion native est **DATAKY_FX_STUDIO.md**.
 
 Le catalogue conserve la provenance des assets du plugin ZonitoVisuals. Son ancien nom de dossier reste utilisé pour garder les chemins et les scripts compatibles.
 

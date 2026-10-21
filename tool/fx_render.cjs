@@ -6,15 +6,21 @@
 // (Chromium via Playwright). Aucun serveur ni Roblox Studio n’est nécessaire.
 //
 //   node tool/fx_render.cjs editor/projects/dataky-impact.json --out rendu.png
-//   node tool/fx_render.cjs dataky-impact --times 0,0.1,0.25,0.5 --size 640x360
+//   node tool/fx_render.cjs dataky-impact --times 0,0.1,0.25,0.5 --size 640x360 --auto-camera --dummy
+//   node tool/fx_render.cjs variante-a.json variante-b.json --times 0.1,0.3   (une ligne par variante)
+//   node tool/fx_render.cjs --textures items.json --out textures.png         (planche de textures)
 const fs = require('node:fs');
 const path = require('node:path');
 const {execSync} = require('node:child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const ORIGIN = 'http://dataky.local';
-const USAGE = `Utilisation : node tool/fx_render.cjs <projet.json | ID> [options]
+const USAGE = `Utilisation : node tool/fx_render.cjs <projet.json | ID> [autres projets…] [options]
+  Plusieurs projets : une ligne par projet, même caméra et mêmes instants (comparaison).
   --out FICHIER.png        planche produite (défaut : rendu-<id>.png)
+  --auto-camera            cadre toute l’étendue de l’effet (direction de la caméra du projet)
+  --dummy                  ajoute un mannequin Roblox de 5 studs comme repère d’échelle
+  --textures ITEMS.json    planche de textures : [{"id","label","path","grid"}], path relatif à la racine
   --times 0,0.2,0.5        instants en secondes (défaut : --frames instants répartis)
   --frames 8               nombre d’instants si --times est absent
   --columns 4              colonnes de la planche
@@ -27,19 +33,21 @@ const USAGE = `Utilisation : node tool/fx_render.cjs <projet.json | ID> [options
   --frames-dir DOSSIER     enregistre aussi chaque image séparément`;
 
 function parse(argv) {
-  const options = {frames: 8, columns: 4, size: '480x270', seed: 1, ground: true};
+  const options = {frames: 8, columns: 4, size: '480x270', seed: 1, ground: true, autoCamera: false, dummy: false};
   const positional = [];
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--help' || arg === '-h') { console.log(USAGE); process.exit(0); }
     if (arg === '--no-ground') { options.ground = false; continue; }
+    if (arg === '--auto-camera') { options.autoCamera = true; continue; }
+    if (arg === '--dummy') { options.dummy = true; continue; }
     if (!arg.startsWith('--')) { positional.push(arg); continue; }
     const key = arg.slice(2).replace(/-([a-z])/g, (_, c) => c.toUpperCase());
     if (i + 1 >= argv.length) throw new Error(`${arg} attend une valeur`);
     options[key] = argv[++i];
   }
-  if (positional.length !== 1) throw new Error(USAGE);
-  return {source: positional[0], options};
+  if (!positional.length && !options.textures) throw new Error(USAGE);
+  return {sources: positional, options};
 }
 
 function loadProject(source) {
@@ -65,20 +73,22 @@ function routeFile(url) {
   const pathname = decodeURIComponent(new URL(url).pathname);
   if (pathname === '/render.html') return path.join(ROOT, 'editor', 'render.html');
   if (pathname === '/emulator.js') return path.join(ROOT, 'editor', 'emulator.js');
-  const match = pathname.match(/^\/library\/((?:beams\/|meshes\/)?images\/\d+\.png)$/);
+  const match = pathname.match(/^\/library\/((?:beams\/|meshes\/)?(?:images|previews)\/[\w-]+\.png)$/);
   return match ? path.join(ROOT, match[1]) : null;
 }
 
 const numbers = text => String(text).split(',').map(Number);
 
 async function main() {
-  const {source, options} = parse(process.argv.slice(2));
-  const {project} = loadProject(source);
+  const {sources, options} = parse(process.argv.slice(2));
+  const projects = sources.map(source => loadProject(source).project);
+  const project = projects[0] || {};
   const [width, height] = numbers(options.size.replace('x', ','));
   if (!(width > 0 && height > 0 && width <= 1920 && height <= 1080)) throw new Error('--size attend LARGEURxHAUTEUR (1920x1080 maximum)');
   const settings = {
     frames: Number(options.frames), columns: Number(options.columns), width, height, seed: Number(options.seed),
     background: options.background, ground: options.ground, individual: !!options.framesDir,
+    autoCamera: options.autoCamera, dummy: options.dummy,
   };
   if (options.times) settings.times = numbers(options.times);
   if (settings.times && settings.times.some(t => !Number.isFinite(t) || t < 0)) throw new Error('--times attend des secondes positives séparées par des virgules');
@@ -102,20 +112,28 @@ async function main() {
     });
     await page.goto(ORIGIN + '/render.html');
     await page.waitForFunction(() => window.DatakyEmulator);
-    const result = await page.evaluate(([value, config]) => window.DatakyEmulator.renderSheet(value, config), [project, settings]);
+    let result;
+    if (options.textures) {
+      const items = JSON.parse(fs.readFileSync(options.textures, 'utf8')).map(item => ({...item, url: item.path ? '/library/' + item.path : null}));
+      result = await page.evaluate(([list, config]) => window.DatakyEmulator.renderTextureSheet(list, config), [items, {columns: Number(options.columns) || 6}]);
+    } else {
+      result = await page.evaluate(([values, config]) => values.length > 1 ? window.DatakyEmulator.renderComparison(values, config)
+        : window.DatakyEmulator.renderSheet(values[0], config), [projects, settings]);
+    }
     if (errors.length) throw new Error(errors.join('\n'));
-    const out = path.resolve(options.out || `rendu-${project.id || 'effet'}.png`);
+    const out = path.resolve(options.out || (options.textures ? 'textures.png' : `rendu-${project.id || 'effet'}.png`));
     fs.writeFileSync(out, Buffer.from(result.image.split(',')[1], 'base64'));
     const written = [out];
     if (options.framesDir) {
       fs.mkdirSync(options.framesDir, {recursive: true});
-      for (const frame of result.frames) {
-        const file = path.resolve(options.framesDir, `t${frame.time.toFixed(2).replace('.', '_')}.png`);
+      for (const frame of result.frames || []) {
+        const prefix = projects.length > 1 ? String.fromCharCode(65 + frame.row % 26) + '_' : '';
+        const file = path.resolve(options.framesDir, `${prefix}t${frame.time.toFixed(2).replace('.', '_')}.png`);
         fs.writeFileSync(file, Buffer.from(frame.image.split(',')[1], 'base64'));
         written.push(file);
       }
     }
-    console.log(JSON.stringify({files: written, times: result.times, warnings: result.warnings}, null, 2));
+    console.log(JSON.stringify({files: written, times: result.times, camera: result.camera, warnings: result.warnings || []}, null, 2));
   } finally {
     await browser.close();
   }

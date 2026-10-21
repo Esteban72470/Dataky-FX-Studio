@@ -189,6 +189,33 @@ test('animated properties follow the runtime keyframe sampling', () => {
   assert.equal(sim.isEnabled('e'), false, 'booleans hold their keyframe');
 });
 
+test('auto camera keeps the view direction and fits every visible corner; the dummy stands beside the effect', () => {
+  const recipe = project([part('p'), emitter('e', 'p', {Speed: [6, 6], SpreadAngle: [180, 180], Lifetime: [0.8, 0.8], Size: sequence(0.5)},
+    {start: 0, duration: 0.1, mode: 'burst', count: 40})], {duration: 1});
+  const bounds = E.effectBounds(recipe);
+  assert.ok(bounds && bounds.radius > 1);
+  const camera = E.autoCamera(recipe, {bounds, aspect: 16 / 9});
+  const dir = (c) => { const d = [0, 1, 2].map(i => c.position[i] - c.target[i]); const l = Math.hypot(...d); return d.map(v => v / l); };
+  near(dir(camera), dir(recipe.camera), 1e-3, 'same viewing direction');
+  const forward = dir(camera).map(v => -v), right = [-forward[2], 0, forward[0]].map((v, _, a) => v / Math.hypot(...a));
+  const up = [right[1] * forward[2] - right[2] * forward[1], right[2] * forward[0] - right[0] * forward[2], right[0] * forward[1] - right[1] * forward[0]];
+  const tanV = Math.tan(camera.fov * Math.PI / 360), tanH = tanV * 16 / 9;
+  for (let k = 0; k < 8; k++) {
+    const corner = [0, 1, 2].map(i => (k >> i) & 1 ? bounds.max[i] : bounds.min[i]);
+    const rel = [0, 1, 2].map(i => corner[i] - camera.position[i]);
+    const depth = rel.reduce((s, v, i) => s + v * forward[i], 0);
+    assert.ok(Math.abs(rel.reduce((s, v, i) => s + v * right[i], 0)) <= depth * tanH + 1e-6, 'corner inside horizontally');
+    assert.ok(Math.abs(rel.reduce((s, v, i) => s + v * up[i], 0)) <= depth * tanV + 1e-6, 'corner inside vertically');
+  }
+  const dummy = E.dummyParts(bounds, recipe.camera);
+  assert.equal(dummy.length, 6);
+  near(Math.min(...dummy.map(p => p.p[1] - p.size[1] / 2)), 0, 1e-9, 'feet on the ground');
+  near(Math.max(...dummy.map(p => p.p[1] + p.size[1] / 2)), 5.2, 1e-9, 'Roblox character height');
+  const torso = dummy[1].p;
+  assert.ok(Math.hypot(torso[0] - bounds.center[0], torso[2] - bounds.center[2]) > 1.5, 'beside, not inside, the effect');
+  assert.equal(E.effectBounds(project([part('p')])), null, 'invisible effect has no extent');
+});
+
 test('bundled projects simulate and build frames for their whole duration', () => {
   const folder = path.resolve(__dirname, '../editor/projects');
   for (const file of fs.readdirSync(folder).filter(name => name.endsWith('.json'))) {

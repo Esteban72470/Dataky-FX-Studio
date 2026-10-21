@@ -446,6 +446,22 @@ class ServerTests(unittest.TestCase):
         self.assertEqual(self.request("POST", "/api/snapshot", data)[0], 400)
         self.assertEqual(len(list(self.server.snapshots.glob("*.png"))), 1)
 
+    def test_blocks_compose_and_rbxmx_export(self):
+        status, listed = self.request("GET", "/api/blocks")
+        self.assertEqual(status, 200)
+        self.assertIn("shockwave", {block["block"] for block in listed["blocks"]})
+        base = project()
+        status, composed = self.request("POST", "/api/compose", {"project": base, "blocks": [{"block": "flash", "at": 0.2}]})
+        self.assertEqual(status, 200)
+        self.assertEqual(len(composed["nodes"]), len(base["nodes"]) + 5)
+        self.assertEqual(self.request("POST", "/api/compose", {"blocks": [{"block": "inconnue"}]})[0], 400)
+        status, saved = self.request("POST", "/api/project", composed)
+        self.assertEqual(status, 201)
+        status, model = self.request("GET", "/api/export/" + saved["id"] + ".rbxmx")
+        self.assertEqual(status, 200)
+        self.assertTrue(model.startswith(b"<?xml"))
+        self.assertIn(b'<Item class="ModuleScript"', model)
+
     def test_emulator_scripts_are_served_and_emulator_snapshots_are_labelled(self):
         for path in ("/emulator.js", "/render.html", "/render.js"):
             self.assertEqual(self.request("GET", path)[0], 200, path)

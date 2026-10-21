@@ -60,7 +60,7 @@
   let dragState = null;
   let screenStream = null;
   let viewportMode = 'emu';
-  let emulator=null,emulatorError=null,playheadLabelWidth=134;
+  let emulator=null,emulatorError=null,playheadLabelWidth=134,blocks=[],cursorTime=0;
   let nativeFrameSequence=null,nativeFrameBusy=false,nativeFrameObjectURL=null,nativeFrameMeta=null,autoPreviewTimer=null,nativeFrameToken=0,replayAfterPermission=false;
   let planScale = 29;
   let cameraPan = [0,0];
@@ -318,7 +318,7 @@
     const playhead=document.createElement('div');playhead.className='timeline-playhead';const labelWidth=parseFloat(getComputedStyle(ruler).gridTemplateColumns.split(' ')[0])||134;playheadLabelWidth=labelWidth;playhead.style.left=`calc(${labelWidth}px + (100% - ${labelWidth}px) * ${bounded(time/duration,0,1)})`;host.append(playhead);host.scrollTop=scroll;
   }
   function scrubAt(event,surface) {
-    const rect=surface.getBoundingClientRect();time=round(bounded((event.clientX-rect.left)/rect.width,0,1)*project.duration);$('#playhead-time').value=time;renderTimeline();drawScene();seekEmulator();
+    const rect=surface.getBoundingClientRect();time=cursorTime=round(bounded((event.clientX-rect.left)/rect.width,0,1)*project.duration);$('#playhead-time').value=time;renderTimeline();drawScene();seekEmulator();
   }
   function movePlayhead() {
     const playhead=$('.timeline-playhead');if(playhead)playhead.style.left=`calc(${playheadLabelWidth}px + (100% - ${playheadLabelWidth}px) * ${bounded(time/Math.max(0.1,num(project.duration,3)),0,1)})`;$('#playhead-time').value=round(time);
@@ -328,12 +328,17 @@
   function emulatorView() {
     if(emulator||emulatorError)return emulator;
     if(!window.DatakyEmulator){emulatorError='Rechargez l’application pour charger l’émulateur.';return null;}
-    try{emulator=window.DatakyEmulator.createView($('#emu-canvas'),{background:$('#emu-background').value,ground:$('#emu-ground').checked,onFrame:emulatorFrame,resolveTexture:catalogImage});}
+    try{emulator=window.DatakyEmulator.createView($('#emu-canvas'),{background:$('#emu-background').value,ground:$('#emu-ground').checked,dummy:$('#emu-dummy').checked,onFrame:emulatorFrame,resolveTexture:catalogImage});}
     catch(e){emulatorError=e.message;$('#emu-message').textContent=e.message;$('#emu-message').hidden=false;}
     return emulator;
   }
   function catalogImage(id) {
     if(!catalogLoaded)return null;for(const key of ['textures','beams','meshes']){const item=catalog[key].find(asset=>String(asset.asset_id)===id);if(item?.image_path)return['/library/'+(key==='textures'?'':key+'/')+item.image_path];}return null;
+  }
+  // Briques prêtes à l’emploi (tool/fx_modules.py) ajoutées au dernier instant choisi dans la timeline (pas à la lecture en cours).
+  async function addBlock(name) {
+    try{const next=validateProject(await api('/api/compose',{method:'POST',body:JSON.stringify({project,blocks:[{block:name,at:round(cursorTime)}]})}));const known=new Set(project.nodes.map(n=>n.id));remember();project=next;selectedId=project.nodes.find(n=>!known.has(n.id))?.id||selectedId;dirty=true;persist();renderAll();message('Brique ajoutée. Ses objets restent modifiables comme les autres.','success');}
+    catch(e){message('Brique : '+e.message,'error');}
   }
   function syncEmulator() {
     if(viewportMode!=='emu')return;const view=emulatorView();if(!view)return;
@@ -355,7 +360,7 @@
     if(viewportMode==='native')return nativeAction(action==='toggle'?(nativePaused?'resume':'pause'):action);
     if(viewportMode!=='emu')setViewport('emu');const view=emulatorView();if(!view)return message(emulatorError||'Émulation indisponible.','error');
     syncEmulator();
-    if(action==='play')view.play();else if(action==='stop'){view.stop();time=0;movePlayhead();}else if(action==='toggle')view.playing?view.pause():view.resume();
+    if(action==='play')view.play();else if(action==='stop'){view.stop();time=cursorTime=0;movePlayhead();}else if(action==='toggle')view.playing?view.pause():view.resume();
     renderTransport();
   }
   function keepEmulatorCamera() {
@@ -426,7 +431,7 @@
   async function copyText(value,success='Copié') {try{await navigator.clipboard.writeText(value);message(success,'success');}catch(_){message('La copie a été refusée par le navigateur. Sélectionnez et copiez le texte manuellement.','error');}}
   function showJSON() {$('#project-json').value=JSON.stringify(project,null,2);$('#json-error').textContent='';$('#json-dialog').showModal();}
   function openExportMenu(button) {
-    showMenu(button,[['menu-label','EXPORTER VOTRE EFFET'],['Recette JSON · brouillon',()=>download(JSON.stringify(project,null,2),projectFilename())],['Script Roblox Luau',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.lua';link.download=projectFilename('lua');document.body.append(link);link.click();link.remove();}],['Recette JSON validée',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.json';link.download=projectFilename();document.body.append(link);link.click();link.remove();}]]);
+    showMenu(button,[['menu-label','EXPORTER VOTRE EFFET'],['Recette JSON · brouillon',()=>download(JSON.stringify(project,null,2),projectFilename())],['Modèle Roblox .rbxmx · à glisser dans Studio',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.rbxmx';link.download=projectFilename('rbxmx');document.body.append(link);link.click();link.remove();}],['Script Roblox Luau',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.lua';link.download=projectFilename('lua');document.body.append(link);link.click();link.remove();}],['Recette JSON validée',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.json';link.download=projectFilename();document.body.append(link);link.click();link.remove();}]]);
   }
   function showMenu(anchor,items) {
     const menu=$('#floating-menu');menu.replaceChildren();
@@ -515,16 +520,16 @@
   }
   function bindEvents() {
     $('#project-name').onchange=e=>commit(p=>{p.name=e.target.value.trim()||'Effet sans nom';},{properties:false});$('#save-button').onclick=()=>saveProject();$('#undo-button').onclick=undo;$('#redo-button').onclick=redo;$('#clone-button').onclick=duplicateNode;$('#delete-button').onclick=removeNode;
-    $('#add-button').onclick=e=>showMenu(e.currentTarget,[['menu-label','STRUCTURE'],...['Part','MeshPart','Attachment','Folder','Model'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),['menu-label','EFFETS'],...['ParticleEmitter','Beam','Trail','SpecialMesh','PointLight','SpotLight','SurfaceLight'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)])]);
+    $('#add-button').onclick=e=>showMenu(e.currentTarget,[['menu-label','STRUCTURE'],...['Part','MeshPart','Attachment','Folder','Model'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),['menu-label','EFFETS'],...['ParticleEmitter','Beam','Trail','SpecialMesh','PointLight','SpotLight','SurfaceLight'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),...(blocks.length?[['menu-label','BRIQUES · À '+round(cursorTime)+' S'],...blocks.map(b=>['✦ '+b.title,()=>addBlock(b.block)])]:[])]);
     $('#empty-add').onclick=()=>addNode('Part');$$('[data-template]').forEach(b=>b.onclick=()=>useTemplate(b.dataset.template));$('#project-menu').onclick=listProjects;
     $('#json-button').onclick=showJSON;$('#export-button').onclick=e=>openExportMenu(e.currentTarget);$('#copy-json').onclick=()=>copyText($('#project-json').value,'Recette copiée');$('#download-json').onclick=()=>download($('#project-json').value,projectFilename());
     $('#apply-json').onclick=()=>{try{const value=validateProject(JSON.parse($('#project-json').value));remember();project=value;selectedId=project.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();$('#json-dialog').close();message('Recette appliquée au brouillon.');}catch(e){$('#json-error').textContent=e.message;}};
     $('#import-file').onchange=async e=>{const file=e.target.files[0];if(!file)return;$('#project-json').value=await file.text();$('#json-error').textContent='';e.target.value='';};
     $$('[data-collection]').forEach(b=>b.onclick=()=>{collection=b.dataset.collection;renderCatalog(true);});$('#catalog-search').oninput=e=>{filters[collection].search=e.target.value;filters[collection].page=0;renderCatalog();};$('#catalog-tag').onchange=e=>{filters[collection].tag=e.target.value;filters[collection].page=0;renderCatalog();};$('#clear-filters').onclick=()=>{filters[collection]={search:'',tag:'',page:0};renderCatalog(true);};$('#catalog-prev').onclick=()=>{filters[collection].page--;renderCatalog();$('#catalog-grid').scrollTop=0;};$('#catalog-next').onclick=()=>{filters[collection].page++;renderCatalog();$('#catalog-grid').scrollTop=0;};
-    $('#duration').onchange=e=>{const duration=Number(e.target.value);if(!Number.isFinite(duration)||duration<=0||duration>(schema.limits?.duration||600)){e.target.value=project.duration;return;}commit(p=>{p.duration=duration;time=Math.min(time,duration);},{properties:false});};$('#loop').onchange=e=>commit(p=>{p.loop=e.target.checked;},{properties:false});$('#playhead-time').onchange=e=>{time=bounded(num(e.target.value),0,project.duration);e.target.value=time;renderTimeline();drawScene();seekEmulator();};
+    $('#duration').onchange=e=>{const duration=Number(e.target.value);if(!Number.isFinite(duration)||duration<=0||duration>(schema.limits?.duration||600)){e.target.value=project.duration;return;}commit(p=>{p.duration=duration;time=Math.min(time,duration);},{properties:false});};$('#loop').onchange=e=>commit(p=>{p.loop=e.target.checked;},{properties:false});$('#playhead-time').onchange=e=>{time=cursorTime=bounded(num(e.target.value),0,project.duration);e.target.value=time;renderTimeline();drawScene();seekEmulator();};
     $('#play-button').onclick=()=>transport('play');$('#stop-button').onclick=()=>transport('stop');$('#apply-button').onclick=()=>viewportMode==='native'?nativeAction(nativeStatus.preview?.enabled?'play':'apply'):transport('play');$('#clear-preview').onclick=()=>nativeAction('clear');$('#pause-button').onclick=()=>transport('toggle');
     $('#view-emu').onclick=()=>setViewport('emu');$('#emu-snapshot').onclick=takeSnapshot;$('#emu-camera').onclick=()=>emulatorView()?.resetCamera(project);$('#emu-keep-camera').onclick=keepEmulatorCamera;
-    $('#emu-background').onchange=e=>emulatorView()?.setView({background:e.target.value});$('#emu-ground').onchange=e=>emulatorView()?.setView({ground:e.target.checked});
+    $('#emu-background').onchange=e=>emulatorView()?.setView({background:e.target.value});$('#emu-ground').onchange=e=>emulatorView()?.setView({ground:e.target.checked});$('#emu-dummy').onchange=e=>emulatorView()?.setView({dummy:e.target.checked});$('#emu-frame').onclick=()=>emulatorView()?.frameEffect();
     $('#connection-button').onclick=showConnection;$('#refresh-connection').onclick=()=>refreshStatus(true);$('#copy-bootstrap').onclick=()=>copyText($('#bootstrap-command').textContent,'Commande copiée. Collez-la dans la barre de commande de Studio.');$('#view-plan').onclick=()=>setViewport('plan');$('#view-native').onclick=()=>setViewport('native');$('#share-studio').onclick=startSharing;$('#start-native-preview').onclick=startNativePreview;$('#stop-sharing').onclick=stopNativePreview;$('#capture-snapshot').onclick=takeSnapshot;$('#video-zoom').oninput=e=>{for(const element of [$('#studio-video'),$('#native-frame')])element.style.transform=`scale(${e.target.value})`;};
     $('#animation-graph').onclick=openAnimationGraph;
     $('#recenter-button').onclick=()=>{cameraPan=[0,0];planScale=29;drawScene();};
@@ -540,6 +545,7 @@
   async function loadData() {
     await Promise.allSettled([
       (async()=>{try{const data=await api('/api/schema');if(!data.classes)throw new Error('Le schéma ne contient pas de classes.');schema=data;schemaOnline=true;$('#duration').max=schema.limits?.duration||600;try{localStorage.setItem(CACHE_SCHEMA,JSON.stringify(schema));}catch(_){}renderProperties();}catch(e){if(!schemaWarning){schemaWarning=true;message('Schéma local indisponible. Votre brouillon reste accessible; reconnectez le serveur avant l’export.','error');}}})(),
+      (async()=>{try{blocks=(await api('/api/blocks')).blocks||[];}catch(_){blocks=[];}})(),
       (async()=>{try{const data=await api('/api/catalog');catalog={textures:data.textures||[],beams:data.beams||[],meshes:data.meshes||[]};catalogLoaded=true;renderCatalog(true);}catch(e){catalogFailed=true;renderCatalog(true);message('La bibliothèque n’a pas pu être chargée. Les modèles intégrés restent disponibles.','error');}})(),refreshStatus()
     ]);
   }
@@ -547,7 +553,7 @@
   bindEvents();renderAll();renderCatalog(true);renderNativeStatus();setViewport(viewportMode);persist();loadData();setInterval(()=>refreshStatus(),3500);setInterval(()=>pollNativeFrame(),250);
   // A compact public automation surface uses the same editor validation and commands.
   window.DatakyFX = Object.freeze({getProject:()=>clone(project),getSchema:()=>clone(schema),getStatus:()=>clone(nativeStatus),setProject:value=>{const next=validateProject(value);remember();project=next;selectedId=next.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();return clone(project);},save:()=>saveProject(),preview:action=>nativeAction(action),select:selectNode,
-    emulator:Object.freeze({play:()=>transport('play'),stop:()=>transport('stop'),seek:value=>{setViewport('emu');time=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return time;},
+    emulator:Object.freeze({play:()=>transport('play'),stop:()=>transport('stop'),seek:value=>{setViewport('emu');time=cursorTime=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return time;},
       frame:value=>{setViewport('emu');time=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return emulatorView()?.snapshot()||null;},
       sheet:(options={})=>window.DatakyEmulator.renderSheet(clone(project),options)})});
 })();
