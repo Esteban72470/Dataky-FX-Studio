@@ -60,7 +60,7 @@
         "Orientation": [
           0,
           0,
-          0
+          60
         ],
         "Visible": false
       }
@@ -79,7 +79,7 @@
         "Orientation": [
           0,
           0,
-          0
+          -60
         ],
         "Visible": false
       }
@@ -111,8 +111,8 @@
             ]
           }
         ],
-        "CurveSize0": 2,
-        "CurveSize1": -2,
+        "CurveSize0": 3,
+        "CurveSize1": 3,
         "Enabled": true,
         "FaceCamera": true,
         "LightEmission": 1,

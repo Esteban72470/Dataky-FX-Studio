@@ -82,6 +82,11 @@ function run(schema) {
   const beamNodes = new Map(fixtures.beam.nodes.map(node => [node.id, node]));
   assert.deepEqual(beamNodes.get(beam.properties.Attachment0).properties.Position, [-3, 0, 0]);
   assert.deepEqual(beamNodes.get(beam.properties.Attachment1).properties.Position, [3, 0, 0]);
+  // CurveSize moves the Bézier control points along +X of Attachment0 and -X of Attachment1: the Arc must bend.
+  const emulator = require('../editor/emulator.js');
+  const arc = emulator.buildFrame(emulator.createSimulation(plain(fixtures.beam)), fixtures.beam.camera);
+  const arcTop = Math.max(...Array.from({length: arc.vertices}, (_, i) => arc.data[i * 13 + 1]));
+  assert.ok(arcTop > 2.5, 'beam template arcs above its attachments, peak ' + arcTop);
   const movement = fixtures.trail.animations[0];
   assert.equal(movement.node, fixtures.trail.nodes.find(node => node.class === 'Part').id);
   assert.equal(movement.property, 'Position');

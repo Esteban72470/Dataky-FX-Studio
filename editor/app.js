@@ -176,8 +176,8 @@
       if(kind==='impact'&&schema.classes.PointLight){const light=makeNode('PointLight',attachment.id,'Éclair');setKnown(light,{Color:[0.55,0.95,1],Range:12,Brightness:3});light.timing={start:0,duration:0.12};p.nodes.push(light);}
     } else {
       p.name=kind==='beam'?'Arc lumineux':'Traînée en mouvement';
-      const a=makeNode('Attachment',source.id,'Départ');const b=makeNode('Attachment',source.id,'Arrivée');setKnown(a,{Position:kind==='beam'?[-3,0,0]:[0,0.6,0]});setKnown(b,{Position:kind==='beam'?[3,0,0]:[0,-0.6,0]});p.nodes.push(a,b);
-      const fx=makeNode(kind==='beam'?'Beam':'Trail',source.id,kind==='beam'?'Arc':'Ruban');setKnown(fx,{Attachment0:a.id,Attachment1:b.id,Color:[[0,[0.55,0.95,0.88]],[1,[0.65,0.45,1]]],Transparency:[[0,0,0],[1,kind==='beam'?0:1,0]],Width0:0.45,Width1:0.15,LightEmission:1,FaceCamera:true,CurveSize0:2,CurveSize1:-2,Lifetime:0.55});fx.timing={start:0,duration:kind==='beam'?p.duration:2,mode:'continuous'};p.nodes.push(fx);
+      const a=makeNode('Attachment',source.id,'Départ');const b=makeNode('Attachment',source.id,'Arrivée');setKnown(a,kind==='beam'?{Position:[-3,0,0],Orientation:[0,0,60]}:{Position:[0,0.6,0]});setKnown(b,kind==='beam'?{Position:[3,0,0],Orientation:[0,0,-60]}:{Position:[0,-0.6,0]});p.nodes.push(a,b);
+      const fx=makeNode(kind==='beam'?'Beam':'Trail',source.id,kind==='beam'?'Arc':'Ruban');setKnown(fx,{Attachment0:a.id,Attachment1:b.id,Color:[[0,[0.55,0.95,0.88]],[1,[0.65,0.45,1]]],Transparency:[[0,0,0],[1,kind==='beam'?0:1,0]],Width0:0.45,Width1:0.15,LightEmission:1,FaceCamera:true,CurveSize0:3,CurveSize1:3,Lifetime:0.55});fx.timing={start:0,duration:kind==='beam'?p.duration:2,mode:'continuous'};p.nodes.push(fx);
       if(kind==='trail')p.animations=[{node:source.id,property:'Position',keyframes:[{time:0,value:[-4,1,0]},{time:1,value:[0,3,0]},{time:2,value:[4,1,0]}]}];
     }
     return p;

@@ -153,6 +153,15 @@ test('beam curve control points follow +X of Attachment0 and -X of Attachment1',
   near(Math.max(...ys), 3, 1e-9, 'Bézier midpoint lifted by 3/4 of CurveSize');
 });
 
+test('bundled Arc really bends upward between its attachments', () => {
+  const recipe = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../editor/projects/dataky-arc.json'), 'utf8'));
+  const sim = E.createSimulation(recipe);
+  const ends = ['Attachment0', 'Attachment1'].map(key => sim.frameOf(sim.byId.get(recipe.nodes.find(n => n.class === 'Beam').properties[key])).p[1]);
+  const frame = E.buildFrame(sim, recipe.camera);
+  const top = Math.max(...Array.from({length: frame.vertices}, (_, i) => frame.data[i * 13 + 1]));
+  assert.ok(top > Math.max(...ends) + 1.5, `arc peak ${top} above its ends ${ends}`);
+});
+
 test('trail records moving attachments, respects MinLength and expires with Lifetime', () => {
   const recipe = project([part('p', {Position: [0, 0, 0]}), attachment('a0', 'p', {Position: [0, 0.5, 0]}), attachment('a1', 'p', {Position: [0, -0.5, 0]}),
     {id: 't', class: 'Trail', name: 't', parent: 'p', properties: {Attachment0: 'a0', Attachment1: 'a1', Lifetime: 0.5, MinLength: 0.5, Transparency: sequence(0)},
