@@ -400,7 +400,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def get(self, path, query):
         server = self.server
-        if path in {"/", "/index.html", "/app.js", "/curves.js", "/styles.css"}:
+        if path in {"/", "/index.html", "/app.js", "/curves.js", "/emulator.js", "/render.html", "/render.js", "/styles.css"}:
             self.file(confined(server.editor, "index.html" if path in {"/", "/index.html"} else path[1:]))
         elif path == "/api/schema":
             self.send_json(SCHEMA)
@@ -659,7 +659,10 @@ class Handler(BaseHTTPRequestHandler):
             if not native_meta and "time" in data:
                 item["time"] = number(data["time"], "time", 0, 600)
             if not native_meta:
-                item.update({"captured_at": item["created_at"], "capture_source": "screen-share"})
+                source = data.get("source", "screen-share")
+                if source not in {"screen-share", "emulator"}:
+                    raise ValidationError("source doit valoir screen-share ou emulator")
+                item.update({"captured_at": item["created_at"], "capture_source": "browser-emulator" if source == "emulator" else "screen-share"})
             with server.lock:
                 atomic_bytes(confined(server.snapshots, item["id"] + ".png"), png)
                 atomic_json(confined(server.snapshots, item["id"] + ".json"), item)

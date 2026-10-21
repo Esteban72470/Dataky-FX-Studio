@@ -156,6 +156,8 @@ class ServerTests(unittest.TestCase):
         (self.root / "editor").mkdir()
         (self.root / "editor" / "index.html").write_text("<h1>Dataky FX</h1>", encoding="utf-8")
         (self.root / "editor" / "curves.js").write_text("globalThis.DatakyCurves = {};", encoding="utf-8")
+        for name in ("emulator.js", "render.html", "render.js"):
+            (self.root / "editor" / name).write_text("// " + name, encoding="utf-8")
         (self.root / "tool").mkdir()
         (self.root / "tool" / "fx_plugin.lua").write_text("return true", encoding="utf-8")
         (self.root / "images").mkdir()
@@ -443,6 +445,16 @@ class ServerTests(unittest.TestCase):
         data["image"] = "data:image/png;base64," + base64.b64encode(b"fake").decode()
         self.assertEqual(self.request("POST", "/api/snapshot", data)[0], 400)
         self.assertEqual(len(list(self.server.snapshots.glob("*.png"))), 1)
+
+    def test_emulator_scripts_are_served_and_emulator_snapshots_are_labelled(self):
+        for path in ("/emulator.js", "/render.html", "/render.js"):
+            self.assertEqual(self.request("GET", path)[0], 200, path)
+        image = "data:image/png;base64," + base64.b64encode(tiny_png()).decode()
+        status, saved = self.request("POST", "/api/snapshot", {"image": image, "time": 0.25, "source": "emulator"})
+        self.assertEqual(status, 201)
+        self.assertEqual(saved["capture_source"], "browser-emulator")
+        self.assertEqual(saved["time"], 0.25)
+        self.assertEqual(self.request("POST", "/api/snapshot", {"image": image, "source": "studio-native"})[0], 400)
 
 
 if __name__ == "__main__":
