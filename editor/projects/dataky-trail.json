@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "name": "Dataky · Traînée",
+  "id": "dataky-trail",
+  "duration": 3,
+  "loop": true,
+  "nodes": [
+    {
+      "id": "part_17bbc592",
+      "class": "Part",
+      "name": "Source",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          1,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          2,
+          1,
+          2
+        ],
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Massless": true,
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Reflectance": 0,
+        "Material": "SmoothPlastic",
+        "MaterialVariant": "",
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "id": "attachment_2795b900",
+      "class": "Attachment",
+      "name": "Départ",
+      "parent": "part_17bbc592",
+      "properties": {
+        "Position": [
+          0,
+          0.6,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Visible": false
+      }
+    },
+    {
+      "id": "attachment_70b21131",
+      "class": "Attachment",
+      "name": "Arrivée",
+      "parent": "part_17bbc592",
+      "properties": {
+        "Position": [
+          0,
+          -0.6,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Visible": false
+      }
+    },
+    {
+      "id": "trail_c8b0ad8e",
+      "class": "Trail",
+      "name": "Ruban",
+      "parent": "part_17bbc592",
+      "properties": {
+        "Attachment0": "attachment_2795b900",
+        "Attachment1": "attachment_70b21131",
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.55,
+              0.95,
+              0.88
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.65,
+              0.45,
+              1
+            ]
+          }
+        ],
+        "Enabled": true,
+        "FaceCamera": true,
+        "Lifetime": 0.55,
+        "LightEmission": 1,
+        "LightInfluence": 0,
+        "MaxLength": 0,
+        "MinLength": 0.1,
+        "Texture": "",
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "WidthScale": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 2,
+        "mode": "continuous",
+        "count": 20
+      }
+    }
+  ],
+  "animations": [
+    {
+      "node": "part_17bbc592",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": [
+            -4,
+            1,
+            0
+          ]
+        },
+        {
+          "time": 1,
+          "value": [
+            0,
+            3,
+            0
+          ]
+        },
+        {
+          "time": 2,
+          "value": [
+            4,
+            1,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

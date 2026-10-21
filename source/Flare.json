@@ -1,0 +1,6704 @@
+{
+  "label": "Flare",
+  "canvas_height": 6050,
+  "captured_at": "2026-10-20T23:17:33Z",
+  "max_index": 480,
+  "records": [
+    {
+      "image": "rbxassetid://85243072462010",
+      "index": 3,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Glowing Lines Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85243072462010"
+    },
+    {
+      "image": "rbxassetid://17230437889",
+      "index": 4,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare141New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17230437889"
+    },
+    {
+      "image": "rbxassetid://15058066935",
+      "index": 5,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare207New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15058066935"
+    },
+    {
+      "image": "rbxassetid://112337977005460",
+      "index": 6,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare58New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112337977005460"
+    },
+    {
+      "image": "rbxassetid://110493751010850",
+      "index": 7,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare152New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110493751010850"
+    },
+    {
+      "image": "rbxassetid://91773686965612",
+      "index": 8,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare321New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91773686965612"
+    },
+    {
+      "image": "rbxassetid://94984943823851",
+      "index": 9,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Thin Lines Color Burn Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94984943823851"
+    },
+    {
+      "image": "rbxassetid://12363778394",
+      "index": 10,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare225New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363778394"
+    },
+    {
+      "image": "rbxassetid://12363771993",
+      "index": 11,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare201New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363771993"
+    },
+    {
+      "image": "rbxassetid://15267994078",
+      "index": 12,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare254New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267994078"
+    },
+    {
+      "image": "rbxassetid://102846806991362",
+      "index": 13,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Red Blue Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102846806991362"
+    },
+    {
+      "image": "rbxassetid://87009648602330",
+      "index": 14,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare299New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87009648602330"
+    },
+    {
+      "image": "rbxassetid://99554633294072",
+      "index": 15,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare33New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99554633294072"
+    },
+    {
+      "image": "rbxassetid://15268036910",
+      "index": 16,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare229New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268036910"
+    },
+    {
+      "image": "rbxassetid://128884869901950",
+      "index": 17,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare57New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://128884869901950"
+    },
+    {
+      "image": "rbxassetid://91779927624957",
+      "index": 18,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare150New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91779927624957"
+    },
+    {
+      "image": "rbxassetid://83508787213584",
+      "index": 19,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare24",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://83508787213584"
+    },
+    {
+      "image": "rbxassetid://79883806431264",
+      "index": 20,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "I LE Flare 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79883806431264"
+    },
+    {
+      "image": "rbxassetid://125928099878428",
+      "index": 21,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Simple Lines Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125928099878428"
+    },
+    {
+      "image": "rbxassetid://92152348531600",
+      "index": 22,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92152348531600"
+    },
+    {
+      "image": "rbxassetid://89284632673030",
+      "index": 23,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare167New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89284632673030"
+    },
+    {
+      "image": "rbxassetid://135149314975230",
+      "index": 24,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare179New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135149314975230"
+    },
+    {
+      "image": "rbxassetid://84562991439122",
+      "index": 25,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare27New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84562991439122"
+    },
+    {
+      "image": "rbxassetid://79882022290369",
+      "index": 26,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare109New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79882022290369"
+    },
+    {
+      "image": "rbxassetid://73358936443200",
+      "index": 27,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Chromatic Rectangles Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73358936443200"
+    },
+    {
+      "image": "rbxassetid://89053427408752",
+      "index": 28,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare31New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89053427408752"
+    },
+    {
+      "image": "rbxassetid://138118238148072",
+      "index": 29,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blue Yellowish Triangle Gradient Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138118238148072"
+    },
+    {
+      "image": "rbxassetid://15267958329",
+      "index": 30,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare255New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267958329"
+    },
+    {
+      "image": "rbxassetid://118516270593121",
+      "index": 31,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare165New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://118516270593121"
+    },
+    {
+      "image": "rbxassetid://75131397373877",
+      "index": 32,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bottom Glare Circle Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75131397373877"
+    },
+    {
+      "image": "rbxassetid://87531398620930",
+      "index": 33,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare47New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87531398620930"
+    },
+    {
+      "image": "rbxassetid://93021889042214",
+      "index": 34,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Rainbow Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93021889042214"
+    },
+    {
+      "image": "rbxassetid://15432520301",
+      "index": 35,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare185New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15432520301"
+    },
+    {
+      "image": "rbxassetid://15267996400",
+      "index": 36,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare284New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267996400"
+    },
+    {
+      "image": "rbxassetid://134850541344666",
+      "index": 37,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare52New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134850541344666"
+    },
+    {
+      "image": "rbxassetid://109412417718162",
+      "index": 38,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare41New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109412417718162"
+    },
+    {
+      "image": "rbxassetid://113293726367596",
+      "index": 39,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113293726367596"
+    },
+    {
+      "image": "rbxassetid://105880290587055",
+      "index": 40,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Expanding Darkness",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://105880290587055"
+    },
+    {
+      "image": "rbxassetid://13416568539",
+      "index": 41,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare212New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13416568539"
+    },
+    {
+      "image": "rbxassetid://15267964963",
+      "index": 42,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare196New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267964963"
+    },
+    {
+      "image": "rbxassetid://15267980155",
+      "index": 43,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare186New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267980155"
+    },
+    {
+      "image": "rbxassetid://101943315608494",
+      "index": 44,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101943315608494"
+    },
+    {
+      "image": "rbxassetid://87107549833517",
+      "index": 45,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare172New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87107549833517"
+    },
+    {
+      "image": "rbxassetid://122298792276419",
+      "index": 46,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare88New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122298792276419"
+    },
+    {
+      "image": "rbxassetid://73923538782076",
+      "index": 47,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Rainbow Horizontal Star Glare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73923538782076"
+    },
+    {
+      "image": "rbxassetid://137767366889458",
+      "index": 48,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare317New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137767366889458"
+    },
+    {
+      "image": "rbxassetid://106988791779732",
+      "index": 49,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare106New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://106988791779732"
+    },
+    {
+      "image": "rbxassetid://124535207786292",
+      "index": 50,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare187New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124535207786292"
+    },
+    {
+      "image": "rbxassetid://12363775550",
+      "index": 51,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare194New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363775550"
+    },
+    {
+      "image": "rbxassetid://109188058517822",
+      "index": 52,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare30New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109188058517822"
+    },
+    {
+      "image": "rbxassetid://136786312758620",
+      "index": 53,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blue Tint Glowing Yellow Orange Circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://136786312758620"
+    },
+    {
+      "image": "rbxassetid://79541812449694",
+      "index": 54,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare48New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79541812449694"
+    },
+    {
+      "image": "rbxassetid://15267983023",
+      "index": 55,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare245New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267983023"
+    },
+    {
+      "image": "rbxassetid://108684954560019",
+      "index": 56,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Triangle Gradient Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108684954560019"
+    },
+    {
+      "image": "rbxassetid://105575934955543",
+      "index": 57,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare91New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://105575934955543"
+    },
+    {
+      "image": "rbxassetid://82193360853926",
+      "index": 58,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare81New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82193360853926"
+    },
+    {
+      "image": "rbxassetid://91557587630340",
+      "index": 59,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare37New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91557587630340"
+    },
+    {
+      "image": "rbxassetid://92188631345290",
+      "index": 60,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Rainbow Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92188631345290"
+    },
+    {
+      "image": "rbxassetid://117247585735583",
+      "index": 61,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare60New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://117247585735583"
+    },
+    {
+      "image": "rbxassetid://79272172165409",
+      "index": 62,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Shining Lens Flare 8x8",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://79272172165409"
+    },
+    {
+      "image": "rbxassetid://15268042395",
+      "index": 63,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare204New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268042395"
+    },
+    {
+      "image": "rbxassetid://90246218106752",
+      "index": 64,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare134New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90246218106752"
+    },
+    {
+      "image": "rbxassetid://11037783685",
+      "index": 65,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare281New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037783685"
+    },
+    {
+      "image": "rbxassetid://118932979744260",
+      "index": 66,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Brush thick Lens flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://118932979744260"
+    },
+    {
+      "image": "rbxassetid://13189667061",
+      "index": 67,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Glow",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://13189667061"
+    },
+    {
+      "image": "rbxassetid://15267976180",
+      "index": 68,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare252New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267976180"
+    },
+    {
+      "image": "rbxassetid://136092811802333",
+      "index": 69,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare63New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://136092811802333"
+    },
+    {
+      "image": "rbxassetid://243728206",
+      "index": 70,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare291New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://243728206"
+    },
+    {
+      "image": "rbxassetid://11410124087",
+      "index": 71,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare138New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11410124087"
+    },
+    {
+      "image": "rbxassetid://75893463697742",
+      "index": 72,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare7New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75893463697742"
+    },
+    {
+      "image": "rbxassetid://89956904343028",
+      "index": 73,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare77New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89956904343028"
+    },
+    {
+      "image": "rbxassetid://112436973538514",
+      "index": 74,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare99New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112436973538514"
+    },
+    {
+      "image": "rbxassetid://134124094076855",
+      "index": 75,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare20New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134124094076855"
+    },
+    {
+      "image": "rbxassetid://73167065719023",
+      "index": 76,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Solid Gradient Lines Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73167065719023"
+    },
+    {
+      "image": "rbxassetid://75667126253230",
+      "index": 77,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Blue Glare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75667126253230"
+    },
+    {
+      "image": "rbxassetid://102627867105014",
+      "index": 78,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102627867105014"
+    },
+    {
+      "image": "rbxassetid://96298955603448",
+      "index": 79,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Impact Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96298955603448"
+    },
+    {
+      "image": "rbxassetid://107840406493875",
+      "index": 80,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Color Burn Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107840406493875"
+    },
+    {
+      "image": "rbxassetid://131480847879053",
+      "index": 81,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare247New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131480847879053"
+    },
+    {
+      "image": "rbxassetid://125971736301956",
+      "index": 82,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare312New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125971736301956"
+    },
+    {
+      "image": "rbxassetid://12363848347",
+      "index": 83,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Surrounded More",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363848347"
+    },
+    {
+      "image": "rbxassetid://133529342974427",
+      "index": 84,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow Glass Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://133529342974427"
+    },
+    {
+      "image": "rbxassetid://15267977235",
+      "index": 85,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare123New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267977235"
+    },
+    {
+      "image": "rbxassetid://86763367876410",
+      "index": 86,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare50New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86763367876410"
+    },
+    {
+      "image": "rbxassetid://15513493035",
+      "index": 87,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare128New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15513493035"
+    },
+    {
+      "image": "rbxassetid://16511998441",
+      "index": 88,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare237New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511998441"
+    },
+    {
+      "image": "rbxassetid://85664013418740",
+      "index": 89,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85664013418740"
+    },
+    {
+      "image": "rbxassetid://15022616392",
+      "index": 90,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare313New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15022616392"
+    },
+    {
+      "image": "rbxassetid://7948615545",
+      "index": 91,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare256New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7948615545"
+    },
+    {
+      "image": "rbxassetid://126530526069326",
+      "index": 92,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare149New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://126530526069326"
+    },
+    {
+      "image": "rbxassetid://128558929814737",
+      "index": 93,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare29New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://128558929814737"
+    },
+    {
+      "image": "rbxassetid://7216853637",
+      "index": 94,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare130New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216853637"
+    },
+    {
+      "image": "rbxassetid://8220403971",
+      "index": 95,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare297New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8220403971"
+    },
+    {
+      "image": "rbxassetid://78958307617383",
+      "index": 96,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare269New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78958307617383"
+    },
+    {
+      "image": "rbxassetid://134070305364751",
+      "index": 97,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Glass Flare",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://134070305364751"
+    },
+    {
+      "image": "rbxassetid://101791727556836",
+      "index": 98,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Coloured AOE Flare 1",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://101791727556836"
+    },
+    {
+      "image": "rbxassetid://11815755770",
+      "index": 99,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare277New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11815755770"
+    },
+    {
+      "image": "rbxassetid://71289462162390",
+      "index": 100,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare75New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://71289462162390"
+    },
+    {
+      "image": "rbxassetid://107966991434584",
+      "index": 101,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Chromatic Abstract Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107966991434584"
+    },
+    {
+      "image": "rbxassetid://80768860709156",
+      "index": 102,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare294New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80768860709156"
+    },
+    {
+      "image": "rbxassetid://15267962251",
+      "index": 103,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare203New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267962251"
+    },
+    {
+      "image": "rbxassetid://12363776398",
+      "index": 104,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare231New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363776398"
+    },
+    {
+      "image": "rbxassetid://100633629709664",
+      "index": 105,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare306New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100633629709664"
+    },
+    {
+      "image": "rbxassetid://84427792951578",
+      "index": 106,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare279New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84427792951578"
+    },
+    {
+      "image": "rbxassetid://82154857827227",
+      "index": 107,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Wiggly Sun Rays Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82154857827227"
+    },
+    {
+      "image": "rbxassetid://15267981562",
+      "index": 108,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare220New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267981562"
+    },
+    {
+      "image": "rbxassetid://14780651881",
+      "index": 109,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare251New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14780651881"
+    },
+    {
+      "image": "rbxassetid://17376619574",
+      "index": 110,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare311New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17376619574"
+    },
+    {
+      "image": "rbxassetid://81904109714928",
+      "index": 111,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Heat Haze Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81904109714928"
+    },
+    {
+      "image": "rbxassetid://103072834214472",
+      "index": 112,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare103New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103072834214472"
+    },
+    {
+      "image": "rbxassetid://130288995293809",
+      "index": 113,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare181New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130288995293809"
+    },
+    {
+      "image": "rbxassetid://102172354851341",
+      "index": 114,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare89New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102172354851341"
+    },
+    {
+      "image": "rbxassetid://15267987555",
+      "index": 115,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare117New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267987555"
+    },
+    {
+      "image": "rbxassetid://112047999995011",
+      "index": 116,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Horizontal Star Glare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112047999995011"
+    },
+    {
+      "image": "rbxassetid://108375574315972",
+      "index": 117,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare59New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108375574315972"
+    },
+    {
+      "image": "rbxassetid://12386392796",
+      "index": 118,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare137New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12386392796"
+    },
+    {
+      "image": "rbxassetid://12363846452",
+      "index": 119,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Three Surrounding Triangles",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363846452"
+    },
+    {
+      "image": "rbxassetid://134901393980145",
+      "index": 120,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare42New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134901393980145"
+    },
+    {
+      "image": "rbxassetid://85549888269694",
+      "index": 121,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare173New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85549888269694"
+    },
+    {
+      "image": "rbxassetid://84606598548623",
+      "index": 122,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare62New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84606598548623"
+    },
+    {
+      "image": "rbxassetid://85455873620937",
+      "index": 123,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smooth Chromatic Sun Ray Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85455873620937"
+    },
+    {
+      "image": "rbxassetid://12105193694",
+      "index": 124,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare170New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12105193694"
+    },
+    {
+      "image": "rbxassetid://12159555294",
+      "index": 125,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare205New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12159555294"
+    },
+    {
+      "image": "rbxassetid://15267992198",
+      "index": 126,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare110New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267992198"
+    },
+    {
+      "image": "rbxassetid://15786345729",
+      "index": 127,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare253New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15786345729"
+    },
+    {
+      "image": "rbxassetid://115882812346527",
+      "index": 128,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare68New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115882812346527"
+    },
+    {
+      "image": "rbxassetid://77708517780310",
+      "index": 129,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare67New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77708517780310"
+    },
+    {
+      "image": "rbxassetid://103854278038347",
+      "index": 130,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Horizontal Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103854278038347"
+    },
+    {
+      "image": "rbxassetid://99157623192498",
+      "index": 131,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare156New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99157623192498"
+    },
+    {
+      "image": "rbxassetid://133626918485984",
+      "index": 132,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare87New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://133626918485984"
+    },
+    {
+      "image": "rbxassetid://12363772878",
+      "index": 133,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare114New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363772878"
+    },
+    {
+      "image": "rbxassetid://7216848699",
+      "index": 134,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare118New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216848699"
+    },
+    {
+      "image": "rbxassetid://121918747989188",
+      "index": 135,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare107New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121918747989188"
+    },
+    {
+      "image": "rbxassetid://14813420032",
+      "index": 136,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare142New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14813420032"
+    },
+    {
+      "image": "rbxassetid://108551575653219",
+      "index": 137,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare260New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108551575653219"
+    },
+    {
+      "image": "rbxassetid://75026879192823",
+      "index": 138,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare40New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75026879192823"
+    },
+    {
+      "image": "rbxassetid://1847258023",
+      "index": 139,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare221New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1847258023"
+    },
+    {
+      "image": "rbxassetid://243728166",
+      "index": 140,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare136New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://243728166"
+    },
+    {
+      "image": "rbxassetid://81858992064351",
+      "index": 141,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare322New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81858992064351"
+    },
+    {
+      "image": "rbxassetid://133744992799968",
+      "index": 142,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare69New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://133744992799968"
+    },
+    {
+      "image": "rbxassetid://120350927010683",
+      "index": 143,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare79New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120350927010683"
+    },
+    {
+      "image": "rbxassetid://113645104462428",
+      "index": 144,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Thin Spec Shard Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113645104462428"
+    },
+    {
+      "image": "rbxassetid://10911246475",
+      "index": 145,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare236New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10911246475"
+    },
+    {
+      "image": "rbxassetid://131664964955693",
+      "index": 146,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare133New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131664964955693"
+    },
+    {
+      "image": "rbxassetid://128275146103304",
+      "index": 147,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare80New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://128275146103304"
+    },
+    {
+      "image": "rbxassetid://138901801480765",
+      "index": 148,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Chromatic Water Lens 4x4",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://138901801480765"
+    },
+    {
+      "image": "rbxassetid://12684715885",
+      "index": 149,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare235New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12684715885"
+    },
+    {
+      "image": "rbxassetid://11037770738",
+      "index": 150,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare248New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037770738"
+    },
+    {
+      "image": "rbxassetid://86501970142768",
+      "index": 151,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare2New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86501970142768"
+    },
+    {
+      "image": "rbxassetid://87871128837540",
+      "index": 152,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare78New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87871128837540"
+    },
+    {
+      "image": "rbxassetid://7216849594",
+      "index": 153,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare219New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216849594"
+    },
+    {
+      "image": "rbxassetid://118720812148752",
+      "index": 154,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Triangle Gradient Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://118720812148752"
+    },
+    {
+      "image": "rbxassetid://12363774508",
+      "index": 155,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare323New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363774508"
+    },
+    {
+      "image": "rbxassetid://79582955166928",
+      "index": 156,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare5New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79582955166928"
+    },
+    {
+      "image": "rbxassetid://12363669361",
+      "index": 157,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare140New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363669361"
+    },
+    {
+      "image": "rbxassetid://17268259842",
+      "index": 158,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare234New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17268259842"
+    },
+    {
+      "image": "rbxassetid://87561602489912",
+      "index": 159,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Glare 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87561602489912"
+    },
+    {
+      "image": "rbxassetid://133802928783439",
+      "index": 160,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Green Lens Flare Star",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://133802928783439"
+    },
+    {
+      "image": "rbxassetid://125448942121964",
+      "index": 161,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Solid Thin Lines Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125448942121964"
+    },
+    {
+      "image": "rbxassetid://121201476662763",
+      "index": 162,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Chromatic Shine Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121201476662763"
+    },
+    {
+      "image": "rbxassetid://89630722294346",
+      "index": 163,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Detailed Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89630722294346"
+    },
+    {
+      "image": "rbxassetid://12363847797",
+      "index": 164,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Surrounded Most",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363847797"
+    },
+    {
+      "image": "rbxassetid://1164713030",
+      "index": 165,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare276New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1164713030"
+    },
+    {
+      "image": "rbxassetid://134662205616367",
+      "index": 166,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare157New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134662205616367"
+    },
+    {
+      "image": "rbxassetid://107945973060473",
+      "index": 167,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare25New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107945973060473"
+    },
+    {
+      "image": "rbxassetid://104126074213264",
+      "index": 168,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Spec flares",
+      "rect_offset": [
+        512,
+        256
+      ],
+      "raw_uri": "rbxassetid://104126074213264"
+    },
+    {
+      "image": "rbxassetid://116731268928705",
+      "index": 169,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare327New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116731268928705"
+    },
+    {
+      "image": "rbxassetid://11037776868",
+      "index": 170,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare250New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037776868"
+    },
+    {
+      "image": "rbxassetid://108538897892081",
+      "index": 171,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Solid Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108538897892081"
+    },
+    {
+      "image": "rbxassetid://138050105982314",
+      "index": 172,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138050105982314"
+    },
+    {
+      "image": "rbxassetid://74376447762414",
+      "index": 173,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare176New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74376447762414"
+    },
+    {
+      "image": "rbxassetid://15027630128",
+      "index": 174,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare124New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15027630128"
+    },
+    {
+      "image": "rbxassetid://15372682647",
+      "index": 175,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare126New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15372682647"
+    },
+    {
+      "image": "rbxassetid://77290931614217",
+      "index": 176,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Sun Ray Spec Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77290931614217"
+    },
+    {
+      "image": "rbxassetid://16504678311",
+      "index": 177,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare230New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16504678311"
+    },
+    {
+      "image": "rbxassetid://138858906433552",
+      "index": 178,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare155New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138858906433552"
+    },
+    {
+      "image": "rbxassetid://105270240967436",
+      "index": 179,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare319New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://105270240967436"
+    },
+    {
+      "image": "rbxassetid://94458763360578",
+      "index": 180,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare94New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94458763360578"
+    },
+    {
+      "image": "rbxassetid://78118852379955",
+      "index": 181,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78118852379955"
+    },
+    {
+      "image": "rbxassetid://100077999271962",
+      "index": 182,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Chromatic Glass Flare",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://100077999271962"
+    },
+    {
+      "image": "rbxassetid://135916722002747",
+      "index": 183,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare166New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135916722002747"
+    },
+    {
+      "image": "rbxassetid://15267974440",
+      "index": 184,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare232New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267974440"
+    },
+    {
+      "image": "rbxassetid://114940807331211",
+      "index": 185,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://114940807331211"
+    },
+    {
+      "image": "rbxassetid://104916479119141",
+      "index": 186,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare26New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104916479119141"
+    },
+    {
+      "image": "rbxassetid://127391973600104",
+      "index": 187,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare34New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127391973600104"
+    },
+    {
+      "image": "rbxassetid://115680792712725",
+      "index": 188,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare85New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115680792712725"
+    },
+    {
+      "image": "rbxassetid://78726667801980",
+      "index": 189,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare22New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78726667801980"
+    },
+    {
+      "image": "rbxassetid://138080631235953",
+      "index": 190,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fixed Static Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138080631235953"
+    },
+    {
+      "image": "rbxassetid://88577791598503",
+      "index": 191,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Water Energy Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://88577791598503"
+    },
+    {
+      "image": "rbxassetid://104341005874564",
+      "index": 192,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104341005874564"
+    },
+    {
+      "image": "rbxassetid://86050781839978",
+      "index": 193,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86050781839978"
+    },
+    {
+      "image": "rbxassetid://298984512",
+      "index": 194,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare113New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://298984512"
+    },
+    {
+      "image": "rbxassetid://76340934746328",
+      "index": 195,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76340934746328"
+    },
+    {
+      "image": "rbxassetid://97191697319656",
+      "index": 196,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare51New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://97191697319656"
+    },
+    {
+      "image": "rbxassetid://91581489060434",
+      "index": 197,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Unique Stylized Lens 4x4",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://91581489060434"
+    },
+    {
+      "image": "rbxassetid://93643824296215",
+      "index": 198,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Shining flare",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://93643824296215"
+    },
+    {
+      "image": "rbxassetid://122457161220807",
+      "index": 199,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare289New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122457161220807"
+    },
+    {
+      "image": "rbxassetid://88218984883624",
+      "index": 200,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://88218984883624"
+    },
+    {
+      "image": "rbxassetid://129975527995943",
+      "index": 201,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flashlight Lens with rainbow Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://129975527995943"
+    },
+    {
+      "image": "rbxassetid://124653101122134",
+      "index": 202,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare104New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124653101122134"
+    },
+    {
+      "image": "rbxassetid://11684638391",
+      "index": 203,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Kalei 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11684638391"
+    },
+    {
+      "image": "rbxassetid://137194554667293",
+      "index": 204,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare92New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137194554667293"
+    },
+    {
+      "image": "rbxassetid://85532556522637",
+      "index": 205,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare55New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85532556522637"
+    },
+    {
+      "image": "rbxassetid://94856526399242",
+      "index": 206,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Thick Shatter Lens Flare",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://94856526399242"
+    },
+    {
+      "image": "rbxassetid://133759777933744",
+      "index": 207,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares15",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://133759777933744"
+    },
+    {
+      "image": "rbxassetid://133122032678320",
+      "index": 208,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smooth Sun Ray Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://133122032678320"
+    },
+    {
+      "image": "rbxassetid://9186694978",
+      "index": 209,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare265New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9186694978"
+    },
+    {
+      "image": "rbxassetid://15267986070",
+      "index": 210,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare199New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267986070"
+    },
+    {
+      "image": "rbxassetid://15246593122",
+      "index": 211,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare215New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15246593122"
+    },
+    {
+      "image": "rbxassetid://15267959767",
+      "index": 212,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare132",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267959767"
+    },
+    {
+      "image": "rbxassetid://116979436776850",
+      "index": 213,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare189New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116979436776850"
+    },
+    {
+      "image": "rbxassetid://111194721072706",
+      "index": 214,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://111194721072706"
+    },
+    {
+      "image": "rbxassetid://9504165696",
+      "index": 215,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare296New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9504165696"
+    },
+    {
+      "image": "rbxassetid://72198464154007",
+      "index": 216,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72198464154007"
+    },
+    {
+      "image": "rbxassetid://108981919305873",
+      "index": 217,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Water Lens 4x4",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://108981919305873"
+    },
+    {
+      "image": "rbxassetid://127297270535201",
+      "index": 218,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare45New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127297270535201"
+    },
+    {
+      "image": "rbxassetid://95397010640978",
+      "index": 219,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare271New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95397010640978"
+    },
+    {
+      "image": "rbxassetid://104676556391734",
+      "index": 220,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare264New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104676556391734"
+    },
+    {
+      "image": "rbxassetid://127111184591854",
+      "index": 221,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare14New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127111184591854"
+    },
+    {
+      "image": "rbxassetid://125570609248847",
+      "index": 222,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Coloured AOE Flare Pixel",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://125570609248847"
+    },
+    {
+      "image": "rbxassetid://124371200190288",
+      "index": 223,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare191New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124371200190288"
+    },
+    {
+      "image": "rbxassetid://123465344718279",
+      "index": 224,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare18New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://123465344718279"
+    },
+    {
+      "image": "rbxassetid://91192492791076",
+      "index": 225,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Lens Flare 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91192492791076"
+    },
+    {
+      "image": "rbxassetid://76150921637651",
+      "index": 226,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare164New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76150921637651"
+    },
+    {
+      "image": "rbxassetid://106081787405131",
+      "index": 227,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare300New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://106081787405131"
+    },
+    {
+      "image": "rbxassetid://77264846811525",
+      "index": 228,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Low Res Flare",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://77264846811525"
+    },
+    {
+      "image": "rbxassetid://15267995469",
+      "index": 229,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare273New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267995469"
+    },
+    {
+      "image": "rbxassetid://96854027912920",
+      "index": 230,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare19New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96854027912920"
+    },
+    {
+      "image": "rbxassetid://103268928953342",
+      "index": 231,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare11New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103268928953342"
+    },
+    {
+      "image": "rbxassetid://93855686861957",
+      "index": 232,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Chromatic Sun Ray Spec Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93855686861957"
+    },
+    {
+      "image": "rbxassetid://8187307788",
+      "index": 233,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare226New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8187307788"
+    },
+    {
+      "image": "rbxassetid://1454292685",
+      "index": 234,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare198New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1454292685"
+    },
+    {
+      "image": "rbxassetid://17230625999",
+      "index": 235,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare175New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17230625999"
+    },
+    {
+      "image": "rbxassetid://12363847503",
+      "index": 236,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Surrounded Less",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363847503"
+    },
+    {
+      "image": "rbxassetid://101008820731378",
+      "index": 237,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare302New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101008820731378"
+    },
+    {
+      "image": "rbxassetid://84944457335780",
+      "index": 238,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Thick Chromatic Needles Lens 8x8",
+      "rect_offset": [
+        384,
+        0
+      ],
+      "raw_uri": "rbxassetid://84944457335780"
+    },
+    {
+      "image": "rbxassetid://15267984568",
+      "index": 239,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare242New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267984568"
+    },
+    {
+      "image": "rbxassetid://107200488198139",
+      "index": 240,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare49New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107200488198139"
+    },
+    {
+      "image": "rbxassetid://76244402967792",
+      "index": 241,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare8New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76244402967792"
+    },
+    {
+      "image": "rbxassetid://101029648910355",
+      "index": 242,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare320New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101029648910355"
+    },
+    {
+      "image": "rbxassetid://11037782735",
+      "index": 243,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare202New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037782735"
+    },
+    {
+      "image": "rbxassetid://91032344838402",
+      "index": 244,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare288New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91032344838402"
+    },
+    {
+      "image": "rbxassetid://88326177535175",
+      "index": 245,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Lens Flare 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://88326177535175"
+    },
+    {
+      "image": "rbxassetid://119988179440268",
+      "index": 246,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare35New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119988179440268"
+    },
+    {
+      "image": "rbxassetid://88437066130892",
+      "index": 247,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare304New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://88437066130892"
+    },
+    {
+      "image": "rbxassetid://12363695968",
+      "index": 248,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare211New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363695968"
+    },
+    {
+      "image": "rbxassetid://109199657338983",
+      "index": 249,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare101New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109199657338983"
+    },
+    {
+      "image": "rbxassetid://121909994574049",
+      "index": 250,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare159New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121909994574049"
+    },
+    {
+      "image": "rbxassetid://72686270566862",
+      "index": 251,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare76New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72686270566862"
+    },
+    {
+      "image": "rbxassetid://114879548835807",
+      "index": 252,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Lines Flipping Lens Flare 4x4",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://114879548835807"
+    },
+    {
+      "image": "rbxassetid://18198069501",
+      "index": 253,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare316New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18198069501"
+    },
+    {
+      "image": "rbxassetid://138121602851663",
+      "index": 254,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Sparkling Lens Flare 4x4",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://138121602851663"
+    },
+    {
+      "image": "rbxassetid://13271102367",
+      "index": 255,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare263New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13271102367"
+    },
+    {
+      "image": "rbxassetid://85040631087553",
+      "index": 256,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare184New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85040631087553"
+    },
+    {
+      "image": "rbxassetid://12363775822",
+      "index": 257,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare238New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363775822"
+    },
+    {
+      "image": "rbxassetid://115074758627092",
+      "index": 258,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare17New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115074758627092"
+    },
+    {
+      "image": "rbxassetid://122172370765576",
+      "index": 259,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare23New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122172370765576"
+    },
+    {
+      "image": "rbxassetid://3060556198",
+      "index": 260,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare111New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://3060556198"
+    },
+    {
+      "image": "rbxassetid://13711999895",
+      "index": 261,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare131New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13711999895"
+    },
+    {
+      "image": "rbxassetid://8210105223",
+      "index": 262,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare216New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8210105223"
+    },
+    {
+      "image": "rbxassetid://124774558677703",
+      "index": 263,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare73New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124774558677703"
+    },
+    {
+      "image": "rbxassetid://7216849075",
+      "index": 264,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare139New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216849075"
+    },
+    {
+      "image": "rbxassetid://97555792571613",
+      "index": 265,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Abstract Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://97555792571613"
+    },
+    {
+      "image": "rbxassetid://75931131343739",
+      "index": 266,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare43New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75931131343739"
+    },
+    {
+      "image": "rbxassetid://71373100431956",
+      "index": 267,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare161New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://71373100431956"
+    },
+    {
+      "image": "rbxassetid://12363773628",
+      "index": 268,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare119New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363773628"
+    },
+    {
+      "image": "rbxassetid://12363775251",
+      "index": 269,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare227New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363775251"
+    },
+    {
+      "image": "rbxassetid://130553061111225",
+      "index": 270,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Coloured AOE Flare 2",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://130553061111225"
+    },
+    {
+      "image": "rbxassetid://127492245666277",
+      "index": 271,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Rainbow Star Radial Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127492245666277"
+    },
+    {
+      "image": "rbxassetid://86797503052447",
+      "index": 272,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare295New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86797503052447"
+    },
+    {
+      "image": "rbxassetid://95806229513165",
+      "index": 273,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Flares4",
+      "rect_offset": [
+        128,
+        128
+      ],
+      "raw_uri": "rbxassetid://95806229513165"
+    },
+    {
+      "image": "rbxassetid://93199624521486",
+      "index": 274,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare15New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93199624521486"
+    },
+    {
+      "image": "rbxassetid://85839088549172",
+      "index": 275,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare97New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85839088549172"
+    },
+    {
+      "image": "rbxassetid://110460665333149",
+      "index": 276,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Rectangles Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110460665333149"
+    },
+    {
+      "image": "rbxassetid://78855047882582",
+      "index": 277,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare163New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78855047882582"
+    },
+    {
+      "image": "rbxassetid://12363848571",
+      "index": 278,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Surrounded",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363848571"
+    },
+    {
+      "image": "rbxassetid://73181233056936",
+      "index": 279,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare258New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73181233056936"
+    },
+    {
+      "image": "rbxassetid://12363772445",
+      "index": 280,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare246New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363772445"
+    },
+    {
+      "image": "rbxassetid://12363853226",
+      "index": 281,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flower Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363853226"
+    },
+    {
+      "image": "rbxassetid://136094520111741",
+      "index": 282,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Glass Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://136094520111741"
+    },
+    {
+      "image": "rbxassetid://12363847188",
+      "index": 283,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Surrounded Least",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363847188"
+    },
+    {
+      "image": "rbxassetid://73009616231200",
+      "index": 284,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Glowing patchy flare",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://73009616231200"
+    },
+    {
+      "image": "rbxassetid://17233735787",
+      "index": 285,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare233New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17233735787"
+    },
+    {
+      "image": "rbxassetid://139004195634098",
+      "index": 286,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare326New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://139004195634098"
+    },
+    {
+      "image": "rbxassetid://9509570418",
+      "index": 287,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare147New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9509570418"
+    },
+    {
+      "image": "rbxassetid://105427977618886",
+      "index": 288,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Blurred Flare",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://105427977618886"
+    },
+    {
+      "image": "rbxassetid://7556127048",
+      "index": 289,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare280New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7556127048"
+    },
+    {
+      "image": "rbxassetid://75815916669551",
+      "index": 290,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare4New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75815916669551"
+    },
+    {
+      "image": "rbxassetid://92369337101918",
+      "index": 291,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare61New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92369337101918"
+    },
+    {
+      "image": "rbxassetid://75202463",
+      "index": 292,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare195New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75202463"
+    },
+    {
+      "image": "rbxassetid://15267960965",
+      "index": 293,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare200New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267960965"
+    },
+    {
+      "image": "rbxassetid://95704892459693",
+      "index": 294,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Red Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95704892459693"
+    },
+    {
+      "image": "rbxassetid://100542387663158",
+      "index": 295,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Blurry Lines Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100542387663158"
+    },
+    {
+      "image": "rbxassetid://12363774893",
+      "index": 296,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare283New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363774893"
+    },
+    {
+      "image": "rbxassetid://114550879581183",
+      "index": 297,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare308New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://114550879581183"
+    },
+    {
+      "image": "rbxassetid://14657035983",
+      "index": 298,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare135New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14657035983"
+    },
+    {
+      "image": "rbxassetid://12363779123",
+      "index": 299,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare249New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363779123"
+    },
+    {
+      "image": "rbxassetid://113958093145382",
+      "index": 300,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blue Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113958093145382"
+    },
+    {
+      "image": "rbxassetid://917207599",
+      "index": 301,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare278New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://917207599"
+    },
+    {
+      "image": "rbxassetid://18836673412",
+      "index": 302,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare243New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18836673412"
+    },
+    {
+      "image": "rbxassetid://130362760975336",
+      "index": 303,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Water Energy Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130362760975336"
+    },
+    {
+      "image": "rbxassetid://79986270208898",
+      "index": 304,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare151New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79986270208898"
+    },
+    {
+      "image": "rbxassetid://107194701758339",
+      "index": 305,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare290New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107194701758339"
+    },
+    {
+      "image": "rbxassetid://108065894629377",
+      "index": 306,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare93New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108065894629377"
+    },
+    {
+      "image": "rbxassetid://116454002887628",
+      "index": 307,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare9New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116454002887628"
+    },
+    {
+      "image": "rbxassetid://12363773489",
+      "index": 308,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare287New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363773489"
+    },
+    {
+      "image": "rbxassetid://37037765",
+      "index": 309,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare214New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://37037765"
+    },
+    {
+      "image": "rbxassetid://12363776603",
+      "index": 310,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare160New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363776603"
+    },
+    {
+      "image": "rbxassetid://15267947048",
+      "index": 311,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare217New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267947048"
+    },
+    {
+      "image": "rbxassetid://11828156780",
+      "index": 312,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare314New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11828156780"
+    },
+    {
+      "image": "rbxassetid://16511986084",
+      "index": 313,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare286New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511986084"
+    },
+    {
+      "image": "rbxassetid://109133917561575",
+      "index": 314,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare71New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109133917561575"
+    },
+    {
+      "image": "rbxassetid://87159065346673",
+      "index": 315,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare183New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87159065346673"
+    },
+    {
+      "image": "rbxassetid://97542664167576",
+      "index": 316,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare329New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://97542664167576"
+    },
+    {
+      "image": "rbxassetid://96678325368668",
+      "index": 317,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare162New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96678325368668"
+    },
+    {
+      "image": "rbxassetid://121713808390471",
+      "index": 318,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare266New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121713808390471"
+    },
+    {
+      "image": "rbxassetid://7216848832",
+      "index": 319,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare125New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216848832"
+    },
+    {
+      "image": "rbxassetid://12363773801",
+      "index": 320,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare244New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363773801"
+    },
+    {
+      "image": "rbxassetid://12363773962",
+      "index": 321,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare268New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363773962"
+    },
+    {
+      "image": "rbxassetid://138111953688137",
+      "index": 322,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138111953688137"
+    },
+    {
+      "image": "rbxassetid://14723885579",
+      "index": 323,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare274New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14723885579"
+    },
+    {
+      "image": "rbxassetid://102088554172203",
+      "index": 324,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare6New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102088554172203"
+    },
+    {
+      "image": "rbxassetid://89627199762403",
+      "index": 325,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare36New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89627199762403"
+    },
+    {
+      "image": "rbxassetid://89923665976570",
+      "index": 326,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare154New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89923665976570"
+    },
+    {
+      "image": "rbxassetid://84737525016118",
+      "index": 327,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare56New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84737525016118"
+    },
+    {
+      "image": "rbxassetid://17068400400",
+      "index": 328,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare282New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17068400400"
+    },
+    {
+      "image": "rbxassetid://87744120666721",
+      "index": 329,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare267New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87744120666721"
+    },
+    {
+      "image": "rbxassetid://82217515751133",
+      "index": 330,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Simple Lines Flare 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82217515751133"
+    },
+    {
+      "image": "rbxassetid://94137400722015",
+      "index": 331,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare16New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94137400722015"
+    },
+    {
+      "image": "rbxassetid://102387511017563",
+      "index": 332,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare38New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102387511017563"
+    },
+    {
+      "image": "rbxassetid://79105117295012",
+      "index": 333,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare28New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79105117295012"
+    },
+    {
+      "image": "rbxassetid://126382851205108",
+      "index": 334,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Arc",
+      "rect_offset": [
+        896,
+        0
+      ],
+      "raw_uri": "rbxassetid://126382851205108"
+    },
+    {
+      "image": "rbxassetid://15267978808",
+      "index": 335,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare241New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267978808"
+    },
+    {
+      "image": "rbxassetid://122881636456623",
+      "index": 336,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122881636456623"
+    },
+    {
+      "image": "rbxassetid://91112950638718",
+      "index": 337,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare24New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91112950638718"
+    },
+    {
+      "image": "rbxassetid://12363773284",
+      "index": 338,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare270New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363773284"
+    },
+    {
+      "image": "rbxassetid://96806560443322",
+      "index": 339,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96806560443322"
+    },
+    {
+      "image": "rbxassetid://136145554754284",
+      "index": 340,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare96New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://136145554754284"
+    },
+    {
+      "image": "rbxassetid://92327462651780",
+      "index": 341,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Coloured AOE Flare 3",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://92327462651780"
+    },
+    {
+      "image": "rbxassetid://15267967428",
+      "index": 342,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare143New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267967428"
+    },
+    {
+      "image": "rbxassetid://89186265876335",
+      "index": 343,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Chromatic Shining Lens Flare 8x8",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://89186265876335"
+    },
+    {
+      "image": "rbxassetid://80327993507769",
+      "index": 344,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare303New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80327993507769"
+    },
+    {
+      "image": "rbxassetid://136107314749359",
+      "index": 345,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Flare Lines",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://136107314749359"
+    },
+    {
+      "image": "rbxassetid://87689182884969",
+      "index": 346,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare305New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87689182884969"
+    },
+    {
+      "image": "rbxassetid://15267963470",
+      "index": 347,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare190New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267963470"
+    },
+    {
+      "image": "rbxassetid://119141303167945",
+      "index": 348,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Flares5",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://119141303167945"
+    },
+    {
+      "image": "rbxassetid://131904221700198",
+      "index": 349,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Horizontal Star Glare 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131904221700198"
+    },
+    {
+      "image": "rbxassetid://84187118334730",
+      "index": 350,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare324New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84187118334730"
+    },
+    {
+      "image": "rbxassetid://122583135220918",
+      "index": 351,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Simple Vignette Lens Circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122583135220918"
+    },
+    {
+      "image": "rbxassetid://81756337425917",
+      "index": 352,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Chromatic flare overlay",
+      "rect_offset": [
+        512,
+        256
+      ],
+      "raw_uri": "rbxassetid://81756337425917"
+    },
+    {
+      "image": "rbxassetid://82247070941634",
+      "index": 353,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare3New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82247070941634"
+    },
+    {
+      "image": "rbxassetid://86784509554212",
+      "index": 354,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Expanding invis flare",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://86784509554212"
+    },
+    {
+      "image": "rbxassetid://76078627518918",
+      "index": 355,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare108New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76078627518918"
+    },
+    {
+      "image": "rbxassetid://91851431874234",
+      "index": 356,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare21New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91851431874234"
+    },
+    {
+      "image": "rbxassetid://120490337223838",
+      "index": 357,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare44New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120490337223838"
+    },
+    {
+      "image": "rbxassetid://134531274",
+      "index": 358,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare301New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134531274"
+    },
+    {
+      "image": "rbxassetid://11684641836",
+      "index": 359,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Kalei 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11684641836"
+    },
+    {
+      "image": "rbxassetid://7216854591",
+      "index": 360,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare192New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216854591"
+    },
+    {
+      "image": "rbxassetid://125215686348614",
+      "index": 361,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare12New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125215686348614"
+    },
+    {
+      "image": "rbxassetid://507021722",
+      "index": 362,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare293New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://507021722"
+    },
+    {
+      "image": "rbxassetid://103556482573093",
+      "index": 363,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare309New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103556482573093"
+    },
+    {
+      "image": "rbxassetid://109770837218426",
+      "index": 364,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare46New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109770837218426"
+    },
+    {
+      "image": "rbxassetid://95353623444253",
+      "index": 365,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Res Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95353623444253"
+    },
+    {
+      "image": "rbxassetid://16511961942",
+      "index": 366,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare257New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511961942"
+    },
+    {
+      "image": "rbxassetid://80120516228525",
+      "index": 367,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare174New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80120516228525"
+    },
+    {
+      "image": "rbxassetid://11684619293",
+      "index": 368,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Kalei 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11684619293"
+    },
+    {
+      "image": "rbxassetid://2784679817",
+      "index": 369,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare228New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://2784679817"
+    },
+    {
+      "image": "rbxassetid://14684195806",
+      "index": 370,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare210New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14684195806"
+    },
+    {
+      "image": "rbxassetid://15267988769",
+      "index": 371,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare208New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267988769"
+    },
+    {
+      "image": "rbxassetid://107202748597502",
+      "index": 372,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107202748597502"
+    },
+    {
+      "image": "rbxassetid://78772401055219",
+      "index": 373,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78772401055219"
+    },
+    {
+      "image": "rbxassetid://119322146862676",
+      "index": 374,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare318New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119322146862676"
+    },
+    {
+      "image": "rbxassetid://106059494323135",
+      "index": 375,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare65New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://106059494323135"
+    },
+    {
+      "image": "rbxassetid://12363846934",
+      "index": 376,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Surrounding Triangles",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363846934"
+    },
+    {
+      "image": "rbxassetid://15600777303",
+      "index": 377,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare116New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15600777303"
+    },
+    {
+      "image": "rbxassetid://15267970904",
+      "index": 378,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare112New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267970904"
+    },
+    {
+      "image": "rbxassetid://89722204350099",
+      "index": 379,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Solid Sun Ray Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89722204350099"
+    },
+    {
+      "image": "rbxassetid://81174984580486",
+      "index": 380,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare82New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81174984580486"
+    },
+    {
+      "image": "rbxassetid://11037783231",
+      "index": 381,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare148New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037783231"
+    },
+    {
+      "image": "rbxassetid://86170160520422",
+      "index": 382,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86170160520422"
+    },
+    {
+      "image": "rbxassetid://271370648",
+      "index": 383,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare122New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://271370648"
+    },
+    {
+      "image": "rbxassetid://11684637564",
+      "index": 384,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Firework Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11684637564"
+    },
+    {
+      "image": "rbxassetid://95553524025339",
+      "index": 385,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Faint Horizontal Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95553524025339"
+    },
+    {
+      "image": "rbxassetid://88949890396052",
+      "index": 386,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare10New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://88949890396052"
+    },
+    {
+      "image": "rbxassetid://917186750",
+      "index": 387,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare193New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://917186750"
+    },
+    {
+      "image": "rbxassetid://113300673627296",
+      "index": 388,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Coloured AOE Flare 4",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://113300673627296"
+    },
+    {
+      "image": "rbxassetid://100800863396486",
+      "index": 389,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare54New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100800863396486"
+    },
+    {
+      "image": "rbxassetid://12363775094",
+      "index": 390,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare115New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363775094"
+    },
+    {
+      "image": "rbxassetid://77064536310249",
+      "index": 391,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare32New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77064536310249"
+    },
+    {
+      "image": "rbxassetid://112582976425297",
+      "index": 392,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Rectangles Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112582976425297"
+    },
+    {
+      "image": "rbxassetid://14049988179",
+      "index": 393,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare222New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14049988179"
+    },
+    {
+      "image": "rbxassetid://110843585988768",
+      "index": 394,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Thick Glitchy Shatter Lens Flare",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://110843585988768"
+    },
+    {
+      "image": "rbxassetid://132505172696635",
+      "index": 395,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare66New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132505172696635"
+    },
+    {
+      "image": "rbxassetid://118961003281876",
+      "index": 396,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare70New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://118961003281876"
+    },
+    {
+      "image": "rbxassetid://100867860580185",
+      "index": 397,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares14",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100867860580185"
+    },
+    {
+      "image": "rbxassetid://12363774276",
+      "index": 398,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare129New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363774276"
+    },
+    {
+      "image": "rbxassetid://107783098191892",
+      "index": 399,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare144New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107783098191892"
+    },
+    {
+      "image": "rbxassetid://96548218593661",
+      "index": 400,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Water flare overlay",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://96548218593661"
+    },
+    {
+      "image": "rbxassetid://120848855592756",
+      "index": 401,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Chromatic Horizontal Star Glare 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120848855592756"
+    },
+    {
+      "image": "rbxassetid://76852474268573",
+      "index": 402,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare105New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76852474268573"
+    },
+    {
+      "image": "rbxassetid://12363854043",
+      "index": 403,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Thinner Flower Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363854043"
+    },
+    {
+      "image": "rbxassetid://117247050121484",
+      "index": 404,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare153New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://117247050121484"
+    },
+    {
+      "image": "rbxassetid://79476683599471",
+      "index": 405,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare197New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79476683599471"
+    },
+    {
+      "image": "rbxassetid://132530790570583",
+      "index": 406,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Rectangles Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132530790570583"
+    },
+    {
+      "image": "rbxassetid://97391990904795",
+      "index": 407,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smooth Chromatic Sun Ray Lens Flare 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://97391990904795"
+    },
+    {
+      "image": "rbxassetid://11684616485",
+      "index": 408,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Kalei 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11684616485"
+    },
+    {
+      "image": "rbxassetid://8114033129",
+      "index": 409,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare292New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8114033129"
+    },
+    {
+      "image": "rbxassetid://132664520631250",
+      "index": 410,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare325New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132664520631250"
+    },
+    {
+      "image": "rbxassetid://1598630577",
+      "index": 411,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare121New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1598630577"
+    },
+    {
+      "image": "rbxassetid://96650135631256",
+      "index": 412,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Triangle Gradient Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96650135631256"
+    },
+    {
+      "image": "rbxassetid://270446290",
+      "index": 413,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare307New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://270446290"
+    },
+    {
+      "image": "rbxassetid://16511964424",
+      "index": 414,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare218New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511964424"
+    },
+    {
+      "image": "rbxassetid://101298716002698",
+      "index": 415,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare100New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101298716002698"
+    },
+    {
+      "image": "rbxassetid://16511743997",
+      "index": 416,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Curved Flare",
+      "rect_offset": [
+        640,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511743997"
+    },
+    {
+      "image": "rbxassetid://98315577057019",
+      "index": 417,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare180New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://98315577057019"
+    },
+    {
+      "image": "rbxassetid://14900573154",
+      "index": 418,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare239New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14900573154"
+    },
+    {
+      "image": "rbxassetid://77003532878278",
+      "index": 419,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare259New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77003532878278"
+    },
+    {
+      "image": "rbxassetid://71876948398292",
+      "index": 420,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare182New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://71876948398292"
+    },
+    {
+      "image": "rbxassetid://12363853814",
+      "index": 421,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Spiked Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363853814"
+    },
+    {
+      "image": "rbxassetid://91574125748897",
+      "index": 422,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare315New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91574125748897"
+    },
+    {
+      "image": "rbxassetid://109091494430859",
+      "index": 423,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare83New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109091494430859"
+    },
+    {
+      "image": "rbxassetid://10637682258",
+      "index": 424,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare272New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10637682258"
+    },
+    {
+      "image": "rbxassetid://12363772245",
+      "index": 425,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare127New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363772245"
+    },
+    {
+      "image": "rbxassetid://80602762710802",
+      "index": 426,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Shiny Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80602762710802"
+    },
+    {
+      "image": "rbxassetid://109437850690789",
+      "index": 427,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Brush thick lens flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109437850690789"
+    },
+    {
+      "image": "rbxassetid://107218783239396",
+      "index": 428,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Chromatic Horizontal Star Glare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107218783239396"
+    },
+    {
+      "image": "rbxassetid://93412399593195",
+      "index": 429,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "I LE Flare 2",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://93412399593195"
+    },
+    {
+      "image": "rbxassetid://120632222227890",
+      "index": 430,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare90New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120632222227890"
+    },
+    {
+      "image": "rbxassetid://15268038689",
+      "index": 431,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare261New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268038689"
+    },
+    {
+      "image": "rbxassetid://130637938263434",
+      "index": 432,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flashlight flare 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130637938263434"
+    },
+    {
+      "image": "rbxassetid://120135298438407",
+      "index": 433,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Orange Yellow Blue Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120135298438407"
+    },
+    {
+      "image": "rbxassetid://2450830110",
+      "index": 434,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare275New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://2450830110"
+    },
+    {
+      "image": "rbxassetid://103587589332648",
+      "index": 435,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103587589332648"
+    },
+    {
+      "image": "rbxassetid://106376203950677",
+      "index": 436,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Aurora Light Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://106376203950677"
+    },
+    {
+      "image": "rbxassetid://12363774100",
+      "index": 437,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare209New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363774100"
+    },
+    {
+      "image": "rbxassetid://101834145693976",
+      "index": 438,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare328New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101834145693976"
+    },
+    {
+      "image": "rbxassetid://91924863141962",
+      "index": 439,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare120New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91924863141962"
+    },
+    {
+      "image": "rbxassetid://97916973446507",
+      "index": 440,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Shining Needles Lens 4x4",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://97916973446507"
+    },
+    {
+      "image": "rbxassetid://113836714994837",
+      "index": 441,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare13New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113836714994837"
+    },
+    {
+      "image": "rbxassetid://97371691119032",
+      "index": 442,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare146New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://97371691119032"
+    },
+    {
+      "image": "rbxassetid://15773612675",
+      "index": 443,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare240New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15773612675"
+    },
+    {
+      "image": "rbxassetid://13592990832",
+      "index": 444,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare298New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13592990832"
+    },
+    {
+      "image": "rbxassetid://120046753208374",
+      "index": 445,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare64New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120046753208374"
+    },
+    {
+      "image": "rbxassetid://111721470612876",
+      "index": 446,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://111721470612876"
+    },
+    {
+      "image": "rbxassetid://17516584027",
+      "index": 447,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fixed BG Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17516584027"
+    },
+    {
+      "image": "rbxassetid://14128173698",
+      "index": 448,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Light Ray",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14128173698"
+    },
+    {
+      "image": "rbxassetid://114072531901412",
+      "index": 449,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare102New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://114072531901412"
+    },
+    {
+      "image": "rbxassetid://127212984719247",
+      "index": 450,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Horizontal Star Glare 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127212984719247"
+    },
+    {
+      "image": "rbxassetid://129994060389935",
+      "index": 451,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Lines Flipping Lens Flare Colored 4x4",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://129994060389935"
+    },
+    {
+      "image": "rbxassetid://6479253935",
+      "index": 452,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare223New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6479253935"
+    },
+    {
+      "image": "rbxassetid://77075243312272",
+      "index": 453,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare39New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77075243312272"
+    },
+    {
+      "image": "rbxassetid://89114855964748",
+      "index": 454,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare178New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89114855964748"
+    },
+    {
+      "image": "rbxassetid://11037779268",
+      "index": 455,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare224New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037779268"
+    },
+    {
+      "image": "rbxassetid://108523870700360",
+      "index": 456,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare213New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108523870700360"
+    },
+    {
+      "image": "rbxassetid://90032528747821",
+      "index": 457,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90032528747821"
+    },
+    {
+      "image": "rbxassetid://126572421466899",
+      "index": 458,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare84New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://126572421466899"
+    },
+    {
+      "image": "rbxassetid://83106752643223",
+      "index": 459,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flare rays",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://83106752643223"
+    },
+    {
+      "image": "rbxassetid://95620375052549",
+      "index": 460,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare310New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95620375052549"
+    },
+    {
+      "image": "rbxassetid://130404925123421",
+      "index": 461,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Chromatic Lens Flare 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130404925123421"
+    },
+    {
+      "image": "rbxassetid://94403170123238",
+      "index": 462,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Heat Haze Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94403170123238"
+    },
+    {
+      "image": "rbxassetid://74318505783582",
+      "index": 463,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74318505783582"
+    },
+    {
+      "image": "rbxassetid://73357998514538",
+      "index": 464,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73357998514538"
+    },
+    {
+      "image": "rbxassetid://129722235279428",
+      "index": 465,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Faint Smoke Lens Flare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://129722235279428"
+    },
+    {
+      "image": "rbxassetid://122433783640851",
+      "index": 466,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Glass Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122433783640851"
+    },
+    {
+      "image": "rbxassetid://130290497687783",
+      "index": 467,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare188New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130290497687783"
+    },
+    {
+      "image": "rbxassetid://98997258924169",
+      "index": 468,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare262New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://98997258924169"
+    },
+    {
+      "image": "rbxassetid://86117914137091",
+      "index": 469,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare74New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86117914137091"
+    },
+    {
+      "image": "rbxassetid://12363774696",
+      "index": 470,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare145New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363774696"
+    },
+    {
+      "image": "rbxassetid://76762837282815",
+      "index": 471,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flares10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76762837282815"
+    },
+    {
+      "image": "rbxassetid://102705308828939",
+      "index": 472,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare98New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102705308828939"
+    },
+    {
+      "image": "rbxassetid://131200035872268",
+      "index": 473,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare72New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131200035872268"
+    },
+    {
+      "image": "rbxassetid://77175472660280",
+      "index": 474,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Thick Needles Lens 8x8",
+      "rect_offset": [
+        384,
+        0
+      ],
+      "raw_uri": "rbxassetid://77175472660280"
+    },
+    {
+      "image": "rbxassetid://11037778045",
+      "index": 475,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare206New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037778045"
+    },
+    {
+      "image": "rbxassetid://104869291472637",
+      "index": 476,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Warm Yellow Glare",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104869291472637"
+    },
+    {
+      "image": "rbxassetid://116290519878412",
+      "index": 477,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare86New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116290519878412"
+    },
+    {
+      "image": "rbxassetid://15267968986",
+      "index": 478,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare177New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15267968986"
+    },
+    {
+      "image": "rbxassetid://74612287108619",
+      "index": 479,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Rainbow Radial Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74612287108619"
+    },
+    {
+      "image": "rbxassetid://82564959576536",
+      "index": 480,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flare95New",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82564959576536"
+    }
+  ],
+  "search": "",
+  "window_height": 850,
+  "active_filter": "flare",
+  "missing_indexes": []
+}

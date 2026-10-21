@@ -1,0 +1,47 @@
+{
+  "Energy": {
+    "json": "tags/Energy-f2fcd3f7.json",
+    "csv": "tags/Energy-f2fcd3f7.csv",
+    "count": 54
+  },
+  "Fire": {
+    "json": "tags/Fire-c141faa8.json",
+    "csv": "tags/Fire-c141faa8.csv",
+    "count": 9
+  },
+  "Lightning": {
+    "json": "tags/Lightning-41e68f2c.json",
+    "csv": "tags/Lightning-41e68f2c.csv",
+    "count": 31
+  },
+  "Other": {
+    "json": "tags/Other-f97e9da0.json",
+    "csv": "tags/Other-f97e9da0.csv",
+    "count": 220
+  },
+  "Shockwave": {
+    "json": "tags/Shockwave-6da37aae.json",
+    "csv": "tags/Shockwave-6da37aae.csv",
+    "count": 13
+  },
+  "Smoke": {
+    "json": "tags/Smoke-29b52bfc.json",
+    "csv": "tags/Smoke-29b52bfc.csv",
+    "count": 41
+  },
+  "Spiral": {
+    "json": "tags/Spiral-1157209c.json",
+    "csv": "tags/Spiral-1157209c.csv",
+    "count": 29
+  },
+  "Trail": {
+    "json": "tags/Trail-e2c8d39b.json",
+    "csv": "tags/Trail-e2c8d39b.csv",
+    "count": 35
+  },
+  "Water": {
+    "json": "tags/Water-7ca7dea9.json",
+    "csv": "tags/Water-7ca7dea9.csv",
+    "count": 16
+  }
+}

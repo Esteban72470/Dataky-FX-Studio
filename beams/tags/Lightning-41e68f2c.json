@@ -1,0 +1,2021 @@
+[
+  {
+    "key": "c1f4bb4344ffe59eefd1cc96",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam56",
+    "asset_id": "84287809712244",
+    "uri": "rbxassetid://84287809712244",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://84287809712244",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://84287809712244"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "84287809712244",
+        "uri": "rbxassetid://84287809712244",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://84287809712244",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 334,
+        "raw_uri": "rbxassetid://84287809712244",
+        "image": "rbxassetid://84287809712244",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 26,
+        "raw_uri": "rbxassetid://84287809712244",
+        "image": "rbxassetid://84287809712244",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/84287809712244.png",
+    "preview_path": "images/84287809712244.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 147,
+    "height": 420
+  },
+  {
+    "key": "21c4a6fc1b994feef1cfbd30",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam64",
+    "asset_id": "135250428476560",
+    "uri": "rbxassetid://135250428476560",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://135250428476560",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://135250428476560"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "135250428476560",
+        "uri": "rbxassetid://135250428476560",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://135250428476560",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 411,
+        "raw_uri": "rbxassetid://135250428476560",
+        "image": "rbxassetid://135250428476560",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 30,
+        "raw_uri": "rbxassetid://135250428476560",
+        "image": "rbxassetid://135250428476560",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/135250428476560.png",
+    "preview_path": "images/135250428476560.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "14523944113acc11835e867f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam65",
+    "asset_id": "125283151882051",
+    "uri": "rbxassetid://125283151882051",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://125283151882051",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://125283151882051"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "125283151882051",
+        "uri": "rbxassetid://125283151882051",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://125283151882051",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 294,
+        "raw_uri": "rbxassetid://125283151882051",
+        "image": "rbxassetid://125283151882051",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 24,
+        "raw_uri": "rbxassetid://125283151882051",
+        "image": "rbxassetid://125283151882051",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [
+      "BeamNew44"
+    ],
+    "image_path": "images/125283151882051.png",
+    "preview_path": "images/125283151882051.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "cb5014da678a586888396b4b",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBasic white beam",
+    "asset_id": "18664874807",
+    "uri": "rbxassetid://18664874807",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18664874807",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://18664874807"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "18664874807",
+        "uri": "rbxassetid://18664874807",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://18664874807",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 251,
+        "raw_uri": "rbxassetid://18664874807",
+        "image": "rbxassetid://18664874807",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 21,
+        "raw_uri": "rbxassetid://18664874807",
+        "image": "rbxassetid://18664874807",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/18664874807.png",
+    "preview_path": "images/18664874807.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a4d1f0dbd9d89f6ecbd7f3ae",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBasic white lightning",
+    "asset_id": "18664848453",
+    "uri": "rbxassetid://18664848453",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18664848453",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://18664848453"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "18664848453",
+        "uri": "rbxassetid://18664848453",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://18664848453",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 298,
+        "raw_uri": "rbxassetid://18664848453",
+        "image": "rbxassetid://18664848453",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 25,
+        "raw_uri": "rbxassetid://18664848453",
+        "image": "rbxassetid://18664848453",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/18664848453.png",
+    "preview_path": "images/18664848453.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "62bb351de07c2f8e268c693d",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBeginning wave",
+    "asset_id": "14995083532",
+    "uri": "rbxassetid://14995083532",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14995083532",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14995083532"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14995083532",
+        "uri": "rbxassetid://14995083532",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14995083532",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 245,
+        "raw_uri": "rbxassetid://14995083532",
+        "image": "rbxassetid://14995083532",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 20,
+        "raw_uri": "rbxassetid://14995083532",
+        "image": "rbxassetid://14995083532",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14995083532.png",
+    "preview_path": "images/14995083532.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d23d48bafb759a593068de89",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamComplex lightning",
+    "asset_id": "115898546452461",
+    "uri": "rbxassetid://115898546452461",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://115898546452461",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://115898546452461"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "115898546452461",
+        "uri": "rbxassetid://115898546452461",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://115898546452461",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 119,
+        "raw_uri": "rbxassetid://115898546452461",
+        "image": "rbxassetid://115898546452461",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 5,
+        "raw_uri": "rbxassetid://115898546452461",
+        "image": "rbxassetid://115898546452461",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/115898546452461.png",
+    "preview_path": "images/115898546452461.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f9d506410a402c112a9e5e15",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCompressed thin lightning",
+    "asset_id": "9632171388",
+    "uri": "rbxassetid://9632171388",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://9632171388",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://9632171388"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "9632171388",
+        "uri": "rbxassetid://9632171388",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://9632171388",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 141,
+        "raw_uri": "rbxassetid://9632171388",
+        "image": "rbxassetid://9632171388",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 9,
+        "raw_uri": "rbxassetid://9632171388",
+        "image": "rbxassetid://9632171388",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/9632171388.png",
+    "preview_path": "images/9632171388.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b4b0f03f09bf4a12dafef84d",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCondensed Lightning",
+    "asset_id": "14050918169",
+    "uri": "rbxassetid://14050918169",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14050918169",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14050918169"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14050918169",
+        "uri": "rbxassetid://14050918169",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14050918169",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 256,
+        "raw_uri": "rbxassetid://14050918169",
+        "image": "rbxassetid://14050918169",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 22,
+        "raw_uri": "rbxassetid://14050918169",
+        "image": "rbxassetid://14050918169",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14050918169.png",
+    "preview_path": "images/14050918169.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "66ba235ff30f0d503c330d4b",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCrunchy lightning",
+    "asset_id": "9632166076",
+    "uri": "rbxassetid://9632166076",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://9632166076",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://9632166076"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "9632166076",
+        "uri": "rbxassetid://9632166076",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://9632166076",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 135,
+        "raw_uri": "rbxassetid://9632166076",
+        "image": "rbxassetid://9632166076",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 8,
+        "raw_uri": "rbxassetid://9632166076",
+        "image": "rbxassetid://9632166076",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/9632166076.png",
+    "preview_path": "images/9632166076.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ef293de0ff833d798c90db86",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamGlowing Lightning",
+    "asset_id": "84674883958330",
+    "uri": "rbxassetid://84674883958330",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://84674883958330",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://84674883958330"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "84674883958330",
+        "uri": "rbxassetid://84674883958330",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://84674883958330",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 205,
+        "raw_uri": "rbxassetid://84674883958330",
+        "image": "rbxassetid://84674883958330",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 15,
+        "raw_uri": "rbxassetid://84674883958330",
+        "image": "rbxassetid://84674883958330",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/84674883958330.png",
+    "preview_path": "images/84674883958330.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7cbb4de70c89a2612f424e15",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLightning 34",
+    "asset_id": "100135964576058",
+    "uri": "rbxassetid://100135964576058",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://100135964576058",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://100135964576058"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "100135964576058",
+        "uri": "rbxassetid://100135964576058",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://100135964576058",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 118,
+        "raw_uri": "rbxassetid://100135964576058",
+        "image": "rbxassetid://100135964576058",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 4,
+        "raw_uri": "rbxassetid://100135964576058",
+        "image": "rbxassetid://100135964576058",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/100135964576058.png",
+    "preview_path": "images/100135964576058.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "f17a5b172706507ac8786147",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLightning Beam Fade",
+    "asset_id": "16616706916",
+    "uri": "rbxassetid://16616706916",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16616706916",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16616706916"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16616706916",
+        "uri": "rbxassetid://16616706916",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16616706916",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 227,
+        "raw_uri": "rbxassetid://16616706916",
+        "image": "rbxassetid://16616706916",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 18,
+        "raw_uri": "rbxassetid://16616706916",
+        "image": "rbxassetid://16616706916",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16616706916.png",
+    "preview_path": "images/16616706916.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 147,
+    "height": 420
+  },
+  {
+    "key": "9b8e46dc8e15eef6cde341b5",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLightning Clip",
+    "asset_id": "7216850022",
+    "uri": "rbxassetid://7216850022",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://7216850022",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://7216850022"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "7216850022",
+        "uri": "rbxassetid://7216850022",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://7216850022",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 113,
+        "raw_uri": "rbxassetid://7216850022",
+        "image": "rbxassetid://7216850022",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 3,
+        "raw_uri": "rbxassetid://7216850022",
+        "image": "rbxassetid://7216850022",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/7216850022.png",
+    "preview_path": "images/7216850022.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4a9a958a4bba42ebb27d6bac",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLightning Simple",
+    "asset_id": "14050984567",
+    "uri": "rbxassetid://14050984567",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14050984567",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14050984567"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14050984567",
+        "uri": "rbxassetid://14050984567",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14050984567",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 143,
+        "raw_uri": "rbxassetid://14050984567",
+        "image": "rbxassetid://14050984567",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 10,
+        "raw_uri": "rbxassetid://14050984567",
+        "image": "rbxassetid://14050984567",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14050984567.png",
+    "preview_path": "images/14050984567.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "d125100f174ca5ae8b84d75e",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLightning Wave",
+    "asset_id": "98014182864762",
+    "uri": "rbxassetid://98014182864762",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://98014182864762",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://98014182864762"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "98014182864762",
+        "uri": "rbxassetid://98014182864762",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://98014182864762",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 440,
+        "raw_uri": "rbxassetid://98014182864762",
+        "image": "rbxassetid://98014182864762",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 31,
+        "raw_uri": "rbxassetid://98014182864762",
+        "image": "rbxassetid://98014182864762",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/98014182864762.png",
+    "preview_path": "images/98014182864762.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b8d924d3018154147697cb51",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLightning Wide",
+    "asset_id": "1277456789",
+    "uri": "rbxassetid://1277456789",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1277456789",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1277456789"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "1277456789",
+        "uri": "rbxassetid://1277456789",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1277456789",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 230,
+        "raw_uri": "rbxassetid://1277456789",
+        "image": "rbxassetid://1277456789",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 19,
+        "raw_uri": "rbxassetid://1277456789",
+        "image": "rbxassetid://1277456789",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1277456789.png",
+    "preview_path": "images/1277456789.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a0f404fb5cf0097972a11134",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew10",
+    "asset_id": "123209614620605",
+    "uri": "rbxassetid://123209614620605",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://123209614620605",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://123209614620605"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "123209614620605",
+        "uri": "rbxassetid://123209614620605",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://123209614620605",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 290,
+        "raw_uri": "rbxassetid://123209614620605",
+        "image": "rbxassetid://123209614620605",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 23,
+        "raw_uri": "rbxassetid://123209614620605",
+        "image": "rbxassetid://123209614620605",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/123209614620605.png",
+    "preview_path": "images/123209614620605.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 118,
+    "height": 420
+  },
+  {
+    "key": "3140d49ab16434eed521bbb5",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew12",
+    "asset_id": "119588180395545",
+    "uri": "rbxassetid://119588180395545",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://119588180395545",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://119588180395545"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "119588180395545",
+        "uri": "rbxassetid://119588180395545",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://119588180395545",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 377,
+        "raw_uri": "rbxassetid://119588180395545",
+        "image": "rbxassetid://119588180395545",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 28,
+        "raw_uri": "rbxassetid://119588180395545",
+        "image": "rbxassetid://119588180395545",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/119588180395545.png",
+    "preview_path": "images/119588180395545.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "8c51d9f29faea0cccd467c30",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew16",
+    "asset_id": "73412414750929",
+    "uri": "rbxassetid://73412414750929",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://73412414750929",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://73412414750929"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "73412414750929",
+        "uri": "rbxassetid://73412414750929",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://73412414750929",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 449,
+        "raw_uri": "rbxassetid://73412414750929",
+        "image": "rbxassetid://73412414750929",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 33,
+        "raw_uri": "rbxassetid://73412414750929",
+        "image": "rbxassetid://73412414750929",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/73412414750929.png",
+    "preview_path": "images/73412414750929.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "a5873b84134ed5cfb8ed04d7",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew27",
+    "asset_id": "96941693638745",
+    "uri": "rbxassetid://96941693638745",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://96941693638745",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://96941693638745"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "96941693638745",
+        "uri": "rbxassetid://96941693638745",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://96941693638745",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 448,
+        "raw_uri": "rbxassetid://96941693638745",
+        "image": "rbxassetid://96941693638745",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 32,
+        "raw_uri": "rbxassetid://96941693638745",
+        "image": "rbxassetid://96941693638745",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/96941693638745.png",
+    "preview_path": "images/96941693638745.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "4a30f7130ccee8ef3e32bb56",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew29",
+    "asset_id": "140270052807018",
+    "uri": "rbxassetid://140270052807018",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://140270052807018",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://140270052807018"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "140270052807018",
+        "uri": "rbxassetid://140270052807018",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://140270052807018",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 132,
+        "raw_uri": "rbxassetid://140270052807018",
+        "image": "rbxassetid://140270052807018",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 7,
+        "raw_uri": "rbxassetid://140270052807018",
+        "image": "rbxassetid://140270052807018",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/140270052807018.png",
+    "preview_path": "images/140270052807018.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "ca53c2a8ef3fcb87f7eca602",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew44",
+    "asset_id": "125283151882051",
+    "uri": "rbxassetid://125283151882051",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://125283151882051",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://125283151882051"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "125283151882051",
+        "uri": "rbxassetid://125283151882051",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://125283151882051",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 214,
+        "raw_uri": "rbxassetid://125283151882051",
+        "image": "rbxassetid://125283151882051",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 16,
+        "raw_uri": "rbxassetid://125283151882051",
+        "image": "rbxassetid://125283151882051",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [
+      "Beam65"
+    ],
+    "image_path": "images/125283151882051.png",
+    "preview_path": "images/125283151882051.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "c8ca3f763823d5cf71efe9be",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNo shadow",
+    "asset_id": "16616702945",
+    "uri": "rbxassetid://16616702945",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16616702945",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16616702945"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16616702945",
+        "uri": "rbxassetid://16616702945",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16616702945",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 398,
+        "raw_uri": "rbxassetid://16616702945",
+        "image": "rbxassetid://16616702945",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 29,
+        "raw_uri": "rbxassetid://16616702945",
+        "image": "rbxassetid://16616702945",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16616702945.png",
+    "preview_path": "images/16616702945.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "c12ce21414e03abc777ed187",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamShadow glow lightning",
+    "asset_id": "7151777149",
+    "uri": "rbxassetid://7151777149",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://7151777149",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://7151777149"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "7151777149",
+        "uri": "rbxassetid://7151777149",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://7151777149",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 196,
+        "raw_uri": "rbxassetid://7151777149",
+        "image": "rbxassetid://7151777149",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 14,
+        "raw_uri": "rbxassetid://7151777149",
+        "image": "rbxassetid://7151777149",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/7151777149.png",
+    "preview_path": "images/7151777149.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 117,
+    "height": 420
+  },
+  {
+    "key": "611d8784917d979ce9ca2a58",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamShadow lightning",
+    "asset_id": "16616694813",
+    "uri": "rbxassetid://16616694813",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16616694813",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16616694813"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16616694813",
+        "uri": "rbxassetid://16616694813",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16616694813",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 124,
+        "raw_uri": "rbxassetid://16616694813",
+        "image": "rbxassetid://16616694813",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 6,
+        "raw_uri": "rbxassetid://16616694813",
+        "image": "rbxassetid://16616694813",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16616694813.png",
+    "preview_path": "images/16616694813.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 118,
+    "height": 420
+  },
+  {
+    "key": "4a03a06412299a292eefd059",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamThicker Lightning",
+    "asset_id": "98120065151029",
+    "uri": "rbxassetid://98120065151029",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://98120065151029",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://98120065151029"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "98120065151029",
+        "uri": "rbxassetid://98120065151029",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://98120065151029",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 189,
+        "raw_uri": "rbxassetid://98120065151029",
+        "image": "rbxassetid://98120065151029",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 12,
+        "raw_uri": "rbxassetid://98120065151029",
+        "image": "rbxassetid://98120065151029",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/98120065151029.png",
+    "preview_path": "images/98120065151029.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a2286d1041f2ece800c91944",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamThin Lightning",
+    "asset_id": "15270205079",
+    "uri": "rbxassetid://15270205079",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15270205079",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15270205079"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15270205079",
+        "uri": "rbxassetid://15270205079",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15270205079",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 158,
+        "raw_uri": "rbxassetid://15270205079",
+        "image": "rbxassetid://15270205079",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 11,
+        "raw_uri": "rbxassetid://15270205079",
+        "image": "rbxassetid://15270205079",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15270205079.png",
+    "preview_path": "images/15270205079.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c4c56046776139ace40dc18a",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamThinner lightning",
+    "asset_id": "7151842823",
+    "uri": "rbxassetid://7151842823",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://7151842823",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://7151842823"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "7151842823",
+        "uri": "rbxassetid://7151842823",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://7151842823",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 222,
+        "raw_uri": "rbxassetid://7151842823",
+        "image": "rbxassetid://7151842823",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 17,
+        "raw_uri": "rbxassetid://7151842823",
+        "image": "rbxassetid://7151842823",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/7151842823.png",
+    "preview_path": "images/7151842823.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 117,
+    "height": 420
+  },
+  {
+    "key": "1163cf1af3a36344f81020de",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamTwo Lightning",
+    "asset_id": "15954898244",
+    "uri": "rbxassetid://15954898244",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15954898244",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15954898244"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15954898244",
+        "uri": "rbxassetid://15954898244",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15954898244",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 370,
+        "raw_uri": "rbxassetid://15954898244",
+        "image": "rbxassetid://15954898244",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 27,
+        "raw_uri": "rbxassetid://15954898244",
+        "image": "rbxassetid://15954898244",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15954898244.png",
+    "preview_path": "images/15954898244.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f717ce11d4f3085046ebefd6",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamUpward lightning",
+    "asset_id": "1277447946",
+    "uri": "rbxassetid://1277447946",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1277447946",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1277447946"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "1277447946",
+        "uri": "rbxassetid://1277447946",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1277447946",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 192,
+        "raw_uri": "rbxassetid://1277447946",
+        "image": "rbxassetid://1277447946",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Lightning",
+        "index": 13,
+        "raw_uri": "rbxassetid://1277447946",
+        "image": "rbxassetid://1277447946",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1277447946.png",
+    "preview_path": "images/1277447946.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

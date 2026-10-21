@@ -1,0 +1,3299 @@
+[
+  {
+    "key": "3d635bce94e501e9b248e3f1",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Big Windmill Spiral",
+    "asset_id": "6494542261",
+    "uri": "rbxassetid://6494542261",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494542261",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494542261"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494542261",
+        "uri": "rbxassetid://6494542261",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494542261",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 122,
+        "raw_uri": "rbxassetid://6494542261",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494542261",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494542261",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 33,
+        "raw_uri": "rbxassetid://6494542261",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494542261",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494542261",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494542261.png",
+    "preview_path": "images/6494542261.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8cb283e56b54e24ebc8bd05a",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Complex Spring",
+    "asset_id": "4041733635",
+    "uri": "rbxassetid://4041733635",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4041733635",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4041733635"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4041733635",
+        "uri": "rbxassetid://4041733635",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4041733635",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 78,
+        "raw_uri": "rbxassetid://4041733635",
+        "image": "",
+        "mesh_uri": "rbxassetid://4041733635",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4041733635",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 18,
+        "raw_uri": "rbxassetid://4041733635",
+        "image": "",
+        "mesh_uri": "rbxassetid://4041733635",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4041733635",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4041733635.png",
+    "preview_path": "images/4041733635.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "329ca416ae1941e253fef132",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Cone",
+    "asset_id": "5926727048",
+    "uri": "rbxassetid://5926727048",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5926727048",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5926727048"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5926727048",
+        "uri": "rbxassetid://5926727048",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5926727048",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 29,
+        "raw_uri": "rbxassetid://5926727048",
+        "image": "",
+        "mesh_uri": "rbxassetid://5926727048",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5926727048",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 9,
+        "raw_uri": "rbxassetid://5926727048",
+        "image": "",
+        "mesh_uri": "rbxassetid://5926727048",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5926727048",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5926727048.png",
+    "preview_path": "images/5926727048.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b862e5dda13274218fb973f2",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Curling Spring",
+    "asset_id": "903178515",
+    "uri": "rbxassetid://903178515",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://903178515",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://903178515"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "903178515",
+        "uri": "rbxassetid://903178515",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://903178515",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 144,
+        "raw_uri": "rbxassetid://903178515",
+        "image": "",
+        "mesh_uri": "rbxassetid://903178515",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://903178515",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 42,
+        "raw_uri": "rbxassetid://903178515",
+        "image": "",
+        "mesh_uri": "rbxassetid://903178515",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://903178515",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thick Whirl"
+    ],
+    "image_path": "images/903178515.png",
+    "preview_path": "images/903178515.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "306193549717dfcfe0d7e779",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Cylinder Spiral",
+    "asset_id": "6063631009",
+    "uri": "rbxassetid://6063631009",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6063631009",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6063631009"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6063631009",
+        "uri": "rbxassetid://6063631009",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6063631009",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 130,
+        "raw_uri": "rbxassetid://6063631009",
+        "image": "",
+        "mesh_uri": "rbxassetid://6063631009",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6063631009",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 38,
+        "raw_uri": "rbxassetid://6063631009",
+        "image": "",
+        "mesh_uri": "rbxassetid://6063631009",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6063631009",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thin Detailed Cylinder"
+    ],
+    "image_path": "images/6063631009.png",
+    "preview_path": "images/6063631009.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "aa2819ccb6cd4f1fa95ff10a",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Detailed Cylinder",
+    "asset_id": "4558726590",
+    "uri": "rbxassetid://4558726590",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4558726590",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4558726590"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4558726590",
+        "uri": "rbxassetid://4558726590",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4558726590",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 66,
+        "raw_uri": "rbxassetid://4558726590",
+        "image": "",
+        "mesh_uri": "rbxassetid://4558726590",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4558726590",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 14,
+        "raw_uri": "rbxassetid://4558726590",
+        "image": "",
+        "mesh_uri": "rbxassetid://4558726590",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4558726590",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Shockwaves"
+    ],
+    "image_path": "images/4558726590.png",
+    "preview_path": "images/4558726590.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6c4c9c172021dc8c7a743af5",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Downward Spiral",
+    "asset_id": "6494556524",
+    "uri": "rbxassetid://6494556524",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494556524",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494556524"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494556524",
+        "uri": "rbxassetid://6494556524",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494556524",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 79,
+        "raw_uri": "rbxassetid://6494556524",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494556524",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494556524",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 19,
+        "raw_uri": "rbxassetid://6494556524",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494556524",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494556524",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494556524.png",
+    "preview_path": "images/6494556524.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e65f80e52a8690a920f329d5",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Empty Tornado",
+    "asset_id": "5922911757",
+    "uri": "rbxassetid://5922911757",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5922911757",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5922911757"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5922911757",
+        "uri": "rbxassetid://5922911757",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5922911757",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 110,
+        "raw_uri": "rbxassetid://5922911757",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922911757",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922911757",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 26,
+        "raw_uri": "rbxassetid://5922911757",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922911757",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922911757",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5922911757.png",
+    "preview_path": "images/5922911757.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1c9debbc80e9377effab2f6d",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Energy Ring",
+    "asset_id": "6494551359",
+    "uri": "rbxassetid://6494551359",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494551359",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494551359"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494551359",
+        "uri": "rbxassetid://6494551359",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494551359",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 111,
+        "raw_uri": "rbxassetid://6494551359",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494551359",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494551359",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 27,
+        "raw_uri": "rbxassetid://6494551359",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494551359",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494551359",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494551359.png",
+    "preview_path": "images/6494551359.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a1df126c27c11bc2e248dc23",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Energy Spiral",
+    "asset_id": "6553036976",
+    "uri": "rbxassetid://6553036976",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553036976",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553036976"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553036976",
+        "uri": "rbxassetid://6553036976",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553036976",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 145,
+        "raw_uri": "rbxassetid://6553036976",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553036976",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553036976",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 43,
+        "raw_uri": "rbxassetid://6553036976",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553036976",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553036976",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553036976.png",
+    "preview_path": "images/6553036976.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3c28b08cc77075c838b60014",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Energy Wind Spiral",
+    "asset_id": "6063634156",
+    "uri": "rbxassetid://6063634156",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6063634156",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6063634156"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6063634156",
+        "uri": "rbxassetid://6063634156",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6063634156",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 80,
+        "raw_uri": "rbxassetid://6063634156",
+        "image": "",
+        "mesh_uri": "rbxassetid://6063634156",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6063634156",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 20,
+        "raw_uri": "rbxassetid://6063634156",
+        "image": "",
+        "mesh_uri": "rbxassetid://6063634156",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6063634156",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6063634156.png",
+    "preview_path": "images/6063634156.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "261b8aa8d562dd042d1d66cf",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inside Out Swirl",
+    "asset_id": "4313233873",
+    "uri": "rbxassetid://4313233873",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4313233873",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4313233873"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4313233873",
+        "uri": "rbxassetid://4313233873",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4313233873",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 68,
+        "raw_uri": "rbxassetid://4313233873",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313233873",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313233873",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 15,
+        "raw_uri": "rbxassetid://4313233873",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313233873",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313233873",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thicker Spiral Shockwave"
+    ],
+    "image_path": "images/4313233873.png",
+    "preview_path": "images/4313233873.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5bad6025493df64ade8bbe37",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inside Out Tornado",
+    "asset_id": "6494560271",
+    "uri": "rbxassetid://6494560271",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494560271",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494560271"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494560271",
+        "uri": "rbxassetid://6494560271",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494560271",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 17,
+        "raw_uri": "rbxassetid://6494560271",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494560271",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494560271",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 4,
+        "raw_uri": "rbxassetid://6494560271",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494560271",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494560271",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Inside Out Tornado 2"
+    ],
+    "image_path": "images/6494560271.png",
+    "preview_path": "images/6494560271.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ed6ccfe7cbb0ce40fe9291d8",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inside Out Tornado 2",
+    "asset_id": "6494560271",
+    "uri": "rbxassetid://6494560271",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494560271",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494560271"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494560271",
+        "uri": "rbxassetid://6494560271",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494560271",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 44,
+        "raw_uri": "rbxassetid://6494560271",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494560271",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494560271",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 11,
+        "raw_uri": "rbxassetid://6494560271",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494560271",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494560271",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Inside Out Tornado"
+    ],
+    "image_path": "images/6494560271.png",
+    "preview_path": "images/6494560271.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a2cdbd1dd3717319a45f813e",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Layered Swirl",
+    "asset_id": "6494555988",
+    "uri": "rbxassetid://6494555988",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494555988",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494555988"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494555988",
+        "uri": "rbxassetid://6494555988",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494555988",
+        "uri_parse_method": "rbxassetid"
+      },
+      {
+        "label": "TextureId",
+        "asset_id": "130128142732017",
+        "uri": "rbxassetid://130128142732017",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://130128142732017",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 117,
+        "raw_uri": "rbxassetid://6494555988",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494555988",
+        "texture_uri": "rbxassetid://130128142732017",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494555988",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://130128142732017",
+            "label": "TextureId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 30,
+        "raw_uri": "rbxassetid://6494555988",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494555988",
+        "texture_uri": "rbxassetid://130128142732017",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494555988",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://130128142732017",
+            "label": "TextureId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494555988.png",
+    "preview_path": "images/6494555988.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e48d0b5c082a690dadf6c59a",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Layered Tornado",
+    "asset_id": "437326965",
+    "uri": "rbxassetid://437326965",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://437326965",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://437326965"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "437326965",
+        "uri": "rbxassetid://437326965",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://437326965",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 101,
+        "raw_uri": "rbxassetid://437326965",
+        "image": "",
+        "mesh_uri": "rbxassetid://437326965",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://437326965",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 24,
+        "raw_uri": "rbxassetid://437326965",
+        "image": "",
+        "mesh_uri": "rbxassetid://437326965",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://437326965",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/437326965.png",
+    "preview_path": "images/437326965.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6ecc32a0edab1d0dcb7dd9d7",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Less Detailed Cylinder",
+    "asset_id": "16606212",
+    "uri": "rbxassetid://16606212",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16606212",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16606212"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "16606212",
+        "uri": "rbxassetid://16606212",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16606212",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 124,
+        "raw_uri": "rbxassetid://16606212",
+        "image": "",
+        "mesh_uri": "rbxassetid://16606212",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://16606212",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 35,
+        "raw_uri": "rbxassetid://16606212",
+        "image": "",
+        "mesh_uri": "rbxassetid://16606212",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://16606212",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Spring"
+    ],
+    "image_path": "images/16606212.png",
+    "preview_path": "images/16606212.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ae066ef96d3f5a945fc5d84a",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Long Shockwave",
+    "asset_id": "5922651594",
+    "uri": "rbxassetid://5922651594",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5922651594",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5922651594"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5922651594",
+        "uri": "rbxassetid://5922651594",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5922651594",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 26,
+        "raw_uri": "rbxassetid://5922651594",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922651594",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922651594",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 8,
+        "raw_uri": "rbxassetid://5922651594",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922651594",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922651594",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5922651594.png",
+    "preview_path": "images/5922651594.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "cf8ada30bf29350b1a8220fd",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Long Spiral",
+    "asset_id": "5922651425",
+    "uri": "rbxassetid://5922651425",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5922651425",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5922651425"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5922651425",
+        "uri": "rbxassetid://5922651425",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5922651425",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 83,
+        "raw_uri": "rbxassetid://5922651425",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922651425",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922651425",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 21,
+        "raw_uri": "rbxassetid://5922651425",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922651425",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922651425",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5922651425.png",
+    "preview_path": "images/5922651425.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6247850adcac3f7b9328baf7",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Reverse Tornado",
+    "asset_id": "6494565695",
+    "uri": "rbxassetid://6494565695",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494565695",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494565695"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494565695",
+        "uri": "rbxassetid://6494565695",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494565695",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 155,
+        "raw_uri": "rbxassetid://6494565695",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494565695",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494565695",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 45,
+        "raw_uri": "rbxassetid://6494565695",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494565695",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494565695",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494565695.png",
+    "preview_path": "images/6494565695.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3c0ce0832df9f6e0fba2efb4",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Simple Thick Spring",
+    "asset_id": "1051557",
+    "uri": "rbxassetid://1051557",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1051557",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1051557"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1051557",
+        "uri": "rbxassetid://1051557",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1051557",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 55,
+        "raw_uri": "rbxassetid://1051557",
+        "image": "",
+        "mesh_uri": "rbxassetid://1051557",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1051557",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 12,
+        "raw_uri": "rbxassetid://1051557",
+        "image": "",
+        "mesh_uri": "rbxassetid://1051557",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1051557",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Spiral"
+    ],
+    "image_path": "images/1051557.png",
+    "preview_path": "images/1051557.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b3afa21ef48bdf8dbccb5474",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Spiral",
+    "asset_id": "1051557",
+    "uri": "rbxassetid://1051557",
+    "id_status": "valid",
+    "normalization_warnings": [
+      "normalized_uri"
+    ],
+    "raw_uri": "http://www.roblox.com/asset/?id=1051557",
+    "uri_parse_method": "query_id",
+    "raw_uris": [
+      "http://www.roblox.com/asset/?id=1051557"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1051557",
+        "uri": "rbxassetid://1051557",
+        "id_status": "valid",
+        "normalization_warnings": [
+          "normalized_uri"
+        ],
+        "raw_uri": "http://www.roblox.com/asset/?id=1051557",
+        "uri_parse_method": "query_id"
+      },
+      {
+        "label": "TextureId",
+        "asset_id": "98468789881853",
+        "uri": "rbxassetid://98468789881853",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://98468789881853",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 148,
+        "raw_uri": "http://www.roblox.com/asset/?id=1051557",
+        "image": "",
+        "mesh_uri": "http://www.roblox.com/asset/?id=1051557",
+        "texture_uri": "rbxassetid://98468789881853",
+        "references": [
+          {
+            "raw_uri": "http://www.roblox.com/asset/?id=1051557",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://98468789881853",
+            "label": "TextureId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 44,
+        "raw_uri": "http://www.roblox.com/asset/?id=1051557",
+        "image": "",
+        "mesh_uri": "http://www.roblox.com/asset/?id=1051557",
+        "texture_uri": "rbxassetid://98468789881853",
+        "references": [
+          {
+            "raw_uri": "http://www.roblox.com/asset/?id=1051557",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://98468789881853",
+            "label": "TextureId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Simple Thick Spring"
+    ],
+    "image_path": "images/1051557.png",
+    "preview_path": "images/1051557.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "40c8c7f89c2b96d943eb85f8",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Spring",
+    "asset_id": "16606212",
+    "uri": "rbxassetid://16606212",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16606212",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16606212"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "16606212",
+        "uri": "rbxassetid://16606212",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16606212",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 22,
+        "raw_uri": "rbxassetid://16606212",
+        "image": "",
+        "mesh_uri": "rbxassetid://16606212",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://16606212",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 6,
+        "raw_uri": "rbxassetid://16606212",
+        "image": "",
+        "mesh_uri": "rbxassetid://16606212",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://16606212",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Less Detailed Cylinder"
+    ],
+    "image_path": "images/16606212.png",
+    "preview_path": "images/16606212.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "28e0e554d34e3e851290204a",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Swirled Spiral",
+    "asset_id": "5696416905",
+    "uri": "rbxassetid://5696416905",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5696416905",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5696416905"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5696416905",
+        "uri": "rbxassetid://5696416905",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5696416905",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 112,
+        "raw_uri": "rbxassetid://5696416905",
+        "image": "",
+        "mesh_uri": "rbxassetid://5696416905",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5696416905",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 28,
+        "raw_uri": "rbxassetid://5696416905",
+        "image": "",
+        "mesh_uri": "rbxassetid://5696416905",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5696416905",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Upwards Spiral"
+    ],
+    "image_path": "images/5696416905.png",
+    "preview_path": "images/5696416905.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "cceea0be88461e6b598903d1",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Tall Spiral",
+    "asset_id": "6494549693",
+    "uri": "rbxassetid://6494549693",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494549693",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494549693"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494549693",
+        "uri": "rbxassetid://6494549693",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494549693",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 109,
+        "raw_uri": "rbxassetid://6494549693",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494549693",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494549693",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 25,
+        "raw_uri": "rbxassetid://6494549693",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494549693",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494549693",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494549693.png",
+    "preview_path": "images/6494549693.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b3cd2a300581c90f735d7585",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Spring",
+    "asset_id": "4461104675",
+    "uri": "rbxassetid://4461104675",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4461104675",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4461104675"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4461104675",
+        "uri": "rbxassetid://4461104675",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4461104675",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 123,
+        "raw_uri": "rbxassetid://4461104675",
+        "image": "",
+        "mesh_uri": "rbxassetid://4461104675",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4461104675",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 34,
+        "raw_uri": "rbxassetid://4461104675",
+        "image": "",
+        "mesh_uri": "rbxassetid://4461104675",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4461104675",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Simple Flat Shockwave"
+    ],
+    "image_path": "images/4461104675.png",
+    "preview_path": "images/4461104675.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "11171043fd5b01a3ffda16da",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Tornado",
+    "asset_id": "5922912225",
+    "uri": "rbxassetid://5922912225",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5922912225",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5922912225"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5922912225",
+        "uri": "rbxassetid://5922912225",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5922912225",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3,
+        "raw_uri": "rbxassetid://5922912225",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922912225",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922912225",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 3,
+        "raw_uri": "rbxassetid://5922912225",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922912225",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922912225",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5922912225.png",
+    "preview_path": "images/5922912225.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "60aaf7491693dc72b2313b1d",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Tornado 2",
+    "asset_id": "5922911934",
+    "uri": "rbxassetid://5922911934",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5922911934",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5922911934"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5922911934",
+        "uri": "rbxassetid://5922911934",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5922911934",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 57,
+        "raw_uri": "rbxassetid://5922911934",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922911934",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922911934",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 13,
+        "raw_uri": "rbxassetid://5922911934",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922911934",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922911934",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5922911934.png",
+    "preview_path": "images/5922911934.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6aa312f5dddf9e960efd5f3b",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Whirl",
+    "asset_id": "903178515",
+    "uri": "rbxassetid://903178515",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://903178515",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://903178515"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "903178515",
+        "uri": "rbxassetid://903178515",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://903178515",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 93,
+        "raw_uri": "rbxassetid://903178515",
+        "image": "",
+        "mesh_uri": "rbxassetid://903178515",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://903178515",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 22,
+        "raw_uri": "rbxassetid://903178515",
+        "image": "",
+        "mesh_uri": "rbxassetid://903178515",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://903178515",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Curling Spring"
+    ],
+    "image_path": "images/903178515.png",
+    "preview_path": "images/903178515.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "83d83cb6094d9279cf6017be",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thicker Spiral Shockwave",
+    "asset_id": "4313233873",
+    "uri": "rbxassetid://4313233873",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4313233873",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4313233873"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4313233873",
+        "uri": "rbxassetid://4313233873",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4313233873",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 34,
+        "raw_uri": "rbxassetid://4313233873",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313233873",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313233873",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 10,
+        "raw_uri": "rbxassetid://4313233873",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313233873",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313233873",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Inside Out Swirl"
+    ],
+    "image_path": "images/4313233873.png",
+    "preview_path": "images/4313233873.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "72c735ebd4ab6b6fef2a9b88",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thicker Spring",
+    "asset_id": "4631767253",
+    "uri": "rbxassetid://4631767253",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4631767253",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4631767253"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4631767253",
+        "uri": "rbxassetid://4631767253",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4631767253",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 120,
+        "raw_uri": "rbxassetid://4631767253",
+        "image": "",
+        "mesh_uri": "rbxassetid://4631767253",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4631767253",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 31,
+        "raw_uri": "rbxassetid://4631767253",
+        "image": "",
+        "mesh_uri": "rbxassetid://4631767253",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4631767253",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4631767253.png",
+    "preview_path": "images/4631767253.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4ee5548e26cd9d7c78ffbe49",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thin Detailed Cylinder",
+    "asset_id": "6063631009",
+    "uri": "rbxassetid://6063631009",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6063631009",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6063631009"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6063631009",
+        "uri": "rbxassetid://6063631009",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6063631009",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 128,
+        "raw_uri": "rbxassetid://6063631009",
+        "image": "",
+        "mesh_uri": "rbxassetid://6063631009",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6063631009",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 37,
+        "raw_uri": "rbxassetid://6063631009",
+        "image": "",
+        "mesh_uri": "rbxassetid://6063631009",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6063631009",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Cylinder Spiral"
+    ],
+    "image_path": "images/6063631009.png",
+    "preview_path": "images/6063631009.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bbfba378c9ab6979824d10ec",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Tornado",
+    "asset_id": "5705014362",
+    "uri": "rbxassetid://5705014362",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5705014362",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5705014362"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5705014362",
+        "uri": "rbxassetid://5705014362",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5705014362",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 97,
+        "raw_uri": "rbxassetid://5705014362",
+        "image": "",
+        "mesh_uri": "rbxassetid://5705014362",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5705014362",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 23,
+        "raw_uri": "rbxassetid://5705014362",
+        "image": "",
+        "mesh_uri": "rbxassetid://5705014362",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5705014362",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5705014362.png",
+    "preview_path": "images/5705014362.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "0b400f6f9233b8081bc12ba1",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Tornado Details",
+    "asset_id": "6071361028",
+    "uri": "rbxassetid://6071361028",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6071361028",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6071361028"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6071361028",
+        "uri": "rbxassetid://6071361028",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6071361028",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 25,
+        "raw_uri": "rbxassetid://6071361028",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071361028",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071361028",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 7,
+        "raw_uri": "rbxassetid://6071361028",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071361028",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071361028",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6071361028.png",
+    "preview_path": "images/6071361028.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7c3e9a791a89f29529f23b17",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Twisted Wind",
+    "asset_id": "6553151264",
+    "uri": "rbxassetid://6553151264",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553151264",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553151264"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553151264",
+        "uri": "rbxassetid://6553151264",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553151264",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 131,
+        "raw_uri": "rbxassetid://6553151264",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553151264",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553151264",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 39,
+        "raw_uri": "rbxassetid://6553151264",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553151264",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553151264",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553151264.png",
+    "preview_path": "images/6553151264.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "86cd55cef3b58f86d90db477",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upside Down Spiral",
+    "asset_id": "5926727378",
+    "uri": "rbxassetid://5926727378",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5926727378",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5926727378"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5926727378",
+        "uri": "rbxassetid://5926727378",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5926727378",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 139,
+        "raw_uri": "rbxassetid://5926727378",
+        "image": "",
+        "mesh_uri": "rbxassetid://5926727378",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5926727378",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 41,
+        "raw_uri": "rbxassetid://5926727378",
+        "image": "",
+        "mesh_uri": "rbxassetid://5926727378",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5926727378",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5926727378.png",
+    "preview_path": "images/5926727378.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "cb98f454f478fb798159c932",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upward Shockwave",
+    "asset_id": "4681344912",
+    "uri": "rbxassetid://4681344912",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4681344912",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4681344912"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4681344912",
+        "uri": "rbxassetid://4681344912",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4681344912",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 76,
+        "raw_uri": "rbxassetid://4681344912",
+        "image": "",
+        "mesh_uri": "rbxassetid://4681344912",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4681344912",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 16,
+        "raw_uri": "rbxassetid://4681344912",
+        "image": "",
+        "mesh_uri": "rbxassetid://4681344912",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4681344912",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4681344912.png",
+    "preview_path": "images/4681344912.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7284ad5288cb8ccbf32b74ef",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upward Spiral 2",
+    "asset_id": "6494548505",
+    "uri": "rbxassetid://6494548505",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494548505",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494548505"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494548505",
+        "uri": "rbxassetid://6494548505",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494548505",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 125,
+        "raw_uri": "rbxassetid://6494548505",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494548505",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494548505",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 36,
+        "raw_uri": "rbxassetid://6494548505",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494548505",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494548505",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494548505.png",
+    "preview_path": "images/6494548505.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "69e6c99cfd32e2906cd32aa7",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upwards Ball Swirl",
+    "asset_id": "6553031952",
+    "uri": "rbxassetid://6553031952",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553031952",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553031952"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553031952",
+        "uri": "rbxassetid://6553031952",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553031952",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 133,
+        "raw_uri": "rbxassetid://6553031952",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553031952",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553031952",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 40,
+        "raw_uri": "rbxassetid://6553031952",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553031952",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553031952",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553031952.png",
+    "preview_path": "images/6553031952.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fbe9cd1a1b6717a7dd64c6f9",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upwards Spiral",
+    "asset_id": "5696416905",
+    "uri": "rbxassetid://5696416905",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5696416905",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5696416905"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5696416905",
+        "uri": "rbxassetid://5696416905",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5696416905",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 121,
+        "raw_uri": "rbxassetid://5696416905",
+        "image": "",
+        "mesh_uri": "rbxassetid://5696416905",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5696416905",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 32,
+        "raw_uri": "rbxassetid://5696416905",
+        "image": "",
+        "mesh_uri": "rbxassetid://5696416905",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5696416905",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Swirled Spiral"
+    ],
+    "image_path": "images/5696416905.png",
+    "preview_path": "images/5696416905.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9e52020925b6b3604787dbd3",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Whirl",
+    "asset_id": "2855431753",
+    "uri": "rbxassetid://2855431753",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2855431753",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2855431753"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2855431753",
+        "uri": "rbxassetid://2855431753",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2855431753",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 113,
+        "raw_uri": "rbxassetid://2855431753",
+        "image": "",
+        "mesh_uri": "rbxassetid://2855431753",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2855431753",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 29,
+        "raw_uri": "rbxassetid://2855431753",
+        "image": "",
+        "mesh_uri": "rbxassetid://2855431753",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2855431753",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Wind Details 2"
+    ],
+    "image_path": "images/2855431753.png",
+    "preview_path": "images/2855431753.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bd15e2c7ac3d82270a57b69b",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Wind Whirl",
+    "asset_id": "5188651386",
+    "uri": "rbxassetid://5188651386",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5188651386",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5188651386"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5188651386",
+        "uri": "rbxassetid://5188651386",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5188651386",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 19,
+        "raw_uri": "rbxassetid://5188651386",
+        "image": "",
+        "mesh_uri": "rbxassetid://5188651386",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5188651386",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 5,
+        "raw_uri": "rbxassetid://5188651386",
+        "image": "",
+        "mesh_uri": "rbxassetid://5188651386",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5188651386",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5188651386.png",
+    "preview_path": "images/5188651386.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4e268239de4ce5554d0a29f1",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Windmill",
+    "asset_id": "4646044301",
+    "uri": "rbxassetid://4646044301",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4646044301",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4646044301"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4646044301",
+        "uri": "rbxassetid://4646044301",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4646044301",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Swirls"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Swirls"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 77,
+        "raw_uri": "rbxassetid://4646044301",
+        "image": "",
+        "mesh_uri": "rbxassetid://4646044301",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4646044301",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Swirls",
+        "index": 17,
+        "raw_uri": "rbxassetid://4646044301",
+        "image": "",
+        "mesh_uri": "rbxassetid://4646044301",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4646044301",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4646044301.png",
+    "preview_path": "images/4646044301.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

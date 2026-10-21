@@ -1,0 +1,706 @@
+[
+  {
+    "key": "4fe618364e1277c9438e3823",
+    "asset_id": "101872876976948",
+    "name": "3D Circle 49",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "3eb86d4832f456bbf67dc51a",
+    "asset_id": "137155013777181",
+    "name": "3D Pyramid No Glow",
+    "tags": [
+      "Spec"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "c1c762437c8dd4497940af77",
+    "asset_id": "01",
+    "name": "Blurred Spec 14",
+    "tags": [
+      "Spec"
+    ],
+    "id_status": "invalid_leading_zero_placeholder",
+    "image_status": "invalid_id",
+    "image_error": "asset_id must be a positive decimal ID"
+  },
+  {
+    "key": "f8f633ba1159d7dd8e1bfaff",
+    "asset_id": "17387207972",
+    "name": "Blurred Star",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b1c2646bba6793bc6a380907",
+    "asset_id": "125450642849704",
+    "name": "Cash emoji",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "800b84a046f910c7528cec40",
+    "asset_id": "113810889750283",
+    "name": "Chromatic Music Note 3",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "59427fe835e5daa27bf8959c",
+    "asset_id": "107993810226919",
+    "name": "Chromatic Sparkling Fog 4x4",
+    "tags": [
+      "Smoke"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d3bad39a6280b65d349bc2e6",
+    "asset_id": "16878113428",
+    "name": "Circle35",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "e63c811ed3e45c96597a1b1a",
+    "asset_id": "76294904704281",
+    "name": "Colored Microbe Bacteria 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b93c183e62941b6d015b56b7",
+    "asset_id": "113319871498266",
+    "name": "Colored Party Ball Emoji 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "87aaf93f53864111dca3076d",
+    "asset_id": "134968196396951",
+    "name": "colored star quant flipping",
+    "tags": [
+      "Spec"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "9cfb7fe0ae85b3e3a44fbf66",
+    "asset_id": "74091612379656",
+    "name": "Computer Text 2",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "431702e4f7a66d34069b8891",
+    "asset_id": "130966341311174",
+    "name": "Dark Glowing Energy Slash",
+    "tags": [
+      "Slash"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b403c22e893b87aec8ce0455",
+    "asset_id": "14248840306",
+    "name": "Deteriorating Pixels",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "cbe8f637c107452f56e34beb",
+    "asset_id": "136411158238665",
+    "name": "Diamond Emoji 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "f07e0a4c97e01fd1eadebbac",
+    "asset_id": "75318074556021",
+    "name": "Diamond shining",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "5f501b940db0f2937078bada",
+    "asset_id": "105503986352862",
+    "name": "Disappointed face",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "9a4463e54b766b067b729a53",
+    "asset_id": "110361796788602",
+    "name": "energy blast spec",
+    "tags": [
+      "Spec"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "5fa31bd898ec1945514cbc18",
+    "asset_id": "117179702764934",
+    "name": "Erica Spectral Fog 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "3b3d075d5b510998e0ef05c2",
+    "asset_id": "81276431283103",
+    "name": "Foggy Circle Overlay",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "1b8d2e205053bc01831bbf96",
+    "asset_id": "85075095805473",
+    "name": "Glitching Music Note 2",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "94af5e92c348fb4c31402c25",
+    "asset_id": "99185129053383",
+    "name": "Glitching roblox",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "aaea0017cf071932af0ef971",
+    "asset_id": "81956742556382",
+    "name": "Glowing Pixelated Bubble",
+    "tags": [
+      "Water"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "a7859443fa70e95ba2f8448b",
+    "asset_id": "72233637152559",
+    "name": "Heavily stylized flame",
+    "tags": [
+      "Fire"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "cc465cc1c900286e9e59836d",
+    "asset_id": "13378717718",
+    "name": "Inner glow circle 14",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "eae9637efa6d8a3234f9f033",
+    "asset_id": "102970888406098",
+    "name": "Inverted Rift",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "e5e76c7a977e9d5d6477a5f6",
+    "asset_id": "136193064623289",
+    "name": "Iris",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "a3db22dd90c8166565e2a52a",
+    "asset_id": "94601268312605",
+    "name": "Line Smoke",
+    "tags": [
+      "Smoke"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d922d043db2fcfdb673fda85",
+    "asset_id": "129994060389935",
+    "name": "Lines Flipping Lens Flare Colored 4x4",
+    "tags": [
+      "Flare"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d341e545b53ced8486b34728",
+    "asset_id": "110210812995242",
+    "name": "Long smile face 2",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "c7ba3535fdbcb721cac94bb1",
+    "asset_id": "91668822996231",
+    "name": "magic_particles_3",
+    "tags": [
+      "Effect"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "a575ef35880028e6e0d692cd",
+    "asset_id": "",
+    "name": "Medium Simple Slash",
+    "tags": [
+      "Slash"
+    ],
+    "id_status": "invalid_missing_id",
+    "image_status": "invalid_id",
+    "image_error": "asset_id must be a positive decimal ID"
+  },
+  {
+    "key": "c564072037f9908be2b645b0",
+    "asset_id": "93268732953117",
+    "name": "Microbe Bacteria 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "46b0473ed731c845b516661a",
+    "asset_id": "80765513197269",
+    "name": "Mirrored Ripple Overlay",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "af9e55a5397417d0c0712303",
+    "asset_id": "122358011214099",
+    "name": "Mob Psycho Star4x4",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d5fbe7c3c4982e9fd455fd18",
+    "asset_id": "119869447323954",
+    "name": "moon 2",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "78bd071454a7560af27b60e0",
+    "asset_id": "12402878994",
+    "name": "Multiple Specs 34",
+    "tags": [
+      "Spec"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "fed61c7cf175066684c4ea9b",
+    "asset_id": "15554710287",
+    "name": "Oval Geo",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "4dfb38a9a0b87fc32f3cc981",
+    "asset_id": "83404070737727",
+    "name": "Pixelated Bubble",
+    "tags": [
+      "Water"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "a64e63aa60cc98ec50d62948",
+    "asset_id": "76020332031714",
+    "name": "Pixelated Wispy Smoke",
+    "tags": [
+      "Smoke"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "833e38ecb3e1e4dc5159a717",
+    "asset_id": "15124189784",
+    "name": "Portal Overlay",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "25b3b453144c17ec087b1c35",
+    "asset_id": "12362866761",
+    "name": "red energy 3",
+    "tags": [
+      "Effect"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "67e9c271e37f91249fbac106",
+    "asset_id": "17070283208",
+    "name": "Reflective Energy1",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "103891a17bbc8e34ec65e2d6",
+    "asset_id": "17070283628",
+    "name": "Reflective energy3888",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "7eed1de8c973992d35daf17f",
+    "asset_id": "77966646561127",
+    "name": "Rolling Dice",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "ccfbd7f500de7c64f3c0b90d",
+    "asset_id": "14061881330",
+    "name": "Seamless Energy Mass",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d4b86debd193b0c34893563e",
+    "asset_id": "15652409265",
+    "name": "Shifting Star",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "f9efbcf6d831d6fbc81f793f",
+    "asset_id": "118064015361083",
+    "name": "Smaller smiley face",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "8ee61e23a112c6a3b6c431ee",
+    "asset_id": "73108624995898",
+    "name": "solid star quant falling ",
+    "tags": [
+      "Spec"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "57e2b45927ce353d588477cf",
+    "asset_id": "99267552632379",
+    "name": "Spinning 4D Cube",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "4472e4ccd24284b057964f7a",
+    "asset_id": "100143732952958",
+    "name": "Spiral Stretched Ball 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "5f31aff18f938d0e85ed10ba",
+    "asset_id": "17062491564",
+    "name": "Star34",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b7a19ac6ae9c5d8d29b5b8b3",
+    "asset_id": "106231215266919",
+    "name": "Swirl Outline",
+    "tags": [
+      "Swirl"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "f8c59b31122d90053101a738",
+    "asset_id": "17226910109",
+    "name": "Text Kanji 3531",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "349ed8d316e893a719451d41",
+    "asset_id": "",
+    "name": "Thick Slash",
+    "tags": [
+      "Slash"
+    ],
+    "id_status": "invalid_missing_id",
+    "image_status": "invalid_id",
+    "image_error": "asset_id must be a positive decimal ID"
+  },
+  {
+    "key": "d6f8e2777de564924cbb86ac",
+    "asset_id": "136104048569538",
+    "name": "Thin swirl 3",
+    "tags": [
+      "Swirl"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "963863f815d546e4cea91c6c",
+    "asset_id": "73996605965157",
+    "name": "Thinner Star",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b09950e3e7ca2869995af901",
+    "asset_id": "",
+    "name": "Unique Abstract Fire Explosion 2",
+    "tags": [
+      "Fire"
+    ],
+    "id_status": "invalid_missing_id",
+    "image_status": "invalid_id",
+    "image_error": "asset_id must be a positive decimal ID"
+  },
+  {
+    "key": "dfae34e6d181868cba70746a",
+    "asset_id": "94555137517678",
+    "name": "Unique Flowy Cube Pattern 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "8ee786d1d2549760b86c0feb",
+    "asset_id": "132647721901466",
+    "name": "Unique Fog Effect 4x4",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "9d077780c1fb62032f7a0032",
+    "asset_id": "90967051533696",
+    "name": "Water Surface Ripple 2",
+    "tags": [
+      "Water"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d8ec0689e421f483ad2cdfc5",
+    "asset_id": "75068583085656",
+    "name": "Wavy Glowing Electric Magic Circle 4x4",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "156611a42e94ebcfbeb54509",
+    "asset_id": "139537068536932",
+    "name": "White Energy",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "94a518efd1e1dea411b8f1b6",
+    "asset_id": "16504340270",
+    "name": "White Ripple",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  }
+]

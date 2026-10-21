@@ -1,0 +1,8724 @@
+[
+  {
+    "key": "33732feb5ffa0f26a91f2459",
+    "name": "Abstract Design Grid",
+    "asset_id": "12364040994",
+    "uri": "rbxassetid://12364040994",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364040994",
+    "raw_uris": [
+      "rbxassetid://12364040994"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 753,
+        "raw_uri": "rbxassetid://12364040994",
+        "image": "rbxassetid://12364040994",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 16,
+        "raw_uri": "rbxassetid://12364040994",
+        "image": "rbxassetid://12364040994",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 466,
+        "raw_uri": "rbxassetid://12364040994",
+        "image": "rbxassetid://12364040994",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364040994.png",
+    "preview_path": "images/12364040994.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bbda3fc533be9dc7fc36977a",
+    "name": "Abstract Square",
+    "asset_id": "79785568951979",
+    "uri": "rbxassetid://79785568951979",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://79785568951979",
+    "raw_uris": [
+      "rbxassetid://79785568951979"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4512,
+        "raw_uri": "rbxassetid://79785568951979",
+        "image": "rbxassetid://79785568951979",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 75,
+        "raw_uri": "rbxassetid://79785568951979",
+        "image": "rbxassetid://79785568951979",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2762,
+        "raw_uri": "rbxassetid://79785568951979",
+        "image": "rbxassetid://79785568951979",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/79785568951979.png",
+    "preview_path": "images/79785568951979.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 419
+  },
+  {
+    "key": "f795ba74903480a4576aed2f",
+    "name": "Arrow Square Grid",
+    "asset_id": "9563790939",
+    "uri": "rbxassetid://9563790939",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://9563790939",
+    "raw_uris": [
+      "rbxassetid://9563790939"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1513,
+        "raw_uri": "rbxassetid://9563790939",
+        "image": "rbxassetid://9563790939",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 27,
+        "raw_uri": "rbxassetid://9563790939",
+        "image": "rbxassetid://9563790939",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 918,
+        "raw_uri": "rbxassetid://9563790939",
+        "image": "rbxassetid://9563790939",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/9563790939.png",
+    "preview_path": "images/9563790939.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "38db9d64cd1ae742a63b8264",
+    "name": "Arrows Grid",
+    "asset_id": "12362742023",
+    "uri": "rbxassetid://12362742023",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12362742023",
+    "raw_uris": [
+      "rbxassetid://12362742023"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2381,
+        "raw_uri": "rbxassetid://12362742023",
+        "image": "rbxassetid://12362742023",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 40,
+        "raw_uri": "rbxassetid://12362742023",
+        "image": "rbxassetid://12362742023",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1445,
+        "raw_uri": "rbxassetid://12362742023",
+        "image": "rbxassetid://12362742023",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12362742023.png",
+    "preview_path": "images/12362742023.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "64ebd15cca1ba73e4824cc55",
+    "name": "Blurry Design",
+    "asset_id": "82028783487343",
+    "uri": "rbxassetid://82028783487343",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82028783487343",
+    "raw_uris": [
+      "rbxassetid://82028783487343"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6844,
+        "raw_uri": "rbxassetid://82028783487343",
+        "image": "rbxassetid://82028783487343",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 99,
+        "raw_uri": "rbxassetid://82028783487343",
+        "image": "rbxassetid://82028783487343",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4163,
+        "raw_uri": "rbxassetid://82028783487343",
+        "image": "rbxassetid://82028783487343",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/82028783487343.png",
+    "preview_path": "images/82028783487343.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "59648265b8226167f7624dcd",
+    "name": "Boxes",
+    "asset_id": "91832429120907",
+    "uri": "rbxassetid://91832429120907",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://91832429120907",
+    "raw_uris": [
+      "rbxassetid://91832429120907"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3211,
+        "raw_uri": "rbxassetid://91832429120907",
+        "image": "rbxassetid://91832429120907",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 51,
+        "raw_uri": "rbxassetid://91832429120907",
+        "image": "rbxassetid://91832429120907",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1942,
+        "raw_uri": "rbxassetid://91832429120907",
+        "image": "rbxassetid://91832429120907",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/91832429120907.png",
+    "preview_path": "images/91832429120907.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "10b374e1d4bdfa73223e54e4",
+    "name": "Checker 1",
+    "asset_id": "6372755229",
+    "uri": "rbxassetid://6372755229",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6372755229",
+    "raw_uris": [
+      "rbxassetid://6372755229"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 280,
+        "raw_uri": "rbxassetid://6372755229",
+        "image": "rbxassetid://6372755229",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 8,
+        "raw_uri": "rbxassetid://6372755229",
+        "image": "rbxassetid://6372755229",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 168,
+        "raw_uri": "rbxassetid://6372755229",
+        "image": "rbxassetid://6372755229",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/6372755229.png",
+    "preview_path": "images/6372755229.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e2a5c4b3a27aa26478810f20",
+    "name": "Checkerboard Grid",
+    "asset_id": "12364116395",
+    "uri": "rbxassetid://12364116395",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364116395",
+    "raw_uris": [
+      "rbxassetid://12364116395"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1039,
+        "raw_uri": "rbxassetid://12364116395",
+        "image": "rbxassetid://12364116395",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 21,
+        "raw_uri": "rbxassetid://12364116395",
+        "image": "rbxassetid://12364116395",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 634,
+        "raw_uri": "rbxassetid://12364116395",
+        "image": "rbxassetid://12364116395",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364116395.png",
+    "preview_path": "images/12364116395.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6076e9f9aff6aac87b808a39",
+    "name": "Chipped Corner Grid",
+    "asset_id": "12364025052",
+    "uri": "rbxassetid://12364025052",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364025052",
+    "raw_uris": [
+      "rbxassetid://12364025052"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2492,
+        "raw_uri": "rbxassetid://12364025052",
+        "image": "rbxassetid://12364025052",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 43,
+        "raw_uri": "rbxassetid://12364025052",
+        "image": "rbxassetid://12364025052",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1499,
+        "raw_uri": "rbxassetid://12364025052",
+        "image": "rbxassetid://12364025052",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364025052.png",
+    "preview_path": "images/12364025052.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8491224482b54e0f396f83e4",
+    "name": "Circular Grid",
+    "asset_id": "12364115513",
+    "uri": "rbxassetid://12364115513",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364115513",
+    "raw_uris": [
+      "rbxassetid://12364115513"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4382,
+        "raw_uri": "rbxassetid://12364115513",
+        "image": "rbxassetid://12364115513",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 70,
+        "raw_uri": "rbxassetid://12364115513",
+        "image": "rbxassetid://12364115513",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2677,
+        "raw_uri": "rbxassetid://12364115513",
+        "image": "rbxassetid://12364115513",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364115513.png",
+    "preview_path": "images/12364115513.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "97ee6966c4e78f206228b76b",
+    "name": "Cornered Grid",
+    "asset_id": "12364108395",
+    "uri": "rbxassetid://12364108395",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364108395",
+    "raw_uris": [
+      "rbxassetid://12364108395"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3103,
+        "raw_uri": "rbxassetid://12364108395",
+        "image": "rbxassetid://12364108395",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 47,
+        "raw_uri": "rbxassetid://12364108395",
+        "image": "rbxassetid://12364108395",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1886,
+        "raw_uri": "rbxassetid://12364108395",
+        "image": "rbxassetid://12364108395",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364108395.png",
+    "preview_path": "images/12364108395.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "63af96886fb339e8833f1343",
+    "name": "Cornered Plus Grid",
+    "asset_id": "12364108113",
+    "uri": "rbxassetid://12364108113",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364108113",
+    "raw_uris": [
+      "rbxassetid://12364108113"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6306,
+        "raw_uri": "rbxassetid://12364108113",
+        "image": "rbxassetid://12364108113",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 91,
+        "raw_uri": "rbxassetid://12364108113",
+        "image": "rbxassetid://12364108113",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3858,
+        "raw_uri": "rbxassetid://12364108113",
+        "image": "rbxassetid://12364108113",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364108113.png",
+    "preview_path": "images/12364108113.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5f29ded81b8d271b65523be0",
+    "name": "Cracked Grid",
+    "asset_id": "12364107751",
+    "uri": "rbxassetid://12364107751",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364107751",
+    "raw_uris": [
+      "rbxassetid://12364107751"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6549,
+        "raw_uri": "rbxassetid://12364107751",
+        "image": "rbxassetid://12364107751",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 98,
+        "raw_uri": "rbxassetid://12364107751",
+        "image": "rbxassetid://12364107751",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3991,
+        "raw_uri": "rbxassetid://12364107751",
+        "image": "rbxassetid://12364107751",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364107751.png",
+    "preview_path": "images/12364107751.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "edaa992e3798ec2d783219b0",
+    "name": "Cross Design",
+    "asset_id": "125130865636154",
+    "uri": "rbxassetid://125130865636154",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://125130865636154",
+    "raw_uris": [
+      "rbxassetid://125130865636154"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5904,
+        "raw_uri": "rbxassetid://125130865636154",
+        "image": "rbxassetid://125130865636154",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 88,
+        "raw_uri": "rbxassetid://125130865636154",
+        "image": "rbxassetid://125130865636154",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3629,
+        "raw_uri": "rbxassetid://125130865636154",
+        "image": "rbxassetid://125130865636154",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/125130865636154.png",
+    "preview_path": "images/125130865636154.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "12a7c8085fbb604072f7536d",
+    "name": "Designed Grid",
+    "asset_id": "18391555940",
+    "uri": "rbxassetid://18391555940",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18391555940",
+    "raw_uris": [
+      "rbxassetid://18391555940"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5701,
+        "raw_uri": "rbxassetid://18391555940",
+        "image": "rbxassetid://18391555940",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 84,
+        "raw_uri": "rbxassetid://18391555940",
+        "image": "rbxassetid://18391555940",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3507,
+        "raw_uri": "rbxassetid://18391555940",
+        "image": "rbxassetid://18391555940",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/18391555940.png",
+    "preview_path": "images/18391555940.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8334fbccaaee700463e537db",
+    "name": "Detailed Checkerboard Grid",
+    "asset_id": "12364116059",
+    "uri": "rbxassetid://12364116059",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364116059",
+    "raw_uris": [
+      "rbxassetid://12364116059"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 260,
+        "raw_uri": "rbxassetid://12364116059",
+        "image": "rbxassetid://12364116059",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 7,
+        "raw_uri": "rbxassetid://12364116059",
+        "image": "rbxassetid://12364116059",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 158,
+        "raw_uri": "rbxassetid://12364116059",
+        "image": "rbxassetid://12364116059",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364116059.png",
+    "preview_path": "images/12364116059.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e5b72441b203fca59f0c02e2",
+    "name": "Diamond Grid",
+    "asset_id": "12364122981",
+    "uri": "rbxassetid://12364122981",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364122981",
+    "raw_uris": [
+      "rbxassetid://12364122981"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3831,
+        "raw_uri": "rbxassetid://12364122981",
+        "image": "rbxassetid://12364122981",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 63,
+        "raw_uri": "rbxassetid://12364122981",
+        "image": "rbxassetid://12364122981",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2326,
+        "raw_uri": "rbxassetid://12364122981",
+        "image": "rbxassetid://12364122981",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364122981.png",
+    "preview_path": "images/12364122981.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a42a4313eb1f6cab61c70a1d",
+    "name": "Faded Box",
+    "asset_id": "135586203185317",
+    "uri": "rbxassetid://135586203185317",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://135586203185317",
+    "raw_uris": [
+      "rbxassetid://135586203185317"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 284,
+        "raw_uri": "rbxassetid://135586203185317",
+        "image": "rbxassetid://135586203185317",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 9,
+        "raw_uri": "rbxassetid://135586203185317",
+        "image": "rbxassetid://135586203185317",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 171,
+        "raw_uri": "rbxassetid://135586203185317",
+        "image": "rbxassetid://135586203185317",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/135586203185317.png",
+    "preview_path": "images/135586203185317.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e8063b69f064451b61661333",
+    "name": "Faded Design",
+    "asset_id": "5889822044",
+    "uri": "rbxassetid://5889822044",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5889822044",
+    "raw_uris": [
+      "rbxassetid://5889822044"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6010,
+        "raw_uri": "rbxassetid://5889822044",
+        "image": "rbxassetid://5889822044",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 89,
+        "raw_uri": "rbxassetid://5889822044",
+        "image": "rbxassetid://5889822044",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3682,
+        "raw_uri": "rbxassetid://5889822044",
+        "image": "rbxassetid://5889822044",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/5889822044.png",
+    "preview_path": "images/5889822044.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "09a535f314abeea721f2e4d4",
+    "name": "Faded Square",
+    "asset_id": "118909689240043",
+    "uri": "rbxassetid://118909689240043",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://118909689240043",
+    "raw_uris": [
+      "rbxassetid://118909689240043"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5474,
+        "raw_uri": "rbxassetid://118909689240043",
+        "image": "rbxassetid://118909689240043",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 83,
+        "raw_uri": "rbxassetid://118909689240043",
+        "image": "rbxassetid://118909689240043",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3362,
+        "raw_uri": "rbxassetid://118909689240043",
+        "image": "rbxassetid://118909689240043",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/118909689240043.png",
+    "preview_path": "images/118909689240043.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2e3d4fec22c8d6b09f9a414a",
+    "name": "Fancy Box",
+    "asset_id": "76366180906615",
+    "uri": "rbxassetid://76366180906615",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://76366180906615",
+    "raw_uris": [
+      "rbxassetid://76366180906615"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1533,
+        "raw_uri": "rbxassetid://76366180906615",
+        "image": "rbxassetid://76366180906615",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 28,
+        "raw_uri": "rbxassetid://76366180906615",
+        "image": "rbxassetid://76366180906615",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 931,
+        "raw_uri": "rbxassetid://76366180906615",
+        "image": "rbxassetid://76366180906615",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/76366180906615.png",
+    "preview_path": "images/76366180906615.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "09197e48a8e0d130f67b053c",
+    "name": "Filed Grid",
+    "asset_id": "12364107498",
+    "uri": "rbxassetid://12364107498",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364107498",
+    "raw_uris": [
+      "rbxassetid://12364107498"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3093,
+        "raw_uri": "rbxassetid://12364107498",
+        "image": "rbxassetid://12364107498",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 46,
+        "raw_uri": "rbxassetid://12364107498",
+        "image": "rbxassetid://12364107498",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1879,
+        "raw_uri": "rbxassetid://12364107498",
+        "image": "rbxassetid://12364107498",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364107498.png",
+    "preview_path": "images/12364107498.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "eecba0430e17d292a0556d54",
+    "name": "Flag Grid",
+    "asset_id": "12364107184",
+    "uri": "rbxassetid://12364107184",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364107184",
+    "raw_uris": [
+      "rbxassetid://12364107184"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2488,
+        "raw_uri": "rbxassetid://12364107184",
+        "image": "rbxassetid://12364107184",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 42,
+        "raw_uri": "rbxassetid://12364107184",
+        "image": "rbxassetid://12364107184",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1497,
+        "raw_uri": "rbxassetid://12364107184",
+        "image": "rbxassetid://12364107184",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364107184.png",
+    "preview_path": "images/12364107184.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "57e7e3b306e6d3421a27b208",
+    "name": "Flower Design",
+    "asset_id": "140061140880341",
+    "uri": "rbxassetid://140061140880341",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://140061140880341",
+    "raw_uris": [
+      "rbxassetid://140061140880341"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 726,
+        "raw_uri": "rbxassetid://140061140880341",
+        "image": "rbxassetid://140061140880341",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 15,
+        "raw_uri": "rbxassetid://140061140880341",
+        "image": "rbxassetid://140061140880341",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 447,
+        "raw_uri": "rbxassetid://140061140880341",
+        "image": "rbxassetid://140061140880341",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/140061140880341.png",
+    "preview_path": "images/140061140880341.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "81f7003c4c5206556395e962",
+    "name": "Folded Grid",
+    "asset_id": "12364041368",
+    "uri": "rbxassetid://12364041368",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364041368",
+    "raw_uris": [
+      "rbxassetid://12364041368"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4387,
+        "raw_uri": "rbxassetid://12364041368",
+        "image": "rbxassetid://12364041368",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 71,
+        "raw_uri": "rbxassetid://12364041368",
+        "image": "rbxassetid://12364041368",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2681,
+        "raw_uri": "rbxassetid://12364041368",
+        "image": "rbxassetid://12364041368",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364041368.png",
+    "preview_path": "images/12364041368.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "55f2362bc6bf2da65d152192",
+    "name": "Full Fading Grid",
+    "asset_id": "13772117423",
+    "uri": "rbxassetid://13772117423",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13772117423",
+    "raw_uris": [
+      "rbxassetid://13772117423"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2386,
+        "raw_uri": "rbxassetid://13772117423",
+        "image": "rbxassetid://13772117423",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 41,
+        "raw_uri": "rbxassetid://13772117423",
+        "image": "rbxassetid://13772117423",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1448,
+        "raw_uri": "rbxassetid://13772117423",
+        "image": "rbxassetid://13772117423",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/13772117423.png",
+    "preview_path": "images/13772117423.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7826e7703ed4ff13fd324c1c",
+    "name": "Glowing Thin Box",
+    "asset_id": "110443293430032",
+    "uri": "rbxassetid://110443293430032",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://110443293430032",
+    "raw_uris": [
+      "rbxassetid://110443293430032"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3354,
+        "raw_uri": "rbxassetid://110443293430032",
+        "image": "rbxassetid://110443293430032",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 56,
+        "raw_uri": "rbxassetid://110443293430032",
+        "image": "rbxassetid://110443293430032",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2024,
+        "raw_uri": "rbxassetid://110443293430032",
+        "image": "rbxassetid://110443293430032",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/110443293430032.png",
+    "preview_path": "images/110443293430032.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fd7723f81f086e815e232447",
+    "name": "Gradient Square Border Box",
+    "asset_id": "139551658842506",
+    "uri": "rbxassetid://139551658842506",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://139551658842506",
+    "raw_uris": [
+      "rbxassetid://139551658842506"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 288,
+        "raw_uri": "rbxassetid://139551658842506",
+        "image": "rbxassetid://139551658842506",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 10,
+        "raw_uri": "rbxassetid://139551658842506",
+        "image": "rbxassetid://139551658842506",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 174,
+        "raw_uri": "rbxassetid://139551658842506",
+        "image": "rbxassetid://139551658842506",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/139551658842506.png",
+    "preview_path": "images/139551658842506.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fce4cdd661aceb779b9f8638",
+    "name": "Grid Pattern",
+    "asset_id": "17713866288",
+    "uri": "rbxassetid://17713866288",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://17713866288",
+    "raw_uris": [
+      "rbxassetid://17713866288"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1350,
+        "raw_uri": "rbxassetid://17713866288",
+        "image": "rbxassetid://17713866288",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 26,
+        "raw_uri": "rbxassetid://17713866288",
+        "image": "rbxassetid://17713866288",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 821,
+        "raw_uri": "rbxassetid://17713866288",
+        "image": "rbxassetid://17713866288",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/17713866288.png",
+    "preview_path": "images/17713866288.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f5993a18f049874e541e929d",
+    "name": "Grid1",
+    "asset_id": "123019677863963",
+    "uri": "rbxassetid://123019677863963",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://123019677863963",
+    "raw_uris": [
+      "rbxassetid://123019677863963"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1000,
+        "raw_uri": "rbxassetid://123019677863963",
+        "image": "rbxassetid://123019677863963",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 20,
+        "raw_uri": "rbxassetid://123019677863963",
+        "image": "rbxassetid://123019677863963",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 613,
+        "raw_uri": "rbxassetid://123019677863963",
+        "image": "rbxassetid://123019677863963",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/123019677863963.png",
+    "preview_path": "images/123019677863963.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bea867d5565902ffff723d8f",
+    "name": "Grid10",
+    "asset_id": "96796601322679",
+    "uri": "rbxassetid://96796601322679",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://96796601322679",
+    "raw_uris": [
+      "rbxassetid://96796601322679"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 825,
+        "raw_uri": "rbxassetid://96796601322679",
+        "image": "rbxassetid://96796601322679",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 17,
+        "raw_uri": "rbxassetid://96796601322679",
+        "image": "rbxassetid://96796601322679",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 509,
+        "raw_uri": "rbxassetid://96796601322679",
+        "image": "rbxassetid://96796601322679",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/96796601322679.png",
+    "preview_path": "images/96796601322679.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "11dcbb7d7fae20552b559fb6",
+    "name": "Grid11",
+    "asset_id": "126480909576236",
+    "uri": "rbxassetid://126480909576236",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://126480909576236",
+    "raw_uris": [
+      "rbxassetid://126480909576236"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5799,
+        "raw_uri": "rbxassetid://126480909576236",
+        "image": "rbxassetid://126480909576236",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 85,
+        "raw_uri": "rbxassetid://126480909576236",
+        "image": "rbxassetid://126480909576236",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3567,
+        "raw_uri": "rbxassetid://126480909576236",
+        "image": "rbxassetid://126480909576236",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/126480909576236.png",
+    "preview_path": "images/126480909576236.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "25065a9dc5dc56cf3ca364ce",
+    "name": "Grid12",
+    "asset_id": "139044719175739",
+    "uri": "rbxassetid://139044719175739",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://139044719175739",
+    "raw_uris": [
+      "rbxassetid://139044719175739"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5893,
+        "raw_uri": "rbxassetid://139044719175739",
+        "image": "rbxassetid://139044719175739",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 87,
+        "raw_uri": "rbxassetid://139044719175739",
+        "image": "rbxassetid://139044719175739",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3622,
+        "raw_uri": "rbxassetid://139044719175739",
+        "image": "rbxassetid://139044719175739",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/139044719175739.png",
+    "preview_path": "images/139044719175739.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5398fd2a49d1a2933fcfc3da",
+    "name": "Grid13",
+    "asset_id": "107969856880965",
+    "uri": "rbxassetid://107969856880965",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://107969856880965",
+    "raw_uris": [
+      "rbxassetid://107969856880965"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2927,
+        "raw_uri": "rbxassetid://107969856880965",
+        "image": "rbxassetid://107969856880965",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 45,
+        "raw_uri": "rbxassetid://107969856880965",
+        "image": "rbxassetid://107969856880965",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1780,
+        "raw_uri": "rbxassetid://107969856880965",
+        "image": "rbxassetid://107969856880965",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/107969856880965.png",
+    "preview_path": "images/107969856880965.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "627a1b665f6281c34583d23c",
+    "name": "Grid14",
+    "asset_id": "93591820928647",
+    "uri": "rbxassetid://93591820928647",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://93591820928647",
+    "raw_uris": [
+      "rbxassetid://93591820928647"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1903,
+        "raw_uri": "rbxassetid://93591820928647",
+        "image": "rbxassetid://93591820928647",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 32,
+        "raw_uri": "rbxassetid://93591820928647",
+        "image": "rbxassetid://93591820928647",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1151,
+        "raw_uri": "rbxassetid://93591820928647",
+        "image": "rbxassetid://93591820928647",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/93591820928647.png",
+    "preview_path": "images/93591820928647.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e032257a67185a0082c095f3",
+    "name": "Grid15",
+    "asset_id": "79270558989579",
+    "uri": "rbxassetid://79270558989579",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://79270558989579",
+    "raw_uris": [
+      "rbxassetid://79270558989579"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1709,
+        "raw_uri": "rbxassetid://79270558989579",
+        "image": "rbxassetid://79270558989579",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 30,
+        "raw_uri": "rbxassetid://79270558989579",
+        "image": "rbxassetid://79270558989579",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1034,
+        "raw_uri": "rbxassetid://79270558989579",
+        "image": "rbxassetid://79270558989579",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/79270558989579.png",
+    "preview_path": "images/79270558989579.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4a8f2793b6804bca6f30505d",
+    "name": "Grid16",
+    "asset_id": "90999859068012",
+    "uri": "rbxassetid://90999859068012",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://90999859068012",
+    "raw_uris": [
+      "rbxassetid://90999859068012"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3262,
+        "raw_uri": "rbxassetid://90999859068012",
+        "image": "rbxassetid://90999859068012",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 52,
+        "raw_uri": "rbxassetid://90999859068012",
+        "image": "rbxassetid://90999859068012",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1966,
+        "raw_uri": "rbxassetid://90999859068012",
+        "image": "rbxassetid://90999859068012",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/90999859068012.png",
+    "preview_path": "images/90999859068012.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "32d69ffa5bc05190cefe6454",
+    "name": "Grid17",
+    "asset_id": "139952565230809",
+    "uri": "rbxassetid://139952565230809",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://139952565230809",
+    "raw_uris": [
+      "rbxassetid://139952565230809"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4224,
+        "raw_uri": "rbxassetid://139952565230809",
+        "image": "rbxassetid://139952565230809",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 67,
+        "raw_uri": "rbxassetid://139952565230809",
+        "image": "rbxassetid://139952565230809",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2569,
+        "raw_uri": "rbxassetid://139952565230809",
+        "image": "rbxassetid://139952565230809",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/139952565230809.png",
+    "preview_path": "images/139952565230809.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "afb5a5f14bdf12d393439e6c",
+    "name": "Grid18",
+    "asset_id": "82781804399779",
+    "uri": "rbxassetid://82781804399779",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82781804399779",
+    "raw_uris": [
+      "rbxassetid://82781804399779"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 588,
+        "raw_uri": "rbxassetid://82781804399779",
+        "image": "rbxassetid://82781804399779",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 13,
+        "raw_uri": "rbxassetid://82781804399779",
+        "image": "rbxassetid://82781804399779",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 366,
+        "raw_uri": "rbxassetid://82781804399779",
+        "image": "rbxassetid://82781804399779",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/82781804399779.png",
+    "preview_path": "images/82781804399779.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "00d8706c6d3da11aa90da1ba",
+    "name": "Grid19",
+    "asset_id": "103284563503348",
+    "uri": "rbxassetid://103284563503348",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://103284563503348",
+    "raw_uris": [
+      "rbxassetid://103284563503348"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1936,
+        "raw_uri": "rbxassetid://103284563503348",
+        "image": "rbxassetid://103284563503348",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 34,
+        "raw_uri": "rbxassetid://103284563503348",
+        "image": "rbxassetid://103284563503348",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1171,
+        "raw_uri": "rbxassetid://103284563503348",
+        "image": "rbxassetid://103284563503348",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/103284563503348.png",
+    "preview_path": "images/103284563503348.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f0b5163d2613ee609a15d676",
+    "name": "Grid2",
+    "asset_id": "120435454294728",
+    "uri": "rbxassetid://120435454294728",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://120435454294728",
+    "raw_uris": [
+      "rbxassetid://120435454294728"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 83,
+        "raw_uri": "rbxassetid://120435454294728",
+        "image": "rbxassetid://120435454294728",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 4,
+        "raw_uri": "rbxassetid://120435454294728",
+        "image": "rbxassetid://120435454294728",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 51,
+        "raw_uri": "rbxassetid://120435454294728",
+        "image": "rbxassetid://120435454294728",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/120435454294728.png",
+    "preview_path": "images/120435454294728.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "dcd4246bbbc78290f03c0fad",
+    "name": "Grid20",
+    "asset_id": "127040384812888",
+    "uri": "rbxassetid://127040384812888",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://127040384812888",
+    "raw_uris": [
+      "rbxassetid://127040384812888"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2056,
+        "raw_uri": "rbxassetid://127040384812888",
+        "image": "rbxassetid://127040384812888",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 36,
+        "raw_uri": "rbxassetid://127040384812888",
+        "image": "rbxassetid://127040384812888",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1241,
+        "raw_uri": "rbxassetid://127040384812888",
+        "image": "rbxassetid://127040384812888",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/127040384812888.png",
+    "preview_path": "images/127040384812888.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1cd8d452b1b9599a43955adb",
+    "name": "Grid21",
+    "asset_id": "134151910916223",
+    "uri": "rbxassetid://134151910916223",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://134151910916223",
+    "raw_uris": [
+      "rbxassetid://134151910916223"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 155,
+        "raw_uri": "rbxassetid://134151910916223",
+        "image": "rbxassetid://134151910916223",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 6,
+        "raw_uri": "rbxassetid://134151910916223",
+        "image": "rbxassetid://134151910916223",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 102,
+        "raw_uri": "rbxassetid://134151910916223",
+        "image": "rbxassetid://134151910916223",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/134151910916223.png",
+    "preview_path": "images/134151910916223.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "84a84e19f1260a06d8785433",
+    "name": "Grid22",
+    "asset_id": "119799327426197",
+    "uri": "rbxassetid://119799327426197",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://119799327426197",
+    "raw_uris": [
+      "rbxassetid://119799327426197"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2255,
+        "raw_uri": "rbxassetid://119799327426197",
+        "image": "rbxassetid://119799327426197",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 37,
+        "raw_uri": "rbxassetid://119799327426197",
+        "image": "rbxassetid://119799327426197",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1358,
+        "raw_uri": "rbxassetid://119799327426197",
+        "image": "rbxassetid://119799327426197",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/119799327426197.png",
+    "preview_path": "images/119799327426197.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "082563c679dae6b183d16dc4",
+    "name": "Grid23",
+    "asset_id": "130546344410274",
+    "uri": "rbxassetid://130546344410274",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://130546344410274",
+    "raw_uris": [
+      "rbxassetid://130546344410274"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4408,
+        "raw_uri": "rbxassetid://130546344410274",
+        "image": "rbxassetid://130546344410274",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 72,
+        "raw_uri": "rbxassetid://130546344410274",
+        "image": "rbxassetid://130546344410274",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2699,
+        "raw_uri": "rbxassetid://130546344410274",
+        "image": "rbxassetid://130546344410274",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/130546344410274.png",
+    "preview_path": "images/130546344410274.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c13c3979cb4290ac5b93f71e",
+    "name": "Grid24",
+    "asset_id": "84021767821090",
+    "uri": "rbxassetid://84021767821090",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://84021767821090",
+    "raw_uris": [
+      "rbxassetid://84021767821090"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3668,
+        "raw_uri": "rbxassetid://84021767821090",
+        "image": "rbxassetid://84021767821090",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 61,
+        "raw_uri": "rbxassetid://84021767821090",
+        "image": "rbxassetid://84021767821090",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2222,
+        "raw_uri": "rbxassetid://84021767821090",
+        "image": "rbxassetid://84021767821090",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/84021767821090.png",
+    "preview_path": "images/84021767821090.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "17f35e2157a08732d001e6b3",
+    "name": "Grid25",
+    "asset_id": "139996700110734",
+    "uri": "rbxassetid://139996700110734",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://139996700110734",
+    "raw_uris": [
+      "rbxassetid://139996700110734"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6262,
+        "raw_uri": "rbxassetid://139996700110734",
+        "image": "rbxassetid://139996700110734",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 90,
+        "raw_uri": "rbxassetid://139996700110734",
+        "image": "rbxassetid://139996700110734",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3828,
+        "raw_uri": "rbxassetid://139996700110734",
+        "image": "rbxassetid://139996700110734",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/139996700110734.png",
+    "preview_path": "images/139996700110734.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "13cfb82c33a95d9b99c295d6",
+    "name": "Grid26",
+    "asset_id": "71757989611985",
+    "uri": "rbxassetid://71757989611985",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://71757989611985",
+    "raw_uris": [
+      "rbxassetid://71757989611985"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3293,
+        "raw_uri": "rbxassetid://71757989611985",
+        "image": "rbxassetid://71757989611985",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 54,
+        "raw_uri": "rbxassetid://71757989611985",
+        "image": "rbxassetid://71757989611985",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1988,
+        "raw_uri": "rbxassetid://71757989611985",
+        "image": "rbxassetid://71757989611985",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/71757989611985.png",
+    "preview_path": "images/71757989611985.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c69ebb21e750fd5c14c54da8",
+    "name": "Grid27",
+    "asset_id": "77148634465993",
+    "uri": "rbxassetid://77148634465993",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://77148634465993",
+    "raw_uris": [
+      "rbxassetid://77148634465993"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6478,
+        "raw_uri": "rbxassetid://77148634465993",
+        "image": "rbxassetid://77148634465993",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 95,
+        "raw_uri": "rbxassetid://77148634465993",
+        "image": "rbxassetid://77148634465993",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3948,
+        "raw_uri": "rbxassetid://77148634465993",
+        "image": "rbxassetid://77148634465993",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/77148634465993.png",
+    "preview_path": "images/77148634465993.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "463ecbb4da3a81a36d56cf4f",
+    "name": "Grid28",
+    "asset_id": "118507210312025",
+    "uri": "rbxassetid://118507210312025",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://118507210312025",
+    "raw_uris": [
+      "rbxassetid://118507210312025"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4308,
+        "raw_uri": "rbxassetid://118507210312025",
+        "image": "rbxassetid://118507210312025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 68,
+        "raw_uri": "rbxassetid://118507210312025",
+        "image": "rbxassetid://118507210312025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2626,
+        "raw_uri": "rbxassetid://118507210312025",
+        "image": "rbxassetid://118507210312025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/118507210312025.png",
+    "preview_path": "images/118507210312025.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f565bfd648ab8e3eea1953a8",
+    "name": "Grid29",
+    "asset_id": "110667671093800",
+    "uri": "rbxassetid://110667671093800",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://110667671093800",
+    "raw_uris": [
+      "rbxassetid://110667671093800"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2668,
+        "raw_uri": "rbxassetid://110667671093800",
+        "image": "rbxassetid://110667671093800",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 44,
+        "raw_uri": "rbxassetid://110667671093800",
+        "image": "rbxassetid://110667671093800",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1616,
+        "raw_uri": "rbxassetid://110667671093800",
+        "image": "rbxassetid://110667671093800",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/110667671093800.png",
+    "preview_path": "images/110667671093800.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9e856337e46d8e894e59461d",
+    "name": "Grid3",
+    "asset_id": "72837575199720",
+    "uri": "rbxassetid://72837575199720",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://72837575199720",
+    "raw_uris": [
+      "rbxassetid://72837575199720"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6435,
+        "raw_uri": "rbxassetid://72837575199720",
+        "image": "rbxassetid://72837575199720",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 94,
+        "raw_uri": "rbxassetid://72837575199720",
+        "image": "rbxassetid://72837575199720",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3925,
+        "raw_uri": "rbxassetid://72837575199720",
+        "image": "rbxassetid://72837575199720",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/72837575199720.png",
+    "preview_path": "images/72837575199720.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "36a90f21dbf442984b5ff718",
+    "name": "Grid30",
+    "asset_id": "78097227527297",
+    "uri": "rbxassetid://78097227527297",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://78097227527297",
+    "raw_uris": [
+      "rbxassetid://78097227527297"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3113,
+        "raw_uri": "rbxassetid://78097227527297",
+        "image": "rbxassetid://78097227527297",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 48,
+        "raw_uri": "rbxassetid://78097227527297",
+        "image": "rbxassetid://78097227527297",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1892,
+        "raw_uri": "rbxassetid://78097227527297",
+        "image": "rbxassetid://78097227527297",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/78097227527297.png",
+    "preview_path": "images/78097227527297.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "46167c9cdafd98cbe0f34155",
+    "name": "Grid31",
+    "asset_id": "73839910416510",
+    "uri": "rbxassetid://73839910416510",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://73839910416510",
+    "raw_uris": [
+      "rbxassetid://73839910416510"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1071,
+        "raw_uri": "rbxassetid://73839910416510",
+        "image": "rbxassetid://73839910416510",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 22,
+        "raw_uri": "rbxassetid://73839910416510",
+        "image": "rbxassetid://73839910416510",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 655,
+        "raw_uri": "rbxassetid://73839910416510",
+        "image": "rbxassetid://73839910416510",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/73839910416510.png",
+    "preview_path": "images/73839910416510.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "da9ee5f50840d8a626262972",
+    "name": "Grid32",
+    "asset_id": "101130268822426",
+    "uri": "rbxassetid://101130268822426",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101130268822426",
+    "raw_uris": [
+      "rbxassetid://101130268822426"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3678,
+        "raw_uri": "rbxassetid://101130268822426",
+        "image": "rbxassetid://101130268822426",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 62,
+        "raw_uri": "rbxassetid://101130268822426",
+        "image": "rbxassetid://101130268822426",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2228,
+        "raw_uri": "rbxassetid://101130268822426",
+        "image": "rbxassetid://101130268822426",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/101130268822426.png",
+    "preview_path": "images/101130268822426.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7837d1675b8adc9c3674de39",
+    "name": "Grid33",
+    "asset_id": "134228669327803",
+    "uri": "rbxassetid://134228669327803",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://134228669327803",
+    "raw_uris": [
+      "rbxassetid://134228669327803"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5182,
+        "raw_uri": "rbxassetid://134228669327803",
+        "image": "rbxassetid://134228669327803",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 80,
+        "raw_uri": "rbxassetid://134228669327803",
+        "image": "rbxassetid://134228669327803",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3181,
+        "raw_uri": "rbxassetid://134228669327803",
+        "image": "rbxassetid://134228669327803",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/134228669327803.png",
+    "preview_path": "images/134228669327803.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6151b384020439b4279989d2",
+    "name": "Grid34",
+    "asset_id": "95004152221168",
+    "uri": "rbxassetid://95004152221168",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://95004152221168",
+    "raw_uris": [
+      "rbxassetid://95004152221168"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5438,
+        "raw_uri": "rbxassetid://95004152221168",
+        "image": "rbxassetid://95004152221168",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 82,
+        "raw_uri": "rbxassetid://95004152221168",
+        "image": "rbxassetid://95004152221168",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3342,
+        "raw_uri": "rbxassetid://95004152221168",
+        "image": "rbxassetid://95004152221168",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/95004152221168.png",
+    "preview_path": "images/95004152221168.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4d81ec5d48c8d34313e3112b",
+    "name": "Grid35",
+    "asset_id": "138212629643486",
+    "uri": "rbxassetid://138212629643486",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://138212629643486",
+    "raw_uris": [
+      "rbxassetid://138212629643486"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1571,
+        "raw_uri": "rbxassetid://138212629643486",
+        "image": "rbxassetid://138212629643486",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 29,
+        "raw_uri": "rbxassetid://138212629643486",
+        "image": "rbxassetid://138212629643486",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 949,
+        "raw_uri": "rbxassetid://138212629643486",
+        "image": "rbxassetid://138212629643486",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/138212629643486.png",
+    "preview_path": "images/138212629643486.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "37f8ba7e95ab40ac04e0dd5e",
+    "name": "Grid36",
+    "asset_id": "101765975436099",
+    "uri": "rbxassetid://101765975436099",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101765975436099",
+    "raw_uris": [
+      "rbxassetid://101765975436099"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1987,
+        "raw_uri": "rbxassetid://101765975436099",
+        "image": "rbxassetid://101765975436099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 35,
+        "raw_uri": "rbxassetid://101765975436099",
+        "image": "rbxassetid://101765975436099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1204,
+        "raw_uri": "rbxassetid://101765975436099",
+        "image": "rbxassetid://101765975436099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/101765975436099.png",
+    "preview_path": "images/101765975436099.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c1d57088608d68e01cd31976",
+    "name": "Grid37",
+    "asset_id": "83219787794282",
+    "uri": "rbxassetid://83219787794282",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://83219787794282",
+    "raw_uris": [
+      "rbxassetid://83219787794282"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4494,
+        "raw_uri": "rbxassetid://83219787794282",
+        "image": "rbxassetid://83219787794282",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 74,
+        "raw_uri": "rbxassetid://83219787794282",
+        "image": "rbxassetid://83219787794282",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2753,
+        "raw_uri": "rbxassetid://83219787794282",
+        "image": "rbxassetid://83219787794282",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/83219787794282.png",
+    "preview_path": "images/83219787794282.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d3dcf9c97fe8368c7590d94e",
+    "name": "Grid38",
+    "asset_id": "105896183550036",
+    "uri": "rbxassetid://105896183550036",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://105896183550036",
+    "raw_uris": [
+      "rbxassetid://105896183550036"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3514,
+        "raw_uri": "rbxassetid://105896183550036",
+        "image": "rbxassetid://105896183550036",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 58,
+        "raw_uri": "rbxassetid://105896183550036",
+        "image": "rbxassetid://105896183550036",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2126,
+        "raw_uri": "rbxassetid://105896183550036",
+        "image": "rbxassetid://105896183550036",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/105896183550036.png",
+    "preview_path": "images/105896183550036.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1a8e666f15e6f593ed19e5d8",
+    "name": "Grid39",
+    "asset_id": "93334391678052",
+    "uri": "rbxassetid://93334391678052",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://93334391678052",
+    "raw_uris": [
+      "rbxassetid://93334391678052"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6535,
+        "raw_uri": "rbxassetid://93334391678052",
+        "image": "rbxassetid://93334391678052",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 96,
+        "raw_uri": "rbxassetid://93334391678052",
+        "image": "rbxassetid://93334391678052",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3981,
+        "raw_uri": "rbxassetid://93334391678052",
+        "image": "rbxassetid://93334391678052",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/93334391678052.png",
+    "preview_path": "images/93334391678052.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "0fb2be848c04808a62a711c8",
+    "name": "Grid4",
+    "asset_id": "87069711201283",
+    "uri": "rbxassetid://87069711201283",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://87069711201283",
+    "raw_uris": [
+      "rbxassetid://87069711201283"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3276,
+        "raw_uri": "rbxassetid://87069711201283",
+        "image": "rbxassetid://87069711201283",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 53,
+        "raw_uri": "rbxassetid://87069711201283",
+        "image": "rbxassetid://87069711201283",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1976,
+        "raw_uri": "rbxassetid://87069711201283",
+        "image": "rbxassetid://87069711201283",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/87069711201283.png",
+    "preview_path": "images/87069711201283.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8df5a3b23bcabadf45c2b918",
+    "name": "Grid40",
+    "asset_id": "106907853938820",
+    "uri": "rbxassetid://106907853938820",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://106907853938820",
+    "raw_uris": [
+      "rbxassetid://106907853938820"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 417,
+        "raw_uri": "rbxassetid://106907853938820",
+        "image": "rbxassetid://106907853938820",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 11,
+        "raw_uri": "rbxassetid://106907853938820",
+        "image": "rbxassetid://106907853938820",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 265,
+        "raw_uri": "rbxassetid://106907853938820",
+        "image": "rbxassetid://106907853938820",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/106907853938820.png",
+    "preview_path": "images/106907853938820.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b0c98b2cc972f3b3cca04a52",
+    "name": "Grid5",
+    "asset_id": "89597452280166",
+    "uri": "rbxassetid://89597452280166",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://89597452280166",
+    "raw_uris": [
+      "rbxassetid://89597452280166"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5198,
+        "raw_uri": "rbxassetid://89597452280166",
+        "image": "rbxassetid://89597452280166",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 81,
+        "raw_uri": "rbxassetid://89597452280166",
+        "image": "rbxassetid://89597452280166",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3192,
+        "raw_uri": "rbxassetid://89597452280166",
+        "image": "rbxassetid://89597452280166",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/89597452280166.png",
+    "preview_path": "images/89597452280166.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "471dbba4b7fd44e1947fdf03",
+    "name": "Grid6",
+    "asset_id": "135749348190290",
+    "uri": "rbxassetid://135749348190290",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://135749348190290",
+    "raw_uris": [
+      "rbxassetid://135749348190290"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3155,
+        "raw_uri": "rbxassetid://135749348190290",
+        "image": "rbxassetid://135749348190290",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 50,
+        "raw_uri": "rbxassetid://135749348190290",
+        "image": "rbxassetid://135749348190290",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1917,
+        "raw_uri": "rbxassetid://135749348190290",
+        "image": "rbxassetid://135749348190290",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/135749348190290.png",
+    "preview_path": "images/135749348190290.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "72c4b01598ca485eb16f2153",
+    "name": "Grid8",
+    "asset_id": "102825105630718",
+    "uri": "rbxassetid://102825105630718",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://102825105630718",
+    "raw_uris": [
+      "rbxassetid://102825105630718"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4159,
+        "raw_uri": "rbxassetid://102825105630718",
+        "image": "rbxassetid://102825105630718",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 66,
+        "raw_uri": "rbxassetid://102825105630718",
+        "image": "rbxassetid://102825105630718",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2526,
+        "raw_uri": "rbxassetid://102825105630718",
+        "image": "rbxassetid://102825105630718",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/102825105630718.png",
+    "preview_path": "images/102825105630718.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ffe810d42fccb5300043e711",
+    "name": "Grid9",
+    "asset_id": "128235150402085",
+    "uri": "rbxassetid://128235150402085",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://128235150402085",
+    "raw_uris": [
+      "rbxassetid://128235150402085"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1933,
+        "raw_uri": "rbxassetid://128235150402085",
+        "image": "rbxassetid://128235150402085",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 33,
+        "raw_uri": "rbxassetid://128235150402085",
+        "image": "rbxassetid://128235150402085",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1169,
+        "raw_uri": "rbxassetid://128235150402085",
+        "image": "rbxassetid://128235150402085",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/128235150402085.png",
+    "preview_path": "images/128235150402085.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6b6d777061ff6189a117b2c8",
+    "name": "High Blur Grid",
+    "asset_id": "12363852721",
+    "uri": "rbxassetid://12363852721",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12363852721",
+    "raw_uris": [
+      "rbxassetid://12363852721"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3441,
+        "raw_uri": "rbxassetid://12363852721",
+        "image": "rbxassetid://12363852721",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 57,
+        "raw_uri": "rbxassetid://12363852721",
+        "image": "rbxassetid://12363852721",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2082,
+        "raw_uri": "rbxassetid://12363852721",
+        "image": "rbxassetid://12363852721",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12363852721.png",
+    "preview_path": "images/12363852721.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4e9108f0c3ff4facb905aedd",
+    "name": "Hollow Grid",
+    "asset_id": "16510067547",
+    "uri": "rbxassetid://16510067547",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16510067547",
+    "raw_uris": [
+      "rbxassetid://16510067547"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6357,
+        "raw_uri": "rbxassetid://16510067547",
+        "image": "rbxassetid://16510067547",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 92,
+        "raw_uri": "rbxassetid://16510067547",
+        "image": "rbxassetid://16510067547",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3885,
+        "raw_uri": "rbxassetid://16510067547",
+        "image": "rbxassetid://16510067547",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/16510067547.png",
+    "preview_path": "images/16510067547.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "650668c7999ca5713ad08dbe",
+    "name": "Hollow Plus Grid",
+    "asset_id": "12364033328",
+    "uri": "rbxassetid://12364033328",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364033328",
+    "raw_uris": [
+      "rbxassetid://12364033328"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 86,
+        "raw_uri": "rbxassetid://12364033328",
+        "image": "rbxassetid://12364033328",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 5,
+        "raw_uri": "rbxassetid://12364033328",
+        "image": "rbxassetid://12364033328",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 53,
+        "raw_uri": "rbxassetid://12364033328",
+        "image": "rbxassetid://12364033328",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364033328.png",
+    "preview_path": "images/12364033328.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "89d551b0b53dd003e0870d6c",
+    "name": "Illusion Design",
+    "asset_id": "109187158862195",
+    "uri": "rbxassetid://109187158862195",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://109187158862195",
+    "raw_uris": [
+      "rbxassetid://109187158862195"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6542,
+        "raw_uri": "rbxassetid://109187158862195",
+        "image": "rbxassetid://109187158862195",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 97,
+        "raw_uri": "rbxassetid://109187158862195",
+        "image": "rbxassetid://109187158862195",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3985,
+        "raw_uri": "rbxassetid://109187158862195",
+        "image": "rbxassetid://109187158862195",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/109187158862195.png",
+    "preview_path": "images/109187158862195.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ab6b9dadbc174b167ca80bb8",
+    "name": "Inner Circle Grid",
+    "asset_id": "12364116708",
+    "uri": "rbxassetid://12364116708",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364116708",
+    "raw_uris": [
+      "rbxassetid://12364116708"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 710,
+        "raw_uri": "rbxassetid://12364116708",
+        "image": "rbxassetid://12364116708",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 14,
+        "raw_uri": "rbxassetid://12364116708",
+        "image": "rbxassetid://12364116708",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 439,
+        "raw_uri": "rbxassetid://12364116708",
+        "image": "rbxassetid://12364116708",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364116708.png",
+    "preview_path": "images/12364116708.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b6852756547b7fa57489d48f",
+    "name": "Layered Middleless Grid",
+    "asset_id": "12364123584",
+    "uri": "rbxassetid://12364123584",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364123584",
+    "raw_uris": [
+      "rbxassetid://12364123584"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3653,
+        "raw_uri": "rbxassetid://12364123584",
+        "image": "rbxassetid://12364123584",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 60,
+        "raw_uri": "rbxassetid://12364123584",
+        "image": "rbxassetid://12364123584",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2211,
+        "raw_uri": "rbxassetid://12364123584",
+        "image": "rbxassetid://12364123584",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364123584.png",
+    "preview_path": "images/12364123584.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e76997ea7bf5b773a4cecabc",
+    "name": "Medium Box",
+    "asset_id": "17402453778",
+    "uri": "rbxassetid://17402453778",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://17402453778",
+    "raw_uris": [
+      "rbxassetid://17402453778"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5846,
+        "raw_uri": "rbxassetid://17402453778",
+        "image": "rbxassetid://17402453778",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 86,
+        "raw_uri": "rbxassetid://17402453778",
+        "image": "rbxassetid://17402453778",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3595,
+        "raw_uri": "rbxassetid://17402453778",
+        "image": "rbxassetid://17402453778",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/17402453778.png",
+    "preview_path": "images/17402453778.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bc299adfe214a7aa2cf86bbe",
+    "name": "Minus Grid",
+    "asset_id": "12547713786",
+    "uri": "rbxassetid://12547713786",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12547713786",
+    "raw_uris": [
+      "rbxassetid://12547713786"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4451,
+        "raw_uri": "rbxassetid://12547713786",
+        "image": "rbxassetid://12547713786",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 73,
+        "raw_uri": "rbxassetid://12547713786",
+        "image": "rbxassetid://12547713786",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2723,
+        "raw_uri": "rbxassetid://12547713786",
+        "image": "rbxassetid://12547713786",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12547713786.png",
+    "preview_path": "images/12547713786.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9c183c8bffe8147273c89140",
+    "name": "More Iterations Fading Grid",
+    "asset_id": "12363849369",
+    "uri": "rbxassetid://12363849369",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12363849369",
+    "raw_uris": [
+      "rbxassetid://12363849369"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1123,
+        "raw_uri": "rbxassetid://12363849369",
+        "image": "rbxassetid://12363849369",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 23,
+        "raw_uri": "rbxassetid://12363849369",
+        "image": "rbxassetid://12363849369",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 686,
+        "raw_uri": "rbxassetid://12363849369",
+        "image": "rbxassetid://12363849369",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12363849369.png",
+    "preview_path": "images/12363849369.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "67f479ce0a24493ac7d43102",
+    "name": "Onesided Fading Grid",
+    "asset_id": "12363849569",
+    "uri": "rbxassetid://12363849569",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12363849569",
+    "raw_uris": [
+      "rbxassetid://12363849569"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 78,
+        "raw_uri": "rbxassetid://12363849569",
+        "image": "rbxassetid://12363849569",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 3,
+        "raw_uri": "rbxassetid://12363849569",
+        "image": "rbxassetid://12363849569",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 47,
+        "raw_uri": "rbxassetid://12363849569",
+        "image": "rbxassetid://12363849569",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12363849569.png",
+    "preview_path": "images/12363849569.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a1edd0b6c3831658402484aa",
+    "name": "Pixelated Fading Grid",
+    "asset_id": "12363849826",
+    "uri": "rbxassetid://12363849826",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12363849826",
+    "raw_uris": [
+      "rbxassetid://12363849826"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4324,
+        "raw_uri": "rbxassetid://12363849826",
+        "image": "rbxassetid://12363849826",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 69,
+        "raw_uri": "rbxassetid://12363849826",
+        "image": "rbxassetid://12363849826",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2636,
+        "raw_uri": "rbxassetid://12363849826",
+        "image": "rbxassetid://12363849826",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12363849826.png",
+    "preview_path": "images/12363849826.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c119019198328aecc2fbfd31",
+    "name": "Plus Design Grid",
+    "asset_id": "9563790132",
+    "uri": "rbxassetid://9563790132",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://9563790132",
+    "raw_uris": [
+      "rbxassetid://9563790132"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3140,
+        "raw_uri": "rbxassetid://9563790132",
+        "image": "rbxassetid://9563790132",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 49,
+        "raw_uri": "rbxassetid://9563790132",
+        "image": "rbxassetid://9563790132",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1905,
+        "raw_uri": "rbxassetid://9563790132",
+        "image": "rbxassetid://9563790132",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/9563790132.png",
+    "preview_path": "images/9563790132.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bea4e42e0c2de7390d00f65e",
+    "name": "Plus Grid",
+    "asset_id": "12364025406",
+    "uri": "rbxassetid://12364025406",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364025406",
+    "raw_uris": [
+      "rbxassetid://12364025406"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3630,
+        "raw_uri": "rbxassetid://12364025406",
+        "image": "rbxassetid://12364025406",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 59,
+        "raw_uri": "rbxassetid://12364025406",
+        "image": "rbxassetid://12364025406",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2196,
+        "raw_uri": "rbxassetid://12364025406",
+        "image": "rbxassetid://12364025406",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364025406.png",
+    "preview_path": "images/12364025406.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8296e9e4c78bf9ad0fddcc1d",
+    "name": "Rounded Layered Grid",
+    "asset_id": "12364117016",
+    "uri": "rbxassetid://12364117016",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364117016",
+    "raw_uris": [
+      "rbxassetid://12364117016"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2265,
+        "raw_uri": "rbxassetid://12364117016",
+        "image": "rbxassetid://12364117016",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 38,
+        "raw_uri": "rbxassetid://12364117016",
+        "image": "rbxassetid://12364117016",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1367,
+        "raw_uri": "rbxassetid://12364117016",
+        "image": "rbxassetid://12364117016",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364117016.png",
+    "preview_path": "images/12364117016.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3695f3fabbf416c56a9f57aa",
+    "name": "Seperated Grid",
+    "asset_id": "12364015944",
+    "uri": "rbxassetid://12364015944",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364015944",
+    "raw_uris": [
+      "rbxassetid://12364015944"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4761,
+        "raw_uri": "rbxassetid://12364015944",
+        "image": "rbxassetid://12364015944",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 78,
+        "raw_uri": "rbxassetid://12364015944",
+        "image": "rbxassetid://12364015944",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2915,
+        "raw_uri": "rbxassetid://12364015944",
+        "image": "rbxassetid://12364015944",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364015944.png",
+    "preview_path": "images/12364015944.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7263790c42f07c53fe5a4d72",
+    "name": "Sketched Star",
+    "asset_id": "71062791251209",
+    "uri": "rbxassetid://71062791251209",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://71062791251209",
+    "raw_uris": [
+      "rbxassetid://71062791251209"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6912,
+        "raw_uri": "rbxassetid://71062791251209",
+        "image": "rbxassetid://71062791251209",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 100,
+        "raw_uri": "rbxassetid://71062791251209",
+        "image": "rbxassetid://71062791251209",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4206,
+        "raw_uri": "rbxassetid://71062791251209",
+        "image": "rbxassetid://71062791251209",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/71062791251209.png",
+    "preview_path": "images/71062791251209.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5516a9ea205b809a915eafc1",
+    "name": "Square Grid",
+    "asset_id": "12364123286",
+    "uri": "rbxassetid://12364123286",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364123286",
+    "raw_uris": [
+      "rbxassetid://12364123286"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 892,
+        "raw_uri": "rbxassetid://12364123286",
+        "image": "rbxassetid://12364123286",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 18,
+        "raw_uri": "rbxassetid://12364123286",
+        "image": "rbxassetid://12364123286",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 555,
+        "raw_uri": "rbxassetid://12364123286",
+        "image": "rbxassetid://12364123286",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364123286.png",
+    "preview_path": "images/12364123286.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5b350e2f92c4986db5b95d12",
+    "name": "Star Design",
+    "asset_id": "17019604370",
+    "uri": "rbxassetid://17019604370",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://17019604370",
+    "raw_uris": [
+      "rbxassetid://17019604370"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6369,
+        "raw_uri": "rbxassetid://17019604370",
+        "image": "rbxassetid://17019604370",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 93,
+        "raw_uri": "rbxassetid://17019604370",
+        "image": "rbxassetid://17019604370",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3891,
+        "raw_uri": "rbxassetid://17019604370",
+        "image": "rbxassetid://17019604370",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/17019604370.png",
+    "preview_path": "images/17019604370.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "001438bd9792e9d3658eeb9f",
+    "name": "Star Grid",
+    "asset_id": "12364032982",
+    "uri": "rbxassetid://12364032982",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364032982",
+    "raw_uris": [
+      "rbxassetid://12364032982"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1248,
+        "raw_uri": "rbxassetid://12364032982",
+        "image": "rbxassetid://12364032982",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 25,
+        "raw_uri": "rbxassetid://12364032982",
+        "image": "rbxassetid://12364032982",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 764,
+        "raw_uri": "rbxassetid://12364032982",
+        "image": "rbxassetid://12364032982",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364032982.png",
+    "preview_path": "images/12364032982.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e360f5021bfaffcfb0e15ed2",
+    "name": "Strange Design",
+    "asset_id": "81343082272470",
+    "uri": "rbxassetid://81343082272470",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://81343082272470",
+    "raw_uris": [
+      "rbxassetid://81343082272470"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1839,
+        "raw_uri": "rbxassetid://81343082272470",
+        "image": "rbxassetid://81343082272470",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 31,
+        "raw_uri": "rbxassetid://81343082272470",
+        "image": "rbxassetid://81343082272470",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1113,
+        "raw_uri": "rbxassetid://81343082272470",
+        "image": "rbxassetid://81343082272470",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/81343082272470.png",
+    "preview_path": "images/81343082272470.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2c0d68e88ac78f1ebfae7dc2",
+    "name": "Thick Boxes",
+    "asset_id": "7850765439",
+    "uri": "rbxassetid://7850765439",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://7850765439",
+    "raw_uris": [
+      "rbxassetid://7850765439"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3895,
+        "raw_uri": "rbxassetid://7850765439",
+        "image": "rbxassetid://7850765439",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 65,
+        "raw_uri": "rbxassetid://7850765439",
+        "image": "rbxassetid://7850765439",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2366,
+        "raw_uri": "rbxassetid://7850765439",
+        "image": "rbxassetid://7850765439",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/7850765439.png",
+    "preview_path": "images/7850765439.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f084ad4c31b30c9d473d2849",
+    "name": "Thick Inner Grid",
+    "asset_id": "6031094681",
+    "uri": "rbxassetid://6031094681",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6031094681",
+    "raw_uris": [
+      "rbxassetid://6031094681"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 434,
+        "raw_uri": "rbxassetid://6031094681",
+        "image": "rbxassetid://6031094681",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 12,
+        "raw_uri": "rbxassetid://6031094681",
+        "image": "rbxassetid://6031094681",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 276,
+        "raw_uri": "rbxassetid://6031094681",
+        "image": "rbxassetid://6031094681",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/6031094681.png",
+    "preview_path": "images/6031094681.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8291afdcfff529f6d965ea8f",
+    "name": "Thicker Cornered Grid",
+    "asset_id": "12364115082",
+    "uri": "rbxassetid://12364115082",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364115082",
+    "raw_uris": [
+      "rbxassetid://12364115082"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4515,
+        "raw_uri": "rbxassetid://12364115082",
+        "image": "rbxassetid://12364115082",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 76,
+        "raw_uri": "rbxassetid://12364115082",
+        "image": "rbxassetid://12364115082",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2764,
+        "raw_uri": "rbxassetid://12364115082",
+        "image": "rbxassetid://12364115082",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364115082.png",
+    "preview_path": "images/12364115082.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "744b4accd57d2278cf3076fb",
+    "name": "Thin Box",
+    "asset_id": "14050964725",
+    "uri": "rbxassetid://14050964725",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14050964725",
+    "raw_uris": [
+      "rbxassetid://14050964725"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3835,
+        "raw_uri": "rbxassetid://14050964725",
+        "image": "rbxassetid://14050964725",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 64,
+        "raw_uri": "rbxassetid://14050964725",
+        "image": "rbxassetid://14050964725",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2329,
+        "raw_uri": "rbxassetid://14050964725",
+        "image": "rbxassetid://14050964725",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/14050964725.png",
+    "preview_path": "images/14050964725.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "62eb5bf9ccd9bea855cb873e",
+    "name": "Thin Grid",
+    "asset_id": "10101314593",
+    "uri": "rbxassetid://10101314593",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://10101314593",
+    "raw_uris": [
+      "rbxassetid://10101314593"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5086,
+        "raw_uri": "rbxassetid://10101314593",
+        "image": "rbxassetid://10101314593",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 79,
+        "raw_uri": "rbxassetid://10101314593",
+        "image": "rbxassetid://10101314593",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3126,
+        "raw_uri": "rbxassetid://10101314593",
+        "image": "rbxassetid://10101314593",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/10101314593.png",
+    "preview_path": "images/10101314593.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2b353819b7a3dbf5e6cb7c81",
+    "name": "Thin Grid 2",
+    "asset_id": "12364123924",
+    "uri": "rbxassetid://12364123924",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364123924",
+    "raw_uris": [
+      "rbxassetid://12364123924"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1170,
+        "raw_uri": "rbxassetid://12364123924",
+        "image": "rbxassetid://12364123924",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 24,
+        "raw_uri": "rbxassetid://12364123924",
+        "image": "rbxassetid://12364123924",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 715,
+        "raw_uri": "rbxassetid://12364123924",
+        "image": "rbxassetid://12364123924",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12364123924.png",
+    "preview_path": "images/12364123924.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9cf5f369121c10c61da45f01",
+    "name": "Thin Tech Grid",
+    "asset_id": "17838038413",
+    "uri": "rbxassetid://17838038413",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://17838038413",
+    "raw_uris": [
+      "rbxassetid://17838038413"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3300,
+        "raw_uri": "rbxassetid://17838038413",
+        "image": "rbxassetid://17838038413",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 55,
+        "raw_uri": "rbxassetid://17838038413",
+        "image": "rbxassetid://17838038413",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1994,
+        "raw_uri": "rbxassetid://17838038413",
+        "image": "rbxassetid://17838038413",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/17838038413.png",
+    "preview_path": "images/17838038413.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9d54e5d24e60547487e2427a",
+    "name": "Transparent Checker",
+    "asset_id": "16510058099",
+    "uri": "rbxassetid://16510058099",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16510058099",
+    "raw_uris": [
+      "rbxassetid://16510058099"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4529,
+        "raw_uri": "rbxassetid://16510058099",
+        "image": "rbxassetid://16510058099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 77,
+        "raw_uri": "rbxassetid://16510058099",
+        "image": "rbxassetid://16510058099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2772,
+        "raw_uri": "rbxassetid://16510058099",
+        "image": "rbxassetid://16510058099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/16510058099.png",
+    "preview_path": "images/16510058099.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "103bb1109ae00ed6069defa1",
+    "name": "Triangle Grid",
+    "asset_id": "12547898642",
+    "uri": "rbxassetid://12547898642",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12547898642",
+    "raw_uris": [
+      "rbxassetid://12547898642"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2336,
+        "raw_uri": "rbxassetid://12547898642",
+        "image": "rbxassetid://12547898642",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 39,
+        "raw_uri": "rbxassetid://12547898642",
+        "image": "rbxassetid://12547898642",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1412,
+        "raw_uri": "rbxassetid://12547898642",
+        "image": "rbxassetid://12547898642",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12547898642.png",
+    "preview_path": "images/12547898642.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "85fb1e32cb292955cd5d1eb7",
+    "name": "U Grid",
+    "asset_id": "12547720799",
+    "uri": "rbxassetid://12547720799",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12547720799",
+    "raw_uris": [
+      "rbxassetid://12547720799"
+    ],
+    "aliases": [],
+    "tags": [
+      "Grid"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Grid",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 920,
+        "raw_uri": "rbxassetid://12547720799",
+        "image": "rbxassetid://12547720799",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Grid",
+        "index": 19,
+        "raw_uri": "rbxassetid://12547720799",
+        "image": "rbxassetid://12547720799",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 571,
+        "raw_uri": "rbxassetid://12547720799",
+        "image": "rbxassetid://12547720799",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12547720799.png",
+    "preview_path": "images/12547720799.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

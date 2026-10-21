@@ -1,0 +1,1887 @@
+[
+  {
+    "key": "f39490a39269fb8d9d5d8dac",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam103",
+    "asset_id": "140736544863244",
+    "uri": "rbxassetid://140736544863244",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://140736544863244",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://140736544863244"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "140736544863244",
+        "uri": "rbxassetid://140736544863244",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://140736544863244",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 310,
+        "raw_uri": "rbxassetid://140736544863244",
+        "image": "rbxassetid://140736544863244",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 24,
+        "raw_uri": "rbxassetid://140736544863244",
+        "image": "rbxassetid://140736544863244",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/140736544863244.png",
+    "preview_path": "images/140736544863244.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9bd197b6a67e353f481147b4",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam104",
+    "asset_id": "101491851007643",
+    "uri": "rbxassetid://101491851007643",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101491851007643",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://101491851007643"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "101491851007643",
+        "uri": "rbxassetid://101491851007643",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://101491851007643",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 447,
+        "raw_uri": "rbxassetid://101491851007643",
+        "image": "rbxassetid://101491851007643",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 31,
+        "raw_uri": "rbxassetid://101491851007643",
+        "image": "rbxassetid://101491851007643",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/101491851007643.png",
+    "preview_path": "images/101491851007643.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "abe4a2a8594926811ffb4dd5",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam118",
+    "asset_id": "112506020137102",
+    "uri": "rbxassetid://112506020137102",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://112506020137102",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://112506020137102"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "112506020137102",
+        "uri": "rbxassetid://112506020137102",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://112506020137102",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 117,
+        "raw_uri": "rbxassetid://112506020137102",
+        "image": "rbxassetid://112506020137102",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 16,
+        "raw_uri": "rbxassetid://112506020137102",
+        "image": "rbxassetid://112506020137102",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/112506020137102.png",
+    "preview_path": "images/112506020137102.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 236,
+    "height": 420
+  },
+  {
+    "key": "b6f53458f414709616a269b6",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam2",
+    "asset_id": "16892370570",
+    "uri": "rbxassetid://16892370570",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16892370570",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16892370570"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16892370570",
+        "uri": "rbxassetid://16892370570",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16892370570",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 8,
+        "raw_uri": "rbxassetid://16892370570",
+        "image": "rbxassetid://16892370570",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 4,
+        "raw_uri": "rbxassetid://16892370570",
+        "image": "rbxassetid://16892370570",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16892370570.png",
+    "preview_path": "images/16892370570.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "e47ac1d399ac5c83b5b2d009",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam26",
+    "asset_id": "16892515905",
+    "uri": "rbxassetid://16892515905",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16892515905",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16892515905"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16892515905",
+        "uri": "rbxassetid://16892515905",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16892515905",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 443,
+        "raw_uri": "rbxassetid://16892515905",
+        "image": "rbxassetid://16892515905",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 30,
+        "raw_uri": "rbxassetid://16892515905",
+        "image": "rbxassetid://16892515905",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16892515905.png",
+    "preview_path": "images/16892515905.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "05f4b51e2ca4488f60df4a18",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam68",
+    "asset_id": "123105682256045",
+    "uri": "rbxassetid://123105682256045",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://123105682256045",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://123105682256045"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "123105682256045",
+        "uri": "rbxassetid://123105682256045",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://123105682256045",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 97,
+        "raw_uri": "rbxassetid://123105682256045",
+        "image": "rbxassetid://123105682256045",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 15,
+        "raw_uri": "rbxassetid://123105682256045",
+        "image": "rbxassetid://123105682256045",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/123105682256045.png",
+    "preview_path": "images/123105682256045.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "b7f0b60659e72e494247be89",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam70",
+    "asset_id": "139668072107467",
+    "uri": "rbxassetid://139668072107467",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://139668072107467",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://139668072107467"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "139668072107467",
+        "uri": "rbxassetid://139668072107467",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://139668072107467",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 234,
+        "raw_uri": "rbxassetid://139668072107467",
+        "image": "rbxassetid://139668072107467",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 23,
+        "raw_uri": "rbxassetid://139668072107467",
+        "image": "rbxassetid://139668072107467",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/139668072107467.png",
+    "preview_path": "images/139668072107467.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "616196cfb0c23ea2c7393fdf",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam81",
+    "asset_id": "113083314207224",
+    "uri": "rbxassetid://113083314207224",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://113083314207224",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://113083314207224"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "113083314207224",
+        "uri": "rbxassetid://113083314207224",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://113083314207224",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 83,
+        "raw_uri": "rbxassetid://113083314207224",
+        "image": "rbxassetid://113083314207224",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 14,
+        "raw_uri": "rbxassetid://113083314207224",
+        "image": "rbxassetid://113083314207224",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/113083314207224.png",
+    "preview_path": "images/113083314207224.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "cfe0260aabf05f502b25e921",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam82",
+    "asset_id": "118222722924836",
+    "uri": "rbxassetid://118222722924836",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://118222722924836",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://118222722924836"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "118222722924836",
+        "uri": "rbxassetid://118222722924836",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://118222722924836",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 50,
+        "raw_uri": "rbxassetid://118222722924836",
+        "image": "rbxassetid://118222722924836",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 10,
+        "raw_uri": "rbxassetid://118222722924836",
+        "image": "rbxassetid://118222722924836",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/118222722924836.png",
+    "preview_path": "images/118222722924836.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "76b1657db37fda1872502eca",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam84",
+    "asset_id": "124753331461910",
+    "uri": "rbxassetid://124753331461910",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://124753331461910",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://124753331461910"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "124753331461910",
+        "uri": "rbxassetid://124753331461910",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://124753331461910",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 35,
+        "raw_uri": "rbxassetid://124753331461910",
+        "image": "rbxassetid://124753331461910",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 9,
+        "raw_uri": "rbxassetid://124753331461910",
+        "image": "rbxassetid://124753331461910",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/124753331461910.png",
+    "preview_path": "images/124753331461910.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "d1abd615e6a20634ed653e6f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam94",
+    "asset_id": "76397637545058",
+    "uri": "rbxassetid://76397637545058",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://76397637545058",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://76397637545058"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "76397637545058",
+        "uri": "rbxassetid://76397637545058",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://76397637545058",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 65,
+        "raw_uri": "rbxassetid://76397637545058",
+        "image": "rbxassetid://76397637545058",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 11,
+        "raw_uri": "rbxassetid://76397637545058",
+        "image": "rbxassetid://76397637545058",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/76397637545058.png",
+    "preview_path": "images/76397637545058.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ad67b366d1fa266c2df0bdeb",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam99",
+    "asset_id": "98992318100320",
+    "uri": "rbxassetid://98992318100320",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://98992318100320",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://98992318100320"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "98992318100320",
+        "uri": "rbxassetid://98992318100320",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://98992318100320",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 359,
+        "raw_uri": "rbxassetid://98992318100320",
+        "image": "rbxassetid://98992318100320",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 27,
+        "raw_uri": "rbxassetid://98992318100320",
+        "image": "rbxassetid://98992318100320",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/98992318100320.png",
+    "preview_path": "images/98992318100320.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8d13cc39f08668d23554f7b9",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBasic wiggling line",
+    "asset_id": "4537255327",
+    "uri": "rbxassetid://4537255327",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4537255327",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4537255327"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "4537255327",
+        "uri": "rbxassetid://4537255327",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4537255327",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 204,
+        "raw_uri": "rbxassetid://4537255327",
+        "image": "rbxassetid://4537255327",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 21,
+        "raw_uri": "rbxassetid://4537255327",
+        "image": "rbxassetid://4537255327",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4537255327.png",
+    "preview_path": "images/4537255327.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "7a4324358544bc0bc9b7971f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beambasic wiggling line 2",
+    "asset_id": "11829306338",
+    "uri": "rbxassetid://11829306338",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://11829306338",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://11829306338"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "11829306338",
+        "uri": "rbxassetid://11829306338",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://11829306338",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 357,
+        "raw_uri": "rbxassetid://11829306338",
+        "image": "rbxassetid://11829306338",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 26,
+        "raw_uri": "rbxassetid://11829306338",
+        "image": "rbxassetid://11829306338",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/11829306338.png",
+    "preview_path": "images/11829306338.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3726462ed7a7553c47c74e67",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBlurred beam",
+    "asset_id": "15398093472",
+    "uri": "rbxassetid://15398093472",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15398093472",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15398093472"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15398093472",
+        "uri": "rbxassetid://15398093472",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15398093472",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3,
+        "raw_uri": "rbxassetid://15398093472",
+        "image": "rbxassetid://15398093472",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 3,
+        "raw_uri": "rbxassetid://15398093472",
+        "image": "rbxassetid://15398093472",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15398093472.png",
+    "preview_path": "images/15398093472.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "661cd04b790bcc2c04826a28",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCompressed swirl blank",
+    "asset_id": "1135136643",
+    "uri": "rbxassetid://1135136643",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1135136643",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1135136643"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "1135136643",
+        "uri": "rbxassetid://1135136643",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1135136643",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 202,
+        "raw_uri": "rbxassetid://1135136643",
+        "image": "rbxassetid://1135136643",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 20,
+        "raw_uri": "rbxassetid://1135136643",
+        "image": "rbxassetid://1135136643",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1135136643.png",
+    "preview_path": "images/1135136643.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 56,
+    "height": 420
+  },
+  {
+    "key": "81a7b16c4b7acfaad4c92d1a",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamDrawn waves",
+    "asset_id": "15937992836",
+    "uri": "rbxassetid://15937992836",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15937992836",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15937992836"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15937992836",
+        "uri": "rbxassetid://15937992836",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15937992836",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 11,
+        "raw_uri": "rbxassetid://15937992836",
+        "image": "rbxassetid://15937992836",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 5,
+        "raw_uri": "rbxassetid://15937992836",
+        "image": "rbxassetid://15937992836",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15937992836.png",
+    "preview_path": "images/15937992836.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "f4619e1b77bef5032db1ae7d",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamErased swirl",
+    "asset_id": "7071778278",
+    "uri": "rbxassetid://7071778278",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://7071778278",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://7071778278"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "7071778278",
+        "uri": "rbxassetid://7071778278",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://7071778278",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 26,
+        "raw_uri": "rbxassetid://7071778278",
+        "image": "rbxassetid://7071778278",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 8,
+        "raw_uri": "rbxassetid://7071778278",
+        "image": "rbxassetid://7071778278",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/7071778278.png",
+    "preview_path": "images/7071778278.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a2d48e7d3909654c255cb5f4",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamHigh pixelated",
+    "asset_id": "14339578398",
+    "uri": "rbxassetid://14339578398",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14339578398",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14339578398"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14339578398",
+        "uri": "rbxassetid://14339578398",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14339578398",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 137,
+        "raw_uri": "rbxassetid://14339578398",
+        "image": "rbxassetid://14339578398",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 17,
+        "raw_uri": "rbxassetid://14339578398",
+        "image": "rbxassetid://14339578398",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14339578398.png",
+    "preview_path": "images/14339578398.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 202,
+    "height": 420
+  },
+  {
+    "key": "51b5a4b048d638955f46d5c2",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLayered waving",
+    "asset_id": "2549928235",
+    "uri": "rbxassetid://2549928235",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2549928235",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2549928235"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "2549928235",
+        "uri": "rbxassetid://2549928235",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2549928235",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 16,
+        "raw_uri": "rbxassetid://2549928235",
+        "image": "rbxassetid://2549928235",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 6,
+        "raw_uri": "rbxassetid://2549928235",
+        "image": "rbxassetid://2549928235",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/2549928235.png",
+    "preview_path": "images/2549928235.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 231,
+    "height": 420
+  },
+  {
+    "key": "46441dc5d4623f99aebd76a0",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLE Wavey",
+    "asset_id": "119052185817965",
+    "uri": "rbxassetid://119052185817965",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://119052185817965",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://119052185817965"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "119052185817965",
+        "uri": "rbxassetid://119052185817965",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://119052185817965",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 74,
+        "raw_uri": "rbxassetid://119052185817965",
+        "image": "rbxassetid://119052185817965",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 13,
+        "raw_uri": "rbxassetid://119052185817965",
+        "image": "rbxassetid://119052185817965",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/119052185817965.png",
+    "preview_path": "images/119052185817965.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9d9663a65c06fcb677f1eb21",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamMelting Wave",
+    "asset_id": "99703215532739",
+    "uri": "rbxassetid://99703215532739",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://99703215532739",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://99703215532739"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "99703215532739",
+        "uri": "rbxassetid://99703215532739",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://99703215532739",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 193,
+        "raw_uri": "rbxassetid://99703215532739",
+        "image": "rbxassetid://99703215532739",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 19,
+        "raw_uri": "rbxassetid://99703215532739",
+        "image": "rbxassetid://99703215532739",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/99703215532739.png",
+    "preview_path": "images/99703215532739.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7d1baf8d6199b9054ea86b4b",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamMultiple swirls glow",
+    "asset_id": "15881443696",
+    "uri": "rbxassetid://15881443696",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15881443696",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15881443696"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15881443696",
+        "uri": "rbxassetid://15881443696",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15881443696",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 190,
+        "raw_uri": "rbxassetid://15881443696",
+        "image": "rbxassetid://15881443696",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 18,
+        "raw_uri": "rbxassetid://15881443696",
+        "image": "rbxassetid://15881443696",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15881443696.png",
+    "preview_path": "images/15881443696.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 287,
+    "height": 420
+  },
+  {
+    "key": "4bf3acab9919790d1fccf399",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew39",
+    "asset_id": "101306257408934",
+    "uri": "rbxassetid://101306257408934",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101306257408934",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://101306257408934"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "101306257408934",
+        "uri": "rbxassetid://101306257408934",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://101306257408934",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 387,
+        "raw_uri": "rbxassetid://101306257408934",
+        "image": "rbxassetid://101306257408934",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 28,
+        "raw_uri": "rbxassetid://101306257408934",
+        "image": "rbxassetid://101306257408934",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/101306257408934.png",
+    "preview_path": "images/101306257408934.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "d5ef9d290dce6c96494a131a",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSwirl",
+    "asset_id": "6479047126",
+    "uri": "rbxassetid://6479047126",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6479047126",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6479047126"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "6479047126",
+        "uri": "rbxassetid://6479047126",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6479047126",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 70,
+        "raw_uri": "rbxassetid://6479047126",
+        "image": "rbxassetid://6479047126",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 12,
+        "raw_uri": "rbxassetid://6479047126",
+        "image": "rbxassetid://6479047126",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6479047126.png",
+    "preview_path": "images/6479047126.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 156,
+    "height": 420
+  },
+  {
+    "key": "5c44f6c9f15f2ebc84692090",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSwirling Spiral",
+    "asset_id": "12781785184",
+    "uri": "rbxassetid://12781785184",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12781785184",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12781785184"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12781785184",
+        "uri": "rbxassetid://12781785184",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12781785184",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 429,
+        "raw_uri": "rbxassetid://12781785184",
+        "image": "rbxassetid://12781785184",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 29,
+        "raw_uri": "rbxassetid://12781785184",
+        "image": "rbxassetid://12781785184",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12781785184.png",
+    "preview_path": "images/12781785184.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7472ccb72e76815f339b163e",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWide curve",
+    "asset_id": "138640000731647",
+    "uri": "rbxassetid://138640000731647",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://138640000731647",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://138640000731647"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "138640000731647",
+        "uri": "rbxassetid://138640000731647",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://138640000731647",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 211,
+        "raw_uri": "rbxassetid://138640000731647",
+        "image": "rbxassetid://138640000731647",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 22,
+        "raw_uri": "rbxassetid://138640000731647",
+        "image": "rbxassetid://138640000731647",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/138640000731647.png",
+    "preview_path": "images/138640000731647.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c162f8c61b7f88313530ddec",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamZigzag",
+    "asset_id": "17635275548",
+    "uri": "rbxassetid://17635275548",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://17635275548",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://17635275548"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "17635275548",
+        "uri": "rbxassetid://17635275548",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://17635275548",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 17,
+        "raw_uri": "rbxassetid://17635275548",
+        "image": "rbxassetid://17635275548",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 7,
+        "raw_uri": "rbxassetid://17635275548",
+        "image": "rbxassetid://17635275548",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/17635275548.png",
+    "preview_path": "images/17635275548.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d2307fdfeecefa397f3256cc",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamZigzag blur",
+    "asset_id": "1263079249",
+    "uri": "rbxassetid://1263079249",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1263079249",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1263079249"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "1263079249",
+        "uri": "rbxassetid://1263079249",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1263079249",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spiral"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spiral"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 355,
+        "raw_uri": "rbxassetid://1263079249",
+        "image": "rbxassetid://1263079249",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Spiral",
+        "index": 25,
+        "raw_uri": "rbxassetid://1263079249",
+        "image": "rbxassetid://1263079249",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1263079249.png",
+    "preview_path": "images/1263079249.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

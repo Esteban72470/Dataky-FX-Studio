@@ -1,0 +1,1758 @@
+[
+  {
+    "key": "1f97dffcc177c0347345d6c1",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Blast",
+    "asset_id": "452960473",
+    "uri": "rbxassetid://452960473",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://452960473",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://452960473"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "452960473",
+        "uri": "rbxassetid://452960473",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://452960473",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 41,
+        "raw_uri": "rbxassetid://452960473",
+        "image": "",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://452960473",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 6,
+        "raw_uri": "rbxassetid://452960473",
+        "image": "",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://452960473",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Blast 3"
+    ],
+    "image_path": "images/452960473.png",
+    "preview_path": "images/452960473.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "46dd4527579d413e3b332c14",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Blast 2",
+    "asset_id": "437347603",
+    "uri": "rbxassetid://437347603",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://437347603",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://437347603"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "437347603",
+        "uri": "rbxassetid://437347603",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://437347603",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 132,
+        "raw_uri": "rbxassetid://437347603",
+        "image": "",
+        "mesh_uri": "rbxassetid://437347603",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://437347603",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 18,
+        "raw_uri": "rbxassetid://437347603",
+        "image": "",
+        "mesh_uri": "rbxassetid://437347603",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://437347603",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Blast 4"
+    ],
+    "image_path": "images/437347603.png",
+    "preview_path": "images/437347603.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "00e1cee99a4e520230493974",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Blast 3",
+    "asset_id": "452960473",
+    "uri": "rbxassetid://452960473",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://452960473",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://452960473"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "452960473",
+        "uri": "rbxassetid://452960473",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://452960473",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 141,
+        "raw_uri": "rbxassetid://452960473",
+        "image": "",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://452960473",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 21,
+        "raw_uri": "rbxassetid://452960473",
+        "image": "",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://452960473",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Blast"
+    ],
+    "image_path": "images/452960473.png",
+    "preview_path": "images/452960473.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c8fe5a6ac0c4a1b3ab8ccfb6",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Blast 4",
+    "asset_id": "437347603",
+    "uri": "rbxassetid://437347603",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://437347603",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://437347603"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "437347603",
+        "uri": "rbxassetid://437347603",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://437347603",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 46,
+        "raw_uri": "rbxassetid://437347603",
+        "image": "",
+        "mesh_uri": "rbxassetid://437347603",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://437347603",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 8,
+        "raw_uri": "rbxassetid://437347603",
+        "image": "",
+        "mesh_uri": "rbxassetid://437347603",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://437347603",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Blast 2"
+    ],
+    "image_path": "images/437347603.png",
+    "preview_path": "images/437347603.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a072a2fbad39e6afdd7eda45",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Clay Ring",
+    "asset_id": "471124075",
+    "uri": "rbxassetid://471124075",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://471124075",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://471124075"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "471124075",
+        "uri": "rbxassetid://471124075",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://471124075",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 60,
+        "raw_uri": "rbxassetid://471124075",
+        "image": "",
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://471124075",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 12,
+        "raw_uri": "rbxassetid://471124075",
+        "image": "",
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://471124075",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thicker Ring"
+    ],
+    "image_path": "images/471124075.png",
+    "preview_path": "images/471124075.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "608d0b5a238456f6f4e7fa6b",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Dragon Head",
+    "asset_id": "2548924123",
+    "uri": "rbxassetid://2548924123",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2548924123",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2548924123"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2548924123",
+        "uri": "rbxassetid://2548924123",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2548924123",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 70,
+        "raw_uri": "rbxassetid://2548924123",
+        "image": "",
+        "mesh_uri": "rbxassetid://2548924123",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2548924123",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 15,
+        "raw_uri": "rbxassetid://2548924123",
+        "image": "",
+        "mesh_uri": "rbxassetid://2548924123",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2548924123",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/2548924123.png",
+    "preview_path": "images/2548924123.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b764256c82dc2aeff7f1ae46",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Dust",
+    "asset_id": "6071299561",
+    "uri": "rbxassetid://6071299561",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6071299561",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6071299561"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6071299561",
+        "uri": "rbxassetid://6071299561",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6071299561",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 153,
+        "raw_uri": "rbxassetid://6071299561",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071299561",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071299561",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 25,
+        "raw_uri": "rbxassetid://6071299561",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071299561",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071299561",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6071299561.png",
+    "preview_path": "images/6071299561.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "656846ab759d8684a0b9f86d",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Glitch",
+    "asset_id": "6553110800",
+    "uri": "rbxassetid://6553110800",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553110800",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553110800"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553110800",
+        "uri": "rbxassetid://6553110800",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553110800",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 149,
+        "raw_uri": "rbxassetid://6553110800",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553110800",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553110800",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 22,
+        "raw_uri": "rbxassetid://6553110800",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553110800",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553110800",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553110800.png",
+    "preview_path": "images/6553110800.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5b8358e9f3427606d1a2b49a",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inside Out Ring",
+    "asset_id": "750305703",
+    "uri": "rbxassetid://750305703",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://750305703",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://750305703"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "750305703",
+        "uri": "rbxassetid://750305703",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://750305703",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 8,
+        "raw_uri": "rbxassetid://750305703",
+        "image": "",
+        "mesh_uri": "rbxassetid://750305703",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://750305703",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 4,
+        "raw_uri": "rbxassetid://750305703",
+        "image": "",
+        "mesh_uri": "rbxassetid://750305703",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://750305703",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/750305703.png",
+    "preview_path": "images/750305703.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5805ecf75a2374fcc0bb5e16",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Jagged Crescent",
+    "asset_id": "4901273127",
+    "uri": "rbxassetid://4901273127",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4901273127",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4901273127"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4901273127",
+        "uri": "rbxassetid://4901273127",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4901273127",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 47,
+        "raw_uri": "rbxassetid://4901273127",
+        "image": "",
+        "mesh_uri": "rbxassetid://4901273127",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4901273127",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 9,
+        "raw_uri": "rbxassetid://4901273127",
+        "image": "",
+        "mesh_uri": "rbxassetid://4901273127",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4901273127",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4901273127.png",
+    "preview_path": "images/4901273127.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9e5fdfb912a91cd4c94a5d70",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Jagged Slash",
+    "asset_id": "2836527412",
+    "uri": "rbxassetid://2836527412",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2836527412",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2836527412"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2836527412",
+        "uri": "rbxassetid://2836527412",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2836527412",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 58,
+        "raw_uri": "rbxassetid://2836527412",
+        "image": "",
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2836527412",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 11,
+        "raw_uri": "rbxassetid://2836527412",
+        "image": "",
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2836527412",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Curved Wind Upwards"
+    ],
+    "image_path": "images/2836527412.png",
+    "preview_path": "images/2836527412.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2a878904992da9d9e29eb3fe",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Layered Ring",
+    "asset_id": "22543762",
+    "uri": "rbxassetid://22543762",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://22543762",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://22543762"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "22543762",
+        "uri": "rbxassetid://22543762",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://22543762",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 64,
+        "raw_uri": "rbxassetid://22543762",
+        "image": "",
+        "mesh_uri": "rbxassetid://22543762",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://22543762",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 13,
+        "raw_uri": "rbxassetid://22543762",
+        "image": "",
+        "mesh_uri": "rbxassetid://22543762",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://22543762",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/22543762.png",
+    "preview_path": "images/22543762.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fbaacfc9a445d7f4fdcad651",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Leaf",
+    "asset_id": "5129539702",
+    "uri": "rbxassetid://5129539702",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5129539702",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5129539702"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5129539702",
+        "uri": "rbxassetid://5129539702",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5129539702",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 134,
+        "raw_uri": "rbxassetid://5129539702",
+        "image": "",
+        "mesh_uri": "rbxassetid://5129539702",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5129539702",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 19,
+        "raw_uri": "rbxassetid://5129539702",
+        "image": "",
+        "mesh_uri": "rbxassetid://5129539702",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5129539702",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5129539702.png",
+    "preview_path": "images/5129539702.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bcd0f712d3ba8e01590bc2ff",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Lines",
+    "asset_id": "4313235782",
+    "uri": "rbxassetid://4313235782",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4313235782",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4313235782"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4313235782",
+        "uri": "rbxassetid://4313235782",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4313235782",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4,
+        "raw_uri": "rbxassetid://4313235782",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313235782",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313235782",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 3,
+        "raw_uri": "rbxassetid://4313235782",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313235782",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313235782",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4313235782.png",
+    "preview_path": "images/4313235782.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "0bccbc9fbf0874ac6f981f05",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Ring",
+    "asset_id": "1851169338",
+    "uri": "rbxassetid://1851169338",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1851169338",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1851169338"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1851169338",
+        "uri": "rbxassetid://1851169338",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1851169338",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 150,
+        "raw_uri": "rbxassetid://1851169338",
+        "image": "",
+        "mesh_uri": "rbxassetid://1851169338",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1851169338",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 23,
+        "raw_uri": "rbxassetid://1851169338",
+        "image": "",
+        "mesh_uri": "rbxassetid://1851169338",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1851169338",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1851169338.png",
+    "preview_path": "images/1851169338.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "53fa2a494be3210765e20e91",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Simple Ring",
+    "asset_id": "4452526014",
+    "uri": "rbxassetid://4452526014",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4452526014",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4452526014"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4452526014",
+        "uri": "rbxassetid://4452526014",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4452526014",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 82,
+        "raw_uri": "rbxassetid://4452526014",
+        "image": "",
+        "mesh_uri": "rbxassetid://4452526014",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4452526014",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 16,
+        "raw_uri": "rbxassetid://4452526014",
+        "image": "",
+        "mesh_uri": "rbxassetid://4452526014",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4452526014",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4452526014.png",
+    "preview_path": "images/4452526014.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5f0cd10ff4e334f5868e3d66",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Slash",
+    "asset_id": "4572036304",
+    "uri": "rbxassetid://4572036304",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4572036304",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4572036304"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4572036304",
+        "uri": "rbxassetid://4572036304",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4572036304",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 92,
+        "raw_uri": "rbxassetid://4572036304",
+        "image": "",
+        "mesh_uri": "rbxassetid://4572036304",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4572036304",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 17,
+        "raw_uri": "rbxassetid://4572036304",
+        "image": "",
+        "mesh_uri": "rbxassetid://4572036304",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4572036304",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4572036304.png",
+    "preview_path": "images/4572036304.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "326bcff16bdfe8cc7a0cfd58",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Smear",
+    "asset_id": "5769820604",
+    "uri": "rbxassetid://5769820604",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5769820604",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5769820604"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5769820604",
+        "uri": "rbxassetid://5769820604",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5769820604",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 45,
+        "raw_uri": "rbxassetid://5769820604",
+        "image": "",
+        "mesh_uri": "rbxassetid://5769820604",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5769820604",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 7,
+        "raw_uri": "rbxassetid://5769820604",
+        "image": "",
+        "mesh_uri": "rbxassetid://5769820604",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5769820604",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5769820604.png",
+    "preview_path": "images/5769820604.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "daa1c5875dea589e4607fc5f",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Speed Smears",
+    "asset_id": "5769820098",
+    "uri": "rbxassetid://5769820098",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5769820098",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5769820098"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5769820098",
+        "uri": "rbxassetid://5769820098",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5769820098",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 135,
+        "raw_uri": "rbxassetid://5769820098",
+        "image": "",
+        "mesh_uri": "rbxassetid://5769820098",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5769820098",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 20,
+        "raw_uri": "rbxassetid://5769820098",
+        "image": "",
+        "mesh_uri": "rbxassetid://5769820098",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5769820098",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5769820098.png",
+    "preview_path": "images/5769820098.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "25a3d0ed69d88e1e11527f85",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Star",
+    "asset_id": "4886514859",
+    "uri": "rbxassetid://4886514859",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4886514859",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4886514859"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4886514859",
+        "uri": "rbxassetid://4886514859",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4886514859",
+        "uri_parse_method": "rbxassetid"
+      },
+      {
+        "label": "TextureId",
+        "asset_id": "87526468721369",
+        "uri": "rbxassetid://87526468721369",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://87526468721369",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 11,
+        "raw_uri": "rbxassetid://4886514859",
+        "image": "",
+        "mesh_uri": "rbxassetid://4886514859",
+        "texture_uri": "rbxassetid://87526468721369",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4886514859",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://87526468721369",
+            "label": "TextureId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 5,
+        "raw_uri": "rbxassetid://4886514859",
+        "image": "",
+        "mesh_uri": "rbxassetid://4886514859",
+        "texture_uri": "rbxassetid://87526468721369",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4886514859",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://87526468721369",
+            "label": "TextureId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4886514859.png",
+    "preview_path": "images/4886514859.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "94f794472f61463fe7f66a34",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Crescent",
+    "asset_id": "4646047946",
+    "uri": "rbxassetid://4646047946",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4646047946",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4646047946"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4646047946",
+        "uri": "rbxassetid://4646047946",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4646047946",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 51,
+        "raw_uri": "rbxassetid://4646047946",
+        "image": "",
+        "mesh_uri": "rbxassetid://4646047946",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4646047946",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 10,
+        "raw_uri": "rbxassetid://4646047946",
+        "image": "",
+        "mesh_uri": "rbxassetid://4646047946",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4646047946",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4646047946.png",
+    "preview_path": "images/4646047946.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2ed0c1830156857663add434",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thicker Ring",
+    "asset_id": "471124075",
+    "uri": "rbxassetid://471124075",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://471124075",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://471124075"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "471124075",
+        "uri": "rbxassetid://471124075",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://471124075",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 152,
+        "raw_uri": "rbxassetid://471124075",
+        "image": "",
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://471124075",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 24,
+        "raw_uri": "rbxassetid://471124075",
+        "image": "",
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://471124075",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Clay Ring"
+    ],
+    "image_path": "images/471124075.png",
+    "preview_path": "images/471124075.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8a41fb49d1f192ea084ebd5e",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Tunnel",
+    "asset_id": "4901269283",
+    "uri": "rbxassetid://4901269283",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4901269283",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4901269283"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4901269283",
+        "uri": "rbxassetid://4901269283",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4901269283",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Other"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 67,
+        "raw_uri": "rbxassetid://4901269283",
+        "image": "",
+        "mesh_uri": "rbxassetid://4901269283",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4901269283",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 14,
+        "raw_uri": "rbxassetid://4901269283",
+        "image": "",
+        "mesh_uri": "rbxassetid://4901269283",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4901269283",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4901269283.png",
+    "preview_path": "images/4901269283.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

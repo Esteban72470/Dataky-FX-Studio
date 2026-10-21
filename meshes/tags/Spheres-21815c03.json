@@ -1,0 +1,1360 @@
+[
+  {
+    "key": "0e4374a6c9a55839da03a4f8",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Effect Sphere",
+    "asset_id": "4933939180",
+    "uri": "rbxassetid://4933939180",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4933939180",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4933939180"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4933939180",
+        "uri": "rbxassetid://4933939180",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4933939180",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6,
+        "raw_uri": "rbxassetid://4933939180",
+        "image": "",
+        "mesh_uri": "rbxassetid://4933939180",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4933939180",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 3,
+        "raw_uri": "rbxassetid://4933939180",
+        "image": "",
+        "mesh_uri": "rbxassetid://4933939180",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4933939180",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4933939180.png",
+    "preview_path": "images/4933939180.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "128a48e011c98e5ff3eb3ea4",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Energy Ball",
+    "asset_id": "5703278366",
+    "uri": "rbxassetid://5703278366",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5703278366",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5703278366"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5703278366",
+        "uri": "rbxassetid://5703278366",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5703278366",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 63,
+        "raw_uri": "rbxassetid://5703278366",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703278366",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 9,
+        "raw_uri": "rbxassetid://5703278366",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703278366",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Heavy Shockwave Sphere"
+    ],
+    "image_path": "images/5703278366.png",
+    "preview_path": "images/5703278366.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "146517d4b7beae6e36970dba",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Energy Swirl Sphere",
+    "asset_id": "5747850601",
+    "uri": "rbxassetid://5747850601",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5747850601",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5747850601"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5747850601",
+        "uri": "rbxassetid://5747850601",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5747850601",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 21,
+        "raw_uri": "rbxassetid://5747850601",
+        "image": "",
+        "mesh_uri": "rbxassetid://5747850601",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5747850601",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 5,
+        "raw_uri": "rbxassetid://5747850601",
+        "image": "",
+        "mesh_uri": "rbxassetid://5747850601",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5747850601",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5747850601.png",
+    "preview_path": "images/5747850601.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fa1abb934f1bbb6d9ac42dd3",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Explosion Wind",
+    "asset_id": "6553027596",
+    "uri": "rbxassetid://6553027596",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553027596",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553027596"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553027596",
+        "uri": "rbxassetid://6553027596",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553027596",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 103,
+        "raw_uri": "rbxassetid://6553027596",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553027596",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553027596",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 14,
+        "raw_uri": "rbxassetid://6553027596",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553027596",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553027596",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553027596.png",
+    "preview_path": "images/6553027596.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e5febed1dc31f955f98e4d29",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Explosion Wind Thicker",
+    "asset_id": "6553023590",
+    "uri": "rbxassetid://6553023590",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553023590",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553023590"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553023590",
+        "uri": "rbxassetid://6553023590",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553023590",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 14,
+        "raw_uri": "rbxassetid://6553023590",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553023590",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553023590",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 4,
+        "raw_uri": "rbxassetid://6553023590",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553023590",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553023590",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553023590.png",
+    "preview_path": "images/6553023590.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "38f23b87b5c7a60f2ca18183",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Glitch Sphere",
+    "asset_id": "6553170677",
+    "uri": "rbxassetid://6553170677",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553170677",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553170677"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553170677",
+        "uri": "rbxassetid://6553170677",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553170677",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 154,
+        "raw_uri": "rbxassetid://6553170677",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553170677",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553170677",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 18,
+        "raw_uri": "rbxassetid://6553170677",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553170677",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553170677",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553170677.png",
+    "preview_path": "images/6553170677.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a8bee230c494cf2d9b6722fc",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Glitch Sphere 2",
+    "asset_id": "6553021063",
+    "uri": "rbxassetid://6553021063",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553021063",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553021063"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553021063",
+        "uri": "rbxassetid://6553021063",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553021063",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 96,
+        "raw_uri": "rbxassetid://6553021063",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553021063",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553021063",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 12,
+        "raw_uri": "rbxassetid://6553021063",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553021063",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553021063",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553021063.png",
+    "preview_path": "images/6553021063.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e6f4bf946d661d3d5d8420ba",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Ground Energy Sphere",
+    "asset_id": "6071327170",
+    "uri": "rbxassetid://6071327170",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6071327170",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6071327170"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6071327170",
+        "uri": "rbxassetid://6071327170",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6071327170",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 156,
+        "raw_uri": "rbxassetid://6071327170",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071327170",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071327170",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 19,
+        "raw_uri": "rbxassetid://6071327170",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071327170",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071327170",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6071327170.png",
+    "preview_path": "images/6071327170.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ca5db5d65f358eb5ad5b93d5",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Heavy Shockwave Sphere",
+    "asset_id": "5703278366",
+    "uri": "rbxassetid://5703278366",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5703278366",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5703278366"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5703278366",
+        "uri": "rbxassetid://5703278366",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5703278366",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 72,
+        "raw_uri": "rbxassetid://5703278366",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703278366",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 10,
+        "raw_uri": "rbxassetid://5703278366",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703278366",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Energy Ball"
+    ],
+    "image_path": "images/5703278366.png",
+    "preview_path": "images/5703278366.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "dfab00441104cf869931c3fa",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "High Res Sphere",
+    "asset_id": "1886703108",
+    "uri": "rbxassetid://1886703108",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1886703108",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1886703108"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1886703108",
+        "uri": "rbxassetid://1886703108",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1886703108",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 108,
+        "raw_uri": "rbxassetid://1886703108",
+        "image": "",
+        "mesh_uri": "rbxassetid://1886703108",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1886703108",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 16,
+        "raw_uri": "rbxassetid://1886703108",
+        "image": "",
+        "mesh_uri": "rbxassetid://1886703108",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1886703108",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1886703108.png",
+    "preview_path": "images/1886703108.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "06014ce226e4f13f967d14fb",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inside Out Mesh",
+    "asset_id": "3027924097",
+    "uri": "rbxassetid://3027924097",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://3027924097",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://3027924097"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "3027924097",
+        "uri": "rbxassetid://3027924097",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://3027924097",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 42,
+        "raw_uri": "rbxassetid://3027924097",
+        "image": "",
+        "mesh_uri": "rbxassetid://3027924097",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://3027924097",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 6,
+        "raw_uri": "rbxassetid://3027924097",
+        "image": "",
+        "mesh_uri": "rbxassetid://3027924097",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://3027924097",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/3027924097.png",
+    "preview_path": "images/3027924097.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c32b5bea121d76b7c0bad0ca",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inward Shockwave",
+    "asset_id": "6220387416",
+    "uri": "rbxassetid://6220387416",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6220387416",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6220387416"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6220387416",
+        "uri": "rbxassetid://6220387416",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6220387416",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 50,
+        "raw_uri": "rbxassetid://6220387416",
+        "image": "",
+        "mesh_uri": "rbxassetid://6220387416",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6220387416",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 7,
+        "raw_uri": "rbxassetid://6220387416",
+        "image": "",
+        "mesh_uri": "rbxassetid://6220387416",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6220387416",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6220387416.png",
+    "preview_path": "images/6220387416.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5a285d64cfc22519f4797d97",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Light Shockwave Sphere",
+    "asset_id": "5703288879",
+    "uri": "rbxassetid://5703288879",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5703288879",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5703288879"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5703288879",
+        "uri": "rbxassetid://5703288879",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5703288879",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 104,
+        "raw_uri": "rbxassetid://5703288879",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703288879",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703288879",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 15,
+        "raw_uri": "rbxassetid://5703288879",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703288879",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703288879",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5703288879.png",
+    "preview_path": "images/5703288879.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e7edae4d929ad71f337b678c",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Spiked Ball",
+    "asset_id": "1254390558",
+    "uri": "rbxassetid://1254390558",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1254390558",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1254390558"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1254390558",
+        "uri": "rbxassetid://1254390558",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1254390558",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 74,
+        "raw_uri": "rbxassetid://1254390558",
+        "image": "",
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1254390558",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 11,
+        "raw_uri": "rbxassetid://1254390558",
+        "image": "",
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1254390558",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thick Spiked Ball"
+    ],
+    "image_path": "images/1254390558.png",
+    "preview_path": "images/1254390558.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4232bae7d9a29f8fff091c89",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Explosion Sphere",
+    "asset_id": "4933939521",
+    "uri": "rbxassetid://4933939521",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4933939521",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4933939521"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4933939521",
+        "uri": "rbxassetid://4933939521",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4933939521",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 114,
+        "raw_uri": "rbxassetid://4933939521",
+        "image": "",
+        "mesh_uri": "rbxassetid://4933939521",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4933939521",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 17,
+        "raw_uri": "rbxassetid://4933939521",
+        "image": "",
+        "mesh_uri": "rbxassetid://4933939521",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4933939521",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4933939521.png",
+    "preview_path": "images/4933939521.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "72dabbe75dabae86a2d5e13b",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Spiked Ball",
+    "asset_id": "1254390558",
+    "uri": "rbxassetid://1254390558",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1254390558",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1254390558"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1254390558",
+        "uri": "rbxassetid://1254390558",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1254390558",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 53,
+        "raw_uri": "rbxassetid://1254390558",
+        "image": "",
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1254390558",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 8,
+        "raw_uri": "rbxassetid://1254390558",
+        "image": "",
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1254390558",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Spiked Ball"
+    ],
+    "image_path": "images/1254390558.png",
+    "preview_path": "images/1254390558.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b14f2c88be6092f97320c6c0",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Wind Sphere",
+    "asset_id": "5703242100",
+    "uri": "rbxassetid://5703242100",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5703242100",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5703242100"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5703242100",
+        "uri": "rbxassetid://5703242100",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5703242100",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 157,
+        "raw_uri": "rbxassetid://5703242100",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703242100",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703242100",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 20,
+        "raw_uri": "rbxassetid://5703242100",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703242100",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703242100",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5703242100.png",
+    "preview_path": "images/5703242100.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "95798a1e4634671889390f6d",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Wind Spiral Sphere",
+    "asset_id": "6553177537",
+    "uri": "rbxassetid://6553177537",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553177537",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553177537"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553177537",
+        "uri": "rbxassetid://6553177537",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553177537",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spheres"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spheres"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 99,
+        "raw_uri": "rbxassetid://6553177537",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553177537",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553177537",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spheres",
+        "index": 13,
+        "raw_uri": "rbxassetid://6553177537",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553177537",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553177537",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553177537.png",
+    "preview_path": "images/6553177537.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

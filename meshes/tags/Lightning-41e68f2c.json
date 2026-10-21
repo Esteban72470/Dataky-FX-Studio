@@ -1,0 +1,681 @@
+[
+  {
+    "key": "eef47bb016e21d465974a7be",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Bolt Sparks",
+    "asset_id": "5694662348",
+    "uri": "rbxassetid://5694662348",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5694662348",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5694662348"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5694662348",
+        "uri": "rbxassetid://5694662348",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5694662348",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 89,
+        "raw_uri": "rbxassetid://5694662348",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662348",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662348",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 8,
+        "raw_uri": "rbxassetid://5694662348",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662348",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662348",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Botl Sparks 4"
+    ],
+    "image_path": "images/5694662348.png",
+    "preview_path": "images/5694662348.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "db59353a9cd1f5d3755a9948",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Bolt Sparks 2",
+    "asset_id": "5694662480",
+    "uri": "rbxassetid://5694662480",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5694662480",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5694662480"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5694662480",
+        "uri": "rbxassetid://5694662480",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5694662480",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 138,
+        "raw_uri": "rbxassetid://5694662480",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662480",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662480",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 11,
+        "raw_uri": "rbxassetid://5694662480",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662480",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662480",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5694662480.png",
+    "preview_path": "images/5694662480.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3e3ccf2841e30c7cedd25d67",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Bolt Sparks 3",
+    "asset_id": "5694662639",
+    "uri": "rbxassetid://5694662639",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5694662639",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5694662639"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5694662639",
+        "uri": "rbxassetid://5694662639",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5694662639",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 107,
+        "raw_uri": "rbxassetid://5694662639",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662639",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662639",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 9,
+        "raw_uri": "rbxassetid://5694662639",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662639",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662639",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5694662639.png",
+    "preview_path": "images/5694662639.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "559422974c17014b01e662a4",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Botl Sparks 4",
+    "asset_id": "5694662348",
+    "uri": "rbxassetid://5694662348",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5694662348",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5694662348"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5694662348",
+        "uri": "rbxassetid://5694662348",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5694662348",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 28,
+        "raw_uri": "rbxassetid://5694662348",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662348",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662348",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 3,
+        "raw_uri": "rbxassetid://5694662348",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662348",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662348",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Bolt Sparks"
+    ],
+    "image_path": "images/5694662348.png",
+    "preview_path": "images/5694662348.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "50906a004bdd3a218921b89d",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Lightning",
+    "asset_id": "6071318588",
+    "uri": "rbxassetid://6071318588",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6071318588",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6071318588"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6071318588",
+        "uri": "rbxassetid://6071318588",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6071318588",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 85,
+        "raw_uri": "rbxassetid://6071318588",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071318588",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071318588",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 7,
+        "raw_uri": "rbxassetid://6071318588",
+        "image": "",
+        "mesh_uri": "rbxassetid://6071318588",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6071318588",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6071318588.png",
+    "preview_path": "images/6071318588.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c59e88c6a60900d04c43695f",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Lightning Bolt",
+    "asset_id": "6553232712",
+    "uri": "rbxassetid://6553232712",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553232712",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553232712"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553232712",
+        "uri": "rbxassetid://6553232712",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553232712",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 59,
+        "raw_uri": "rbxassetid://6553232712",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553232712",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553232712",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 5,
+        "raw_uri": "rbxassetid://6553232712",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553232712",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553232712",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553232712.png",
+    "preview_path": "images/6553232712.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a32e62701dbe85d0741fbd9f",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Lightning Waves",
+    "asset_id": "3375161112",
+    "uri": "rbxassetid://3375161112",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://3375161112",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://3375161112"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "3375161112",
+        "uri": "rbxassetid://3375161112",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://3375161112",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 69,
+        "raw_uri": "rbxassetid://3375161112",
+        "image": "",
+        "mesh_uri": "rbxassetid://3375161112",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://3375161112",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 6,
+        "raw_uri": "rbxassetid://3375161112",
+        "image": "",
+        "mesh_uri": "rbxassetid://3375161112",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://3375161112",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/3375161112.png",
+    "preview_path": "images/3375161112.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fdaa92edaf89d69740d5de5e",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Spark",
+    "asset_id": "6553146627",
+    "uri": "rbxassetid://6553146627",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553146627",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553146627"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553146627",
+        "uri": "rbxassetid://6553146627",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553146627",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 115,
+        "raw_uri": "rbxassetid://6553146627",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553146627",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553146627",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 10,
+        "raw_uri": "rbxassetid://6553146627",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553146627",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553146627",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553146627.png",
+    "preview_path": "images/6553146627.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "34c37b16b46c726db4514354",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Spark 2",
+    "asset_id": "6553130477",
+    "uri": "rbxassetid://6553130477",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553130477",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553130477"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553130477",
+        "uri": "rbxassetid://6553130477",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553130477",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Lightning"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Lightning"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 49,
+        "raw_uri": "rbxassetid://6553130477",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553130477",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553130477",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Lightning",
+        "index": 4,
+        "raw_uri": "rbxassetid://6553130477",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553130477",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553130477",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553130477.png",
+    "preview_path": "images/6553130477.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

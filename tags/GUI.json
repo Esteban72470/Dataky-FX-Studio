@@ -1,0 +1,1102 @@
+[
+  {
+    "key": "1c92377eb9514aa8de70b746",
+    "name": "halftone circle",
+    "asset_id": "1084974286",
+    "uri": "rbxassetid://1084974286",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1084974286",
+    "raw_uris": [
+      "rbxassetid://1084974286"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI",
+      "Other"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Other",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6230,
+        "raw_uri": "rbxassetid://1084974286",
+        "image": "rbxassetid://1084974286",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 13,
+        "raw_uri": "rbxassetid://1084974286",
+        "image": "rbxassetid://1084974286",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 1168,
+        "raw_uri": "rbxassetid://1084974286",
+        "image": "rbxassetid://1084974286",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3808,
+        "raw_uri": "rbxassetid://1084974286",
+        "image": "rbxassetid://1084974286",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/1084974286.png",
+    "preview_path": "images/1084974286.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 4,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e5ff498a723cbd098b4592d1",
+    "name": "Sci-Fi Frame 1",
+    "asset_id": "75592850159202",
+    "uri": "rbxassetid://75592850159202",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://75592850159202",
+    "raw_uris": [
+      "rbxassetid://75592850159202"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 99,
+        "raw_uri": "rbxassetid://75592850159202",
+        "image": "rbxassetid://75592850159202",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 3,
+        "raw_uri": "rbxassetid://75592850159202",
+        "image": "rbxassetid://75592850159202",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 61,
+        "raw_uri": "rbxassetid://75592850159202",
+        "image": "rbxassetid://75592850159202",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/75592850159202.png",
+    "preview_path": "images/75592850159202.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "0108b22eec07b8a3d0d8c2bc",
+    "name": "Sci-Fi Frame 10",
+    "asset_id": "122697847244382",
+    "uri": "rbxassetid://122697847244382",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://122697847244382",
+    "raw_uris": [
+      "rbxassetid://122697847244382"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1083,
+        "raw_uri": "rbxassetid://122697847244382",
+        "image": "rbxassetid://122697847244382",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 6,
+        "raw_uri": "rbxassetid://122697847244382",
+        "image": "rbxassetid://122697847244382",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 662,
+        "raw_uri": "rbxassetid://122697847244382",
+        "image": "rbxassetid://122697847244382",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/122697847244382.png",
+    "preview_path": "images/122697847244382.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "5f01f29822d7c851d9681f35",
+    "name": "Sci-Fi Frame 2",
+    "asset_id": "91700957560719",
+    "uri": "rbxassetid://91700957560719",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://91700957560719",
+    "raw_uris": [
+      "rbxassetid://91700957560719"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 891,
+        "raw_uri": "rbxassetid://91700957560719",
+        "image": "rbxassetid://91700957560719",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 4,
+        "raw_uri": "rbxassetid://91700957560719",
+        "image": "rbxassetid://91700957560719",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 554,
+        "raw_uri": "rbxassetid://91700957560719",
+        "image": "rbxassetid://91700957560719",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/91700957560719.png",
+    "preview_path": "images/91700957560719.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "88385c4bf635330929bd7a0b",
+    "name": "Sci-Fi Frame 3",
+    "asset_id": "104339689113050",
+    "uri": "rbxassetid://104339689113050",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://104339689113050",
+    "raw_uris": [
+      "rbxassetid://104339689113050"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4753,
+        "raw_uri": "rbxassetid://104339689113050",
+        "image": "rbxassetid://104339689113050",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 11,
+        "raw_uri": "rbxassetid://104339689113050",
+        "image": "rbxassetid://104339689113050",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2909,
+        "raw_uri": "rbxassetid://104339689113050",
+        "image": "rbxassetid://104339689113050",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/104339689113050.png",
+    "preview_path": "images/104339689113050.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "2bc8b54831ccdabe8034b0ba",
+    "name": "Sci-Fi Frame 4",
+    "asset_id": "101239449571084",
+    "uri": "rbxassetid://101239449571084",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101239449571084",
+    "raw_uris": [
+      "rbxassetid://101239449571084"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2647,
+        "raw_uri": "rbxassetid://101239449571084",
+        "image": "rbxassetid://101239449571084",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 7,
+        "raw_uri": "rbxassetid://101239449571084",
+        "image": "rbxassetid://101239449571084",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1601,
+        "raw_uri": "rbxassetid://101239449571084",
+        "image": "rbxassetid://101239449571084",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/101239449571084.png",
+    "preview_path": "images/101239449571084.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "6568e6ed80e1981b354ff423",
+    "name": "Sci-Fi Frame 5",
+    "asset_id": "81119505041135",
+    "uri": "rbxassetid://81119505041135",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://81119505041135",
+    "raw_uris": [
+      "rbxassetid://81119505041135"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4618,
+        "raw_uri": "rbxassetid://81119505041135",
+        "image": "rbxassetid://81119505041135",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 9,
+        "raw_uri": "rbxassetid://81119505041135",
+        "image": "rbxassetid://81119505041135",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2831,
+        "raw_uri": "rbxassetid://81119505041135",
+        "image": "rbxassetid://81119505041135",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/81119505041135.png",
+    "preview_path": "images/81119505041135.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "f31163b5d4a60cc5315f50c3",
+    "name": "Sci-Fi Frame 6",
+    "asset_id": "108941747162525",
+    "uri": "rbxassetid://108941747162525",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://108941747162525",
+    "raw_uris": [
+      "rbxassetid://108941747162525"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4622,
+        "raw_uri": "rbxassetid://108941747162525",
+        "image": "rbxassetid://108941747162525",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 10,
+        "raw_uri": "rbxassetid://108941747162525",
+        "image": "rbxassetid://108941747162525",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2833,
+        "raw_uri": "rbxassetid://108941747162525",
+        "image": "rbxassetid://108941747162525",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/108941747162525.png",
+    "preview_path": "images/108941747162525.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "2f28aea875811b9a5193b5e6",
+    "name": "Sci-Fi Frame 7",
+    "asset_id": "80756088712515",
+    "uri": "rbxassetid://80756088712515",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://80756088712515",
+    "raw_uris": [
+      "rbxassetid://80756088712515"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6290,
+        "raw_uri": "rbxassetid://80756088712515",
+        "image": "rbxassetid://80756088712515",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 14,
+        "raw_uri": "rbxassetid://80756088712515",
+        "image": "rbxassetid://80756088712515",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3847,
+        "raw_uri": "rbxassetid://80756088712515",
+        "image": "rbxassetid://80756088712515",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/80756088712515.png",
+    "preview_path": "images/80756088712515.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "a28c513aec8d33fdb1b58b4b",
+    "name": "Sci-Fi Frame 8",
+    "asset_id": "116907614915802",
+    "uri": "rbxassetid://116907614915802",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://116907614915802",
+    "raw_uris": [
+      "rbxassetid://116907614915802"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4612,
+        "raw_uri": "rbxassetid://116907614915802",
+        "image": "rbxassetid://116907614915802",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 8,
+        "raw_uri": "rbxassetid://116907614915802",
+        "image": "rbxassetid://116907614915802",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2826,
+        "raw_uri": "rbxassetid://116907614915802",
+        "image": "rbxassetid://116907614915802",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/116907614915802.png",
+    "preview_path": "images/116907614915802.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "18ea1ce496dad91fce2dae20",
+    "name": "Sci-Fi Frame 9",
+    "asset_id": "118828341249376",
+    "uri": "rbxassetid://118828341249376",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://118828341249376",
+    "raw_uris": [
+      "rbxassetid://118828341249376"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5761,
+        "raw_uri": "rbxassetid://118828341249376",
+        "image": "rbxassetid://118828341249376",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 12,
+        "raw_uri": "rbxassetid://118828341249376",
+        "image": "rbxassetid://118828341249376",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3544,
+        "raw_uri": "rbxassetid://118828341249376",
+        "image": "rbxassetid://118828341249376",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/118828341249376.png",
+    "preview_path": "images/118828341249376.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  },
+  {
+    "key": "0376181a767f51c1858e1b4b",
+    "name": "Virtual Overlay",
+    "asset_id": "17842357017",
+    "uri": "rbxassetid://17842357017",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://17842357017",
+    "raw_uris": [
+      "rbxassetid://17842357017"
+    ],
+    "aliases": [],
+    "tags": [
+      "GUI",
+      "Other"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "GUI",
+      "Other",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1080,
+        "raw_uri": "rbxassetid://17842357017",
+        "image": "rbxassetid://17842357017",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "GUI",
+        "index": 5,
+        "raw_uri": "rbxassetid://17842357017",
+        "image": "rbxassetid://17842357017",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Other",
+        "index": 225,
+        "raw_uri": "rbxassetid://17842357017",
+        "image": "rbxassetid://17842357017",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 659,
+        "raw_uri": "rbxassetid://17842357017",
+        "image": "rbxassetid://17842357017",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/17842357017.png",
+    "preview_path": "images/17842357017.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 4,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 236
+  }
+]

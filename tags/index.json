@@ -1,0 +1,97 @@
+{
+  "Circle": {
+    "json": "tags/Circle.json",
+    "csv": "tags/Circle.csv",
+    "count": 794
+  },
+  "Crescent": {
+    "json": "tags/Crescent.json",
+    "csv": "tags/Crescent.csv",
+    "count": 301
+  },
+  "Effect": {
+    "json": "tags/Effect.json",
+    "csv": "tags/Effect.csv",
+    "count": 106
+  },
+  "Fire": {
+    "json": "tags/Fire.json",
+    "csv": "tags/Fire.csv",
+    "count": 231
+  },
+  "Flare": {
+    "json": "tags/Flare.json",
+    "csv": "tags/Flare.csv",
+    "count": 478
+  },
+  "GUI": {
+    "json": "tags/GUI.json",
+    "csv": "tags/GUI.csv",
+    "count": 12
+  },
+  "Grid": {
+    "json": "tags/Grid.json",
+    "csv": "tags/Grid.csv",
+    "count": 98
+  },
+  "Ground": {
+    "json": "tags/Ground.json",
+    "csv": "tags/Ground.csv",
+    "count": 73
+  },
+  "Impact": {
+    "json": "tags/Impact.json",
+    "csv": "tags/Impact.csv",
+    "count": 772
+  },
+  "Lightning": {
+    "json": "tags/Lightning.json",
+    "csv": "tags/Lightning.csv",
+    "count": 280
+  },
+  "Smoke": {
+    "json": "tags/Smoke.json",
+    "csv": "tags/Smoke.csv",
+    "count": 470
+  },
+  "Spec": {
+    "json": "tags/Spec.json",
+    "csv": "tags/Spec.csv",
+    "count": 852
+  },
+  "Star": {
+    "json": "tags/Star.json",
+    "csv": "tags/Star.csv",
+    "count": 258
+  },
+  "Swirl": {
+    "json": "tags/Swirl.json",
+    "csv": "tags/Swirl.csv",
+    "count": 187
+  },
+  "Text": {
+    "json": "tags/Text.json",
+    "csv": "tags/Text.csv",
+    "count": 232
+  },
+  "Water": {
+    "json": "tags/Water.json",
+    "csv": "tags/Water.csv",
+    "count": 151
+  },
+  "Wind": {
+    "json": "tags/Wind.json",
+    "csv": "tags/Wind.csv",
+    "count": 77
+  },
+  "Slash": {
+    "json": "tags/Slash.json",
+    "csv": "tags/Slash.csv",
+    "count": 264
+  },
+  "Other": {
+    "json": "tags/Other.json",
+    "csv": "tags/Other.csv",
+    "count": 1316
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "name": "Dataky · Impact",
+  "id": "dataky-impact",
+  "duration": 2,
+  "loop": true,
+  "nodes": [
+    {
+      "id": "part_36927cb0",
+      "class": "Part",
+      "name": "Source",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          1,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          2,
+          1,
+          2
+        ],
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Massless": true,
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Reflectance": 0,
+        "Material": "SmoothPlastic",
+        "MaterialVariant": "",
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "id": "attachment_874c9451",
+      "class": "Attachment",
+      "name": "Origine",
+      "parent": "part_36927cb0",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Visible": false
+      }
+    },
+    {
+      "id": "particleemitter_5070c091",
+      "class": "ParticleEmitter",
+      "name": "Étincelles",
+      "parent": "attachment_874c9451",
+      "properties": {
+        "Acceleration": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.55,
+              0.95,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.72,
+              0.5,
+              1
+            ]
+          }
+        ],
+        "Drag": 3,
+        "EmissionDirection": "Top",
+        "Enabled": true,
+        "FlipbookBlendFrames": true,
+        "FlipbookFramerate": [
+          1,
+          1
+        ],
+        "FlipbookLayout": "None",
+        "FlipbookMode": "Loop",
+        "FlipbookSizeX": 1,
+        "FlipbookSizeY": 1,
+        "FlipbookStartRandom": false,
+        "Lifetime": [
+          0.35,
+          0.8
+        ],
+        "LightEmission": 1,
+        "LightInfluence": 0,
+        "LockedToPart": false,
+        "Orientation": "FacingCamera",
+        "Rate": 0,
+        "Rotation": [
+          0,
+          0
+        ],
+        "RotSpeed": [
+          0,
+          0
+        ],
+        "Shape": "Box",
+        "ShapeInOut": "Outward",
+        "ShapePartial": 1,
+        "ShapeStyle": "Volume",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 0.55,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Speed": [
+          5,
+          12
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Squash": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Texture": "rbxasset://textures/particles/sparkles_main.dds",
+        "TimeScale": 1,
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.65,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "VelocityInheritance": 0,
+        "WindAffectsDrag": false,
+        "ZOffset": 0
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.1,
+        "mode": "burst",
+        "count": 35
+      }
+    },
+    {
+      "id": "pointlight_a9858003",
+      "class": "PointLight",
+      "name": "Éclair",
+      "parent": "attachment_874c9451",
+      "properties": {
+        "Brightness": 3,
+        "Color": [
+          0.55,
+          0.95,
+          1
+        ],
+        "Enabled": true,
+        "Shadows": false,
+        "Range": 12
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.12,
+        "mode": "continuous",
+        "count": 20
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

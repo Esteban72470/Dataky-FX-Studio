@@ -1,0 +1,6568 @@
+[
+  {
+    "key": "45a5f99476a81cd79f69120a",
+    "name": "Attack Indicator",
+    "asset_id": "137985425880808",
+    "uri": "rbxassetid://137985425880808",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://137985425880808",
+    "raw_uris": [
+      "rbxassetid://137985425880808"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 985,
+        "raw_uri": "rbxassetid://137985425880808",
+        "image": "rbxassetid://137985425880808",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 382,
+        "raw_uri": "rbxassetid://137985425880808",
+        "image": "rbxassetid://137985425880808",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 21,
+        "raw_uri": "rbxassetid://137985425880808",
+        "image": "rbxassetid://137985425880808",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/137985425880808.png",
+    "preview_path": "previews/137985425880808-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "0566f146619d55d7492cba49",
+    "name": "Basic crack",
+    "asset_id": "16456027820",
+    "uri": "rbxassetid://16456027820",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16456027820",
+    "raw_uris": [
+      "rbxassetid://16456027820"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2798,
+        "raw_uri": "rbxassetid://16456027820",
+        "image": "rbxassetid://16456027820",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1101,
+        "raw_uri": "rbxassetid://16456027820",
+        "image": "rbxassetid://16456027820",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 37,
+        "raw_uri": "rbxassetid://16456027820",
+        "image": "rbxassetid://16456027820",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/16456027820.png",
+    "preview_path": "previews/16456027820-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "80e5b5c7ede14197f4668e53",
+    "name": "Chromatic Dark Floor",
+    "asset_id": "124891437321190",
+    "uri": "rbxassetid://124891437321190",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://124891437321190",
+    "raw_uris": [
+      "rbxassetid://124891437321190"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 170,
+        "raw_uri": "rbxassetid://124891437321190",
+        "image": "rbxassetid://124891437321190",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 65,
+        "raw_uri": "rbxassetid://124891437321190",
+        "image": "rbxassetid://124891437321190",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          512
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 5,
+        "raw_uri": "rbxassetid://124891437321190",
+        "image": "rbxassetid://124891437321190",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/124891437321190.png",
+    "preview_path": "previews/124891437321190-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e1cb3c5927aac73a240c51b5",
+    "name": "Chromatic floor",
+    "asset_id": "109775243385926",
+    "uri": "rbxassetid://109775243385926",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://109775243385926",
+    "raw_uris": [
+      "rbxassetid://109775243385926"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3492,
+        "raw_uri": "rbxassetid://109775243385926",
+        "image": "rbxassetid://109775243385926",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1384,
+        "raw_uri": "rbxassetid://109775243385926",
+        "image": "rbxassetid://109775243385926",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 45,
+        "raw_uri": "rbxassetid://109775243385926",
+        "image": "rbxassetid://109775243385926",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/109775243385926.png",
+    "preview_path": "previews/109775243385926-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "59c5044bc49f37f6311d77df",
+    "name": "Chromatic Glass Ground Shatter",
+    "asset_id": "109404610458318",
+    "uri": "rbxassetid://109404610458318",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://109404610458318",
+    "raw_uris": [
+      "rbxassetid://109404610458318"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2697,
+        "raw_uri": "rbxassetid://109404610458318",
+        "image": "rbxassetid://109404610458318",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 34,
+        "raw_uri": "rbxassetid://109404610458318",
+        "image": "rbxassetid://109404610458318",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1635,
+        "raw_uri": "rbxassetid://109404610458318",
+        "image": "rbxassetid://109404610458318",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/109404610458318.png",
+    "preview_path": "images/109404610458318.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bc467e4ce899cac57e4f6b77",
+    "name": "Chromatic Glass Shatter",
+    "asset_id": "91530327901049",
+    "uri": "rbxassetid://91530327901049",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://91530327901049",
+    "raw_uris": [
+      "rbxassetid://91530327901049"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6583,
+        "raw_uri": "rbxassetid://91530327901049",
+        "image": "rbxassetid://91530327901049",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 73,
+        "raw_uri": "rbxassetid://91530327901049",
+        "image": "rbxassetid://91530327901049",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4011,
+        "raw_uri": "rbxassetid://91530327901049",
+        "image": "rbxassetid://91530327901049",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/91530327901049.png",
+    "preview_path": "images/91530327901049.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "279eb0394e8a03ea701c2be1",
+    "name": "Chromatic Glitchy Shatter",
+    "asset_id": "86501395089413",
+    "uri": "rbxassetid://86501395089413",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://86501395089413",
+    "raw_uris": [
+      "rbxassetid://86501395089413"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2408,
+        "raw_uri": "rbxassetid://86501395089413",
+        "image": "rbxassetid://86501395089413",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 951,
+        "raw_uri": "rbxassetid://86501395089413",
+        "image": "rbxassetid://86501395089413",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 30,
+        "raw_uri": "rbxassetid://86501395089413",
+        "image": "rbxassetid://86501395089413",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/86501395089413.png",
+    "preview_path": "previews/86501395089413-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "48f2a40ddc752ad12a02f06c",
+    "name": "Chromatic Ground Air Impact",
+    "asset_id": "72241451692192",
+    "uri": "rbxassetid://72241451692192",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://72241451692192",
+    "raw_uris": [
+      "rbxassetid://72241451692192"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 466,
+        "raw_uri": "rbxassetid://72241451692192",
+        "image": "rbxassetid://72241451692192",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 9,
+        "raw_uri": "rbxassetid://72241451692192",
+        "image": "rbxassetid://72241451692192",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 293,
+        "raw_uri": "rbxassetid://72241451692192",
+        "image": "rbxassetid://72241451692192",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/72241451692192.png",
+    "preview_path": "images/72241451692192.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d514ca68e88b046499fe4d11",
+    "name": "Chromatic Ground Glare",
+    "asset_id": "96821054632727",
+    "uri": "rbxassetid://96821054632727",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://96821054632727",
+    "raw_uris": [
+      "rbxassetid://96821054632727"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4962,
+        "raw_uri": "rbxassetid://96821054632727",
+        "image": "rbxassetid://96821054632727",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 55,
+        "raw_uri": "rbxassetid://96821054632727",
+        "image": "rbxassetid://96821054632727",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3042,
+        "raw_uri": "rbxassetid://96821054632727",
+        "image": "rbxassetid://96821054632727",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/96821054632727.png",
+    "preview_path": "images/96821054632727.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "350ca463b4af7818aa1c4460",
+    "name": "chromatic radial crack",
+    "asset_id": "114542308573914",
+    "uri": "rbxassetid://114542308573914",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://114542308573914",
+    "raw_uris": [
+      "rbxassetid://114542308573914"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1703,
+        "raw_uri": "rbxassetid://114542308573914",
+        "image": "rbxassetid://114542308573914",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 675,
+        "raw_uri": "rbxassetid://114542308573914",
+        "image": "rbxassetid://114542308573914",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 26,
+        "raw_uri": "rbxassetid://114542308573914",
+        "image": "rbxassetid://114542308573914",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/114542308573914.png",
+    "preview_path": "previews/114542308573914-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1d6853d81699b01497011f77",
+    "name": "Circular Crack",
+    "asset_id": "115684066676652",
+    "uri": "rbxassetid://115684066676652",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://115684066676652",
+    "raw_uris": [
+      "rbxassetid://115684066676652"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5236,
+        "raw_uri": "rbxassetid://115684066676652",
+        "image": "rbxassetid://115684066676652",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 56,
+        "raw_uri": "rbxassetid://115684066676652",
+        "image": "rbxassetid://115684066676652",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3211,
+        "raw_uri": "rbxassetid://115684066676652",
+        "image": "rbxassetid://115684066676652",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/115684066676652.png",
+    "preview_path": "images/115684066676652.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f9392eb7877b156913d4fbd9",
+    "name": "Dark 3D Floor",
+    "asset_id": "76514427342857",
+    "uri": "rbxassetid://76514427342857",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://76514427342857",
+    "raw_uris": [
+      "rbxassetid://76514427342857"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4742,
+        "raw_uri": "rbxassetid://76514427342857",
+        "image": "rbxassetid://76514427342857",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1842,
+        "raw_uri": "rbxassetid://76514427342857",
+        "image": "rbxassetid://76514427342857",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 53,
+        "raw_uri": "rbxassetid://76514427342857",
+        "image": "rbxassetid://76514427342857",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/76514427342857.png",
+    "preview_path": "previews/76514427342857-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a5bc1e83d2b48ac1ecbfb20e",
+    "name": "Dark floor",
+    "asset_id": "95716191280682",
+    "uri": "rbxassetid://95716191280682",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://95716191280682",
+    "raw_uris": [
+      "rbxassetid://95716191280682"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 265,
+        "raw_uri": "rbxassetid://95716191280682",
+        "image": "rbxassetid://95716191280682",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 107,
+        "raw_uri": "rbxassetid://95716191280682",
+        "image": "rbxassetid://95716191280682",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 7,
+        "raw_uri": "rbxassetid://95716191280682",
+        "image": "rbxassetid://95716191280682",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/95716191280682.png",
+    "preview_path": "previews/95716191280682-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "75e2137d0f8f4ba61da65a60",
+    "name": "Dark Ground Crack",
+    "asset_id": "13784241004",
+    "uri": "rbxassetid://13784241004",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13784241004",
+    "raw_uris": [
+      "rbxassetid://13784241004"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2678,
+        "raw_uri": "rbxassetid://13784241004",
+        "image": "rbxassetid://13784241004",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1058,
+        "raw_uri": "rbxassetid://13784241004",
+        "image": "rbxassetid://13784241004",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 33,
+        "raw_uri": "rbxassetid://13784241004",
+        "image": "rbxassetid://13784241004",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/13784241004.png",
+    "preview_path": "previews/13784241004-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "98d66883b06e65533a129037",
+    "name": "Evaporating Crack",
+    "asset_id": "13452217224",
+    "uri": "rbxassetid://13452217224",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13452217224",
+    "raw_uris": [
+      "rbxassetid://13452217224"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2626,
+        "raw_uri": "rbxassetid://13452217224",
+        "image": "rbxassetid://13452217224",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1043,
+        "raw_uri": "rbxassetid://13452217224",
+        "image": "rbxassetid://13452217224",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 32,
+        "raw_uri": "rbxassetid://13452217224",
+        "image": "rbxassetid://13452217224",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/13452217224.png",
+    "preview_path": "previews/13452217224-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2539ec5b9dec720be80692a6",
+    "name": "Fading dark ground crack",
+    "asset_id": "13782885260",
+    "uri": "rbxassetid://13782885260",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13782885260",
+    "raw_uris": [
+      "rbxassetid://13782885260"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 30,
+        "raw_uri": "rbxassetid://13782885260",
+        "image": "rbxassetid://13782885260",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 12,
+        "raw_uri": "rbxassetid://13782885260",
+        "image": "rbxassetid://13782885260",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 3,
+        "raw_uri": "rbxassetid://13782885260",
+        "image": "rbxassetid://13782885260",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/13782885260.png",
+    "preview_path": "previews/13782885260-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "24c36e14ea43807495853cd1",
+    "name": "Finished fade",
+    "asset_id": "13781849388",
+    "uri": "rbxassetid://13781849388",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13781849388",
+    "raw_uris": [
+      "rbxassetid://13781849388"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4293,
+        "raw_uri": "rbxassetid://13781849388",
+        "image": "rbxassetid://13781849388",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1679,
+        "raw_uri": "rbxassetid://13781849388",
+        "image": "rbxassetid://13781849388",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 49,
+        "raw_uri": "rbxassetid://13781849388",
+        "image": "rbxassetid://13781849388",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/13781849388.png",
+    "preview_path": "previews/13781849388-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3f4fd8d4e26f82514e67dc1c",
+    "name": "Glass Ground Shatter",
+    "asset_id": "98117877536249",
+    "uri": "rbxassetid://98117877536249",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://98117877536249",
+    "raw_uris": [
+      "rbxassetid://98117877536249"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5781,
+        "raw_uri": "rbxassetid://98117877536249",
+        "image": "rbxassetid://98117877536249",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 61,
+        "raw_uri": "rbxassetid://98117877536249",
+        "image": "rbxassetid://98117877536249",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3557,
+        "raw_uri": "rbxassetid://98117877536249",
+        "image": "rbxassetid://98117877536249",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/98117877536249.png",
+    "preview_path": "images/98117877536249.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9aaa7ebee39247b429833698",
+    "name": "Glass Shatter",
+    "asset_id": "123537613064060",
+    "uri": "rbxassetid://123537613064060",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://123537613064060",
+    "raw_uris": [
+      "rbxassetid://123537613064060"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6516,
+        "raw_uri": "rbxassetid://123537613064060",
+        "image": "rbxassetid://123537613064060",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 71,
+        "raw_uri": "rbxassetid://123537613064060",
+        "image": "rbxassetid://123537613064060",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3970,
+        "raw_uri": "rbxassetid://123537613064060",
+        "image": "rbxassetid://123537613064060",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/123537613064060.png",
+    "preview_path": "images/123537613064060.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2669b58218b357157aabeba6",
+    "name": "Glitchy Shatter",
+    "asset_id": "120506201600091",
+    "uri": "rbxassetid://120506201600091",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://120506201600091",
+    "raw_uris": [
+      "rbxassetid://120506201600091"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 707,
+        "raw_uri": "rbxassetid://120506201600091",
+        "image": "rbxassetid://120506201600091",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 271,
+        "raw_uri": "rbxassetid://120506201600091",
+        "image": "rbxassetid://120506201600091",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 15,
+        "raw_uri": "rbxassetid://120506201600091",
+        "image": "rbxassetid://120506201600091",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/120506201600091.png",
+    "preview_path": "previews/120506201600091-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "17fe7842558a7218f347b322",
+    "name": "Glowing Glass Shatter",
+    "asset_id": "96768078986783",
+    "uri": "rbxassetid://96768078986783",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://96768078986783",
+    "raw_uris": [
+      "rbxassetid://96768078986783"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4633,
+        "raw_uri": "rbxassetid://96768078986783",
+        "image": "rbxassetid://96768078986783",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 52,
+        "raw_uri": "rbxassetid://96768078986783",
+        "image": "rbxassetid://96768078986783",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2840,
+        "raw_uri": "rbxassetid://96768078986783",
+        "image": "rbxassetid://96768078986783",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/96768078986783.png",
+    "preview_path": "images/96768078986783.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7a7778a995c26d378361a4e8",
+    "name": "Glowing Pixelated Cracks",
+    "asset_id": "72774667624473",
+    "uri": "rbxassetid://72774667624473",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://72774667624473",
+    "raw_uris": [
+      "rbxassetid://72774667624473"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 780,
+        "raw_uri": "rbxassetid://72774667624473",
+        "image": "rbxassetid://72774667624473",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 301,
+        "raw_uri": "rbxassetid://72774667624473",
+        "image": "rbxassetid://72774667624473",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 16,
+        "raw_uri": "rbxassetid://72774667624473",
+        "image": "rbxassetid://72774667624473",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/72774667624473.png",
+    "preview_path": "previews/72774667624473-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4375d9d9d08683b76c28cb1f",
+    "name": "Ground Air Impact",
+    "asset_id": "72361795955009",
+    "uri": "rbxassetid://72361795955009",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://72361795955009",
+    "raw_uris": [
+      "rbxassetid://72361795955009"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2983,
+        "raw_uri": "rbxassetid://72361795955009",
+        "image": "rbxassetid://72361795955009",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 40,
+        "raw_uri": "rbxassetid://72361795955009",
+        "image": "rbxassetid://72361795955009",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1813,
+        "raw_uri": "rbxassetid://72361795955009",
+        "image": "rbxassetid://72361795955009",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/72361795955009.png",
+    "preview_path": "images/72361795955009.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "01864d499f676328f768d67f",
+    "name": "Ground Air Impact Extrusion",
+    "asset_id": "82444414387879",
+    "uri": "rbxassetid://82444414387879",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82444414387879",
+    "raw_uris": [
+      "rbxassetid://82444414387879"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1327,
+        "raw_uri": "rbxassetid://82444414387879",
+        "image": "rbxassetid://82444414387879",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 24,
+        "raw_uri": "rbxassetid://82444414387879",
+        "image": "rbxassetid://82444414387879",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 808,
+        "raw_uri": "rbxassetid://82444414387879",
+        "image": "rbxassetid://82444414387879",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/82444414387879.png",
+    "preview_path": "images/82444414387879.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3885bde3413887747d2f4f1d",
+    "name": "Ground Glare",
+    "asset_id": "137715456777490",
+    "uri": "rbxassetid://137715456777490",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://137715456777490",
+    "raw_uris": [
+      "rbxassetid://137715456777490"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5264,
+        "raw_uri": "rbxassetid://137715456777490",
+        "image": "rbxassetid://137715456777490",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 57,
+        "raw_uri": "rbxassetid://137715456777490",
+        "image": "rbxassetid://137715456777490",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3232,
+        "raw_uri": "rbxassetid://137715456777490",
+        "image": "rbxassetid://137715456777490",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/137715456777490.png",
+    "preview_path": "images/137715456777490.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "21367208290e81d5f1fc3da7",
+    "name": "Ground1",
+    "asset_id": "88037682586646",
+    "uri": "rbxassetid://88037682586646",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://88037682586646",
+    "raw_uris": [
+      "rbxassetid://88037682586646"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1371,
+        "raw_uri": "rbxassetid://88037682586646",
+        "image": "rbxassetid://88037682586646",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 25,
+        "raw_uri": "rbxassetid://88037682586646",
+        "image": "rbxassetid://88037682586646",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 832,
+        "raw_uri": "rbxassetid://88037682586646",
+        "image": "rbxassetid://88037682586646",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/88037682586646.png",
+    "preview_path": "images/88037682586646.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 382
+  },
+  {
+    "key": "17c1300a7b2383b7d8f4b6e6",
+    "name": "Ground10",
+    "asset_id": "70743228513511",
+    "uri": "rbxassetid://70743228513511",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://70743228513511",
+    "raw_uris": [
+      "rbxassetid://70743228513511"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3482,
+        "raw_uri": "rbxassetid://70743228513511",
+        "image": "rbxassetid://70743228513511",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 44,
+        "raw_uri": "rbxassetid://70743228513511",
+        "image": "rbxassetid://70743228513511",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2106,
+        "raw_uri": "rbxassetid://70743228513511",
+        "image": "rbxassetid://70743228513511",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/70743228513511.png",
+    "preview_path": "images/70743228513511.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "96b9e61511443175566713f3",
+    "name": "Ground11",
+    "asset_id": "80289736086797",
+    "uri": "rbxassetid://80289736086797",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://80289736086797",
+    "raw_uris": [
+      "rbxassetid://80289736086797"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6439,
+        "raw_uri": "rbxassetid://80289736086797",
+        "image": "rbxassetid://80289736086797",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 69,
+        "raw_uri": "rbxassetid://80289736086797",
+        "image": "rbxassetid://80289736086797",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3929,
+        "raw_uri": "rbxassetid://80289736086797",
+        "image": "rbxassetid://80289736086797",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/80289736086797.png",
+    "preview_path": "images/80289736086797.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "37562924a4bdb8e8fdfc06de",
+    "name": "Ground12",
+    "asset_id": "100609079910602",
+    "uri": "rbxassetid://100609079910602",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://100609079910602",
+    "raw_uris": [
+      "rbxassetid://100609079910602"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4049,
+        "raw_uri": "rbxassetid://100609079910602",
+        "image": "rbxassetid://100609079910602",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 47,
+        "raw_uri": "rbxassetid://100609079910602",
+        "image": "rbxassetid://100609079910602",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2463,
+        "raw_uri": "rbxassetid://100609079910602",
+        "image": "rbxassetid://100609079910602",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/100609079910602.png",
+    "preview_path": "images/100609079910602.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1d2c9f29fc6843649bcb95a8",
+    "name": "Ground13",
+    "asset_id": "73112399877466",
+    "uri": "rbxassetid://73112399877466",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://73112399877466",
+    "raw_uris": [
+      "rbxassetid://73112399877466"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1239,
+        "raw_uri": "rbxassetid://73112399877466",
+        "image": "rbxassetid://73112399877466",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 22,
+        "raw_uri": "rbxassetid://73112399877466",
+        "image": "rbxassetid://73112399877466",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 760,
+        "raw_uri": "rbxassetid://73112399877466",
+        "image": "rbxassetid://73112399877466",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/73112399877466.png",
+    "preview_path": "images/73112399877466.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 210
+  },
+  {
+    "key": "7fbc21322ef70d2a2ca84d64",
+    "name": "Ground14",
+    "asset_id": "121383088815851",
+    "uri": "rbxassetid://121383088815851",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://121383088815851",
+    "raw_uris": [
+      "rbxassetid://121383088815851"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5530,
+        "raw_uri": "rbxassetid://121383088815851",
+        "image": "rbxassetid://121383088815851",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 58,
+        "raw_uri": "rbxassetid://121383088815851",
+        "image": "rbxassetid://121383088815851",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3397,
+        "raw_uri": "rbxassetid://121383088815851",
+        "image": "rbxassetid://121383088815851",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/121383088815851.png",
+    "preview_path": "images/121383088815851.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 210
+  },
+  {
+    "key": "bf10798f241c1230cb9c04dc",
+    "name": "Ground15",
+    "asset_id": "91578195629955",
+    "uri": "rbxassetid://91578195629955",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://91578195629955",
+    "raw_uris": [
+      "rbxassetid://91578195629955"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2876,
+        "raw_uri": "rbxassetid://91578195629955",
+        "image": "rbxassetid://91578195629955",
+        "rect_size": [
+          128,
+          128
+        ],
+        "rect_offset": [
+          128,
+          128
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1125,
+        "raw_uri": "rbxassetid://91578195629955",
+        "image": "rbxassetid://91578195629955",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 38,
+        "raw_uri": "rbxassetid://91578195629955",
+        "image": "rbxassetid://91578195629955",
+        "rect_size": [
+          128,
+          128
+        ],
+        "rect_offset": [
+          768,
+          384
+        ]
+      }
+    ],
+    "image_path": "images/91578195629955.png",
+    "preview_path": "previews/91578195629955-8x8.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 8,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "40da6356219756b8f8ce413d",
+    "name": "Ground16",
+    "asset_id": "92770202972211",
+    "uri": "rbxassetid://92770202972211",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://92770202972211",
+    "raw_uris": [
+      "rbxassetid://92770202972211"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2913,
+        "raw_uri": "rbxassetid://92770202972211",
+        "image": "rbxassetid://92770202972211",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 39,
+        "raw_uri": "rbxassetid://92770202972211",
+        "image": "rbxassetid://92770202972211",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1774,
+        "raw_uri": "rbxassetid://92770202972211",
+        "image": "rbxassetid://92770202972211",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/92770202972211.png",
+    "preview_path": "images/92770202972211.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f51877bbfbd403ca3b3c555a",
+    "name": "Ground17",
+    "asset_id": "105495374622620",
+    "uri": "rbxassetid://105495374622620",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://105495374622620",
+    "raw_uris": [
+      "rbxassetid://105495374622620"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2708,
+        "raw_uri": "rbxassetid://105495374622620",
+        "image": "rbxassetid://105495374622620",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 35,
+        "raw_uri": "rbxassetid://105495374622620",
+        "image": "rbxassetid://105495374622620",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1644,
+        "raw_uri": "rbxassetid://105495374622620",
+        "image": "rbxassetid://105495374622620",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/105495374622620.png",
+    "preview_path": "images/105495374622620.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "705f32c5e43f2aa3abf1563e",
+    "name": "Ground18",
+    "asset_id": "112043969867945",
+    "uri": "rbxassetid://112043969867945",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://112043969867945",
+    "raw_uris": [
+      "rbxassetid://112043969867945"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6089,
+        "raw_uri": "rbxassetid://112043969867945",
+        "image": "rbxassetid://112043969867945",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 65,
+        "raw_uri": "rbxassetid://112043969867945",
+        "image": "rbxassetid://112043969867945",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3730,
+        "raw_uri": "rbxassetid://112043969867945",
+        "image": "rbxassetid://112043969867945",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/112043969867945.png",
+    "preview_path": "images/112043969867945.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2f69bea25ac7a240f140ed4e",
+    "name": "Ground19",
+    "asset_id": "129483039162676",
+    "uri": "rbxassetid://129483039162676",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://129483039162676",
+    "raw_uris": [
+      "rbxassetid://129483039162676"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5548,
+        "raw_uri": "rbxassetid://129483039162676",
+        "image": "rbxassetid://129483039162676",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 59,
+        "raw_uri": "rbxassetid://129483039162676",
+        "image": "rbxassetid://129483039162676",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3410,
+        "raw_uri": "rbxassetid://129483039162676",
+        "image": "rbxassetid://129483039162676",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/129483039162676.png",
+    "preview_path": "images/129483039162676.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "16b0388d65fa5cf701110e95",
+    "name": "Ground2",
+    "asset_id": "81554037133162",
+    "uri": "rbxassetid://81554037133162",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://81554037133162",
+    "raw_uris": [
+      "rbxassetid://81554037133162"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 541,
+        "raw_uri": "rbxassetid://81554037133162",
+        "image": "rbxassetid://81554037133162",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 204,
+        "raw_uri": "rbxassetid://81554037133162",
+        "image": "rbxassetid://81554037133162",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 11,
+        "raw_uri": "rbxassetid://81554037133162",
+        "image": "rbxassetid://81554037133162",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/81554037133162.png",
+    "preview_path": "previews/81554037133162-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8e838ea8575329f298d5d8f1",
+    "name": "Ground20",
+    "asset_id": "96795972130390",
+    "uri": "rbxassetid://96795972130390",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://96795972130390",
+    "raw_uris": [
+      "rbxassetid://96795972130390"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3584,
+        "raw_uri": "rbxassetid://96795972130390",
+        "image": "rbxassetid://96795972130390",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 46,
+        "raw_uri": "rbxassetid://96795972130390",
+        "image": "rbxassetid://96795972130390",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2168,
+        "raw_uri": "rbxassetid://96795972130390",
+        "image": "rbxassetid://96795972130390",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/96795972130390.png",
+    "preview_path": "images/96795972130390.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 381
+  },
+  {
+    "key": "c70f737915c0af9ce766549a",
+    "name": "Ground21",
+    "asset_id": "82576941307593",
+    "uri": "rbxassetid://82576941307593",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82576941307593",
+    "raw_uris": [
+      "rbxassetid://82576941307593"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 675,
+        "raw_uri": "rbxassetid://82576941307593",
+        "image": "rbxassetid://82576941307593",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 14,
+        "raw_uri": "rbxassetid://82576941307593",
+        "image": "rbxassetid://82576941307593",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 418,
+        "raw_uri": "rbxassetid://82576941307593",
+        "image": "rbxassetid://82576941307593",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/82576941307593.png",
+    "preview_path": "images/82576941307593.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5258e067cf9230953fbec034",
+    "name": "Ground22",
+    "asset_id": "100448991779680",
+    "uri": "rbxassetid://100448991779680",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://100448991779680",
+    "raw_uris": [
+      "rbxassetid://100448991779680"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6026,
+        "raw_uri": "rbxassetid://100448991779680",
+        "image": "rbxassetid://100448991779680",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 63,
+        "raw_uri": "rbxassetid://100448991779680",
+        "image": "rbxassetid://100448991779680",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3694,
+        "raw_uri": "rbxassetid://100448991779680",
+        "image": "rbxassetid://100448991779680",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/100448991779680.png",
+    "preview_path": "images/100448991779680.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6e212c2ae0cbea09355b9e57",
+    "name": "Ground23",
+    "asset_id": "118883496017040",
+    "uri": "rbxassetid://118883496017040",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://118883496017040",
+    "raw_uris": [
+      "rbxassetid://118883496017040"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6129,
+        "raw_uri": "rbxassetid://118883496017040",
+        "image": "rbxassetid://118883496017040",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 66,
+        "raw_uri": "rbxassetid://118883496017040",
+        "image": "rbxassetid://118883496017040",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3754,
+        "raw_uri": "rbxassetid://118883496017040",
+        "image": "rbxassetid://118883496017040",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/118883496017040.png",
+    "preview_path": "images/118883496017040.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2a971a489d9abaad127d0722",
+    "name": "Ground24",
+    "asset_id": "75496062265070",
+    "uri": "rbxassetid://75496062265070",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://75496062265070",
+    "raw_uris": [
+      "rbxassetid://75496062265070"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 517,
+        "raw_uri": "rbxassetid://75496062265070",
+        "image": "rbxassetid://75496062265070",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 10,
+        "raw_uri": "rbxassetid://75496062265070",
+        "image": "rbxassetid://75496062265070",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 326,
+        "raw_uri": "rbxassetid://75496062265070",
+        "image": "rbxassetid://75496062265070",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/75496062265070.png",
+    "preview_path": "images/75496062265070.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d93b6c664a6b0982c9f29046",
+    "name": "Ground25",
+    "asset_id": "92875473712388",
+    "uri": "rbxassetid://92875473712388",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://92875473712388",
+    "raw_uris": [
+      "rbxassetid://92875473712388"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2354,
+        "raw_uri": "rbxassetid://92875473712388",
+        "image": "rbxassetid://92875473712388",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 28,
+        "raw_uri": "rbxassetid://92875473712388",
+        "image": "rbxassetid://92875473712388",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1428,
+        "raw_uri": "rbxassetid://92875473712388",
+        "image": "rbxassetid://92875473712388",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/92875473712388.png",
+    "preview_path": "images/92875473712388.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f6b776d6b527de1e9567d1f2",
+    "name": "Ground26",
+    "asset_id": "83463235153869",
+    "uri": "rbxassetid://83463235153869",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://83463235153869",
+    "raw_uris": [
+      "rbxassetid://83463235153869"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6649,
+        "raw_uri": "rbxassetid://83463235153869",
+        "image": "rbxassetid://83463235153869",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 75,
+        "raw_uri": "rbxassetid://83463235153869",
+        "image": "rbxassetid://83463235153869",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4051,
+        "raw_uri": "rbxassetid://83463235153869",
+        "image": "rbxassetid://83463235153869",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/83463235153869.png",
+    "preview_path": "images/83463235153869.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "97ad700bb942584077091424",
+    "name": "Ground28",
+    "asset_id": "123214658790614",
+    "uri": "rbxassetid://123214658790614",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://123214658790614",
+    "raw_uris": [
+      "rbxassetid://123214658790614"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1265,
+        "raw_uri": "rbxassetid://123214658790614",
+        "image": "rbxassetid://123214658790614",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 23,
+        "raw_uri": "rbxassetid://123214658790614",
+        "image": "rbxassetid://123214658790614",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 772,
+        "raw_uri": "rbxassetid://123214658790614",
+        "image": "rbxassetid://123214658790614",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/123214658790614.png",
+    "preview_path": "images/123214658790614.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1a6383ad9bfd4dcfea6a49a6",
+    "name": "Ground29",
+    "asset_id": "125314922601956",
+    "uri": "rbxassetid://125314922601956",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://125314922601956",
+    "raw_uris": [
+      "rbxassetid://125314922601956"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 815,
+        "raw_uri": "rbxassetid://125314922601956",
+        "image": "rbxassetid://125314922601956",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 17,
+        "raw_uri": "rbxassetid://125314922601956",
+        "image": "rbxassetid://125314922601956",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 502,
+        "raw_uri": "rbxassetid://125314922601956",
+        "image": "rbxassetid://125314922601956",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/125314922601956.png",
+    "preview_path": "images/125314922601956.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "afd3c32751d1758b992c5345",
+    "name": "Ground3",
+    "asset_id": "73628643311964",
+    "uri": "rbxassetid://73628643311964",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://73628643311964",
+    "raw_uris": [
+      "rbxassetid://73628643311964"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6171,
+        "raw_uri": "rbxassetid://73628643311964",
+        "image": "rbxassetid://73628643311964",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2397,
+        "raw_uri": "rbxassetid://73628643311964",
+        "image": "rbxassetid://73628643311964",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 67,
+        "raw_uri": "rbxassetid://73628643311964",
+        "image": "rbxassetid://73628643311964",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/73628643311964.png",
+    "preview_path": "previews/73628643311964-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c69dcbb719bbc98f18029528",
+    "name": "Ground30",
+    "asset_id": "78777197785281",
+    "uri": "rbxassetid://78777197785281",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://78777197785281",
+    "raw_uris": [
+      "rbxassetid://78777197785281"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1725,
+        "raw_uri": "rbxassetid://78777197785281",
+        "image": "rbxassetid://78777197785281",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 27,
+        "raw_uri": "rbxassetid://78777197785281",
+        "image": "rbxassetid://78777197785281",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1044,
+        "raw_uri": "rbxassetid://78777197785281",
+        "image": "rbxassetid://78777197785281",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/78777197785281.png",
+    "preview_path": "images/78777197785281.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "689d27929e2cb97624844126",
+    "name": "Ground31",
+    "asset_id": "135424367934998",
+    "uri": "rbxassetid://135424367934998",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://135424367934998",
+    "raw_uris": [
+      "rbxassetid://135424367934998"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 674,
+        "raw_uri": "rbxassetid://135424367934998",
+        "image": "rbxassetid://135424367934998",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 13,
+        "raw_uri": "rbxassetid://135424367934998",
+        "image": "rbxassetid://135424367934998",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 417,
+        "raw_uri": "rbxassetid://135424367934998",
+        "image": "rbxassetid://135424367934998",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/135424367934998.png",
+    "preview_path": "images/135424367934998.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b048704da90a95cd16ec0049",
+    "name": "Ground32",
+    "asset_id": "87233255893145",
+    "uri": "rbxassetid://87233255893145",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://87233255893145",
+    "raw_uris": [
+      "rbxassetid://87233255893145"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4379,
+        "raw_uri": "rbxassetid://87233255893145",
+        "image": "rbxassetid://87233255893145",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 50,
+        "raw_uri": "rbxassetid://87233255893145",
+        "image": "rbxassetid://87233255893145",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2674,
+        "raw_uri": "rbxassetid://87233255893145",
+        "image": "rbxassetid://87233255893145",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/87233255893145.png",
+    "preview_path": "images/87233255893145.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "013e870eebf44a36215ece41",
+    "name": "Ground33",
+    "asset_id": "127408540362062",
+    "uri": "rbxassetid://127408540362062",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://127408540362062",
+    "raw_uris": [
+      "rbxassetid://127408540362062"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4878,
+        "raw_uri": "rbxassetid://127408540362062",
+        "image": "rbxassetid://127408540362062",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 54,
+        "raw_uri": "rbxassetid://127408540362062",
+        "image": "rbxassetid://127408540362062",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2988,
+        "raw_uri": "rbxassetid://127408540362062",
+        "image": "rbxassetid://127408540362062",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/127408540362062.png",
+    "preview_path": "images/127408540362062.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "69428315d78625195bb402cd",
+    "name": "Ground34",
+    "asset_id": "83574099468876",
+    "uri": "rbxassetid://83574099468876",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://83574099468876",
+    "raw_uris": [
+      "rbxassetid://83574099468876"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2540,
+        "raw_uri": "rbxassetid://83574099468876",
+        "image": "rbxassetid://83574099468876",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 31,
+        "raw_uri": "rbxassetid://83574099468876",
+        "image": "rbxassetid://83574099468876",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1532,
+        "raw_uri": "rbxassetid://83574099468876",
+        "image": "rbxassetid://83574099468876",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/83574099468876.png",
+    "preview_path": "images/83574099468876.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "48e7586d42a4d1b1c67add87",
+    "name": "Ground35",
+    "asset_id": "133348460606413",
+    "uri": "rbxassetid://133348460606413",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://133348460606413",
+    "raw_uris": [
+      "rbxassetid://133348460606413"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5949,
+        "raw_uri": "rbxassetid://133348460606413",
+        "image": "rbxassetid://133348460606413",
+        "rect_size": [
+          128,
+          128
+        ],
+        "rect_offset": [
+          384,
+          0
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2302,
+        "raw_uri": "rbxassetid://133348460606413",
+        "image": "rbxassetid://133348460606413",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 62,
+        "raw_uri": "rbxassetid://133348460606413",
+        "image": "rbxassetid://133348460606413",
+        "rect_size": [
+          128,
+          128
+        ],
+        "rect_offset": [
+          128,
+          384
+        ]
+      }
+    ],
+    "image_path": "images/133348460606413.png",
+    "preview_path": "previews/133348460606413-8x8.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 8,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "51917d08bcccc26bd579540f",
+    "name": "Ground36",
+    "asset_id": "127739418788703",
+    "uri": "rbxassetid://127739418788703",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://127739418788703",
+    "raw_uris": [
+      "rbxassetid://127739418788703"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 904,
+        "raw_uri": "rbxassetid://127739418788703",
+        "image": "rbxassetid://127739418788703",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 343,
+        "raw_uri": "rbxassetid://127739418788703",
+        "image": "rbxassetid://127739418788703",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 19,
+        "raw_uri": "rbxassetid://127739418788703",
+        "image": "rbxassetid://127739418788703",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/127739418788703.png",
+    "preview_path": "previews/127739418788703-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f8dbf532f64721c7f0298d1b",
+    "name": "Ground4",
+    "asset_id": "91180816422936",
+    "uri": "rbxassetid://91180816422936",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://91180816422936",
+    "raw_uris": [
+      "rbxassetid://91180816422936"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4466,
+        "raw_uri": "rbxassetid://91180816422936",
+        "image": "rbxassetid://91180816422936",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 51,
+        "raw_uri": "rbxassetid://91180816422936",
+        "image": "rbxassetid://91180816422936",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2735,
+        "raw_uri": "rbxassetid://91180816422936",
+        "image": "rbxassetid://91180816422936",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/91180816422936.png",
+    "preview_path": "images/91180816422936.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bb329b9f1c270eda6bb2ee09",
+    "name": "Ground5",
+    "asset_id": "121872395220119",
+    "uri": "rbxassetid://121872395220119",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://121872395220119",
+    "raw_uris": [
+      "rbxassetid://121872395220119"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6522,
+        "raw_uri": "rbxassetid://121872395220119",
+        "image": "rbxassetid://121872395220119",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 72,
+        "raw_uri": "rbxassetid://121872395220119",
+        "image": "rbxassetid://121872395220119",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3972,
+        "raw_uri": "rbxassetid://121872395220119",
+        "image": "rbxassetid://121872395220119",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/121872395220119.png",
+    "preview_path": "images/121872395220119.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4fcbffaf7a7aa4a73809b406",
+    "name": "Ground6",
+    "asset_id": "127326326281041",
+    "uri": "rbxassetid://127326326281041",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://127326326281041",
+    "raw_uris": [
+      "rbxassetid://127326326281041"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 436,
+        "raw_uri": "rbxassetid://127326326281041",
+        "image": "rbxassetid://127326326281041",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 8,
+        "raw_uri": "rbxassetid://127326326281041",
+        "image": "rbxassetid://127326326281041",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 277,
+        "raw_uri": "rbxassetid://127326326281041",
+        "image": "rbxassetid://127326326281041",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/127326326281041.png",
+    "preview_path": "images/127326326281041.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2e7e967fb40f8bdfc637c8e7",
+    "name": "Ground7",
+    "asset_id": "90428618814039",
+    "uri": "rbxassetid://90428618814039",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://90428618814039",
+    "raw_uris": [
+      "rbxassetid://90428618814039"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3261,
+        "raw_uri": "rbxassetid://90428618814039",
+        "image": "rbxassetid://90428618814039",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 42,
+        "raw_uri": "rbxassetid://90428618814039",
+        "image": "rbxassetid://90428618814039",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1965,
+        "raw_uri": "rbxassetid://90428618814039",
+        "image": "rbxassetid://90428618814039",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/90428618814039.png",
+    "preview_path": "images/90428618814039.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f808a3899b3bf5165721b541",
+    "name": "Ground8",
+    "asset_id": "114719018679388",
+    "uri": "rbxassetid://114719018679388",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://114719018679388",
+    "raw_uris": [
+      "rbxassetid://114719018679388"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2733,
+        "raw_uri": "rbxassetid://114719018679388",
+        "image": "rbxassetid://114719018679388",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 36,
+        "raw_uri": "rbxassetid://114719018679388",
+        "image": "rbxassetid://114719018679388",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1663,
+        "raw_uri": "rbxassetid://114719018679388",
+        "image": "rbxassetid://114719018679388",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/114719018679388.png",
+    "preview_path": "images/114719018679388.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1b61daba974ccbff87e3ebe8",
+    "name": "Ground9",
+    "asset_id": "99257520037104",
+    "uri": "rbxassetid://99257520037104",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://99257520037104",
+    "raw_uris": [
+      "rbxassetid://99257520037104"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 829,
+        "raw_uri": "rbxassetid://99257520037104",
+        "image": "rbxassetid://99257520037104",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 18,
+        "raw_uri": "rbxassetid://99257520037104",
+        "image": "rbxassetid://99257520037104",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 511,
+        "raw_uri": "rbxassetid://99257520037104",
+        "image": "rbxassetid://99257520037104",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/99257520037104.png",
+    "preview_path": "images/99257520037104.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "03f211c4005861b4e37da561",
+    "name": "Inverted MC Floor",
+    "asset_id": "82231804545656",
+    "uri": "rbxassetid://82231804545656",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82231804545656",
+    "raw_uris": [
+      "rbxassetid://82231804545656"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3222,
+        "raw_uri": "rbxassetid://82231804545656",
+        "image": "rbxassetid://82231804545656",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1279,
+        "raw_uri": "rbxassetid://82231804545656",
+        "image": "rbxassetid://82231804545656",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 41,
+        "raw_uri": "rbxassetid://82231804545656",
+        "image": "rbxassetid://82231804545656",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/82231804545656.png",
+    "preview_path": "previews/82231804545656-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "74a50b1a58b982e6fcd61c83",
+    "name": "Outlined crack 2",
+    "asset_id": "13791531657",
+    "uri": "rbxassetid://13791531657",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13791531657",
+    "raw_uris": [
+      "rbxassetid://13791531657"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3421,
+        "raw_uri": "rbxassetid://13791531657",
+        "image": "rbxassetid://13791531657",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1354,
+        "raw_uri": "rbxassetid://13791531657",
+        "image": "rbxassetid://13791531657",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 43,
+        "raw_uri": "rbxassetid://13791531657",
+        "image": "rbxassetid://13791531657",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/13791531657.png",
+    "preview_path": "previews/13791531657-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ec5d8afad6aab43a9188951d",
+    "name": "Pixelated Cracks",
+    "asset_id": "103262017166314",
+    "uri": "rbxassetid://103262017166314",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://103262017166314",
+    "raw_uris": [
+      "rbxassetid://103262017166314"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6490,
+        "raw_uri": "rbxassetid://103262017166314",
+        "image": "rbxassetid://103262017166314",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          0
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2539,
+        "raw_uri": "rbxassetid://103262017166314",
+        "image": "rbxassetid://103262017166314",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 70,
+        "raw_uri": "rbxassetid://103262017166314",
+        "image": "rbxassetid://103262017166314",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/103262017166314.png",
+    "preview_path": "previews/103262017166314-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c28b8f21728d7dff2265cbab",
+    "name": "Simple Chromatic Ground Impact",
+    "asset_id": "137858940723772",
+    "uri": "rbxassetid://137858940723772",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://137858940723772",
+    "raw_uris": [
+      "rbxassetid://137858940723772"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6633,
+        "raw_uri": "rbxassetid://137858940723772",
+        "image": "rbxassetid://137858940723772",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 74,
+        "raw_uri": "rbxassetid://137858940723772",
+        "image": "rbxassetid://137858940723772",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4040,
+        "raw_uri": "rbxassetid://137858940723772",
+        "image": "rbxassetid://137858940723772",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/137858940723772.png",
+    "preview_path": "images/137858940723772.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8e75fcc0d52b9841758268ee",
+    "name": "simple crack",
+    "asset_id": "94057358812878",
+    "uri": "rbxassetid://94057358812878",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://94057358812878",
+    "raw_uris": [
+      "rbxassetid://94057358812878"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4069,
+        "raw_uri": "rbxassetid://94057358812878",
+        "image": "rbxassetid://94057358812878",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 48,
+        "raw_uri": "rbxassetid://94057358812878",
+        "image": "rbxassetid://94057358812878",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2473,
+        "raw_uri": "rbxassetid://94057358812878",
+        "image": "rbxassetid://94057358812878",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/94057358812878.png",
+    "preview_path": "images/94057358812878.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a7e93d6c04e40f5b55b0d982",
+    "name": "Simple Ground Impact",
+    "asset_id": "135009508323458",
+    "uri": "rbxassetid://135009508323458",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://135009508323458",
+    "raw_uris": [
+      "rbxassetid://135009508323458"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 653,
+        "raw_uri": "rbxassetid://135009508323458",
+        "image": "rbxassetid://135009508323458",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 12,
+        "raw_uri": "rbxassetid://135009508323458",
+        "image": "rbxassetid://135009508323458",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 404,
+        "raw_uri": "rbxassetid://135009508323458",
+        "image": "rbxassetid://135009508323458",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/135009508323458.png",
+    "preview_path": "images/135009508323458.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1eab152ec065c988e0212611",
+    "name": "Stylized Chromatic Ground Cracks4x4",
+    "asset_id": "103809786001643",
+    "uri": "rbxassetid://103809786001643",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://103809786001643",
+    "raw_uris": [
+      "rbxassetid://103809786001643"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6029,
+        "raw_uri": "rbxassetid://103809786001643",
+        "image": "rbxassetid://103809786001643",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          0
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2335,
+        "raw_uri": "rbxassetid://103809786001643",
+        "image": "rbxassetid://103809786001643",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 64,
+        "raw_uri": "rbxassetid://103809786001643",
+        "image": "rbxassetid://103809786001643",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/103809786001643.png",
+    "preview_path": "previews/103809786001643-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "name",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9fc57bb42e66fe6453b29a26",
+    "name": "Stylized Ground Impact 1",
+    "asset_id": "96307728941752",
+    "uri": "rbxassetid://96307728941752",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://96307728941752",
+    "raw_uris": [
+      "rbxassetid://96307728941752"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6296,
+        "raw_uri": "rbxassetid://96307728941752",
+        "image": "rbxassetid://96307728941752",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 68,
+        "raw_uri": "rbxassetid://96307728941752",
+        "image": "rbxassetid://96307728941752",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3853,
+        "raw_uri": "rbxassetid://96307728941752",
+        "image": "rbxassetid://96307728941752",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/96307728941752.png",
+    "preview_path": "images/96307728941752.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9304aea135f0cbaa29e6a0a2",
+    "name": "Stylized Ground Impact 2",
+    "asset_id": "140209565978109",
+    "uri": "rbxassetid://140209565978109",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://140209565978109",
+    "raw_uris": [
+      "rbxassetid://140209565978109"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Ground",
+      "Statics"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 143,
+        "raw_uri": "rbxassetid://140209565978109",
+        "image": "rbxassetid://140209565978109",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 4,
+        "raw_uri": "rbxassetid://140209565978109",
+        "image": "rbxassetid://140209565978109",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 91,
+        "raw_uri": "rbxassetid://140209565978109",
+        "image": "rbxassetid://140209565978109",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/140209565978109.png",
+    "preview_path": "images/140209565978109.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a838f72b7da990cab2d04d6c",
+    "name": "Thin Floor Cracks",
+    "asset_id": "119458597983431",
+    "uri": "rbxassetid://119458597983431",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://119458597983431",
+    "raw_uris": [
+      "rbxassetid://119458597983431"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 967,
+        "raw_uri": "rbxassetid://119458597983431",
+        "image": "rbxassetid://119458597983431",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 374,
+        "raw_uri": "rbxassetid://119458597983431",
+        "image": "rbxassetid://119458597983431",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 20,
+        "raw_uri": "rbxassetid://119458597983431",
+        "image": "rbxassetid://119458597983431",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/119458597983431.png",
+    "preview_path": "previews/119458597983431-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "00feb8675ac8c4d814d5738b",
+    "name": "Thin Glitchy Cracks",
+    "asset_id": "97133838974087",
+    "uri": "rbxassetid://97133838974087",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://97133838974087",
+    "raw_uris": [
+      "rbxassetid://97133838974087"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5733,
+        "raw_uri": "rbxassetid://97133838974087",
+        "image": "rbxassetid://97133838974087",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2209,
+        "raw_uri": "rbxassetid://97133838974087",
+        "image": "rbxassetid://97133838974087",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 60,
+        "raw_uri": "rbxassetid://97133838974087",
+        "image": "rbxassetid://97133838974087",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/97133838974087.png",
+    "preview_path": "previews/97133838974087-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ed9a8ff8ac45b3c2efc91804",
+    "name": "Unfinished fade",
+    "asset_id": "13452273491",
+    "uri": "rbxassetid://13452273491",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13452273491",
+    "raw_uris": [
+      "rbxassetid://13452273491"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 204,
+        "raw_uri": "rbxassetid://13452273491",
+        "image": "rbxassetid://13452273491",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 80,
+        "raw_uri": "rbxassetid://13452273491",
+        "image": "rbxassetid://13452273491",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          256
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 6,
+        "raw_uri": "rbxassetid://13452273491",
+        "image": "rbxassetid://13452273491",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/13452273491.png",
+    "preview_path": "previews/13452273491-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5de1f152e74dbacb1ee68a91",
+    "name": "Web floor",
+    "asset_id": "125581941061256",
+    "uri": "rbxassetid://125581941061256",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://125581941061256",
+    "raw_uris": [
+      "rbxassetid://125581941061256"
+    ],
+    "aliases": [],
+    "tags": [
+      "Ground"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Ground"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2364,
+        "raw_uri": "rbxassetid://125581941061256",
+        "image": "rbxassetid://125581941061256",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 933,
+        "raw_uri": "rbxassetid://125581941061256",
+        "image": "rbxassetid://125581941061256",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Ground",
+        "index": 29,
+        "raw_uri": "rbxassetid://125581941061256",
+        "image": "rbxassetid://125581941061256",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          768
+        ]
+      }
+    ],
+    "image_path": "images/125581941061256.png",
+    "preview_path": "previews/125581941061256-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

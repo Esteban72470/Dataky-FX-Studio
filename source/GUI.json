@@ -1,0 +1,180 @@
+{
+  "label": "GUI",
+  "canvas_height": 850,
+  "captured_at": "2026-10-20T23:18:16Z",
+  "max_index": 14,
+  "records": [
+    {
+      "image": "rbxassetid://75592850159202",
+      "index": 3,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75592850159202"
+    },
+    {
+      "image": "rbxassetid://91700957560719",
+      "index": 4,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://91700957560719"
+    },
+    {
+      "image": "rbxassetid://17842357017",
+      "index": 5,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Virtual Overlay",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17842357017"
+    },
+    {
+      "image": "rbxassetid://122697847244382",
+      "index": 6,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122697847244382"
+    },
+    {
+      "image": "rbxassetid://101239449571084",
+      "index": 7,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101239449571084"
+    },
+    {
+      "image": "rbxassetid://116907614915802",
+      "index": 8,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116907614915802"
+    },
+    {
+      "image": "rbxassetid://81119505041135",
+      "index": 9,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81119505041135"
+    },
+    {
+      "image": "rbxassetid://108941747162525",
+      "index": 10,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108941747162525"
+    },
+    {
+      "image": "rbxassetid://104339689113050",
+      "index": 11,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104339689113050"
+    },
+    {
+      "image": "rbxassetid://118828341249376",
+      "index": 12,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://118828341249376"
+    },
+    {
+      "image": "rbxassetid://1084974286",
+      "index": 13,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "halftone circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1084974286"
+    },
+    {
+      "image": "rbxassetid://80756088712515",
+      "index": 14,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sci-Fi Frame 7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80756088712515"
+    }
+  ],
+  "search": "",
+  "window_height": 850,
+  "active_filter": "gui",
+  "missing_indexes": []
+}

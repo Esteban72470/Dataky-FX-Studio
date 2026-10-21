@@ -1,0 +1,3512 @@
+[
+  {
+    "key": "695b30c624d15c856d7be1f6",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam11",
+    "asset_id": "16892453445",
+    "uri": "rbxassetid://16892453445",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16892453445",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16892453445"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16892453445",
+        "uri": "rbxassetid://16892453445",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16892453445",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 317,
+        "raw_uri": "rbxassetid://16892453445",
+        "image": "rbxassetid://16892453445",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 38,
+        "raw_uri": "rbxassetid://16892453445",
+        "image": "rbxassetid://16892453445",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16892453445.png",
+    "preview_path": "images/16892453445.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "217dbe418108451d4a29eff3",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam112",
+    "asset_id": "137097904100100",
+    "uri": "rbxassetid://137097904100100",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://137097904100100",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://137097904100100"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "137097904100100",
+        "uri": "rbxassetid://137097904100100",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://137097904100100",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 297,
+        "raw_uri": "rbxassetid://137097904100100",
+        "image": "rbxassetid://137097904100100",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 36,
+        "raw_uri": "rbxassetid://137097904100100",
+        "image": "rbxassetid://137097904100100",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/137097904100100.png",
+    "preview_path": "images/137097904100100.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "aed2d0faf0958686fc2664da",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam119",
+    "asset_id": "87500564219240",
+    "uri": "rbxassetid://87500564219240",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://87500564219240",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://87500564219240"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "87500564219240",
+        "uri": "rbxassetid://87500564219240",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://87500564219240",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 179,
+        "raw_uri": "rbxassetid://87500564219240",
+        "image": "rbxassetid://87500564219240",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 23,
+        "raw_uri": "rbxassetid://87500564219240",
+        "image": "rbxassetid://87500564219240",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/87500564219240.png",
+    "preview_path": "images/87500564219240.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "4688a65056f20a7ce7006c4c",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam120",
+    "asset_id": "134322847394152",
+    "uri": "rbxassetid://134322847394152",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://134322847394152",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://134322847394152"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "134322847394152",
+        "uri": "rbxassetid://134322847394152",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://134322847394152",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 201,
+        "raw_uri": "rbxassetid://134322847394152",
+        "image": "rbxassetid://134322847394152",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 25,
+        "raw_uri": "rbxassetid://134322847394152",
+        "image": "rbxassetid://134322847394152",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/134322847394152.png",
+    "preview_path": "images/134322847394152.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "ba14b6d6f128a93ecae18c7c",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam121",
+    "asset_id": "74254344820712",
+    "uri": "rbxassetid://74254344820712",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://74254344820712",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://74254344820712"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "74254344820712",
+        "uri": "rbxassetid://74254344820712",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://74254344820712",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 217,
+        "raw_uri": "rbxassetid://74254344820712",
+        "image": "rbxassetid://74254344820712",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 27,
+        "raw_uri": "rbxassetid://74254344820712",
+        "image": "rbxassetid://74254344820712",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/74254344820712.png",
+    "preview_path": "images/74254344820712.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "eb0f679d1d576171d8906379",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam122",
+    "asset_id": "70695543956226",
+    "uri": "rbxassetid://70695543956226",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://70695543956226",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://70695543956226"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "70695543956226",
+        "uri": "rbxassetid://70695543956226",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://70695543956226",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 176,
+        "raw_uri": "rbxassetid://70695543956226",
+        "image": "rbxassetid://70695543956226",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 22,
+        "raw_uri": "rbxassetid://70695543956226",
+        "image": "rbxassetid://70695543956226",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/70695543956226.png",
+    "preview_path": "images/70695543956226.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "efde2163495ccfc69f449d35",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam123",
+    "asset_id": "84566592396768",
+    "uri": "rbxassetid://84566592396768",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://84566592396768",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://84566592396768"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "84566592396768",
+        "uri": "rbxassetid://84566592396768",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://84566592396768",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 136,
+        "raw_uri": "rbxassetid://84566592396768",
+        "image": "rbxassetid://84566592396768",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 18,
+        "raw_uri": "rbxassetid://84566592396768",
+        "image": "rbxassetid://84566592396768",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/84566592396768.png",
+    "preview_path": "images/84566592396768.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "7255f4c2081f0f3a96a4fb89",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam124",
+    "asset_id": "107172567060673",
+    "uri": "rbxassetid://107172567060673",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://107172567060673",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://107172567060673"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "107172567060673",
+        "uri": "rbxassetid://107172567060673",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://107172567060673",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 81,
+        "raw_uri": "rbxassetid://107172567060673",
+        "image": "rbxassetid://107172567060673",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 10,
+        "raw_uri": "rbxassetid://107172567060673",
+        "image": "rbxassetid://107172567060673",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/107172567060673.png",
+    "preview_path": "images/107172567060673.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "d3f6add53acf9beb2f158b96",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam126",
+    "asset_id": "128668393586170",
+    "uri": "rbxassetid://128668393586170",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://128668393586170",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://128668393586170"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "128668393586170",
+        "uri": "rbxassetid://128668393586170",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://128668393586170",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 133,
+        "raw_uri": "rbxassetid://128668393586170",
+        "image": "rbxassetid://128668393586170",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 17,
+        "raw_uri": "rbxassetid://128668393586170",
+        "image": "rbxassetid://128668393586170",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/128668393586170.png",
+    "preview_path": "images/128668393586170.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "cae5a2a16cf26340a2d23b3b",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam127",
+    "asset_id": "135482100082072",
+    "uri": "rbxassetid://135482100082072",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://135482100082072",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://135482100082072"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "135482100082072",
+        "uri": "rbxassetid://135482100082072",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://135482100082072",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 438,
+        "raw_uri": "rbxassetid://135482100082072",
+        "image": "rbxassetid://135482100082072",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 55,
+        "raw_uri": "rbxassetid://135482100082072",
+        "image": "rbxassetid://135482100082072",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/135482100082072.png",
+    "preview_path": "images/135482100082072.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6bfef63390dac795cd234344",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam58",
+    "asset_id": "105694195893418",
+    "uri": "rbxassetid://105694195893418",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://105694195893418",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://105694195893418"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "105694195893418",
+        "uri": "rbxassetid://105694195893418",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://105694195893418",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 353,
+        "raw_uri": "rbxassetid://105694195893418",
+        "image": "rbxassetid://105694195893418",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 45,
+        "raw_uri": "rbxassetid://105694195893418",
+        "image": "rbxassetid://105694195893418",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/105694195893418.png",
+    "preview_path": "images/105694195893418.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "4468b71c4333abf44b4c183c",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam6",
+    "asset_id": "16892384522",
+    "uri": "rbxassetid://16892384522",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16892384522",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16892384522"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16892384522",
+        "uri": "rbxassetid://16892384522",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16892384522",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 157,
+        "raw_uri": "rbxassetid://16892384522",
+        "image": "rbxassetid://16892384522",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 20,
+        "raw_uri": "rbxassetid://16892384522",
+        "image": "rbxassetid://16892384522",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16892384522.png",
+    "preview_path": "images/16892384522.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "acfad0e5762f8e171c5b3aa5",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam66",
+    "asset_id": "102758631246935",
+    "uri": "rbxassetid://102758631246935",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://102758631246935",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://102758631246935"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "102758631246935",
+        "uri": "rbxassetid://102758631246935",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://102758631246935",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 153,
+        "raw_uri": "rbxassetid://102758631246935",
+        "image": "rbxassetid://102758631246935",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 19,
+        "raw_uri": "rbxassetid://102758631246935",
+        "image": "rbxassetid://102758631246935",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/102758631246935.png",
+    "preview_path": "images/102758631246935.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "91cc0c1cd83652fc94cb0317",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam73",
+    "asset_id": "88888763013044",
+    "uri": "rbxassetid://88888763013044",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://88888763013044",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://88888763013044"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "88888763013044",
+        "uri": "rbxassetid://88888763013044",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://88888763013044",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 337,
+        "raw_uri": "rbxassetid://88888763013044",
+        "image": "rbxassetid://88888763013044",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 42,
+        "raw_uri": "rbxassetid://88888763013044",
+        "image": "rbxassetid://88888763013044",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/88888763013044.png",
+    "preview_path": "images/88888763013044.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "dcd2d0879ccf462a275cebc5",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam74",
+    "asset_id": "89444331714664",
+    "uri": "rbxassetid://89444331714664",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://89444331714664",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://89444331714664"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "89444331714664",
+        "uri": "rbxassetid://89444331714664",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://89444331714664",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 376,
+        "raw_uri": "rbxassetid://89444331714664",
+        "image": "rbxassetid://89444331714664",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 48,
+        "raw_uri": "rbxassetid://89444331714664",
+        "image": "rbxassetid://89444331714664",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/89444331714664.png",
+    "preview_path": "images/89444331714664.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "64881aaa427484ae8988030b",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam76",
+    "asset_id": "123968405401263",
+    "uri": "rbxassetid://123968405401263",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://123968405401263",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://123968405401263"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "123968405401263",
+        "uri": "rbxassetid://123968405401263",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://123968405401263",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 339,
+        "raw_uri": "rbxassetid://123968405401263",
+        "image": "rbxassetid://123968405401263",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 43,
+        "raw_uri": "rbxassetid://123968405401263",
+        "image": "rbxassetid://123968405401263",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/123968405401263.png",
+    "preview_path": "images/123968405401263.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "cc14662b0f5f943ba2863dbb",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam77",
+    "asset_id": "102846212358727",
+    "uri": "rbxassetid://102846212358727",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://102846212358727",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://102846212358727"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "102846212358727",
+        "uri": "rbxassetid://102846212358727",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://102846212358727",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 213,
+        "raw_uri": "rbxassetid://102846212358727",
+        "image": "rbxassetid://102846212358727",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 26,
+        "raw_uri": "rbxassetid://102846212358727",
+        "image": "rbxassetid://102846212358727",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/102846212358727.png",
+    "preview_path": "images/102846212358727.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2138b511a1a69d16dac6dff0",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam78",
+    "asset_id": "114847799228007",
+    "uri": "rbxassetid://114847799228007",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://114847799228007",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://114847799228007"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "114847799228007",
+        "uri": "rbxassetid://114847799228007",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://114847799228007",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 286,
+        "raw_uri": "rbxassetid://114847799228007",
+        "image": "rbxassetid://114847799228007",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 34,
+        "raw_uri": "rbxassetid://114847799228007",
+        "image": "rbxassetid://114847799228007",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/114847799228007.png",
+    "preview_path": "images/114847799228007.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e320e5c6bb549da1322cdb7e",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam91",
+    "asset_id": "86749440197584",
+    "uri": "rbxassetid://86749440197584",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://86749440197584",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://86749440197584"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "86749440197584",
+        "uri": "rbxassetid://86749440197584",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://86749440197584",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 432,
+        "raw_uri": "rbxassetid://86749440197584",
+        "image": "rbxassetid://86749440197584",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 54,
+        "raw_uri": "rbxassetid://86749440197584",
+        "image": "rbxassetid://86749440197584",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/86749440197584.png",
+    "preview_path": "images/86749440197584.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "01193ba36bdc97d64ce92127",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam95",
+    "asset_id": "96775955783383",
+    "uri": "rbxassetid://96775955783383",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://96775955783383",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://96775955783383"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "96775955783383",
+        "uri": "rbxassetid://96775955783383",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://96775955783383",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 327,
+        "raw_uri": "rbxassetid://96775955783383",
+        "image": "rbxassetid://96775955783383",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 41,
+        "raw_uri": "rbxassetid://96775955783383",
+        "image": "rbxassetid://96775955783383",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/96775955783383.png",
+    "preview_path": "images/96775955783383.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ec5a334a24438f07c0088cbc",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamAgain copy",
+    "asset_id": "14397689597",
+    "uri": "rbxassetid://14397689597",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14397689597",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14397689597"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14397689597",
+        "uri": "rbxassetid://14397689597",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14397689597",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 224,
+        "raw_uri": "rbxassetid://14397689597",
+        "image": "rbxassetid://14397689597",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 29,
+        "raw_uri": "rbxassetid://14397689597",
+        "image": "rbxassetid://14397689597",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14397689597.png",
+    "preview_path": "images/14397689597.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a318386ba327428e35d47cbf",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamAura Beam",
+    "asset_id": "12713360567",
+    "uri": "rbxassetid://12713360567",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12713360567",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12713360567"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12713360567",
+        "uri": "rbxassetid://12713360567",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12713360567",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 71,
+        "raw_uri": "rbxassetid://12713360567",
+        "image": "rbxassetid://12713360567",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 8,
+        "raw_uri": "rbxassetid://12713360567",
+        "image": "rbxassetid://12713360567",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12713360567.png",
+    "preview_path": "images/12713360567.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f6190e3023c877629570fa06",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBeam399",
+    "asset_id": "13712010201",
+    "uri": "rbxassetid://13712010201",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13712010201",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://13712010201"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "13712010201",
+        "uri": "rbxassetid://13712010201",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://13712010201",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 220,
+        "raw_uri": "rbxassetid://13712010201",
+        "image": "rbxassetid://13712010201",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 28,
+        "raw_uri": "rbxassetid://13712010201",
+        "image": "rbxassetid://13712010201",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/13712010201.png",
+    "preview_path": "images/13712010201.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4255d057f2275ac200d2efa7",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBlank fractal",
+    "asset_id": "84577820022939",
+    "uri": "rbxassetid://84577820022939",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://84577820022939",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://84577820022939"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "84577820022939",
+        "uri": "rbxassetid://84577820022939",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://84577820022939",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 40,
+        "raw_uri": "rbxassetid://84577820022939",
+        "image": "rbxassetid://84577820022939",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 6,
+        "raw_uri": "rbxassetid://84577820022939",
+        "image": "rbxassetid://84577820022939",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/84577820022939.png",
+    "preview_path": "images/84577820022939.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4631e6e2bbae1a051472ade6",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamChromatic",
+    "asset_id": "134095631127258",
+    "uri": "rbxassetid://134095631127258",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://134095631127258",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://134095631127258"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "134095631127258",
+        "uri": "rbxassetid://134095631127258",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://134095631127258",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 365,
+        "raw_uri": "rbxassetid://134095631127258",
+        "image": "rbxassetid://134095631127258",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 47,
+        "raw_uri": "rbxassetid://134095631127258",
+        "image": "rbxassetid://134095631127258",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/134095631127258.png",
+    "preview_path": "images/134095631127258.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "715d79e84d88ba2068907c49",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamChromatic Thick",
+    "asset_id": "108170985018134",
+    "uri": "rbxassetid://108170985018134",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://108170985018134",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://108170985018134"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "108170985018134",
+        "uri": "rbxassetid://108170985018134",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://108170985018134",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 51,
+        "raw_uri": "rbxassetid://108170985018134",
+        "image": "rbxassetid://108170985018134",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 7,
+        "raw_uri": "rbxassetid://108170985018134",
+        "image": "rbxassetid://108170985018134",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/108170985018134.png",
+    "preview_path": "images/108170985018134.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "713743c8e531a7f1a1163062",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamClean beam",
+    "asset_id": "14191603094",
+    "uri": "rbxassetid://14191603094",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14191603094",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14191603094"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14191603094",
+        "uri": "rbxassetid://14191603094",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14191603094",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 351,
+        "raw_uri": "rbxassetid://14191603094",
+        "image": "rbxassetid://14191603094",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 44,
+        "raw_uri": "rbxassetid://14191603094",
+        "image": "rbxassetid://14191603094",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14191603094.png",
+    "preview_path": "images/14191603094.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "086c1c404ceba323c01b60dd",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCleaned version",
+    "asset_id": "15271488130",
+    "uri": "rbxassetid://15271488130",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15271488130",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15271488130"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15271488130",
+        "uri": "rbxassetid://15271488130",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15271488130",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 309,
+        "raw_uri": "rbxassetid://15271488130",
+        "image": "rbxassetid://15271488130",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 37,
+        "raw_uri": "rbxassetid://15271488130",
+        "image": "rbxassetid://15271488130",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15271488130.png",
+    "preview_path": "images/15271488130.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f4d9b593ebc49db896fc6a48",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamColoured flames",
+    "asset_id": "16511723109",
+    "uri": "rbxassetid://16511723109",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16511723109",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16511723109"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16511723109",
+        "uri": "rbxassetid://16511723109",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16511723109",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 354,
+        "raw_uri": "rbxassetid://16511723109",
+        "image": "rbxassetid://16511723109",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 46,
+        "raw_uri": "rbxassetid://16511723109",
+        "image": "rbxassetid://16511723109",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16511723109.png",
+    "preview_path": "images/16511723109.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7f5a67bd21a5c0bd27637037",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCool",
+    "asset_id": "101843421256922",
+    "uri": "rbxassetid://101843421256922",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101843421256922",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://101843421256922"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "101843421256922",
+        "uri": "rbxassetid://101843421256922",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://101843421256922",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 292,
+        "raw_uri": "rbxassetid://101843421256922",
+        "image": "rbxassetid://101843421256922",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 35,
+        "raw_uri": "rbxassetid://101843421256922",
+        "image": "rbxassetid://101843421256922",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/101843421256922.png",
+    "preview_path": "images/101843421256922.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "122951d23be37c4a25ccbb25",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamEnergy LE",
+    "asset_id": "99817690574618",
+    "uri": "rbxassetid://99817690574618",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://99817690574618",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://99817690574618"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "99817690574618",
+        "uri": "rbxassetid://99817690574618",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://99817690574618",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 27,
+        "raw_uri": "rbxassetid://99817690574618",
+        "image": "rbxassetid://99817690574618",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 5,
+        "raw_uri": "rbxassetid://99817690574618",
+        "image": "rbxassetid://99817690574618",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/99817690574618.png",
+    "preview_path": "images/99817690574618.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2315ec475713e597286b4e80",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFilled wind",
+    "asset_id": "12842713075",
+    "uri": "rbxassetid://12842713075",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12842713075",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12842713075"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12842713075",
+        "uri": "rbxassetid://12842713075",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12842713075",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 116,
+        "raw_uri": "rbxassetid://12842713075",
+        "image": "rbxassetid://12842713075",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 15,
+        "raw_uri": "rbxassetid://12842713075",
+        "image": "rbxassetid://12842713075",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12842713075.png",
+    "preview_path": "images/12842713075.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6e63eef7db96039c56afa818",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFixed fancy coloured",
+    "asset_id": "135363279337264",
+    "uri": "rbxassetid://135363279337264",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://135363279337264",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://135363279337264"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "135363279337264",
+        "uri": "rbxassetid://135363279337264",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://135363279337264",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 412,
+        "raw_uri": "rbxassetid://135363279337264",
+        "image": "rbxassetid://135363279337264",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 51,
+        "raw_uri": "rbxassetid://135363279337264",
+        "image": "rbxassetid://135363279337264",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/135363279337264.png",
+    "preview_path": "images/135363279337264.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4dc3cd16aced69843eadb764",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFog two",
+    "asset_id": "137376300753092",
+    "uri": "rbxassetid://137376300753092",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://137376300753092",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://137376300753092"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "137376300753092",
+        "uri": "rbxassetid://137376300753092",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://137376300753092",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 318,
+        "raw_uri": "rbxassetid://137376300753092",
+        "image": "rbxassetid://137376300753092",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 39,
+        "raw_uri": "rbxassetid://137376300753092",
+        "image": "rbxassetid://137376300753092",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/137376300753092.png",
+    "preview_path": "images/137376300753092.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "592f09a87a177357d7d639fb",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFractal outlines",
+    "asset_id": "10528782340",
+    "uri": "rbxassetid://10528782340",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://10528782340",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://10528782340"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "10528782340",
+        "uri": "rbxassetid://10528782340",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://10528782340",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 99,
+        "raw_uri": "rbxassetid://10528782340",
+        "image": "rbxassetid://10528782340",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 13,
+        "raw_uri": "rbxassetid://10528782340",
+        "image": "rbxassetid://10528782340",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/10528782340.png",
+    "preview_path": "images/10528782340.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "81ef40e94f27d880d2d296f7",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFull Chromatic",
+    "asset_id": "18837564141",
+    "uri": "rbxassetid://18837564141",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18837564141",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://18837564141"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "18837564141",
+        "uri": "rbxassetid://18837564141",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://18837564141",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 236,
+        "raw_uri": "rbxassetid://18837564141",
+        "image": "rbxassetid://18837564141",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 31,
+        "raw_uri": "rbxassetid://18837564141",
+        "image": "rbxassetid://18837564141",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/18837564141.png",
+    "preview_path": "images/18837564141.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "10d3ce8d6ababd2faadaa85f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamGlow edition",
+    "asset_id": "13703813488",
+    "uri": "rbxassetid://13703813488",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13703813488",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://13703813488"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "13703813488",
+        "uri": "rbxassetid://13703813488",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://13703813488",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 9,
+        "raw_uri": "rbxassetid://13703813488",
+        "image": "rbxassetid://13703813488",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 3,
+        "raw_uri": "rbxassetid://13703813488",
+        "image": "rbxassetid://13703813488",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/13703813488.png",
+    "preview_path": "images/13703813488.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "754f1db5aa93c1b6f49a8bad",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamGlow strays",
+    "asset_id": "12781750620",
+    "uri": "rbxassetid://12781750620",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12781750620",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12781750620"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12781750620",
+        "uri": "rbxassetid://12781750620",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12781750620",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 198,
+        "raw_uri": "rbxassetid://12781750620",
+        "image": "rbxassetid://12781750620",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 24,
+        "raw_uri": "rbxassetid://12781750620",
+        "image": "rbxassetid://12781750620",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12781750620.png",
+    "preview_path": "images/12781750620.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4bc987859fd4d4e3bf115db7",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamGlowing basic",
+    "asset_id": "446111271",
+    "uri": "rbxassetid://446111271",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://446111271",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://446111271"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "446111271",
+        "uri": "rbxassetid://446111271",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://446111271",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 115,
+        "raw_uri": "rbxassetid://446111271",
+        "image": "rbxassetid://446111271",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 14,
+        "raw_uri": "rbxassetid://446111271",
+        "image": "rbxassetid://446111271",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/446111271.png",
+    "preview_path": "images/446111271.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4e4567990d3dafb23d041b86",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamGlowing Magic",
+    "asset_id": "6091474388",
+    "uri": "rbxassetid://6091474388",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6091474388",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6091474388"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "6091474388",
+        "uri": "rbxassetid://6091474388",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6091474388",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 255,
+        "raw_uri": "rbxassetid://6091474388",
+        "image": "rbxassetid://6091474388",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 33,
+        "raw_uri": "rbxassetid://6091474388",
+        "image": "rbxassetid://6091474388",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6091474388.png",
+    "preview_path": "images/6091474388.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 231,
+    "height": 420
+  },
+  {
+    "key": "78508fede622152b715edf55",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamGlowing transparent",
+    "asset_id": "15939596990",
+    "uri": "rbxassetid://15939596990",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15939596990",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15939596990"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15939596990",
+        "uri": "rbxassetid://15939596990",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15939596990",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 82,
+        "raw_uri": "rbxassetid://15939596990",
+        "image": "rbxassetid://15939596990",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 11,
+        "raw_uri": "rbxassetid://15939596990",
+        "image": "rbxassetid://15939596990",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15939596990.png",
+    "preview_path": "images/15939596990.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b3f980db2c7fddbaffe1f14d",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamHigh glow beam",
+    "asset_id": "14987385912",
+    "uri": "rbxassetid://14987385912",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14987385912",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14987385912"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14987385912",
+        "uri": "rbxassetid://14987385912",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14987385912",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 128,
+        "raw_uri": "rbxassetid://14987385912",
+        "image": "rbxassetid://14987385912",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 16,
+        "raw_uri": "rbxassetid://14987385912",
+        "image": "rbxassetid://14987385912",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14987385912.png",
+    "preview_path": "images/14987385912.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d07b39672198bd03f6615118",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamJagged",
+    "asset_id": "10429012965",
+    "uri": "rbxassetid://10429012965",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://10429012965",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://10429012965"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "10429012965",
+        "uri": "rbxassetid://10429012965",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://10429012965",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 402,
+        "raw_uri": "rbxassetid://10429012965",
+        "image": "rbxassetid://10429012965",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 50,
+        "raw_uri": "rbxassetid://10429012965",
+        "image": "rbxassetid://10429012965",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/10429012965.png",
+    "preview_path": "images/10429012965.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "15ab475535c6baea5771ea40",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLE Glow",
+    "asset_id": "105095274849452",
+    "uri": "rbxassetid://105095274849452",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://105095274849452",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://105095274849452"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "105095274849452",
+        "uri": "rbxassetid://105095274849452",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://105095274849452",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 427,
+        "raw_uri": "rbxassetid://105095274849452",
+        "image": "rbxassetid://105095274849452",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 53,
+        "raw_uri": "rbxassetid://105095274849452",
+        "image": "rbxassetid://105095274849452",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/105095274849452.png",
+    "preview_path": "images/105095274849452.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9f897cf29d080937807126cb",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamMagic dust",
+    "asset_id": "15325756429",
+    "uri": "rbxassetid://15325756429",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15325756429",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15325756429"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15325756429",
+        "uri": "rbxassetid://15325756429",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15325756429",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 239,
+        "raw_uri": "rbxassetid://15325756429",
+        "image": "rbxassetid://15325756429",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 32,
+        "raw_uri": "rbxassetid://15325756429",
+        "image": "rbxassetid://15325756429",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15325756429.png",
+    "preview_path": "images/15325756429.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "cea3e5ae5806ceb38432fa29",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamMagical dust",
+    "asset_id": "13580357222",
+    "uri": "rbxassetid://13580357222",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13580357222",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://13580357222"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "13580357222",
+        "uri": "rbxassetid://13580357222",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://13580357222",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 75,
+        "raw_uri": "rbxassetid://13580357222",
+        "image": "rbxassetid://13580357222",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 9,
+        "raw_uri": "rbxassetid://13580357222",
+        "image": "rbxassetid://13580357222",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/13580357222.png",
+    "preview_path": "images/13580357222.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3fef51d36ed35aa6021b845d",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamMany lightning",
+    "asset_id": "13673635164",
+    "uri": "rbxassetid://13673635164",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13673635164",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://13673635164"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "13673635164",
+        "uri": "rbxassetid://13673635164",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://13673635164",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 12,
+        "raw_uri": "rbxassetid://13673635164",
+        "image": "rbxassetid://13673635164",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 4,
+        "raw_uri": "rbxassetid://13673635164",
+        "image": "rbxassetid://13673635164",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/13673635164.png",
+    "preview_path": "images/13673635164.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e3bfeafc41f0fcc3c41497b9",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew28",
+    "asset_id": "124705490306449",
+    "uri": "rbxassetid://124705490306449",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://124705490306449",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://124705490306449"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "124705490306449",
+        "uri": "rbxassetid://124705490306449",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://124705490306449",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 322,
+        "raw_uri": "rbxassetid://124705490306449",
+        "image": "rbxassetid://124705490306449",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 40,
+        "raw_uri": "rbxassetid://124705490306449",
+        "image": "rbxassetid://124705490306449",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/124705490306449.png",
+    "preview_path": "images/124705490306449.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "dfbe5cf41cc825739b234132",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew45",
+    "asset_id": "116614201058459",
+    "uri": "rbxassetid://116614201058459",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://116614201058459",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://116614201058459"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "116614201058459",
+        "uri": "rbxassetid://116614201058459",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://116614201058459",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 395,
+        "raw_uri": "rbxassetid://116614201058459",
+        "image": "rbxassetid://116614201058459",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 49,
+        "raw_uri": "rbxassetid://116614201058459",
+        "image": "rbxassetid://116614201058459",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/116614201058459.png",
+    "preview_path": "images/116614201058459.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "ff4f15dc6b0a48202889741e",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNo LE Version",
+    "asset_id": "14050985655",
+    "uri": "rbxassetid://14050985655",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14050985655",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14050985655"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14050985655",
+        "uri": "rbxassetid://14050985655",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14050985655",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 89,
+        "raw_uri": "rbxassetid://14050985655",
+        "image": "rbxassetid://14050985655",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 12,
+        "raw_uri": "rbxassetid://14050985655",
+        "image": "rbxassetid://14050985655",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14050985655.png",
+    "preview_path": "images/14050985655.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1cd2de9c6dc438fde4a177c4",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamRipple",
+    "asset_id": "12781850191",
+    "uri": "rbxassetid://12781850191",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12781850191",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12781850191"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12781850191",
+        "uri": "rbxassetid://12781850191",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12781850191",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 445,
+        "raw_uri": "rbxassetid://12781850191",
+        "image": "rbxassetid://12781850191",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 56,
+        "raw_uri": "rbxassetid://12781850191",
+        "image": "rbxassetid://12781850191",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12781850191.png",
+    "preview_path": "images/12781850191.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7fb4fc719c97fec709edc541",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamThinner fractal",
+    "asset_id": "12781853708",
+    "uri": "rbxassetid://12781853708",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12781853708",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12781853708"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12781853708",
+        "uri": "rbxassetid://12781853708",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12781853708",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 162,
+        "raw_uri": "rbxassetid://12781853708",
+        "image": "rbxassetid://12781853708",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 21,
+        "raw_uri": "rbxassetid://12781853708",
+        "image": "rbxassetid://12781853708",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12781853708.png",
+    "preview_path": "images/12781853708.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bc49c6926a697bbb6c2db3be",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamUnmirrored",
+    "asset_id": "112274062784468",
+    "uri": "rbxassetid://112274062784468",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://112274062784468",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://112274062784468"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "112274062784468",
+        "uri": "rbxassetid://112274062784468",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://112274062784468",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 422,
+        "raw_uri": "rbxassetid://112274062784468",
+        "image": "rbxassetid://112274062784468",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 52,
+        "raw_uri": "rbxassetid://112274062784468",
+        "image": "rbxassetid://112274062784468",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/112274062784468.png",
+    "preview_path": "images/112274062784468.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "612c5542a86778b7ec2135e0",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Inverted Energy Beam",
+    "asset_id": "113721094979137",
+    "uri": "rbxassetid://113721094979137",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://113721094979137",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://113721094979137"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "113721094979137",
+        "uri": "rbxassetid://113721094979137",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://113721094979137",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Energy"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Energy"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 228,
+        "raw_uri": "rbxassetid://113721094979137",
+        "image": "rbxassetid://113721094979137",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Energy",
+        "index": 30,
+        "raw_uri": "rbxassetid://113721094979137",
+        "image": "rbxassetid://113721094979137",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/113721094979137.png",
+    "preview_path": "images/113721094979137.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

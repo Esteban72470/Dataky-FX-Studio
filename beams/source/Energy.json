@@ -1,0 +1,514 @@
+{
+  "active_filter": "energy",
+  "label": "Energy",
+  "first_index": 3,
+  "captured_at": "2026-10-21T00:26:55Z",
+  "active_collection": "Beams",
+  "max_index": 56,
+  "records": [
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://13703813488",
+      "index": 3,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamGlow edition",
+      "raw_uri": "rbxassetid://13703813488"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://13673635164",
+      "index": 4,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamMany lightning",
+      "raw_uri": "rbxassetid://13673635164"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://99817690574618",
+      "index": 5,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamEnergy LE",
+      "raw_uri": "rbxassetid://99817690574618"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://84577820022939",
+      "index": 6,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamBlank fractal",
+      "raw_uri": "rbxassetid://84577820022939"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://108170985018134",
+      "index": 7,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamChromatic Thick",
+      "raw_uri": "rbxassetid://108170985018134"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12713360567",
+      "index": 8,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamAura Beam",
+      "raw_uri": "rbxassetid://12713360567"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://13580357222",
+      "index": 9,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamMagical dust",
+      "raw_uri": "rbxassetid://13580357222"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://107172567060673",
+      "index": 10,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam124",
+      "raw_uri": "rbxassetid://107172567060673"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://15939596990",
+      "index": 11,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamGlowing transparent",
+      "raw_uri": "rbxassetid://15939596990"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://14050985655",
+      "index": 12,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamNo LE Version",
+      "raw_uri": "rbxassetid://14050985655"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://10528782340",
+      "index": 13,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamFractal outlines",
+      "raw_uri": "rbxassetid://10528782340"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://446111271",
+      "index": 14,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamGlowing basic",
+      "raw_uri": "rbxassetid://446111271"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12842713075",
+      "index": 15,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamFilled wind",
+      "raw_uri": "rbxassetid://12842713075"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://14987385912",
+      "index": 16,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamHigh glow beam",
+      "raw_uri": "rbxassetid://14987385912"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://128668393586170",
+      "index": 17,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam126",
+      "raw_uri": "rbxassetid://128668393586170"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://84566592396768",
+      "index": 18,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam123",
+      "raw_uri": "rbxassetid://84566592396768"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://102758631246935",
+      "index": 19,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam66",
+      "raw_uri": "rbxassetid://102758631246935"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://16892384522",
+      "index": 20,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam6",
+      "raw_uri": "rbxassetid://16892384522"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12781853708",
+      "index": 21,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamThinner fractal",
+      "raw_uri": "rbxassetid://12781853708"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://70695543956226",
+      "index": 22,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam122",
+      "raw_uri": "rbxassetid://70695543956226"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://87500564219240",
+      "index": 23,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam119",
+      "raw_uri": "rbxassetid://87500564219240"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12781750620",
+      "index": 24,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamGlow strays",
+      "raw_uri": "rbxassetid://12781750620"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://134322847394152",
+      "index": 25,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam120",
+      "raw_uri": "rbxassetid://134322847394152"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://102846212358727",
+      "index": 26,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam77",
+      "raw_uri": "rbxassetid://102846212358727"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://74254344820712",
+      "index": 27,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam121",
+      "raw_uri": "rbxassetid://74254344820712"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://13712010201",
+      "index": 28,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamBeam399",
+      "raw_uri": "rbxassetid://13712010201"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://14397689597",
+      "index": 29,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamAgain copy",
+      "raw_uri": "rbxassetid://14397689597"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://113721094979137",
+      "index": 30,
+      "references": [],
+      "texture_uri": "",
+      "name": "Inverted Energy Beam",
+      "raw_uri": "rbxassetid://113721094979137"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://18837564141",
+      "index": 31,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamFull Chromatic",
+      "raw_uri": "rbxassetid://18837564141"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://15325756429",
+      "index": 32,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamMagic dust",
+      "raw_uri": "rbxassetid://15325756429"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://6091474388",
+      "index": 33,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamGlowing Magic",
+      "raw_uri": "rbxassetid://6091474388"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://114847799228007",
+      "index": 34,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam78",
+      "raw_uri": "rbxassetid://114847799228007"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://101843421256922",
+      "index": 35,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamCool",
+      "raw_uri": "rbxassetid://101843421256922"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://137097904100100",
+      "index": 36,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam112",
+      "raw_uri": "rbxassetid://137097904100100"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://15271488130",
+      "index": 37,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamCleaned version",
+      "raw_uri": "rbxassetid://15271488130"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://16892453445",
+      "index": 38,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam11",
+      "raw_uri": "rbxassetid://16892453445"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://137376300753092",
+      "index": 39,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamFog two",
+      "raw_uri": "rbxassetid://137376300753092"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://124705490306449",
+      "index": 40,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamNew28",
+      "raw_uri": "rbxassetid://124705490306449"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://96775955783383",
+      "index": 41,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam95",
+      "raw_uri": "rbxassetid://96775955783383"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://88888763013044",
+      "index": 42,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam73",
+      "raw_uri": "rbxassetid://88888763013044"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://123968405401263",
+      "index": 43,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam76",
+      "raw_uri": "rbxassetid://123968405401263"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://14191603094",
+      "index": 44,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamClean beam",
+      "raw_uri": "rbxassetid://14191603094"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://105694195893418",
+      "index": 45,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam58",
+      "raw_uri": "rbxassetid://105694195893418"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://16511723109",
+      "index": 46,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamColoured flames",
+      "raw_uri": "rbxassetid://16511723109"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://134095631127258",
+      "index": 47,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamChromatic",
+      "raw_uri": "rbxassetid://134095631127258"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://89444331714664",
+      "index": 48,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam74",
+      "raw_uri": "rbxassetid://89444331714664"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://116614201058459",
+      "index": 49,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamNew45",
+      "raw_uri": "rbxassetid://116614201058459"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://10429012965",
+      "index": 50,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamJagged",
+      "raw_uri": "rbxassetid://10429012965"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://135363279337264",
+      "index": 51,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamFixed fancy coloured",
+      "raw_uri": "rbxassetid://135363279337264"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://112274062784468",
+      "index": 52,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamUnmirrored",
+      "raw_uri": "rbxassetid://112274062784468"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://105095274849452",
+      "index": 53,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamLE Glow",
+      "raw_uri": "rbxassetid://105095274849452"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://86749440197584",
+      "index": 54,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam91",
+      "raw_uri": "rbxassetid://86749440197584"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://135482100082072",
+      "index": 55,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam127",
+      "raw_uri": "rbxassetid://135482100082072"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12781850191",
+      "index": 56,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamRipple",
+      "raw_uri": "rbxassetid://12781850191"
+    }
+  ],
+  "available_tags": [
+    "Energy",
+    "Fire",
+    "Lightning",
+    "Other",
+    "Personal",
+    "Recently Used",
+    "Shockwave",
+    "Smoke",
+    "Spiral",
+    "Trail",
+    "Water"
+  ],
+  "search": "",
+  "collection": "beams",
+  "window_height": 850,
+  "canvas_height": 850,
+  "missing_indexes": []
+}

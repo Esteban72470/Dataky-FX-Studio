@@ -1,0 +1,6592 @@
+{
+  "label": "Smoke",
+  "canvas_height": 5975,
+  "captured_at": "2026-10-20T23:23:02Z",
+  "max_index": 472,
+  "records": [
+    {
+      "image": "rbxassetid://80924778030110",
+      "index": 3,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "2x2 LE Smoke",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://80924778030110"
+    },
+    {
+      "image": "rbxassetid://14050551379",
+      "index": 4,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Pure White Fog",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://14050551379"
+    },
+    {
+      "image": "rbxassetid://14050364977",
+      "index": 5,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 24",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14050364977"
+    },
+    {
+      "image": "rbxassetid://131985173967225",
+      "index": 6,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131985173967225"
+    },
+    {
+      "image": "rbxassetid://11447021694",
+      "index": 7,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Outward Fog",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://11447021694"
+    },
+    {
+      "image": "rbxassetid://12656879896",
+      "index": 8,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Layered Smoke Circle",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://12656879896"
+    },
+    {
+      "image": "rbxassetid://18455273735",
+      "index": 9,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Sucking Smoke",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://18455273735"
+    },
+    {
+      "image": "rbxassetid://18765222232",
+      "index": 10,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Scarlet Smoke",
+      "rect_offset": [
+        256,
+        128
+      ],
+      "raw_uri": "rbxassetid://18765222232"
+    },
+    {
+      "image": "rbxassetid://106265390704500",
+      "index": 11,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke31 fading",
+      "rect_offset": [
+        640,
+        512
+      ],
+      "raw_uri": "rbxassetid://106265390704500"
+    },
+    {
+      "image": "rbxassetid://13975880803",
+      "index": 12,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Basic Blurry",
+      "rect_offset": [
+        128,
+        128
+      ],
+      "raw_uri": "rbxassetid://13975880803"
+    },
+    {
+      "image": "rbxassetid://15483343964",
+      "index": 13,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Left Burst",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://15483343964"
+    },
+    {
+      "image": "rbxassetid://16867479408",
+      "index": 14,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke51 fading",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://16867479408"
+    },
+    {
+      "image": "rbxassetid://87119237360943",
+      "index": 15,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flowy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87119237360943"
+    },
+    {
+      "image": "rbxassetid://14050231318",
+      "index": 16,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14050231318"
+    },
+    {
+      "image": "rbxassetid://80998241063644",
+      "index": 17,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Strange Smoke 2",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://80998241063644"
+    },
+    {
+      "image": "rbxassetid://124975071665876",
+      "index": 18,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Shaded Smoke 2",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://124975071665876"
+    },
+    {
+      "image": "rbxassetid://11841836676",
+      "index": 19,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke 18 fading coloured",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://11841836676"
+    },
+    {
+      "image": "rbxassetid://16172858603",
+      "index": 20,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Greyish Smoke",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://16172858603"
+    },
+    {
+      "image": "rbxassetid://84436578363649",
+      "index": 21,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Smoke 12",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://84436578363649"
+    },
+    {
+      "image": "rbxassetid://11822996479",
+      "index": 22,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fancy Dissapearing Smoke",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://11822996479"
+    },
+    {
+      "image": "rbxassetid://16503725723",
+      "index": 23,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Magic Smoke Orb",
+      "rect_offset": [
+        384,
+        512
+      ],
+      "raw_uri": "rbxassetid://16503725723"
+    },
+    {
+      "image": "rbxassetid://11627083142",
+      "index": 24,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Dark Grey Smoke 2",
+      "rect_offset": [
+        384,
+        512
+      ],
+      "raw_uri": "rbxassetid://11627083142"
+    },
+    {
+      "image": "rbxassetid://11458438415",
+      "index": 25,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Transparent Fog",
+      "rect_offset": [
+        640,
+        512
+      ],
+      "raw_uri": "rbxassetid://11458438415"
+    },
+    {
+      "image": "rbxassetid://73995009163702",
+      "index": 26,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Chromatic Faint Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73995009163702"
+    },
+    {
+      "image": "rbxassetid://13958163726",
+      "index": 27,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "partially visible smoke 6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13958163726"
+    },
+    {
+      "image": "rbxassetid://80330286700273",
+      "index": 28,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Grey Smoke 6",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://80330286700273"
+    },
+    {
+      "image": "rbxassetid://70600769252278",
+      "index": 29,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Smoke 8",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://70600769252278"
+    },
+    {
+      "image": "rbxassetid://13743483729",
+      "index": 30,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Strange Movement",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://13743483729"
+    },
+    {
+      "image": "rbxassetid://138270984714302",
+      "index": 31,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke11 fading",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://138270984714302"
+    },
+    {
+      "image": "rbxassetid://74868500807594",
+      "index": 32,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Faint Smoke Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74868500807594"
+    },
+    {
+      "image": "rbxassetid://12356442287",
+      "index": 33,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Low res gray smoke",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://12356442287"
+    },
+    {
+      "image": "rbxassetid://12683695494",
+      "index": 34,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Growing Fog",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://12683695494"
+    },
+    {
+      "image": "rbxassetid://11867375448",
+      "index": 35,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Tall Realistic Smoke",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://11867375448"
+    },
+    {
+      "image": "rbxassetid://14061881951",
+      "index": 36,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "White Energy Blank Smoke",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://14061881951"
+    },
+    {
+      "image": "rbxassetid://72986851966538",
+      "index": 37,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 42",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://72986851966538"
+    },
+    {
+      "image": "rbxassetid://117571359644909",
+      "index": 38,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Noise Smoke",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://117571359644909"
+    },
+    {
+      "image": "rbxassetid://16924852505",
+      "index": 39,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke29 Fading",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://16924852505"
+    },
+    {
+      "image": "rbxassetid://4510290214",
+      "index": 40,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://4510290214"
+    },
+    {
+      "image": "rbxassetid://108311429809696",
+      "index": 41,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Vertical Smoke Fire 4x4",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://108311429809696"
+    },
+    {
+      "image": "rbxassetid://16867540460",
+      "index": 42,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Smoke42",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867540460"
+    },
+    {
+      "image": "rbxassetid://13726321388",
+      "index": 43,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke39 fading",
+      "rect_offset": [
+        384,
+        0
+      ],
+      "raw_uri": "rbxassetid://13726321388"
+    },
+    {
+      "image": "rbxassetid://106599449136307",
+      "index": 44,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Res Smoke Wisp",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://106599449136307"
+    },
+    {
+      "image": "rbxassetid://77629463247168",
+      "index": 45,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wavy Chromatic Circle Smoke 4x4",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://77629463247168"
+    },
+    {
+      "image": "rbxassetid://16867514432",
+      "index": 46,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Smoke37",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867514432"
+    },
+    {
+      "image": "rbxassetid://96540548770170",
+      "index": 47,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Thick Fog",
+      "rect_offset": [
+        384,
+        512
+      ],
+      "raw_uri": "rbxassetid://96540548770170"
+    },
+    {
+      "image": "rbxassetid://92739826225814",
+      "index": 48,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Space Smoke 1",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://92739826225814"
+    },
+    {
+      "image": "rbxassetid://15675210127",
+      "index": 49,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke23",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://15675210127"
+    },
+    {
+      "image": "rbxassetid://11842590711",
+      "index": 50,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke5",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://11842590711"
+    },
+    {
+      "image": "rbxassetid://102071926154708",
+      "index": 51,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 36",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102071926154708"
+    },
+    {
+      "image": "rbxassetid://16867361532",
+      "index": 52,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Smoke9",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867361532"
+    },
+    {
+      "image": "rbxassetid://111630914878968",
+      "index": 53,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Corrected Smoke",
+      "rect_offset": [
+        128,
+        512
+      ],
+      "raw_uri": "rbxassetid://111630914878968"
+    },
+    {
+      "image": "rbxassetid://12660796319",
+      "index": 54,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke32 fading",
+      "rect_offset": [
+        128,
+        0
+      ],
+      "raw_uri": "rbxassetid://12660796319"
+    },
+    {
+      "image": "rbxassetid://13505055012",
+      "index": 55,
+      "rect_size": [
+        64,
+        64
+      ],
+      "name": "Stylized Smoke26 Fading",
+      "rect_offset": [
+        64,
+        0
+      ],
+      "raw_uri": "rbxassetid://13505055012"
+    },
+    {
+      "image": "rbxassetid://13743820968",
+      "index": 56,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke70 fading",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://13743820968"
+    },
+    {
+      "image": "rbxassetid://2671910894",
+      "index": 57,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 14",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://2671910894"
+    },
+    {
+      "image": "rbxassetid://15068135889",
+      "index": 58,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke Circle1",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://15068135889"
+    },
+    {
+      "image": "rbxassetid://16867530947",
+      "index": 59,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Smoke40",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867530947"
+    },
+    {
+      "image": "rbxassetid://11338531964",
+      "index": 60,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Thinning Smoke Fading",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://11338531964"
+    },
+    {
+      "image": "rbxassetid://96094215906902",
+      "index": 61,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96094215906902"
+    },
+    {
+      "image": "rbxassetid://113740466641326",
+      "index": 62,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Cartoony Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113740466641326"
+    },
+    {
+      "image": "rbxassetid://13934610516",
+      "index": 63,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Dark Chromatic Energy Fog",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://13934610516"
+    },
+    {
+      "image": "rbxassetid://13958188811",
+      "index": 64,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "partially visible smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13958188811"
+    },
+    {
+      "image": "rbxassetid://79325079841952",
+      "index": 65,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Shadowy Smoke",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://79325079841952"
+    },
+    {
+      "image": "rbxassetid://109324703201714",
+      "index": 66,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke Circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109324703201714"
+    },
+    {
+      "image": "rbxassetid://14953437740",
+      "index": 67,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Pixel Smoke Brown 2",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://14953437740"
+    },
+    {
+      "image": "rbxassetid://11866495294",
+      "index": 68,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Pixelated Smoke Puff",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://11866495294"
+    },
+    {
+      "image": "rbxassetid://87418254231660",
+      "index": 69,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Swirling Fog",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://87418254231660"
+    },
+    {
+      "image": "rbxassetid://16867583923",
+      "index": 70,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Smoke48",
+      "rect_offset": [
+        128,
+        512
+      ],
+      "raw_uri": "rbxassetid://16867583923"
+    },
+    {
+      "image": "rbxassetid://85201790820909",
+      "index": 71,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85201790820909"
+    },
+    {
+      "image": "rbxassetid://103676780076226",
+      "index": 72,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "White Fog",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://103676780076226"
+    },
+    {
+      "image": "rbxassetid://16867456199",
+      "index": 73,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke50",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867456199"
+    },
+    {
+      "image": "rbxassetid://71559092433004",
+      "index": 74,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Cloud Up",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://71559092433004"
+    },
+    {
+      "image": "rbxassetid://117604362012287",
+      "index": 75,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Lens Smoke",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://117604362012287"
+    },
+    {
+      "image": "rbxassetid://16503813045",
+      "index": 76,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Extra",
+      "rect_offset": [
+        896,
+        384
+      ],
+      "raw_uri": "rbxassetid://16503813045"
+    },
+    {
+      "image": "rbxassetid://11627077002",
+      "index": 77,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Seamless Fog",
+      "rect_offset": [
+        896,
+        384
+      ],
+      "raw_uri": "rbxassetid://11627077002"
+    },
+    {
+      "image": "rbxassetid://619393574",
+      "index": 78,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://619393574"
+    },
+    {
+      "image": "rbxassetid://107522305986216",
+      "index": 79,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Wisp",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107522305986216"
+    },
+    {
+      "image": "rbxassetid://16867356453",
+      "index": 80,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke66",
+      "rect_offset": [
+        384,
+        384
+      ],
+      "raw_uri": "rbxassetid://16867356453"
+    },
+    {
+      "image": "rbxassetid://140436968483112",
+      "index": 81,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Cartoony Smoke 3",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://140436968483112"
+    },
+    {
+      "image": "rbxassetid://77897130700818",
+      "index": 82,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Seamless Chromatic Fog Loop",
+      "rect_offset": [
+        896,
+        384
+      ],
+      "raw_uri": "rbxassetid://77897130700818"
+    },
+    {
+      "image": "rbxassetid://138628211703034",
+      "index": 83,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Looping Line",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://138628211703034"
+    },
+    {
+      "image": "rbxassetid://125015528049481",
+      "index": 84,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 35",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://125015528049481"
+    },
+    {
+      "image": "rbxassetid://16867344972",
+      "index": 85,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke52 fading",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://16867344972"
+    },
+    {
+      "image": "rbxassetid://103572034637275",
+      "index": 86,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 16",
+      "rect_offset": [
+        256,
+        768
+      ],
+      "raw_uri": "rbxassetid://103572034637275"
+    },
+    {
+      "image": "rbxassetid://117353578379319",
+      "index": 87,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Faint Fog 4x4",
+      "rect_offset": [
+        256,
+        768
+      ],
+      "raw_uri": "rbxassetid://117353578379319"
+    },
+    {
+      "image": "rbxassetid://16867522149",
+      "index": 88,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke59 fading",
+      "rect_offset": [
+        128,
+        384
+      ],
+      "raw_uri": "rbxassetid://16867522149"
+    },
+    {
+      "image": "rbxassetid://93460036932404",
+      "index": 89,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93460036932404"
+    },
+    {
+      "image": "rbxassetid://11842149409",
+      "index": 90,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke35 fading",
+      "rect_offset": [
+        0,
+        768
+      ],
+      "raw_uri": "rbxassetid://11842149409"
+    },
+    {
+      "image": "rbxassetid://124164858775284",
+      "index": 91,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Faint Wispy Energy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124164858775284"
+    },
+    {
+      "image": "rbxassetid://93892874388231",
+      "index": 92,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Faint Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93892874388231"
+    },
+    {
+      "image": "rbxassetid://13712000835",
+      "index": 93,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Expanding Lightening Smoke",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://13712000835"
+    },
+    {
+      "image": "rbxassetid://86109448692591",
+      "index": 94,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke Debris",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86109448692591"
+    },
+    {
+      "image": "rbxassetid://16924714763",
+      "index": 95,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke73",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://16924714763"
+    },
+    {
+      "image": "rbxassetid://126068893282334",
+      "index": 96,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Bright Chromatic Smoke Wisp Fading 4x4",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://126068893282334"
+    },
+    {
+      "image": "rbxassetid://123759330435117",
+      "index": 97,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 29",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://123759330435117"
+    },
+    {
+      "image": "rbxassetid://105661977030808",
+      "index": 98,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 10",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://105661977030808"
+    },
+    {
+      "image": "rbxassetid://82615786879266",
+      "index": 99,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke 6",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://82615786879266"
+    },
+    {
+      "image": "rbxassetid://7216851879",
+      "index": 100,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 15",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216851879"
+    },
+    {
+      "image": "rbxassetid://97153542880955",
+      "index": 101,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Chromatic Smoke Waving 4x4",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://97153542880955"
+    },
+    {
+      "image": "rbxassetid://13743936715",
+      "index": 102,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke fading",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://13743936715"
+    },
+    {
+      "image": "rbxassetid://109689877864083",
+      "index": 103,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Smoke 5",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://109689877864083"
+    },
+    {
+      "image": "rbxassetid://16867352057",
+      "index": 104,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Smoke5",
+      "rect_offset": [
+        384,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867352057"
+    },
+    {
+      "image": "rbxassetid://129912396227569",
+      "index": 105,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Poly Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://129912396227569"
+    },
+    {
+      "image": "rbxassetid://77366368569205",
+      "index": 106,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Smoke 11",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://77366368569205"
+    },
+    {
+      "image": "rbxassetid://74775702457034",
+      "index": 107,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Lens Smoke 2",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://74775702457034"
+    },
+    {
+      "image": "rbxassetid://12930785601",
+      "index": 108,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Only Smoke",
+      "rect_offset": [
+        128,
+        128
+      ],
+      "raw_uri": "rbxassetid://12930785601"
+    },
+    {
+      "image": "rbxassetid://81326410757433",
+      "index": 109,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 41",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://81326410757433"
+    },
+    {
+      "image": "rbxassetid://13764992917",
+      "index": 110,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Spiked Smoke",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://13764992917"
+    },
+    {
+      "image": "rbxassetid://16503748507",
+      "index": 111,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Low Res 8x8 Smoke",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16503748507"
+    },
+    {
+      "image": "rbxassetid://135216669060918",
+      "index": 112,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Chromatic Wispy Smoke 4x4",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://135216669060918"
+    },
+    {
+      "image": "rbxassetid://130177060021326",
+      "index": 113,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 21",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://130177060021326"
+    },
+    {
+      "image": "rbxassetid://15222191191",
+      "index": 114,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Black Smoke 3",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://15222191191"
+    },
+    {
+      "image": "rbxassetid://98500337029413",
+      "index": 115,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Smoke 3",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://98500337029413"
+    },
+    {
+      "image": "rbxassetid://18451844545",
+      "index": 116,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Unmoving Smoke",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://18451844545"
+    },
+    {
+      "image": "rbxassetid://113217168861999",
+      "index": 117,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Dark Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113217168861999"
+    },
+    {
+      "image": "rbxassetid://11827778171",
+      "index": 118,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Pixel topleft Burst",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://11827778171"
+    },
+    {
+      "image": "rbxassetid://11037787050",
+      "index": 119,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 49",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037787050"
+    },
+    {
+      "image": "rbxassetid://11827618350",
+      "index": 120,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke33 fading",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://11827618350"
+    },
+    {
+      "image": "rbxassetid://79486667668682",
+      "index": 121,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Plume5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79486667668682"
+    },
+    {
+      "image": "rbxassetid://16924719592",
+      "index": 122,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke37",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://16924719592"
+    },
+    {
+      "image": "rbxassetid://110523282859699",
+      "index": 123,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 24",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://110523282859699"
+    },
+    {
+      "image": "rbxassetid://883906867",
+      "index": 124,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "spiky smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://883906867"
+    },
+    {
+      "image": "rbxassetid://126125710498683",
+      "index": 125,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Grey Smoke 12",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://126125710498683"
+    },
+    {
+      "image": "rbxassetid://81031079269294",
+      "index": 126,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Plume4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81031079269294"
+    },
+    {
+      "image": "rbxassetid://17332831347",
+      "index": 127,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Chromatic Fog",
+      "rect_offset": [
+        384,
+        0
+      ],
+      "raw_uri": "rbxassetid://17332831347"
+    },
+    {
+      "image": "rbxassetid://16018044176",
+      "index": 128,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke29 Fading 2",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://16018044176"
+    },
+    {
+      "image": "rbxassetid://7405798505",
+      "index": 129,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7405798505"
+    },
+    {
+      "image": "rbxassetid://85151678322452",
+      "index": 130,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Smoke Moving Outward 4x4",
+      "rect_offset": [
+        384,
+        0
+      ],
+      "raw_uri": "rbxassetid://85151678322452"
+    },
+    {
+      "image": "rbxassetid://135225004857852",
+      "index": 131,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Cloud Left",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://135225004857852"
+    },
+    {
+      "image": "rbxassetid://11632052078",
+      "index": 132,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke25 expanding",
+      "rect_offset": [
+        384,
+        0
+      ],
+      "raw_uri": "rbxassetid://11632052078"
+    },
+    {
+      "image": "rbxassetid://13958110279",
+      "index": 133,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "wavy smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13958110279"
+    },
+    {
+      "image": "rbxassetid://16867399811",
+      "index": 134,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Smoke21",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867399811"
+    },
+    {
+      "image": "rbxassetid://139616788744187",
+      "index": 135,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Grey Smoke 1",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://139616788744187"
+    },
+    {
+      "image": "rbxassetid://127475823939636",
+      "index": 136,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127475823939636"
+    },
+    {
+      "image": "rbxassetid://14374273963",
+      "index": 137,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke1",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://14374273963"
+    },
+    {
+      "image": "rbxassetid://124024586710210",
+      "index": 138,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Wisp 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124024586710210"
+    },
+    {
+      "image": "rbxassetid://12350056117",
+      "index": 139,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Smoke36",
+      "rect_offset": [
+        128,
+        0
+      ],
+      "raw_uri": "rbxassetid://12350056117"
+    },
+    {
+      "image": "rbxassetid://134788710166485",
+      "index": 140,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Rippling Smoke",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://134788710166485"
+    },
+    {
+      "image": "rbxassetid://8779210242",
+      "index": 141,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "blurry smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8779210242"
+    },
+    {
+      "image": "rbxassetid://387288028",
+      "index": 142,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://387288028"
+    },
+    {
+      "image": "rbxassetid://111394301752764",
+      "index": 143,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 41",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://111394301752764"
+    },
+    {
+      "image": "rbxassetid://91325491432915",
+      "index": 144,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Grey Smoke 3",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://91325491432915"
+    },
+    {
+      "image": "rbxassetid://110210202132983",
+      "index": 145,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Chromatic Smoke 6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110210202132983"
+    },
+    {
+      "image": "rbxassetid://111798219011599",
+      "index": 146,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://111798219011599"
+    },
+    {
+      "image": "rbxassetid://80300446146363",
+      "index": 147,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Res Chromatic Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80300446146363"
+    },
+    {
+      "image": "rbxassetid://12780365055",
+      "index": 148,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Pulsing Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12780365055"
+    },
+    {
+      "image": "rbxassetid://137794865219648",
+      "index": 149,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Paint (1)",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137794865219648"
+    },
+    {
+      "image": "rbxassetid://113311322563395",
+      "index": 150,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Arc Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113311322563395"
+    },
+    {
+      "image": "rbxassetid://16867368702",
+      "index": 151,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867368702"
+    },
+    {
+      "image": "rbxassetid://134036255770836",
+      "index": 152,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Longer Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134036255770836"
+    },
+    {
+      "image": "rbxassetid://12634056613",
+      "index": 153,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "realistic smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12634056613"
+    },
+    {
+      "image": "rbxassetid://17510992903",
+      "index": 154,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cursed Energy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17510992903"
+    },
+    {
+      "image": "rbxassetid://16867527601",
+      "index": 155,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke60 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867527601"
+    },
+    {
+      "image": "rbxassetid://16867354344",
+      "index": 156,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke65 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867354344"
+    },
+    {
+      "image": "rbxassetid://16867450345",
+      "index": 157,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke48 fading",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867450345"
+    },
+    {
+      "image": "rbxassetid://7648565918",
+      "index": 158,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "partially visible smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7648565918"
+    },
+    {
+      "image": "rbxassetid://11826888424",
+      "index": 159,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Pixel Smoke 5",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://11826888424"
+    },
+    {
+      "image": "rbxassetid://115322043710943",
+      "index": 160,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115322043710943"
+    },
+    {
+      "image": "rbxassetid://13366434456",
+      "index": 161,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 40",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13366434456"
+    },
+    {
+      "image": "rbxassetid://11866632577",
+      "index": 162,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Smoke Burst",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://11866632577"
+    },
+    {
+      "image": "rbxassetid://12441202218",
+      "index": 163,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Gray Fog",
+      "rect_offset": [
+        128,
+        0
+      ],
+      "raw_uri": "rbxassetid://12441202218"
+    },
+    {
+      "image": "rbxassetid://15072761142",
+      "index": 164,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Smoke14 fading",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://15072761142"
+    },
+    {
+      "image": "rbxassetid://84578970240313",
+      "index": 165,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Style Smoke 9",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://84578970240313"
+    },
+    {
+      "image": "rbxassetid://14979969015",
+      "index": 166,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Pixel Smoke Brown",
+      "rect_offset": [
+        128,
+        0
+      ],
+      "raw_uri": "rbxassetid://14979969015"
+    },
+    {
+      "image": "rbxassetid://16867383201",
+      "index": 167,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke43 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867383201"
+    },
+    {
+      "image": "rbxassetid://16334792296",
+      "index": 168,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke71 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16334792296"
+    },
+    {
+      "image": "rbxassetid://104888060261813",
+      "index": 169,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Water Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104888060261813"
+    },
+    {
+      "image": "rbxassetid://77462557071070",
+      "index": 170,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 31",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77462557071070"
+    },
+    {
+      "image": "rbxassetid://114474324962687",
+      "index": 171,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Sparkling Fog 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://114474324962687"
+    },
+    {
+      "image": "rbxassetid://87963721330570",
+      "index": 172,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87963721330570"
+    },
+    {
+      "image": "rbxassetid://82219367698334",
+      "index": 173,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke 10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82219367698334"
+    },
+    {
+      "image": "rbxassetid://92936896896154",
+      "index": 174,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92936896896154"
+    },
+    {
+      "image": "rbxassetid://84801446090727",
+      "index": 175,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke 7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84801446090727"
+    },
+    {
+      "image": "rbxassetid://11826642105",
+      "index": 176,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke38 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11826642105"
+    },
+    {
+      "image": "rbxassetid://103655836531541",
+      "index": 177,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke-6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103655836531541"
+    },
+    {
+      "image": "rbxassetid://15270482724",
+      "index": 178,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 16",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15270482724"
+    },
+    {
+      "image": "rbxassetid://11355845008",
+      "index": 179,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "3D Round Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11355845008"
+    },
+    {
+      "image": "rbxassetid://14919880888",
+      "index": 180,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Galaxy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14919880888"
+    },
+    {
+      "image": "rbxassetid://11414312820",
+      "index": 181,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "wavy smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11414312820"
+    },
+    {
+      "image": "rbxassetid://10890181552",
+      "index": 182,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10890181552"
+    },
+    {
+      "image": "rbxassetid://119506860310243",
+      "index": 183,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 17",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119506860310243"
+    },
+    {
+      "image": "rbxassetid://110212434568766",
+      "index": 184,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Smoke Fading 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110212434568766"
+    },
+    {
+      "image": "rbxassetid://125578376132704",
+      "index": 185,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cosmic3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125578376132704"
+    },
+    {
+      "image": "rbxassetid://72956442536817",
+      "index": 186,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Chromatic Water Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72956442536817"
+    },
+    {
+      "image": "rbxassetid://126849989717539",
+      "index": 187,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Weird Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://126849989717539"
+    },
+    {
+      "image": "rbxassetid://88628492431883",
+      "index": 188,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cloud Fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://88628492431883"
+    },
+    {
+      "image": "rbxassetid://13820471965",
+      "index": 189,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixeled Smoke 54",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13820471965"
+    },
+    {
+      "image": "rbxassetid://108791779184174",
+      "index": 190,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "White void",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108791779184174"
+    },
+    {
+      "image": "rbxassetid://95338874085420",
+      "index": 191,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke 16",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95338874085420"
+    },
+    {
+      "image": "rbxassetid://135240404113255",
+      "index": 192,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke16 fading circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135240404113255"
+    },
+    {
+      "image": "rbxassetid://83228127120346",
+      "index": 193,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://83228127120346"
+    },
+    {
+      "image": "rbxassetid://123954453648151",
+      "index": 194,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Inverted Smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://123954453648151"
+    },
+    {
+      "image": "rbxassetid://6928325971",
+      "index": 195,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 35",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6928325971"
+    },
+    {
+      "image": "rbxassetid://125433390984209",
+      "index": 196,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke-7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125433390984209"
+    },
+    {
+      "image": "rbxassetid://10180479311",
+      "index": 197,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 37",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10180479311"
+    },
+    {
+      "image": "rbxassetid://84460308660021",
+      "index": 198,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "PlasmaSmoke1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84460308660021"
+    },
+    {
+      "image": "rbxassetid://112708591036613",
+      "index": 199,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "dust-like smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112708591036613"
+    },
+    {
+      "image": "rbxassetid://12878027420",
+      "index": 200,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12878027420"
+    },
+    {
+      "image": "rbxassetid://11846336638",
+      "index": 201,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Diagonal Smoke Burst",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11846336638"
+    },
+    {
+      "image": "rbxassetid://90532677171477",
+      "index": 202,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90532677171477"
+    },
+    {
+      "image": "rbxassetid://16867377762",
+      "index": 203,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke40 cloud ",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867377762"
+    },
+    {
+      "image": "rbxassetid://86354126672265",
+      "index": 204,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke with glowing circle specs",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86354126672265"
+    },
+    {
+      "image": "rbxassetid://132671694492308",
+      "index": 205,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132671694492308"
+    },
+    {
+      "image": "rbxassetid://13975873083",
+      "index": 206,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "2x2 Smoke Grey",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13975873083"
+    },
+    {
+      "image": "rbxassetid://16867487007",
+      "index": 207,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke53 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867487007"
+    },
+    {
+      "image": "rbxassetid://129892208378154",
+      "index": 208,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke69",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://129892208378154"
+    },
+    {
+      "image": "rbxassetid://14641036736",
+      "index": 209,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14641036736"
+    },
+    {
+      "image": "rbxassetid://103728496037926",
+      "index": 210,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103728496037926"
+    },
+    {
+      "image": "rbxassetid://116718411365385",
+      "index": 211,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cosmict1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116718411365385"
+    },
+    {
+      "image": "rbxassetid://122716114456403",
+      "index": 212,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "LE Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122716114456403"
+    },
+    {
+      "image": "rbxassetid://11509655546",
+      "index": 213,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Coloured Smoke Orange",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11509655546"
+    },
+    {
+      "image": "rbxassetid://16867375106",
+      "index": 214,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867375106"
+    },
+    {
+      "image": "rbxassetid://83546374279157",
+      "index": 215,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://83546374279157"
+    },
+    {
+      "image": "rbxassetid://16867453466",
+      "index": 216,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke49",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867453466"
+    },
+    {
+      "image": "rbxassetid://117899104098834",
+      "index": 217,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Smoke Waving 8x8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://117899104098834"
+    },
+    {
+      "image": "rbxassetid://92487337375861",
+      "index": 218,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 20",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92487337375861"
+    },
+    {
+      "image": "rbxassetid://13556798897",
+      "index": 219,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 21",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13556798897"
+    },
+    {
+      "image": "rbxassetid://78581879199376",
+      "index": 220,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke Wisp Fading 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78581879199376"
+    },
+    {
+      "image": "rbxassetid://12506004739",
+      "index": 221,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke28 Galaxy",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12506004739"
+    },
+    {
+      "image": "rbxassetid://11446801985",
+      "index": 222,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Energyesque Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11446801985"
+    },
+    {
+      "image": "rbxassetid://117833288091604",
+      "index": 223,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Chromatic Smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://117833288091604"
+    },
+    {
+      "image": "rbxassetid://96761985344448",
+      "index": 224,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic U shaped Smoke 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96761985344448"
+    },
+    {
+      "image": "rbxassetid://16867342570",
+      "index": 225,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke44 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867342570"
+    },
+    {
+      "image": "rbxassetid://11163763158",
+      "index": 226,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Classic Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11163763158"
+    },
+    {
+      "image": "rbxassetid://13765167337",
+      "index": 227,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke72 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13765167337"
+    },
+    {
+      "image": "rbxassetid://11808623574",
+      "index": 228,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "partially visible smoke 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11808623574"
+    },
+    {
+      "image": "rbxassetid://11858203067",
+      "index": 229,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11858203067"
+    },
+    {
+      "image": "rbxassetid://123675807271031",
+      "index": 230,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Looping Orb",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://123675807271031"
+    },
+    {
+      "image": "rbxassetid://16867567145",
+      "index": 231,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke64 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867567145"
+    },
+    {
+      "image": "rbxassetid://140471746213044",
+      "index": 232,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke12 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://140471746213044"
+    },
+    {
+      "image": "rbxassetid://89990493168069",
+      "index": 233,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "irregularcloud1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89990493168069"
+    },
+    {
+      "image": "rbxassetid://965116971",
+      "index": 234,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 18",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://965116971"
+    },
+    {
+      "image": "rbxassetid://100077355630511",
+      "index": 235,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100077355630511"
+    },
+    {
+      "image": "rbxassetid://137961448331456",
+      "index": 236,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke Dissolve 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137961448331456"
+    },
+    {
+      "image": "rbxassetid://76892369022676",
+      "index": 237,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Smoke 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76892369022676"
+    },
+    {
+      "image": "rbxassetid://97261913228093",
+      "index": 238,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Chromatic Static Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://97261913228093"
+    },
+    {
+      "image": "rbxassetid://13188459800",
+      "index": 239,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13188459800"
+    },
+    {
+      "image": "rbxassetid://72003768969120",
+      "index": 240,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 38",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72003768969120"
+    },
+    {
+      "image": "rbxassetid://127229052645097",
+      "index": 241,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Oscillated Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127229052645097"
+    },
+    {
+      "image": "rbxassetid://11855544753",
+      "index": 242,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke15 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11855544753"
+    },
+    {
+      "image": "rbxassetid://15013979783",
+      "index": 243,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Topright Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15013979783"
+    },
+    {
+      "image": "rbxassetid://10034873151",
+      "index": 244,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Emitting Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10034873151"
+    },
+    {
+      "image": "rbxassetid://16867389591",
+      "index": 245,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke18",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867389591"
+    },
+    {
+      "image": "rbxassetid://105164420635468",
+      "index": 246,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://105164420635468"
+    },
+    {
+      "image": "rbxassetid://14197917722",
+      "index": 247,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "small smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14197917722"
+    },
+    {
+      "image": "rbxassetid://7216851326",
+      "index": 248,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216851326"
+    },
+    {
+      "image": "rbxassetid://93956384000983",
+      "index": 249,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke 19",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93956384000983"
+    },
+    {
+      "image": "rbxassetid://11773081059",
+      "index": 250,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke74",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11773081059"
+    },
+    {
+      "image": "rbxassetid://114236605310142",
+      "index": 251,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 15",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://114236605310142"
+    },
+    {
+      "image": "rbxassetid://17227327193",
+      "index": 252,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke with holes",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17227327193"
+    },
+    {
+      "image": "rbxassetid://121409713377737",
+      "index": 253,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke fading 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121409713377737"
+    },
+    {
+      "image": "rbxassetid://11037788516",
+      "index": 254,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 47",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037788516"
+    },
+    {
+      "image": "rbxassetid://178107563",
+      "index": 255,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://178107563"
+    },
+    {
+      "image": "rbxassetid://11828552375",
+      "index": 256,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Thin Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11828552375"
+    },
+    {
+      "image": "rbxassetid://14050358959",
+      "index": 257,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 50",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14050358959"
+    },
+    {
+      "image": "rbxassetid://78631443055289",
+      "index": 258,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78631443055289"
+    },
+    {
+      "image": "rbxassetid://112656826514756",
+      "index": 259,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112656826514756"
+    },
+    {
+      "image": "rbxassetid://2122546039",
+      "index": 260,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 30",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://2122546039"
+    },
+    {
+      "image": "rbxassetid://119405796309356",
+      "index": 261,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fog patch",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119405796309356"
+    },
+    {
+      "image": "rbxassetid://7216851474",
+      "index": 262,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216851474"
+    },
+    {
+      "image": "rbxassetid://113664227757340",
+      "index": 263,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113664227757340"
+    },
+    {
+      "image": "rbxassetid://13368444414",
+      "index": 264,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "High Realism Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13368444414"
+    },
+    {
+      "image": "rbxassetid://8073306083",
+      "index": 265,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Corrected Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8073306083"
+    },
+    {
+      "image": "rbxassetid://16509877465",
+      "index": 266,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Quick Fog Burst",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16509877465"
+    },
+    {
+      "image": "rbxassetid://113279119176722",
+      "index": 267,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113279119176722"
+    },
+    {
+      "image": "rbxassetid://15271738362",
+      "index": 268,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 51",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15271738362"
+    },
+    {
+      "image": "rbxassetid://132342166395774",
+      "index": 269,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke 3 Parts",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132342166395774"
+    },
+    {
+      "image": "rbxassetid://70615244274040",
+      "index": 270,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "DarkerWispySmoke1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://70615244274040"
+    },
+    {
+      "image": "rbxassetid://16511720979",
+      "index": 271,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Seamless Movement",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511720979"
+    },
+    {
+      "image": "rbxassetid://8733226116",
+      "index": 272,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixel Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8733226116"
+    },
+    {
+      "image": "rbxassetid://12110213243",
+      "index": 273,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12110213243"
+    },
+    {
+      "image": "rbxassetid://95021941048740",
+      "index": 274,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke Puff Dispersing 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95021941048740"
+    },
+    {
+      "image": "rbxassetid://14265652323",
+      "index": 275,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14265652323"
+    },
+    {
+      "image": "rbxassetid://14050492427",
+      "index": 276,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "foggy smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14050492427"
+    },
+    {
+      "image": "rbxassetid://90183260434127",
+      "index": 277,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Plasma Smoke 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90183260434127"
+    },
+    {
+      "image": "rbxassetid://16867387523",
+      "index": 278,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke42 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867387523"
+    },
+    {
+      "image": "rbxassetid://119548113391566",
+      "index": 279,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 36",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119548113391566"
+    },
+    {
+      "image": "rbxassetid://11854297993",
+      "index": 280,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Right Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11854297993"
+    },
+    {
+      "image": "rbxassetid://15753663130",
+      "index": 281,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15753663130"
+    },
+    {
+      "image": "rbxassetid://11037784926",
+      "index": 282,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037784926"
+    },
+    {
+      "image": "rbxassetid://83081221602653",
+      "index": 283,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://83081221602653"
+    },
+    {
+      "image": "rbxassetid://98047670375459",
+      "index": 284,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://98047670375459"
+    },
+    {
+      "image": "rbxassetid://11845281419",
+      "index": 285,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11845281419"
+    },
+    {
+      "image": "rbxassetid://1084987899",
+      "index": 286,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 38",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1084987899"
+    },
+    {
+      "image": "rbxassetid://13380517587",
+      "index": 287,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 42",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13380517587"
+    },
+    {
+      "image": "rbxassetid://93848321788224",
+      "index": 288,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cloud Right",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93848321788224"
+    },
+    {
+      "image": "rbxassetid://11847035494",
+      "index": 289,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Smoke Diagonal",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11847035494"
+    },
+    {
+      "image": "rbxassetid://3318493505",
+      "index": 290,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "partially visible smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://3318493505"
+    },
+    {
+      "image": "rbxassetid://12865656309",
+      "index": 291,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke Circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12865656309"
+    },
+    {
+      "image": "rbxassetid://90629365953801",
+      "index": 292,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Chromatic Static Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90629365953801"
+    },
+    {
+      "image": "rbxassetid://13717823765",
+      "index": 293,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "RightUp Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13717823765"
+    },
+    {
+      "image": "rbxassetid://102262610145839",
+      "index": 294,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Smoke Dispersing 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102262610145839"
+    },
+    {
+      "image": "rbxassetid://80124472486009",
+      "index": 295,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80124472486009"
+    },
+    {
+      "image": "rbxassetid://16867460128",
+      "index": 296,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867460128"
+    },
+    {
+      "image": "rbxassetid://123582563170273",
+      "index": 297,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Chromatic Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://123582563170273"
+    },
+    {
+      "image": "rbxassetid://13724238656",
+      "index": 298,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke19 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13724238656"
+    },
+    {
+      "image": "rbxassetid://9544354287",
+      "index": 299,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 20",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9544354287"
+    },
+    {
+      "image": "rbxassetid://122680041348683",
+      "index": 300,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122680041348683"
+    },
+    {
+      "image": "rbxassetid://122434532",
+      "index": 301,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122434532"
+    },
+    {
+      "image": "rbxassetid://81110833835270",
+      "index": 302,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cosmic2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81110833835270"
+    },
+    {
+      "image": "rbxassetid://258128463",
+      "index": 303,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://258128463"
+    },
+    {
+      "image": "rbxassetid://139235986849811",
+      "index": 304,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Chromatic Quant Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://139235986849811"
+    },
+    {
+      "image": "rbxassetid://99966049870137",
+      "index": 305,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99966049870137"
+    },
+    {
+      "image": "rbxassetid://111491287754180",
+      "index": 306,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Faint Smoke Debris",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://111491287754180"
+    },
+    {
+      "image": "rbxassetid://126040312279412",
+      "index": 307,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Greyscaled Energy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://126040312279412"
+    },
+    {
+      "image": "rbxassetid://87435985713613",
+      "index": 308,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke Dispersing 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87435985713613"
+    },
+    {
+      "image": "rbxassetid://13958121160",
+      "index": 309,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 43",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13958121160"
+    },
+    {
+      "image": "rbxassetid://87666211973716",
+      "index": 310,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87666211973716"
+    },
+    {
+      "image": "rbxassetid://125645359102949",
+      "index": 311,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 29",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125645359102949"
+    },
+    {
+      "image": "rbxassetid://125895062431426",
+      "index": 312,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Simple Smoke Circle Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125895062431426"
+    },
+    {
+      "image": "rbxassetid://16867472020",
+      "index": 313,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867472020"
+    },
+    {
+      "image": "rbxassetid://11842007223",
+      "index": 314,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11842007223"
+    },
+    {
+      "image": "rbxassetid://18326864825",
+      "index": 315,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fading Smoke Hole",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18326864825"
+    },
+    {
+      "image": "rbxassetid://13279976915",
+      "index": 316,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "realistic smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13279976915"
+    },
+    {
+      "image": "rbxassetid://11037787560",
+      "index": 317,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "cloud like smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037787560"
+    },
+    {
+      "image": "rbxassetid://112709281377260",
+      "index": 318,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke 17",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112709281377260"
+    },
+    {
+      "image": "rbxassetid://14727016281",
+      "index": 319,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Firm Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14727016281"
+    },
+    {
+      "image": "rbxassetid://13468353904",
+      "index": 320,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixel Smoke 23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13468353904"
+    },
+    {
+      "image": "rbxassetid://120188644844118",
+      "index": 321,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Smoke Wisp Fading 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120188644844118"
+    },
+    {
+      "image": "rbxassetid://15675258695",
+      "index": 322,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Grey Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15675258695"
+    },
+    {
+      "image": "rbxassetid://16924727059",
+      "index": 323,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Onesided Smoke Puff",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16924727059"
+    },
+    {
+      "image": "rbxassetid://95471138033876",
+      "index": 324,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95471138033876"
+    },
+    {
+      "image": "rbxassetid://107293076879336",
+      "index": 325,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flowy Bright Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107293076879336"
+    },
+    {
+      "image": "rbxassetid://7216851225",
+      "index": 326,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 39",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216851225"
+    },
+    {
+      "image": "rbxassetid://118677349749802",
+      "index": 327,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://118677349749802"
+    },
+    {
+      "image": "rbxassetid://8250000734",
+      "index": 328,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "realistic smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8250000734"
+    },
+    {
+      "image": "rbxassetid://130613772303414",
+      "index": 329,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Plasma Fog 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130613772303414"
+    },
+    {
+      "image": "rbxassetid://16867444334",
+      "index": 330,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867444334"
+    },
+    {
+      "image": "rbxassetid://13346862770",
+      "index": 331,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Seam",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13346862770"
+    },
+    {
+      "image": "rbxassetid://107984528801351",
+      "index": 332,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Shining Smoke Lens",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107984528801351"
+    },
+    {
+      "image": "rbxassetid://71964162652487",
+      "index": 333,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Inverted Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://71964162652487"
+    },
+    {
+      "image": "rbxassetid://11799788138",
+      "index": 334,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic 3D Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11799788138"
+    },
+    {
+      "image": "rbxassetid://138304117919104",
+      "index": 335,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138304117919104"
+    },
+    {
+      "image": "rbxassetid://135595638778407",
+      "index": 336,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Bright Stylized Vertical Smoke Fading 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135595638778407"
+    },
+    {
+      "image": "rbxassetid://12656890347",
+      "index": 337,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Shimmying Fog Circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12656890347"
+    },
+    {
+      "image": "rbxassetid://17612093017",
+      "index": 338,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke13 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17612093017"
+    },
+    {
+      "image": "rbxassetid://108277848397127",
+      "index": 339,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://108277848397127"
+    },
+    {
+      "image": "rbxassetid://73401626133942",
+      "index": 340,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Layered Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73401626133942"
+    },
+    {
+      "image": "rbxassetid://99573565621486",
+      "index": 341,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99573565621486"
+    },
+    {
+      "image": "rbxassetid://16924697121",
+      "index": 342,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke68",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16924697121"
+    },
+    {
+      "image": "rbxassetid://15828867903",
+      "index": 343,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke24",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15828867903"
+    },
+    {
+      "image": "rbxassetid://1012159668",
+      "index": 344,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 45",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1012159668"
+    },
+    {
+      "image": "rbxassetid://103591772935651",
+      "index": 345,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Energy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103591772935651"
+    },
+    {
+      "image": "rbxassetid://132044250531591",
+      "index": 346,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Tall Cloud",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132044250531591"
+    },
+    {
+      "image": "rbxassetid://125872341901622",
+      "index": 347,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flowy Chromatic Faint Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125872341901622"
+    },
+    {
+      "image": "rbxassetid://16867548275",
+      "index": 348,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke61 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867548275"
+    },
+    {
+      "image": "rbxassetid://15415212938",
+      "index": 349,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Billowing",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15415212938"
+    },
+    {
+      "image": "rbxassetid://1525327413",
+      "index": 350,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 46",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1525327413"
+    },
+    {
+      "image": "rbxassetid://72071413946053",
+      "index": 351,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72071413946053"
+    },
+    {
+      "image": "rbxassetid://10352566235",
+      "index": 352,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "cartoonish smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10352566235"
+    },
+    {
+      "image": "rbxassetid://14200879082",
+      "index": 353,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Energy Esque",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14200879082"
+    },
+    {
+      "image": "rbxassetid://110565893238476",
+      "index": 354,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Chromatic Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110565893238476"
+    },
+    {
+      "image": "rbxassetid://14590103902",
+      "index": 355,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Circular Energy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14590103902"
+    },
+    {
+      "image": "rbxassetid://8684351794",
+      "index": 356,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 44",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8684351794"
+    },
+    {
+      "image": "rbxassetid://99601632703039",
+      "index": 357,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Chromatic White Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99601632703039"
+    },
+    {
+      "image": "rbxassetid://13828988163",
+      "index": 358,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13828988163"
+    },
+    {
+      "image": "rbxassetid://82910409450208",
+      "index": 359,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke 2x2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82910409450208"
+    },
+    {
+      "image": "rbxassetid://16867359536",
+      "index": 360,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867359536"
+    },
+    {
+      "image": "rbxassetid://16867380634",
+      "index": 361,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke41 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867380634"
+    },
+    {
+      "image": "rbxassetid://72314131653420",
+      "index": 362,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke 6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72314131653420"
+    },
+    {
+      "image": "rbxassetid://110655349790991",
+      "index": 363,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flowy Faint Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110655349790991"
+    },
+    {
+      "image": "rbxassetid://16867447521",
+      "index": 364,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867447521"
+    },
+    {
+      "image": "rbxassetid://119285901217815",
+      "index": 365,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke 12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119285901217815"
+    },
+    {
+      "image": "rbxassetid://113991876044998",
+      "index": 366,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113991876044998"
+    },
+    {
+      "image": "rbxassetid://14066311352",
+      "index": 367,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Thin Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14066311352"
+    },
+    {
+      "image": "rbxassetid://121512187723923",
+      "index": 368,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke 8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121512187723923"
+    },
+    {
+      "image": "rbxassetid://11826696782",
+      "index": 369,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke17 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11826696782"
+    },
+    {
+      "image": "rbxassetid://110549281481684",
+      "index": 370,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke27 Galaxy Fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110549281481684"
+    },
+    {
+      "image": "rbxassetid://11037788072",
+      "index": 371,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 48",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037788072"
+    },
+    {
+      "image": "rbxassetid://14151918862",
+      "index": 372,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Orb Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14151918862"
+    },
+    {
+      "image": "rbxassetid://71943478095093",
+      "index": 373,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Smoke 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://71943478095093"
+    },
+    {
+      "image": "rbxassetid://14050533905",
+      "index": 374,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Basic 2x2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14050533905"
+    },
+    {
+      "image": "rbxassetid://82103606978024",
+      "index": 375,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82103606978024"
+    },
+    {
+      "image": "rbxassetid://107993810226919",
+      "index": 376,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Sparkling Fog 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107993810226919"
+    },
+    {
+      "image": "rbxassetid://74093945713452",
+      "index": 377,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 18",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74093945713452"
+    },
+    {
+      "image": "rbxassetid://11355872735",
+      "index": 378,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Thick Dark Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11355872735"
+    },
+    {
+      "image": "rbxassetid://105599494808436",
+      "index": 379,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flowy Faint Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://105599494808436"
+    },
+    {
+      "image": "rbxassetid://89845863976756",
+      "index": 380,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 14",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89845863976756"
+    },
+    {
+      "image": "rbxassetid://105714736981988",
+      "index": 381,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cloud Left 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://105714736981988"
+    },
+    {
+      "image": "rbxassetid://111815688704083",
+      "index": 382,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Plume6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://111815688704083"
+    },
+    {
+      "image": "rbxassetid://16867507329",
+      "index": 383,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke58",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867507329"
+    },
+    {
+      "image": "rbxassetid://16867503441",
+      "index": 384,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke57",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867503441"
+    },
+    {
+      "image": "rbxassetid://11799607237",
+      "index": 385,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cut Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11799607237"
+    },
+    {
+      "image": "rbxassetid://115547804140118",
+      "index": 386,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fog1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115547804140118"
+    },
+    {
+      "image": "rbxassetid://115148259760053",
+      "index": 387,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115148259760053"
+    },
+    {
+      "image": "rbxassetid://134160165648626",
+      "index": 388,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "partially visible smoke 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134160165648626"
+    },
+    {
+      "image": "rbxassetid://11941047152",
+      "index": 389,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fog 100",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11941047152"
+    },
+    {
+      "image": "rbxassetid://128124707976588",
+      "index": 390,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://128124707976588"
+    },
+    {
+      "image": "rbxassetid://81580024241252",
+      "index": 391,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke with circle specs",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81580024241252"
+    },
+    {
+      "image": "rbxassetid://16867347280",
+      "index": 392,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867347280"
+    },
+    {
+      "image": "rbxassetid://14050078974",
+      "index": 393,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "wavy smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14050078974"
+    },
+    {
+      "image": "rbxassetid://73401369007395",
+      "index": 394,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke75",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73401369007395"
+    },
+    {
+      "image": "rbxassetid://103977667555281",
+      "index": 395,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 37",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103977667555281"
+    },
+    {
+      "image": "rbxassetid://87734017008678",
+      "index": 396,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Detailed Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87734017008678"
+    },
+    {
+      "image": "rbxassetid://16512020778",
+      "index": 397,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Seamless wisp",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16512020778"
+    },
+    {
+      "image": "rbxassetid://16867483883",
+      "index": 398,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke53 fading 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867483883"
+    },
+    {
+      "image": "rbxassetid://9345352897",
+      "index": 399,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9345352897"
+    },
+    {
+      "image": "rbxassetid://113206708550622",
+      "index": 400,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Barely Visible",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113206708550622"
+    },
+    {
+      "image": "rbxassetid://74388128488412",
+      "index": 401,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74388128488412"
+    },
+    {
+      "image": "rbxassetid://13400373656",
+      "index": 402,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13400373656"
+    },
+    {
+      "image": "rbxassetid://13726311040",
+      "index": 403,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13726311040"
+    },
+    {
+      "image": "rbxassetid://13388193136",
+      "index": 404,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 17",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13388193136"
+    },
+    {
+      "image": "rbxassetid://137275300845869",
+      "index": 405,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137275300845869"
+    },
+    {
+      "image": "rbxassetid://94705242050106",
+      "index": 406,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Cloud1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94705242050106"
+    },
+    {
+      "image": "rbxassetid://137469139444626",
+      "index": 407,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137469139444626"
+    },
+    {
+      "image": "rbxassetid://17332847873",
+      "index": 408,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Fog 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17332847873"
+    },
+    {
+      "image": "rbxassetid://13764075574",
+      "index": 409,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Darkening Outlined Grey",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13764075574"
+    },
+    {
+      "image": "rbxassetid://112395972351511",
+      "index": 410,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112395972351511"
+    },
+    {
+      "image": "rbxassetid://105347499305732",
+      "index": 411,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Light Smoke Strands",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://105347499305732"
+    },
+    {
+      "image": "rbxassetid://129394537354054",
+      "index": 412,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Fog 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://129394537354054"
+    },
+    {
+      "image": "rbxassetid://75900660533054",
+      "index": 413,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75900660533054"
+    },
+    {
+      "image": "rbxassetid://101267700983835",
+      "index": 414,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101267700983835"
+    },
+    {
+      "image": "rbxassetid://129539608492240",
+      "index": 415,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Chromatic Smoke 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://129539608492240"
+    },
+    {
+      "image": "rbxassetid://16867563190",
+      "index": 416,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke45",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867563190"
+    },
+    {
+      "image": "rbxassetid://11866794293",
+      "index": 417,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Darkening realism",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11866794293"
+    },
+    {
+      "image": "rbxassetid://13712003050",
+      "index": 418,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Spinning Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13712003050"
+    },
+    {
+      "image": "rbxassetid://7216850983",
+      "index": 419,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke ring",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216850983"
+    },
+    {
+      "image": "rbxassetid://80930076551811",
+      "index": 420,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Smoke 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80930076551811"
+    },
+    {
+      "image": "rbxassetid://135611124886147",
+      "index": 421,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fading Dust",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135611124886147"
+    },
+    {
+      "image": "rbxassetid://16867578092",
+      "index": 422,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke64",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867578092"
+    },
+    {
+      "image": "rbxassetid://16867394877",
+      "index": 423,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke46 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867394877"
+    },
+    {
+      "image": "rbxassetid://134698888906214",
+      "index": 424,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Energy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134698888906214"
+    },
+    {
+      "image": "rbxassetid://98792625311685",
+      "index": 425,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://98792625311685"
+    },
+    {
+      "image": "rbxassetid://114648201129593",
+      "index": 426,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 39",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://114648201129593"
+    },
+    {
+      "image": "rbxassetid://12447064407",
+      "index": 427,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Shaded Poof",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12447064407"
+    },
+    {
+      "image": "rbxassetid://16867497283",
+      "index": 428,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke55 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867497283"
+    },
+    {
+      "image": "rbxassetid://94299836143369",
+      "index": 429,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Style Smoke 19",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94299836143369"
+    },
+    {
+      "image": "rbxassetid://13335693944",
+      "index": 430,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dissapearing 8x8 Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13335693944"
+    },
+    {
+      "image": "rbxassetid://9841246256",
+      "index": 431,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 31",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9841246256"
+    },
+    {
+      "image": "rbxassetid://138664643090364",
+      "index": 432,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "e941fc62dbcaab7fd375657a11db5fb5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138664643090364"
+    },
+    {
+      "image": "rbxassetid://75225628767823",
+      "index": 433,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke 9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75225628767823"
+    },
+    {
+      "image": "rbxassetid://13958153112",
+      "index": 434,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke with holes 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13958153112"
+    },
+    {
+      "image": "rbxassetid://92669442287805",
+      "index": 435,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Smoke Debris",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92669442287805"
+    },
+    {
+      "image": "rbxassetid://83830065111460",
+      "index": 436,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flowy Chromatic Faint Smoke 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://83830065111460"
+    },
+    {
+      "image": "rbxassetid://95791849628501",
+      "index": 437,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke67",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95791849628501"
+    },
+    {
+      "image": "rbxassetid://112320696686865",
+      "index": 438,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Poly Smoke Debris",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112320696686865"
+    },
+    {
+      "image": "rbxassetid://11857153748",
+      "index": 439,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke23 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11857153748"
+    },
+    {
+      "image": "rbxassetid://16867397491",
+      "index": 440,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke47 Fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867397491"
+    },
+    {
+      "image": "rbxassetid://97338891501275",
+      "index": 441,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "fine-smoke4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://97338891501275"
+    },
+    {
+      "image": "rbxassetid://132339651729337",
+      "index": 442,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Solid Smoke Grow Fading 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132339651729337"
+    },
+    {
+      "image": "rbxassetid://13486412308",
+      "index": 443,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Res Smoke Updown",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13486412308"
+    },
+    {
+      "image": "rbxassetid://94601268312605",
+      "index": 444,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Line Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94601268312605"
+    },
+    {
+      "image": "rbxassetid://16867557304",
+      "index": 445,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke62 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867557304"
+    },
+    {
+      "image": "rbxassetid://17332832778",
+      "index": 446,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Fog 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17332832778"
+    },
+    {
+      "image": "rbxassetid://127687180287968",
+      "index": 447,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Small Smoke Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127687180287968"
+    },
+    {
+      "image": "rbxassetid://16867371255",
+      "index": 448,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke45 Fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867371255"
+    },
+    {
+      "image": "rbxassetid://11842749937",
+      "index": 449,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixel Smoke 34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11842749937"
+    },
+    {
+      "image": "rbxassetid://16867492882",
+      "index": 450,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867492882"
+    },
+    {
+      "image": "rbxassetid://138372515259698",
+      "index": 451,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138372515259698"
+    },
+    {
+      "image": "rbxassetid://74117306337150",
+      "index": 452,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wispy Energy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74117306337150"
+    },
+    {
+      "image": "rbxassetid://15855917528",
+      "index": 453,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke56 circle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15855917528"
+    },
+    {
+      "image": "rbxassetid://16503783638",
+      "index": 454,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pulsing Smoke Fog",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16503783638"
+    },
+    {
+      "image": "rbxassetid://13727078625",
+      "index": 455,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke20 fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13727078625"
+    },
+    {
+      "image": "rbxassetid://16867537263",
+      "index": 456,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke41",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867537263"
+    },
+    {
+      "image": "rbxassetid://132602932879647",
+      "index": 457,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Plasma Fog 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132602932879647"
+    },
+    {
+      "image": "rbxassetid://16867339834",
+      "index": 458,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867339834"
+    },
+    {
+      "image": "rbxassetid://119539009175582",
+      "index": 459,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Strange Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119539009175582"
+    },
+    {
+      "image": "rbxassetid://16867365247",
+      "index": 460,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867365247"
+    },
+    {
+      "image": "rbxassetid://9668592056",
+      "index": 461,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke 19",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9668592056"
+    },
+    {
+      "image": "rbxassetid://130861114090307",
+      "index": 462,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Oscillated Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130861114090307"
+    },
+    {
+      "image": "rbxassetid://113724275732112",
+      "index": 463,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry Chromatic Smoke 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://113724275732112"
+    },
+    {
+      "image": "rbxassetid://76020332031714",
+      "index": 464,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Wispy Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76020332031714"
+    },
+    {
+      "image": "rbxassetid://13765238618",
+      "index": 465,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13765238618"
+    },
+    {
+      "image": "rbxassetid://132671694492308",
+      "index": 466,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke Puff",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132671694492308"
+    },
+    {
+      "image": "rbxassetid://137533090372874",
+      "index": 467,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Res Chromatic Smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137533090372874"
+    },
+    {
+      "image": "rbxassetid://16867490141",
+      "index": 468,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smoke32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16867490141"
+    },
+    {
+      "image": "rbxassetid://11943560085",
+      "index": 469,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Smoke 21fading",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11943560085"
+    },
+    {
+      "image": "rbxassetid://11037480609",
+      "index": 470,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "smoke",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037480609"
+    },
+    {
+      "image": "rbxassetid://82232088792644",
+      "index": 471,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Smoke 8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82232088792644"
+    },
+    {
+      "image": "rbxassetid://132323756978857",
+      "index": 472,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Smoke Fading 4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://132323756978857"
+    }
+  ],
+  "search": "",
+  "window_height": 850,
+  "active_filter": "smoke",
+  "missing_indexes": []
+}

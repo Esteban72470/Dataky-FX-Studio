@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "name": "Dataky · Arc",
+  "id": "dataky-arc",
+  "duration": 3,
+  "loop": true,
+  "nodes": [
+    {
+      "id": "part_7172f744",
+      "class": "Part",
+      "name": "Source",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          1,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          2,
+          1,
+          2
+        ],
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Massless": true,
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Reflectance": 0,
+        "Material": "SmoothPlastic",
+        "MaterialVariant": "",
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "id": "attachment_1e726c96",
+      "class": "Attachment",
+      "name": "Départ",
+      "parent": "part_7172f744",
+      "properties": {
+        "Position": [
+          -3,
+          0,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Visible": false
+      }
+    },
+    {
+      "id": "attachment_e4150e7a",
+      "class": "Attachment",
+      "name": "Arrivée",
+      "parent": "part_7172f744",
+      "properties": {
+        "Position": [
+          3,
+          0,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ],
+        "Visible": false
+      }
+    },
+    {
+      "id": "beam_659b1459",
+      "class": "Beam",
+      "name": "Arc",
+      "parent": "part_7172f744",
+      "properties": {
+        "Attachment0": "attachment_1e726c96",
+        "Attachment1": "attachment_e4150e7a",
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.55,
+              0.95,
+              0.88
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.65,
+              0.45,
+              1
+            ]
+          }
+        ],
+        "CurveSize0": 2,
+        "CurveSize1": -2,
+        "Enabled": true,
+        "FaceCamera": true,
+        "LightEmission": 1,
+        "LightInfluence": 0,
+        "Segments": 10,
+        "Texture": "",
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "TextureSpeed": 1,
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Width0": 0.45,
+        "Width1": 0.15,
+        "ZOffset": 0
+      },
+      "timing": {
+        "start": 0,
+        "duration": 3,
+        "mode": "continuous",
+        "count": 20
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

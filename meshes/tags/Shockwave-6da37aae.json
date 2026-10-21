@@ -1,0 +1,2460 @@
+[
+  {
+    "key": "9b38a77b70113d6b3b85dde7",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Basic Shockwave",
+    "asset_id": "6026280687",
+    "uri": "rbxassetid://6026280687",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6026280687",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6026280687"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6026280687",
+        "uri": "rbxassetid://6026280687",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6026280687",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 43,
+        "raw_uri": "rbxassetid://6026280687",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026280687",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026280687",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 17,
+        "raw_uri": "rbxassetid://6026280687",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026280687",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026280687",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6026280687.png",
+    "preview_path": "images/6026280687.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6ff418789734bc65fc28a617",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Cartoon Explosion",
+    "asset_id": "5139788213",
+    "uri": "rbxassetid://5139788213",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5139788213",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5139788213"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5139788213",
+        "uri": "rbxassetid://5139788213",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5139788213",
+        "uri_parse_method": "rbxassetid"
+      },
+      {
+        "label": "TextureId",
+        "asset_id": "139424664734084",
+        "uri": "rbxassetid://139424664734084",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://139424664734084",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 10,
+        "raw_uri": "rbxassetid://5139788213",
+        "image": "",
+        "mesh_uri": "rbxassetid://5139788213",
+        "texture_uri": "rbxassetid://139424664734084",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5139788213",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://139424664734084",
+            "label": "TextureId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 6,
+        "raw_uri": "rbxassetid://5139788213",
+        "image": "",
+        "mesh_uri": "rbxassetid://5139788213",
+        "texture_uri": "rbxassetid://139424664734084",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5139788213",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://139424664734084",
+            "label": "TextureId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5139788213.png",
+    "preview_path": "images/5139788213.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e2a1c5db63a23bdf33d66c40",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Cartoon Explosion 2",
+    "asset_id": "4933939707",
+    "uri": "rbxassetid://4933939707",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4933939707",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4933939707"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4933939707",
+        "uri": "rbxassetid://4933939707",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4933939707",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 84,
+        "raw_uri": "rbxassetid://4933939707",
+        "image": "",
+        "mesh_uri": "rbxassetid://4933939707",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4933939707",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 23,
+        "raw_uri": "rbxassetid://4933939707",
+        "image": "",
+        "mesh_uri": "rbxassetid://4933939707",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4933939707",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4933939707.png",
+    "preview_path": "images/4933939707.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d5bf22af4cce796c4d17f0b3",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Cartoon Explosion 3",
+    "asset_id": "1095708",
+    "uri": "rbxassetid://1095708",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1095708",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1095708"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1095708",
+        "uri": "rbxassetid://1095708",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1095708",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 16,
+        "raw_uri": "rbxassetid://1095708",
+        "image": "",
+        "mesh_uri": "rbxassetid://1095708",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1095708",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 9,
+        "raw_uri": "rbxassetid://1095708",
+        "image": "",
+        "mesh_uri": "rbxassetid://1095708",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1095708",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1095708.png",
+    "preview_path": "images/1095708.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b0a0da3bc9a1a3f4c5b13ebf",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Cartoony Shockwave",
+    "asset_id": "2689837482",
+    "uri": "rbxassetid://2689837482",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2689837482",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2689837482"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2689837482",
+        "uri": "rbxassetid://2689837482",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2689837482",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 18,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 10,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Upwards Jagged Spike"
+    ],
+    "image_path": "images/2689837482.png",
+    "preview_path": "images/2689837482.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "638a3c45805f8f8ba498d91e",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Complex Shockwave",
+    "asset_id": "6026279643",
+    "uri": "rbxassetid://6026279643",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6026279643",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6026279643"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6026279643",
+        "uri": "rbxassetid://6026279643",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6026279643",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 38,
+        "raw_uri": "rbxassetid://6026279643",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026279643",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026279643",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 16,
+        "raw_uri": "rbxassetid://6026279643",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026279643",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026279643",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6026279643.png",
+    "preview_path": "images/6026279643.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a8344f5e29b685e56ddd9b45",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Detailed Energy",
+    "asset_id": "6553284529",
+    "uri": "rbxassetid://6553284529",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553284529",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553284529"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553284529",
+        "uri": "rbxassetid://6553284529",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553284529",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 65,
+        "raw_uri": "rbxassetid://6553284529",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553284529",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553284529",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 21,
+        "raw_uri": "rbxassetid://6553284529",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553284529",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553284529",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553284529.png",
+    "preview_path": "images/6553284529.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "148f1330aeab38a86be72673",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Empty Shockwave",
+    "asset_id": "6026279770",
+    "uri": "rbxassetid://6026279770",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6026279770",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6026279770"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6026279770",
+        "uri": "rbxassetid://6026279770",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6026279770",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 159,
+        "raw_uri": "rbxassetid://6026279770",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026279770",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026279770",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 33,
+        "raw_uri": "rbxassetid://6026279770",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026279770",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026279770",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6026279770.png",
+    "preview_path": "images/6026279770.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ef6ece33354937f0cfa15070",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Empty Shockwave 2",
+    "asset_id": "6026280296",
+    "uri": "rbxassetid://6026280296",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6026280296",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6026280296"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6026280296",
+        "uri": "rbxassetid://6026280296",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6026280296",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 54,
+        "raw_uri": "rbxassetid://6026280296",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026280296",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026280296",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 19,
+        "raw_uri": "rbxassetid://6026280296",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026280296",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026280296",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6026280296.png",
+    "preview_path": "images/6026280296.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d754bdc2b4eb87b386f09efb",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Empty Shockwave 3",
+    "asset_id": "6026280813",
+    "uri": "rbxassetid://6026280813",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6026280813",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6026280813"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6026280813",
+        "uri": "rbxassetid://6026280813",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6026280813",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 102,
+        "raw_uri": "rbxassetid://6026280813",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026280813",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026280813",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 27,
+        "raw_uri": "rbxassetid://6026280813",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026280813",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026280813",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6026280813.png",
+    "preview_path": "images/6026280813.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a8230f6f6a0c56e72a949573",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Empty Shockwave 4",
+    "asset_id": "6026281620",
+    "uri": "rbxassetid://6026281620",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6026281620",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6026281620"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6026281620",
+        "uri": "rbxassetid://6026281620",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6026281620",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 73,
+        "raw_uri": "rbxassetid://6026281620",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026281620",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026281620",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 22,
+        "raw_uri": "rbxassetid://6026281620",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026281620",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026281620",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6026281620.png",
+    "preview_path": "images/6026281620.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "12ce84f1ce8c3ddf24a95689",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Explosion Shockwave 2",
+    "asset_id": "5694662220",
+    "uri": "rbxassetid://5694662220",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5694662220",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5694662220"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5694662220",
+        "uri": "rbxassetid://5694662220",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5694662220",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 98,
+        "raw_uri": "rbxassetid://5694662220",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662220",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662220",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 25,
+        "raw_uri": "rbxassetid://5694662220",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662220",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662220",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5694662220.png",
+    "preview_path": "images/5694662220.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "41feba5cb8f50a06815a70ff",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Flattened Shockwave",
+    "asset_id": "5922911630",
+    "uri": "rbxassetid://5922911630",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5922911630",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5922911630"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5922911630",
+        "uri": "rbxassetid://5922911630",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5922911630",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5,
+        "raw_uri": "rbxassetid://5922911630",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922911630",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922911630",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 3,
+        "raw_uri": "rbxassetid://5922911630",
+        "image": "",
+        "mesh_uri": "rbxassetid://5922911630",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5922911630",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5922911630.png",
+    "preview_path": "images/5922911630.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4a44db5da10d85df76971dcf",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Four Sided Shockwave",
+    "asset_id": "1726537151",
+    "uri": "rbxassetid://1726537151",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1726537151",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1726537151"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1726537151",
+        "uri": "rbxassetid://1726537151",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1726537151",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 35,
+        "raw_uri": "rbxassetid://1726537151",
+        "image": "",
+        "mesh_uri": "rbxassetid://1726537151",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1726537151",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 14,
+        "raw_uri": "rbxassetid://1726537151",
+        "image": "",
+        "mesh_uri": "rbxassetid://1726537151",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1726537151",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Jagged Four Sided Shockwave"
+    ],
+    "image_path": "images/1726537151.png",
+    "preview_path": "images/1726537151.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3fff11e1bf161cf2b159f26d",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Jagged Four Sided Shockwave",
+    "asset_id": "1726537151",
+    "uri": "rbxassetid://1726537151",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1726537151",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1726537151"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1726537151",
+        "uri": "rbxassetid://1726537151",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1726537151",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 9,
+        "raw_uri": "rbxassetid://1726537151",
+        "image": "",
+        "mesh_uri": "rbxassetid://1726537151",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1726537151",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 5,
+        "raw_uri": "rbxassetid://1726537151",
+        "image": "",
+        "mesh_uri": "rbxassetid://1726537151",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1726537151",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Four Sided Shockwave"
+    ],
+    "image_path": "images/1726537151.png",
+    "preview_path": "images/1726537151.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c47dd8669374376faa9c0a8c",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Layered Jagged Shockwave",
+    "asset_id": "6494544988",
+    "uri": "rbxassetid://6494544988",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6494544988",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6494544988"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6494544988",
+        "uri": "rbxassetid://6494544988",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6494544988",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 126,
+        "raw_uri": "rbxassetid://6494544988",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494544988",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494544988",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 28,
+        "raw_uri": "rbxassetid://6494544988",
+        "image": "",
+        "mesh_uri": "rbxassetid://6494544988",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6494544988",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6494544988.png",
+    "preview_path": "images/6494544988.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9fe2da74b21395921b33ed19",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "More Complex Shockwave",
+    "asset_id": "6026279375",
+    "uri": "rbxassetid://6026279375",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6026279375",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6026279375"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6026279375",
+        "uri": "rbxassetid://6026279375",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6026279375",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 160,
+        "raw_uri": "rbxassetid://6026279375",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026279375",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026279375",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 34,
+        "raw_uri": "rbxassetid://6026279375",
+        "image": "",
+        "mesh_uri": "rbxassetid://6026279375",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6026279375",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6026279375.png",
+    "preview_path": "images/6026279375.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "58908fa8a71e68d127b5c25d",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Rough Shockwave",
+    "asset_id": "903888897",
+    "uri": "rbxassetid://903888897",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://903888897",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://903888897"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "903888897",
+        "uri": "rbxassetid://903888897",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://903888897",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 100,
+        "raw_uri": "rbxassetid://903888897",
+        "image": "",
+        "mesh_uri": "rbxassetid://903888897",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://903888897",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 26,
+        "raw_uri": "rbxassetid://903888897",
+        "image": "",
+        "mesh_uri": "rbxassetid://903888897",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://903888897",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/903888897.png",
+    "preview_path": "images/903888897.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ef298d5ba120c1c4e06cbe25",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Semi Shockwave",
+    "asset_id": "3354830324",
+    "uri": "rbxassetid://3354830324",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://3354830324",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://3354830324"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "3354830324",
+        "uri": "rbxassetid://3354830324",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://3354830324",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 95,
+        "raw_uri": "rbxassetid://3354830324",
+        "image": "",
+        "mesh_uri": "rbxassetid://3354830324",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://3354830324",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 24,
+        "raw_uri": "rbxassetid://3354830324",
+        "image": "",
+        "mesh_uri": "rbxassetid://3354830324",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://3354830324",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thick Circle"
+    ],
+    "image_path": "images/3354830324.png",
+    "preview_path": "images/3354830324.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4999e8ff945ed3568a379f5c",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Shockwave",
+    "asset_id": "2788580235",
+    "uri": "rbxassetid://2788580235",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2788580235",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2788580235"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2788580235",
+        "uri": "rbxassetid://2788580235",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2788580235",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 32,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 13,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thick Floor"
+    ],
+    "image_path": "images/2788580235.png",
+    "preview_path": "images/2788580235.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8ae8b958475e91eab6f01af1",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Shockwaves",
+    "asset_id": "4558726590",
+    "uri": "rbxassetid://4558726590",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4558726590",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4558726590"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4558726590",
+        "uri": "rbxassetid://4558726590",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4558726590",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 7,
+        "raw_uri": "rbxassetid://4558726590",
+        "image": "",
+        "mesh_uri": "rbxassetid://4558726590",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4558726590",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 4,
+        "raw_uri": "rbxassetid://4558726590",
+        "image": "",
+        "mesh_uri": "rbxassetid://4558726590",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4558726590",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Detailed Cylinder"
+    ],
+    "image_path": "images/4558726590.png",
+    "preview_path": "images/4558726590.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "0d0caea62a33f1e2365ef3e2",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Simple Flat Shockwave",
+    "asset_id": "4461104675",
+    "uri": "rbxassetid://4461104675",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4461104675",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4461104675"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4461104675",
+        "uri": "rbxassetid://4461104675",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4461104675",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 48,
+        "raw_uri": "rbxassetid://4461104675",
+        "image": "",
+        "mesh_uri": "rbxassetid://4461104675",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4461104675",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 18,
+        "raw_uri": "rbxassetid://4461104675",
+        "image": "",
+        "mesh_uri": "rbxassetid://4461104675",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4461104675",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thick Spring"
+    ],
+    "image_path": "images/4461104675.png",
+    "preview_path": "images/4461104675.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "10db16bcec0edb7ab4f4fdba",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Simple Shockwave",
+    "asset_id": "4124211540",
+    "uri": "rbxassetid://4124211540",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4124211540",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4124211540"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4124211540",
+        "uri": "rbxassetid://4124211540",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4124211540",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 62,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 20,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Upwards Spike"
+    ],
+    "image_path": "images/4124211540.png",
+    "preview_path": "images/4124211540.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6e35f2d858d65eac2fea7390",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Sun Shockwave",
+    "asset_id": "863344136",
+    "uri": "rbxassetid://863344136",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://863344136",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://863344136"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "863344136",
+        "uri": "rbxassetid://863344136",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://863344136",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 36,
+        "raw_uri": "rbxassetid://863344136",
+        "image": "",
+        "mesh_uri": "rbxassetid://863344136",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://863344136",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 15,
+        "raw_uri": "rbxassetid://863344136",
+        "image": "",
+        "mesh_uri": "rbxassetid://863344136",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://863344136",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/863344136.png",
+    "preview_path": "images/863344136.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ef4043a6c933362b135c1372",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Textured Wind Shockwave",
+    "asset_id": "6120788966",
+    "uri": "rbxassetid://6120788966",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6120788966",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6120788966"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6120788966",
+        "uri": "rbxassetid://6120788966",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6120788966",
+        "uri_parse_method": "rbxassetid"
+      },
+      {
+        "label": "TextureId",
+        "asset_id": "6120789019",
+        "uri": "rbxassetid://6120789019",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6120789019",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 15,
+        "raw_uri": "rbxassetid://6120788966",
+        "image": "",
+        "mesh_uri": "rbxassetid://6120788966",
+        "texture_uri": "rbxassetid://6120789019",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6120788966",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://6120789019",
+            "label": "TextureId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 8,
+        "raw_uri": "rbxassetid://6120788966",
+        "image": "",
+        "mesh_uri": "rbxassetid://6120788966",
+        "texture_uri": "rbxassetid://6120789019",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6120788966",
+            "label": "MeshId"
+          },
+          {
+            "raw_uri": "rbxassetid://6120789019",
+            "label": "TextureId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6120788966.png",
+    "preview_path": "images/6120788966.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "66a8614516044462aa1df542",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Crescent Shockwave",
+    "asset_id": "881809484",
+    "uri": "rbxassetid://881809484",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://881809484",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://881809484"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "881809484",
+        "uri": "rbxassetid://881809484",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://881809484",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 31,
+        "raw_uri": "rbxassetid://881809484",
+        "image": "",
+        "mesh_uri": "rbxassetid://881809484",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://881809484",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 12,
+        "raw_uri": "rbxassetid://881809484",
+        "image": "",
+        "mesh_uri": "rbxassetid://881809484",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://881809484",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/881809484.png",
+    "preview_path": "images/881809484.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1a1d9aba6f2447b8fc121ef3",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Shockwaves",
+    "asset_id": "6553119537",
+    "uri": "rbxassetid://6553119537",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6553119537",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6553119537"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "6553119537",
+        "uri": "rbxassetid://6553119537",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6553119537",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 143,
+        "raw_uri": "rbxassetid://6553119537",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553119537",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553119537",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 30,
+        "raw_uri": "rbxassetid://6553119537",
+        "image": "",
+        "mesh_uri": "rbxassetid://6553119537",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://6553119537",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6553119537.png",
+    "preview_path": "images/6553119537.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "aefd2540b8a3d24a7f2ed894",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thicker Three Sided Shockwave",
+    "asset_id": "1474874211",
+    "uri": "rbxassetid://1474874211",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1474874211",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1474874211"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1474874211",
+        "uri": "rbxassetid://1474874211",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1474874211",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 147,
+        "raw_uri": "rbxassetid://1474874211",
+        "image": "",
+        "mesh_uri": "rbxassetid://1474874211",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1474874211",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 32,
+        "raw_uri": "rbxassetid://1474874211",
+        "image": "",
+        "mesh_uri": "rbxassetid://1474874211",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1474874211",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Three Sided Shockwave"
+    ],
+    "image_path": "images/1474874211.png",
+    "preview_path": "images/1474874211.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9315576e8fc5306663ae5d3b",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Three Sided Shockwave",
+    "asset_id": "1474874211",
+    "uri": "rbxassetid://1474874211",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1474874211",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1474874211"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1474874211",
+        "uri": "rbxassetid://1474874211",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1474874211",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 137,
+        "raw_uri": "rbxassetid://1474874211",
+        "image": "",
+        "mesh_uri": "rbxassetid://1474874211",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1474874211",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 29,
+        "raw_uri": "rbxassetid://1474874211",
+        "image": "",
+        "mesh_uri": "rbxassetid://1474874211",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1474874211",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thicker Three Sided Shockwave"
+    ],
+    "image_path": "images/1474874211.png",
+    "preview_path": "images/1474874211.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4ed4e4b1b8dbed48a88503b7",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Uneven Upwards Burst",
+    "asset_id": "5139788115",
+    "uri": "rbxassetid://5139788115",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://5139788115",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://5139788115"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "5139788115",
+        "uri": "rbxassetid://5139788115",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://5139788115",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 146,
+        "raw_uri": "rbxassetid://5139788115",
+        "image": "",
+        "mesh_uri": "rbxassetid://5139788115",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5139788115",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 31,
+        "raw_uri": "rbxassetid://5139788115",
+        "image": "",
+        "mesh_uri": "rbxassetid://5139788115",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5139788115",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/5139788115.png",
+    "preview_path": "images/5139788115.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2c4eea8f17d0891d10e30343",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "X Shockwave",
+    "asset_id": "4313391641",
+    "uri": "rbxassetid://4313391641",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4313391641",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4313391641"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4313391641",
+        "uri": "rbxassetid://4313391641",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4313391641",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 12,
+        "raw_uri": "rbxassetid://4313391641",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313391641",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313391641",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 7,
+        "raw_uri": "rbxassetid://4313391641",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313391641",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313391641",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "X Shockwave 2"
+    ],
+    "image_path": "images/4313391641.png",
+    "preview_path": "images/4313391641.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6f2104ba742cee7417fc6d53",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "X Shockwave 2",
+    "asset_id": "4313391641",
+    "uri": "rbxassetid://4313391641",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4313391641",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4313391641"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4313391641",
+        "uri": "rbxassetid://4313391641",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4313391641",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 23,
+        "raw_uri": "rbxassetid://4313391641",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313391641",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313391641",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Shockwave",
+        "index": 11,
+        "raw_uri": "rbxassetid://4313391641",
+        "image": "",
+        "mesh_uri": "rbxassetid://4313391641",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4313391641",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "X Shockwave"
+    ],
+    "image_path": "images/4313391641.png",
+    "preview_path": "images/4313391641.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

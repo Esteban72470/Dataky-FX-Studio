@@ -1,0 +1,2667 @@
+[
+  {
+    "key": "85dc44c2756ebb3f57262a6f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam109",
+    "asset_id": "105185967968678",
+    "uri": "rbxassetid://105185967968678",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://105185967968678",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://105185967968678"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "105185967968678",
+        "uri": "rbxassetid://105185967968678",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://105185967968678",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 94,
+        "raw_uri": "rbxassetid://105185967968678",
+        "image": "rbxassetid://105185967968678",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 15,
+        "raw_uri": "rbxassetid://105185967968678",
+        "image": "rbxassetid://105185967968678",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/105185967968678.png",
+    "preview_path": "images/105185967968678.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d1f3fee81c837735edbc07dd",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam130",
+    "asset_id": "130342073965317",
+    "uri": "rbxassetid://130342073965317",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://130342073965317",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://130342073965317"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "130342073965317",
+        "uri": "rbxassetid://130342073965317",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://130342073965317",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 101,
+        "raw_uri": "rbxassetid://130342073965317",
+        "image": "rbxassetid://130342073965317",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 17,
+        "raw_uri": "rbxassetid://130342073965317",
+        "image": "rbxassetid://130342073965317",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/130342073965317.png",
+    "preview_path": "images/130342073965317.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4efe28a66e19b7a8129fb778",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam16",
+    "asset_id": "16892468922",
+    "uri": "rbxassetid://16892468922",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://16892468922",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://16892468922"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "16892468922",
+        "uri": "rbxassetid://16892468922",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://16892468922",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 42,
+        "raw_uri": "rbxassetid://16892468922",
+        "image": "rbxassetid://16892468922",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 7,
+        "raw_uri": "rbxassetid://16892468922",
+        "image": "rbxassetid://16892468922",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/16892468922.png",
+    "preview_path": "images/16892468922.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "94504dd5a1c586cf4f5652a9",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam61",
+    "asset_id": "123758552062153",
+    "uri": "rbxassetid://123758552062153",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://123758552062153",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://123758552062153"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "123758552062153",
+        "uri": "rbxassetid://123758552062153",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://123758552062153",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 84,
+        "raw_uri": "rbxassetid://123758552062153",
+        "image": "rbxassetid://123758552062153",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 14,
+        "raw_uri": "rbxassetid://123758552062153",
+        "image": "rbxassetid://123758552062153",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/123758552062153.png",
+    "preview_path": "images/123758552062153.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "7994347c8ba0add1326865f6",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam86",
+    "asset_id": "82129102639045",
+    "uri": "rbxassetid://82129102639045",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82129102639045",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://82129102639045"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "82129102639045",
+        "uri": "rbxassetid://82129102639045",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://82129102639045",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 172,
+        "raw_uri": "rbxassetid://82129102639045",
+        "image": "rbxassetid://82129102639045",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 24,
+        "raw_uri": "rbxassetid://82129102639045",
+        "image": "rbxassetid://82129102639045",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/82129102639045.png",
+    "preview_path": "images/82129102639045.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "f4d46e1695485e8c587ee841",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam87",
+    "asset_id": "138916818203143",
+    "uri": "rbxassetid://138916818203143",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://138916818203143",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://138916818203143"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "138916818203143",
+        "uri": "rbxassetid://138916818203143",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://138916818203143",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 34,
+        "raw_uri": "rbxassetid://138916818203143",
+        "image": "rbxassetid://138916818203143",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 5,
+        "raw_uri": "rbxassetid://138916818203143",
+        "image": "rbxassetid://138916818203143",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/138916818203143.png",
+    "preview_path": "images/138916818203143.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2a3c7d411eb1a0d70f7bbe15",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "Beam92",
+    "asset_id": "129857196781413",
+    "uri": "rbxassetid://129857196781413",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://129857196781413",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://129857196781413"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "129857196781413",
+        "uri": "rbxassetid://129857196781413",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://129857196781413",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 104,
+        "raw_uri": "rbxassetid://129857196781413",
+        "image": "rbxassetid://129857196781413",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 18,
+        "raw_uri": "rbxassetid://129857196781413",
+        "image": "rbxassetid://129857196781413",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/129857196781413.png",
+    "preview_path": "images/129857196781413.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e5a69b60f30ac6dd8909948e",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamBasic fade",
+    "asset_id": "107598860822563",
+    "uri": "rbxassetid://107598860822563",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://107598860822563",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://107598860822563"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "107598860822563",
+        "uri": "rbxassetid://107598860822563",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://107598860822563",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 129,
+        "raw_uri": "rbxassetid://107598860822563",
+        "image": "rbxassetid://107598860822563",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 20,
+        "raw_uri": "rbxassetid://107598860822563",
+        "image": "rbxassetid://107598860822563",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/107598860822563.png",
+    "preview_path": "images/107598860822563.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a51ee5db2bf4ba3c2df656da",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCondensed smoke",
+    "asset_id": "119739213231431",
+    "uri": "rbxassetid://119739213231431",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://119739213231431",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://119739213231431"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "119739213231431",
+        "uri": "rbxassetid://119739213231431",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://119739213231431",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 424,
+        "raw_uri": "rbxassetid://119739213231431",
+        "image": "rbxassetid://119739213231431",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 42,
+        "raw_uri": "rbxassetid://119739213231431",
+        "image": "rbxassetid://119739213231431",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/119739213231431.png",
+    "preview_path": "images/119739213231431.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "18debda051e8f693f5413064",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamCurved smoke beam 2",
+    "asset_id": "13315699616",
+    "uri": "rbxassetid://13315699616",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13315699616",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://13315699616"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "13315699616",
+        "uri": "rbxassetid://13315699616",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://13315699616",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 420,
+        "raw_uri": "rbxassetid://13315699616",
+        "image": "rbxassetid://13315699616",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 41,
+        "raw_uri": "rbxassetid://13315699616",
+        "image": "rbxassetid://13315699616",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/13315699616.png",
+    "preview_path": "images/13315699616.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bce6a783178c7fd9a24d1f20",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamDrag smoke",
+    "asset_id": "10240434007",
+    "uri": "rbxassetid://10240434007",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://10240434007",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://10240434007"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "10240434007",
+        "uri": "rbxassetid://10240434007",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://10240434007",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 364,
+        "raw_uri": "rbxassetid://10240434007",
+        "image": "rbxassetid://10240434007",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 38,
+        "raw_uri": "rbxassetid://10240434007",
+        "image": "rbxassetid://10240434007",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/10240434007.png",
+    "preview_path": "images/10240434007.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b2e6e35fc472a9e54064ae26",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFancy",
+    "asset_id": "14191591663",
+    "uri": "rbxassetid://14191591663",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://14191591663",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://14191591663"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "14191591663",
+        "uri": "rbxassetid://14191591663",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://14191591663",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 45,
+        "raw_uri": "rbxassetid://14191591663",
+        "image": "rbxassetid://14191591663",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 9,
+        "raw_uri": "rbxassetid://14191591663",
+        "image": "rbxassetid://14191591663",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/14191591663.png",
+    "preview_path": "images/14191591663.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "f2447b7e326af69e27957fb4",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFancy fog",
+    "asset_id": "81046216350217",
+    "uri": "rbxassetid://81046216350217",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://81046216350217",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://81046216350217"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "81046216350217",
+        "uri": "rbxassetid://81046216350217",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://81046216350217",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 330,
+        "raw_uri": "rbxassetid://81046216350217",
+        "image": "rbxassetid://81046216350217",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 36,
+        "raw_uri": "rbxassetid://81046216350217",
+        "image": "rbxassetid://81046216350217",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/81046216350217.png",
+    "preview_path": "images/81046216350217.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 105,
+    "height": 420
+  },
+  {
+    "key": "7c664dd625583ec1fac6b482",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFancy smoke 4",
+    "asset_id": "8965648552",
+    "uri": "rbxassetid://8965648552",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://8965648552",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://8965648552"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "8965648552",
+        "uri": "rbxassetid://8965648552",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://8965648552",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 174,
+        "raw_uri": "rbxassetid://8965648552",
+        "image": "rbxassetid://8965648552",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 25,
+        "raw_uri": "rbxassetid://8965648552",
+        "image": "rbxassetid://8965648552",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/8965648552.png",
+    "preview_path": "images/8965648552.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "97b47bfd37d9fd634c2afbf7",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFilled Smoke",
+    "asset_id": "98936910099476",
+    "uri": "rbxassetid://98936910099476",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://98936910099476",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://98936910099476"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "98936910099476",
+        "uri": "rbxassetid://98936910099476",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://98936910099476",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 242,
+        "raw_uri": "rbxassetid://98936910099476",
+        "image": "rbxassetid://98936910099476",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 30,
+        "raw_uri": "rbxassetid://98936910099476",
+        "image": "rbxassetid://98936910099476",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/98936910099476.png",
+    "preview_path": "images/98936910099476.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a9cd95dfa9f2ca28734ff7b3",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFilled wavey",
+    "asset_id": "18925205019",
+    "uri": "rbxassetid://18925205019",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18925205019",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://18925205019"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "18925205019",
+        "uri": "rbxassetid://18925205019",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://18925205019",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 44,
+        "raw_uri": "rbxassetid://18925205019",
+        "image": "rbxassetid://18925205019",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 8,
+        "raw_uri": "rbxassetid://18925205019",
+        "image": "rbxassetid://18925205019",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/18925205019.png",
+    "preview_path": "images/18925205019.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "39a2479d511d0500dba5a1c8",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamFractal",
+    "asset_id": "98530933683176",
+    "uri": "rbxassetid://98530933683176",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://98530933683176",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://98530933683176"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "98530933683176",
+        "uri": "rbxassetid://98530933683176",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://98530933683176",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 229,
+        "raw_uri": "rbxassetid://98530933683176",
+        "image": "rbxassetid://98530933683176",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 28,
+        "raw_uri": "rbxassetid://98530933683176",
+        "image": "rbxassetid://98530933683176",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/98530933683176.png",
+    "preview_path": "images/98530933683176.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "0550fd2f12694a71c2bff87b",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamHigh transparency",
+    "asset_id": "15584566438",
+    "uri": "rbxassetid://15584566438",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15584566438",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15584566438"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15584566438",
+        "uri": "rbxassetid://15584566438",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15584566438",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 356,
+        "raw_uri": "rbxassetid://15584566438",
+        "image": "rbxassetid://15584566438",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 37,
+        "raw_uri": "rbxassetid://15584566438",
+        "image": "rbxassetid://15584566438",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15584566438.png",
+    "preview_path": "images/15584566438.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "f74bc0dd8592fc7512d144f9",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamHigh transparency loop",
+    "asset_id": "15846241206",
+    "uri": "rbxassetid://15846241206",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15846241206",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15846241206"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15846241206",
+        "uri": "rbxassetid://15846241206",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15846241206",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 168,
+        "raw_uri": "rbxassetid://15846241206",
+        "image": "rbxassetid://15846241206",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 23,
+        "raw_uri": "rbxassetid://15846241206",
+        "image": "rbxassetid://15846241206",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15846241206.png",
+    "preview_path": "images/15846241206.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ce1181ca7e7476b996909791",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamLong arc",
+    "asset_id": "124879052326630",
+    "uri": "rbxassetid://124879052326630",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://124879052326630",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://124879052326630"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "124879052326630",
+        "uri": "rbxassetid://124879052326630",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://124879052326630",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 108,
+        "raw_uri": "rbxassetid://124879052326630",
+        "image": "rbxassetid://124879052326630",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 19,
+        "raw_uri": "rbxassetid://124879052326630",
+        "image": "rbxassetid://124879052326630",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/124879052326630.png",
+    "preview_path": "images/124879052326630.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "aa8a156f7f8f42debda80da7",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamMirrored flame smoke",
+    "asset_id": "6045867277",
+    "uri": "rbxassetid://6045867277",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6045867277",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://6045867277"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "6045867277",
+        "uri": "rbxassetid://6045867277",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://6045867277",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 212,
+        "raw_uri": "rbxassetid://6045867277",
+        "image": "rbxassetid://6045867277",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 27,
+        "raw_uri": "rbxassetid://6045867277",
+        "image": "rbxassetid://6045867277",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/6045867277.png",
+    "preview_path": "images/6045867277.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "cdfe9621159475d98cf9506f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamMirrored smoke two",
+    "asset_id": "18837319394",
+    "uri": "rbxassetid://18837319394",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18837319394",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://18837319394"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "18837319394",
+        "uri": "rbxassetid://18837319394",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://18837319394",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 369,
+        "raw_uri": "rbxassetid://18837319394",
+        "image": "rbxassetid://18837319394",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 39,
+        "raw_uri": "rbxassetid://18837319394",
+        "image": "rbxassetid://18837319394",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/18837319394.png",
+    "preview_path": "images/18837319394.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "560af1a8bff586664464783f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNew33",
+    "asset_id": "74030335093492",
+    "uri": "rbxassetid://74030335093492",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://74030335093492",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://74030335093492"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "74030335093492",
+        "uri": "rbxassetid://74030335093492",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://74030335093492",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 32,
+        "raw_uri": "rbxassetid://74030335093492",
+        "image": "rbxassetid://74030335093492",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 4,
+        "raw_uri": "rbxassetid://74030335093492",
+        "image": "rbxassetid://74030335093492",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/74030335093492.png",
+    "preview_path": "images/74030335093492.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "8856398c6576364ab4d50269",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamNoise cloud",
+    "asset_id": "15253421443",
+    "uri": "rbxassetid://15253421443",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15253421443",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15253421443"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15253421443",
+        "uri": "rbxassetid://15253421443",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15253421443",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 150,
+        "raw_uri": "rbxassetid://15253421443",
+        "image": "rbxassetid://15253421443",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 22,
+        "raw_uri": "rbxassetid://15253421443",
+        "image": "rbxassetid://15253421443",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15253421443.png",
+    "preview_path": "images/15253421443.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7d18a89fd002626000b35ff3",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSame overlay",
+    "asset_id": "13280050232",
+    "uri": "rbxassetid://13280050232",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13280050232",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://13280050232"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "13280050232",
+        "uri": "rbxassetid://13280050232",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://13280050232",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 206,
+        "raw_uri": "rbxassetid://13280050232",
+        "image": "rbxassetid://13280050232",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 26,
+        "raw_uri": "rbxassetid://13280050232",
+        "image": "rbxassetid://13280050232",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/13280050232.png",
+    "preview_path": "images/13280050232.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2365a9a3ad724dcfe5a3609d",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSlight specs",
+    "asset_id": "15398097961",
+    "uri": "rbxassetid://15398097961",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15398097961",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15398097961"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15398097961",
+        "uri": "rbxassetid://15398097961",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15398097961",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 131,
+        "raw_uri": "rbxassetid://15398097961",
+        "image": "rbxassetid://15398097961",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 21,
+        "raw_uri": "rbxassetid://15398097961",
+        "image": "rbxassetid://15398097961",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15398097961.png",
+    "preview_path": "images/15398097961.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 199,
+    "height": 420
+  },
+  {
+    "key": "a21800438110a86b0e3a10a4",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSmoke beam",
+    "asset_id": "15253860988",
+    "uri": "rbxassetid://15253860988",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15253860988",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15253860988"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15253860988",
+        "uri": "rbxassetid://15253860988",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15253860988",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 100,
+        "raw_uri": "rbxassetid://15253860988",
+        "image": "rbxassetid://15253860988",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 16,
+        "raw_uri": "rbxassetid://15253860988",
+        "image": "rbxassetid://15253860988",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15253860988.png",
+    "preview_path": "images/15253860988.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d5324b8078d6f2d04ffbb486",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSmoke beam 3",
+    "asset_id": "12823611043",
+    "uri": "rbxassetid://12823611043",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12823611043",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12823611043"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12823611043",
+        "uri": "rbxassetid://12823611043",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12823611043",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 285,
+        "raw_uri": "rbxassetid://12823611043",
+        "image": "rbxassetid://12823611043",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 34,
+        "raw_uri": "rbxassetid://12823611043",
+        "image": "rbxassetid://12823611043",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12823611043.png",
+    "preview_path": "images/12823611043.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b7223c7cf74ae2a91b050554",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSmoke beam LE",
+    "asset_id": "99505594222303",
+    "uri": "rbxassetid://99505594222303",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://99505594222303",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://99505594222303"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "99505594222303",
+        "uri": "rbxassetid://99505594222303",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://99505594222303",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 243,
+        "raw_uri": "rbxassetid://99505594222303",
+        "image": "rbxassetid://99505594222303",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 31,
+        "raw_uri": "rbxassetid://99505594222303",
+        "image": "rbxassetid://99505594222303",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/99505594222303.png",
+    "preview_path": "images/99505594222303.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a8456cc64ec018b3254281eb",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamSmokey fading beam",
+    "asset_id": "15811402156",
+    "uri": "rbxassetid://15811402156",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15811402156",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15811402156"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15811402156",
+        "uri": "rbxassetid://15811402156",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15811402156",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 63,
+        "raw_uri": "rbxassetid://15811402156",
+        "image": "rbxassetid://15811402156",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 12,
+        "raw_uri": "rbxassetid://15811402156",
+        "image": "rbxassetid://15811402156",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15811402156.png",
+    "preview_path": "images/15811402156.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d55d3f307bce3f5df4c72168",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamThicker fog LE",
+    "asset_id": "86976427863248",
+    "uri": "rbxassetid://86976427863248",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://86976427863248",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://86976427863248"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "86976427863248",
+        "uri": "rbxassetid://86976427863248",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://86976427863248",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 247,
+        "raw_uri": "rbxassetid://86976427863248",
+        "image": "rbxassetid://86976427863248",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 32,
+        "raw_uri": "rbxassetid://86976427863248",
+        "image": "rbxassetid://86976427863248",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/86976427863248.png",
+    "preview_path": "images/86976427863248.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7f7895ceaa435c5f62aead50",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamThicker less ripple",
+    "asset_id": "12781852245",
+    "uri": "rbxassetid://12781852245",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12781852245",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12781852245"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12781852245",
+        "uri": "rbxassetid://12781852245",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12781852245",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 281,
+        "raw_uri": "rbxassetid://12781852245",
+        "image": "rbxassetid://12781852245",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 33,
+        "raw_uri": "rbxassetid://12781852245",
+        "image": "rbxassetid://12781852245",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12781852245.png",
+    "preview_path": "images/12781852245.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5aa5ff0af21d7e296dcf88c7",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamTransparent Beam",
+    "asset_id": "117681058875712",
+    "uri": "rbxassetid://117681058875712",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://117681058875712",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://117681058875712"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "117681058875712",
+        "uri": "rbxassetid://117681058875712",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://117681058875712",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 67,
+        "raw_uri": "rbxassetid://117681058875712",
+        "image": "rbxassetid://117681058875712",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 13,
+        "raw_uri": "rbxassetid://117681058875712",
+        "image": "rbxassetid://117681058875712",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/117681058875712.png",
+    "preview_path": "images/117681058875712.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "74fc23d4b15987cf7aa5ba43",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamTwo Fur",
+    "asset_id": "15811506507",
+    "uri": "rbxassetid://15811506507",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15811506507",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://15811506507"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "15811506507",
+        "uri": "rbxassetid://15811506507",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://15811506507",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 41,
+        "raw_uri": "rbxassetid://15811506507",
+        "image": "rbxassetid://15811506507",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 6,
+        "raw_uri": "rbxassetid://15811506507",
+        "image": "rbxassetid://15811506507",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/15811506507.png",
+    "preview_path": "images/15811506507.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5e39bab0abd09666ed9c5028",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWater ripples",
+    "asset_id": "18824145778",
+    "uri": "rbxassetid://18824145778",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18824145778",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://18824145778"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "18824145778",
+        "uri": "rbxassetid://18824145778",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://18824145778",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 59,
+        "raw_uri": "rbxassetid://18824145778",
+        "image": "rbxassetid://18824145778",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 11,
+        "raw_uri": "rbxassetid://18824145778",
+        "image": "rbxassetid://18824145778",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/18824145778.png",
+    "preview_path": "images/18824145778.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "09f377b401009401cc616013",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWavey fog",
+    "asset_id": "12251461261",
+    "uri": "rbxassetid://12251461261",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12251461261",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://12251461261"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "12251461261",
+        "uri": "rbxassetid://12251461261",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://12251461261",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 21,
+        "raw_uri": "rbxassetid://12251461261",
+        "image": "rbxassetid://12251461261",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 3,
+        "raw_uri": "rbxassetid://12251461261",
+        "image": "rbxassetid://12251461261",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/12251461261.png",
+    "preview_path": "images/12251461261.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c118f14b479087da710a8572",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWhite version",
+    "asset_id": "4979919970",
+    "uri": "rbxassetid://4979919970",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4979919970",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4979919970"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "4979919970",
+        "uri": "rbxassetid://4979919970",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4979919970",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 319,
+        "raw_uri": "rbxassetid://4979919970",
+        "image": "rbxassetid://4979919970",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 35,
+        "raw_uri": "rbxassetid://4979919970",
+        "image": "rbxassetid://4979919970",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/4979919970.png",
+    "preview_path": "images/4979919970.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "70487bec01dc20d1fe6d076f",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWide Spiked smoke",
+    "asset_id": "18762827354",
+    "uri": "rbxassetid://18762827354",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18762827354",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://18762827354"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "18762827354",
+        "uri": "rbxassetid://18762827354",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://18762827354",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 56,
+        "raw_uri": "rbxassetid://18762827354",
+        "image": "rbxassetid://18762827354",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 10,
+        "raw_uri": "rbxassetid://18762827354",
+        "image": "rbxassetid://18762827354",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/18762827354.png",
+    "preview_path": "images/18762827354.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4bf499d891ba9e8ac8e5a478",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWider lens",
+    "asset_id": "245996148",
+    "uri": "rbxassetid://245996148",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://245996148",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://245996148"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "245996148",
+        "uri": "rbxassetid://245996148",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://245996148",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 436,
+        "raw_uri": "rbxassetid://245996148",
+        "image": "rbxassetid://245996148",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 43,
+        "raw_uri": "rbxassetid://245996148",
+        "image": "rbxassetid://245996148",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/245996148.png",
+    "preview_path": "images/245996148.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f0506df82fae6b4b005ac1e5",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWind",
+    "asset_id": "102124349107239",
+    "uri": "rbxassetid://102124349107239",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://102124349107239",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://102124349107239"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "102124349107239",
+        "uri": "rbxassetid://102124349107239",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://102124349107239",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 237,
+        "raw_uri": "rbxassetid://102124349107239",
+        "image": "rbxassetid://102124349107239",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 29,
+        "raw_uri": "rbxassetid://102124349107239",
+        "image": "rbxassetid://102124349107239",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/102124349107239.png",
+    "preview_path": "images/102124349107239.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 210,
+    "height": 420
+  },
+  {
+    "key": "fbf494f41b0fc66371dc812e",
+    "collection": "beams",
+    "kind": "beam",
+    "grid": 0,
+    "name": "BeamWispy",
+    "asset_id": "13486415669",
+    "uri": "rbxassetid://13486415669",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13486415669",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://13486415669"
+    ],
+    "references": [
+      {
+        "label": "TextureId",
+        "asset_id": "13486415669",
+        "uri": "rbxassetid://13486415669",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://13486415669",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Smoke"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Smoke"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 382,
+        "raw_uri": "rbxassetid://13486415669",
+        "image": "rbxassetid://13486415669",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      },
+      {
+        "source": "Smoke",
+        "index": 40,
+        "raw_uri": "rbxassetid://13486415669",
+        "image": "rbxassetid://13486415669",
+        "mesh_uri": "",
+        "texture_uri": "",
+        "references": []
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/13486415669.png",
+    "preview_path": "images/13486415669.png",
+    "image_status": "downloaded",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 105,
+    "height": 420
+  }
+]

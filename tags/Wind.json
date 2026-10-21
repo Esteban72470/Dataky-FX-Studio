@@ -1,0 +1,6870 @@
+[
+  {
+    "key": "82f33e493592a8439456c3bf",
+    "name": "Full Ring",
+    "asset_id": "17376622970",
+    "uri": "rbxassetid://17376622970",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://17376622970",
+    "raw_uris": [
+      "rbxassetid://17376622970"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5803,
+        "raw_uri": "rbxassetid://17376622970",
+        "image": "rbxassetid://17376622970",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3569,
+        "raw_uri": "rbxassetid://17376622970",
+        "image": "rbxassetid://17376622970",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 70,
+        "raw_uri": "rbxassetid://17376622970",
+        "image": "rbxassetid://17376622970",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/17376622970.png",
+    "preview_path": "images/17376622970.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fc28b06ae20bf727e345888e",
+    "name": "Full Shockwave",
+    "asset_id": "10529371971",
+    "uri": "rbxassetid://10529371971",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://10529371971",
+    "raw_uris": [
+      "rbxassetid://10529371971"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1478,
+        "raw_uri": "rbxassetid://10529371971",
+        "image": "rbxassetid://10529371971",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 898,
+        "raw_uri": "rbxassetid://10529371971",
+        "image": "rbxassetid://10529371971",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 19,
+        "raw_uri": "rbxassetid://10529371971",
+        "image": "rbxassetid://10529371971",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/10529371971.png",
+    "preview_path": "images/10529371971.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "76276bec92f0f2b4beed385f",
+    "name": "LE Wind Details",
+    "asset_id": "116310890602740",
+    "uri": "rbxassetid://116310890602740",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://116310890602740",
+    "raw_uris": [
+      "rbxassetid://116310890602740"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2752,
+        "raw_uri": "rbxassetid://116310890602740",
+        "image": "rbxassetid://116310890602740",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1677,
+        "raw_uri": "rbxassetid://116310890602740",
+        "image": "rbxassetid://116310890602740",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 32,
+        "raw_uri": "rbxassetid://116310890602740",
+        "image": "rbxassetid://116310890602740",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/116310890602740.png",
+    "preview_path": "images/116310890602740.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bd66f58e5bb94bae9a676853",
+    "name": "LE Wind Shockwave",
+    "asset_id": "115790032133177",
+    "uri": "rbxassetid://115790032133177",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://115790032133177",
+    "raw_uris": [
+      "rbxassetid://115790032133177"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 88,
+        "raw_uri": "rbxassetid://115790032133177",
+        "image": "rbxassetid://115790032133177",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 54,
+        "raw_uri": "rbxassetid://115790032133177",
+        "image": "rbxassetid://115790032133177",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 3,
+        "raw_uri": "rbxassetid://115790032133177",
+        "image": "rbxassetid://115790032133177",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/115790032133177.png",
+    "preview_path": "images/115790032133177.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7daddbba9b7ff7bde6ae5588",
+    "name": "OneSided Wind",
+    "asset_id": "18356309922",
+    "uri": "rbxassetid://18356309922",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18356309922",
+    "raw_uris": [
+      "rbxassetid://18356309922"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 830,
+        "raw_uri": "rbxassetid://18356309922",
+        "image": "rbxassetid://18356309922",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 512,
+        "raw_uri": "rbxassetid://18356309922",
+        "image": "rbxassetid://18356309922",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 11,
+        "raw_uri": "rbxassetid://18356309922",
+        "image": "rbxassetid://18356309922",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/18356309922.png",
+    "preview_path": "images/18356309922.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4f483db77be2db152c3bfcf3",
+    "name": "Smokey Shockwave",
+    "asset_id": "12318427672",
+    "uri": "rbxassetid://12318427672",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12318427672",
+    "raw_uris": [
+      "rbxassetid://12318427672"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2004,
+        "raw_uri": "rbxassetid://12318427672",
+        "image": "rbxassetid://12318427672",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1216,
+        "raw_uri": "rbxassetid://12318427672",
+        "image": "rbxassetid://12318427672",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 26,
+        "raw_uri": "rbxassetid://12318427672",
+        "image": "rbxassetid://12318427672",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12318427672.png",
+    "preview_path": "images/12318427672.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "487617b998ec12410049f5a0",
+    "name": "Stylized Shockwave",
+    "asset_id": "12329133324",
+    "uri": "rbxassetid://12329133324",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12329133324",
+    "raw_uris": [
+      "rbxassetid://12329133324"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6224,
+        "raw_uri": "rbxassetid://12329133324",
+        "image": "rbxassetid://12329133324",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3805,
+        "raw_uri": "rbxassetid://12329133324",
+        "image": "rbxassetid://12329133324",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 74,
+        "raw_uri": "rbxassetid://12329133324",
+        "image": "rbxassetid://12329133324",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/12329133324.png",
+    "preview_path": "images/12329133324.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5e920accb91430763eb11840",
+    "name": "Thicker Shockwave",
+    "asset_id": "13580361995",
+    "uri": "rbxassetid://13580361995",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13580361995",
+    "raw_uris": [
+      "rbxassetid://13580361995"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2950,
+        "raw_uri": "rbxassetid://13580361995",
+        "image": "rbxassetid://13580361995",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1793,
+        "raw_uri": "rbxassetid://13580361995",
+        "image": "rbxassetid://13580361995",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 36,
+        "raw_uri": "rbxassetid://13580361995",
+        "image": "rbxassetid://13580361995",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/13580361995.png",
+    "preview_path": "images/13580361995.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "56e874274889e911374bfa69",
+    "name": "Transparenct Blast 1",
+    "asset_id": "15846370432",
+    "uri": "rbxassetid://15846370432",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15846370432",
+    "raw_uris": [
+      "rbxassetid://15846370432"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4402,
+        "raw_uri": "rbxassetid://15846370432",
+        "image": "rbxassetid://15846370432",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2694,
+        "raw_uri": "rbxassetid://15846370432",
+        "image": "rbxassetid://15846370432",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 55,
+        "raw_uri": "rbxassetid://15846370432",
+        "image": "rbxassetid://15846370432",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/15846370432.png",
+    "preview_path": "images/15846370432.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "280dbcfb0b4ff5eec6f581fc",
+    "name": "Transparenct Blast 2",
+    "asset_id": "15846427306",
+    "uri": "rbxassetid://15846427306",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15846427306",
+    "raw_uris": [
+      "rbxassetid://15846427306"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4276,
+        "raw_uri": "rbxassetid://15846427306",
+        "image": "rbxassetid://15846427306",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2605,
+        "raw_uri": "rbxassetid://15846427306",
+        "image": "rbxassetid://15846427306",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 52,
+        "raw_uri": "rbxassetid://15846427306",
+        "image": "rbxassetid://15846427306",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/15846427306.png",
+    "preview_path": "images/15846427306.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f891e9e912a39254286c622e",
+    "name": "Transparenct Blast 3",
+    "asset_id": "13959942757",
+    "uri": "rbxassetid://13959942757",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13959942757",
+    "raw_uris": [
+      "rbxassetid://13959942757"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4644,
+        "raw_uri": "rbxassetid://13959942757",
+        "image": "rbxassetid://13959942757",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2847,
+        "raw_uri": "rbxassetid://13959942757",
+        "image": "rbxassetid://13959942757",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 56,
+        "raw_uri": "rbxassetid://13959942757",
+        "image": "rbxassetid://13959942757",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/13959942757.png",
+    "preview_path": "images/13959942757.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1784c136cc0984f23aad1eb3",
+    "name": "Transparenct Blast 4",
+    "asset_id": "13401773376",
+    "uri": "rbxassetid://13401773376",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://13401773376",
+    "raw_uris": [
+      "rbxassetid://13401773376"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 952,
+        "raw_uri": "rbxassetid://13401773376",
+        "image": "rbxassetid://13401773376",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 587,
+        "raw_uri": "rbxassetid://13401773376",
+        "image": "rbxassetid://13401773376",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 12,
+        "raw_uri": "rbxassetid://13401773376",
+        "image": "rbxassetid://13401773376",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/13401773376.png",
+    "preview_path": "images/13401773376.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9cf837d416642913c5f07633",
+    "name": "Transparenct Blast 5",
+    "asset_id": "15824417274",
+    "uri": "rbxassetid://15824417274",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15824417274",
+    "raw_uris": [
+      "rbxassetid://15824417274"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2986,
+        "raw_uri": "rbxassetid://15824417274",
+        "image": "rbxassetid://15824417274",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1815,
+        "raw_uri": "rbxassetid://15824417274",
+        "image": "rbxassetid://15824417274",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 37,
+        "raw_uri": "rbxassetid://15824417274",
+        "image": "rbxassetid://15824417274",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/15824417274.png",
+    "preview_path": "images/15824417274.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ee5bc3ee2a87fd45b68a8dc2",
+    "name": "Transparenct Ring",
+    "asset_id": "15696101558",
+    "uri": "rbxassetid://15696101558",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15696101558",
+    "raw_uris": [
+      "rbxassetid://15696101558"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5195,
+        "raw_uri": "rbxassetid://15696101558",
+        "image": "rbxassetid://15696101558",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3191,
+        "raw_uri": "rbxassetid://15696101558",
+        "image": "rbxassetid://15696101558",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 60,
+        "raw_uri": "rbxassetid://15696101558",
+        "image": "rbxassetid://15696101558",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/15696101558.png",
+    "preview_path": "images/15696101558.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b2f0c47c8deba5ae275d3f2f",
+    "name": "Transparent Ring 2",
+    "asset_id": "18450756590",
+    "uri": "rbxassetid://18450756590",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18450756590",
+    "raw_uris": [
+      "rbxassetid://18450756590"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4333,
+        "raw_uri": "rbxassetid://18450756590",
+        "image": "rbxassetid://18450756590",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2641,
+        "raw_uri": "rbxassetid://18450756590",
+        "image": "rbxassetid://18450756590",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 54,
+        "raw_uri": "rbxassetid://18450756590",
+        "image": "rbxassetid://18450756590",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/18450756590.png",
+    "preview_path": "images/18450756590.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b4db3fdd733f9d7d8b133bc2",
+    "name": "Transparent Ring 3",
+    "asset_id": "93597927350355",
+    "uri": "rbxassetid://93597927350355",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://93597927350355",
+    "raw_uris": [
+      "rbxassetid://93597927350355"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6468,
+        "raw_uri": "rbxassetid://93597927350355",
+        "image": "rbxassetid://93597927350355",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3944,
+        "raw_uri": "rbxassetid://93597927350355",
+        "image": "rbxassetid://93597927350355",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 76,
+        "raw_uri": "rbxassetid://93597927350355",
+        "image": "rbxassetid://93597927350355",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/93597927350355.png",
+    "preview_path": "images/93597927350355.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "79d8a4cffd1096137f4faf5b",
+    "name": "Transparent Shockwave",
+    "asset_id": "9163249315",
+    "uri": "rbxassetid://9163249315",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://9163249315",
+    "raw_uris": [
+      "rbxassetid://9163249315"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5486,
+        "raw_uri": "rbxassetid://9163249315",
+        "image": "rbxassetid://9163249315",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3366,
+        "raw_uri": "rbxassetid://9163249315",
+        "image": "rbxassetid://9163249315",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 64,
+        "raw_uri": "rbxassetid://9163249315",
+        "image": "rbxassetid://9163249315",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/9163249315.png",
+    "preview_path": "images/9163249315.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c7fad7b6bb8ffd2e5ec5e2df",
+    "name": "Wind Crescent 1",
+    "asset_id": "18838828771",
+    "uri": "rbxassetid://18838828771",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://18838828771",
+    "raw_uris": [
+      "rbxassetid://18838828771"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5167,
+        "raw_uri": "rbxassetid://18838828771",
+        "image": "rbxassetid://18838828771",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3171,
+        "raw_uri": "rbxassetid://18838828771",
+        "image": "rbxassetid://18838828771",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 59,
+        "raw_uri": "rbxassetid://18838828771",
+        "image": "rbxassetid://18838828771",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/18838828771.png",
+    "preview_path": "images/18838828771.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ef42e769f371c65b5962d474",
+    "name": "Wind Crescent 2",
+    "asset_id": "10316078099",
+    "uri": "rbxassetid://10316078099",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://10316078099",
+    "raw_uris": [
+      "rbxassetid://10316078099"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3635,
+        "raw_uri": "rbxassetid://10316078099",
+        "image": "rbxassetid://10316078099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2199,
+        "raw_uri": "rbxassetid://10316078099",
+        "image": "rbxassetid://10316078099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 45,
+        "raw_uri": "rbxassetid://10316078099",
+        "image": "rbxassetid://10316078099",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/10316078099.png",
+    "preview_path": "images/10316078099.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5a3d5f913b9f46c38efb2da4",
+    "name": "Wind Details",
+    "asset_id": "15556415618",
+    "uri": "rbxassetid://15556415618",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://15556415618",
+    "raw_uris": [
+      "rbxassetid://15556415618"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5926,
+        "raw_uri": "rbxassetid://15556415618",
+        "image": "rbxassetid://15556415618",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3638,
+        "raw_uri": "rbxassetid://15556415618",
+        "image": "rbxassetid://15556415618",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 71,
+        "raw_uri": "rbxassetid://15556415618",
+        "image": "rbxassetid://15556415618",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/15556415618.png",
+    "preview_path": "images/15556415618.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fbe4290232e6cf9d55402694",
+    "name": "Wind1",
+    "asset_id": "76109550912270",
+    "uri": "rbxassetid://76109550912270",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://76109550912270",
+    "raw_uris": [
+      "rbxassetid://76109550912270"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1230,
+        "raw_uri": "rbxassetid://76109550912270",
+        "image": "rbxassetid://76109550912270",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 755,
+        "raw_uri": "rbxassetid://76109550912270",
+        "image": "rbxassetid://76109550912270",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 16,
+        "raw_uri": "rbxassetid://76109550912270",
+        "image": "rbxassetid://76109550912270",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/76109550912270.png",
+    "preview_path": "images/76109550912270.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "461400141f7f0f5dde8e1037",
+    "name": "Wind10",
+    "asset_id": "127713467290396",
+    "uri": "rbxassetid://127713467290396",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://127713467290396",
+    "raw_uris": [
+      "rbxassetid://127713467290396"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1646,
+        "raw_uri": "rbxassetid://127713467290396",
+        "image": "rbxassetid://127713467290396",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 998,
+        "raw_uri": "rbxassetid://127713467290396",
+        "image": "rbxassetid://127713467290396",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 22,
+        "raw_uri": "rbxassetid://127713467290396",
+        "image": "rbxassetid://127713467290396",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/127713467290396.png",
+    "preview_path": "images/127713467290396.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2a9d6e17743b3d381ed0d7e8",
+    "name": "Wind11",
+    "asset_id": "102849206266491",
+    "uri": "rbxassetid://102849206266491",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://102849206266491",
+    "raw_uris": [
+      "rbxassetid://102849206266491"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1273,
+        "raw_uri": "rbxassetid://102849206266491",
+        "image": "rbxassetid://102849206266491",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 779,
+        "raw_uri": "rbxassetid://102849206266491",
+        "image": "rbxassetid://102849206266491",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 18,
+        "raw_uri": "rbxassetid://102849206266491",
+        "image": "rbxassetid://102849206266491",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/102849206266491.png",
+    "preview_path": "images/102849206266491.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8cf0069cb300e2f205d8ee37",
+    "name": "Wind12",
+    "asset_id": "72975090349578",
+    "uri": "rbxassetid://72975090349578",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://72975090349578",
+    "raw_uris": [
+      "rbxassetid://72975090349578"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1740,
+        "raw_uri": "rbxassetid://72975090349578",
+        "image": "rbxassetid://72975090349578",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1051,
+        "raw_uri": "rbxassetid://72975090349578",
+        "image": "rbxassetid://72975090349578",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 24,
+        "raw_uri": "rbxassetid://72975090349578",
+        "image": "rbxassetid://72975090349578",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/72975090349578.png",
+    "preview_path": "images/72975090349578.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e57e126ba9c4ae60ed49a0c7",
+    "name": "Wind13",
+    "asset_id": "109169488067783",
+    "uri": "rbxassetid://109169488067783",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://109169488067783",
+    "raw_uris": [
+      "rbxassetid://109169488067783"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5418,
+        "raw_uri": "rbxassetid://109169488067783",
+        "image": "rbxassetid://109169488067783",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3332,
+        "raw_uri": "rbxassetid://109169488067783",
+        "image": "rbxassetid://109169488067783",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 62,
+        "raw_uri": "rbxassetid://109169488067783",
+        "image": "rbxassetid://109169488067783",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/109169488067783.png",
+    "preview_path": "images/109169488067783.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bee7b4d1c726511238c7ac30",
+    "name": "Wind14",
+    "asset_id": "75412173597770",
+    "uri": "rbxassetid://75412173597770",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://75412173597770",
+    "raw_uris": [
+      "rbxassetid://75412173597770"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6733,
+        "raw_uri": "rbxassetid://75412173597770",
+        "image": "rbxassetid://75412173597770",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4098,
+        "raw_uri": "rbxassetid://75412173597770",
+        "image": "rbxassetid://75412173597770",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 78,
+        "raw_uri": "rbxassetid://75412173597770",
+        "image": "rbxassetid://75412173597770",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/75412173597770.png",
+    "preview_path": "images/75412173597770.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "044b5d592d2200fea7f61fdd",
+    "name": "Wind15",
+    "asset_id": "101535472799928",
+    "uri": "rbxassetid://101535472799928",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101535472799928",
+    "raw_uris": [
+      "rbxassetid://101535472799928"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4207,
+        "raw_uri": "rbxassetid://101535472799928",
+        "image": "rbxassetid://101535472799928",
+        "rect_size": [
+          128,
+          128
+        ],
+        "rect_offset": [
+          0,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1651,
+        "raw_uri": "rbxassetid://101535472799928",
+        "image": "rbxassetid://101535472799928",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 51,
+        "raw_uri": "rbxassetid://101535472799928",
+        "image": "rbxassetid://101535472799928",
+        "rect_size": [
+          128,
+          128
+        ],
+        "rect_offset": [
+          0,
+          256
+        ]
+      }
+    ],
+    "image_path": "images/101535472799928.png",
+    "preview_path": "previews/101535472799928-8x8.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 8,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7778047e721690a04820fcbe",
+    "name": "Wind16",
+    "asset_id": "73296613374574",
+    "uri": "rbxassetid://73296613374574",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://73296613374574",
+    "raw_uris": [
+      "rbxassetid://73296613374574"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2452,
+        "raw_uri": "rbxassetid://73296613374574",
+        "image": "rbxassetid://73296613374574",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1479,
+        "raw_uri": "rbxassetid://73296613374574",
+        "image": "rbxassetid://73296613374574",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 31,
+        "raw_uri": "rbxassetid://73296613374574",
+        "image": "rbxassetid://73296613374574",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/73296613374574.png",
+    "preview_path": "images/73296613374574.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9a80351449ae54c6621f4b94",
+    "name": "Wind17",
+    "asset_id": "101543208462261",
+    "uri": "rbxassetid://101543208462261",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101543208462261",
+    "raw_uris": [
+      "rbxassetid://101543208462261"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6825,
+        "raw_uri": "rbxassetid://101543208462261",
+        "image": "rbxassetid://101543208462261",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4152,
+        "raw_uri": "rbxassetid://101543208462261",
+        "image": "rbxassetid://101543208462261",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 79,
+        "raw_uri": "rbxassetid://101543208462261",
+        "image": "rbxassetid://101543208462261",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/101543208462261.png",
+    "preview_path": "images/101543208462261.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "9b512797c48ba5f3149e36d2",
+    "name": "Wind18",
+    "asset_id": "118726955290846",
+    "uri": "rbxassetid://118726955290846",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://118726955290846",
+    "raw_uris": [
+      "rbxassetid://118726955290846"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6621,
+        "raw_uri": "rbxassetid://118726955290846",
+        "image": "rbxassetid://118726955290846",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 4033,
+        "raw_uri": "rbxassetid://118726955290846",
+        "image": "rbxassetid://118726955290846",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 77,
+        "raw_uri": "rbxassetid://118726955290846",
+        "image": "rbxassetid://118726955290846",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/118726955290846.png",
+    "preview_path": "images/118726955290846.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5fe0a1f7b447fb883a3d480c",
+    "name": "Wind19",
+    "asset_id": "93312079157280",
+    "uri": "rbxassetid://93312079157280",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://93312079157280",
+    "raw_uris": [
+      "rbxassetid://93312079157280"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4737,
+        "raw_uri": "rbxassetid://93312079157280",
+        "image": "rbxassetid://93312079157280",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 1839,
+        "raw_uri": "rbxassetid://93312079157280",
+        "image": "rbxassetid://93312079157280",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 58,
+        "raw_uri": "rbxassetid://93312079157280",
+        "image": "rbxassetid://93312079157280",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          512
+        ]
+      }
+    ],
+    "image_path": "images/93312079157280.png",
+    "preview_path": "previews/93312079157280-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "dff1738376eeba53479a9fca",
+    "name": "Wind2",
+    "asset_id": "82525068951507",
+    "uri": "rbxassetid://82525068951507",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82525068951507",
+    "raw_uris": [
+      "rbxassetid://82525068951507"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3803,
+        "raw_uri": "rbxassetid://82525068951507",
+        "image": "rbxassetid://82525068951507",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2307,
+        "raw_uri": "rbxassetid://82525068951507",
+        "image": "rbxassetid://82525068951507",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 48,
+        "raw_uri": "rbxassetid://82525068951507",
+        "image": "rbxassetid://82525068951507",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/82525068951507.png",
+    "preview_path": "images/82525068951507.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4b9be2e50dcb61dff35b7cf4",
+    "name": "Wind20",
+    "asset_id": "74899887803900",
+    "uri": "rbxassetid://74899887803900",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://74899887803900",
+    "raw_uris": [
+      "rbxassetid://74899887803900"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2262,
+        "raw_uri": "rbxassetid://74899887803900",
+        "image": "rbxassetid://74899887803900",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1364,
+        "raw_uri": "rbxassetid://74899887803900",
+        "image": "rbxassetid://74899887803900",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 29,
+        "raw_uri": "rbxassetid://74899887803900",
+        "image": "rbxassetid://74899887803900",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/74899887803900.png",
+    "preview_path": "images/74899887803900.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "853e01d5c8b91e878d2fc43a",
+    "name": "Wind21",
+    "asset_id": "104304232262370",
+    "uri": "rbxassetid://104304232262370",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://104304232262370",
+    "raw_uris": [
+      "rbxassetid://104304232262370"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 294,
+        "raw_uri": "rbxassetid://104304232262370",
+        "image": "rbxassetid://104304232262370",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 179,
+        "raw_uri": "rbxassetid://104304232262370",
+        "image": "rbxassetid://104304232262370",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 5,
+        "raw_uri": "rbxassetid://104304232262370",
+        "image": "rbxassetid://104304232262370",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/104304232262370.png",
+    "preview_path": "images/104304232262370.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "e74814218ef4d2747f7e029c",
+    "name": "Wind22",
+    "asset_id": "116579220922305",
+    "uri": "rbxassetid://116579220922305",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://116579220922305",
+    "raw_uris": [
+      "rbxassetid://116579220922305"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3455,
+        "raw_uri": "rbxassetid://116579220922305",
+        "image": "rbxassetid://116579220922305",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2088,
+        "raw_uri": "rbxassetid://116579220922305",
+        "image": "rbxassetid://116579220922305",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 43,
+        "raw_uri": "rbxassetid://116579220922305",
+        "image": "rbxassetid://116579220922305",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/116579220922305.png",
+    "preview_path": "images/116579220922305.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "90db94e44047641ceccf495a",
+    "name": "Wind23",
+    "asset_id": "103000834263561",
+    "uri": "rbxassetid://103000834263561",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://103000834263561",
+    "raw_uris": [
+      "rbxassetid://103000834263561"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4707,
+        "raw_uri": "rbxassetid://103000834263561",
+        "image": "rbxassetid://103000834263561",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2884,
+        "raw_uri": "rbxassetid://103000834263561",
+        "image": "rbxassetid://103000834263561",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 57,
+        "raw_uri": "rbxassetid://103000834263561",
+        "image": "rbxassetid://103000834263561",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/103000834263561.png",
+    "preview_path": "images/103000834263561.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "13ed3bb5dabb79e6bfa0655d",
+    "name": "Wind24",
+    "asset_id": "137596045221383",
+    "uri": "rbxassetid://137596045221383",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://137596045221383",
+    "raw_uris": [
+      "rbxassetid://137596045221383"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 994,
+        "raw_uri": "rbxassetid://137596045221383",
+        "image": "rbxassetid://137596045221383",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 608,
+        "raw_uri": "rbxassetid://137596045221383",
+        "image": "rbxassetid://137596045221383",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 14,
+        "raw_uri": "rbxassetid://137596045221383",
+        "image": "rbxassetid://137596045221383",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/137596045221383.png",
+    "preview_path": "images/137596045221383.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "47a4b9644dcebafbc55e2da5",
+    "name": "Wind25",
+    "asset_id": "139607233090243",
+    "uri": "rbxassetid://139607233090243",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://139607233090243",
+    "raw_uris": [
+      "rbxassetid://139607233090243"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 787,
+        "raw_uri": "rbxassetid://139607233090243",
+        "image": "rbxassetid://139607233090243",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 486,
+        "raw_uri": "rbxassetid://139607233090243",
+        "image": "rbxassetid://139607233090243",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 9,
+        "raw_uri": "rbxassetid://139607233090243",
+        "image": "rbxassetid://139607233090243",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/139607233090243.png",
+    "preview_path": "images/139607233090243.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "8f92acd5d36d59beefdaa018",
+    "name": "Wind26",
+    "asset_id": "107577948223334",
+    "uri": "rbxassetid://107577948223334",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://107577948223334",
+    "raw_uris": [
+      "rbxassetid://107577948223334"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1186,
+        "raw_uri": "rbxassetid://107577948223334",
+        "image": "rbxassetid://107577948223334",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 725,
+        "raw_uri": "rbxassetid://107577948223334",
+        "image": "rbxassetid://107577948223334",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 15,
+        "raw_uri": "rbxassetid://107577948223334",
+        "image": "rbxassetid://107577948223334",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/107577948223334.png",
+    "preview_path": "images/107577948223334.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c7a3fe495ae26aabf988dba4",
+    "name": "Wind27",
+    "asset_id": "78140204291780",
+    "uri": "rbxassetid://78140204291780",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://78140204291780",
+    "raw_uris": [
+      "rbxassetid://78140204291780"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3415,
+        "raw_uri": "rbxassetid://78140204291780",
+        "image": "rbxassetid://78140204291780",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2066,
+        "raw_uri": "rbxassetid://78140204291780",
+        "image": "rbxassetid://78140204291780",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 42,
+        "raw_uri": "rbxassetid://78140204291780",
+        "image": "rbxassetid://78140204291780",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/78140204291780.png",
+    "preview_path": "images/78140204291780.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "321b5c93996341e28d7e2612",
+    "name": "Wind28",
+    "asset_id": "78592280941627",
+    "uri": "rbxassetid://78592280941627",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://78592280941627",
+    "raw_uris": [
+      "rbxassetid://78592280941627"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5534,
+        "raw_uri": "rbxassetid://78592280941627",
+        "image": "rbxassetid://78592280941627",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3400,
+        "raw_uri": "rbxassetid://78592280941627",
+        "image": "rbxassetid://78592280941627",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 66,
+        "raw_uri": "rbxassetid://78592280941627",
+        "image": "rbxassetid://78592280941627",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/78592280941627.png",
+    "preview_path": "images/78592280941627.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "f3c96ad82ad8d94530aa5622",
+    "name": "Wind29",
+    "asset_id": "109474863702604",
+    "uri": "rbxassetid://109474863702604",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://109474863702604",
+    "raw_uris": [
+      "rbxassetid://109474863702604"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 144,
+        "raw_uri": "rbxassetid://109474863702604",
+        "image": "rbxassetid://109474863702604",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 92,
+        "raw_uri": "rbxassetid://109474863702604",
+        "image": "rbxassetid://109474863702604",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 4,
+        "raw_uri": "rbxassetid://109474863702604",
+        "image": "rbxassetid://109474863702604",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/109474863702604.png",
+    "preview_path": "images/109474863702604.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2411143f749d217240c56ca6",
+    "name": "Wind3",
+    "asset_id": "89929855206165",
+    "uri": "rbxassetid://89929855206165",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://89929855206165",
+    "raw_uris": [
+      "rbxassetid://89929855206165"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2234,
+        "raw_uri": "rbxassetid://89929855206165",
+        "image": "rbxassetid://89929855206165",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1341,
+        "raw_uri": "rbxassetid://89929855206165",
+        "image": "rbxassetid://89929855206165",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 28,
+        "raw_uri": "rbxassetid://89929855206165",
+        "image": "rbxassetid://89929855206165",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/89929855206165.png",
+    "preview_path": "images/89929855206165.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c0fa7c857d9ed8dab34279fa",
+    "name": "Wind30",
+    "asset_id": "122484551759506",
+    "uri": "rbxassetid://122484551759506",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://122484551759506",
+    "raw_uris": [
+      "rbxassetid://122484551759506"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3138,
+        "raw_uri": "rbxassetid://122484551759506",
+        "image": "rbxassetid://122484551759506",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1903,
+        "raw_uri": "rbxassetid://122484551759506",
+        "image": "rbxassetid://122484551759506",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 39,
+        "raw_uri": "rbxassetid://122484551759506",
+        "image": "rbxassetid://122484551759506",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/122484551759506.png",
+    "preview_path": "images/122484551759506.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2656d2ffa4fdbcdbabf7311d",
+    "name": "Wind31",
+    "asset_id": "73041967539025",
+    "uri": "rbxassetid://73041967539025",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://73041967539025",
+    "raw_uris": [
+      "rbxassetid://73041967539025"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2920,
+        "raw_uri": "rbxassetid://73041967539025",
+        "image": "rbxassetid://73041967539025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1777,
+        "raw_uri": "rbxassetid://73041967539025",
+        "image": "rbxassetid://73041967539025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 35,
+        "raw_uri": "rbxassetid://73041967539025",
+        "image": "rbxassetid://73041967539025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/73041967539025.png",
+    "preview_path": "images/73041967539025.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "dad328b71ab98bdcfea968c5",
+    "name": "Wind32",
+    "asset_id": "110502543965445",
+    "uri": "rbxassetid://110502543965445",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://110502543965445",
+    "raw_uris": [
+      "rbxassetid://110502543965445"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 481,
+        "raw_uri": "rbxassetid://110502543965445",
+        "image": "rbxassetid://110502543965445",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 302,
+        "raw_uri": "rbxassetid://110502543965445",
+        "image": "rbxassetid://110502543965445",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 6,
+        "raw_uri": "rbxassetid://110502543965445",
+        "image": "rbxassetid://110502543965445",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/110502543965445.png",
+    "preview_path": "images/110502543965445.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "721da46bd6356eaeb2bc54de",
+    "name": "Wind33",
+    "asset_id": "117299459118480",
+    "uri": "rbxassetid://117299459118480",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://117299459118480",
+    "raw_uris": [
+      "rbxassetid://117299459118480"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1650,
+        "raw_uri": "rbxassetid://117299459118480",
+        "image": "rbxassetid://117299459118480",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 999,
+        "raw_uri": "rbxassetid://117299459118480",
+        "image": "rbxassetid://117299459118480",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 23,
+        "raw_uri": "rbxassetid://117299459118480",
+        "image": "rbxassetid://117299459118480",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/117299459118480.png",
+    "preview_path": "images/117299459118480.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1b31ce84b8d02fc33bafa794",
+    "name": "Wind34",
+    "asset_id": "100113424383392",
+    "uri": "rbxassetid://100113424383392",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://100113424383392",
+    "raw_uris": [
+      "rbxassetid://100113424383392"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 730,
+        "raw_uri": "rbxassetid://100113424383392",
+        "image": "rbxassetid://100113424383392",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 451,
+        "raw_uri": "rbxassetid://100113424383392",
+        "image": "rbxassetid://100113424383392",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 8,
+        "raw_uri": "rbxassetid://100113424383392",
+        "image": "rbxassetid://100113424383392",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/100113424383392.png",
+    "preview_path": "images/100113424383392.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "1a088c32760f66f3cb5a7223",
+    "name": "Wind35",
+    "asset_id": "91804963265247",
+    "uri": "rbxassetid://91804963265247",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://91804963265247",
+    "raw_uris": [
+      "rbxassetid://91804963265247"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5580,
+        "raw_uri": "rbxassetid://91804963265247",
+        "image": "rbxassetid://91804963265247",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          512
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2149,
+        "raw_uri": "rbxassetid://91804963265247",
+        "image": "rbxassetid://91804963265247",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 67,
+        "raw_uri": "rbxassetid://91804963265247",
+        "image": "rbxassetid://91804963265247",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          512
+        ]
+      }
+    ],
+    "image_path": "images/91804963265247.png",
+    "preview_path": "previews/91804963265247-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "17a08228f1aa2e8bca57dfe8",
+    "name": "Wind36",
+    "asset_id": "84269775676097",
+    "uri": "rbxassetid://84269775676097",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://84269775676097",
+    "raw_uris": [
+      "rbxassetid://84269775676097"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1545,
+        "raw_uri": "rbxassetid://84269775676097",
+        "image": "rbxassetid://84269775676097",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 938,
+        "raw_uri": "rbxassetid://84269775676097",
+        "image": "rbxassetid://84269775676097",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 21,
+        "raw_uri": "rbxassetid://84269775676097",
+        "image": "rbxassetid://84269775676097",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/84269775676097.png",
+    "preview_path": "images/84269775676097.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b6e8f9fc237381803c9d68ae",
+    "name": "Wind37",
+    "asset_id": "122272192974730",
+    "uri": "rbxassetid://122272192974730",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://122272192974730",
+    "raw_uris": [
+      "rbxassetid://122272192974730"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1484,
+        "raw_uri": "rbxassetid://122272192974730",
+        "image": "rbxassetid://122272192974730",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 900,
+        "raw_uri": "rbxassetid://122272192974730",
+        "image": "rbxassetid://122272192974730",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 20,
+        "raw_uri": "rbxassetid://122272192974730",
+        "image": "rbxassetid://122272192974730",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/122272192974730.png",
+    "preview_path": "images/122272192974730.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5974daa7328d6cb03dff69bd",
+    "name": "Wind38",
+    "asset_id": "76340603837890",
+    "uri": "rbxassetid://76340603837890",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://76340603837890",
+    "raw_uris": [
+      "rbxassetid://76340603837890"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3200,
+        "raw_uri": "rbxassetid://76340603837890",
+        "image": "rbxassetid://76340603837890",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1939,
+        "raw_uri": "rbxassetid://76340603837890",
+        "image": "rbxassetid://76340603837890",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 41,
+        "raw_uri": "rbxassetid://76340603837890",
+        "image": "rbxassetid://76340603837890",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/76340603837890.png",
+    "preview_path": "images/76340603837890.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ed36c8e96956de2ff1419f6a",
+    "name": "Wind39",
+    "asset_id": "120150903567427",
+    "uri": "rbxassetid://120150903567427",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://120150903567427",
+    "raw_uris": [
+      "rbxassetid://120150903567427"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6080,
+        "raw_uri": "rbxassetid://120150903567427",
+        "image": "rbxassetid://120150903567427",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3723,
+        "raw_uri": "rbxassetid://120150903567427",
+        "image": "rbxassetid://120150903567427",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 72,
+        "raw_uri": "rbxassetid://120150903567427",
+        "image": "rbxassetid://120150903567427",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/120150903567427.png",
+    "preview_path": "images/120150903567427.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7deb7f4d3fc1c28f74b634c9",
+    "name": "Wind4",
+    "asset_id": "131147883064427",
+    "uri": "rbxassetid://131147883064427",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://131147883064427",
+    "raw_uris": [
+      "rbxassetid://131147883064427"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5525,
+        "raw_uri": "rbxassetid://131147883064427",
+        "image": "rbxassetid://131147883064427",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3393,
+        "raw_uri": "rbxassetid://131147883064427",
+        "image": "rbxassetid://131147883064427",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 65,
+        "raw_uri": "rbxassetid://131147883064427",
+        "image": "rbxassetid://131147883064427",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/131147883064427.png",
+    "preview_path": "images/131147883064427.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ec7466c0a46f347f2d1e91d4",
+    "name": "Wind40",
+    "asset_id": "125658288142903",
+    "uri": "rbxassetid://125658288142903",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://125658288142903",
+    "raw_uris": [
+      "rbxassetid://125658288142903"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4286,
+        "raw_uri": "rbxassetid://125658288142903",
+        "image": "rbxassetid://125658288142903",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2613,
+        "raw_uri": "rbxassetid://125658288142903",
+        "image": "rbxassetid://125658288142903",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 53,
+        "raw_uri": "rbxassetid://125658288142903",
+        "image": "rbxassetid://125658288142903",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/125658288142903.png",
+    "preview_path": "images/125658288142903.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6af0ad21f8e7bcd23ba8c9a4",
+    "name": "Wind41",
+    "asset_id": "99096695944611",
+    "uri": "rbxassetid://99096695944611",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://99096695944611",
+    "raw_uris": [
+      "rbxassetid://99096695944611"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3815,
+        "raw_uri": "rbxassetid://99096695944611",
+        "image": "rbxassetid://99096695944611",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2315,
+        "raw_uri": "rbxassetid://99096695944611",
+        "image": "rbxassetid://99096695944611",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 49,
+        "raw_uri": "rbxassetid://99096695944611",
+        "image": "rbxassetid://99096695944611",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/99096695944611.png",
+    "preview_path": "images/99096695944611.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7c241f2d55b4ae56c1acb59b",
+    "name": "Wind42",
+    "asset_id": "115839225153561",
+    "uri": "rbxassetid://115839225153561",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://115839225153561",
+    "raw_uris": [
+      "rbxassetid://115839225153561"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2820,
+        "raw_uri": "rbxassetid://115839225153561",
+        "image": "rbxassetid://115839225153561",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1714,
+        "raw_uri": "rbxassetid://115839225153561",
+        "image": "rbxassetid://115839225153561",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 34,
+        "raw_uri": "rbxassetid://115839225153561",
+        "image": "rbxassetid://115839225153561",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/115839225153561.png",
+    "preview_path": "images/115839225153561.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "ae365d05cfc66644455a24e5",
+    "name": "Wind43",
+    "asset_id": "92824085650493",
+    "uri": "rbxassetid://92824085650493",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://92824085650493",
+    "raw_uris": [
+      "rbxassetid://92824085650493"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3170,
+        "raw_uri": "rbxassetid://92824085650493",
+        "image": "rbxassetid://92824085650493",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1924,
+        "raw_uri": "rbxassetid://92824085650493",
+        "image": "rbxassetid://92824085650493",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 40,
+        "raw_uri": "rbxassetid://92824085650493",
+        "image": "rbxassetid://92824085650493",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/92824085650493.png",
+    "preview_path": "images/92824085650493.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7a1feb4f77b2c151340e5e4b",
+    "name": "Wind44",
+    "asset_id": "79454007816524",
+    "uri": "rbxassetid://79454007816524",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://79454007816524",
+    "raw_uris": [
+      "rbxassetid://79454007816524"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 981,
+        "raw_uri": "rbxassetid://79454007816524",
+        "image": "rbxassetid://79454007816524",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 604,
+        "raw_uri": "rbxassetid://79454007816524",
+        "image": "rbxassetid://79454007816524",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 13,
+        "raw_uri": "rbxassetid://79454007816524",
+        "image": "rbxassetid://79454007816524",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/79454007816524.png",
+    "preview_path": "images/79454007816524.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "c2289e513c59b9a71f9a00ab",
+    "name": "Wind45",
+    "asset_id": "126052664189577",
+    "uri": "rbxassetid://126052664189577",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://126052664189577",
+    "raw_uris": [
+      "rbxassetid://126052664189577"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6092,
+        "raw_uri": "rbxassetid://126052664189577",
+        "image": "rbxassetid://126052664189577",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          768,
+          0
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2362,
+        "raw_uri": "rbxassetid://126052664189577",
+        "image": "rbxassetid://126052664189577",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 73,
+        "raw_uri": "rbxassetid://126052664189577",
+        "image": "rbxassetid://126052664189577",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          256,
+          512
+        ]
+      }
+    ],
+    "image_path": "images/126052664189577.png",
+    "preview_path": "previews/126052664189577-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a66a976deab894be55812d8b",
+    "name": "Wind46",
+    "asset_id": "85092053817884",
+    "uri": "rbxassetid://85092053817884",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://85092053817884",
+    "raw_uris": [
+      "rbxassetid://85092053817884"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3660,
+        "raw_uri": "rbxassetid://85092053817884",
+        "image": "rbxassetid://85092053817884",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2217,
+        "raw_uri": "rbxassetid://85092053817884",
+        "image": "rbxassetid://85092053817884",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 46,
+        "raw_uri": "rbxassetid://85092053817884",
+        "image": "rbxassetid://85092053817884",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/85092053817884.png",
+    "preview_path": "images/85092053817884.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "94229d94b3f340140690c542",
+    "name": "Wind47",
+    "asset_id": "86521711047914",
+    "uri": "rbxassetid://86521711047914",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://86521711047914",
+    "raw_uris": [
+      "rbxassetid://86521711047914"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4090,
+        "raw_uri": "rbxassetid://86521711047914",
+        "image": "rbxassetid://86521711047914",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2486,
+        "raw_uri": "rbxassetid://86521711047914",
+        "image": "rbxassetid://86521711047914",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 50,
+        "raw_uri": "rbxassetid://86521711047914",
+        "image": "rbxassetid://86521711047914",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/86521711047914.png",
+    "preview_path": "images/86521711047914.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "56e2c21992ab97cd0ab60d93",
+    "name": "Wind48",
+    "asset_id": "80189053385709",
+    "uri": "rbxassetid://80189053385709",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://80189053385709",
+    "raw_uris": [
+      "rbxassetid://80189053385709"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1814,
+        "raw_uri": "rbxassetid://80189053385709",
+        "image": "rbxassetid://80189053385709",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1097,
+        "raw_uri": "rbxassetid://80189053385709",
+        "image": "rbxassetid://80189053385709",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 25,
+        "raw_uri": "rbxassetid://80189053385709",
+        "image": "rbxassetid://80189053385709",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/80189053385709.png",
+    "preview_path": "images/80189053385709.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6753de3c903ed6ba5bbd1760",
+    "name": "Wind49",
+    "asset_id": "112558793664091",
+    "uri": "rbxassetid://112558793664091",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://112558793664091",
+    "raw_uris": [
+      "rbxassetid://112558793664091"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 820,
+        "raw_uri": "rbxassetid://112558793664091",
+        "image": "rbxassetid://112558793664091",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 506,
+        "raw_uri": "rbxassetid://112558793664091",
+        "image": "rbxassetid://112558793664091",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 10,
+        "raw_uri": "rbxassetid://112558793664091",
+        "image": "rbxassetid://112558793664091",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/112558793664091.png",
+    "preview_path": "images/112558793664091.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b84712ed429bdd181a585163",
+    "name": "Wind5",
+    "asset_id": "102374151967894",
+    "uri": "rbxassetid://102374151967894",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://102374151967894",
+    "raw_uris": [
+      "rbxassetid://102374151967894"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2191,
+        "raw_uri": "rbxassetid://102374151967894",
+        "image": "rbxassetid://102374151967894",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1317,
+        "raw_uri": "rbxassetid://102374151967894",
+        "image": "rbxassetid://102374151967894",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 27,
+        "raw_uri": "rbxassetid://102374151967894",
+        "image": "rbxassetid://102374151967894",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/102374151967894.png",
+    "preview_path": "images/102374151967894.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d55ff144cc3bd45f4a11c629",
+    "name": "Wind50",
+    "asset_id": "95524323490226",
+    "uri": "rbxassetid://95524323490226",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://95524323490226",
+    "raw_uris": [
+      "rbxassetid://95524323490226"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 691,
+        "raw_uri": "rbxassetid://95524323490226",
+        "image": "rbxassetid://95524323490226",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 427,
+        "raw_uri": "rbxassetid://95524323490226",
+        "image": "rbxassetid://95524323490226",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 7,
+        "raw_uri": "rbxassetid://95524323490226",
+        "image": "rbxassetid://95524323490226",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/95524323490226.png",
+    "preview_path": "images/95524323490226.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b008b189af12b12f260ec084",
+    "name": "Wind51",
+    "asset_id": "99030912594735",
+    "uri": "rbxassetid://99030912594735",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://99030912594735",
+    "raw_uris": [
+      "rbxassetid://99030912594735"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3743,
+        "raw_uri": "rbxassetid://99030912594735",
+        "image": "rbxassetid://99030912594735",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2264,
+        "raw_uri": "rbxassetid://99030912594735",
+        "image": "rbxassetid://99030912594735",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 47,
+        "raw_uri": "rbxassetid://99030912594735",
+        "image": "rbxassetid://99030912594735",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/99030912594735.png",
+    "preview_path": "images/99030912594735.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "87b40c094e67f35d3a0d1262",
+    "name": "Wind52",
+    "asset_id": "121693455521335",
+    "uri": "rbxassetid://121693455521335",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://121693455521335",
+    "raw_uris": [
+      "rbxassetid://121693455521335"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 6459,
+        "raw_uri": "rbxassetid://121693455521335",
+        "image": "rbxassetid://121693455521335",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3938,
+        "raw_uri": "rbxassetid://121693455521335",
+        "image": "rbxassetid://121693455521335",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 75,
+        "raw_uri": "rbxassetid://121693455521335",
+        "image": "rbxassetid://121693455521335",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/121693455521335.png",
+    "preview_path": "images/121693455521335.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "56ee91cb03d72ab1b31f240b",
+    "name": "Wind53",
+    "asset_id": "84954758993461",
+    "uri": "rbxassetid://84954758993461",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://84954758993461",
+    "raw_uris": [
+      "rbxassetid://84954758993461"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2773,
+        "raw_uri": "rbxassetid://84954758993461",
+        "image": "rbxassetid://84954758993461",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1689,
+        "raw_uri": "rbxassetid://84954758993461",
+        "image": "rbxassetid://84954758993461",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 33,
+        "raw_uri": "rbxassetid://84954758993461",
+        "image": "rbxassetid://84954758993461",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/84954758993461.png",
+    "preview_path": "images/84954758993461.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "d3d87ff473e61fbc6cc68b21",
+    "name": "Wind54",
+    "asset_id": "116196743854601",
+    "uri": "rbxassetid://116196743854601",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://116196743854601",
+    "raw_uris": [
+      "rbxassetid://116196743854601"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3478,
+        "raw_uri": "rbxassetid://116196743854601",
+        "image": "rbxassetid://116196743854601",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 2102,
+        "raw_uri": "rbxassetid://116196743854601",
+        "image": "rbxassetid://116196743854601",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 44,
+        "raw_uri": "rbxassetid://116196743854601",
+        "image": "rbxassetid://116196743854601",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/116196743854601.png",
+    "preview_path": "images/116196743854601.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "23e21230fd5fecb4c4ba7c2a",
+    "name": "Wind55",
+    "asset_id": "77399181389527",
+    "uri": "rbxassetid://77399181389527",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://77399181389527",
+    "raw_uris": [
+      "rbxassetid://77399181389527"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5470,
+        "raw_uri": "rbxassetid://77399181389527",
+        "image": "rbxassetid://77399181389527",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3360,
+        "raw_uri": "rbxassetid://77399181389527",
+        "image": "rbxassetid://77399181389527",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 63,
+        "raw_uri": "rbxassetid://77399181389527",
+        "image": "rbxassetid://77399181389527",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/77399181389527.png",
+    "preview_path": "images/77399181389527.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "3e3ce0be9953eafcfeab6274",
+    "name": "Wind56",
+    "asset_id": "90956254243960",
+    "uri": "rbxassetid://90956254243960",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://90956254243960",
+    "raw_uris": [
+      "rbxassetid://90956254243960"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1269,
+        "raw_uri": "rbxassetid://90956254243960",
+        "image": "rbxassetid://90956254243960",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 775,
+        "raw_uri": "rbxassetid://90956254243960",
+        "image": "rbxassetid://90956254243960",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 17,
+        "raw_uri": "rbxassetid://90956254243960",
+        "image": "rbxassetid://90956254243960",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/90956254243960.png",
+    "preview_path": "images/90956254243960.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "11e0daaa95b419b9c2b68741",
+    "name": "Wind57",
+    "asset_id": "101478845975822",
+    "uri": "rbxassetid://101478845975822",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://101478845975822",
+    "raw_uris": [
+      "rbxassetid://101478845975822"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Flipbooks"
+    ],
+    "source_labels": [
+      "All",
+      "Flipbooks",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5213,
+        "raw_uri": "rbxassetid://101478845975822",
+        "image": "rbxassetid://101478845975822",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          512,
+          256
+        ]
+      },
+      {
+        "source": "Flipbooks",
+        "index": 2015,
+        "raw_uri": "rbxassetid://101478845975822",
+        "image": "rbxassetid://101478845975822",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 61,
+        "raw_uri": "rbxassetid://101478845975822",
+        "image": "rbxassetid://101478845975822",
+        "rect_size": [
+          256,
+          256
+        ],
+        "rect_offset": [
+          0,
+          512
+        ]
+      }
+    ],
+    "image_path": "images/101478845975822.png",
+    "preview_path": "previews/101478845975822-4x4.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 4,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [
+      "static_and_flipbook_rect_observations"
+    ],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "flipbook",
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Flipbooks"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4b1c6051fc583430b6bac537",
+    "name": "Wind6",
+    "asset_id": "89247216145301",
+    "uri": "rbxassetid://89247216145301",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://89247216145301",
+    "raw_uris": [
+      "rbxassetid://89247216145301"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5756,
+        "raw_uri": "rbxassetid://89247216145301",
+        "image": "rbxassetid://89247216145301",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3542,
+        "raw_uri": "rbxassetid://89247216145301",
+        "image": "rbxassetid://89247216145301",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 69,
+        "raw_uri": "rbxassetid://89247216145301",
+        "image": "rbxassetid://89247216145301",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/89247216145301.png",
+    "preview_path": "images/89247216145301.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "889573446790877382e2325e",
+    "name": "Wind7",
+    "asset_id": "115178122155246",
+    "uri": "rbxassetid://115178122155246",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://115178122155246",
+    "raw_uris": [
+      "rbxassetid://115178122155246"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5673,
+        "raw_uri": "rbxassetid://115178122155246",
+        "image": "rbxassetid://115178122155246",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 3491,
+        "raw_uri": "rbxassetid://115178122155246",
+        "image": "rbxassetid://115178122155246",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 68,
+        "raw_uri": "rbxassetid://115178122155246",
+        "image": "rbxassetid://115178122155246",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/115178122155246.png",
+    "preview_path": "images/115178122155246.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4e84b0a62c54f273655cad97",
+    "name": "Wind8",
+    "asset_id": "128787416203960",
+    "uri": "rbxassetid://128787416203960",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://128787416203960",
+    "raw_uris": [
+      "rbxassetid://128787416203960"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2310,
+        "raw_uri": "rbxassetid://128787416203960",
+        "image": "rbxassetid://128787416203960",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1397,
+        "raw_uri": "rbxassetid://128787416203960",
+        "image": "rbxassetid://128787416203960",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 30,
+        "raw_uri": "rbxassetid://128787416203960",
+        "image": "rbxassetid://128787416203960",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/128787416203960.png",
+    "preview_path": "images/128787416203960.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "dcb4276148d87765a2f5908a",
+    "name": "Wind9",
+    "asset_id": "82431051811025",
+    "uri": "rbxassetid://82431051811025",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://82431051811025",
+    "raw_uris": [
+      "rbxassetid://82431051811025"
+    ],
+    "aliases": [],
+    "tags": [
+      "Wind"
+    ],
+    "collections": [
+      "Statics"
+    ],
+    "source_labels": [
+      "All",
+      "Statics",
+      "Wind"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3059,
+        "raw_uri": "rbxassetid://82431051811025",
+        "image": "rbxassetid://82431051811025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Statics",
+        "index": 1854,
+        "raw_uri": "rbxassetid://82431051811025",
+        "image": "rbxassetid://82431051811025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      },
+      {
+        "source": "Wind",
+        "index": 38,
+        "raw_uri": "rbxassetid://82431051811025",
+        "image": "rbxassetid://82431051811025",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": "images/82431051811025.png",
+    "preview_path": "images/82431051811025.png",
+    "image_status": "cached",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_type_collection",
+    "classification_conflicts": [],
+    "kind_source": "type_collection",
+    "observed_rect_kinds": [
+      "static"
+    ],
+    "type_collection_ambiguous": false,
+    "kind_source_labels": [
+      "Statics"
+    ],
+    "in_all_inventory": true,
+    "observation_count": 3,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

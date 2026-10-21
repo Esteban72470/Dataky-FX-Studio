@@ -1,0 +1,217 @@
+[
+  {
+    "key": "a50ba704ea105d439adc2ef3",
+    "name": "",
+    "asset_id": "137352418041966",
+    "uri": "rbxassetid://137352418041966",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://137352418041966",
+    "raw_uris": [
+      "rbxassetid://137352418041966"
+    ],
+    "aliases": [],
+    "tags": [],
+    "source_labels": [
+      "All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 1717,
+        "raw_uri": "rbxassetid://137352418041966",
+        "image": "rbxassetid://137352418041966",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": null,
+    "preview_path": null,
+    "image_status": "not_requested",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_rect",
+    "classification_conflicts": [],
+    "in_all_inventory": true,
+    "observation_count": 1
+  },
+  {
+    "key": "842977e9ecf7fecfcbc9c354",
+    "name": " triangle with internal angular notches",
+    "asset_id": "12364048682",
+    "uri": "rbxassetid://12364048682",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://12364048682",
+    "raw_uris": [
+      "rbxassetid://12364048682"
+    ],
+    "aliases": [],
+    "tags": [],
+    "source_labels": [
+      "All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 5487,
+        "raw_uri": "rbxassetid://12364048682",
+        "image": "rbxassetid://12364048682",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": null,
+    "preview_path": null,
+    "image_status": "not_requested",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_rect",
+    "classification_conflicts": [],
+    "in_all_inventory": true,
+    "observation_count": 1
+  },
+  {
+    "key": "38647226eda7e67c6c62de80",
+    "name": "100 Emoji",
+    "asset_id": "85335370754480",
+    "uri": "rbxassetid://85335370754480",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://85335370754480",
+    "raw_uris": [
+      "rbxassetid://85335370754480"
+    ],
+    "aliases": [],
+    "tags": [],
+    "source_labels": [
+      "All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 4194,
+        "raw_uri": "rbxassetid://85335370754480",
+        "image": "rbxassetid://85335370754480",
+        "rect_size": [
+          128,
+          128
+        ],
+        "rect_offset": [
+          0,
+          128
+        ]
+      }
+    ],
+    "image_path": null,
+    "preview_path": null,
+    "image_status": "not_requested",
+    "image_error": null,
+    "kind": "flipbook",
+    "grid": 8,
+    "grid_source": "inferred_from_1024_sheet",
+    "classification_conflicts": [],
+    "in_all_inventory": true,
+    "observation_count": 1
+  },
+  {
+    "key": "5dc776837dfc24448806ef7f",
+    "name": "180DegreeCube",
+    "asset_id": "6472896673",
+    "uri": "rbxassetid://6472896673",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://6472896673",
+    "raw_uris": [
+      "rbxassetid://6472896673"
+    ],
+    "aliases": [],
+    "tags": [],
+    "source_labels": [
+      "All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 2969,
+        "raw_uri": "rbxassetid://6472896673",
+        "image": "rbxassetid://6472896673",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": null,
+    "preview_path": null,
+    "image_status": "not_requested",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_rect",
+    "classification_conflicts": [],
+    "in_all_inventory": true,
+    "observation_count": 1
+  },
+  {
+    "key": "b09653c47724435b8db1846b",
+    "name": "1Other",
+    "asset_id": "83146942466399",
+    "uri": "rbxassetid://83146942466399",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://83146942466399",
+    "raw_uris": [
+      "rbxassetid://83146942466399"
+    ],
+    "aliases": [],
+    "tags": [],
+    "source_labels": [
+      "All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 3810,
+        "raw_uri": "rbxassetid://83146942466399",
+        "image": "rbxassetid://83146942466399",
+        "rect_size": [
+          0,
+          0
+        ],
+        "rect_offset": [
+          0,
+          0
+        ]
+      }
+    ],
+    "image_path": null,
+    "preview_path": null,
+    "image_status": "not_requested",
+    "image_error": null,
+    "kind": "static",
+    "grid": 0,
+    "grid_source": "static_rect",
+    "classification_conflicts": [],
+    "in_all_inventory": true,
+    "observation_count": 1
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "active_filter": "spheres",
+  "label": "Spheres",
+  "first_index": 3,
+  "captured_at": "2026-10-21T00:21:05Z",
+  "active_collection": "Meshes",
+  "max_index": 20,
+  "records": [
+    {
+      "mesh_uri": "rbxassetid://4933939180",
+      "image": "",
+      "index": 3,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4933939180",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Effect Sphere",
+      "raw_uri": "rbxassetid://4933939180"
+    },
+    {
+      "mesh_uri": "rbxassetid://6553023590",
+      "image": "",
+      "index": 4,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6553023590",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Explosion Wind Thicker",
+      "raw_uri": "rbxassetid://6553023590"
+    },
+    {
+      "mesh_uri": "rbxassetid://5747850601",
+      "image": "",
+      "index": 5,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5747850601",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Energy Swirl Sphere",
+      "raw_uri": "rbxassetid://5747850601"
+    },
+    {
+      "mesh_uri": "rbxassetid://3027924097",
+      "image": "",
+      "index": 6,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://3027924097",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Inside Out Mesh",
+      "raw_uri": "rbxassetid://3027924097"
+    },
+    {
+      "mesh_uri": "rbxassetid://6220387416",
+      "image": "",
+      "index": 7,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220387416",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Inward Shockwave",
+      "raw_uri": "rbxassetid://6220387416"
+    },
+    {
+      "mesh_uri": "rbxassetid://1254390558",
+      "image": "",
+      "index": 8,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1254390558",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Thick Spiked Ball",
+      "raw_uri": "rbxassetid://1254390558"
+    },
+    {
+      "mesh_uri": "rbxassetid://5703278366",
+      "image": "",
+      "index": 9,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5703278366",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Energy Ball",
+      "raw_uri": "rbxassetid://5703278366"
+    },
+    {
+      "mesh_uri": "rbxassetid://5703278366",
+      "image": "",
+      "index": 10,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5703278366",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Heavy Shockwave Sphere",
+      "raw_uri": "rbxassetid://5703278366"
+    },
+    {
+      "mesh_uri": "rbxassetid://1254390558",
+      "image": "",
+      "index": 11,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1254390558",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Spiked Ball",
+      "raw_uri": "rbxassetid://1254390558"
+    },
+    {
+      "mesh_uri": "rbxassetid://6553021063",
+      "image": "",
+      "index": 12,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6553021063",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Glitch Sphere 2",
+      "raw_uri": "rbxassetid://6553021063"
+    },
+    {
+      "mesh_uri": "rbxassetid://6553177537",
+      "image": "",
+      "index": 13,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6553177537",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Wind Spiral Sphere",
+      "raw_uri": "rbxassetid://6553177537"
+    },
+    {
+      "mesh_uri": "rbxassetid://6553027596",
+      "image": "",
+      "index": 14,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6553027596",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Explosion Wind",
+      "raw_uri": "rbxassetid://6553027596"
+    },
+    {
+      "mesh_uri": "rbxassetid://5703288879",
+      "image": "",
+      "index": 15,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5703288879",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Light Shockwave Sphere",
+      "raw_uri": "rbxassetid://5703288879"
+    },
+    {
+      "mesh_uri": "rbxassetid://1886703108",
+      "image": "",
+      "index": 16,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1886703108",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "High Res Sphere",
+      "raw_uri": "rbxassetid://1886703108"
+    },
+    {
+      "mesh_uri": "rbxassetid://4933939521",
+      "image": "",
+      "index": 17,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4933939521",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Thick Explosion Sphere",
+      "raw_uri": "rbxassetid://4933939521"
+    },
+    {
+      "mesh_uri": "rbxassetid://6553170677",
+      "image": "",
+      "index": 18,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6553170677",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Glitch Sphere",
+      "raw_uri": "rbxassetid://6553170677"
+    },
+    {
+      "mesh_uri": "rbxassetid://6071327170",
+      "image": "",
+      "index": 19,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6071327170",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Ground Energy Sphere",
+      "raw_uri": "rbxassetid://6071327170"
+    },
+    {
+      "mesh_uri": "rbxassetid://5703242100",
+      "image": "",
+      "index": 20,
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5703242100",
+          "label": "MeshId"
+        }
+      ],
+      "texture_uri": "",
+      "name": "Wind Sphere",
+      "raw_uri": "rbxassetid://5703242100"
+    }
+  ],
+  "available_tags": [
+    "Lightning",
+    "Other",
+    "Personal",
+    "Recently Used",
+    "Shockwave",
+    "Spheres",
+    "Spikes",
+    "Swirls",
+    "Wind"
+  ],
+  "search": "",
+  "collection": "meshes",
+  "window_height": 850,
+  "canvas_height": 850,
+  "missing_indexes": []
+}

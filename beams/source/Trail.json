@@ -1,0 +1,343 @@
+{
+  "active_filter": "trail",
+  "label": "Trail",
+  "first_index": 3,
+  "captured_at": "2026-10-21T00:31:53Z",
+  "active_collection": "Beams",
+  "max_index": 37,
+  "records": [
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://2443461141",
+      "index": 3,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag again",
+      "raw_uri": "rbxassetid://2443461141"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://5155825850",
+      "index": 4,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag Thick",
+      "raw_uri": "rbxassetid://5155825850"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12363860111",
+      "index": 5,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamLens again",
+      "raw_uri": "rbxassetid://12363860111"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://1470871817",
+      "index": 6,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag lines fade",
+      "raw_uri": "rbxassetid://1470871817"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12402902689",
+      "index": 7,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDecreasing",
+      "raw_uri": "rbxassetid://12402902689"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://122226492957052",
+      "index": 8,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamScratchy Trail",
+      "raw_uri": "rbxassetid://122226492957052"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://1503030545",
+      "index": 9,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag needle",
+      "raw_uri": "rbxassetid://1503030545"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://110272524184089",
+      "index": 10,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam108",
+      "raw_uri": "rbxassetid://110272524184089"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://5699911427",
+      "index": 11,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamCorners",
+      "raw_uri": "rbxassetid://5699911427"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12781873863",
+      "index": 12,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamSideways Water",
+      "raw_uri": "rbxassetid://12781873863"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://1367858734",
+      "index": 13,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag 2",
+      "raw_uri": "rbxassetid://1367858734"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://81955922678015",
+      "index": 14,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam106",
+      "raw_uri": "rbxassetid://81955922678015"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://11744201766",
+      "index": 15,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamSlash",
+      "raw_uri": "rbxassetid://11744201766"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://1858602290",
+      "index": 16,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag glow",
+      "raw_uri": "rbxassetid://1858602290"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12363861216",
+      "index": 17,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamLight Beam",
+      "raw_uri": "rbxassetid://12363861216"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://82380051008855",
+      "index": 18,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam62",
+      "raw_uri": "rbxassetid://82380051008855"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12363860289",
+      "index": 19,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamLong flare",
+      "raw_uri": "rbxassetid://12363860289"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://93019719651495",
+      "index": 20,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam107",
+      "raw_uri": "rbxassetid://93019719651495"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://134727529722190",
+      "index": 21,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam110",
+      "raw_uri": "rbxassetid://134727529722190"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://14543379496",
+      "index": 22,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamStretched Wave",
+      "raw_uri": "rbxassetid://14543379496"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://7103213059",
+      "index": 23,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamBackwards flare",
+      "raw_uri": "rbxassetid://7103213059"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://97726000250996",
+      "index": 24,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam80",
+      "raw_uri": "rbxassetid://97726000250996"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://7332661633",
+      "index": 25,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag tendrils",
+      "raw_uri": "rbxassetid://7332661633"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://4480871448",
+      "index": 26,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamSideways speed drag",
+      "raw_uri": "rbxassetid://4480871448"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://87258503610772",
+      "index": 27,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam93",
+      "raw_uri": "rbxassetid://87258503610772"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://76798449828516",
+      "index": 28,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamNew11",
+      "raw_uri": "rbxassetid://76798449828516"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://13526884654",
+      "index": 29,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamDrag",
+      "raw_uri": "rbxassetid://13526884654"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://6671348341",
+      "index": 30,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamSideways Trail",
+      "raw_uri": "rbxassetid://6671348341"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12386384198",
+      "index": 31,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamHalf beam",
+      "raw_uri": "rbxassetid://12386384198"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://83108983635987",
+      "index": 32,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam89",
+      "raw_uri": "rbxassetid://83108983635987"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://6203493685",
+      "index": 33,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamSideways Trail 2",
+      "raw_uri": "rbxassetid://6203493685"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://77697894692017",
+      "index": 34,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam102",
+      "raw_uri": "rbxassetid://77697894692017"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://112629787601025",
+      "index": 35,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam105",
+      "raw_uri": "rbxassetid://112629787601025"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://12363860994",
+      "index": 36,
+      "references": [],
+      "texture_uri": "",
+      "name": "BeamMultiple flares",
+      "raw_uri": "rbxassetid://12363860994"
+    },
+    {
+      "mesh_uri": "",
+      "image": "rbxassetid://128022764849916",
+      "index": 37,
+      "references": [],
+      "texture_uri": "",
+      "name": "Beam79",
+      "raw_uri": "rbxassetid://128022764849916"
+    }
+  ],
+  "available_tags": [
+    "Energy",
+    "Fire",
+    "Lightning",
+    "Other",
+    "Personal",
+    "Recently Used",
+    "Shockwave",
+    "Smoke",
+    "Spiral",
+    "Trail",
+    "Water"
+  ],
+  "search": "",
+  "collection": "beams",
+  "window_height": 850,
+  "canvas_height": 850,
+  "missing_indexes": []
+}

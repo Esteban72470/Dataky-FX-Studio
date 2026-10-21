@@ -1,0 +1,3246 @@
+{
+  "label": "Fire",
+  "canvas_height": 2975,
+  "captured_at": "2026-10-20T23:16:29Z",
+  "max_index": 233,
+  "records": [
+    {
+      "image": "rbxassetid://14568623802",
+      "index": 3,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Pink Flame",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://14568623802"
+    },
+    {
+      "image": "rbxassetid://125622804106191",
+      "index": 4,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Dark Jagged Stylized Flame 4x4",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://125622804106191"
+    },
+    {
+      "image": "rbxassetid://13745021655",
+      "index": 5,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Blurred DS Fire",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://13745021655"
+    },
+    {
+      "image": "rbxassetid://12362838671",
+      "index": 6,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 18",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362838671"
+    },
+    {
+      "image": "rbxassetid://125034345672466",
+      "index": 7,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wavey Flame",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://125034345672466"
+    },
+    {
+      "image": "rbxassetid://13470068974",
+      "index": 8,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Coloured Fire Glow",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://13470068974"
+    },
+    {
+      "image": "rbxassetid://16857504782",
+      "index": 9,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire30",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://16857504782"
+    },
+    {
+      "image": "rbxassetid://136488132756972",
+      "index": 10,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Simple Black Stylized Flame",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://136488132756972"
+    },
+    {
+      "image": "rbxassetid://101678561521378",
+      "index": 11,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101678561521378"
+    },
+    {
+      "image": "rbxassetid://71784980829751",
+      "index": 12,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Glass outline wisp",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://71784980829751"
+    },
+    {
+      "image": "rbxassetid://71704067650627",
+      "index": 13,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire Slash 3",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://71704067650627"
+    },
+    {
+      "image": "rbxassetid://94214502990142",
+      "index": 14,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flame shape v4",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://94214502990142"
+    },
+    {
+      "image": "rbxassetid://16860461660",
+      "index": 15,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire50",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860461660"
+    },
+    {
+      "image": "rbxassetid://139229808188396",
+      "index": 16,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Dark outline blurry flame",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://139229808188396"
+    },
+    {
+      "image": "rbxassetid://16845552820",
+      "index": 17,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire10",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://16845552820"
+    },
+    {
+      "image": "rbxassetid://100581588365820",
+      "index": 18,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Noisy flame texture upwards",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://100581588365820"
+    },
+    {
+      "image": "rbxassetid://133976235134932",
+      "index": 19,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Unique Glowing Fire Disperse",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://133976235134932"
+    },
+    {
+      "image": "rbxassetid://16860402827",
+      "index": 20,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire43",
+      "rect_offset": [
+        128,
+        512
+      ],
+      "raw_uri": "rbxassetid://16860402827"
+    },
+    {
+      "image": "rbxassetid://119589004028227",
+      "index": 21,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire230",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119589004028227"
+    },
+    {
+      "image": "rbxassetid://16849149076",
+      "index": 22,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire24",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16849149076"
+    },
+    {
+      "image": "rbxassetid://12362839035",
+      "index": 23,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362839035"
+    },
+    {
+      "image": "rbxassetid://70371037304563",
+      "index": 24,
+      "rect_size": [
+        140,
+        140
+      ],
+      "name": "Sketched Flame 2",
+      "rect_offset": [
+        140,
+        0
+      ],
+      "raw_uri": "rbxassetid://70371037304563"
+    },
+    {
+      "image": "rbxassetid://18369727963",
+      "index": 25,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Realistic Fire Kit",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://18369727963"
+    },
+    {
+      "image": "rbxassetid://107671107082445",
+      "index": 26,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107671107082445"
+    },
+    {
+      "image": "rbxassetid://16846802222",
+      "index": 27,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire14",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://16846802222"
+    },
+    {
+      "image": "rbxassetid://109612779616996",
+      "index": 28,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wide Flame Shard",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://109612779616996"
+    },
+    {
+      "image": "rbxassetid://15371144313",
+      "index": 29,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Dark Glow Fire",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://15371144313"
+    },
+    {
+      "image": "rbxassetid://12362836640",
+      "index": 30,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362836640"
+    },
+    {
+      "image": "rbxassetid://127856686726779",
+      "index": 31,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flame shape v6",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://127856686726779"
+    },
+    {
+      "image": "rbxassetid://15433989948",
+      "index": 32,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Greyscale Flame Burst",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://15433989948"
+    },
+    {
+      "image": "rbxassetid://134668676019028",
+      "index": 33,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Long Flame",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://134668676019028"
+    },
+    {
+      "image": "rbxassetid://95303902770451",
+      "index": 34,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 45",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95303902770451"
+    },
+    {
+      "image": "rbxassetid://7948792468",
+      "index": 35,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 38",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7948792468"
+    },
+    {
+      "image": "rbxassetid://138307887351883",
+      "index": 36,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash25",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://138307887351883"
+    },
+    {
+      "image": "rbxassetid://85887269202700",
+      "index": 37,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flame shape v2",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://85887269202700"
+    },
+    {
+      "image": "rbxassetid://16846880120",
+      "index": 38,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire16",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16846880120"
+    },
+    {
+      "image": "rbxassetid://12362842264",
+      "index": 39,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 15",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362842264"
+    },
+    {
+      "image": "rbxassetid://16860347817",
+      "index": 40,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire39",
+      "rect_offset": [
+        128,
+        512
+      ],
+      "raw_uri": "rbxassetid://16860347817"
+    },
+    {
+      "image": "rbxassetid://16860267787",
+      "index": 41,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire36",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860267787"
+    },
+    {
+      "image": "rbxassetid://16860439923",
+      "index": 42,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire48",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://16860439923"
+    },
+    {
+      "image": "rbxassetid://12362836198",
+      "index": 43,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362836198"
+    },
+    {
+      "image": "rbxassetid://73809076009090",
+      "index": 44,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Blurry chromatic flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73809076009090"
+    },
+    {
+      "image": "rbxassetid://12362837503",
+      "index": 45,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 42",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362837503"
+    },
+    {
+      "image": "rbxassetid://101708277637345",
+      "index": 46,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Brush Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101708277637345"
+    },
+    {
+      "image": "rbxassetid://16504098653",
+      "index": 47,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Basic Flame Wisp",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16504098653"
+    },
+    {
+      "image": "rbxassetid://12362837291",
+      "index": 48,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 44",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362837291"
+    },
+    {
+      "image": "rbxassetid://16849232483",
+      "index": 49,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16849232483"
+    },
+    {
+      "image": "rbxassetid://16848303531",
+      "index": 50,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16848303531"
+    },
+    {
+      "image": "rbxassetid://131097395814811",
+      "index": 51,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131097395814811"
+    },
+    {
+      "image": "rbxassetid://80165282873828",
+      "index": 52,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire122",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://80165282873828"
+    },
+    {
+      "image": "rbxassetid://135535456540513",
+      "index": 53,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Coloured stylized flame",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://135535456540513"
+    },
+    {
+      "image": "rbxassetid://86644934246125",
+      "index": 54,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Unique Fire Explosion",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://86644934246125"
+    },
+    {
+      "image": "rbxassetid://138454022090507",
+      "index": 55,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Glowing sharp flame",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://138454022090507"
+    },
+    {
+      "image": "rbxassetid://16860466525",
+      "index": 56,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire51",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://16860466525"
+    },
+    {
+      "image": "rbxassetid://122954463046434",
+      "index": 57,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire125",
+      "rect_offset": [
+        256,
+        384
+      ],
+      "raw_uri": "rbxassetid://122954463046434"
+    },
+    {
+      "image": "rbxassetid://12362839182",
+      "index": 58,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362839182"
+    },
+    {
+      "image": "rbxassetid://112348020526756",
+      "index": 59,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Drawn Flickering Fire",
+      "rect_offset": [
+        768,
+        384
+      ],
+      "raw_uri": "rbxassetid://112348020526756"
+    },
+    {
+      "image": "rbxassetid://16843151641",
+      "index": 60,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire2",
+      "rect_offset": [
+        256,
+        384
+      ],
+      "raw_uri": "rbxassetid://16843151641"
+    },
+    {
+      "image": "rbxassetid://82348940757310",
+      "index": 61,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Inverted outline flame",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://82348940757310"
+    },
+    {
+      "image": "rbxassetid://16845044603",
+      "index": 62,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire4",
+      "rect_offset": [
+        128,
+        384
+      ],
+      "raw_uri": "rbxassetid://16845044603"
+    },
+    {
+      "image": "rbxassetid://16845391847",
+      "index": 63,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire8",
+      "rect_offset": [
+        128,
+        384
+      ],
+      "raw_uri": "rbxassetid://16845391847"
+    },
+    {
+      "image": "rbxassetid://16860398159",
+      "index": 64,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire42",
+      "rect_offset": [
+        640,
+        384
+      ],
+      "raw_uri": "rbxassetid://16860398159"
+    },
+    {
+      "image": "rbxassetid://96908061195552",
+      "index": 65,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Simple Flame Disperse",
+      "rect_offset": [
+        0,
+        768
+      ],
+      "raw_uri": "rbxassetid://96908061195552"
+    },
+    {
+      "image": "rbxassetid://112211056852497",
+      "index": 66,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Abstract Fire Shrinking 4x4",
+      "rect_offset": [
+        0,
+        768
+      ],
+      "raw_uri": "rbxassetid://112211056852497"
+    },
+    {
+      "image": "rbxassetid://16847032740",
+      "index": 67,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire19",
+      "rect_offset": [
+        768,
+        768
+      ],
+      "raw_uri": "rbxassetid://16847032740"
+    },
+    {
+      "image": "rbxassetid://96626727980511",
+      "index": 68,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire123",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://96626727980511"
+    },
+    {
+      "image": "rbxassetid://16860419961",
+      "index": 69,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire45",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://16860419961"
+    },
+    {
+      "image": "rbxassetid://88371933114448",
+      "index": 70,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Simple Glowing Flame Disperse",
+      "rect_offset": [
+        512,
+        768
+      ],
+      "raw_uri": "rbxassetid://88371933114448"
+    },
+    {
+      "image": "rbxassetid://70989844984628",
+      "index": 71,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Greyscaled Cursed Energy",
+      "rect_offset": [
+        256,
+        768
+      ],
+      "raw_uri": "rbxassetid://70989844984628"
+    },
+    {
+      "image": "rbxassetid://16860239081",
+      "index": 72,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire35",
+      "rect_offset": [
+        256,
+        768
+      ],
+      "raw_uri": "rbxassetid://16860239081"
+    },
+    {
+      "image": "rbxassetid://115560520884246",
+      "index": 73,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 31",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115560520884246"
+    },
+    {
+      "image": "rbxassetid://136111736121725",
+      "index": 74,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Stylized Flame Fading",
+      "rect_offset": [
+        640,
+        384
+      ],
+      "raw_uri": "rbxassetid://136111736121725"
+    },
+    {
+      "image": "rbxassetid://104997751202927",
+      "index": 75,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104997751202927"
+    },
+    {
+      "image": "rbxassetid://101138882491160",
+      "index": 76,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Orange flame circle",
+      "rect_offset": [
+        0,
+        768
+      ],
+      "raw_uri": "rbxassetid://101138882491160"
+    },
+    {
+      "image": "rbxassetid://122381675697189",
+      "index": 77,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire Emoji",
+      "rect_offset": [
+        0,
+        768
+      ],
+      "raw_uri": "rbxassetid://122381675697189"
+    },
+    {
+      "image": "rbxassetid://16859930558",
+      "index": 78,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire31",
+      "rect_offset": [
+        0,
+        384
+      ],
+      "raw_uri": "rbxassetid://16859930558"
+    },
+    {
+      "image": "rbxassetid://14560297845",
+      "index": 79,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Gradient Pink Fire",
+      "rect_offset": [
+        0,
+        768
+      ],
+      "raw_uri": "rbxassetid://14560297845"
+    },
+    {
+      "image": "rbxassetid://99210306068588",
+      "index": 80,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wide flame",
+      "rect_offset": [
+        0,
+        768
+      ],
+      "raw_uri": "rbxassetid://99210306068588"
+    },
+    {
+      "image": "rbxassetid://98989828398668",
+      "index": 81,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire121",
+      "rect_offset": [
+        0,
+        384
+      ],
+      "raw_uri": "rbxassetid://98989828398668"
+    },
+    {
+      "image": "rbxassetid://123447873199405",
+      "index": 82,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire Dispersing",
+      "rect_offset": [
+        384,
+        256
+      ],
+      "raw_uri": "rbxassetid://123447873199405"
+    },
+    {
+      "image": "rbxassetid://16860307403",
+      "index": 83,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire38",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://16860307403"
+    },
+    {
+      "image": "rbxassetid://107419293825261",
+      "index": 84,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Cursed energy flame",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://107419293825261"
+    },
+    {
+      "image": "rbxassetid://15398180787",
+      "index": 85,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flame Shape",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://15398180787"
+    },
+    {
+      "image": "rbxassetid://131530874960967",
+      "index": 86,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 36",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131530874960967"
+    },
+    {
+      "image": "rbxassetid://16845756972",
+      "index": 87,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire11",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://16845756972"
+    },
+    {
+      "image": "rbxassetid://95312017141053",
+      "index": 88,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 21",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95312017141053"
+    },
+    {
+      "image": "ID",
+      "index": 89,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Unique Abstract Fire Explosion 2",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "ID"
+    },
+    {
+      "image": "rbxassetid://12362834814",
+      "index": 90,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362834814"
+    },
+    {
+      "image": "rbxassetid://16924803990",
+      "index": 91,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Stylized Flame Burst",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://16924803990"
+    },
+    {
+      "image": "rbxassetid://12362840990",
+      "index": 92,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362840990"
+    },
+    {
+      "image": "rbxassetid://16860471393",
+      "index": 93,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire52",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://16860471393"
+    },
+    {
+      "image": "rbxassetid://13990048171",
+      "index": 94,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire coloured blast",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://13990048171"
+    },
+    {
+      "image": "rbxassetid://120006456413419",
+      "index": 95,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Wispy Flame Fade",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://120006456413419"
+    },
+    {
+      "image": "rbxassetid://87158052323401",
+      "index": 96,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Unmatching Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87158052323401"
+    },
+    {
+      "image": "rbxassetid://16846857814",
+      "index": 97,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire15",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://16846857814"
+    },
+    {
+      "image": "rbxassetid://18456244650",
+      "index": 98,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire Tower",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://18456244650"
+    },
+    {
+      "image": "rbxassetid://139063765805283",
+      "index": 99,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Chromatic heavy flame",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://139063765805283"
+    },
+    {
+      "image": "rbxassetid://105392517998514",
+      "index": 100,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flame shape v3",
+      "rect_offset": [
+        768,
+        0
+      ],
+      "raw_uri": "rbxassetid://105392517998514"
+    },
+    {
+      "image": "rbxassetid://127233082760420",
+      "index": 101,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Chromatic Fire",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://127233082760420"
+    },
+    {
+      "image": "rbxassetid://137142420563985",
+      "index": 102,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 29",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137142420563985"
+    },
+    {
+      "image": "rbxassetid://16860479669",
+      "index": 103,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire53",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860479669"
+    },
+    {
+      "image": "rbxassetid://114619138971472",
+      "index": 104,
+      "rect_size": [
+        512,
+        512
+      ],
+      "name": "Low Res Fire Bird",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://114619138971472"
+    },
+    {
+      "image": "rbxassetid://16845151306",
+      "index": 105,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire5",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16845151306"
+    },
+    {
+      "image": "rbxassetid://16845227778",
+      "index": 106,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire6",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16845227778"
+    },
+    {
+      "image": "rbxassetid://72924953504740",
+      "index": 107,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72924953504740"
+    },
+    {
+      "image": "rbxassetid://109920824813240",
+      "index": 108,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flame Circle Pop",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://109920824813240"
+    },
+    {
+      "image": "rbxassetid://16845480590",
+      "index": 109,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire9",
+      "rect_offset": [
+        128,
+        0
+      ],
+      "raw_uri": "rbxassetid://16845480590"
+    },
+    {
+      "image": "rbxassetid://16846986401",
+      "index": 110,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire18",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://16846986401"
+    },
+    {
+      "image": "rbxassetid://10546157992",
+      "index": 111,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Short Burst",
+      "rect_offset": [
+        128,
+        0
+      ],
+      "raw_uri": "rbxassetid://10546157992"
+    },
+    {
+      "image": "rbxassetid://71192351876310",
+      "index": 112,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Flame shape v5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://71192351876310"
+    },
+    {
+      "image": "rbxassetid://16860226897",
+      "index": 113,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860226897"
+    },
+    {
+      "image": "rbxassetid://119237559373889",
+      "index": 114,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire621",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119237559373889"
+    },
+    {
+      "image": "rbxassetid://118603149892113",
+      "index": 115,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire561",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://118603149892113"
+    },
+    {
+      "image": "rbxassetid://17062535921",
+      "index": 116,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire55",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://17062535921"
+    },
+    {
+      "image": "rbxassetid://16850776524",
+      "index": 117,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire27",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://16850776524"
+    },
+    {
+      "image": "rbxassetid://109839180247874",
+      "index": 118,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire124",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://109839180247874"
+    },
+    {
+      "image": "rbxassetid://16845775595",
+      "index": 119,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire12",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://16845775595"
+    },
+    {
+      "image": "rbxassetid://93813869448998",
+      "index": 120,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Fire304",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://93813869448998"
+    },
+    {
+      "image": "rbxassetid://12362835065",
+      "index": 121,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 24",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362835065"
+    },
+    {
+      "image": "rbxassetid://128704967293590",
+      "index": 122,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Simple Brush Fire",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://128704967293590"
+    },
+    {
+      "image": "rbxassetid://12362837788",
+      "index": 123,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 43",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362837788"
+    },
+    {
+      "image": "rbxassetid://115912672766807",
+      "index": 124,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Coloured version",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://115912672766807"
+    },
+    {
+      "image": "rbxassetid://12362837968",
+      "index": 125,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 46",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362837968"
+    },
+    {
+      "image": "rbxassetid://78802745294135",
+      "index": 126,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Unique Dark Glowing Fire Explosion",
+      "rect_offset": [
+        256,
+        0
+      ],
+      "raw_uri": "rbxassetid://78802745294135"
+    },
+    {
+      "image": "rbxassetid://115351365008439",
+      "index": 127,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 47",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115351365008439"
+    },
+    {
+      "image": "rbxassetid://129251767339847",
+      "index": 128,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 48",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://129251767339847"
+    },
+    {
+      "image": "rbxassetid://70488630325137",
+      "index": 129,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire56",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://70488630325137"
+    },
+    {
+      "image": "rbxassetid://12362841635",
+      "index": 130,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 37",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362841635"
+    },
+    {
+      "image": "rbxassetid://11852978685",
+      "index": 131,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flame Burst",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11852978685"
+    },
+    {
+      "image": "rbxassetid://134891334210388",
+      "index": 132,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Dark Fire Explosion",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134891334210388"
+    },
+    {
+      "image": "rbxassetid://16846920844",
+      "index": 133,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire17",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16846920844"
+    },
+    {
+      "image": "rbxassetid://12362839523",
+      "index": 134,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362839523"
+    },
+    {
+      "image": "rbxassetid://7948795210",
+      "index": 135,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7948795210"
+    },
+    {
+      "image": "rbxassetid://127436793873514",
+      "index": 136,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127436793873514"
+    },
+    {
+      "image": "rbxassetid://12362840801",
+      "index": 137,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362840801"
+    },
+    {
+      "image": "rbxassetid://136579568997492",
+      "index": 138,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flame shape v8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://136579568997492"
+    },
+    {
+      "image": "rbxassetid://85383377813186",
+      "index": 139,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Topright flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85383377813186"
+    },
+    {
+      "image": "rbxassetid://16850826487",
+      "index": 140,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16850826487"
+    },
+    {
+      "image": "rbxassetid://11843575561",
+      "index": 141,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Clean Flame Blast",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11843575561"
+    },
+    {
+      "image": "rbxassetid://81072265920270",
+      "index": 142,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire84",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://81072265920270"
+    },
+    {
+      "image": "rbxassetid://12362836481",
+      "index": 143,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362836481"
+    },
+    {
+      "image": "rbxassetid://134780515823286",
+      "index": 144,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire Emoji 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134780515823286"
+    },
+    {
+      "image": "rbxassetid://16849271817",
+      "index": 145,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16849271817"
+    },
+    {
+      "image": "rbxassetid://92411870095278",
+      "index": 146,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Candle Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92411870095278"
+    },
+    {
+      "image": "rbxassetid://11388840312",
+      "index": 147,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Heat",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11388840312"
+    },
+    {
+      "image": "rbxassetid://16847071704",
+      "index": 148,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire20",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16847071704"
+    },
+    {
+      "image": "rbxassetid://136014056459211",
+      "index": 149,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Wispy Stylized Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://136014056459211"
+    },
+    {
+      "image": "rbxassetid://15810777518",
+      "index": 150,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15810777518"
+    },
+    {
+      "image": "rbxassetid://16843373901",
+      "index": 151,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16843373901"
+    },
+    {
+      "image": "rbxassetid://127396607581562",
+      "index": 152,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire320",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127396607581562"
+    },
+    {
+      "image": "rbxassetid://12362839775",
+      "index": 153,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362839775"
+    },
+    {
+      "image": "rbxassetid://124441524265159",
+      "index": 154,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire421",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124441524265159"
+    },
+    {
+      "image": "rbxassetid://12362838237",
+      "index": 155,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 17",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362838237"
+    },
+    {
+      "image": "rbxassetid://17703378809",
+      "index": 156,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Flame Candle",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17703378809"
+    },
+    {
+      "image": "rbxassetid://94575713790678",
+      "index": 157,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire728",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://94575713790678"
+    },
+    {
+      "image": "rbxassetid://93516560780964",
+      "index": 158,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wispy Stylized Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93516560780964"
+    },
+    {
+      "image": "rbxassetid://18227138407",
+      "index": 159,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Tri-Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18227138407"
+    },
+    {
+      "image": "rbxassetid://107423905441539",
+      "index": 160,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurry glowing flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107423905441539"
+    },
+    {
+      "image": "rbxassetid://12800353201",
+      "index": 161,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Uneven Fire 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12800353201"
+    },
+    {
+      "image": "rbxassetid://109433250319349",
+      "index": 162,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "LE Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109433250319349"
+    },
+    {
+      "image": "rbxassetid://12362840364",
+      "index": 163,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362840364"
+    },
+    {
+      "image": "rbxassetid://16847138652",
+      "index": 164,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire21",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16847138652"
+    },
+    {
+      "image": "rbxassetid://124671263944136",
+      "index": 165,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic sharp flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124671263944136"
+    },
+    {
+      "image": "rbxassetid://12362835593",
+      "index": 166,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 30",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362835593"
+    },
+    {
+      "image": "rbxassetid://125209769742662",
+      "index": 167,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wide flame 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125209769742662"
+    },
+    {
+      "image": "rbxassetid://119515356396363",
+      "index": 168,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Shaded Fire Explosion",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://119515356396363"
+    },
+    {
+      "image": "rbxassetid://12362837053",
+      "index": 169,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362837053"
+    },
+    {
+      "image": "rbxassetid://139894689423464",
+      "index": 170,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Drawn flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://139894689423464"
+    },
+    {
+      "image": "rbxassetid://16850891267",
+      "index": 171,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire29",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16850891267"
+    },
+    {
+      "image": "rbxassetid://11669833150",
+      "index": 172,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "DS Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11669833150"
+    },
+    {
+      "image": "rbxassetid://72233637152559",
+      "index": 173,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Heavily stylized flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72233637152559"
+    },
+    {
+      "image": "rbxassetid://16860392125",
+      "index": 174,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire41",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860392125"
+    },
+    {
+      "image": "rbxassetid://105110270399529",
+      "index": 175,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire101",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://105110270399529"
+    },
+    {
+      "image": "rbxassetid://12362838862",
+      "index": 176,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 20",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362838862"
+    },
+    {
+      "image": "rbxassetid://110407455602582",
+      "index": 177,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Simple Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110407455602582"
+    },
+    {
+      "image": "rbxassetid://16848288027",
+      "index": 178,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16848288027"
+    },
+    {
+      "image": "rbxassetid://103129057324577",
+      "index": 179,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire92",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103129057324577"
+    },
+    {
+      "image": "rbxassetid://125804937717119",
+      "index": 180,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glowing Jagged Stylized Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125804937717119"
+    },
+    {
+      "image": "rbxassetid://15371082237",
+      "index": 181,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Shadow Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15371082237"
+    },
+    {
+      "image": "rbxassetid://7948825861",
+      "index": 182,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 41",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7948825861"
+    },
+    {
+      "image": "rbxassetid://74587256673315",
+      "index": 183,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Stylized Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74587256673315"
+    },
+    {
+      "image": "rbxassetid://12362840124",
+      "index": 184,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 14",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362840124"
+    },
+    {
+      "image": "rbxassetid://16860219678",
+      "index": 185,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860219678"
+    },
+    {
+      "image": "rbxassetid://102469367617599",
+      "index": 186,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire Slash 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102469367617599"
+    },
+    {
+      "image": "rbxassetid://16860298523",
+      "index": 187,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860298523"
+    },
+    {
+      "image": "rbxassetid://13052525496",
+      "index": 188,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Grey Fire Loop",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13052525496"
+    },
+    {
+      "image": "rbxassetid://16845320132",
+      "index": 189,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16845320132"
+    },
+    {
+      "image": "rbxassetid://135363316118060",
+      "index": 190,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dark Stylized Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135363316118060"
+    },
+    {
+      "image": "rbxassetid://80941615719960",
+      "index": 191,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80941615719960"
+    },
+    {
+      "image": "rbxassetid://12362835383",
+      "index": 192,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362835383"
+    },
+    {
+      "image": "rbxassetid://13261053113",
+      "index": 193,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Shadowed Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13261053113"
+    },
+    {
+      "image": "rbxassetid://138419037247220",
+      "index": 194,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Flame Flickering4x4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138419037247220"
+    },
+    {
+      "image": "rbxassetid://16841991986",
+      "index": 195,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16841991986"
+    },
+    {
+      "image": "rbxassetid://107232318503457",
+      "index": 196,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Right flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107232318503457"
+    },
+    {
+      "image": "rbxassetid://11362249226",
+      "index": 197,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fireball Right",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11362249226"
+    },
+    {
+      "image": "rbxassetid://90281990645863",
+      "index": 198,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Abstract Fire Explosion",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90281990645863"
+    },
+    {
+      "image": "rbxassetid://16860407735",
+      "index": 199,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire44",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860407735"
+    },
+    {
+      "image": "rbxassetid://17006155963",
+      "index": 200,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire54",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17006155963"
+    },
+    {
+      "image": "rbxassetid://138505224062756",
+      "index": 201,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flame shape v1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138505224062756"
+    },
+    {
+      "image": "rbxassetid://11964380207",
+      "index": 202,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Glowing Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11964380207"
+    },
+    {
+      "image": "rbxassetid://115177254017876",
+      "index": 203,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Pixelated Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115177254017876"
+    },
+    {
+      "image": "rbxassetid://11846119288",
+      "index": 204,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Topleft Burst",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11846119288"
+    },
+    {
+      "image": "rbxassetid://121001088865254",
+      "index": 205,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121001088865254"
+    },
+    {
+      "image": "rbxassetid://79114375497368",
+      "index": 206,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Glowing Flame Flickering",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79114375497368"
+    },
+    {
+      "image": "rbxassetid://17062560458",
+      "index": 207,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Slash1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17062560458"
+    },
+    {
+      "image": "rbxassetid://16860433161",
+      "index": 208,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire47",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860433161"
+    },
+    {
+      "image": "rbxassetid://72755734598897",
+      "index": 209,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Glass flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72755734598897"
+    },
+    {
+      "image": "rbxassetid://92538430241144",
+      "index": 210,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Dissolving blurry flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92538430241144"
+    },
+    {
+      "image": "rbxassetid://89948242800918",
+      "index": 211,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Drawn flame burst",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89948242800918"
+    },
+    {
+      "image": "rbxassetid://12362835195",
+      "index": 212,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 16",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12362835195"
+    },
+    {
+      "image": "rbxassetid://7948796697",
+      "index": 213,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 40",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7948796697"
+    },
+    {
+      "image": "rbxassetid://98538986520817",
+      "index": 214,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Detailed flame V",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://98538986520817"
+    },
+    {
+      "image": "rbxassetid://16860449733",
+      "index": 215,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire49",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860449733"
+    },
+    {
+      "image": "rbxassetid://102970167758724",
+      "index": 216,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Simple Stylized Flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102970167758724"
+    },
+    {
+      "image": "rbxassetid://14198246675",
+      "index": 217,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic Fire 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14198246675"
+    },
+    {
+      "image": "rbxassetid://70604202165202",
+      "index": 218,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Res Chromatic Fire",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://70604202165202"
+    },
+    {
+      "image": "rbxassetid://13486412595",
+      "index": 219,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Low Res Burst",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13486412595"
+    },
+    {
+      "image": "rbxassetid://135579750139927",
+      "index": 220,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic flame dissolve",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135579750139927"
+    },
+    {
+      "image": "rbxassetid://11362338440",
+      "index": 221,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Orange Flame 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11362338440"
+    },
+    {
+      "image": "rbxassetid://16860284058",
+      "index": 222,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire37",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860284058"
+    },
+    {
+      "image": "rbxassetid://16846725471",
+      "index": 223,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16846725471"
+    },
+    {
+      "image": "rbxassetid://7948830830",
+      "index": 224,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 39",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7948830830"
+    },
+    {
+      "image": "rbxassetid://131823592579327",
+      "index": 225,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Flame shape v7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131823592579327"
+    },
+    {
+      "image": "rbxassetid://16860377662",
+      "index": 226,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire40",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860377662"
+    },
+    {
+      "image": "rbxassetid://70418763522849",
+      "index": 227,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Upwards flame pillar",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://70418763522849"
+    },
+    {
+      "image": "rbxassetid://101214951207162",
+      "index": 228,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Unique Light Fire Explosion",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101214951207162"
+    },
+    {
+      "image": "rbxassetid://86179193620071",
+      "index": 229,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Orange flame",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86179193620071"
+    },
+    {
+      "image": "rbxassetid://16860424478",
+      "index": 230,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Fire46",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16860424478"
+    },
+    {
+      "image": "rbxassetid://7948793250",
+      "index": 231,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 35",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7948793250"
+    },
+    {
+      "image": "rbxassetid://99477316568064",
+      "index": 232,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 19",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99477316568064"
+    },
+    {
+      "image": "rbxassetid://89225496911156",
+      "index": 233,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Realistic Fire 32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89225496911156"
+    }
+  ],
+  "search": "",
+  "window_height": 850,
+  "active_filter": "fire",
+  "missing_indexes": []
+}

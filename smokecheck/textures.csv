@@ -1,0 +1,6 @@
+﻿key;asset_id;name;uri;tags;kind;grid;grid_source;id_status;image_path;preview_path;image_status;image_error;width;height;creator;raw_uris;normalization_warnings;aliases
+a50ba704ea105d439adc2ef3;137352418041966;;rbxassetid://137352418041966;[];static;0;static_rect;valid;;;not_requested;;;;;"[""rbxassetid://137352418041966""]";[];[]
+842977e9ecf7fecfcbc9c354;12364048682; triangle with internal angular notches;rbxassetid://12364048682;[];static;0;static_rect;valid;;;not_requested;;;;;"[""rbxassetid://12364048682""]";[];[]
+38647226eda7e67c6c62de80;85335370754480;100 Emoji;rbxassetid://85335370754480;[];flipbook;8;inferred_from_1024_sheet;valid;;;not_requested;;;;;"[""rbxassetid://85335370754480""]";[];[]
+5dc776837dfc24448806ef7f;6472896673;180DegreeCube;rbxassetid://6472896673;[];static;0;static_rect;valid;;;not_requested;;;;;"[""rbxassetid://6472896673""]";[];[]
+b09653c47724435b8db1846b;83146942466399;1Other;rbxassetid://83146942466399;[];static;0;static_rect;valid;;;not_requested;;;;;"[""rbxassetid://83146942466399""]";[];[]

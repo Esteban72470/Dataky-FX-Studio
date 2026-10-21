@@ -1,0 +1,1149 @@
+[
+  {
+    "key": "96d0e0937b6b76b88f7b040a",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Basic Upwards Spikes",
+    "asset_id": "4316118084",
+    "uri": "rbxassetid://4316118084",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4316118084",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4316118084"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4316118084",
+        "uri": "rbxassetid://4316118084",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4316118084",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 129,
+        "raw_uri": "rbxassetid://4316118084",
+        "image": "",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4316118084",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 15,
+        "raw_uri": "rbxassetid://4316118084",
+        "image": "",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4316118084",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Upwards Alternative Spike"
+    ],
+    "image_path": "images/4316118084.png",
+    "preview_path": "images/4316118084.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "bcbfb9664d14df17259f9fac",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Complex Flattened Spikes",
+    "asset_id": "489415286",
+    "uri": "rbxassetid://489415286",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://489415286",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://489415286"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "489415286",
+        "uri": "rbxassetid://489415286",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://489415286",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 37,
+        "raw_uri": "rbxassetid://489415286",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415286",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 4,
+        "raw_uri": "rbxassetid://489415286",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415286",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Upwards Thick Spike"
+    ],
+    "image_path": "images/489415286.png",
+    "preview_path": "images/489415286.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "737b9321253587bf4fe0e50f",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Even Spikes",
+    "asset_id": "2620058357",
+    "uri": "rbxassetid://2620058357",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2620058357",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2620058357"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2620058357",
+        "uri": "rbxassetid://2620058357",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2620058357",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 56,
+        "raw_uri": "rbxassetid://2620058357",
+        "image": "",
+        "mesh_uri": "rbxassetid://2620058357",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2620058357",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 7,
+        "raw_uri": "rbxassetid://2620058357",
+        "image": "",
+        "mesh_uri": "rbxassetid://2620058357",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2620058357",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Spikes"
+    ],
+    "image_path": "images/2620058357.png",
+    "preview_path": "images/2620058357.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "0abb4bd7a9d7461595390d38",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Flattened Spikes",
+    "asset_id": "489415447",
+    "uri": "rbxassetid://489415447",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://489415447",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://489415447"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "489415447",
+        "uri": "rbxassetid://489415447",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://489415447",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 75,
+        "raw_uri": "rbxassetid://489415447",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415447",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415447",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 10,
+        "raw_uri": "rbxassetid://489415447",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415447",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415447",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/489415447.png",
+    "preview_path": "images/489415447.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "5b6078a328206c89140ccacd",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Ground Spikes",
+    "asset_id": "967645205",
+    "uri": "rbxassetid://967645205",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://967645205",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://967645205"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "967645205",
+        "uri": "rbxassetid://967645205",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://967645205",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 39,
+        "raw_uri": "rbxassetid://967645205",
+        "image": "",
+        "mesh_uri": "rbxassetid://967645205",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://967645205",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 5,
+        "raw_uri": "rbxassetid://967645205",
+        "image": "",
+        "mesh_uri": "rbxassetid://967645205",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://967645205",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/967645205.png",
+    "preview_path": "images/967645205.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "de0595f44f0624d41fafa410",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inside Out Spikes",
+    "asset_id": "92588061",
+    "uri": "rbxassetid://92588061",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://92588061",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://92588061"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "92588061",
+        "uri": "rbxassetid://92588061",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://92588061",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 91,
+        "raw_uri": "rbxassetid://92588061",
+        "image": "",
+        "mesh_uri": "rbxassetid://92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://92588061",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 13,
+        "raw_uri": "rbxassetid://92588061",
+        "image": "",
+        "mesh_uri": "rbxassetid://92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://92588061",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Upwards Layered Spike"
+    ],
+    "image_path": "images/92588061.png",
+    "preview_path": "images/92588061.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "94558018b167d3088dc25f4b",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Inverted Spike",
+    "asset_id": "1826588507",
+    "uri": "rbxassetid://1826588507",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://1826588507",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://1826588507"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "1826588507",
+        "uri": "rbxassetid://1826588507",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://1826588507",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 52,
+        "raw_uri": "rbxassetid://1826588507",
+        "image": "",
+        "mesh_uri": "rbxassetid://1826588507",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1826588507",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 6,
+        "raw_uri": "rbxassetid://1826588507",
+        "image": "",
+        "mesh_uri": "rbxassetid://1826588507",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1826588507",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/1826588507.png",
+    "preview_path": "images/1826588507.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "df555bce1e1632d24ff525a8",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Simpler Flattened Spikes",
+    "asset_id": "489415572",
+    "uri": "rbxassetid://489415572",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://489415572",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://489415572"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "489415572",
+        "uri": "rbxassetid://489415572",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://489415572",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 61,
+        "raw_uri": "rbxassetid://489415572",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415572",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415572",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 8,
+        "raw_uri": "rbxassetid://489415572",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415572",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415572",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [],
+    "image_path": "images/489415572.png",
+    "preview_path": "images/489415572.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "36e93327fda75f0449420a2e",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Spikes",
+    "asset_id": "2620058357",
+    "uri": "rbxassetid://2620058357",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2620058357",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2620058357"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2620058357",
+        "uri": "rbxassetid://2620058357",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2620058357",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 151,
+        "raw_uri": "rbxassetid://2620058357",
+        "image": "",
+        "mesh_uri": "rbxassetid://2620058357",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2620058357",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 17,
+        "raw_uri": "rbxassetid://2620058357",
+        "image": "",
+        "mesh_uri": "rbxassetid://2620058357",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2620058357",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Even Spikes"
+    ],
+    "image_path": "images/2620058357.png",
+    "preview_path": "images/2620058357.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "2e5edfd6c85b372a6cde048b",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Thick Floor",
+    "asset_id": "2788580235",
+    "uri": "rbxassetid://2788580235",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2788580235",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2788580235"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2788580235",
+        "uri": "rbxassetid://2788580235",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2788580235",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 140,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 16,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Shockwave"
+    ],
+    "image_path": "images/2788580235.png",
+    "preview_path": "images/2788580235.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "a80f9b4af0dd767f58493cc7",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upwards Alternative Spike",
+    "asset_id": "4316118084",
+    "uri": "rbxassetid://4316118084",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4316118084",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4316118084"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4316118084",
+        "uri": "rbxassetid://4316118084",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4316118084",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 127,
+        "raw_uri": "rbxassetid://4316118084",
+        "image": "",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4316118084",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 14,
+        "raw_uri": "rbxassetid://4316118084",
+        "image": "",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4316118084",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Basic Upwards Spikes"
+    ],
+    "image_path": "images/4316118084.png",
+    "preview_path": "images/4316118084.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "fb8af0d1d102774231119891",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upwards Jagged Spike",
+    "asset_id": "2689837482",
+    "uri": "rbxassetid://2689837482",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2689837482",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2689837482"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2689837482",
+        "uri": "rbxassetid://2689837482",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2689837482",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 27,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 3,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Cartoony Shockwave"
+    ],
+    "image_path": "images/2689837482.png",
+    "preview_path": "images/2689837482.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "7c73a5aa978aaec842ddbb39",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upwards Layered Spike",
+    "asset_id": "92588061",
+    "uri": "rbxassetid://92588061",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://92588061",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://92588061"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "92588061",
+        "uri": "rbxassetid://92588061",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://92588061",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 86,
+        "raw_uri": "rbxassetid://92588061",
+        "image": "",
+        "mesh_uri": "rbxassetid://92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://92588061",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 11,
+        "raw_uri": "rbxassetid://92588061",
+        "image": "",
+        "mesh_uri": "rbxassetid://92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://92588061",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Inside Out Spikes"
+    ],
+    "image_path": "images/92588061.png",
+    "preview_path": "images/92588061.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "da95bc824a956ebb625347c6",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upwards Spike",
+    "asset_id": "4124211540",
+    "uri": "rbxassetid://4124211540",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4124211540",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4124211540"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4124211540",
+        "uri": "rbxassetid://4124211540",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4124211540",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 90,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 12,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Simple Shockwave"
+    ],
+    "image_path": "images/4124211540.png",
+    "preview_path": "images/4124211540.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "6e9e3db7e270bf44c87eff99",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Upwards Thick Spike",
+    "asset_id": "489415286",
+    "uri": "rbxassetid://489415286",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://489415286",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://489415286"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "489415286",
+        "uri": "rbxassetid://489415286",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://489415286",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Spikes"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 71,
+        "raw_uri": "rbxassetid://489415286",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415286",
+            "label": "MeshId"
+          }
+        ]
+      },
+      {
+        "source": "Spikes",
+        "index": 9,
+        "raw_uri": "rbxassetid://489415286",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415286",
+            "label": "MeshId"
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Complex Flattened Spikes"
+    ],
+    "image_path": "images/489415286.png",
+    "preview_path": "images/489415286.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 2,
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  }
+]

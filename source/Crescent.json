@@ -1,0 +1,4227 @@
+{
+  "label": "Crescent",
+  "canvas_height": 3875,
+  "captured_at": "2026-10-20T23:14:24Z",
+  "max_index": 303,
+  "records": [
+    {
+      "image": "rbxassetid://76727330573970",
+      "index": 3,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76727330573970"
+    },
+    {
+      "image": "rbxassetid://376023896",
+      "index": 4,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New139",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://376023896"
+    },
+    {
+      "image": "rbxassetid://13580374991",
+      "index": 5,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New194",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13580374991"
+    },
+    {
+      "image": "rbxassetid://10423599002",
+      "index": 6,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New38",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10423599002"
+    },
+    {
+      "image": "rbxassetid://13580347517",
+      "index": 7,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wind Crescent",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://13580347517"
+    },
+    {
+      "image": "rbxassetid://1084963972",
+      "index": 8,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New138",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1084963972"
+    },
+    {
+      "image": "rbxassetid://140187489362844",
+      "index": 9,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New46",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://140187489362844"
+    },
+    {
+      "image": "rbxassetid://87180053247428",
+      "index": 10,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Dissapearing Crescent",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://87180053247428"
+    },
+    {
+      "image": "rbxassetid://17388445570",
+      "index": 11,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent31",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388445570"
+    },
+    {
+      "image": "rbxassetid://10263067827",
+      "index": 12,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New175",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10263067827"
+    },
+    {
+      "image": "rbxassetid://18231592394",
+      "index": 13,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New103",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18231592394"
+    },
+    {
+      "image": "rbxassetid://12194043668",
+      "index": 14,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Thinner Crescent Fading",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://12194043668"
+    },
+    {
+      "image": "rbxassetid://77775297425294",
+      "index": 15,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Water",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77775297425294"
+    },
+    {
+      "image": "rbxassetid://14163204987",
+      "index": 16,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New208",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14163204987"
+    },
+    {
+      "image": "rbxassetid://107279202345971",
+      "index": 17,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Thin",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107279202345971"
+    },
+    {
+      "image": "rbxassetid://6246398215",
+      "index": 18,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New87",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6246398215"
+    },
+    {
+      "image": "rbxassetid://15268219678",
+      "index": 19,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New148",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268219678"
+    },
+    {
+      "image": "rbxassetid://14054635072",
+      "index": 20,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New209",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14054635072"
+    },
+    {
+      "image": "rbxassetid://8047796070",
+      "index": 21,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New121",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8047796070"
+    },
+    {
+      "image": "rbxassetid://8821337290",
+      "index": 22,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New77",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8821337290"
+    },
+    {
+      "image": "rbxassetid://12402894729",
+      "index": 23,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New220",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12402894729"
+    },
+    {
+      "image": "rbxassetid://16434901408",
+      "index": 24,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New20",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16434901408"
+    },
+    {
+      "image": "rbxassetid://17388366339",
+      "index": 25,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent14",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388366339"
+    },
+    {
+      "image": "rbxassetid://7216847765",
+      "index": 26,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New195",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216847765"
+    },
+    {
+      "image": "rbxassetid://13405807158",
+      "index": 27,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fading Skinny Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://13405807158"
+    },
+    {
+      "image": "rbxassetid://13393479327",
+      "index": 28,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Onesided Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://13393479327"
+    },
+    {
+      "image": "rbxassetid://95760739419304",
+      "index": 29,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash29",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://95760739419304"
+    },
+    {
+      "image": "rbxassetid://13580369388",
+      "index": 30,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New179",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13580369388"
+    },
+    {
+      "image": "rbxassetid://119702213596443",
+      "index": 31,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Shaded Slash 18",
+      "rect_offset": [
+        512,
+        256
+      ],
+      "raw_uri": "rbxassetid://119702213596443"
+    },
+    {
+      "image": "rbxassetid://17388367183",
+      "index": 32,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367183"
+    },
+    {
+      "image": "rbxassetid://17388417211",
+      "index": 33,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388417211"
+    },
+    {
+      "image": "rbxassetid://15510257064",
+      "index": 34,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New57",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15510257064"
+    },
+    {
+      "image": "rbxassetid://17388366010",
+      "index": 35,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent16",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388366010"
+    },
+    {
+      "image": "rbxassetid://17388446327",
+      "index": 36,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent37",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388446327"
+    },
+    {
+      "image": "rbxassetid://13280160427",
+      "index": 37,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New154",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13280160427"
+    },
+    {
+      "image": "rbxassetid://19000059361",
+      "index": 38,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New128",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://19000059361"
+    },
+    {
+      "image": "rbxassetid://17388444841",
+      "index": 39,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388444841"
+    },
+    {
+      "image": "rbxassetid://82798669195289",
+      "index": 40,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Watery Crescent",
+      "rect_offset": [
+        512,
+        256
+      ],
+      "raw_uri": "rbxassetid://82798669195289"
+    },
+    {
+      "image": "rbxassetid://12363668639",
+      "index": 41,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New18",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12363668639"
+    },
+    {
+      "image": "rbxassetid://6700009083",
+      "index": 42,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New178",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6700009083"
+    },
+    {
+      "image": "rbxassetid://137966731742241",
+      "index": 43,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137966731742241"
+    },
+    {
+      "image": "rbxassetid://6897810667",
+      "index": 44,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6897810667"
+    },
+    {
+      "image": "rbxassetid://17069553225",
+      "index": 45,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash17",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://17069553225"
+    },
+    {
+      "image": "rbxassetid://12491910393",
+      "index": 46,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New162",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12491910393"
+    },
+    {
+      "image": "rbxassetid://3916186365",
+      "index": 47,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New134",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://3916186365"
+    },
+    {
+      "image": "rbxassetid://14734941171",
+      "index": 48,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New127",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14734941171"
+    },
+    {
+      "image": "rbxassetid://13272096695",
+      "index": 49,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New201",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13272096695"
+    },
+    {
+      "image": "rbxassetid://8187307109",
+      "index": 50,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New86",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8187307109"
+    },
+    {
+      "image": "rbxassetid://94861951141388",
+      "index": 51,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Shaded Slash 26",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://94861951141388"
+    },
+    {
+      "image": "rbxassetid://122460061985642",
+      "index": 52,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Detailed",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122460061985642"
+    },
+    {
+      "image": "rbxassetid://17388367693",
+      "index": 53,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367693"
+    },
+    {
+      "image": "rbxassetid://12491910850",
+      "index": 54,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New145",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12491910850"
+    },
+    {
+      "image": "rbxassetid://8490559232",
+      "index": 55,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blurred",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8490559232"
+    },
+    {
+      "image": "rbxassetid://17388367578",
+      "index": 56,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367578"
+    },
+    {
+      "image": "rbxassetid://17388367001",
+      "index": 57,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367001"
+    },
+    {
+      "image": "rbxassetid://11037067294",
+      "index": 58,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New16",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037067294"
+    },
+    {
+      "image": "rbxassetid://17388367459",
+      "index": 59,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367459"
+    },
+    {
+      "image": "rbxassetid://13695135137",
+      "index": 60,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New143",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13695135137"
+    },
+    {
+      "image": "rbxassetid://14028720860",
+      "index": 61,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fire Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://14028720860"
+    },
+    {
+      "image": "rbxassetid://14820074083",
+      "index": 62,
+      "rect_size": [
+        37.5,
+        37.5
+      ],
+      "name": "Low Res Crescent",
+      "rect_offset": [
+        112.5,
+        37.5
+      ],
+      "raw_uri": "rbxassetid://14820074083"
+    },
+    {
+      "image": "rbxassetid://18450708444",
+      "index": 63,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New161",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18450708444"
+    },
+    {
+      "image": "rbxassetid://9670499279",
+      "index": 64,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New80",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9670499279"
+    },
+    {
+      "image": "rbxassetid://12491910703",
+      "index": 65,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New156",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12491910703"
+    },
+    {
+      "image": "rbxassetid://6863041721",
+      "index": 66,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New158",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6863041721"
+    },
+    {
+      "image": "rbxassetid://15232758525",
+      "index": 67,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New104",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15232758525"
+    },
+    {
+      "image": "rbxassetid://14106674607",
+      "index": 68,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Grey Fading Crescent",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://14106674607"
+    },
+    {
+      "image": "rbxassetid://18450683871",
+      "index": 69,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New84",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18450683871"
+    },
+    {
+      "image": "rbxassetid://11037066843",
+      "index": 70,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Layered 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037066843"
+    },
+    {
+      "image": "rbxassetid://11669829539",
+      "index": 71,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New81",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11669829539"
+    },
+    {
+      "image": "rbxassetid://17388368201",
+      "index": 72,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388368201"
+    },
+    {
+      "image": "rbxassetid://17388445822",
+      "index": 73,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388445822"
+    },
+    {
+      "image": "rbxassetid://8047533775",
+      "index": 74,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New198",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8047533775"
+    },
+    {
+      "image": "rbxassetid://90157353623073",
+      "index": 75,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New61",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90157353623073"
+    },
+    {
+      "image": "rbxassetid://9563708576",
+      "index": 76,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9563708576"
+    },
+    {
+      "image": "rbxassetid://7092071889",
+      "index": 77,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7092071889"
+    },
+    {
+      "image": "rbxassetid://14197927959",
+      "index": 78,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New159",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14197927959"
+    },
+    {
+      "image": "rbxassetid://16520870801",
+      "index": 79,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New142",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16520870801"
+    },
+    {
+      "image": "rbxassetid://15811547630",
+      "index": 80,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New70",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15811547630"
+    },
+    {
+      "image": "rbxassetid://17388365063",
+      "index": 81,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent21",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388365063"
+    },
+    {
+      "image": "rbxassetid://86398684443004",
+      "index": 82,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Noisy Fading Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://86398684443004"
+    },
+    {
+      "image": "rbxassetid://127353288690632",
+      "index": 83,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New93",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127353288690632"
+    },
+    {
+      "image": "rbxassetid://17388416763",
+      "index": 84,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388416763"
+    },
+    {
+      "image": "rbxassetid://17388444725",
+      "index": 85,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388444725"
+    },
+    {
+      "image": "rbxassetid://7387058218",
+      "index": 86,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New98",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7387058218"
+    },
+    {
+      "image": "rbxassetid://17388366478",
+      "index": 87,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388366478"
+    },
+    {
+      "image": "rbxassetid://128406796622865",
+      "index": 88,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Simple Slash 2",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://128406796622865"
+    },
+    {
+      "image": "rbxassetid://18625401193",
+      "index": 89,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New202",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18625401193"
+    },
+    {
+      "image": "rbxassetid://17388366135",
+      "index": 90,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent15",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388366135"
+    },
+    {
+      "image": "rbxassetid://8247973361",
+      "index": 91,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New43",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8247973361"
+    },
+    {
+      "image": "rbxassetid://88696465533432",
+      "index": 92,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Long Fading Crescent",
+      "rect_offset": [
+        128,
+        128
+      ],
+      "raw_uri": "rbxassetid://88696465533432"
+    },
+    {
+      "image": "rbxassetid://11037069395",
+      "index": 93,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New174",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037069395"
+    },
+    {
+      "image": "rbxassetid://15694390666",
+      "index": 94,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New55",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15694390666"
+    },
+    {
+      "image": "rbxassetid://13280151063",
+      "index": 95,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New165",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13280151063"
+    },
+    {
+      "image": "rbxassetid://14765899912",
+      "index": 96,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14765899912"
+    },
+    {
+      "image": "rbxassetid://16511002856",
+      "index": 97,
+      "rect_size": [
+        64,
+        64
+      ],
+      "name": "Smoked Crescent",
+      "rect_offset": [
+        448,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511002856"
+    },
+    {
+      "image": "rbxassetid://5726444189",
+      "index": 98,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New147",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://5726444189"
+    },
+    {
+      "image": "rbxassetid://15268221891",
+      "index": 99,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New102",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268221891"
+    },
+    {
+      "image": "rbxassetid://11973936966",
+      "index": 100,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New224",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11973936966"
+    },
+    {
+      "image": "rbxassetid://11037068537",
+      "index": 101,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New188",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037068537"
+    },
+    {
+      "image": "rbxassetid://13520098330",
+      "index": 102,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New215",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13520098330"
+    },
+    {
+      "image": "rbxassetid://15728405620",
+      "index": 103,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blur 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15728405620"
+    },
+    {
+      "image": "rbxassetid://13580376896",
+      "index": 104,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Layered 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13580376896"
+    },
+    {
+      "image": "rbxassetid://5700002681",
+      "index": 105,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New193",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://5700002681"
+    },
+    {
+      "image": "rbxassetid://134325679024967",
+      "index": 106,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New49",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://134325679024967"
+    },
+    {
+      "image": "rbxassetid://121293421000148",
+      "index": 107,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New73",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121293421000148"
+    },
+    {
+      "image": "rbxassetid://77112075267827",
+      "index": 108,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New131",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77112075267827"
+    },
+    {
+      "image": "rbxassetid://96351874787069",
+      "index": 109,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New91",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://96351874787069"
+    },
+    {
+      "image": "rbxassetid://18453345631",
+      "index": 110,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New40",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18453345631"
+    },
+    {
+      "image": "rbxassetid://80239165383797",
+      "index": 111,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New58",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80239165383797"
+    },
+    {
+      "image": "rbxassetid://15190416756",
+      "index": 112,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New167",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15190416756"
+    },
+    {
+      "image": "rbxassetid://15076330989",
+      "index": 113,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Low Res Expansion",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://15076330989"
+    },
+    {
+      "image": "rbxassetid://17388445124",
+      "index": 114,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent29",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388445124"
+    },
+    {
+      "image": "rbxassetid://12402858850",
+      "index": 115,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New219",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12402858850"
+    },
+    {
+      "image": "rbxassetid://17388445418",
+      "index": 116,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent30",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388445418"
+    },
+    {
+      "image": "rbxassetid://10352551950",
+      "index": 117,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10352551950"
+    },
+    {
+      "image": "rbxassetid://110047496873865",
+      "index": 118,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New76",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110047496873865"
+    },
+    {
+      "image": "rbxassetid://4543893907",
+      "index": 119,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New85",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://4543893907"
+    },
+    {
+      "image": "rbxassetid://17388446222",
+      "index": 120,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent36",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388446222"
+    },
+    {
+      "image": "rbxassetid://16511756795",
+      "index": 121,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fading Layered Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://16511756795"
+    },
+    {
+      "image": "rbxassetid://1266209745",
+      "index": 122,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New200",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1266209745"
+    },
+    {
+      "image": "rbxassetid://11636552631",
+      "index": 123,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New172",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11636552631"
+    },
+    {
+      "image": "rbxassetid://12386371530",
+      "index": 124,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New51",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12386371530"
+    },
+    {
+      "image": "rbxassetid://6250126210",
+      "index": 125,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Layered 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6250126210"
+    },
+    {
+      "image": "rbxassetid://13556796799",
+      "index": 126,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New146",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13556796799"
+    },
+    {
+      "image": "rbxassetid://16924973213",
+      "index": 127,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New14",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16924973213"
+    },
+    {
+      "image": "rbxassetid://12470406098",
+      "index": 128,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New164",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12470406098"
+    },
+    {
+      "image": "rbxassetid://13556793224",
+      "index": 129,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New216",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13556793224"
+    },
+    {
+      "image": "rbxassetid://13276348686",
+      "index": 130,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New41",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13276348686"
+    },
+    {
+      "image": "rbxassetid://100742388644780",
+      "index": 131,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New31",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100742388644780"
+    },
+    {
+      "image": "rbxassetid://12817881196",
+      "index": 132,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Low Res Fading Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://12817881196"
+    },
+    {
+      "image": "rbxassetid://12104767407",
+      "index": 133,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New192",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12104767407"
+    },
+    {
+      "image": "rbxassetid://17388365404",
+      "index": 134,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent20",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388365404"
+    },
+    {
+      "image": "rbxassetid://117233312299691",
+      "index": 135,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Gap Crescent",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://117233312299691"
+    },
+    {
+      "image": "rbxassetid://17388445727",
+      "index": 136,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388445727"
+    },
+    {
+      "image": "rbxassetid://17388366674",
+      "index": 137,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388366674"
+    },
+    {
+      "image": "rbxassetid://14734862876",
+      "index": 138,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New144",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14734862876"
+    },
+    {
+      "image": "rbxassetid://13350524267",
+      "index": 139,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Basic Expanding Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://13350524267"
+    },
+    {
+      "image": "rbxassetid://7216847514",
+      "index": 140,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New182",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216847514"
+    },
+    {
+      "image": "rbxassetid://14522749246",
+      "index": 141,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Pixelled Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://14522749246"
+    },
+    {
+      "image": "rbxassetid://102568805474714",
+      "index": 142,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New95",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102568805474714"
+    },
+    {
+      "image": "rbxassetid://106997786832212",
+      "index": 143,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://106997786832212"
+    },
+    {
+      "image": "rbxassetid://17388417332",
+      "index": 144,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388417332"
+    },
+    {
+      "image": "rbxassetid://8077816591",
+      "index": 145,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New211",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8077816591"
+    },
+    {
+      "image": "rbxassetid://121148164489745",
+      "index": 146,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash22",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://121148164489745"
+    },
+    {
+      "image": "rbxassetid://6569118042",
+      "index": 147,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New71",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://6569118042"
+    },
+    {
+      "image": "rbxassetid://82073447716302",
+      "index": 148,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New62",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82073447716302"
+    },
+    {
+      "image": "rbxassetid://76060187978111",
+      "index": 149,
+      "rect_size": [
+        512,
+        512
+      ],
+      "name": "Noisy Crescents",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://76060187978111"
+    },
+    {
+      "image": "rbxassetid://13539864728",
+      "index": 150,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New152",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13539864728"
+    },
+    {
+      "image": "rbxassetid://7415024711",
+      "index": 151,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New191",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7415024711"
+    },
+    {
+      "image": "rbxassetid://7216852121",
+      "index": 152,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New186",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216852121"
+    },
+    {
+      "image": "rbxassetid://13378750401",
+      "index": 153,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Expanding Energy",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://13378750401"
+    },
+    {
+      "image": "rbxassetid://8084911316",
+      "index": 154,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New67",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8084911316"
+    },
+    {
+      "image": "rbxassetid://16511969009",
+      "index": 155,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New101",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511969009"
+    },
+    {
+      "image": "rbxassetid://13938473088",
+      "index": 156,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New60",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13938473088"
+    },
+    {
+      "image": "rbxassetid://9841238252",
+      "index": 157,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New223",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9841238252"
+    },
+    {
+      "image": "rbxassetid://16370338279",
+      "index": 158,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16370338279"
+    },
+    {
+      "image": "rbxassetid://12403113489",
+      "index": 159,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New15",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12403113489"
+    },
+    {
+      "image": "rbxassetid://15232761257",
+      "index": 160,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New176",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15232761257"
+    },
+    {
+      "image": "rbxassetid://12706180171",
+      "index": 161,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New36",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12706180171"
+    },
+    {
+      "image": "rbxassetid://99925185052573",
+      "index": 162,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash28",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://99925185052573"
+    },
+    {
+      "image": "rbxassetid://12506449597",
+      "index": 163,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New136",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12506449597"
+    },
+    {
+      "image": "rbxassetid://10031303479",
+      "index": 164,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New169",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10031303479"
+    },
+    {
+      "image": "rbxassetid://14322954718",
+      "index": 165,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New56",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14322954718"
+    },
+    {
+      "image": "rbxassetid://13366360838",
+      "index": 166,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New177",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13366360838"
+    },
+    {
+      "image": "rbxassetid://139325240473655",
+      "index": 167,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New78",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://139325240473655"
+    },
+    {
+      "image": "rbxassetid://16445026823",
+      "index": 168,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New72",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16445026823"
+    },
+    {
+      "image": "rbxassetid://13366366767",
+      "index": 169,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New184",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13366366767"
+    },
+    {
+      "image": "rbxassetid://17388416918",
+      "index": 170,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388416918"
+    },
+    {
+      "image": "rbxassetid://18838818398",
+      "index": 171,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New132",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18838818398"
+    },
+    {
+      "image": "rbxassetid://109326101118222",
+      "index": 172,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Patchy Crescent",
+      "rect_offset": [
+        896,
+        0
+      ],
+      "raw_uri": "rbxassetid://109326101118222"
+    },
+    {
+      "image": "rbxassetid://118490842148615",
+      "index": 173,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Blurry Crescent Water",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://118490842148615"
+    },
+    {
+      "image": "rbxassetid://17388417083",
+      "index": 174,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent24",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388417083"
+    },
+    {
+      "image": "rbxassetid://13556694436",
+      "index": 175,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New181",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13556694436"
+    },
+    {
+      "image": "rbxassetid://89057266603649",
+      "index": 176,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Firing Crescent",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://89057266603649"
+    },
+    {
+      "image": "rbxassetid://17388368090",
+      "index": 177,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388368090"
+    },
+    {
+      "image": "rbxassetid://11037486231",
+      "index": 178,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037486231"
+    },
+    {
+      "image": "rbxassetid://13819755999",
+      "index": 179,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New217",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13819755999"
+    },
+    {
+      "image": "rbxassetid://13388206804",
+      "index": 180,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New50",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13388206804"
+    },
+    {
+      "image": "rbxassetid://14221277745",
+      "index": 181,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New225",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14221277745"
+    },
+    {
+      "image": "rbxassetid://13269732671",
+      "index": 182,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13269732671"
+    },
+    {
+      "image": "rbxassetid://13553050928",
+      "index": 183,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Very Thin Crescent",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://13553050928"
+    },
+    {
+      "image": "rbxassetid://13388189030",
+      "index": 184,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New197",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13388189030"
+    },
+    {
+      "image": "rbxassetid://17388366823",
+      "index": 185,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388366823"
+    },
+    {
+      "image": "rbxassetid://109190615782079",
+      "index": 186,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash23",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://109190615782079"
+    },
+    {
+      "image": "rbxassetid://13412718273",
+      "index": 187,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Smoother Fading Slash",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://13412718273"
+    },
+    {
+      "image": "rbxassetid://138761801923749",
+      "index": 188,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://138761801923749"
+    },
+    {
+      "image": "rbxassetid://18453206591",
+      "index": 189,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New63",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18453206591"
+    },
+    {
+      "image": "rbxassetid://5700002424",
+      "index": 190,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New171",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://5700002424"
+    },
+    {
+      "image": "rbxassetid://17388367329",
+      "index": 191,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367329"
+    },
+    {
+      "image": "rbxassetid://7530718892",
+      "index": 192,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New221",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7530718892"
+    },
+    {
+      "image": "rbxassetid://17388446484",
+      "index": 193,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent38",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388446484"
+    },
+    {
+      "image": "rbxassetid://17085222506",
+      "index": 194,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Smokey Crescent",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://17085222506"
+    },
+    {
+      "image": "rbxassetid://15232756680",
+      "index": 195,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New83",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15232756680"
+    },
+    {
+      "image": "rbxassetid://551638771",
+      "index": 196,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://551638771"
+    },
+    {
+      "image": "rbxassetid://12402863039",
+      "index": 197,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Blur 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12402863039"
+    },
+    {
+      "image": "rbxassetid://13556795459",
+      "index": 198,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New52",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13556795459"
+    },
+    {
+      "image": "rbxassetid://14006737380",
+      "index": 199,
+      "rect_size": [
+        512,
+        512
+      ],
+      "name": "Energy Crescent",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://14006737380"
+    },
+    {
+      "image": "rbxassetid://13367229656",
+      "index": 200,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New149",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13367229656"
+    },
+    {
+      "image": "rbxassetid://7848213224",
+      "index": 201,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New203",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7848213224"
+    },
+    {
+      "image": "rbxassetid://125216370484416",
+      "index": 202,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125216370484416"
+    },
+    {
+      "image": "rbxassetid://133464665351316",
+      "index": 203,
+      "rect_size": [
+        512,
+        512
+      ],
+      "name": "Thin Glowing Line",
+      "rect_offset": [
+        512,
+        0
+      ],
+      "raw_uri": "rbxassetid://133464665351316"
+    },
+    {
+      "image": "rbxassetid://82276817374255",
+      "index": 204,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New74",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82276817374255"
+    },
+    {
+      "image": "rbxassetid://121618608400866",
+      "index": 205,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "LE Crescent Dusty",
+      "rect_offset": [
+        896,
+        0
+      ],
+      "raw_uri": "rbxassetid://121618608400866"
+    },
+    {
+      "image": "rbxassetid://13539863591",
+      "index": 206,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New59",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13539863591"
+    },
+    {
+      "image": "rbxassetid://17223603454",
+      "index": 207,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17223603454"
+    },
+    {
+      "image": "rbxassetid://7265755321",
+      "index": 208,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New173",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7265755321"
+    },
+    {
+      "image": "rbxassetid://7387037753",
+      "index": 209,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New97",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7387037753"
+    },
+    {
+      "image": "rbxassetid://10214381323",
+      "index": 210,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New21",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10214381323"
+    },
+    {
+      "image": "rbxassetid://15683692190",
+      "index": 211,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New64",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15683692190"
+    },
+    {
+      "image": "rbxassetid://18453224778",
+      "index": 212,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New125",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18453224778"
+    },
+    {
+      "image": "rbxassetid://133317027085597",
+      "index": 213,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New126",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://133317027085597"
+    },
+    {
+      "image": "rbxassetid://13550807043",
+      "index": 214,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Onesided Crescent Expansion",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://13550807043"
+    },
+    {
+      "image": "rbxassetid://13492803558",
+      "index": 215,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New130",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13492803558"
+    },
+    {
+      "image": "rbxassetid://13580370268",
+      "index": 216,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fancy Crescent 2",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://13580370268"
+    },
+    {
+      "image": "rbxassetid://13556736725",
+      "index": 217,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New199",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13556736725"
+    },
+    {
+      "image": "rbxassetid://14083067299",
+      "index": 218,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Orange Crescent",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://14083067299"
+    },
+    {
+      "image": "rbxassetid://87534598082560",
+      "index": 219,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87534598082560"
+    },
+    {
+      "image": "rbxassetid://8819682608",
+      "index": 220,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New206",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8819682608"
+    },
+    {
+      "image": "rbxassetid://94349201909210",
+      "index": 221,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Growing Crescent",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://94349201909210"
+    },
+    {
+      "image": "rbxassetid://17388445951",
+      "index": 222,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388445951"
+    },
+    {
+      "image": "rbxassetid://13832097149",
+      "index": 223,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New66",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13832097149"
+    },
+    {
+      "image": "rbxassetid://17388365742",
+      "index": 224,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent18",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388365742"
+    },
+    {
+      "image": "rbxassetid://13972642464",
+      "index": 225,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Chromatic2",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://13972642464"
+    },
+    {
+      "image": "rbxassetid://10927170198",
+      "index": 226,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New140",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10927170198"
+    },
+    {
+      "image": "rbxassetid://10335159416",
+      "index": 227,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New96",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10335159416"
+    },
+    {
+      "image": "rbxassetid://10558425570",
+      "index": 228,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New190",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10558425570"
+    },
+    {
+      "image": "rbxassetid://12389942313",
+      "index": 229,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New100",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12389942313"
+    },
+    {
+      "image": "rbxassetid://137190544252210",
+      "index": 230,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New129",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137190544252210"
+    },
+    {
+      "image": "rbxassetid://17388367856",
+      "index": 231,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367856"
+    },
+    {
+      "image": "rbxassetid://15268215353",
+      "index": 232,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New19",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268215353"
+    },
+    {
+      "image": "rbxassetid://12922845759",
+      "index": 233,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12922845759"
+    },
+    {
+      "image": "rbxassetid://11192866186",
+      "index": 234,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New150",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11192866186"
+    },
+    {
+      "image": "rbxassetid://14186183265",
+      "index": 235,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Seamless Crescent",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://14186183265"
+    },
+    {
+      "image": "rbxassetid://10423609590",
+      "index": 236,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New37",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10423609590"
+    },
+    {
+      "image": "rbxassetid://100239388657892",
+      "index": 237,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New94",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100239388657892"
+    },
+    {
+      "image": "rbxassetid://17388367991",
+      "index": 238,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388367991"
+    },
+    {
+      "image": "rbxassetid://15552205113",
+      "index": 239,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New42",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15552205113"
+    },
+    {
+      "image": "rbxassetid://13548576250",
+      "index": 240,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Two",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13548576250"
+    },
+    {
+      "image": "rbxassetid://11037069779",
+      "index": 241,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New204",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037069779"
+    },
+    {
+      "image": "rbxassetid://17388365888",
+      "index": 242,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent17",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388365888"
+    },
+    {
+      "image": "rbxassetid://15149886056",
+      "index": 243,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New187",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15149886056"
+    },
+    {
+      "image": "rbxassetid://15124481454",
+      "index": 244,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Glowing Faded Crescent",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://15124481454"
+    },
+    {
+      "image": "rbxassetid://17388447239",
+      "index": 245,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent39",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388447239"
+    },
+    {
+      "image": "rbxassetid://13237253135",
+      "index": 246,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Darkening Crescent",
+      "rect_offset": [
+        384,
+        128
+      ],
+      "raw_uri": "rbxassetid://13237253135"
+    },
+    {
+      "image": "rbxassetid://13280169445",
+      "index": 247,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New137",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13280169445"
+    },
+    {
+      "image": "rbxassetid://135596833550213",
+      "index": 248,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New24",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://135596833550213"
+    },
+    {
+      "image": "rbxassetid://8618373035",
+      "index": 249,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New79",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://8618373035"
+    },
+    {
+      "image": "rbxassetid://15683693744",
+      "index": 250,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New65",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15683693744"
+    },
+    {
+      "image": "rbxassetid://12386374115",
+      "index": 251,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12386374115"
+    },
+    {
+      "image": "rbxassetid://13280227271",
+      "index": 252,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Top",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13280227271"
+    },
+    {
+      "image": "rbxassetid://12402891438",
+      "index": 253,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New168",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12402891438"
+    },
+    {
+      "image": "rbxassetid://87520821677529",
+      "index": 254,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New92",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://87520821677529"
+    },
+    {
+      "image": "rbxassetid://15268211593",
+      "index": 255,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New53",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268211593"
+    },
+    {
+      "image": "rbxassetid://10365549704",
+      "index": 256,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New69",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10365549704"
+    },
+    {
+      "image": "rbxassetid://72770250491157",
+      "index": 257,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Shaded Chromatic Slash 3",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://72770250491157"
+    },
+    {
+      "image": "rbxassetid://16310651343",
+      "index": 258,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New170",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16310651343"
+    },
+    {
+      "image": "rbxassetid://10558510611",
+      "index": 259,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New151",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10558510611"
+    },
+    {
+      "image": "rbxassetid://7216852306",
+      "index": 260,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New160",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216852306"
+    },
+    {
+      "image": "rbxassetid://15077160455",
+      "index": 261,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fading Small Crescent",
+      "rect_offset": [
+        768,
+        512
+      ],
+      "raw_uri": "rbxassetid://15077160455"
+    },
+    {
+      "image": "rbxassetid://15270200015",
+      "index": 262,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New196",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15270200015"
+    },
+    {
+      "image": "rbxassetid://17721975843",
+      "index": 263,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New135",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17721975843"
+    },
+    {
+      "image": "rbxassetid://12402878232",
+      "index": 264,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12402878232"
+    },
+    {
+      "image": "rbxassetid://15268220856",
+      "index": 265,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New163",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15268220856"
+    },
+    {
+      "image": "rbxassetid://101086952930518",
+      "index": 266,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New45",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101086952930518"
+    },
+    {
+      "image": "rbxassetid://13580336752",
+      "index": 267,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New54",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13580336752"
+    },
+    {
+      "image": "rbxassetid://1266209618",
+      "index": 268,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New222",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1266209618"
+    },
+    {
+      "image": "rbxassetid://11037067793",
+      "index": 269,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New166",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037067793"
+    },
+    {
+      "image": "rbxassetid://12690450233",
+      "index": 270,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12690450233"
+    },
+    {
+      "image": "rbxassetid://122541958598810",
+      "index": 271,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New30",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122541958598810"
+    },
+    {
+      "image": "rbxassetid://14242056438",
+      "index": 272,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Basic",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14242056438"
+    },
+    {
+      "image": "rbxassetid://17069520541",
+      "index": 273,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash11",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://17069520541"
+    },
+    {
+      "image": "rbxassetid://13580373276",
+      "index": 274,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New141",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13580373276"
+    },
+    {
+      "image": "rbxassetid://14187131206",
+      "index": 275,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New99",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14187131206"
+    },
+    {
+      "image": "rbxassetid://1266209505",
+      "index": 276,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New185",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://1266209505"
+    },
+    {
+      "image": "rbxassetid://14200086275",
+      "index": 277,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Chromatic",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://14200086275"
+    },
+    {
+      "image": "rbxassetid://12169768457",
+      "index": 278,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Thin Pulse",
+      "rect_offset": [
+        0,
+        128
+      ],
+      "raw_uri": "rbxassetid://12169768457"
+    },
+    {
+      "image": "rbxassetid://72132111706636",
+      "index": 279,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New47",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72132111706636"
+    },
+    {
+      "image": "rbxassetid://12018086505",
+      "index": 280,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Quick Crescent",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://12018086505"
+    },
+    {
+      "image": "rbxassetid://7216847656",
+      "index": 281,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New153",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216847656"
+    },
+    {
+      "image": "rbxassetid://124827446800619",
+      "index": 282,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New75",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://124827446800619"
+    },
+    {
+      "image": "rbxassetid://16511965818",
+      "index": 283,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New82",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://16511965818"
+    },
+    {
+      "image": "rbxassetid://14117822736",
+      "index": 284,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Blue Crescent",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://14117822736"
+    },
+    {
+      "image": "rbxassetid://14973797453",
+      "index": 285,
+      "rect_size": [
+        512,
+        512
+      ],
+      "name": "Drawn Crescent",
+      "rect_offset": [
+        512,
+        512
+      ],
+      "raw_uri": "rbxassetid://14973797453"
+    },
+    {
+      "image": "rbxassetid://12402896266",
+      "index": 286,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New205",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12402896266"
+    },
+    {
+      "image": "rbxassetid://16940415246",
+      "index": 287,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Thin Fading Crescent 2",
+      "rect_offset": [
+        768,
+        256
+      ],
+      "raw_uri": "rbxassetid://16940415246"
+    },
+    {
+      "image": "rbxassetid://17612135754",
+      "index": 288,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New89",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17612135754"
+    },
+    {
+      "image": "rbxassetid://17388365582",
+      "index": 289,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent19",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388365582"
+    },
+    {
+      "image": "rbxassetid://17388446073",
+      "index": 290,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Crescent35",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17388446073"
+    },
+    {
+      "image": "rbxassetid://13450910969",
+      "index": 291,
+      "rect_size": [
+        512,
+        512
+      ],
+      "name": "Fast Crescent",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://13450910969"
+    },
+    {
+      "image": "rbxassetid://130080162773298",
+      "index": 292,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New29",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://130080162773298"
+    },
+    {
+      "image": "rbxassetid://139364238294193",
+      "index": 293,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fancy Crescent",
+      "rect_offset": [
+        512,
+        256
+      ],
+      "raw_uri": "rbxassetid://139364238294193"
+    },
+    {
+      "image": "rbxassetid://13917040265",
+      "index": 294,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Fading Blurred Crescent",
+      "rect_offset": [
+        512,
+        256
+      ],
+      "raw_uri": "rbxassetid://13917040265"
+    },
+    {
+      "image": "rbxassetid://7216852206",
+      "index": 295,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New213",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://7216852206"
+    },
+    {
+      "image": "rbxassetid://17612097993",
+      "index": 296,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New90",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17612097993"
+    },
+    {
+      "image": "rbxassetid://11037068992",
+      "index": 297,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New189",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://11037068992"
+    },
+    {
+      "image": "rbxassetid://9324968005",
+      "index": 298,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Shadow",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9324968005"
+    },
+    {
+      "image": "rbxassetid://17069520876",
+      "index": 299,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Slash12",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://17069520876"
+    },
+    {
+      "image": "rbxassetid://115524208388809",
+      "index": 300,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New44",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115524208388809"
+    },
+    {
+      "image": "rbxassetid://13712006632",
+      "index": 301,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New39",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13712006632"
+    },
+    {
+      "image": "rbxassetid://15270167019",
+      "index": 302,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Line Slash",
+      "rect_offset": [
+        256,
+        256
+      ],
+      "raw_uri": "rbxassetid://15270167019"
+    },
+    {
+      "image": "rbxassetid://122686368498074",
+      "index": 303,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "New28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122686368498074"
+    }
+  ],
+  "search": "",
+  "window_height": 416,
+  "missing_indexes": [],
+  "active_filter": "Crescent",
+  "active_filter_provenance": "Codex verified selected filter in live UI before capture"
+}

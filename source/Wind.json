@@ -1,0 +1,1090 @@
+{
+  "label": "Wind",
+  "canvas_height": 1100,
+  "captured_at": "2026-10-20T23:28:52Z",
+  "max_index": 79,
+  "records": [
+    {
+      "image": "rbxassetid://115790032133177",
+      "index": 3,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "LE Wind Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115790032133177"
+    },
+    {
+      "image": "rbxassetid://109474863702604",
+      "index": 4,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind29",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109474863702604"
+    },
+    {
+      "image": "rbxassetid://104304232262370",
+      "index": 5,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind21",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://104304232262370"
+    },
+    {
+      "image": "rbxassetid://110502543965445",
+      "index": 6,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind32",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://110502543965445"
+    },
+    {
+      "image": "rbxassetid://95524323490226",
+      "index": 7,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind50",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://95524323490226"
+    },
+    {
+      "image": "rbxassetid://100113424383392",
+      "index": 8,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind34",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://100113424383392"
+    },
+    {
+      "image": "rbxassetid://139607233090243",
+      "index": 9,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind25",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://139607233090243"
+    },
+    {
+      "image": "rbxassetid://112558793664091",
+      "index": 10,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind49",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://112558793664091"
+    },
+    {
+      "image": "rbxassetid://18356309922",
+      "index": 11,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "OneSided Wind",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18356309922"
+    },
+    {
+      "image": "rbxassetid://13401773376",
+      "index": 12,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparenct Blast 4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13401773376"
+    },
+    {
+      "image": "rbxassetid://79454007816524",
+      "index": 13,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind44",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://79454007816524"
+    },
+    {
+      "image": "rbxassetid://137596045221383",
+      "index": 14,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind24",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://137596045221383"
+    },
+    {
+      "image": "rbxassetid://107577948223334",
+      "index": 15,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind26",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://107577948223334"
+    },
+    {
+      "image": "rbxassetid://76109550912270",
+      "index": 16,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76109550912270"
+    },
+    {
+      "image": "rbxassetid://90956254243960",
+      "index": 17,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind56",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://90956254243960"
+    },
+    {
+      "image": "rbxassetid://102849206266491",
+      "index": 18,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind11",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102849206266491"
+    },
+    {
+      "image": "rbxassetid://10529371971",
+      "index": 19,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Full Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10529371971"
+    },
+    {
+      "image": "rbxassetid://122272192974730",
+      "index": 20,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind37",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122272192974730"
+    },
+    {
+      "image": "rbxassetid://84269775676097",
+      "index": 21,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind36",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84269775676097"
+    },
+    {
+      "image": "rbxassetid://127713467290396",
+      "index": 22,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind10",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://127713467290396"
+    },
+    {
+      "image": "rbxassetid://117299459118480",
+      "index": 23,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind33",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://117299459118480"
+    },
+    {
+      "image": "rbxassetid://72975090349578",
+      "index": 24,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind12",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://72975090349578"
+    },
+    {
+      "image": "rbxassetid://80189053385709",
+      "index": 25,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind48",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://80189053385709"
+    },
+    {
+      "image": "rbxassetid://12318427672",
+      "index": 26,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Smokey Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12318427672"
+    },
+    {
+      "image": "rbxassetid://102374151967894",
+      "index": 27,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://102374151967894"
+    },
+    {
+      "image": "rbxassetid://89929855206165",
+      "index": 28,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89929855206165"
+    },
+    {
+      "image": "rbxassetid://74899887803900",
+      "index": 29,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind20",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://74899887803900"
+    },
+    {
+      "image": "rbxassetid://128787416203960",
+      "index": 30,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind8",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://128787416203960"
+    },
+    {
+      "image": "rbxassetid://73296613374574",
+      "index": 31,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind16",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73296613374574"
+    },
+    {
+      "image": "rbxassetid://116310890602740",
+      "index": 32,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "LE Wind Details",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116310890602740"
+    },
+    {
+      "image": "rbxassetid://84954758993461",
+      "index": 33,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind53",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://84954758993461"
+    },
+    {
+      "image": "rbxassetid://115839225153561",
+      "index": 34,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind42",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115839225153561"
+    },
+    {
+      "image": "rbxassetid://73041967539025",
+      "index": 35,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind31",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://73041967539025"
+    },
+    {
+      "image": "rbxassetid://13580361995",
+      "index": 36,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Thicker Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13580361995"
+    },
+    {
+      "image": "rbxassetid://15824417274",
+      "index": 37,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparenct Blast 5",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15824417274"
+    },
+    {
+      "image": "rbxassetid://82431051811025",
+      "index": 38,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind9",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82431051811025"
+    },
+    {
+      "image": "rbxassetid://122484551759506",
+      "index": 39,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind30",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://122484551759506"
+    },
+    {
+      "image": "rbxassetid://92824085650493",
+      "index": 40,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind43",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://92824085650493"
+    },
+    {
+      "image": "rbxassetid://76340603837890",
+      "index": 41,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind38",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://76340603837890"
+    },
+    {
+      "image": "rbxassetid://78140204291780",
+      "index": 42,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind27",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78140204291780"
+    },
+    {
+      "image": "rbxassetid://116579220922305",
+      "index": 43,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind22",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116579220922305"
+    },
+    {
+      "image": "rbxassetid://116196743854601",
+      "index": 44,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind54",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://116196743854601"
+    },
+    {
+      "image": "rbxassetid://10316078099",
+      "index": 45,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind Crescent 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://10316078099"
+    },
+    {
+      "image": "rbxassetid://85092053817884",
+      "index": 46,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind46",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://85092053817884"
+    },
+    {
+      "image": "rbxassetid://99030912594735",
+      "index": 47,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind51",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99030912594735"
+    },
+    {
+      "image": "rbxassetid://82525068951507",
+      "index": 48,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://82525068951507"
+    },
+    {
+      "image": "rbxassetid://99096695944611",
+      "index": 49,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind41",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://99096695944611"
+    },
+    {
+      "image": "rbxassetid://86521711047914",
+      "index": 50,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind47",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://86521711047914"
+    },
+    {
+      "image": "rbxassetid://101535472799928",
+      "index": 51,
+      "rect_size": [
+        128,
+        128
+      ],
+      "name": "Wind15",
+      "rect_offset": [
+        0,
+        256
+      ],
+      "raw_uri": "rbxassetid://101535472799928"
+    },
+    {
+      "image": "rbxassetid://15846427306",
+      "index": 52,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparenct Blast 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15846427306"
+    },
+    {
+      "image": "rbxassetid://125658288142903",
+      "index": 53,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind40",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://125658288142903"
+    },
+    {
+      "image": "rbxassetid://18450756590",
+      "index": 54,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparent Ring 2",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18450756590"
+    },
+    {
+      "image": "rbxassetid://15846370432",
+      "index": 55,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparenct Blast 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15846370432"
+    },
+    {
+      "image": "rbxassetid://13959942757",
+      "index": 56,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparenct Blast 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://13959942757"
+    },
+    {
+      "image": "rbxassetid://103000834263561",
+      "index": 57,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind23",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://103000834263561"
+    },
+    {
+      "image": "rbxassetid://93312079157280",
+      "index": 58,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wind19",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://93312079157280"
+    },
+    {
+      "image": "rbxassetid://18838828771",
+      "index": 59,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind Crescent 1",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://18838828771"
+    },
+    {
+      "image": "rbxassetid://15696101558",
+      "index": 60,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparenct Ring",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15696101558"
+    },
+    {
+      "image": "rbxassetid://101478845975822",
+      "index": 61,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wind57",
+      "rect_offset": [
+        0,
+        512
+      ],
+      "raw_uri": "rbxassetid://101478845975822"
+    },
+    {
+      "image": "rbxassetid://109169488067783",
+      "index": 62,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind13",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://109169488067783"
+    },
+    {
+      "image": "rbxassetid://77399181389527",
+      "index": 63,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind55",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://77399181389527"
+    },
+    {
+      "image": "rbxassetid://9163249315",
+      "index": 64,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparent Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://9163249315"
+    },
+    {
+      "image": "rbxassetid://131147883064427",
+      "index": 65,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind4",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://131147883064427"
+    },
+    {
+      "image": "rbxassetid://78592280941627",
+      "index": 66,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind28",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://78592280941627"
+    },
+    {
+      "image": "rbxassetid://91804963265247",
+      "index": 67,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wind35",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://91804963265247"
+    },
+    {
+      "image": "rbxassetid://115178122155246",
+      "index": 68,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind7",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://115178122155246"
+    },
+    {
+      "image": "rbxassetid://89247216145301",
+      "index": 69,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind6",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://89247216145301"
+    },
+    {
+      "image": "rbxassetid://17376622970",
+      "index": 70,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Full Ring",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://17376622970"
+    },
+    {
+      "image": "rbxassetid://15556415618",
+      "index": 71,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind Details",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://15556415618"
+    },
+    {
+      "image": "rbxassetid://120150903567427",
+      "index": 72,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind39",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://120150903567427"
+    },
+    {
+      "image": "rbxassetid://126052664189577",
+      "index": 73,
+      "rect_size": [
+        256,
+        256
+      ],
+      "name": "Wind45",
+      "rect_offset": [
+        256,
+        512
+      ],
+      "raw_uri": "rbxassetid://126052664189577"
+    },
+    {
+      "image": "rbxassetid://12329133324",
+      "index": 74,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Stylized Shockwave",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://12329133324"
+    },
+    {
+      "image": "rbxassetid://121693455521335",
+      "index": 75,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind52",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://121693455521335"
+    },
+    {
+      "image": "rbxassetid://93597927350355",
+      "index": 76,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Transparent Ring 3",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://93597927350355"
+    },
+    {
+      "image": "rbxassetid://118726955290846",
+      "index": 77,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind18",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://118726955290846"
+    },
+    {
+      "image": "rbxassetid://75412173597770",
+      "index": 78,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind14",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://75412173597770"
+    },
+    {
+      "image": "rbxassetid://101543208462261",
+      "index": 79,
+      "rect_size": [
+        0,
+        0
+      ],
+      "name": "Wind17",
+      "rect_offset": [
+        0,
+        0
+      ],
+      "raw_uri": "rbxassetid://101543208462261"
+    }
+  ],
+  "search": "",
+  "window_height": 850,
+  "active_filter": "wind",
+  "missing_indexes": []
+}
