@@ -1,0 +1,151 @@
+{
+ "version": 1,
+ "name": "Bulbito · A2_Stop",
+ "id": "bulbito-a2-stop",
+ "duration": 1.2,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "Floor",
+   "class": "Part",
+   "name": "Floor",
+   "parent": null,
+   "properties": {
+    "Position": [
+     0,
+     0.4,
+     0
+    ],
+    "Size": [
+     8,
+     0.4,
+     10
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false,
+    "Shape": "Block"
+   }
+  },
+  {
+   "id": "Dust",
+   "class": "ParticleEmitter",
+   "name": "Dust",
+   "parent": "Floor",
+   "properties": {
+    "Texture": "rbxassetid://11844402871",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0,
+    "Brightness": 1,
+    "Speed": [
+     4,
+     8
+    ],
+    "SpreadAngle": [
+     70,
+     70
+    ],
+    "Lifetime": [
+     0.6,
+     0.9
+    ],
+    "Shape": "Box",
+    "EmissionDirection": "Top",
+    "Drag": 3,
+    "Acceleration": [
+     0,
+     1.5,
+     0
+    ],
+    "Rotation": [
+     0,
+     0
+    ],
+    "RotSpeed": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 1.8,
+      "envelope": 0.18000000000000002
+     },
+     {
+      "time": 0.35,
+      "value": 3.57,
+      "envelope": 0.504
+     },
+     {
+      "time": 1,
+      "value": 4.2,
+      "envelope": 0.504
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.3,
+      "envelope": 0
+     },
+     {
+      "time": 0.6,
+      "value": 0.5,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       0.86,
+       0.78,
+       0.64
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       0.66,
+       0.58,
+       0.46
+      ]
+     }
+    ],
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 9
+   }
+  }
+ ],
+ "animations": [],
+ "camera": {
+  "position": [
+   14,
+   7,
+   14
+  ],
+  "target": [
+   0,
+   1,
+   0
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

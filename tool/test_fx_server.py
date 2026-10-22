@@ -195,6 +195,26 @@ class ServerTests(unittest.TestCase):
         self.assertEqual(self.request("POST", "/bridge/preview_status", {"client_id": "studio-a", "generation": generation, "enabled": True, "available": True, "permission": True, "fps": 2})[0], 200)
         return {"client_id": "studio-a", "generation": generation, "image": "data:image/png;base64," + base64.b64encode(tiny_png()).decode(), "project_id": project_id, "time": 0.75}
 
+    def test_used_texture_export_requires_active_bridge_and_writes_exclusion_file(self):
+        payload = {"client_id": "studio-a", "place_name": "Ma place", "ids": ["42", "12", "42"]}
+        self.assertEqual(self.request("POST", "/bridge/used_textures", payload)[0], 409)
+        self.assertFalse((self.root / "tool" / "used_textures").exists())
+        self.assertEqual(self.request("POST", "/bridge/hello", {"client_id": "studio-a", "capabilities": {"commands": ["export_used_textures"]}})[0], 200)
+        status, result = self.request("POST", "/bridge/used_textures", payload)
+        self.assertEqual(status, 200)
+        self.assertEqual(result["count"], 2)
+        target = self.root / "tool" / "used_textures" / "Ma place.txt"
+        self.assertEqual(target.read_text(), "12\n42\n")
+        self.assertEqual(self.request("POST", "/bridge/used_textures", {**payload, "client_id": "studio-b", "ids": []})[0], 409)
+        self.assertEqual(target.read_text(), "12\n42\n")
+        status, queued = self.request("POST", "/api/preview", {"action": "export_used_textures"})
+        self.assertEqual(status, 202)
+        self.assertEqual(queued["command"]["action"], "export_used_textures")
+
+    def test_used_texture_command_rejects_old_bridge(self):
+        self.request("POST", "/bridge/hello", {"client_id": "studio-a"})
+        self.assertEqual(self.request("POST", "/api/preview", {"action": "export_used_textures"})[0], 409)
+
     def test_native_frame_is_memory_only_and_exposes_status_metadata(self):
         payload = self.start_frames()
         status, result = self.request("POST", "/bridge/frame", payload)
@@ -214,6 +234,8 @@ class ServerTests(unittest.TestCase):
         second = self.request("POST", "/bridge/frame", payload)[1]["frame"]
         self.assertEqual(second["sequence"], metadata["sequence"] + 1)
         self.assertEqual(self.server.latest_frame["metadata"]["time"], 1.25)
+        payload["time"] = 3600
+        self.assertEqual(self.request("POST", "/bridge/frame", payload)[0], 200, "free preview clock is unbounded")
 
     def test_native_frames_reject_unknown_clients_corruption_and_oversize(self):
         payload = self.start_frames()
@@ -229,6 +251,11 @@ class ServerTests(unittest.TestCase):
     def test_native_preview_state_requires_strict_bool_and_active_generation(self):
         payload = self.start_frames()
         valid = {"client_id": "studio-a", "generation": payload["generation"], "enabled": True, "available": True, "permission": True, "fps": 2}
+        self.assertEqual(self.request("POST", "/bridge/preview_status", {**valid, "window_focused": "no"})[0], 400)
+        self.assertEqual(self.request("POST", "/bridge/preview_status", {**valid, "window_focused": False})[0], 200)
+        self.assertIs(self.request("GET", "/api/preview/frame")[1]["window_focused"], False)
+        self.assertEqual(self.request("POST", "/bridge/preview_status", valid)[0], 200)
+        self.assertNotIn("window_focused", self.request("GET", "/api/preview/frame")[1], "absent means unknown")
         self.assertEqual(self.request("POST", "/bridge/preview_status", {**valid, "permission": "yes"})[0], 400)
         self.assertEqual(self.request("POST", "/bridge/preview_status", {**valid, "client_id": "studio-b"})[0], 409)
         self.assertEqual(self.request("POST", "/bridge/preview_status", {**valid, "generation": payload["generation"] - 1})[0], 409)
@@ -312,6 +339,30 @@ class ServerTests(unittest.TestCase):
             payload = {"action": action, "project": project()} if action in {"apply", "play"} else {"action": action}
             self.assertEqual(self.request("POST", "/api/preview", payload)[0], 202)
         self.assertEqual(self.request("GET", "/api/runtime")[1]["current_bridge_version"], 2)
+
+    def test_sandbox_commands_validate_payloads_and_require_new_capability(self):
+        self.request("POST", "/bridge/hello", {"client_id": "studio-free", "version": 2})
+        self.assertEqual(self.request("POST", "/api/preview", {"action": "emit", "counts": {"emitter": 4}})[0], 409)
+        self.request("POST", "/bridge/hello", {"client_id": "studio-free", "version": 2, "capabilities": {"sandbox": True}})
+        for payload in (
+            {"action": "sandbox", "mode": "free", "project": project(), "enabled": {"beam": False}},
+            {"action": "emit", "counts": {"emitter": 4}},
+            {"action": "enabled", "enabled": {"beam": True}},
+            {"action": "clear_particles"},
+            {"action": "update", "project": project()},
+        ):
+            status, result = self.request("POST", "/api/preview", payload)
+            self.assertEqual(status, 202, result)
+            for key, value in payload.items():
+                if key != "project":
+                    self.assertEqual(result["command"][key], value)
+        for payload in (
+            {"action": "emit", "counts": {"emitter": -1}},
+            {"action": "emit", "counts": {"emitter": 1.2}},
+            {"action": "enabled", "enabled": {"beam": 1}},
+            {"action": "sandbox", "mode": "bad", "project": project()},
+        ):
+            self.assertEqual(self.request("POST", "/api/preview", payload)[0], 400)
 
     def test_native_capability_handshake_accepts_updated_bridge(self):
         capabilities = {"native_preview": True, "capture_permission": False, "capture_context": "plugin", "capture_permission_request": True, "commands": ["preview_start", "preview_stop", "capture_status"]}

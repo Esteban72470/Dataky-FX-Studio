@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "name": "Blueberrinni · A1_Whoosh",
+  "id": "blueberrinni-a1-whoosh",
+  "duration": 0.4,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "root",
+      "class": "Part",
+      "name": "root",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "tip",
+      "class": "Attachment",
+      "name": "tip",
+      "parent": "root",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc",
+      "class": "ParticleEmitter",
+      "name": "arc",
+      "parent": "tip",
+      "properties": {
+        "Texture": "rbxassetid://13350524267",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.2,
+          0.2
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 3.4,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.8,
+              0.66,
+              1
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.6,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          -30,
+          -30
+        ],
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot"
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "puff",
+      "class": "ParticleEmitter",
+      "name": "puff",
+      "parent": "tip",
+      "properties": {
+        "Texture": "rbxassetid://113740466641326",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          1,
+          2
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.3,
+          0.4
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.8,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1.8,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.86,
+              0.84,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.62,
+              0.55,
+              0.78
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Drag": 4,
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot"
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 2
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      6,
+      4,
+      7
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#6f9fd8"
+  }
+}

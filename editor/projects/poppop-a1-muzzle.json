@@ -1,0 +1,470 @@
+{
+  "version": 1,
+  "name": "Pop Pop · A1_Muzzle",
+  "id": "poppop-a1-muzzle",
+  "duration": 1.0,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "Muzzle",
+      "class": "Part",
+      "name": "Muzzle",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "MuzzlePoint",
+      "class": "Attachment",
+      "name": "MuzzlePoint",
+      "parent": "Muzzle",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://118932979744260",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.14,
+          0.14
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2.2,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 4.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "FlashGlow",
+      "class": "ParticleEmitter",
+      "name": "FlashGlow",
+      "parent": "MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.13,
+          0.13
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 3.6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "ShotSparks",
+      "class": "ParticleEmitter",
+      "name": "ShotSparks",
+      "parent": "MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          18,
+          32
+        ],
+        "SpreadAngle": [
+          24,
+          24
+        ],
+        "Lifetime": [
+          0.2,
+          0.42
+        ],
+        "Drag": 5,
+        "Acceleration": [
+          0,
+          -20,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.24,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 22
+      }
+    },
+    {
+      "id": "Puff",
+      "class": "ParticleEmitter",
+      "name": "Puff",
+      "parent": "MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          3,
+          6
+        ],
+        "SpreadAngle": [
+          75,
+          75
+        ],
+        "Lifetime": [
+          0.5,
+          0.8
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.66,
+            "envelope": 0.165
+          },
+          {
+            "time": 0.3,
+            "value": 1.92,
+            "envelope": 0.36
+          },
+          {
+            "time": 1,
+            "value": 2.4,
+            "envelope": 0.36
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.02,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 3
+      }
+    },
+    {
+      "id": "Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "MuzzlePoint",
+      "properties": {
+        "Brightness": 1.5,
+        "Range": 10,
+        "Color": [
+          1,
+          0.84,
+          0.25
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.14,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [
+    {
+      "node": "Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 1.5
+        },
+        {
+          "time": 0.14,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      16,
+      9,
+      18
+    ],
+    "target": [
+      0,
+      3,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

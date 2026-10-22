@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "name": "Blueberrinni · A2_Fling",
+  "id": "blueberrinni-a2-fling",
+  "duration": 0.9,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "root",
+      "class": "Part",
+      "name": "root",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "ringPart",
+      "class": "Part",
+      "name": "ringPart",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          6,
+          0.5,
+          6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "drops",
+      "class": "ParticleEmitter",
+      "name": "drops",
+      "parent": "ringPart",
+      "properties": {
+        "Texture": "rbxassetid://7096972007",
+        "Rate": 60,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1,
+        "Speed": [
+          10,
+          15
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.4,
+          0.55
+        ],
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "ShapeInOut": "Outward",
+        "Acceleration": [
+          0,
+          -45,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.34,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.12,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.62,
+              0.2,
+              0.78
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.2,
+              0.1,
+              0.42
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": -0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": -0.5,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.9,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      14,
+      10,
+      16
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#6f9fd8"
+  }
+}

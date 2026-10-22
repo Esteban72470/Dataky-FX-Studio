@@ -1,0 +1,489 @@
+{
+  "version": 1,
+  "name": "Blueberrinni_Whip",
+  "id": "blueberrinni_whip",
+  "duration": 0.85,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "slash1_ancre",
+      "class": "Part",
+      "name": "Slash",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "slash1_point",
+      "class": "Attachment",
+      "name": "Point",
+      "parent": "slash1_ancre",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "slash1_croissant",
+      "class": "ParticleEmitter",
+      "name": "Slash",
+      "parent": "slash1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.27,
+          0.27
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0.01,
+          0.01
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://14242056438",
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.45,
+              0.95,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.3,
+              0.2,
+              0.65
+            ]
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 3,
+            "envelope": 0
+          },
+          {
+            "time": 0.2,
+            "value": 6.8,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 8,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 0.5,
+        "LightEmission": 0.35,
+        "Rotation": [
+          -18,
+          -18
+        ],
+        "RotSpeed": [
+          -200,
+          -200
+        ],
+        "Orientation": "VelocityPerpendicular",
+        "EmissionDirection": "Top"
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "slash1_halo",
+      "class": "ParticleEmitter",
+      "name": "Slash · halo",
+      "parent": "slash1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.3,
+          0.3
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0.01,
+          0.01
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://15728405620",
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.2,
+              0.55,
+              0.9
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.4,
+              0.2,
+              0.7
+            ]
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 3.7,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 7.8,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 8.4,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "LightEmission": 0.35,
+        "Rotation": [
+          155,
+          155
+        ],
+        "RotSpeed": [
+          -160,
+          -160
+        ],
+        "Orientation": "VelocityPerpendicular",
+        "EmissionDirection": "Top"
+      },
+      "timing": {
+        "start": 0.02,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "sparks1_ancre",
+      "class": "Part",
+      "name": "Étincelles",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "sparks1_point",
+      "class": "Attachment",
+      "name": "Point",
+      "parent": "sparks1_ancre",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "sparks1_etincelles",
+      "class": "ParticleEmitter",
+      "name": "Étincelles",
+      "parent": "sparks1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.25,
+          0.55
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          6,
+          12
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Texture": "rbxassetid://81997979611363",
+        "LightEmission": 0.35,
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.45,
+              0.95,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.3,
+              0.2,
+              0.65
+            ]
+          }
+        ],
+        "Orientation": "VelocityParallel",
+        "Drag": 5,
+        "Acceleration": [
+          0,
+          -8.75,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.34,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 0.27,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Squash": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ]
+      },
+      "timing": {
+        "start": 0.05,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 12
+      }
+    },
+    {
+      "id": "slash1_water",
+      "class": "ParticleEmitter",
+      "name": "Water crescent",
+      "parent": "slash1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.58,
+          0.58
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0.01,
+          0.01
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://118490842148615",
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.3,
+              0.6,
+              0.9
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.4,
+              0.25,
+              0.7
+            ]
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 5,
+            "envelope": 0
+          },
+          {
+            "time": 0.2,
+            "value": 7,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 8,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.6,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 0.5,
+        "LightEmission": 0.35,
+        "Rotation": [
+          160,
+          160
+        ],
+        "RotSpeed": [
+          -65,
+          -65
+        ],
+        "Orientation": "VelocityPerpendicular",
+        "EmissionDirection": "Top",
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot",
+        "FlipbookBlendFrames": true
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

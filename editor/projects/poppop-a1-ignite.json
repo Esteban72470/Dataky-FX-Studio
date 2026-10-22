@@ -1,0 +1,606 @@
+{
+  "version": 1,
+  "name": "Pop Pop · A1_Ignite",
+  "id": "poppop-a1-ignite",
+  "duration": 1.3,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "Top",
+      "class": "Part",
+      "name": "Top",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "TopPoint",
+      "class": "Attachment",
+      "name": "TopPoint",
+      "parent": "Top",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "FuseSparks",
+      "class": "ParticleEmitter",
+      "name": "FuseSparks",
+      "parent": "TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 80,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          6,
+          13
+        ],
+        "SpreadAngle": [
+          38,
+          38
+        ],
+        "Lifetime": [
+          0.2,
+          0.42
+        ],
+        "Acceleration": [
+          0,
+          -30,
+          0
+        ],
+        "Drag": 1,
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.4,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Gather",
+      "class": "Part",
+      "name": "Gather",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          5,
+          5,
+          5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "GatherSparks",
+      "class": "ParticleEmitter",
+      "name": "GatherSparks",
+      "parent": "Gather",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 55,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          9,
+          9
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.27,
+          0.27
+        ],
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "ShapeInOut": "Inward",
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 2,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.12,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.15,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Core",
+      "class": "ParticleEmitter",
+      "name": "Core",
+      "parent": "TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.48,
+          0.48
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 2.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 2.6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.6,
+            "envelope": 0
+          },
+          {
+            "time": 0.2,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.9,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "Flicker",
+      "class": "ParticleEmitter",
+      "name": "Flicker",
+      "parent": "TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://118932979744260",
+        "Rate": 28,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.07,
+          0.12
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.2,
+            "envelope": 0.4
+          },
+          {
+            "time": 1,
+            "value": 1.6,
+            "envelope": 0.4
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1.5
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Smoke",
+      "class": "ParticleEmitter",
+      "name": "Smoke",
+      "parent": "TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 9,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          2,
+          4
+        ],
+        "SpreadAngle": [
+          65,
+          65
+        ],
+        "Lifetime": [
+          0.6,
+          0.9
+        ],
+        "Acceleration": [
+          0,
+          2,
+          0
+        ],
+        "Drag": 1.5,
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.54,
+            "envelope": 0.135
+          },
+          {
+            "time": 0.3,
+            "value": 1.7600000000000002,
+            "envelope": 0.33
+          },
+          {
+            "time": 1,
+            "value": 2.2,
+            "envelope": 0.33
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.05,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Glow",
+      "class": "PointLight",
+      "name": "Glow",
+      "parent": "TopPoint",
+      "properties": {
+        "Brightness": 1.2,
+        "Range": 8,
+        "Color": [
+          1,
+          0.5,
+          0.14
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [
+    {
+      "node": "Glow",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 1.2
+        },
+        {
+          "time": 0.6,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      16,
+      9,
+      18
+    ],
+    "target": [
+      0,
+      3,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "version": 1,
+  "name": "Pop Pop · A2_Ignite",
+  "id": "poppop-a2-ignite",
+  "duration": 1.6,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "Fuse",
+      "class": "Part",
+      "name": "Fuse",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0.7,
+          1.3
+        ],
+        "Size": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "FusePoint",
+      "class": "Attachment",
+      "name": "FusePoint",
+      "parent": "Fuse",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Orientation": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "FuseSparks",
+      "class": "ParticleEmitter",
+      "name": "FuseSparks",
+      "parent": "FusePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 160,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          9,
+          18
+        ],
+        "SpreadAngle": [
+          60,
+          60
+        ],
+        "Lifetime": [
+          0.25,
+          0.5
+        ],
+        "EmissionDirection": "Back",
+        "Acceleration": [
+          0,
+          -25,
+          0
+        ],
+        "Drag": 1,
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.55,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "SideSparks",
+      "class": "ParticleEmitter",
+      "name": "SideSparks",
+      "parent": "FusePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 90,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          8,
+          14
+        ],
+        "SpreadAngle": [
+          180,
+          30
+        ],
+        "Lifetime": [
+          0.2,
+          0.4
+        ],
+        "EmissionDirection": "Top",
+        "Acceleration": [
+          0,
+          -30,
+          0
+        ],
+        "Drag": 1,
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.4,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.4,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.15,
+        "duration": 0.4,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "FuseGlow",
+      "class": "ParticleEmitter",
+      "name": "FuseGlow",
+      "parent": "FusePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 30,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.5,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.08,
+          0.12
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 3,
+            "envelope": 0.8
+          },
+          {
+            "time": 1,
+            "value": 4.2,
+            "envelope": 0.8
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.55,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "FuseFlare",
+      "class": "ParticleEmitter",
+      "name": "FuseFlare",
+      "parent": "FusePoint",
+      "properties": {
+        "Texture": "rbxassetid://118932979744260",
+        "Rate": 22,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.06,
+          0.1
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2.6,
+            "envelope": 0.8
+          },
+          {
+            "time": 1,
+            "value": 3.2,
+            "envelope": 0.8
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.55,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Ground",
+      "class": "Part",
+      "name": "Ground",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0.35,
+          0.4
+        ],
+        "Size": [
+          3,
+          0.2,
+          3
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "GroundPoint",
+      "class": "Attachment",
+      "name": "GroundPoint",
+      "parent": "Ground",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "GroundSmoke",
+      "class": "ParticleEmitter",
+      "name": "GroundSmoke",
+      "parent": "GroundPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 20,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          4,
+          8
+        ],
+        "SpreadAngle": [
+          84,
+          84
+        ],
+        "Lifetime": [
+          0.8,
+          1.2
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.68,
+            "envelope": 0.42
+          },
+          {
+            "time": 0.3,
+            "value": 4.4799999999999995,
+            "envelope": 0.84
+          },
+          {
+            "time": 1,
+            "value": 5.6,
+            "envelope": 0.84
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.6,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Glow",
+      "class": "PointLight",
+      "name": "Glow",
+      "parent": "FusePoint",
+      "properties": {
+        "Brightness": 1.2,
+        "Range": 9,
+        "Color": [
+          1,
+          0.5,
+          0.14
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.55,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [
+    {
+      "node": "GroundSmoke",
+      "property": "Rate",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 10
+        },
+        {
+          "time": 0.6,
+          "value": 40
+        }
+      ]
+    },
+    {
+      "node": "Glow",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 1.2
+        },
+        {
+          "time": 0.7,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      16,
+      9,
+      18
+    ],
+    "target": [
+      0,
+      3,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

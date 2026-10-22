@@ -1,0 +1,309 @@
+{
+ "version": 1,
+ "name": "Bulbito · Walk_Dust",
+ "id": "bulbito-walk-dust",
+ "duration": 2.0,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "WheelR",
+   "class": "Part",
+   "name": "WheelR",
+   "parent": null,
+   "properties": {
+    "Position": [
+     2.35,
+     0.3,
+     0.6
+    ],
+    "Size": [
+     1.0,
+     0.3,
+     0.4
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "KickR",
+   "class": "Attachment",
+   "name": "KickR",
+   "parent": "WheelR",
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ],
+    "Orientation": [
+     -15,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "DustR",
+   "class": "ParticleEmitter",
+   "name": "DustR",
+   "parent": "KickR",
+   "properties": {
+    "Texture": "rbxassetid://11844402871",
+    "Rate": 7,
+    "LightInfluence": 0,
+    "LightEmission": 0,
+    "Brightness": 1,
+    "Speed": [
+     2,
+     4
+    ],
+    "SpreadAngle": [
+     30,
+     30
+    ],
+    "Lifetime": [
+     0.6,
+     0.9
+    ],
+    "Drag": 2,
+    "Acceleration": [
+     0,
+     1.2,
+     0
+    ],
+    "EmissionDirection": "Back",
+    "Rotation": [
+     0,
+     0
+    ],
+    "RotSpeed": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 1.1,
+      "envelope": 0.11000000000000001
+     },
+     {
+      "time": 0.35,
+      "value": 2.38,
+      "envelope": 0.33599999999999997
+     },
+     {
+      "time": 1,
+      "value": 2.8,
+      "envelope": 0.33599999999999997
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.4,
+      "envelope": 0
+     },
+     {
+      "time": 0.6,
+      "value": 0.6000000000000001,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       0.86,
+       0.78,
+       0.64
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       0.66,
+       0.58,
+       0.46
+      ]
+     }
+    ],
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0,
+    "duration": 1.9,
+    "mode": "continuous",
+    "count": 1
+   }
+  },
+  {
+   "id": "WheelL",
+   "class": "Part",
+   "name": "WheelL",
+   "parent": null,
+   "properties": {
+    "Position": [
+     -2.35,
+     0.3,
+     0.6
+    ],
+    "Size": [
+     1.0,
+     0.3,
+     0.4
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "KickL",
+   "class": "Attachment",
+   "name": "KickL",
+   "parent": "WheelL",
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ],
+    "Orientation": [
+     -15,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "DustL",
+   "class": "ParticleEmitter",
+   "name": "DustL",
+   "parent": "KickL",
+   "properties": {
+    "Texture": "rbxassetid://11844402871",
+    "Rate": 7,
+    "LightInfluence": 0,
+    "LightEmission": 0,
+    "Brightness": 1,
+    "Speed": [
+     2,
+     4
+    ],
+    "SpreadAngle": [
+     30,
+     30
+    ],
+    "Lifetime": [
+     0.6,
+     0.9
+    ],
+    "Drag": 2,
+    "Acceleration": [
+     0,
+     1.2,
+     0
+    ],
+    "EmissionDirection": "Back",
+    "Rotation": [
+     0,
+     0
+    ],
+    "RotSpeed": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 1.1,
+      "envelope": 0.11000000000000001
+     },
+     {
+      "time": 0.35,
+      "value": 2.38,
+      "envelope": 0.33599999999999997
+     },
+     {
+      "time": 1,
+      "value": 2.8,
+      "envelope": 0.33599999999999997
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.4,
+      "envelope": 0
+     },
+     {
+      "time": 0.6,
+      "value": 0.6000000000000001,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       0.86,
+       0.78,
+       0.64
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       0.66,
+       0.58,
+       0.46
+      ]
+     }
+    ],
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0,
+    "duration": 1.9,
+    "mode": "continuous",
+    "count": 1
+   }
+  }
+ ],
+ "animations": [],
+ "camera": {
+  "position": [
+   12,
+   5,
+   10
+  ],
+  "target": [
+   0,
+   1,
+   1
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

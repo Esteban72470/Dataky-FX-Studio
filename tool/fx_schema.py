@@ -151,6 +151,7 @@ for _class in CLASSES.values():
 
 SCHEMA = {
     "version": 1, "classes": CLASSES,
+    "parameters": {"recipe": "params: {name: {default>0,min?,max?,step?}}", "node": "ParticleEmitter.scaleWith: {explicitNumericProperty: parameterName}"},
     "types": ["boolean", "number", "integer", "string", "content", "enum", "Vector2", "Vector3", "Color3", "NumberRange", "NumberSequence", "ColorSequence", "reference"],
     "limits": {"nodes": 400, "animations": 2000, "duration": 600, "keyframes": 1000},
     "sequenceFormat": {"NumberSequence": "[{time,value,envelope},...] (also accepts [time,value,envelope])", "ColorSequence": "[{time,value:[r,g,b]},...] (also accepts [time,[r,g,b]])"},
@@ -259,7 +260,7 @@ def validate_value(value, spec, path):
 
 def validate_project(project):
     """Validate and copy a complete project; never mutate the caller's object."""
-    keys(project, {"version", "id", "name", "duration", "loop", "nodes", "animations", "camera", "environment", "editor"}, "project")
+    keys(project, {"version", "id", "name", "duration", "loop", "nodes", "animations", "camera", "environment", "editor", "params"}, "project")
     if project.get("version", 1) != 1 or isinstance(project.get("version"), bool):
         fail("version", "seule la version 1 est prise en charge")
     out = {"version": 1, "name": text(project.get("name", "Effet sans titre"), "name", 160, False)}
@@ -267,6 +268,25 @@ def validate_project(project):
         out["id"] = identifier(project["id"], "id")
     out["duration"] = number(project.get("duration", 3), "duration", 0.01, 600)
     out["loop"] = validate_value(project.get("loop", False), {"type": "boolean"}, "loop")
+    parameters = project.get("params", {})
+    if not isinstance(parameters, dict) or len(parameters) > 32:
+        fail("params", "objet de 32 paramètres maximum requis")
+    if "params" in project:
+        out["params"] = {}
+    for name, definition in parameters.items():
+        identifier(name, "params.name")
+        if name in {"__proto__", "constructor", "prototype"}:
+            fail("params", "nom réservé")
+        path = "params." + name
+        keys(definition, {"default", "min", "max", "step"}, path)
+        default = number(definition.get("default"), path + ".default", 1e-9)
+        clean = {"default": default}
+        for key in ("min", "max", "step"):
+            if key in definition:
+                clean[key] = number(definition[key], path + "." + key, 0 if key == "min" else 1e-9)
+        if clean.get("min", 0) > default or clean.get("max", default) < default:
+            fail(path, "default doit être compris entre min et max")
+        out["params"][name] = clean
     nodes = project.get("nodes", [])
     if not isinstance(nodes, list) or len(nodes) > 400:
         fail("nodes", "tableau de 400 objets maximum requis")
@@ -274,7 +294,7 @@ def validate_project(project):
     out["nodes"] = []
     for i, node in enumerate(nodes):
         path = f"nodes[{i}]"
-        keys(node, {"id", "class", "name", "parent", "properties", "timing"}, path)
+        keys(node, {"id", "class", "name", "parent", "properties", "timing", "scaleWith"}, path)
         ident = identifier(node.get("id"), path + ".id")
         if ident in by_id:
             fail(path, "identifiant déjà utilisé")
@@ -295,6 +315,16 @@ def validate_project(project):
             identifier(parent, path + ".parent")
         cleaned = {"id": ident, "class": cls, "name": text(node.get("name", cls), path + ".name", 160, False), "parent": parent,
                    "properties": {key: validate_value(value, specs[key], path + "." + key) for key, value in props.items()}}
+        if "scaleWith" in node:
+            markers = node["scaleWith"]
+            if cls != "ParticleEmitter" or not isinstance(markers, dict):
+                fail(path + ".scaleWith", "objet réservé aux ParticleEmitter")
+            for prop, parameter in markers.items():
+                if prop not in props or specs[prop]["type"] not in {"number", "integer", "Vector2", "Vector3", "NumberRange", "NumberSequence"}:
+                    fail(path + ".scaleWith", "propriété numérique explicite requise : " + str(prop))
+                if not isinstance(parameter, str) or parameter not in parameters:
+                    fail(path + ".scaleWith", "paramètre introuvable : " + str(parameter))
+            cleaned["scaleWith"] = deepcopy(markers)
         if "timing" in node:
             if cls not in {"ParticleEmitter", "Beam", "Trail", "PointLight", "SpotLight", "SurfaceLight"}:
                 fail(path + ".timing", "timing réservé aux émetteurs, beams, trails et lumières")

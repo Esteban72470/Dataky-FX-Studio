@@ -1,0 +1,86 @@
+{
+ "_note": "Observed in Roblox Studio Play, 2026-10-22 (Blueberrinni Octopusini, vfx.rbxl: night sky, DARK grey floor). Pieces played by DatakyFXKit FX.play on an animated rig. visible = clearly seen on Play captures. invisible_on_dark_ground = present but unreadable on the dark floor (LightEmission 0, near-black colours). under_ground = flat layers lost below the floor (emulator: invisible; the same layer at ZOffset 0 was visible in Play).",
+ "visible": {
+  "A1_Grow": [
+   "glint",
+   "pops"
+  ],
+  "A1_Berry": [
+   "comet",
+   "berry",
+   "calyx",
+   "shine"
+  ],
+  "A1_Whoosh": [
+   "arc"
+  ],
+  "A1_Splat": [
+   "splash",
+   "blobs",
+   "drops",
+   "splat",
+   "ripple",
+   "glints"
+  ],
+  "A2_Gather": [
+   "swirlLight",
+   "darkglow"
+  ],
+  "A2_Whirl": [
+   "spiral0",
+   "spiral",
+   "vortex"
+  ],
+  "A2_TipTrail": [
+   "ink"
+  ],
+  "A2_Slam": [
+   "burst",
+   "wave",
+   "edge",
+   "puddle",
+   "blobs",
+   "mist",
+   "drops"
+  ],
+  "A2_Geyser": [
+   "spout",
+   "burst",
+   "drops"
+  ]
+ },
+ "invisible_on_dark_ground": {
+  "Gather_DarkInkOnly": [
+   "swirl"
+  ],
+  "A2_Slam": [
+   "crown (first version: INK -> INK_DARK, LightEmission 0)"
+  ]
+ },
+ "under_ground": {
+  "Splat_NegativeZOffset": [
+   "splat",
+   "ripple"
+  ]
+ },
+ "unknown": {
+  "Idle_Bubble": [
+   "bubbles"
+  ],
+  "Walk_Splish": [
+   "drops",
+   "ripple"
+  ],
+  "A2_Fling": [
+   "drops"
+  ],
+  "A2_TipTrail": [
+   "sheen"
+  ]
+ },
+ "kit_perf_ms_per_FX_play_in_Studio_Edit": {
+  "A2_Slam (14 nodes)": 0.99,
+  "A1_Splat (10 nodes)": 0.65,
+  "Maelstrom spin start, 11 pieces in one frame": "about 8 ms"
+ }
+}

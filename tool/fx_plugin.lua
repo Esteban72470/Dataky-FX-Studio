@@ -6,7 +6,7 @@ local Workspace = game:GetService("Workspace")
 local BASE = "http://127.0.0.1:48754"
 local VERSION = 2
 local isPlugin = plugin ~= nil
-local CAPABILITIES = {native_preview=true, capture_context=isPlugin and "plugin" or "command_bar", capture_permission_request=isPlugin}
+local CAPABILITIES = {native_preview=true, sandbox=true, commands={"export_used_textures"}, capture_context=isPlugin and "plugin" or "command_bar", capture_permission_request=isPlugin}
 local old = _G.DatakyFXBridge
 if old then
     if type(old.shutdown) == "function" then old.shutdown()
@@ -87,6 +87,7 @@ local function captureStatus()
         enabled=session.preview_enabled, available=session.preview_available,
         permission=session.preview_permission, error=session.preview_error, fps=session.preview_fps,
         generation=session.capture_generation, adaptive=true, http_budget=420,
+        window_focused=session.window_focused,
     }
 end
 
@@ -279,6 +280,58 @@ function session.disconnect()
     return session.status()
 end
 
+-- BEGIN USED TEXTURE SCAN: literal recipe data is read, never required/executed.
+local function collectUsedTextures(place)
+    local ids, unreadable, dynamic = {}, 0, 0
+    local function add(value)
+        if type(value) ~= "string" then value = tostring(value or "") end
+        local id = value:match("^rbxassetid://(%d+)$") or value:match("^%d+$")
+        if not id then id = value:match("^https?://www%.roblox%.com/asset/?%?id=(%d+)$") or value:match("^https?://roblox%.com/asset/?%?id=(%d+)$") end
+        if id then
+            id = id:gsub("^0+", "")
+            if id ~= "" then ids[id] = true end
+        end
+    end
+    for _, object in ipairs(place:GetDescendants()) do
+        if object:IsA("ParticleEmitter") or object:IsA("Beam") or object:IsA("Trail") then
+            add(object.Texture)
+        elseif object:IsA("ModuleScript") then
+            local ok, source = pcall(function() return object.Source end)
+            if not ok then unreadable += 1
+            elseif source:find("nodes") and source:find("version") then
+                -- Exported libraries and ordinary literal recipe tables (Lua/JSON).
+                -- Dynamic expressions are not evaluated; report them for inspection.
+                for _, field in ipairs({"Texture", "TextureID", "TextureId"}) do
+                    local prefix = "%f[%w_]" .. field .. "%f[^%w_][\"'%]%s]*[=:]%s*"
+                    for expression in source:gmatch(prefix .. "([^,;\n}]+)") do
+                        expression = expression:gsub("%s+$", "")
+                        local literal = expression:match('^"([^"]*)"$') or expression:match("^'([^']*)'$") or expression:match("^%d+$")
+                        if literal then add(literal) else dynamic += 1 end
+                    end
+                end
+            end
+        end
+    end
+    local result = {}
+    for id in pairs(ids) do table.insert(result, id) end
+    table.sort(result, function(a, b) return #a == #b and a < b or #a < #b end)
+    return result, unreadable, dynamic
+end
+-- END USED TEXTURE SCAN
+
+function session.exportUsedTextures()
+    assert(RunService:IsEdit() and not RunService:IsRunning(), "Exporter les textures utilisées exige le mode édition.")
+    assert(session.connected, "Cliquez sur Connexion et attendez la connexion à Dataky FX Studio.")
+    local ids, unreadable, dynamic = collectUsedTextures(game)
+    local result = request("POST", "/bridge/used_textures", {client_id=session.client_id, place_name=game.Name, ids=ids})
+    result.unreadable_modules, result.dynamic_expressions = unreadable, dynamic
+    print("Dataky FX Studio : " .. tostring(result.count) .. " textures exportées dans " .. tostring(result.path))
+    if unreadable > 0 or dynamic > 0 then
+        warn("Dataky FX Studio : scan partiel, " .. unreadable .. " modules illisibles et " .. dynamic .. " expressions dynamiques à vérifier.")
+    end
+    return result
+end
+
 function session.shutdown()
     if not session.alive then return end
     session.disconnect()
@@ -288,8 +341,26 @@ function session.shutdown()
     if session.button then session.button:Destroy() end
     if session.preview_click_connection then session.preview_click_connection:Disconnect() end
     if session.preview_button then session.preview_button:Destroy() end
+    if session.textures_click_connection then session.textures_click_connection:Disconnect() end
+    if session.textures_button then session.textures_button:Destroy() end
     if session.toolbar then session.toolbar:Destroy() end
+    if session.focus_connection then session.focus_connection:Disconnect() end
+    if session.blur_connection then session.blur_connection:Disconnect() end
 end
+
+-- These documented signals concern the main Roblox viewport. No initial focus
+-- is assumed, and their delivery in a Studio plugin still needs a live check.
+pcall(function()
+    local input = game:GetService("UserInputService")
+    session.focus_connection = input.WindowFocused:Connect(function()
+        session.window_focused = true
+        if session.enabled then sendPreviewStatus() end
+    end)
+    session.blur_connection = input.WindowFocusReleased:Connect(function()
+        session.window_focused = false
+        if session.enabled then sendPreviewStatus() end
+    end)
+end)
 
 if isPlugin then
     session.toolbar = plugin:CreateToolbar("Dataky FX")
@@ -305,6 +376,14 @@ if isPlugin then
     session.preview_click_connection = session.preview_button.Click:Connect(function()
         if session.preview_enabled then session.previewStop() else session.previewStart() end
     end)
+    session.textures_button = session.toolbar:CreateButton("DatakyFXUsedTextures", "Exporter les textures utilisées dans tool/used_textures", "", "Exporter les textures utilisées")
+    session.textures_button.ClickableWhenViewportHidden = true
+    session.textures_click_connection = session.textures_button.Click:Connect(function()
+        task.spawn(function()
+            local ok, message = pcall(session.exportUsedTextures)
+            if not ok then session.last_error = tostring(message); warn("Dataky FX Studio : " .. tostring(message)) end
+        end)
+    end)
     session.unloading_connection = plugin.Unloading:Connect(session.shutdown)
 end
 _G.DatakyFXBridge = session
@@ -317,9 +396,18 @@ local actions = {
     status=function() return runtime.status() end,
     pause=function() return runtime.pause() end,
     resume=function() return runtime.resume() end,
+    sandbox=function(command)
+        if command.mode == "timeline" then return runtime.play(command.project) end
+        return runtime.sandbox(command.project, command.enabled)
+    end,
+    emit=function(command) return runtime.emit(command.counts) end,
+    enabled=function(command) return runtime.enabled(command.enabled) end,
+    clear_particles=function() return runtime.clearParticles() end,
+    update=function(command) return runtime.update(command.project) end,
     preview_start=function(command) return session.previewStart(command) end,
     preview_stop=function() return session.previewStop() end,
     capture_status=function() return captureStatus() end,
+    export_used_textures=function() return session.exportUsedTextures() end,
 }
 
 if not isPlugin then session.connect() end
@@ -391,5 +479,10 @@ task.spawn(function()
     end
 end)
 
-print(isPlugin and "Dataky FX Studio : cliquez sur Connexion dans la barre Dataky FX." or "Dataky FX Studio : pont local démarré sur " .. BASE)
+-- Studio loads plugins in the Play client and server too. Keep this Edit hint
+-- once per session, including when the bridge script is reloaded.
+if RunService:IsEdit() and not RunService:IsRunning() and not _G.DatakyFXConnectionHintShown then
+    _G.DatakyFXConnectionHintShown = true
+    print(isPlugin and "Dataky FX Studio : cliquez sur Connexion dans la barre Dataky FX." or "Dataky FX Studio : pont local démarré sur " .. BASE)
+end
 return session.status()

@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "name": "Pop Pop · A2_Land",
+  "id": "poppop-a2-land",
+  "duration": 1.2,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "Feet",
+      "class": "Part",
+      "name": "Feet",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0.3,
+          0
+        ],
+        "Size": [
+          0.5,
+          0.2,
+          0.5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "FeetPoint",
+      "class": "Attachment",
+      "name": "FeetPoint",
+      "parent": "Feet",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "Puffs",
+      "class": "ParticleEmitter",
+      "name": "Puffs",
+      "parent": "FeetPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          7,
+          11
+        ],
+        "SpreadAngle": [
+          86,
+          86
+        ],
+        "Lifetime": [
+          0.6,
+          0.9
+        ],
+        "Drag": 4,
+        "Acceleration": [
+          0,
+          1,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.84,
+            "envelope": 0.21
+          },
+          {
+            "time": 0.3,
+            "value": 2.2399999999999998,
+            "envelope": 0.42
+          },
+          {
+            "time": 1,
+            "value": 2.8,
+            "envelope": 0.42
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.4,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 10
+      }
+    },
+    {
+      "id": "Sparkle",
+      "class": "Part",
+      "name": "Sparkle",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          4.5,
+          0
+        ],
+        "Size": [
+          5,
+          7,
+          5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "Sparkle",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.25,
+          0.4
+        ],
+        "Shape": "Sphere",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.35,
+            "value": 1.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.4,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.05,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 4
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      16,
+      9,
+      18
+    ],
+    "target": [
+      0,
+      3,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

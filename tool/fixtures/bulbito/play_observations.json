@@ -1,0 +1,65 @@
+{
+ "_note": "Observed in Roblox Studio Play, 2026-10-22 (Bulbito Bandito Traktorito). visible = clearly seen on Play captures, so these emitters must NOT get a visibility warning. invisible = seen to fail in Play, must keep its warning.",
+ "visible": {
+  "A1_Muzzle": [
+   "Smoke"
+  ],
+  "A1_Twirl": [
+   "Stars"
+  ],
+  "A1_Blow": [
+   "Wisp"
+  ],
+  "A1_Hit": [
+   "Dust"
+  ],
+  "A2_Ring": [
+   "Dust"
+  ],
+  "A2_Stop": [
+   "Dust"
+  ],
+  "A3_Ground": [
+   "Dust"
+  ],
+  "A3_Fuse": [
+   "Spark",
+   "Smoke"
+  ],
+  "Walk_Dust": [
+   "DustR",
+   "DustL"
+  ],
+  "A2_FireTrail": [
+   "Fire"
+  ],
+  "A2_Flare": [
+   "Burst",
+   "Flames"
+  ],
+  "A2_Vents": [
+   "Jet1"
+  ]
+ },
+ "invisible": {
+  "Pillar_InvisibleInPlay": [
+   "Burst"
+  ]
+ },
+ "unknown": {
+  "A1_Muzzle": [
+   "Flash"
+  ],
+  "A3_Glint": [
+   "Shine"
+  ],
+  "Idle_Puff": [
+   "Wisp"
+  ]
+ },
+ "visibility_codes": [
+  "pale_small_texture",
+  "flipbook_low_opacity",
+  "flipbook_empty_start"
+ ]
+}

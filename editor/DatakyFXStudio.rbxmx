@@ -7,7 +7,7 @@ local Workspace = game:GetService("Workspace")
 local BASE = "http://127.0.0.1:48754"
 local VERSION = 2
 local isPlugin = plugin ~= nil
-local CAPABILITIES = {native_preview=true, capture_context=isPlugin and "plugin" or "command_bar", capture_permission_request=isPlugin}
+local CAPABILITIES = {native_preview=true, sandbox=true, commands={"export_used_textures"}, capture_context=isPlugin and "plugin" or "command_bar", capture_permission_request=isPlugin}
 local old = _G.DatakyFXBridge
 if old then
     if type(old.shutdown) == "function" then old.shutdown()
@@ -88,6 +88,7 @@ local function captureStatus()
         enabled=session.preview_enabled, available=session.preview_available,
         permission=session.preview_permission, error=session.preview_error, fps=session.preview_fps,
         generation=session.capture_generation, adaptive=true, http_budget=420,
+        window_focused=session.window_focused,
     }
 end
 
@@ -280,6 +281,58 @@ function session.disconnect()
     return session.status()
 end
 
+-- BEGIN USED TEXTURE SCAN: literal recipe data is read, never required/executed.
+local function collectUsedTextures(place)
+    local ids, unreadable, dynamic = {}, 0, 0
+    local function add(value)
+        if type(value) ~= "string" then value = tostring(value or "") end
+        local id = value:match("^rbxassetid://(%d+)$") or value:match("^%d+$")
+        if not id then id = value:match("^https?://www%.roblox%.com/asset/?%?id=(%d+)$") or value:match("^https?://roblox%.com/asset/?%?id=(%d+)$") end
+        if id then
+            id = id:gsub("^0+", "")
+            if id ~= "" then ids[id] = true end
+        end
+    end
+    for _, object in ipairs(place:GetDescendants()) do
+        if object:IsA("ParticleEmitter") or object:IsA("Beam") or object:IsA("Trail") then
+            add(object.Texture)
+        elseif object:IsA("ModuleScript") then
+            local ok, source = pcall(function() return object.Source end)
+            if not ok then unreadable += 1
+            elseif source:find("nodes") and source:find("version") then
+                -- Exported libraries and ordinary literal recipe tables (Lua/JSON).
+                -- Dynamic expressions are not evaluated; report them for inspection.
+                for _, field in ipairs({"Texture", "TextureID", "TextureId"}) do
+                    local prefix = "%f[%w_]" .. field .. "%f[^%w_][\"'%]%s]*[=:]%s*"
+                    for expression in source:gmatch(prefix .. "([^,;\n}]+)") do
+                        expression = expression:gsub("%s+$", "")
+                        local literal = expression:match('^"([^"]*)"$') or expression:match("^'([^']*)'$") or expression:match("^%d+$")
+                        if literal then add(literal) else dynamic += 1 end
+                    end
+                end
+            end
+        end
+    end
+    local result = {}
+    for id in pairs(ids) do table.insert(result, id) end
+    table.sort(result, function(a, b) return #a == #b and a &lt; b or #a &lt; #b end)
+    return result, unreadable, dynamic
+end
+-- END USED TEXTURE SCAN
+
+function session.exportUsedTextures()
+    assert(RunService:IsEdit() and not RunService:IsRunning(), "Exporter les textures utilisées exige le mode édition.")
+    assert(session.connected, "Cliquez sur Connexion et attendez la connexion à Dataky FX Studio.")
+    local ids, unreadable, dynamic = collectUsedTextures(game)
+    local result = request("POST", "/bridge/used_textures", {client_id=session.client_id, place_name=game.Name, ids=ids})
+    result.unreadable_modules, result.dynamic_expressions = unreadable, dynamic
+    print("Dataky FX Studio : " .. tostring(result.count) .. " textures exportées dans " .. tostring(result.path))
+    if unreadable &gt; 0 or dynamic &gt; 0 then
+        warn("Dataky FX Studio : scan partiel, " .. unreadable .. " modules illisibles et " .. dynamic .. " expressions dynamiques à vérifier.")
+    end
+    return result
+end
+
 function session.shutdown()
     if not session.alive then return end
     session.disconnect()
@@ -289,8 +342,26 @@ function session.shutdown()
     if session.button then session.button:Destroy() end
     if session.preview_click_connection then session.preview_click_connection:Disconnect() end
     if session.preview_button then session.preview_button:Destroy() end
+    if session.textures_click_connection then session.textures_click_connection:Disconnect() end
+    if session.textures_button then session.textures_button:Destroy() end
     if session.toolbar then session.toolbar:Destroy() end
+    if session.focus_connection then session.focus_connection:Disconnect() end
+    if session.blur_connection then session.blur_connection:Disconnect() end
 end
+
+-- These documented signals concern the main Roblox viewport. No initial focus
+-- is assumed, and their delivery in a Studio plugin still needs a live check.
+pcall(function()
+    local input = game:GetService("UserInputService")
+    session.focus_connection = input.WindowFocused:Connect(function()
+        session.window_focused = true
+        if session.enabled then sendPreviewStatus() end
+    end)
+    session.blur_connection = input.WindowFocusReleased:Connect(function()
+        session.window_focused = false
+        if session.enabled then sendPreviewStatus() end
+    end)
+end)
 
 if isPlugin then
     session.toolbar = plugin:CreateToolbar("Dataky FX")
@@ -306,6 +377,14 @@ if isPlugin then
     session.preview_click_connection = session.preview_button.Click:Connect(function()
         if session.preview_enabled then session.previewStop() else session.previewStart() end
     end)
+    session.textures_button = session.toolbar:CreateButton("DatakyFXUsedTextures", "Exporter les textures utilisées dans tool/used_textures", "", "Exporter les textures utilisées")
+    session.textures_button.ClickableWhenViewportHidden = true
+    session.textures_click_connection = session.textures_button.Click:Connect(function()
+        task.spawn(function()
+            local ok, message = pcall(session.exportUsedTextures)
+            if not ok then session.last_error = tostring(message); warn("Dataky FX Studio : " .. tostring(message)) end
+        end)
+    end)
     session.unloading_connection = plugin.Unloading:Connect(session.shutdown)
 end
 _G.DatakyFXBridge = session
@@ -318,9 +397,18 @@ local actions = {
     status=function() return runtime.status() end,
     pause=function() return runtime.pause() end,
     resume=function() return runtime.resume() end,
+    sandbox=function(command)
+        if command.mode == "timeline" then return runtime.play(command.project) end
+        return runtime.sandbox(command.project, command.enabled)
+    end,
+    emit=function(command) return runtime.emit(command.counts) end,
+    enabled=function(command) return runtime.enabled(command.enabled) end,
+    clear_particles=function() return runtime.clearParticles() end,
+    update=function(command) return runtime.update(command.project) end,
     preview_start=function(command) return session.previewStart(command) end,
     preview_stop=function() return session.previewStop() end,
     capture_status=function() return captureStatus() end,
+    export_used_textures=function() return session.exportUsedTextures() end,
 }
 
 if not isPlugin then session.connect() end
@@ -392,7 +480,12 @@ task.spawn(function()
     end
 end)
 
-print(isPlugin and "Dataky FX Studio : cliquez sur Connexion dans la barre Dataky FX." or "Dataky FX Studio : pont local démarré sur " .. BASE)
+-- Studio loads plugins in the Play client and server too. Keep this Edit hint
+-- once per session, including when the bridge script is reloaded.
+if RunService:IsEdit() and not RunService:IsRunning() and not _G.DatakyFXConnectionHintShown then
+    _G.DatakyFXConnectionHintShown = true
+    print(isPlugin and "Dataky FX Studio : cliquez sur Connexion dans la barre Dataky FX." or "Dataky FX Studio : pont local démarré sur " .. BASE)
+end
 return session.status()
 </ProtectedString></Properties><Item class="ModuleScript" referent="RBXDATAKYRUNTIME"><Properties><string name="Name">Runtime</string><ProtectedString name="Source">-- Dataky FX Studio: native Roblox renderer. No project text is executed as code.
 -- ModuleScript/command-bar body; returns one independent runtime handle.
@@ -408,6 +501,7 @@ local root, project, objects, specs, tracks = nil, nil, {}, {}, {}
 local options, origin = {}, Vector3.zero
 local connection, cameraConnection, savedCamera = nil, nil, nil
 local running, paused, elapsed, generation = false, false, 0, 0
+local freeMode, previewEnabled = false, {}
 local errors, warnings, fired = {}, {}, {}
 local pausedProperties = {}
 local activeOptions = nil
@@ -814,6 +908,7 @@ end
 function Runtime.stop()
     disconnect()
     running, paused, elapsed = false, false, 0
+    freeMode, previewEnabled = false, {}
     for id, props in pairs(pausedProperties) do
         if objects[id] then
             for property, value in pairs(props) do objects[id][property] = value end
@@ -996,7 +1091,10 @@ local function update(time)
         if timing then
             if timing.mode == "burst" then
                 object.Enabled = false
-                if time &gt;= timing.start and not fired[id] then object:Emit(timing.count); fired[id] = true end
+                if time &gt;= timing.start and not fired[id] then
+                    if spec.properties.Enabled ~= false and animatedEnabled[id] ~= false then object:Emit(timing.count) end
+                    fired[id] = true
+                end
             else
                 object.Enabled = spec.properties.Enabled ~= false and animatedEnabled[id] ~= false and time &gt;= timing.start and time &lt; timing.start + timing.duration
             end
@@ -1042,6 +1140,91 @@ function Runtime.play(data, opts)
     return Runtime.status()
 end
 
+-- Additive preview-only API. The legacy timeline methods keep their lifecycle.
+local function freeSwitches()
+    for id, spec in pairs(specs) do
+        if isSwitchClass(spec.class) then
+            local enabled = previewEnabled[id]
+            if enabled == nil then enabled = spec.properties.Enabled ~= false end
+            if spec.class == "ParticleEmitter" and spec.timing and spec.timing.mode == "burst" then enabled = false end
+            if paused and spec.class == "ParticleEmitter" then
+                pausedProperties[id] = pausedProperties[id] or {TimeScale=objects[id].TimeScale}
+                pausedProperties[id].Enabled = enabled
+                objects[id].Enabled = false
+            else objects[id].Enabled = enabled end
+        end
+    end
+end
+
+function Runtime.sandbox(data, enabled, opts)
+    if data then Runtime.apply(data, opts or activeOptions) end
+    if not root or not root.Parent then fail("aucun effet pour le mode Libre") end
+    Runtime.stop()
+    freeMode, previewEnabled, running = true, table.clone(enabled or {}), true
+    freeSwitches()
+    connection = RunService.Heartbeat:Connect(function(dt)
+        if running and not paused then elapsed += dt end
+    end)
+    return Runtime.status()
+end
+
+function Runtime.emit(counts)
+    for id, count in pairs(counts or {}) do
+        finite(count, "emit.count")
+        if count &lt; 0 or count &gt; 10000 or count % 1 ~= 0 then fail("Emit exige un entier entre 0 et 10000") end
+        if not specs[id] or specs[id].class ~= "ParticleEmitter" then fail("Emit : émetteur introuvable " .. tostring(id)) end
+    end
+    for id, count in pairs(counts or {}) do objects[id]:Emit(count) end
+    return Runtime.status()
+end
+
+function Runtime.enabled(values)
+    if not freeMode then fail("Enabled d'aperçu exige le mode Libre") end
+    for id, value in pairs(values or {}) do
+        if not specs[id] or not isSwitchClass(specs[id].class) or type(value) ~= "boolean" then fail("Enabled : objet ou booléen invalide") end
+    end
+    for id, value in pairs(values or {}) do previewEnabled[id] = value end
+    freeSwitches()
+    return Runtime.status()
+end
+
+function Runtime.clearParticles()
+    for id, object in pairs(objects) do
+        if specs[id].class == "ParticleEmitter" or specs[id].class == "Trail" then object:Clear() end
+    end
+    return Runtime.status()
+end
+
+function Runtime.update(data)
+    if not freeMode then fail("la mise à jour en direct exige le mode Libre") end
+    local normalized, decodedTracks, duration = validate(data)
+    local matching, byId = #normalized == #project.nodes, {}
+    for _, spec in ipairs(normalized) do
+        byId[spec.id] = spec
+        local old = specs[spec.id]
+        if not old or old.class ~= spec.class or old.parent ~= spec.parent then matching = false
+        else for prop in pairs(old.properties) do if spec.properties[prop] == nil then matching = false end end end
+    end
+    if not matching then return Runtime.sandbox(data, previewEnabled, activeOptions) end
+    for _, spec in ipairs(normalized) do
+        for _, prop in ipairs(orderedProperties(spec.properties)) do
+            local value = spec.properties[prop]
+            if (prop == "MeshId" or prop == "RenderFidelity") and spec.class == "MeshPart" then
+                if value ~= specs[spec.id].properties[prop] then return Runtime.sandbox(data, previewEnabled, activeOptions) end
+            elseif prop ~= "Enabled" then
+                if schema[spec.class][prop] == "reference" then value = objects[value] end
+                if prop == "Position" and isBaseClass(spec.class) then value += origin end
+                if pausedProperties[spec.id] and pausedProperties[spec.id][prop] ~= nil then pausedProperties[spec.id][prop] = value
+                else setProperty(objects[spec.id], prop, value, spec.id) end
+            end
+        end
+    end
+    project, specs, tracks = data, byId, decodedTracks
+    options.duration = duration
+    freeSwitches()
+    return Runtime.status()
+end
+
 -- ParticleEmitter.TimeScale can freeze native particles. Trail history has no
 -- native time scale; refuse pause when an enabled Trail has a live history.
 function Runtime.pause()
@@ -1081,7 +1264,7 @@ function Runtime.status()
         duration=project and (project.duration or 3) or 0, node_count=count,
         root=root and root:GetFullName() or nil, errors=table.clone(errors), warnings=table.clone(warnings),
         loading_assets=loadingAssets, asset_failures=table.clone(assetFailures),
-        native=true, camera_controlled=savedCamera ~= nil,
+        native=true, camera_controlled=savedCamera ~= nil, mode=freeMode and "free" or "timeline",
     }
 end
 

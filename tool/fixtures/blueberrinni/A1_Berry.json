@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "name": "Blueberrinni · A1_Berry",
+  "id": "blueberrinni-a1-berry",
+  "duration": 1.0,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "root",
+      "class": "Part",
+      "name": "root",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "berry",
+      "class": "Part",
+      "name": "berry",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Shape": "Ball",
+        "Material": "SmoothPlastic",
+        "Color": [
+          0.27,
+          0.3,
+          0.66
+        ]
+      }
+    },
+    {
+      "id": "calyx",
+      "class": "Part",
+      "name": "calyx",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0.44,
+          0
+        ],
+        "Size": [
+          0.12,
+          0.46,
+          0.46
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Shape": "Cylinder",
+        "Material": "SmoothPlastic",
+        "Orientation": [
+          0,
+          0,
+          90
+        ],
+        "Color": [
+          0.14,
+          0.12,
+          0.3
+        ]
+      }
+    },
+    {
+      "id": "shine",
+      "class": "Part",
+      "name": "shine",
+      "parent": null,
+      "properties": {
+        "Position": [
+          -0.2,
+          0.22,
+          -0.32
+        ],
+        "Size": [
+          0.22,
+          0.22,
+          0.22
+        ],
+        "Transparency": 0.15,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Shape": "Ball",
+        "Material": "Neon",
+        "Color": [
+          0.86,
+          0.93,
+          1
+        ]
+      }
+    },
+    {
+      "id": "core",
+      "class": "Attachment",
+      "name": "core",
+      "parent": "berry",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "comet",
+      "class": "ParticleEmitter",
+      "name": "comet",
+      "parent": "core",
+      "properties": {
+        "Texture": "rbxassetid://85058904608661",
+        "Rate": 70,
+        "LightInfluence": 0,
+        "LightEmission": 0.35,
+        "Brightness": 1,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.14,
+          0.18
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.4,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.8,
+              0.66,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.62,
+              0.2,
+              0.78
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 1.0,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "drip",
+      "class": "ParticleEmitter",
+      "name": "drip",
+      "parent": "core",
+      "properties": {
+        "Texture": "rbxassetid://7096972007",
+        "Rate": 36,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1,
+        "Speed": [
+          0.4,
+          1.4
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.25,
+          0.4
+        ],
+        "Acceleration": [
+          0,
+          -24,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.34,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.62,
+              0.2,
+              0.78
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.42,
+              0.1,
+              0.58
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 1.0,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      6,
+      4,
+      7
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#6f9fd8"
+  }
+}

@@ -69,6 +69,118 @@ test('continuous timing emits at Rate only inside its window', () => {
   sim.seek(2.5); assert.equal(sim.stats().particles, emitted, 'no emission after the window');
 });
 
+test('free mode runs beyond duration, ignores timeline tracks and emits bursts only manually', () => {
+  const recipe = project([part('p'),
+    emitter('burst', 'p', {Lifetime: [10, 10], Rate: 100}, {start: 0, duration: 0.1, mode: 'burst', count: 7}),
+    emitter('continuous', 'p', {Rate: 60, Lifetime: [10, 10]}, {start: 1, duration: 0.1, mode: 'continuous'}),
+  ], {duration: 2, loop: true});
+  recipe.animations = [{node: 'continuous', property: 'Rate', keyframes: [{time: 0, value: 0}, {time: 2, value: 0}]}];
+  const sim = E.createSimulation(recipe, {mode: 'free'});
+  assert.equal(sim.emitters[0].particles.length, 0);
+  sim.seek(3);
+  near(sim.time, 3);
+  assert.equal(sim.ended, false);
+  assert.equal(sim.emitters[0].particles.length, 0, 'burst Rate never emits in free mode');
+  assert.equal(sim.emitters[1].particles.length, 180, 'continuous Rate ignores its timeline window and tracks');
+  assert.equal(sim.emit('burst'), 7, 'manual emission defaults to timing count');
+  assert.equal(sim.emitters[0].particles.length, 7);
+  assert.equal(sim.emit('burst', 3), 3);
+  assert.equal(sim.emitters[0].particles.length, 10);
+});
+
+test('free preview switches are independent of recipe data and affect every switchable class', () => {
+  const recipe = project([part('p'), emitter('e', 'p', {Rate: 60, Lifetime: [10, 10]}, {start: 0, duration: 0.1, mode: 'continuous'}),
+    ...['Beam', 'Trail', 'PointLight', 'SpotLight', 'SurfaceLight'].map((className, i) => ({id: 's' + i, class: className, parent: 'p', properties: {Enabled: false}})),
+  ]);
+  const original = JSON.stringify(recipe);
+  const sim = E.createSimulation(recipe, {mode: 'free'});
+  sim.seek(0.25);
+  const count = sim.stats().particles;
+  sim.setEnabled('e', false);
+  sim.seek(0.5);
+  assert.equal(sim.stats().particles, count, 'disabling stops Rate, preserving live particles');
+  for (const node of recipe.nodes.filter(n => n.id.startsWith('s'))) {
+    assert.equal(sim.isEnabled(node.id), false);
+    assert.equal(sim.setEnabled(node.id, true), true);
+    assert.equal(sim.isEnabled(node.id), true);
+    assert.equal(sim.byId.get(node.id).properties.Enabled, false);
+  }
+  assert.equal(JSON.stringify(recipe), original, 'the source recipe is unchanged');
+  assert.equal(sim.byId.get('e').properties.Enabled, undefined, 'the simulation recipe is unchanged too');
+  assert.equal(sim.emit('e', 2), 2, 'manual Emit remains immediate even with Rate disabled');
+  const time = sim.time;
+  sim.clearParticles();
+  assert.equal(sim.stats().particles, 0);
+  assert.equal(sim.time, time, 'Clear preserves the free clock');
+});
+
+test('free live edits retain particles, clocks and preview switches while updating properties and the tree', () => {
+  const recipe = project([part('p'), emitter('e', 'p', {Rate: 60, Lifetime: [10, 10], Speed: [1, 1]}, {start: 0, duration: 1, mode: 'continuous'})]);
+  const sim = E.createSimulation(recipe, {mode: 'free'});
+  sim.seek(0.5);
+  const first = sim.emitters[0].particles[0], count = sim.stats().particles;
+  sim.setEnabled('e', false);
+  const next = JSON.parse(JSON.stringify(recipe));
+  next.nodes[1].properties.Speed = [8, 8];
+  next.nodes[1].properties.Size = [{time: 0, value: 2}, {time: 0.5, value: 3}, {time: 1, value: 1}];
+  next.nodes.push(emitter('added', 'p', {}, {start: 0, duration: 0.1, mode: 'burst', count: 4}));
+  sim.updateProject(next);
+  near(sim.time, 0.5);
+  assert.equal(sim.stats().particles, count);
+  assert.equal(sim.emitters[0].particles[0], first);
+  assert.equal(sim.isEnabled('e'), false);
+  assert.equal(sim.emit('e', 1), 1);
+  near(Math.hypot(...sim.emitters[0].particles.at(-1).v0), 8, 1e-9, 'new Speed applies to new particles');
+  assert.ok(E.buildFrame(sim, recipe.camera).data.every(Number.isFinite), 'changed sequence length remains valid for old particles');
+  assert.equal(sim.emit('added'), 4, 'new emitters can be triggered without a reset');
+  next.nodes = next.nodes.filter(n => n.id !== 'added');
+  sim.updateProject(next);
+  assert.equal(sim.byId.has('added'), false);
+  assert.equal(sim.emitters.length, 1);
+});
+
+test('mode transitions preserve timeline behavior and Stop clears immediate particles', () => {
+  const recipe = project([part('p'), emitter('e', 'p', {}, {start: 0, duration: 0.1, mode: 'burst', count: 5})]);
+  const sim = E.createSimulation(recipe);
+  assert.equal(sim.stats().particles, 5);
+  sim.setMode('free');
+  assert.equal(sim.mode, 'free');
+  assert.equal(sim.stats().particles, 0);
+  sim.emit('e', 3);
+  sim.stop();
+  assert.equal(sim.time, 0);
+  assert.equal(sim.stats().particles, 0);
+  sim.setMode('timeline');
+  assert.equal(sim.mode, 'timeline');
+  assert.equal(sim.stats().particles, 5, 'timeline initial burst is restored');
+  sim.stop();
+  assert.equal(sim.stats().particles, 0, 'timeline Stop clears the initial burst too');
+  sim.reset();
+  assert.equal(sim.stats().particles, 5, 'Play/reset still triggers the initial burst');
+});
+
+test('opening another free recipe clears particles, clock and preview switches even when IDs match', () => {
+  const recipe = project([part('p'), emitter('e', 'p', {Rate: 60, Lifetime: [10, 10]}, {start: 0, duration: 1, mode: 'continuous'})]);
+  const sim = E.createSimulation(recipe, {mode: 'free'});
+  sim.seek(0.5);sim.setEnabled('e', false);sim.emit('e', 7);
+  assert.ok(sim.stats().particles > 0);
+  const next = JSON.parse(JSON.stringify(recipe));next.name = 'Another effect';next.nodes[1].properties.Rate = 120;
+  sim.resetPreviewState();sim.updateProject(next);
+  assert.equal(sim.time, 0);
+  assert.equal(sim.stats().particles, 0);
+  assert.equal(sim.isEnabled('e'), true);
+  sim.seek(0.25);
+  assert.equal(sim.stats().particles, 30, 'the new emitter runs at its own Rate');
+});
+
+test('timeline Enabled false suppresses automatic bursts', () => {
+  const recipe = project([part('p'), emitter('e', 'p', {Enabled: false}, {start: 0.25, duration: 0.1, mode: 'burst', count: 5})]);
+  const sim = E.createSimulation(recipe);
+  sim.seek(0.5);
+  assert.equal(sim.stats().particles, 0);
+  assert.equal(sim.emit('e', 2), 2, 'explicit Emit remains available');
+});
+
 test('loop clears particles and restarts bursts; a finished effect lets particles fade out', () => {
   const nodes = [part('p'), emitter('e', 'p', {Lifetime: [3, 3]}, {start: 0, duration: 0.1, mode: 'burst', count: 5})];
   const looping = E.createSimulation(project(nodes, {duration: 1, loop: true}));
@@ -119,6 +231,37 @@ test('particle quads: one quad per visible particle, LightEmission and transpare
     near(frame.data[i * 13 + 10], 0.75, 1e-6, 'alpha');
     near(frame.data[i * 13 + 12], 1, 1e-6, 'LightEmission');
   }
+});
+
+test('VelocityParallel negative Squash stretches along velocity; positive Squash stretches across it', () => {
+  for (const squash of [-2, 2]) {
+    const recipe = project([part('p'), emitter('e', 'p', {
+      Orientation: 'VelocityParallel', EmissionDirection: 'Right', Squash: sequence(squash), Rotation: [0, 0],
+    }, {start: 0, duration: 0.1, mode: 'burst', count: 1})]);
+    const sim = E.createSimulation(recipe);
+    const frame = E.buildFrame(sim, recipe.camera);
+    assert.equal(frame.vertices, 6);
+    const extent = axis => {
+      const values = Array.from({length: frame.vertices}, (_, i) => frame.data[i * 13 + axis]);
+      return Math.max(...values) - Math.min(...values);
+    };
+    const along = extent(0), across = Math.hypot(extent(1), extent(2));
+    assert.ok(squash < 0 ? along > across : across > along,
+      `Squash ${squash}: along velocity ${along}, across velocity ${across}`);
+    near(Math.max(along, across), 3, 1e-6, 'stretched size');
+    near(Math.min(along, across), 1 / 3, 1e-6, 'compressed size');
+  }
+});
+
+test('FacingCamera preserves the existing Squash approximation', () => {
+  const recipe = project([part('p'), emitter('e', 'p', {
+    Orientation: 'FacingCamera', Squash: sequence(2), Rotation: [0, 0], Speed: [0, 0],
+  }, {start: 0, duration: 0.1, mode: 'burst', count: 1})]);
+  const frame = E.buildFrame(E.createSimulation(recipe), recipe.camera);
+  const xs = Array.from({length: frame.vertices}, (_, i) => frame.data[i * 13]);
+  const ys = Array.from({length: frame.vertices}, (_, i) => frame.data[i * 13 + 1]);
+  near(Math.max(...xs) - Math.min(...xs), 1 / 3, 1e-6, 'width');
+  near(Math.max(...ys) - Math.min(...ys), 3, 1e-6, 'height');
 });
 
 test('flipbook Grid4x4 OneShot starts in the first cell and ends in the last', () => {
@@ -216,6 +359,95 @@ test('auto camera keeps the view direction and fits every visible corner; the du
   assert.equal(E.effectBounds(project([part('p')])), null, 'invisible effect has no extent');
 });
 
+test('selection framing includes descendants without distant unrelated geometry', () => {
+  const recipe = project([part('near', {Position: [3, 2, 0]}),
+    emitter('selected', 'near', {Speed: [0, 0], Size: sequence(1)}, {start: 0, duration: 0.1, mode: 'burst', count: 1}),
+    part('far', {Position: [100, 2, 0], Transparency: 0}),
+  ]);
+  const all = E.effectBounds(recipe);
+  const selection = E.effectBounds(recipe, {ids: ['near']});
+  assert.ok(all.max[0] > 100);
+  assert.ok(selection.min[0] > 0 && selection.max[0] < 6, 'only selected particles contribute');
+  const anchor = E.effectBounds(project([part('hidden', {Position: [12, 3, 0]})]), {ids: ['hidden']});
+  near(anchor.center, [12, 3, 0], 1e-9, 'invisible selected anchors can still be framed');
+});
+
+test('focus frames a sphere in 87.5% of the smaller image dimension, independently of view direction', () => {
+  const recipe = project([]), center = [4, 2, -7], radius = 3;
+  for (const aspect of [480 / 270, 270 / 480]) {
+    const camera = E.sphereCamera(recipe, {center, radius, aspect});
+    near(camera.target, center);
+    const distance = Math.hypot(...camera.position.map((v, i) => v - center[i]));
+    const tanLimit = Math.tan(camera.fov * Math.PI / 360) * Math.min(1, aspect);
+    const sphereFill = radius / (Math.sqrt(distance * distance - radius * radius) * tanLimit);
+    near(sphereFill, 0.875, 1e-9, 'perspective sphere silhouette');
+    const flatObjectFill = radius / (distance * tanLimit);
+    assert.ok(flatObjectFill >= 0.75, 'a centered 6-stud object occupies at least 75% of the smaller dimension');
+  }
+});
+
+test('sampled fit includes live particles and half their full size only at requested times', () => {
+  const recipe = project([part('p', {Position: [0, 0, 0]}), attachment('tip', 'p'),
+    emitter('early', 'tip', {Speed: [6, 6], Lifetime: [0.15, 0.15], Size: sequence(2), Squash: sequence(-2)}, {start: 0, duration: 0.05, mode: 'burst', count: 1}),
+    emitter('late', 'tip', {Speed: [100, 100], Lifetime: [0.5, 0.5], Size: sequence(10)}, {start: 0.5, duration: 0.05, mode: 'burst', count: 10}),
+  ]);
+  const bounds = E.sampledParticleBounds(recipe, {ids: ['p'], times: [0.02, 0.06], percentile: 100});
+  near(bounds.min, [-3, -2.9, -3], 1e-6);
+  near(bounds.max, [3, 3.4, 3], 1e-6);
+  assert.equal(bounds.particles, 2);
+  assert.equal(bounds.retained, 2);
+  assert.equal(bounds.fallback, false);
+  assert.ok(E.effectBounds(recipe, {ids: ['p']}).max[1] > 30, 'legacy fit includes the later distant burst');
+  const defaultTimes = E.renderTimes([recipe, {...recipe, duration: 4}], {frames: 2});
+  near(defaultTimes, [1, 3], 1e-9, 'comparison fits the same shared times that it renders');
+});
+
+test('sampled fit removes isolated centers at the configurable percentile before adding half sizes', () => {
+  const burst = {start: 0, duration: 0.1, mode: 'burst', count: 10};
+  const recipe = project([part('p', {Position: [0, 0, 0]}), attachment('tip', 'p'), attachment('far', 'p', {Position: [100, 0, 0]}),
+    emitter('cluster', 'tip', {Speed: [0, 0]}, burst),
+    emitter('outlier', 'far', {Speed: [0, 0]}, {...burst, count: 1}),
+  ]);
+  const trimmed = E.sampledParticleBounds(recipe, {ids: ['p'], times: [0.05]});
+  const all = E.sampledParticleBounds(recipe, {ids: ['p'], times: [0.05], percentile: 100});
+  near(trimmed.min, [-0.5, -0.5, -0.5]);
+  near(trimmed.max, [0.5, 0.5, 0.5]);
+  assert.equal(trimmed.retained, 10);
+  assert.equal(all.retained, 11);
+  near(all.max, [100.5, 0.5, 0.5]);
+});
+
+test('sampled visible footprints use full particle size, UV support and rotation without inventing billboard depth', () => {
+  const recipe = project([part('p'), attachment('tip', 'p'),
+    emitter('e', 'tip', {Speed: [0, 0], Size: sequence(4), Rotation: [90, 90], ZOffset: 1}, {start: 0, duration: .1, mode: 'burst', count: 1})]);
+  const textureBounds = () => ({min: [.25, .375], max: [.75, .625]});
+  textureBounds.points = () => [[.25,.375],[.75,.375],[.75,.625],[.25,.625]];
+  const bounds = E.sampledParticleBounds(recipe, {ids: ['p'], times: [.02], textureBounds});
+  near(bounds.min, [-.5, 1, 0]);
+  near(bounds.max, [.5, 3, 0]);
+  assert.equal(bounds.fitPoints.length, 4);
+  const camera = E.particleCamera(recipe, {points: bounds.fitPoints, aspect: 480/270});
+  const distance = Math.hypot(...camera.position.map((v,i) => v-camera.target[i]));
+  near(1 / (distance * Math.tan(camera.fov*Math.PI/360)), .875);
+  const shifted = structuredClone(recipe); shifted.nodes[2].properties.ZOffset = 10;
+  const again = E.sampledParticleBounds(shifted, {ids: ['p'], times: [.02], textureBounds});
+  near(again.min, bounds.min); near(again.max, bounds.max);
+});
+
+test('empty sampled fit falls back to the animated carrier Part and Attachments even for emitter selection', () => {
+  const recipe = project([part('p', {Position: [10, 2, 0], Size: [2, 4, 6]}),
+    attachment('tip', 'p', {Position: [6, 0, 0]}),
+    emitter('e', 'tip', {Lifetime: [0.1, 0.1]}, {start: 0.5, duration: 0.1, mode: 'burst', count: 1}),
+    part('unrelated', {Position: [200, 0, 0]}),
+  ]);
+  recipe.animations = [{node: 'p', property: 'Position', keyframes: [{time: 0, value: [10, 2, 0]}, {time: 1, value: [12, 2, 0]}]}];
+  const fallback = E.sampledParticleBounds(recipe, {ids: ['e'], times: [0, 1]});
+  near(fallback.min, [9, 0, -3]);
+  near(fallback.max, [18, 4, 3]);
+  assert.equal(fallback.fallback, true);
+  assert.equal(fallback.particles, 0);
+});
+
 test('bundled projects simulate and build frames for their whole duration', () => {
   const folder = path.resolve(__dirname, '../editor/projects');
   for (const file of fs.readdirSync(folder).filter(name => name.endsWith('.json'))) {
@@ -230,4 +462,21 @@ test('bundled projects simulate and build frames for their whole duration', () =
     }
     assert.ok(drawn > 0, file + ' draws something');
   }
+});
+
+test('recipe background is used unless an explicit preset overrides it', () => {
+  const recipe = project([], {environment: {background: '#1944AA'}});
+  near(E.environmentColors(recipe).sky, [25 / 255, 68 / 255, 170 / 255], 1e-9);
+  near(E.environmentColors(recipe, '').sky, E.environmentColors(recipe).sky, 1e-9);
+  near(E.environmentColors(recipe, 'noir').sky, [0, 0, 0], 1e-9);
+  near(E.environmentColors(recipe, '#00FF00').sky, [0, 1, 0], 1e-9);
+  near(E.environmentColors({}).sky, [0.098, 0.082, 0.133], 1e-9, 'legacy recipes retain dark fallback');
+  near(E.environmentColors({environment: {background: 'invalid'}}).sky, E.environmentColors({}).sky, 1e-9);
+  const day = E.environmentColors(recipe, 'roblox');
+  assert.ok(day.sky[2] > day.sky[1] && day.sky[1] > day.sky[0], 'day sky is light blue');
+  assert.ok(day.sky.every(v => v > 0.6), 'day sky is light');
+  near(day.ground, [0.64, 0.64, 0.64], 1e-9, 'baseplate ground is light neutral grey');
+  const night = E.environmentColors(recipe, 'dark');
+  near(night.sky, [.035, .045, .08], 1e-9, 'night sky is blue black');
+  near(night.ground, [.16, .16, .17], 1e-9, 'night ground is dark grey independent of sky');
 });

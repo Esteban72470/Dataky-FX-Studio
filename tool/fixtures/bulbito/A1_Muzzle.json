@@ -1,0 +1,586 @@
+{
+ "version": 1,
+ "name": "Bulbito · A1_Muzzle",
+ "id": "bulbito-a1-muzzle",
+ "duration": 0.8,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "Muzzle",
+   "class": "Part",
+   "name": "Muzzle",
+   "parent": null,
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ],
+    "Size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "Point",
+   "class": "Attachment",
+   "name": "Point",
+   "parent": "Muzzle",
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "Port",
+   "class": "Attachment",
+   "name": "Port",
+   "parent": "Muzzle",
+   "properties": {
+    "Position": [
+     0.12,
+     0.3,
+     1.5
+    ]
+   }
+  },
+  {
+   "id": "Flash",
+   "class": "ParticleEmitter",
+   "name": "Flash",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://75545411897437",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.5,
+    "Brightness": 1.4,
+    "Speed": [
+     0,
+     0
+    ],
+    "SpreadAngle": [
+     0,
+     0
+    ],
+    "Lifetime": [
+     0.1,
+     0.1
+    ],
+    "Rotation": [
+     0,
+     360
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 2.4,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 3.3,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.95,
+       0.72
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.84,
+       0.32
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.55,
+      "value": 0.15,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 1,
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 1
+   }
+  },
+  {
+   "id": "Cone",
+   "class": "ParticleEmitter",
+   "name": "Cone",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://11843575561",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.4,
+    "Brightness": 1.3,
+    "Speed": [
+     5,
+     5
+    ],
+    "SpreadAngle": [
+     0,
+     0
+    ],
+    "Lifetime": [
+     0.12,
+     0.12
+    ],
+    "EmissionDirection": "Front",
+    "Orientation": "VelocityParallel",
+    "Size": [
+     {
+      "time": 0,
+      "value": 1.5,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 2.6,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.84,
+       0.32
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.5,
+       0.12
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.7,
+      "value": 0.2,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 0.8,
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 1
+   }
+  },
+  {
+   "id": "Sparks",
+   "class": "ParticleEmitter",
+   "name": "Sparks",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://126956608507146",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.5,
+    "Brightness": 1.4,
+    "Speed": [
+     26,
+     40
+    ],
+    "SpreadAngle": [
+     16,
+     16
+    ],
+    "Lifetime": [
+     0.1,
+     0.2
+    ],
+    "Drag": 4,
+    "EmissionDirection": "Front",
+    "Orientation": "VelocityParallel",
+    "Squash": [
+     {
+      "time": 0,
+      "value": -2.2,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": -1.1,
+      "envelope": 0
+     }
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0.15,
+      "envelope": 0
+     },
+     {
+      "time": 0.7,
+      "value": 0.12,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.95,
+       0.72
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.5,
+       0.12
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.8,
+      "value": 0.1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ]
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 7
+   }
+  },
+  {
+   "id": "Smoke",
+   "class": "ParticleEmitter",
+   "name": "Smoke",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://13468353904",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0,
+    "Brightness": 1,
+    "Speed": [
+     2,
+     4
+    ],
+    "SpreadAngle": [
+     30,
+     30
+    ],
+    "Lifetime": [
+     0.45,
+     0.65
+    ],
+    "Drag": 3,
+    "Acceleration": [
+     0,
+     2,
+     0
+    ],
+    "EmissionDirection": "Front",
+    "Rotation": [
+     0,
+     0
+    ],
+    "RotSpeed": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0.7,
+      "envelope": 0.06999999999999999
+     },
+     {
+      "time": 0.35,
+      "value": 1.615,
+      "envelope": 0.22799999999999998
+     },
+     {
+      "time": 1,
+      "value": 1.9,
+      "envelope": 0.22799999999999998
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.35,
+      "envelope": 0
+     },
+     {
+      "time": 0.6,
+      "value": 0.55,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       0.82,
+       0.82,
+       0.84
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       0.66,
+       0.66,
+       0.68
+      ]
+     }
+    ],
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0.02,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 2
+   }
+  },
+  {
+   "id": "Shell",
+   "class": "ParticleEmitter",
+   "name": "Shell",
+   "parent": "Port",
+   "properties": {
+    "Texture": "rbxassetid://126956608507146",
+    "Rate": 0,
+    "LightInfluence": 0.35,
+    "LightEmission": 0,
+    "Brightness": 1.2,
+    "Speed": [
+     7,
+     9
+    ],
+    "SpreadAngle": [
+     22,
+     22
+    ],
+    "Lifetime": [
+     0.5,
+     0.6
+    ],
+    "EmissionDirection": "Right",
+    "Acceleration": [
+     0,
+     -42,
+     0
+    ],
+    "Rotation": [
+     0,
+     360
+    ],
+    "RotSpeed": [
+     -900,
+     900
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0.24,
+      "envelope": 0.048
+     },
+     {
+      "time": 0.85,
+      "value": 0.24,
+      "envelope": 0.048
+     },
+     {
+      "time": 1,
+      "value": 0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.8,
+       0.32
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       0.72,
+       0.48,
+       0.14
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.85,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "Squash": [
+     {
+      "time": 0,
+      "value": 0.9,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.9,
+      "envelope": 0
+     }
+    ]
+   },
+   "timing": {
+    "start": 0.02,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 1
+   }
+  },
+  {
+   "id": "Light",
+   "class": "PointLight",
+   "name": "Light",
+   "parent": "Point",
+   "properties": {
+    "Brightness": 2.2,
+    "Range": 9,
+    "Color": [
+     1,
+     0.84,
+     0.32
+    ]
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.08,
+    "mode": "continuous",
+    "count": 1
+   }
+  }
+ ],
+ "animations": [
+  {
+   "node": "Light",
+   "property": "Brightness",
+   "keyframes": [
+    {
+     "time": 0,
+     "value": 2.2
+    },
+    {
+     "time": 0.08,
+     "value": 0
+    }
+   ]
+  }
+ ],
+ "camera": {
+  "position": [
+   5,
+   2.5,
+   -1
+  ],
+  "target": [
+   0,
+   0,
+   -1.5
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

@@ -158,5 +158,34 @@ class RbxmxTests(unittest.TestCase):
         self.assertTrue(math.isclose(x, 12, abs_tol=0.1), f"animation follows the moved pivot: {x}")
 
 
+class PluginHintTests(unittest.TestCase):
+    @unittest.skipUnless(os.environ.get("DATAKY_LUAU") or shutil.which("luau"), "Luau CLI absent (DATAKY_LUAU)")
+    def test_connection_hint_only_once_in_edit_never_in_play(self):
+        source = (TOOL / "fx_plugin.lua").read_text(encoding="utf-8")
+        hint = source[source.index("if RunService:IsEdit() and not RunService:IsRunning() and not _G.DatakyFXConnectionHintShown then"):source.rindex("return session.status()")]
+        script = '''local running, editing, printed = true, true, 0
+local RunService = {IsRunning=function() return running end, IsEdit=function() return editing end}
+local _G = {}
+local isPlugin, BASE = true, "local"
+local print = function() printed += 1 end
+local function loadHint()
+''' + hint + '''\nend
+loadHint(); loadHint(); assert(printed == 0, "Play must stay silent even when IsEdit is true")
+running, editing = false, false
+loadHint(); assert(printed == 0, "A paused non-Edit DataModel stays silent")
+running, editing = false, true
+loadHint(); loadHint(); assert(printed == 1, "Edit hint must appear once")
+running = true
+loadHint(); assert(printed == 1, "Play after Edit must stay silent")
+'''
+        with tempfile.NamedTemporaryFile("w", suffix=".luau", delete=False, encoding="utf-8") as handle:
+            handle.write(script)
+        try:
+            result = subprocess.run([os.environ.get("DATAKY_LUAU") or shutil.which("luau"), handle.name], capture_output=True, text=True, timeout=30)
+        finally:
+            os.unlink(handle.name)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
