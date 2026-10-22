@@ -1,0 +1,21 @@
+{
+ "jobs": [
+  {
+   "projects": [
+    "A1_Berry.json"
+   ],
+   "out": "rendus/blueberrinni_cam.png",
+   "times": [
+    0.1
+   ],
+   "camera": [
+    3,
+    2,
+    4,
+    0,
+    0.3,
+    0
+   ]
+  }
+ ]
+}

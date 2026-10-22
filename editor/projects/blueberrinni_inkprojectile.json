@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "name": "Blueberrinni_InkProjectile",
+  "id": "blueberrinni_inkprojectile",
+  "duration": 1.5,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "orb1_ancre",
+      "class": "Part",
+      "name": "Orbe",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "orb1_point",
+      "class": "Attachment",
+      "name": "Point",
+      "parent": "orb1_ancre",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "orb1_halo",
+      "class": "ParticleEmitter",
+      "name": "Orbe · halo",
+      "parent": "orb1_point",
+      "properties": {
+        "Rate": 16.5,
+        "Lifetime": [
+          0.25,
+          0.35
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://81997979611363",
+        "LightEmission": 0.15,
+        "Brightness": 1,
+        "LockedToPart": true,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.25,
+              0.15,
+              0.55
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.3,
+              0.45,
+              0.8
+            ]
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.75,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 2.1,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -100,
+          100
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 1.1,
+        "mode": "continuous",
+        "count": 20
+      }
+    },
+    {
+      "id": "orb1_noyau",
+      "class": "ParticleEmitter",
+      "name": "Orbe · noyau",
+      "parent": "orb1_point",
+      "properties": {
+        "Rate": 3,
+        "Lifetime": [
+          1.1,
+          1.1
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://107251295851688",
+        "LightEmission": 0.15,
+        "Brightness": 1,
+        "LockedToPart": true,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.3,
+              0.17,
+              0.6
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.35,
+              0.3,
+              0.75
+            ]
+          }
+        ],
+        "ZOffset": 0.1,
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1.35,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.05,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -100,
+          100
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

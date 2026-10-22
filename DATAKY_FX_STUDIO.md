@@ -31,16 +31,27 @@ Les effets de prévisualisation sont placés dans `Workspace.__DatakyFXPreview`,
 
 La vue **✦ Émulation** est la vue par défaut. Elle rejoue la recette avec les mêmes règles que le pont Studio : timing des pistes, bursts (`Emit`), émission continue au `Rate`, animations par points clés, boucle qui efface les particules, fin d’effet qui laisse les particules existantes s’éteindre.
 
+Le sélecteur **Timeline / Libre** (Tab) ouvre un bac à sable. En Libre, l’horloge tourne sans limite ; les continus émettent au Rate et les bursts attendent Emit. Le ParticleEmitter sélectionné possède un champ quantité et un bouton Emit. **Emit sélection** inclut ses descendants, **Emit tout** joue les bursts, **Vider** efface les particules sans changer les interrupteurs. Les Enabled de l’arbre et des propriétés sont temporaires en Libre ; en Timeline ils sont enregistrés dans la recette et grisent les barres désactivées. Modifier les propriétés en Libre met à jour l’aperçu directement. Ce mode fonctionne aussi dans l’aperçu natif après réinstallation du pont généré.
+
+Le bouton **?** affiche tous les raccourcis : Espace/Maj+Espace lecture-pause/stop, E/Maj+E Emit sélection/tout, T Enabled, Tab mode, C vider, flèches et Début/Fin pour la tête, [/ ] pour les débuts de timing, L boucle, F/Maj+F cadrage, G sol, M mannequin, 1–5 fonds, ↑/↓ arbre, Alt+↑ parent, Ctrl+C/V copie JSON avec descendants entre projets, Ctrl+E/Ctrl+Maj+E exports. Ils restent inactifs dans un champ ou un dialogue. Les raccourcis de sauvegarde, historique, duplication, suppression, recherche et Échap restent disponibles. La tête arbitraire s’applique à l’émulateur ; l’aperçu natif doit être relancé depuis 0.
+
+Les recettes comportant `params` affichent un curseur par paramètre. Par exemple, `params.radius.default=16` et `scaleWith: {"Size":"radius"}` sur un anneau font varier son rayon sans grossir les autres émetteurs. Ces curseurs changent l’aperçu seulement.
+
+Emit conserve une pause explicite ; après Stop, Emit remet le bac à sable en marche. Changer de projet remet à zéro les particules, l’horloge et les Enabled d’aperçu. Les modifications simples de propriétés conservent l’historique en Libre. Une modification de structure ou suppression de propriété peut reconstruire l’aperçu natif.
+
 - **Lire**, **Pause**, **Arrêter** et la timeline pilotent l’émulation. Cliquer dans la timeline affiche l’effet **exactement** à cet instant : la simulation est déterministe (pas de 1/60 s et graine fixe), elle rejoue l’historique des particules et des trails jusqu’au temps demandé.
 - **Rejouer les changements** relance l’effet après chaque modification.
 - Glissez dans la vue pour tourner autour de l’effet, **Maj + glisser** (ou clic droit) pour déplacer, molette pour zoomer. **Caméra du projet** revient au cadrage enregistré ; **Garder ce cadrage** l’enregistre dans le projet, pour les rendus et pour Studio.
-- **Fond** (sombre, gris, ciel clair, noir) et **Sol** aident à juger un effet sur différents décors. Le sol reçoit la lumière des PointLight, SpotLight et SurfaceLight.
+- **Fond** utilise la couleur `environment.background` de la recette tant qu’aucun preset n’est forcé. Les presets sombre, gris, ciel clair, noir et **roblox** (ciel bleu clair, sol gris clair) et **Sol** aident à juger un effet sur différents décors. Le sol reçoit la lumière des PointLight, SpotLight et SurfaceLight. Testez aussi sur fond clair : les couleurs additives peuvent saturer en blanc.
 - **Mannequin** place un personnage Roblox de 5 studs à côté de l’effet pour juger son échelle. **Cadrer** recule la caméra jusqu’à voir toute l’étendue de l’effet, depuis l’angle actuel.
 - **Capturer** enregistre l’image affichée avec son instant (`capture_source: browser-emulator`).
 
 Ce qui est émulé : formes d’émission Box, Sphere, Cylinder et Disc avec ShapeStyle, ShapeInOut et ShapePartial ; EmissionDirection, SpreadAngle, Speed, Lifetime, Acceleration, Drag, Rotation, RotSpeed, TimeScale, LockedToPart ; Size, Transparency, Squash et Color au cours de la vie, enveloppes comprises ; orientations FacingCamera, FacingCameraWorldUp, VelocityParallel et VelocityPerpendicular ; flipbooks Grid2x2 à 8x8 et Custom en Loop, OneShot, PingPong et Random avec fondu ; LightEmission, LightInfluence, Brightness et ZOffset ; Beams (courbe de Bézier, CurveSize, largeurs, Segments, FaceCamera, TextureMode, TextureLength, TextureSpeed) ; Trails (Lifetime, MinLength, MaxLength, WidthScale, FaceCamera, TextureMode) ; Parts Block, Ball et Cylinder, SpecialMesh Sphere, Cylinder et Brick, matériau Neon ; lumières.
 
 Limites à connaître :
+
+- En `VelocityParallel` avec `Rotation: 0`, un Squash négatif étire le long de la vitesse et un Squash positif en travers (mesuré en Play). Pour une texture de trait vertical, utilisez `Rotation: 90` et un Squash positif. FacingCamera reste une approximation non mesurée.
+- Le message de connexion du plugin apparaît une seule fois en édition, sans polluer les sorties client et serveur de Play.
 
 - Les textures affichées sont les **miniatures 420 × 420** de la bibliothèque locale. Une texture absente de la bibliothèque est remplacée par un halo doux et signalée dans la barre d’état. Les textures intégrées `rbxasset://` sont approchées par des formes générées.
 - La géométrie des **MeshPart** et des SpecialMesh FileMesh n’est disponible que dans Roblox : l’émulation les montre comme des boîtes filaires.
@@ -59,6 +70,8 @@ Le flux natif utilise `StudioCaptureService`, avec environ **4 images par second
 **Rejouer les changements** relance automatiquement la composition après une modification. Décochez cette option pour ne rejouer qu’avec le bouton de lecture. **Capturer l’aperçu** archive une image PNG locale avec le véritable projet et l’instant rendu, pour comparer des variantes ou la fournir à une IA. Les images courantes du flux restent uniquement en mémoire ; les anciennes images sont écartées quand le projet change ou que l’aperçu s’arrête.
 
 Le **plan de scène** est une aide de placement. La timeline sert à écrire les réglages et les animations ; déplacer sa tête de lecture ne recrée pas un historique de particules ou de trails à un instant arbitraire. Relancez la lecture native pour juger l’effet. La pause est prise en charge pour les particules et beams ; un effet contenant un Trail signale qu’une pause fidèle de son historique n’est pas disponible.
+
+Studio en arrière-plan peut ralentir la simulation des particules (mesuré en Play). Le pont relaie conditionnellement les événements de focus du viewport principal et l’atelier affiche un avertissement lorsqu’il reçoit explicitement une perte de focus pendant la lecture. Un état inconnu ne déclenche rien. La livraison de ces signaux dans ce plugin Edit reste à vérifier dans Studio ; ce n’est pas une détection garantie du focus de toute l’application ([API documentée](https://create.roblox.com/docs/reference/engine/classes/UserInputService#WindowFocusReleased)). Un Trail natif continue de perdre son historique dans une capture figée.
 
 La caméra, l’éclairage, la qualité graphique, l’aléatoire et les permissions d’assets influencent l’apparence. L’éditeur utilise les comportements natifs ; il ne promet pas deux lectures identiques pixel par pixel.
 
@@ -89,6 +102,55 @@ fx.play()
 
 Le déplacement d’origine est appliqué aux Parts du projet ; les Attachments gardent leurs positions locales. Pour un effet attaché à un personnage mobile, le code du jeu doit gérer le support ou la liaison au personnage. L’export ne crée pas automatiquement une logique de combat ou une réplication réseau.
 
+L’export `.lua` historique joue **un seul effet à la fois, aligné sur le monde**. Pour un vrai jeu avec plusieurs unités, exportez une bibliothèque :
+
+```powershell
+python tool/fx.py export A1_Muzzle.json A2_Impact.json --format library --out exports/MesEffets.lua
+```
+
+La commande produit `MesEffets.lua` (recettes indexées par nom de fichier) et `DatakyFXKit.lua`. Placez les deux dans des ModuleScripts voisins :
+
+```lua
+local FX = require(script.Parent.DatakyFXKit)
+local Recipes = require(script.Parent.MesEffets)
+local h = FX.play(Recipes.A1_Muzzle, muzzle.WorldCFrame, {
+    follow=muzzle, scale=1, speed=1, hold=false, quality="Auto",
+})
+-- h:Release(), h:Stop(), h:Move(cframe), h:Part("id")
+-- FX.freeze(), FX.unfreeze()
+```
+
+Le kit respecte la rotation, suit Attachment/Bone/BasePart ou une fonction renvoyant une CFrame et nettoie chaque instance indépendamment. Release coupe les continus et attend leur durée de vie ; Stop détruit tout de suite. `params={radius=24}` règle les propriétés marquées par scaleWith. Les animations de propriétés sont jouées, sauf Position et Transparency des Parts qui servent à la prévisualisation. `Low` réduit les bursts à 60 % ; Auto lit la qualité disponible. Pour des MeshParts, appelez `FX.preload(recipe)` avant `play` ; ce préchargement peut attendre, mais `play` ne yield jamais. L’historique natif des Trails ne peut pas être figé.
+
+Le kit mémorise validation et décodage par table de recette (clés faibles) et clone un gabarit d’instances. `FX.prepare(recipe)` construit ce gabarit à l’avance sans attendre ; pour les MeshParts, `FX.preload(recipe)` doit le précéder. Dès le premier accès par le kit, gardez la recette immuable : créez une copie profonde pour modifier une variante. Une copie superficielle `table.clone` ne suffit pas.
+
+`h:Release({hideParts=true})` masque immédiatement toutes les Parts/MeshParts et laisse les particules finir. Release arrête définitivement le suivi. `h:SetFollow(fnOrInstance)` change la cible ; `nil` arrête le suivi ; après Release/Stop cette méthode ne fait rien. L’option `onFinished=function(h) ... end` est appelée une seule fois après le nettoyage, y compris après Stop. Elle est différée avec `task.defer` et protégée : une erreur ou une attente du callback ne bloque pas `play`.
+
+Au démarrage, `FX.preloadTextures(Recipes)` ou `FX.preloadTextures(Recipes.A1_Muzzle)` peut attendre `ContentProvider:PreloadAsync`. `FX.listTextures(Recipes)` liste les URI uniques sans précharger. Une nouvelle bibliothèque exportée permet aussi `Recipes:listTextures()` ; ses recettes restent les seules clés parcourues par `pairs`. Si une recette porte ce nom, utilisez `FX.listTextures`. Les anciens modules de bibliothèque fonctionnent avec le nouveau kit.
+
+Dans le plugin connecté en Edit, **Dataky FX → Exporter les textures utilisées** scanne les ParticleEmitter, Beam et Trail de la place ainsi que les champs de textures littéraux des ModuleScripts de recettes. Le résultat est `tool/used_textures/<nom de la place>.txt`, directement utilisable avec `--exclude-file`. Les modules ne sont pas exécutés ; les sources inaccessibles et les expressions de textures calculées sont signalées comme scan partiel.
+
+## Écrire, chercher et vérifier depuis Python
+
+Le module `tool/fx_builder.py` fournit `Recipe`, `NS`, `CS`, `NR` et les méthodes part/att/em/trail/light/anim/flip/merge/save. Exemple complet et signatures dans le module et dans `CLAUDE.md`.
+
+Dans un plan compose, `{"include":"A1_Muzzle.json","at":0.44,"position":[0,1,-4],"orientation":[0,90,0],"scale":1}` inclut une recette tournée et décalée. Les chemins se résolvent depuis le plan. `positionKeys` ajoute une translation animée locale ; les références, animations et paramètres sont remappés. Les orientations sont exactes aux points clés, avec une limite d’interpolation Euler entre les clés après composition.
+
+- `python tool/fx.py textures --query star --compact --no-sheet --exclude-file used.txt` affiche un tableau court et ignore les textures déjà utilisées. `--exclude-ids 123 456` est une alternative.
+- `python tool/fx.py sheet 123 456 --exclude-file used.txt --out rendus/choix.png` affiche les IDs choisis, leur grille et le badge USED.
+- `python tool/fx.py validate recette.json` affiche un résumé par code, puis les avertissements détaillés. Les infos de grille estimated sont séparées et masquées par défaut : utiliser `--infos` ou `--verbose`. Une même texture n’apparaît qu’une fois dans les infos d’une recette. La recette reste valide et les avertissements ne changent pas le code de sortie.
+- `python tool/fx.py grid-confirm 11844402871 4` confirme une grille contrôlée visuellement. La confirmation est stockée dans `tool/grid_overrides.json` et retire l’info correspondante ; le catalogue reste intact. Le fichier accepte les grilles carrées 2, 4 ou 8 et la recherche utilise aussi ces surcharges.
+- Une fin Size proche de zéro ou une Transparency finale ≥ **0,95** ne déclenche pas `abrupt_transparency`. Ce diagnostic exige les deux résidus : Transparency < 0,95 et Size > `max(0,05 stud, 5 % du pic de Size)`.
+- `flat_layer_negative_zoffset` avertit sur les couches plates `VelocityPerpendicular` + `Top` avec `ZOffset < 0`, qui peuvent passer sous le sol. `dark_ground_contrast` avertit sur les couches presque noires (luminance maximale < 0,15, LightEmission < 0,2) sans couche claire couvrant leur présence. Le soutien clair exige luminance ≥ 0,45, LightEmission ≥ 0,2 et une taille/opacité visibles. Les fenêtres incluent timing, Enabled, Count/Rate, Lifetime et TimeScale ; tous les seuils sont dans `THRESHOLDS`. Ce sont des heuristiques : positions, textures, éclairage natif et propriétés animées autres qu’Enabled ne sont pas simulés par cet avertissement.
+- Les diagnostics de visibilité mesurent une **surface opaque équivalente en studs²**, au lieu du seul pourcentage d’alpha : moyenne sur la vie de `alpha × Size² × (1 - Transparency)`. Le seuil est **0,01 stud²** ; les pixels durs opaques contribuent pleinement. La règle garde ainsi les poussières et étoiles pixel observées visibles en Play. Les seuils sont centralisés dans `tool/fx_warnings.py::THRESHOLDS` ; couleur, fond, enveloppes et cumul d’émetteurs restent des limites de cette estimation.
+- Les flipbooks OneShot dont les premières cases sont presque vides peuvent être invisibles avec une Lifetime courte : c’est le cas mesuré de `70418763522849` à 0,2–0,45 s. Le cache alpha séparé `tool/texture_frames.json` est calculé au besoin ; `python tool/fx_texture_cache.py` le préremplit. Ses diagnostics utilisent les miniatures et des seuils heuristiques, à confirmer en Play.
+- `python tool/fx.py render recette.json --fit NODE_ID --times 0.02,0.06` cadre seulement les particules vivantes aux instants choisis, demi-taille incluse. Un émetteur cadre ses propres particules ; une Part inclut celles de tous ses émetteurs descendants. Le 90e centile des distances au centroïde écarte les particules isolées : réglable avec `--fit-percentile` (> 0 à 100). Sans particules, repli annoncé sur la Part et ses Attachments. `--fit-all` conserve l’ancien cadrage de toute l’étendue simulée sur toute la durée.
+- Le contour des cases de texture affichées est transformé avec la taille, la rotation et le Squash des particules. Le cadrage conserve 90 % de l’énergie alpha² par case ; cette mesure relative préserve les textures pâles et écarte les halos isolés. `--fit-percentile 100` conserve tout l’alpha et toutes les particules. Sans miniature accessible, le quad entier contribue. La caméra cadre ces points directement ; aucun cube artificiel n’ajoute de profondeur aux billboards. Le rendu et les diagnostics de visibilité ne sont pas modifiés par ce choix de caméra.
+- `--focus 0,1,-4 --radius 3` cadre une **sphère** de rayon 3, visant 87,5 % de la plus petite dimension de l’image. La direction de la caméra est conservée.
+- `python tool/fx.py render-batch jobs.json` traite plusieurs recettes/instants/caméras avec un seul Chromium. Le manifeste `{"jobs":[{"projects":["recette.json"],"out":"rendus/vue.png","times":[0,0.1],"camera":[10,6,12,0,1,0]}]}` peut contenir plusieurs vues. Options de jobs en camelCase, dont `fitPercentile` et `fitAll` ; chemins de recettes depuis le manifeste, sorties depuis le dépôt. Playwright est requis. Si le bac à sable interdit l’accès au Playwright installé, le diagnostic l’indique et les captures réelles doivent être relancées hors du bac à sable.
+
+Les outils MCP proposent les mêmes filtres/exclusions, `texture_sheet`, le cadrage `fit`/`fit_percentile`/`fit_all` ou `focus/radius`, `render_batch`, les avertissements et résumés de `validate_effect` (`include_infos` pour les infos), `grid_confirm` et l’export library.
+
 ## Pour une IA ou un autre outil
 
 Claude (ou une autre IA) dispose de trois portes d’entrée vers les mêmes outils : choisir des textures en les voyant, assembler des briques, rendre l’effet en images, comparer des variantes, valider, enregistrer et exporter.
@@ -115,6 +177,10 @@ node tool/fx_render.cjs variante-a.json variante-b.json --times 0.1,0.3 --auto-c
 ```
 
 Elle utilise Chromium par Playwright (`npm install -g playwright` puis `npx playwright install chromium`) et n’a besoin ni du serveur, ni de Studio. La même recette, la même graine (`--seed`) et le même instant donnent toujours la même image : l’IA peut modifier un réglage, refaire la planche et comparer. `--frames-dir` enregistre aussi chaque image séparément ; `--background`, `--no-ground` et `--fov` reprennent les options de la vue. Le résultat JSON liste les fichiers, les instants réellement rendus (arrondis au pas de 1/60 s) et les avertissements (textures absentes, maillages non émulés).
+
+Rendu unique, `render-batch` et MCP partagent les priorités de caméra : `--camera px,py,pz,tx,ty,tz` est exact ; `--fit` ou `--focus` demandent un cadrage ; sinon la caméra de la recette est conservée. `--auto-camera` / `autoCamera: true` demande le cadrage global, avec priorité conservée à une caméra explicite. L’ancien `--no-auto-camera` reste disponible.
+
+`--background dark` force un ciel de nuit et un sol gris sombre ; ce décor est une approximation de vfx.rbxl, pas une capture de son éclairage. `--backgrounds roblox,dark` génère une ligne par recette et par fond pour comparer le contraste avec les mêmes caméra, instants et graine. Python/MCP et les jobs batch acceptent `background="dark"` ou `backgrounds=["roblox","dark"]` (chaîne à virgules également acceptée). Les deux options sont exclusives. Le rapport JSON liste les lignes et la taille de la planche ; les images individuelles ont un nom distinct par ligne.
 
 Sans Node, la page **http://127.0.0.1:48754/render.html?project=ID&frames=8** affiche la même planche pour un projet enregistré (paramètres `times`, `size`, `columns`, `background`, `ground=0`, `seed`). Dans l’atelier ouvert, `window.DatakyFX.emulator` propose `play()`, `stop()`, `seek(t)`, `frame(t)` (image PNG en data URL) et `sheet(options)`.
 

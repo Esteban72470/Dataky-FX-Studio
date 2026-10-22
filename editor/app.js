@@ -41,6 +41,9 @@
   const emptyProject = () => ({version:1,name:'Mon nouvel effet',duration:3,loop:false,nodes:[],animations:[],camera:{position:[10,6,12],target:[0,1,0]},environment:{background:'#191522'}});
   let project = initial?.version === 1 && Array.isArray(initial.nodes) ? initial : emptyProject();
   let selectedId = project.nodes[0]?.id || null;
+  let selectionIds = new Set();
+  let previewMode = 'timeline', previewEnabled = {}, emitQuantities = {}, previewParamValues = {};
+  let clipboardSelection = null, nativePreviewReady = false, nativePreviewMode = null, emulatorPaused = false;
   let catalog = {textures:[],beams:[],meshes:[]};
   let collection = 'textures';
   let assetSelection = null;
@@ -149,7 +152,7 @@
       additions.push(node);p.nodes.push(...additions);selectedId=node.id;
     });
   }
-  function selectNode(id) { selectedId=id;renderTree();renderProperties();renderTimeline();drawScene(); }
+  function selectNode(id,{multi=false}={}) { if(multi){if(!selectionIds.size&&selectedId)selectionIds.add(selectedId);selectionIds.has(id)?selectionIds.delete(id):selectionIds.add(id);}else selectionIds.clear();selectedId=id;renderTree();renderProperties();renderTimeline();drawScene(); }
   function removeNode() {
     if(!selected())return;
     const remove=new Set([selectedId]);let changed=true;
@@ -184,7 +187,7 @@
   }
   function useTemplate(kind) {
     if(project.nodes.length&&dirty&&!confirm('Remplacer l’effet en cours ? Vos changements sont conservés seulement si vous enregistrez le projet avant.'))return;
-    remember();project=template(kind);selectedId=project.nodes.find(n=>n.class==='ParticleEmitter'||n.class==='Beam'||n.class==='Trail')?.id||project.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();$('#projects-dialog').close();message('Modèle prêt. Modifiez les propriétés, puis lancez l’aperçu dans Studio.');
+    remember();resetPreviewState();project=template(kind);selectedId=project.nodes.find(n=>n.class==='ParticleEmitter'||n.class==='Beam'||n.class==='Trail')?.id||project.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();$('#projects-dialog').close();message('Modèle prêt. Modifiez les propriétés, puis lancez l’aperçu dans Studio.');
   }
   function renderAll(properties=true) {
     $('#project-name').value=project.name;$('#composition-name').textContent=project.name;
@@ -192,13 +195,13 @@
     $('#node-count').textContent=project.nodes.length+' objets';$('#scene-empty').classList.toggle('hidden',!!project.nodes.length||viewportMode==='native');
     $('#undo-button').disabled=!history.length;$('#redo-button').disabled=!future.length;
     $('#clone-button').disabled=!selected();$('#delete-button').disabled=!selected();
-    renderTree();if(properties)renderProperties();renderTimeline();drawScene();syncEmulator();
+    renderTree();if(properties)renderProperties();renderTimeline();drawScene();syncEmulator();renderSandbox();renderParams();
   }
   function renderTree() {
     const tree=$('#node-tree');tree.replaceChildren();
     if(!project.nodes.length){tree.innerHTML='<div class="inspector-empty"><p>Ajoutez un objet ou choisissez un modèle.</p></div>';return;}
     const visited=new Set();
-    function append(node,depth){if(visited.has(node.id))return;visited.add(node.id);const row=document.createElement('div');row.className='tree-node'+(node.id===selectedId?' selected':'');row.dataset.class=node.class;row.setAttribute('role','treeitem');row.setAttribute('aria-selected',node.id===selectedId);row.setAttribute('aria-level',depth+1);row.tabIndex=0;row.style.paddingLeft=(7+depth*15)+'px';row.innerHTML=`<span class="node-icon">${ICONS[node.class]||'◇'}</span><span class="node-name">${escape(node.name||node.class)}</span><span class="node-type">${escape(node.class)}</span>`;row.onclick=()=>selectNode(node.id);row.onkeydown=e=>{if(e.key==='Enter')selectNode(node.id);};tree.append(row);for(const child of project.nodes.filter(n=>n.parent===node.id))append(child,depth+1);}
+    function append(node,depth){if(visited.has(node.id))return;visited.add(node.id);const row=document.createElement('div');const active=selectionIds.size?selectionIds.has(node.id):node.id===selectedId;row.className='tree-node'+(active?' selected':'');row.dataset.class=node.class;row.dataset.id=node.id;row.setAttribute('role','treeitem');row.setAttribute('aria-selected',active);row.setAttribute('aria-level',depth+1);row.tabIndex=0;row.style.paddingLeft=(7+depth*15)+'px';row.innerHTML=`<span class="node-icon">${ICONS[node.class]||'◇'}</span><span class="node-name">${escape(node.name||node.class)}</span><span class="node-type">${escape(node.class)}</span>`;row.onclick=e=>selectNode(node.id,{multi:!!(e.ctrlKey||e.metaKey)});row.onkeydown=e=>{if(e.key==='Enter')selectNode(node.id);};if(TIMED_CLASSES.includes(node.class)){const toggle=document.createElement('button');toggle.type='button';toggle.className='node-enabled';toggle.textContent=enabledValue(node)?'◉':'○';toggle.title='Enabled · allumer / éteindre (T)';toggle.setAttribute('aria-label','Enabled '+(node.name||node.class));toggle.setAttribute('aria-pressed',enabledValue(node));toggle.onclick=e=>{e.stopPropagation();setNodeEnabled([node.id],!enabledValue(node));};row.append(toggle);}tree.append(row);for(const child of project.nodes.filter(n=>n.parent===node.id))append(child,depth+1);}
     for(const node of project.nodes.filter(n=>!n.parent||!nodeById(n.parent)))append(node,0);for(const node of project.nodes)if(!visited.has(node.id))append(node,0);
   }
 
@@ -211,10 +214,10 @@
   function pointsOf(value,type) {return (Array.isArray(value)?value:[]).map(p=>Array.isArray(p)?{time:p[0],value:clone(p[1]),envelope:p[2]||0}:{time:p.time,value:clone(p.value),envelope:p.envelope||0}).sort((a,b)=>a.time-b.time);}
   function sequenceArray(points,type) {return points.map(p=>type==='ColorSequence'?{time:round(num(p.time)),value:p.value}:{time:round(num(p.time)),value:num(p.value),envelope:Math.max(0,num(p.envelope))});}
   function sequenceGradient(value) {return 'linear-gradient(90deg,'+pointsOf(value,'ColorSequence').map(p=>colorHex(p.value)+' '+p.time*100+'%').join(',')+')';}
-  function updateProperty(id,key,value){commit(()=>{const node=nodeById(id);node.properties[key]=value;if(node.class==='Attachment'){if(key==='Orientation'){delete node.properties.Axis;delete node.properties.SecondaryAxis;}if(key==='Axis'||key==='SecondaryAxis')delete node.properties.Orientation;}},{properties:false});}
+  function updateProperty(id,key,value){if(key==='Enabled'&&TIMED_CLASSES.includes(nodeById(id)?.class))return setNodeEnabled([id],value);commit(()=>{const node=nodeById(id);node.properties[key]=value;if(node.class==='Attachment'){if(key==='Orientation'){delete node.properties.Axis;delete node.properties.SecondaryAxis;}if(key==='Axis'||key==='SecondaryAxis')delete node.properties.Orientation;}},{properties:false});}
   function makeControl(node,key,def) {
     const value=propertyValue(node,key,def);const type=def.type;let control;
-    if(type==='boolean') {control=document.createElement('input');control.type='checkbox';control.checked=!!value;control.onchange=()=>updateProperty(node.id,key,control.checked);}
+    if(type==='boolean') {control=document.createElement('input');control.type='checkbox';control.checked=key==='Enabled'&&TIMED_CLASSES.includes(node.class)?enabledValue(node):!!value;control.onchange=()=>updateProperty(node.id,key,control.checked);}
     else if(['number','integer'].includes(type)){control=document.createElement('input');control.type='number';control.step=type==='integer'?'1':(def.step||'any');if(def.min!==undefined)control.min=def.min;if(def.max!==undefined)control.max=def.max;control.value=value??0;control.onchange=()=>{const v=Number(control.value);if(!Number.isFinite(v)||(type==='integer'&&!Number.isInteger(v))||(def.min!==undefined&&v<def.min)||(def.max!==undefined&&v>def.max)){control.value=value??0;message(`${key} : valeur hors limites.`, 'error');return;}updateProperty(node.id,key,v);};}
     else if(type==='enum'){control=document.createElement('select');const values=def.enum||def.values||[];for(const item of values){const option=document.createElement('option');option.value=typeof item==='object'?(item.value??item.name):item;option.textContent=typeof item==='object'?(item.label??item.name??item.value):item;control.append(option);}if(value!==undefined&&!values.includes(value)){const option=new Option(String(value),String(value));control.append(option);}control.value=value;control.onchange=()=>updateProperty(node.id,key,control.value);}
     else if(type==='reference'){control=document.createElement('select');control.append(new Option('Aucun', ''));for(const n of project.nodes.filter(n=>n.class==='Attachment'))control.append(new Option(n.name+' · '+(nodeById(n.parent)?.name||'racine'),n.id));if(value&&!nodeById(value))control.append(new Option('Introuvable : '+value,value));control.value=value||'';control.onchange=()=>updateProperty(node.id,key,control.value||null);}
@@ -231,6 +234,7 @@
     const name=document.createElement('input');name.className='node-name-input';name.value=node.name||node.class;name.setAttribute('aria-label','Nom de l’objet');name.onchange=()=>commit(()=>{node.name=name.value.trim()||node.class;},{properties:false});host.append(name);
     const parent=document.createElement('select');parent.append(new Option('Racine de l’effet',''));const descendants=new Set([node.id]);let before=-1;while(before!==descendants.size){before=descendants.size;for(const n of project.nodes)if(descendants.has(n.parent))descendants.add(n.id);}for(const n of project.nodes)if(!descendants.has(n.id)&&compatibleParent(node.class,n))parent.append(new Option(n.name+' · '+n.class,n.id));if(node.parent&&!Array.from(parent.options).some(o=>o.value===node.parent))parent.append(new Option((nodeById(node.parent)?.name||node.parent)+' (parent actuel)',node.parent));parent.value=node.parent||'';parent.onchange=()=>{if(!compatibleParent(node.class,nodeById(parent.value))){parent.value=node.parent||'';return message('Ce type d’objet nécessite un parent compatible.','error');}commit(()=>{node.parent=parent.value||null;},{properties:false});};host.append(rowFor('Parent',parent));
     if(node.class==='ParticleEmitter'){const note=document.createElement('p');note.className='inline-note';note.textContent=nodeById(node.parent)?.class==='Attachment'?'Émission depuis le point Attachment, selon son orientation.':'Émission dans le volume du Part, selon Shape et ShapeStyle.';host.append(note);}
+    if(node.class==='ParticleEmitter'){const tools=document.createElement('div');tools.className='emitter-preview-tools';const quantity=document.createElement('input');quantity.type='number';quantity.min=0;quantity.max=10000;quantity.step=1;quantity.id='emit-quantity';quantity.value=emitCount(node);quantity.setAttribute('aria-label','Quantité Emit');quantity.oninput=()=>{emitQuantities[node.id]=bounded(Math.floor(num(quantity.value,30)),0,10000);};const emit=document.createElement('button');emit.type='button';emit.className='secondary';emit.textContent='Emit';emit.title='Émettre immédiatement (E)';emit.onclick=()=>emitPreview('selection');tools.append(emit,quantity);host.append(tools);}
     if(TIMED_CLASSES.includes(node.class))host.append(timingControls(node));
     const search=document.createElement('input');search.className='property-search';search.placeholder='Filtrer les propriétés…';search.setAttribute('aria-label','Filtrer les propriétés');host.append(search);
     const entries=Object.entries(schema.classes[node.class]?.properties||{});const used=new Set();const groups=[];
@@ -312,7 +316,7 @@
   function renderTimeline() {
     const host=$('#timeline');const scroll=host.scrollTop;host.replaceChildren();const duration=Math.max(0.1,num(project.duration,3));const tracks=project.nodes.filter(n=>TIMED_CLASSES.includes(n.class));$('#timeline-count').textContent=tracks.length+(project.animations?.length||0)+' pistes';
     const ruler=document.createElement('div');ruler.className='timeline-ruler';ruler.innerHTML='<div class="ruler-label">OBJET / PROPRIÉTÉ</div><div class="ruler-track"></div>';const rulerTrack=$('.ruler-track',ruler);const count=duration>20?5:10;for(let i=0;i<=count;i++){const tick=document.createElement('span');tick.className='ruler-tick';tick.style.left=(i/count*100)+'%';tick.textContent=round(duration*i/count);rulerTrack.append(tick);}rulerTrack.onpointerdown=e=>scrubAt(e,rulerTrack);host.append(ruler);
-    for(const node of tracks){const timing=node.timing||{start:0,duration:1};const row=document.createElement('div');row.className='timeline-row'+(selectedId===node.id?' selected':'');row.innerHTML=`<div class="track-label"><span class="node-icon">${ICONS[node.class]||'◇'}</span><span>${escape(node.name)}</span></div><div class="track-surface"></div>`;$('.track-label',row).onclick=()=>selectNode(node.id);const surface=$('.track-surface',row);surface.onpointerdown=e=>{if(e.target===surface)scrubAt(e,surface);};const bar=document.createElement('div');bar.className='track-bar '+node.class.toLowerCase();bar.style.left=(num(timing.start)/duration*100)+'%';bar.style.width=(Math.min(num(timing.duration,1),Math.max(0,duration-num(timing.start)))/duration*100)+'%';bar.textContent=node.class==='ParticleEmitter'&&timing.mode==='burst'?'✦ '+(timing.count??30):round(num(timing.duration,1))+' s';bar.title=`Début ${timing.start||0} s · Durée ${timing.duration??1} s`;const handle=document.createElement('span');handle.className='bar-handle';bar.append(handle);bar.onpointerdown=e=>startBarDrag(e,node,surface,e.target===handle);bar.ondblclick=()=>selectNode(node.id);surface.append(bar);host.append(row);}
+    for(const node of tracks){const timing=node.timing||{start:0,duration:1};const row=document.createElement('div');row.className='timeline-row'+(selectedId===node.id?' selected':'');row.innerHTML=`<div class="track-label"><span class="node-icon">${ICONS[node.class]||'◇'}</span><span>${escape(node.name)}</span></div><div class="track-surface"></div>`;$('.track-label',row).onclick=()=>selectNode(node.id);const surface=$('.track-surface',row);surface.onpointerdown=e=>{if(e.target===surface)scrubAt(e,surface);};const bar=document.createElement('div');bar.className='track-bar '+node.class.toLowerCase()+(enabledValue(node)?'':' disabled');bar.style.left=(num(timing.start)/duration*100)+'%';bar.style.width=(Math.min(num(timing.duration,1),Math.max(0,duration-num(timing.start)))/duration*100)+'%';bar.textContent=node.class==='ParticleEmitter'&&timing.mode==='burst'?'✦ '+(timing.count??30):round(num(timing.duration,1))+' s';bar.title=`Début ${timing.start||0} s · Durée ${timing.duration??1} s`;const handle=document.createElement('span');handle.className='bar-handle';bar.append(handle);bar.onpointerdown=e=>startBarDrag(e,node,surface,e.target===handle);bar.ondblclick=()=>selectNode(node.id);surface.append(bar);host.append(row);}
     for(const [index,animation]of (project.animations||[]).entries()){const node=nodeById(animation.node);if(!node)continue;const row=document.createElement('div');row.className='timeline-row'+(selectedId===node.id?' selected':'');row.innerHTML=`<div class="track-label"><span class="node-icon">◇</span><span>${escape(node.name)} · ${escape(animation.property)}</span></div><div class="track-surface"></div>`;$('.track-label',row).onclick=()=>{selectNode(node.id);openAnimation(node);$('#animation-property').value=animation.property;loadAnimationKeyframes();};const surface=$('.track-surface',row);surface.onpointerdown=e=>scrubAt(e,surface);const frames=animation.keyframes||[];const start=frames[0]?.time||0;const end=frames.at(-1)?.time||duration;const bar=document.createElement('div');bar.className='track-bar animation';bar.style.left=(start/duration*100)+'%';bar.style.width=((end-start)/duration*100)+'%';bar.innerHTML=frames.map(f=>`<span style="position:absolute;left:${(f.time-start)/(end-start||1)*95}%;font-size:8px">◆</span>`).join('');bar.onclick=()=>{openAnimation(node);$('#animation-property').value=animation.property;loadAnimationKeyframes();};surface.append(bar);host.append(row);}
     if(!tracks.length&&!project.animations?.length){const empty=document.createElement('div');empty.className='timeline-placeholder';empty.textContent='Les émetteurs, beams, trails et animations apparaissent ici.';host.append(empty);}
     const playhead=document.createElement('div');playhead.className='timeline-playhead';const labelWidth=parseFloat(getComputedStyle(ruler).gridTemplateColumns.split(' ')[0])||134;playheadLabelWidth=labelWidth;playhead.style.left=`calc(${labelWidth}px + (100% - ${labelWidth}px) * ${bounded(time/duration,0,1)})`;host.append(playhead);host.scrollTop=scroll;
@@ -328,7 +332,7 @@
   function emulatorView() {
     if(emulator||emulatorError)return emulator;
     if(!window.DatakyEmulator){emulatorError='Rechargez l’application pour charger l’émulateur.';return null;}
-    try{emulator=window.DatakyEmulator.createView($('#emu-canvas'),{background:$('#emu-background').value,ground:$('#emu-ground').checked,dummy:$('#emu-dummy').checked,onFrame:emulatorFrame,resolveTexture:catalogImage});}
+    try{emulator=window.DatakyEmulator.createView($('#emu-canvas'),{background:$('#emu-background').value||undefined,ground:$('#emu-ground').checked,dummy:$('#emu-dummy').checked,onFrame:emulatorFrame,resolveTexture:catalogImage});}
     catch(e){emulatorError=e.message;$('#emu-message').textContent=e.message;$('#emu-message').hidden=false;}
     return emulator;
   }
@@ -342,13 +346,16 @@
   }
   function syncEmulator() {
     if(viewportMode!=='emu')return;const view=emulatorView();if(!view)return;
-    if(view.setProject(project)&&$('#auto-preview').checked&&project.nodes.length)view.play();
+    const changed=previewMode==='free'&&view.updateProject?view.updateProject(previewProject()):view.setProject(previewProject());
+    if(view.mode!==previewMode)view.setMode?.(previewMode);
+    if(previewMode==='free'){for(const [id,value]of Object.entries(previewEnabled))view.setEnabled?.(id,value);}
+    else if(changed&&$('#auto-preview').checked&&project.nodes.length)view.play();
   }
   function seekEmulator() {if(viewportMode==='emu')emulatorView()?.seek(time);}
   function emulatorFrame(info) {
     if(viewportMode!=='emu')return;
     if(info.fromPlayback){time=info.time;movePlayhead();}
-    $('#emu-status').textContent=`Émulation · ${round(info.time).toFixed(2)} s · ${numberFormat.format(info.particles)} particule${info.particles>1?'s':''}`+(info.ended&&!info.playing?' · terminé':'');
+    $('#emu-status').textContent=`Émulation · ${previewMode==='free'?'Libre · ':''}${round(info.time).toFixed(2)} s · ${numberFormat.format(info.particles)} particule${info.particles>1?'s':''}`+(info.ended&&!info.playing?' · terminé':'');
     $('#emu-status').title=info.warnings.join('\n');renderTransport();
   }
   function renderTransport() {
@@ -357,11 +364,175 @@
     $('#play-button').title=native?'Lire dans Studio':'Lire l’émulation';$('#stop-button').title=native?'Arrêter dans Studio':'Revenir au début';
   }
   function transport(action) {
-    if(viewportMode==='native')return nativeAction(action==='toggle'?(nativePaused?'resume':'pause'):action);
+    if(viewportMode==='native'){if(action==='toggle')action=nativePlaying&&!nativePaused?'pause':nativePlaying?'resume':'play';if(previewMode==='free'&&action==='play')return nativePreviewCommand('sandbox',{mode:'free',project:previewProject(),enabled:previewEnabled});if(action==='stop'){time=cursorTime=0;movePlayhead();}return nativeAction(action);}
     if(viewportMode!=='emu')setViewport('emu');const view=emulatorView();if(!view)return message(emulatorError||'Émulation indisponible.','error');
     syncEmulator();
-    if(action==='play')view.play();else if(action==='stop'){view.stop();time=cursorTime=0;movePlayhead();}else if(action==='toggle')view.playing?view.pause():view.resume();
+    if(action==='play'){emulatorPaused=false;view.play();}else if(action==='stop'){emulatorPaused=false;view.stop();time=cursorTime=0;movePlayhead();}else if(action==='toggle'){emulatorPaused=!!view.playing;view.playing?view.pause():view.resume();}
     renderTransport();
+  }
+  function descendantsOf(ids) {
+    const found=new Set(ids.filter(id=>nodeById(id)));let previous=-1;
+    while(previous!==found.size){previous=found.size;for(const node of project.nodes)if(found.has(node.parent))found.add(node.id);}
+    return project.nodes.filter(node=>found.has(node.id));
+  }
+  function selectionNodes() { return descendantsOf(selectionIds.size?[...selectionIds]:[selectedId]); }
+  function enabledValue(node) { return previewMode==='free'&&Object.hasOwn(previewEnabled,node.id)?previewEnabled[node.id]:node.properties.Enabled!==false; }
+  function emitCount(node) { return bounded(Math.floor(num(emitQuantities[node.id],node.timing?.count??30)),0,10000); }
+  async function nativePreviewCommand(action,payload={}) {
+    if(!nativeStatus.connected||viewportMode!=='native')return;
+    try{
+      if(action!=='sandbox'&&(!nativePreviewReady||(previewMode==='free'&&nativePreviewMode!=='free'))){
+        if(previewMode==='free'){
+          await api('/api/preview',{method:'POST',body:JSON.stringify({action:'sandbox',mode:'free',project:payload.project||previewProject(),enabled:previewEnabled})});
+          nativePreviewReady=true;nativePreviewMode='free';nativePlaying=true;nativePaused=false;renderTransport();
+          if(action==='update')return;
+        }else{
+          await api('/api/preview',{method:'POST',body:JSON.stringify({action:'apply',project:previewProject()})});
+          nativePreviewReady=true;nativePreviewMode='timeline';
+        }
+      }
+      await api('/api/preview',{method:'POST',body:JSON.stringify({action,...payload})});nativePreviewReady=true;if(action==='sandbox'){nativePreviewMode=payload.mode;nativePlaying=true;nativePaused=false;renderTransport();}
+    }catch(error){message('Aperçu Studio : '+error.message,'error');}
+  }
+  function emitPreview(scope='selection') {
+    const emitters=(scope==='all'?project.nodes:selectionNodes()).filter(node=>node.class==='ParticleEmitter'&&(scope!=='all'||(node.timing?.mode||'burst')==='burst'));
+    const counts=Object.fromEntries(emitters.map(node=>[node.id,scope==='all'?bounded(Math.floor(num(node.timing?.count,30)),0,10000):emitCount(node)]));
+    if(!emitters.length)return counts;
+    if(viewportMode==='native')return nativePreviewCommand('emit',{counts});
+    if(viewportMode!=='emu')setViewport('emu');syncEmulator();for(const [id,count]of Object.entries(counts))emulatorView()?.emit?.(id,count);
+    if(!emulatorPaused)emulatorView()?.resume();return counts;
+  }
+  function clearPreviewParticles() { if(viewportMode==='native')return nativePreviewCommand('clear_particles');emulatorView()?.clearParticles?.(); }
+  function setNodeEnabled(ids,value) {
+    const nodes=ids.map(nodeById).filter(node=>node&&TIMED_CLASSES.includes(node.class));
+    if(!nodes.length)return;
+    if(previewMode==='free'){
+      for(const node of nodes){previewEnabled[node.id]=!!value;emulator?.setEnabled?.(node.id,!!value);}
+      nativePreviewCommand('enabled',{enabled:Object.fromEntries(nodes.map(node=>[node.id,!!value]))});renderTree();renderProperties();renderTimeline();
+    }else commit(()=>{for(const node of nodes)node.properties.Enabled=!!value;});
+  }
+  function toggleSelectionEnabled() { const nodes=selectionNodes().filter(node=>TIMED_CLASSES.includes(node.class));setNodeEnabled(nodes.map(node=>node.id),!nodes.every(enabledValue)); }
+  function setPreviewMode(mode) {
+    if(!['timeline','free'].includes(mode)||mode===previewMode)return;
+    previewMode=mode;previewEnabled={};emulatorPaused=false;time=cursorTime=0;movePlayhead();syncEmulator();
+    if(mode==='free'&&viewportMode==='emu')emulator?.resume();
+    nativePreviewCommand('sandbox',{mode,project:previewProject(),enabled:previewEnabled});renderTree();renderProperties();renderTimeline();renderSandbox();
+  }
+  function renderSandbox() {
+    $('#preview-mode').value=previewMode;$('#sandbox-mode-note').textContent=previewMode==='free'?'Libre : Enabled et Emit agissent sur l’aperçu.':'Timeline : Enabled est enregistré dans la recette.';
+    $('#emit-selection').disabled=!selectionNodes().some(node=>node.class==='ParticleEmitter');
+  }
+  function scaledValue(value,type,factor) {
+    if(type==='NumberSequence')return (value||[]).map(point=>Array.isArray(point)?[point[0],point[1]*factor,(point[2]||0)*Math.abs(factor)]:{...point,value:point.value*factor,...(point.envelope!==undefined?{envelope:point.envelope*Math.abs(factor)}:{})});
+    if(Array.isArray(value))return value.map(number=>number*factor);
+    return type==='integer'?Math.round(value*factor):value*factor;
+  }
+  function previewProject() {
+    const result=clone(project),factors={};
+    for(const [name,spec]of Object.entries(project.params||{}))factors[name]=num(previewParamValues[name],spec.default)/spec.default;
+    for(const node of result.nodes){for(const [key,param]of Object.entries(node.scaleWith||{})){
+      const factor=factors[param]??1,type=schema.classes[node.class]?.properties[key]?.type;
+      if(key in node.properties)node.properties[key]=scaledValue(node.properties[key],type,factor);
+      for(const animation of result.animations||[])if(animation.node===node.id&&animation.property===key)for(const frame of animation.keyframes)frame.value=scaledValue(frame.value,type,factor);
+    }delete node.scaleWith;}
+    return result;
+  }
+  function setPreviewParam(name,value) {
+    const spec=project.params?.[name];if(!spec||!Number.isFinite(Number(value)))return;
+    previewParamValues[name]=bounded(Number(value),spec.min??0,spec.max??Math.max(spec.default*3,1));syncEmulator();
+    if(viewportMode==='native'&&nativeStatus.connected){if(autoPreviewTimer)clearTimeout(autoPreviewTimer);autoPreviewTimer=setTimeout(()=>previewMode==='free'?nativePreviewCommand('update',{project:previewProject()}):nativeAction('play',true),100);}
+  }
+  function renderParams() {
+    const host=$('#preview-params');host.replaceChildren();
+    for(const [name,spec]of Object.entries(project.params||{})){
+      const label=document.createElement('label');label.className='preview-param';const title=document.createElement('span');title.textContent=name;
+      const input=document.createElement('input');input.type='range';input.min=spec.min??0;input.max=spec.max??Math.max(spec.default*3,1);input.step=spec.step??spec.default/100;input.value=previewParamValues[name]??spec.default;input.setAttribute('aria-label','Paramètre '+name);
+      const output=document.createElement('output');output.textContent=round(num(input.value));input.oninput=()=>{output.textContent=round(num(input.value));setPreviewParam(name,Number(input.value));};label.append(title,input,output);host.append(label);
+    }
+    host.hidden=!Object.keys(project.params||{}).length;
+  }
+  function resetPreviewState() {selectionIds.clear();previewEnabled={};previewParamValues={};emitQuantities={};nativePreviewReady=false;nativePreviewMode=null;emulatorPaused=false;emulator?.resetPreviewState?.();}
+  function treeOrder() {
+    const result=[],seen=new Set();const visit=node=>{if(seen.has(node.id))return;seen.add(node.id);result.push(node);for(const child of project.nodes.filter(item=>item.parent===node.id))visit(child);};
+    for(const node of project.nodes.filter(item=>!item.parent||!nodeById(item.parent)))visit(node);for(const node of project.nodes)visit(node);return result;
+  }
+  function seekPreview(value) {
+    time=cursorTime=bounded(num(value),0,project.duration);movePlayhead();drawScene();
+    if(viewportMode==='native'){const view=emulatorView();view?.setProject(previewProject());if(view?.mode!==previewMode)view?.setMode?.(previewMode);view?.seek(time);message('Déplacement de tête dans l’émulateur ; aperçu natif : relancer depuis 0.');return;}
+    if(viewportMode!=='emu')setViewport('emu');seekEmulator();
+  }
+  function timingEvent(direction) {
+    const events=[...new Set(project.nodes.filter(node=>TIMED_CLASSES.includes(node.class)).map(node=>num(node.timing?.start)))].sort((a,b)=>a-b);
+    const next=direction<0?events.filter(value=>value<time-1e-6).at(-1):events.find(value=>value>time+1e-6);if(next!==undefined)seekPreview(next);
+  }
+  function frameSelection(all=false) {if(viewportMode!=='emu')setViewport('emu');syncEmulator();return emulatorView()?.frameEffect(all?undefined:selectionNodes().map(node=>node.id));}
+  async function exportProject(format) {
+    const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.'+format;link.download=projectFilename(format);document.body.append(link);link.click();link.remove();
+  }
+  async function copySelection() {
+    const nodes=selectionNodes();if(!nodes.length)return;
+    // Referenced attachments travel with a Beam/Trail so pasted links remain valid.
+    const included=new Set(nodes.map(node=>node.id));let before=-1;
+    while(before!==included.size){before=included.size;for(const node of project.nodes.filter(item=>included.has(item.id))){for(const [key,def]of Object.entries(schema.classes[node.class]?.properties||{}))if(def.type==='reference'&&nodeById(node.properties[key])){let dependency=nodeById(node.properties[key]);while(dependency&&!included.has(dependency.id)){included.add(dependency.id);dependency=nodeById(dependency.parent);}}}}
+    const payload={dataky:'selection',version:1,nodes:clone(project.nodes.filter(node=>included.has(node.id))),animations:clone((project.animations||[]).filter(track=>included.has(track.node))),...(project.params?{params:clone(project.params)}:{})};
+    clipboardSelection=JSON.stringify(payload);try{await navigator.clipboard.writeText(clipboardSelection);message('Sélection copiée (JSON).','success');}catch(_){message('Sélection copiée dans l’atelier. Le presse-papiers système est indisponible.');}return payload;
+  }
+  async function pasteSelection() {
+    let text=clipboardSelection;try{text=await navigator.clipboard.readText();}catch(_){}
+    if(!text)return message('Copiez d’abord une sélection Dataky.');
+    try{
+      const payload=JSON.parse(text);if(payload.dataky!=='selection'||payload.version!==1||!Array.isArray(payload.nodes)||!payload.nodes.length)throw new Error('Le presse-papiers ne contient pas une sélection Dataky.');
+      const originalIds=new Set();for(const node of payload.nodes){if(!node||typeof node.id!=='string'||originalIds.has(node.id)||!schema.classes[node.class]||!node.properties||Array.isArray(node.properties)||typeof node.properties!=='object')throw new Error('Sélection JSON invalide.');originalIds.add(node.id);}
+      const mapping=new Map(payload.nodes.map(node=>[node.id,uid(node.class)])),copies=clone(payload.nodes),additions=[],params={...(project.params||{})},paramMapping=new Map();
+      for(const [name,spec]of Object.entries(payload.params||{})){
+        if(!/^[A-Za-z0-9][A-Za-z0-9_.-]{0,79}$/.test(name)||['__proto__','constructor','prototype'].includes(name)||!spec||!Number.isFinite(spec.default)||spec.default<=0)throw new Error('Paramètre du presse-papiers invalide.');
+        let key=name,index=1;while(Object.hasOwn(params,key)&&JSON.stringify(params[key])!==JSON.stringify(spec)){const suffix='_copie'+index++;key=name.slice(0,80-suffix.length)+suffix;}params[key]=clone(spec);paramMapping.set(name,key);
+      }
+      if(Object.keys(params).length>32)throw new Error('32 paramètres maximum.');
+      for(const node of copies){const original=node.id;node.id=mapping.get(original);node.parent=mapping.get(node.parent)||null;for(const [key,def]of Object.entries(schema.classes[node.class]?.properties||{}))if(def.type==='reference'&&node.properties[key])node.properties[key]=mapping.get(node.properties[key])||(nodeById(node.properties[key])?node.properties[key]:null);}
+      for(const node of copies)for(const [property,param]of Object.entries(node.scaleWith||{}))node.scaleWith[property]=paramMapping.get(param)||param;
+      for(const node of copies.filter(item=>!item.parent)){
+        let parent=selected();if(!compatibleParent(node.class,parent))parent=null;
+        if(!parent&&!compatibleParent(node.class,null)){parent=additions.find(item=>item.class==='Part');if(!parent){parent=makeNode('Part',null,'Source collée');additions.push(parent);}}
+        node.parent=parent?.id||null;
+      }
+      const animations=(Array.isArray(payload.animations)?payload.animations:[]).filter(track=>mapping.has(track.node)).map(track=>({...clone(track),node:mapping.get(track.node)}));
+      const draft=clone(project);if(Object.keys(params).length)draft.params=params;draft.nodes.push(...additions,...copies);draft.animations.push(...animations);draft.duration=Math.max(draft.duration,...copies.map(node=>num(node.timing?.start)+num(node.timing?.duration)),...animations.flatMap(track=>(track.keyframes||[]).map(frame=>num(frame.time))));validateProject(draft);
+      commit(p=>{p.nodes=draft.nodes;p.animations=draft.animations;p.duration=draft.duration;if(draft.params)p.params=draft.params;selectedId=copies[0].id;selectionIds=new Set(payload.nodes.filter(node=>!mapping.has(node.parent)).map(node=>mapping.get(node.id)));});message('Sélection collée.','success');return copies;
+    }catch(error){message('Collage : '+error.message,'error');}
+  }
+  const KEYBOARD_HELP=[
+    ['Espace / Maj+Espace','Lecture ou pause / stop et retour à 0'],['E / Maj+E','Emit sélection / Emit tous les bursts'],['T / Tab / C','Enabled sélection / Timeline ou Libre / vider'],
+    ['← → / Maj+← →','Une image (1/30 s) / 0,1 s'],['Début / Fin / [ ]','Temps 0 / fin / événement précédent ou suivant'],['L / F / Maj+F','Boucle / cadrer sélection / cadrer tout'],
+    ['G / M / 1 2 3 4 5','Sol / mannequin / sombre, gris, ciel, noir, Roblox'],['↑ ↓ / Alt+↑','Objet précédent ou suivant / parent'],['Ctrl+C / Ctrl+V / Ctrl+D','Copier JSON / coller avec enfants / dupliquer'],
+    ['Ctrl+E / Ctrl+Maj+E','Exporter .rbxmx / .lua'],['Ctrl+S / Ctrl+Z / Ctrl+Maj+Z / Ctrl+Y','Enregistrer / annuler / rétablir'],['Suppr ou Retour / / / Échap / ?','Supprimer / recherche / fermer menu / cette aide']
+  ];
+  function showKeyboardHelp() {const host=$('#shortcuts-list');host.replaceChildren();for(const [keys,action]of KEYBOARD_HELP){const row=document.createElement('div');const key=document.createElement('kbd');key.textContent=keys;const description=document.createElement('span');description.textContent=action;row.append(key,description);host.append(row);}$('#shortcuts-dialog').showModal();}
+  function handleKeyDown(event) {
+    const key=event.key.toLowerCase(),mod=event.ctrlKey||event.metaKey,typing=!!event.target?.closest?.('input,textarea,select,[contenteditable]'),modal=$$('dialog[open]').length>0;
+    if(mod&&key==='s'){event.preventDefault();saveProject();return true;}
+    if(typing||modal)return false;
+    let action;
+    if(mod){action=key==='z'?(event.shiftKey?redo:undo):key==='y'?redo:key==='d'?duplicateNode:key==='c'?copySelection:key==='v'?pasteSelection:key==='e'?()=>exportProject(event.shiftKey?'lua':'rbxmx'):null;}
+    else if(event.altKey){if(event.key==='ArrowUp')action=()=>{const parent=selected()?.parent;if(parent)selectNode(parent);};}
+    else if(key===' '||key==='spacebar')action=()=>transport(event.shiftKey?'stop':'toggle');
+    else if(key==='e')action=()=>emitPreview(event.shiftKey?'all':'selection');
+    else if(key==='t')action=toggleSelectionEnabled;
+    else if(key==='tab')action=()=>setPreviewMode(previewMode==='free'?'timeline':'free');
+    else if(key==='c')action=clearPreviewParticles;
+    else if(key==='arrowleft'||key==='arrowright')action=()=>seekPreview(time+(key==='arrowleft'?-1:1)*(event.shiftKey?0.1:1/30));
+    else if(key==='home'||key==='end')action=()=>seekPreview(key==='home'?0:project.duration);
+    else if(key==='['||key===']')action=()=>timingEvent(key==='['?-1:1);
+    else if(key==='l')action=()=>commit(p=>{p.loop=!p.loop;},{properties:false});
+    else if(key==='f')action=()=>frameSelection(event.shiftKey);
+    else if(key==='g'||key==='m')action=()=>{const control=$(key==='g'?'#emu-ground':'#emu-dummy');control.checked=!control.checked;emulatorView()?.setView({[key==='g'?'ground':'dummy']:control.checked});};
+    else if(/^[1-5]$/.test(key))action=()=>{const value=['sombre','gris','ciel','noir','roblox'][Number(key)-1];$('#emu-background').value=value;emulatorView()?.setView({background:value});};
+    else if(key==='arrowup'||key==='arrowdown')action=()=>{const nodes=treeOrder(),index=nodes.findIndex(node=>node.id===selectedId);const node=nodes[bounded(index+(key==='arrowup'?-1:1),0,nodes.length-1)];if(node)selectNode(node.id);};
+    else if(key==='delete'||key==='backspace')action=removeNode;
+    else if(key==='/')action=()=>$('#catalog-search').focus();
+    else if(key==='escape')action=hideMenu;
+    else if(key==='?')action=showKeyboardHelp;
+    if(!action)return false;event.preventDefault();action();return true;
   }
   function keepEmulatorCamera() {
     const view=emulatorView();if(!view)return;const camera=view.camera;const fixed=v=>v.map(x=>Math.round(x*1000)/1000);
@@ -424,7 +595,7 @@
   }
   async function loadProject(id) {
     if(dirty&&project.nodes.length&&!confirm('Ouvrir ce projet et remplacer le brouillon actuel ?'))return;
-    try{const data=await api('/api/project/'+encodeURIComponent(id));const loaded=validateProject(data.project||data);remember();project=loaded;selectedId=project.nodes[0]?.id||null;dirty=false;time=0;persist();renderAll();$('#projects-dialog').close();message('Projet ouvert.');}catch(e){message(e.message,'error');}
+    try{const data=await api('/api/project/'+encodeURIComponent(id));const loaded=validateProject(data.project||data);remember();resetPreviewState();project=loaded;selectedId=project.nodes[0]?.id||null;dirty=false;time=0;persist();renderAll();$('#projects-dialog').close();message('Projet ouvert.');}catch(e){message(e.message,'error');}
   }
   function download(content,filename,type='application/json') {const blob=new Blob([content],{type});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download=filename;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
   function projectFilename(extension='json') {return (project.name||'effet').replace(/[^\p{L}\p{N}_-]+/gu,'_')+'.'+extension;}
@@ -443,7 +614,7 @@
   let lastAckId='';
   async function refreshStatus(announce=false) {
     try {nativeStatus=await api('/api/status');const ack=nativeStatus.last_ack;const newAck=ack&&(ack.id||JSON.stringify(ack))!==lastAckId;const state=newAck&&ack.ok&&ack.details?ack.details:nativeStatus.runtime;
-      if(state){nativePaused=!!state.paused;nativePlaying=!!state.playing;}if(!nativeStatus.connected){nativePaused=false;nativePlaying=false;}renderNativeStatus();
+      if(state){nativePaused=!!state.paused;nativePlaying=!!state.playing;}if(newAck&&ack.ok&&['free','timeline'].includes(state?.mode)){nativePreviewReady=state.ready!==false;nativePreviewMode=state.mode;}if(newAck&&!ack.ok&&['apply','play','sandbox'].includes(ack.action)){nativePreviewReady=false;nativePreviewMode=null;}if(!nativeStatus.connected){nativePaused=false;nativePlaying=false;nativePreviewReady=false;nativePreviewMode=null;}renderNativeStatus();
       if(announce)message(nativeStatus.connected?'Roblox Studio est connecté.':'Le pont n’est pas encore connecté.',nativeStatus.connected?'success':'info');const error=nativeStatus.last_error||nativeStatus.last_command?.error||nativeStatus.last_result?.error;if(error&&String(error)!==lastStatusError){lastStatusError=String(error);message('Studio : '+String(error),'error');}if(!error)lastStatusError='';
       if(newAck){lastAckId=ack.id||JSON.stringify(ack);const warnings=ack.details?.warnings||ack.warnings;if(Array.isArray(warnings)&&warnings.length)message('Studio : '+warnings.join(' · '),'error');const errors=ack.details?.errors;if(Array.isArray(errors)&&errors.length)message('Studio : '+errors.join(' · '),'error');}}
     catch(e){nativeStatus={connected:false,last_error:e.message};renderNativeStatus();if(announce)message('Serveur local inaccessible : '+e.message,'error');}
@@ -460,10 +631,11 @@
   }
   async function nativeAction(action,quiet=false) {
     if(!nativeStatus.connected){message('Connectez Roblox Studio pour afficher le rendu natif.');await showConnection();return;}
-    try {const data=await api('/api/preview',{method:'POST',body:JSON.stringify({action,...(['apply','play'].includes(action)?{project:exportableProject(),time:0}:{})})});
+    try {const data=await api('/api/preview',{method:'POST',body:JSON.stringify({action,...(['apply','play'].includes(action)?{project:previewProject(),time:0}:{})})});
       const labels={apply:'Composition envoyée au moteur Roblox.',play:'Lecture envoyée au moteur Roblox.',stop:'Arrêt envoyé.',clear:'Fermeture de l’aperçu envoyée.',pause:'Pause envoyée.',resume:'Reprise envoyée.'};if(!quiet)message(labels[action]||'Commande envoyée.');
+      if(action==='apply'||action==='play'){nativePreviewReady=true;nativePreviewMode='timeline';}if(action==='clear'||action==='stop'){nativePreviewReady=false;nativePreviewMode=null;}
       if(action==='play'){nativePlaying=true;nativePaused=false;time=0;renderTimeline();$('#playhead-time').value=0;drawScene();}
-      if(action==='stop'||action==='clear'){nativePlaying=false;nativePaused=false;}if(['apply','play','stop','clear'].includes(action))clearNativeFrame();
+      if(action==='stop'||action==='clear'){nativePlaying=false;nativePaused=false;$('#native-focus-warning').hidden=true;}if(['apply','play','stop','clear'].includes(action))clearNativeFrame();
       if(action==='pause')nativePaused=true;if(action==='resume')nativePaused=false;renderNativeStatus();setTimeout(()=>refreshStatus(),700);
     }catch(e){message('Aperçu Studio : '+e.message,'error');}
   }
@@ -478,14 +650,15 @@
     if(nativeStatus.bridge_capabilities?.capture_context==='command_bar'&&!nativeStatus.preview?.permission){const error='Cette connexion temporaire ne peut pas demander la capture. Redémarrez Studio pour charger le plugin Dataky FX, puis cliquez sur son bouton Connexion.';$('#native-preview-message').textContent=error;message(error,'error');await showConnection();return;}
     if(!project.nodes.length){message('Choisissez un modèle ou ajoutez un objet avant de lancer l’aperçu.');return;}
     stopSharing(false);setViewport('native');$('#native-preview-message').textContent='Démarrage du rendu. Acceptez la demande de capture dans Studio si elle apparaît.';
-    try{await api('/api/preview',{method:'POST',body:JSON.stringify({action:'apply',project:exportableProject()})});await api('/api/preview',{method:'POST',body:JSON.stringify({action:'preview_start'})});replayAfterPermission=true;setTimeout(()=>{refreshStatus();pollNativeFrame();},400);message('Aperçu demandé. L’effet sera lu après l’autorisation de capture.');}catch(e){replayAfterPermission=false;$('#native-preview-message').textContent=e.message;message('Aperçu : '+e.message,'error');}
+    try{await api('/api/preview',{method:'POST',body:JSON.stringify({action:'apply',project:previewProject()})});nativePreviewReady=true;nativePreviewMode='timeline';await api('/api/preview',{method:'POST',body:JSON.stringify({action:'preview_start'})});replayAfterPermission=true;setTimeout(()=>{refreshStatus();pollNativeFrame();},400);message('Aperçu demandé. L’effet sera lu après l’autorisation de capture.');}catch(e){replayAfterPermission=false;$('#native-preview-message').textContent=e.message;message('Aperçu : '+e.message,'error');}
   }
-  async function stopNativePreview(){replayAfterPermission=false;stopSharing(false);clearNativeFrame();try{if(nativeStatus.connected)await api('/api/preview',{method:'POST',body:JSON.stringify({action:'preview_stop'})});}catch(e){message(e.message,'error');}$('#native-preview-message').textContent='Aperçu arrêté. Vous pouvez le réactiver à tout moment.';}
+  async function stopNativePreview(){replayAfterPermission=false;stopSharing(false);clearNativeFrame();$('#native-focus-warning').hidden=true;try{if(nativeStatus.connected)await api('/api/preview',{method:'POST',body:JSON.stringify({action:'preview_stop'})});}catch(e){message(e.message,'error');}$('#native-preview-message').textContent='Aperçu arrêté. Vous pouvez le réactiver à tout moment.';}
   async function pollNativeFrame(){
     if(nativeFrameBusy||screenStream||viewportMode!=='native'||!nativeStatus.connected)return;nativeFrameBusy=true;
     try{const state=await api('/api/preview/frame');nativeStatus.preview=state;
+      const focusWarning=$('#native-focus-warning');focusWarning.hidden=!(state.enabled&&state.window_focused===false&&(nativePlaying||nativeStatus.last_result?.playing));focusWarning.textContent='Vue Studio inactive : la simulation des particules peut ralentir. Ramenez Studio au premier plan.';
       if(state.error)$('#native-preview-message').textContent=state.error;
-      if(replayAfterPermission&&state.enabled&&state.permission){replayAfterPermission=false;await nativeAction('play',true);return;}
+      if(replayAfterPermission&&state.enabled&&state.permission){replayAfterPermission=false;if(previewMode==='free')await nativePreviewCommand('sandbox',{mode:'free',project:previewProject(),enabled:previewEnabled});else await nativeAction('play',true);return;}
       if(!state.enabled&&state.error)replayAfterPermission=false;
       if(!state.enabled||!state.frame){clearNativeFrame();return;}
       const frame=state.frame;if(Number(frame.age)>4){clearNativeFrame();$('#native-preview-message').textContent='Studio attend le viewport actif avant d’envoyer une nouvelle image.';return;}
@@ -493,7 +666,11 @@
       const token=nativeFrameToken;const response=await fetch('/api/preview/frame.png?sequence='+encodeURIComponent(frame.sequence),{cache:'no-store'});if(!response.ok)return;const blob=await response.blob();if(token!==nativeFrameToken||screenStream||viewportMode!=='native')return;const url=URL.createObjectURL(blob);const image=$('#native-frame');const old=nativeFrameObjectURL;nativeFrameObjectURL=url;nativeFrameSequence=frame.sequence;nativeFrameMeta=frame;image.onload=()=>{if(old)URL.revokeObjectURL(old);};image.src=url;image.hidden=false;$('#studio-video').hidden=true;$('#native-view').classList.add('has-native-frame');$('#video-tools').classList.remove('hidden');$('#native-frame-status').textContent='Roblox · '+Number(frame.time||0).toFixed(2)+' s · '+frame.width+' × '+frame.height;
     }catch(e){if(nativeFrameSequence!==null)$('#native-frame-status').textContent='Aperçu momentanément indisponible';}finally{nativeFrameBusy=false;}
   }
-  function scheduleNativePreview(){if(autoPreviewTimer)clearTimeout(autoPreviewTimer);if(!$('#auto-preview')?.checked||!nativeStatus.preview?.enabled||!nativeStatus.connected)return;autoPreviewTimer=setTimeout(()=>nativeAction('play',true),500);}
+  function scheduleNativePreview(){
+    if(autoPreviewTimer)clearTimeout(autoPreviewTimer);if(!nativeStatus.connected||!nativeStatus.preview?.enabled)return;
+    if(previewMode==='free')autoPreviewTimer=setTimeout(()=>nativePreviewCommand('update',{project:previewProject()}),100);
+    else if($('#auto-preview')?.checked)autoPreviewTimer=setTimeout(()=>nativeAction('play',true),500);
+  }
   async function startSharing() {
     if(!navigator.mediaDevices?.getDisplayMedia)return message('Le partage de fenêtre nécessite un navigateur compatible ouvert sur localhost.','error');
     try {const stream=await navigator.mediaDevices.getDisplayMedia({video:{frameRate:30},audio:false});if(nativeStatus.connected)api('/api/preview',{method:'POST',body:JSON.stringify({action:'preview_stop'})}).catch(()=>{});stopSharing(false);clearNativeFrame();screenStream=stream;const video=$('#studio-video');video.hidden=false;video.srcObject=stream;await video.play();$('#native-view').classList.add('has-stream');$('#video-tools').classList.remove('hidden');stream.getVideoTracks()[0].onended=()=>stopSharing();setViewport('native');message('Fenêtre partagée. Le rendu affiché provient directement de la fenêtre choisie.','success');}
@@ -523,14 +700,15 @@
     $('#add-button').onclick=e=>showMenu(e.currentTarget,[['menu-label','STRUCTURE'],...['Part','MeshPart','Attachment','Folder','Model'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),['menu-label','EFFETS'],...['ParticleEmitter','Beam','Trail','SpecialMesh','PointLight','SpotLight','SurfaceLight'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),...(blocks.length?[['menu-label','BRIQUES · À '+round(cursorTime)+' S'],...blocks.map(b=>['✦ '+b.title,()=>addBlock(b.block)])]:[])]);
     $('#empty-add').onclick=()=>addNode('Part');$$('[data-template]').forEach(b=>b.onclick=()=>useTemplate(b.dataset.template));$('#project-menu').onclick=listProjects;
     $('#json-button').onclick=showJSON;$('#export-button').onclick=e=>openExportMenu(e.currentTarget);$('#copy-json').onclick=()=>copyText($('#project-json').value,'Recette copiée');$('#download-json').onclick=()=>download($('#project-json').value,projectFilename());
-    $('#apply-json').onclick=()=>{try{const value=validateProject(JSON.parse($('#project-json').value));remember();project=value;selectedId=project.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();$('#json-dialog').close();message('Recette appliquée au brouillon.');}catch(e){$('#json-error').textContent=e.message;}};
+    $('#apply-json').onclick=()=>{try{const value=validateProject(JSON.parse($('#project-json').value));remember();resetPreviewState();project=value;selectedId=project.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();$('#json-dialog').close();message('Recette appliquée au brouillon.');}catch(e){$('#json-error').textContent=e.message;}};
     $('#import-file').onchange=async e=>{const file=e.target.files[0];if(!file)return;$('#project-json').value=await file.text();$('#json-error').textContent='';e.target.value='';};
     $$('[data-collection]').forEach(b=>b.onclick=()=>{collection=b.dataset.collection;renderCatalog(true);});$('#catalog-search').oninput=e=>{filters[collection].search=e.target.value;filters[collection].page=0;renderCatalog();};$('#catalog-tag').onchange=e=>{filters[collection].tag=e.target.value;filters[collection].page=0;renderCatalog();};$('#clear-filters').onclick=()=>{filters[collection]={search:'',tag:'',page:0};renderCatalog(true);};$('#catalog-prev').onclick=()=>{filters[collection].page--;renderCatalog();$('#catalog-grid').scrollTop=0;};$('#catalog-next').onclick=()=>{filters[collection].page++;renderCatalog();$('#catalog-grid').scrollTop=0;};
     $('#duration').onchange=e=>{const duration=Number(e.target.value);if(!Number.isFinite(duration)||duration<=0||duration>(schema.limits?.duration||600)){e.target.value=project.duration;return;}commit(p=>{p.duration=duration;time=Math.min(time,duration);},{properties:false});};$('#loop').onchange=e=>commit(p=>{p.loop=e.target.checked;},{properties:false});$('#playhead-time').onchange=e=>{time=cursorTime=bounded(num(e.target.value),0,project.duration);e.target.value=time;renderTimeline();drawScene();seekEmulator();};
     $('#play-button').onclick=()=>transport('play');$('#stop-button').onclick=()=>transport('stop');$('#apply-button').onclick=()=>viewportMode==='native'?nativeAction(nativeStatus.preview?.enabled?'play':'apply'):transport('play');$('#clear-preview').onclick=()=>nativeAction('clear');$('#pause-button').onclick=()=>transport('toggle');
     $('#view-emu').onclick=()=>setViewport('emu');$('#emu-snapshot').onclick=takeSnapshot;$('#emu-camera').onclick=()=>emulatorView()?.resetCamera(project);$('#emu-keep-camera').onclick=keepEmulatorCamera;
-    $('#emu-background').onchange=e=>emulatorView()?.setView({background:e.target.value});$('#emu-ground').onchange=e=>emulatorView()?.setView({ground:e.target.checked});$('#emu-dummy').onchange=e=>emulatorView()?.setView({dummy:e.target.checked});$('#emu-frame').onclick=()=>emulatorView()?.frameEffect();
+    $('#emu-background').onchange=e=>emulatorView()?.setView({background:e.target.value||undefined});$('#emu-ground').onchange=e=>emulatorView()?.setView({ground:e.target.checked});$('#emu-dummy').onchange=e=>emulatorView()?.setView({dummy:e.target.checked});$('#emu-frame').onclick=()=>emulatorView()?.frameEffect();
     $('#connection-button').onclick=showConnection;$('#refresh-connection').onclick=()=>refreshStatus(true);$('#copy-bootstrap').onclick=()=>copyText($('#bootstrap-command').textContent,'Commande copiée. Collez-la dans la barre de commande de Studio.');$('#view-plan').onclick=()=>setViewport('plan');$('#view-native').onclick=()=>setViewport('native');$('#share-studio').onclick=startSharing;$('#start-native-preview').onclick=startNativePreview;$('#stop-sharing').onclick=stopNativePreview;$('#capture-snapshot').onclick=takeSnapshot;$('#video-zoom').oninput=e=>{for(const element of [$('#studio-video'),$('#native-frame')])element.style.transform=`scale(${e.target.value})`;};
+    $('#preview-mode').onchange=e=>setPreviewMode(e.target.value);$('#emit-selection').onclick=()=>emitPreview('selection');$('#emit-all').onclick=()=>emitPreview('all');$('#clear-particles').onclick=clearPreviewParticles;$('#shortcuts-button').onclick=showKeyboardHelp;
     $('#animation-graph').onclick=openAnimationGraph;
     $('#recenter-button').onclick=()=>{cameraPan=[0,0];planScale=29;drawScene();};
     $('#camera-button').onclick=openCamera;$('#camera-front').onclick=()=>cameraFields({position:[0,2,14],target:[0,1,0],fov:50});$('#camera-perspective').onclick=()=>cameraFields({position:[10,6,12],target:[0,1,0],fov:50});$('#camera-apply').onclick=()=>{try{const camera={position:[],target:[],fov:Number($('#camera-fov').value)};for(const input of $$('[data-camera]'))camera[input.dataset.camera][Number(input.dataset.axis)]=Number(input.value);if([...camera.position,...camera.target,camera.fov].some(v=>!Number.isFinite(v))||camera.fov<1||camera.fov>120)throw new Error('Les coordonnées doivent être finies et le champ de vision entre 1 et 120.');if(camera.position.every((v,i)=>v===camera.target[i]))throw new Error('La caméra et sa cible doivent être distinctes.');commit(p=>{p.camera=camera;},{properties:false});$('#camera-dialog').close();message('Caméra conservée. Appliquez la composition pour actualiser Studio.');}catch(e){$('#camera-error').textContent=e.message;}};
@@ -539,7 +717,7 @@
     $('#animation-apply').onclick=()=>{try{const keyframes=JSON.parse($('#animation-json').value);if(!Array.isArray(keyframes)||keyframes.length<2)throw new Error('Au moins deux points clés sont nécessaires.');const node=nodeById(animationNode);const property=$('#animation-property').value;const def=schema.classes[node.class].properties[property];const type=def.type;for(let i=0;i<keyframes.length;i++){const f=keyframes[i];if(!Number.isFinite(f.time)||f.time<0||f.time>project.duration||(i&&f.time<=keyframes[i-1].time))throw new Error('Les temps doivent être croissants, distincts, et dans la durée du projet.');if(['number','integer'].includes(type)){if(!Number.isFinite(f.value)||(type==='integer'&&!Number.isInteger(f.value)))throw new Error('Valeur numérique attendue.');}else if(type==='boolean'){if(typeof f.value!=='boolean')throw new Error('Valeur true ou false attendue.');}else if(type==='enum'){if(!(def.enum||def.values||[]).includes(f.value))throw new Error('Valeur attendue : '+(def.enum||def.values||[]).join(', '));}else{const size=['Vector2','NumberRange'].includes(type)?2:3;if(!Array.isArray(f.value)||f.value.length!==size||f.value.some(v=>!Number.isFinite(v)))throw new Error('Le point clé attend un vecteur de '+size+' nombres.');}}commit(p=>{p.animations=p.animations.filter(a=>!(a.node===animationNode&&a.property===property));p.animations.push({node:animationNode,property,keyframes});});$('#animation-dialog').close();}catch(e){$('#animation-error').textContent=e.message;}};
     $('#animation-remove').onclick=()=>{const property=$('#animation-property').value;commit(p=>{p.animations=p.animations.filter(a=>!(a.node===animationNode&&a.property===property));});$('#animation-dialog').close();};
     document.addEventListener('pointerdown',e=>{if(!$('#floating-menu').contains(e.target)&&!e.target.closest('#add-button,#export-button'))hideMenu();});
-    document.addEventListener('keydown',e=>{const typing=e.target.closest('input,textarea,select,[contenteditable]');const modal=$$('dialog[open]').length>0;const mod=e.ctrlKey||e.metaKey;if(mod&&e.key.toLowerCase()==='s'){e.preventDefault();saveProject();return;}if(mod&&e.key.toLowerCase()==='z'&&!typing&&!modal){e.preventDefault();e.shiftKey?redo():undo();return;}if(mod&&e.key.toLowerCase()==='y'&&!typing&&!modal){e.preventDefault();redo();return;}if(mod&&e.key.toLowerCase()==='d'&&!typing&&!modal){e.preventDefault();duplicateNode();return;}if(!typing&&!modal){if(e.key==='Delete'||e.key==='Backspace'){e.preventDefault();removeNode();}if(e.key==='/'){e.preventDefault();$('#catalog-search').focus();}if(e.key==='Escape')hideMenu();}});
+    document.addEventListener('keydown',handleKeyDown);
     window.addEventListener('resize',()=>{drawScene();renderTimeline();if(viewportMode==='emu')emulator?.draw();});window.addEventListener('beforeunload',()=>{persist();stopSharing(false);if(nativeStatus.preview?.enabled)fetch('/api/preview',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'preview_stop'}),keepalive:true}).catch(()=>{});});attachCanvasEvents();
   }
   async function loadData() {
@@ -552,7 +730,7 @@
   if(!Array.isArray(project.animations))project.animations=[];
   bindEvents();renderAll();renderCatalog(true);renderNativeStatus();setViewport(viewportMode);persist();loadData();setInterval(()=>refreshStatus(),3500);setInterval(()=>pollNativeFrame(),250);
   // A compact public automation surface uses the same editor validation and commands.
-  window.DatakyFX = Object.freeze({getProject:()=>clone(project),getSchema:()=>clone(schema),getStatus:()=>clone(nativeStatus),setProject:value=>{const next=validateProject(value);remember();project=next;selectedId=next.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();return clone(project);},save:()=>saveProject(),preview:action=>nativeAction(action),select:selectNode,
+  window.DatakyFX = Object.freeze({getProject:()=>clone(project),getSchema:()=>clone(schema),getStatus:()=>clone(nativeStatus),setProject:value=>{const next=validateProject(value);remember();resetPreviewState();project=next;selectedId=next.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();return clone(project);},save:()=>saveProject(),preview:action=>nativeAction(action),select:selectNode,
     emulator:Object.freeze({play:()=>transport('play'),stop:()=>transport('stop'),seek:value=>{setViewport('emu');time=cursorTime=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return time;},
       frame:value=>{setViewport('emu');time=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return emulatorView()?.snapshot()||null;},
       sheet:(options={})=>window.DatakyEmulator.renderSheet(clone(project),options)})});

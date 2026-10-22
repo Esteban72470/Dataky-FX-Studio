@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "name": "Blueberrinni · A1_Grow",
+  "id": "blueberrinni-a1-grow",
+  "duration": 0.5,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "root",
+      "class": "Part",
+      "name": "root",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "tip",
+      "class": "Attachment",
+      "name": "tip",
+      "parent": "root",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "glow",
+      "class": "ParticleEmitter",
+      "name": "glow",
+      "parent": "tip",
+      "properties": {
+        "Texture": "rbxassetid://85058904608661",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.5,
+        "Brightness": 1,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.3,
+          0.3
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.6,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 2.4,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1.6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.8,
+              0.66,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.27,
+              0.3,
+              0.66
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.4,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "glint",
+      "class": "ParticleEmitter",
+      "name": "glint",
+      "parent": "tip",
+      "properties": {
+        "Texture": "rbxassetid://9563725822",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1,
+        "Speed": [
+          0.6,
+          1.2
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.3,
+          0.4
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.86,
+              0.93,
+              1
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          -25,
+          25
+        ],
+        "RotSpeed": [
+          -160,
+          160
+        ]
+      },
+      "timing": {
+        "start": 0.04,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 2
+      }
+    },
+    {
+      "id": "pops",
+      "class": "ParticleEmitter",
+      "name": "pops",
+      "parent": "tip",
+      "properties": {
+        "Texture": "rbxassetid://125341769548971",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.05,
+        "Brightness": 1,
+        "Speed": [
+          3,
+          5.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.25,
+          0.35
+        ],
+        "EmissionDirection": "Top",
+        "Acceleration": [
+          0,
+          -28,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.42,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.357,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.62,
+              0.2,
+              0.78
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.42,
+              0.1,
+              0.58
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.85,
+            "value": 0.05,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "Loop",
+        "FlipbookFramerate": [
+          0,
+          0
+        ],
+        "FlipbookStartRandom": true
+      },
+      "timing": {
+        "start": 0.02,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      6,
+      4,
+      7
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#6f9fd8"
+  }
+}

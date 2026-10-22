@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "name": "Tractoro Dinosauro - Soupape au repos",
+  "id": "tractoro-idle-soupape",
+  "duration": 1.8,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "smoke1_ancre",
+      "class": "Part",
+      "name": "Soupape",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.6,
+          0.3,
+          0.6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "smoke1_fumee",
+      "class": "ParticleEmitter",
+      "name": "Fumée",
+      "parent": "smoke1_ancre",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.8,
+          1.3
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0.45,
+          1.2
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://8779210242",
+        "LightEmission": 0,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.65,
+              0.72,
+              0.55
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.37,
+              0.45,
+              0.34
+            ]
+          }
+        ],
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 1.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.05,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.8,
+            "envelope": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.57,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 3
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

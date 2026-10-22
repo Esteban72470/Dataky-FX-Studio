@@ -37,16 +37,28 @@ GUIDE = (Path(__file__).resolve().parent.parent / "CLAUDE.md")
 
 PROJECT = {"type": "object", "description": "Recette Dataky FX complète (version 1, nodes, animations, duration…)"}
 PROJECT_INPUTS = {"project": PROJECT, "project_id": {"type": "string", "description": "ID d’un projet enregistré (list_effects)"}}
+EXCLUSION_OPTIONS = {
+    "exclude_ids": {"type": ["array", "string"], "items": {"type": "string"}, "description": "IDs déjà utilisés, liste ou texte séparé par virgules"},
+    "exclude_file": {"type": "string", "description": "Fichier local d’IDs déjà utilisés"},
+}
 RENDER_OPTIONS = {
     "times": {"type": "array", "items": {"type": "number"}, "description": "Instants en secondes (défaut : 8 instants répartis)"},
     "frames": {"type": "integer", "minimum": 1, "maximum": 16},
     "size": {"type": "string", "description": "Taille d’une image, ex. 480x270"},
-    "auto_camera": {"type": "boolean", "description": "Cadrer toute l’étendue de l’effet (défaut true)"},
+    "auto_camera": {"type": "boolean", "default": False, "description": "Cadrer toute l’étendue de l’effet ; sinon caméra de la recette"},
     "dummy": {"type": "boolean", "description": "Mannequin Roblox de 5 studs pour l’échelle (défaut true)"},
-    "background": {"type": "string", "enum": ["sombre", "gris", "ciel", "noir"]},
+    "background": {"type": "string", "enum": ["sombre", "gris", "ciel", "noir", "roblox", "dark"]},
+    "backgrounds": {"type": ["array", "string"], "items": {"type": "string", "enum": ["sombre", "gris", "ciel", "noir", "roblox", "dark"]},
+                    "description": "Une ligne par recette et par fond, ex. [roblox,dark] ou roblox,dark ; exclusif avec background"},
     "ground": {"type": "boolean"},
     "camera": {"type": "array", "items": {"type": "number"}, "minItems": 6, "maxItems": 6, "description": "px,py,pz,tx,ty,tz"},
     "seed": {"type": "integer"},
+    "fit": {"type": "string", "description": "Node à cadrer avec ses descendants"},
+    "fit_percentile": {"type": "number", "exclusiveMinimum": 0, "maximum": 100, "default": 90,
+                       "description": "Centile des particules vivantes aux instants rendus ; les tailles sont incluses"},
+    "fit_all": {"type": "boolean", "default": False, "description": "Ancien cadrage de toute l’étendue simulée"},
+    "focus": {"type": "array", "items": {"type": "number"}, "minItems": 3, "maxItems": 3},
+    "radius": {"type": "number", "exclusiveMinimum": 0},
 }
 TOOLS = [
     {"name": "guide", "description": "Guide complet : méthode de travail, format des recettes, pièges Roblox, limites de l’émulation.",
@@ -58,7 +70,13 @@ TOOLS = [
          "collection": {"type": "string", "enum": ["textures", "beams", "meshes"]}, "tag": {"type": "string", "description": "Impact, Slash, Smoke, Fire, Circle, Flare, Lightning…"},
          "kind": {"type": "string", "enum": ["static", "flipbook", "mesh"]}, "query": {"type": "string", "description": "mots du nom ou ID exact"},
          "limit": {"type": "integer", "minimum": 1, "maximum": 60}, "offset": {"type": "integer", "minimum": 0},
-         "sheet": {"type": "boolean", "description": "joindre la planche d’images (défaut true)"}}}},
+         "sheet": {"type": "boolean", "description": "joindre la planche d’images (défaut true)"},
+         "compact": {"type": "boolean", "description": "tableau id | nom | kind/grille | taille, sans long JSON"}, **EXCLUSION_OPTIONS}}},
+    {"name": "texture_sheet", "description": "Planche annotée d’IDs précis, avec grille de flipbook et badge USED pour les IDs exclus.",
+     "inputSchema": {"type": "object", "required": ["ids"], "properties": {
+         "ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+         "collection": {"type": "string", "enum": ["textures", "beams", "meshes"]},
+         "columns": {"type": "integer", "minimum": 1, "maximum": 12}, **EXCLUSION_OPTIONS}}},
     {"name": "list_tags", "description": "Tags d’une collection avec leur nombre d’assets.",
      "inputSchema": {"type": "object", "properties": {"collection": {"type": "string", "enum": ["textures", "beams", "meshes"]}}}},
     {"name": "list_blocks", "description": "Briques réutilisables (flash, sparks, shockwave…) et leurs réglages.",
@@ -68,18 +86,29 @@ TOOLS = [
          "plan": {"type": "object", "description": "{\"name\": \"…\", \"blocks\": [{\"block\": \"flash\", \"at\": 0, \"color\": [1,0.8,0.5]}, …]}"},
          "base_project_id": {"type": "string"}, "render": {"type": "boolean", "description": "joindre une planche (défaut true)"}, **RENDER_OPTIONS}}},
     {"name": "validate_effect", "description": "Valide une recette et renvoie sa forme normalisée, ou l’erreur précise.",
-     "inputSchema": {"type": "object", "required": ["project"], "properties": {"project": PROJECT}}},
+     "inputSchema": {"type": "object", "required": ["project"], "properties": {"project": PROJECT,
+         "include_infos": {"type": "boolean", "default": False, "description": "Joindre les infos de grille, une par texture, séparées des avertissements"}}}},
+    {"name": "grid_confirm", "description": "Confirme une grille contrôlée visuellement dans tool/grid_overrides.json, hors catalogue.",
+     "inputSchema": {"type": "object", "required": ["id", "grid"], "properties": {
+         "id": {"type": "string", "description": "ID ou URI rbxassetid:// de la texture"},
+         "grid": {"type": "integer", "enum": [2, 4, 8], "description": "Nombre de cases par côté"}}}},
     {"name": "render_effect", "description": "Rend l’effet en planche d’images à des instants précis (émulation déterministe). "
                                              "Passer projects (2 à 8) pour comparer des variantes ligne par ligne avec la même caméra.",
      "inputSchema": {"type": "object", "properties": {**PROJECT_INPUTS, "projects": {"type": "array", "items": PROJECT, "minItems": 1, "maxItems": 8},
                                                       **RENDER_OPTIONS}}},
+    {"name": "render_batch", "description": "Plusieurs jobs recettes × instants × caméras dans un seul lancement Chromium.",
+     "inputSchema": {"type": "object", "required": ["jobs"], "properties": {"jobs": {"type": "array", "minItems": 1, "maxItems": 128,
+         "items": {"type": "object", "description": "projects (recettes ou IDs), out, times, camera, fit/focus/radius ; options camelCase",
+                   "properties": {"fitPercentile": RENDER_OPTIONS["fit_percentile"], "fitAll": RENDER_OPTIONS["fit_all"],
+                                  "background": RENDER_OPTIONS["background"], "backgrounds": RENDER_OPTIONS["backgrounds"]}}}}}},
     {"name": "save_effect", "description": "Enregistre la recette dans l’atelier (editor/projects) ; l’ID vient du nom si absent.",
      "inputSchema": {"type": "object", "required": ["project"], "properties": {"project": PROJECT}}},
     {"name": "list_effects", "description": "Projets enregistrés dans l’atelier.", "inputSchema": {"type": "object", "properties": {}}},
     {"name": "load_effect", "description": "Lit un projet enregistré.",
      "inputSchema": {"type": "object", "required": ["project_id"], "properties": {"project_id": {"type": "string"}}}},
     {"name": "export_effect", "description": "Exporte vers Roblox : rbxmx (modèle à glisser dans Studio, lecteur inclus), lua (ModuleScript autonome) ou json.",
-     "inputSchema": {"type": "object", "properties": {**PROJECT_INPUTS, "format": {"type": "string", "enum": ["rbxmx", "lua", "json"]}}}},
+     "inputSchema": {"type": "object", "properties": {**PROJECT_INPUTS, "format": {"type": "string", "enum": ["rbxmx", "lua", "json", "library"]},
+         "recipes": {"type": "object", "additionalProperties": PROJECT, "description": "Noms courts vers recettes pour format library"}}}},
 ]
 
 
@@ -101,8 +130,10 @@ def project_from(args: dict[str, Any]) -> dict[str, Any]:
 
 def render_options(args: dict[str, Any]) -> dict[str, Any]:
     return {"times": args.get("times"), "frames": int(args.get("frames", 8)), "size": args.get("size", "480x270"),
-            "auto_camera": args.get("auto_camera", True), "dummy": args.get("dummy", True), "background": args.get("background"),
-            "ground": args.get("ground", True), "camera": args.get("camera"), "seed": int(args.get("seed", 1))}
+            "auto_camera": args.get("auto_camera", False), "dummy": args.get("dummy", True), "background": args.get("background"),
+            "ground": args.get("ground", True), "camera": args.get("camera"), "seed": int(args.get("seed", 1)),
+            "fit": args.get("fit"), "focus": args.get("focus"), "radius": args.get("radius"),
+            "fit_percentile": args.get("fit_percentile", 90), "fit_all": args.get("fit_all", False), "backgrounds": args.get("backgrounds")}
 
 
 def call(name: str, args: dict[str, Any]) -> list[dict[str, Any]]:
@@ -115,16 +146,21 @@ def call(name: str, args: dict[str, Any]) -> list[dict[str, Any]]:
             return [text({args["class"]: SCHEMA["classes"][args["class"]]})]
         compact = {cls: {key: {k: v for k, v in spec.items() if k in {"type", "default", "enum", "min", "max", "className"}}
                          for key, spec in data["properties"].items()} for cls, data in SCHEMA["classes"].items()}
-        return [text({"classes": compact, "limits": SCHEMA["limits"], "sequenceFormat": SCHEMA["sequenceFormat"],
+        return [text({"classes": compact, "limits": SCHEMA["limits"], "sequenceFormat": SCHEMA["sequenceFormat"], "parameters": SCHEMA["parameters"],
                       "timing": "nodes[].timing = {start, duration, mode: burst|continuous, count} pour émetteurs, beams, trails, lumières",
                       "animations": "[{node, property, keyframes: [{time (s), value}]}] pour les propriétés animatables"})]
     if name == "search_assets":
         result = fx_tools.search_assets(args.get("collection", "textures"), args.get("tag"), args.get("kind"), args.get("query"),
-                                        args.get("limit", 24), args.get("offset", 0))
-        content = [text(result)]
+                                        args.get("limit", 24), args.get("offset", 0), exclude_ids=args.get("exclude_ids"),
+                                        exclude_file=args.get("exclude_file"), compact=args.get("compact", False))
+        content = [text(result["table"] if args.get("compact") else result)]
         if result["items"] and args.get("sheet", True):
             content.append(image(fx_tools.texture_sheet(result["items"], "rendus/mcp-textures.png")))
         return content
+    if name == "texture_sheet":
+        items = fx_tools.assets_by_ids(args["ids"], args.get("collection"), exclude_ids=args.get("exclude_ids"), exclude_file=args.get("exclude_file"))
+        path = fx_tools.texture_sheet(items, "rendus/mcp-selection-textures.png", args.get("columns", 6))
+        return [text({"sheet": str(path), "items": [{"id": item["id"], "used": item["used"]} for item in items]}), image(path)]
     if name == "list_tags":
         return [text(fx_tools.tags(args.get("collection", "textures")))]
     if name == "list_blocks":
@@ -135,23 +171,35 @@ def call(name: str, args: dict[str, Any]) -> list[dict[str, Any]]:
         content = [text(project)]
         if args.get("render", True):
             result = fx_tools.render(project, "rendus/mcp-compose.png", **render_options(args))
-            content += [text({"render": {k: result[k] for k in ("times", "camera", "warnings")}}), image(result["image"])]
+            content += [text({"render": {k: result[k] for k in ("times", "camera", "warnings", "rows", "sheet") if k in result}}), image(result["image"])]
         return content
     if name == "validate_effect":
         project = fx_tools.validate(args["project"])
-        return [text({"valid": True, "summary": f"{project['name']} · {len(project['nodes'])} objets · {project['duration']} s", "project": project})]
+        diagnostics = fx_tools.warnings(project, include_infos=args.get("include_infos", False))
+        warnings = [item for item in diagnostics if item.get("level", "warning") != "info"]
+        infos = [item for item in diagnostics if item.get("level") == "info"]
+        return [text({"valid": True, "summary": f"{project['name']} · {len(project['nodes'])} objets · {project['duration']} s", "project": project,
+                      "warning_counts": fx_tools.diagnostic_counts(warnings), "warnings": warnings,
+                      "info_counts": fx_tools.diagnostic_counts(infos), "infos": infos})]
+    if name == "grid_confirm":
+        return [text(fx_tools.grid_confirm(args["id"], args["grid"]))]
     if name == "render_effect":
         projects = args.get("projects") or [project_from(args)]
         result = fx_tools.render(projects, "rendus/mcp-rendu.png", **render_options(args))
-        return [text({k: result[k] for k in ("times", "camera", "warnings")}), image(result["image"])]
+        return [text({k: result[k] for k in ("times", "camera", "warnings", "rows", "sheet") if k in result}), image(result["image"])]
     if name == "save_effect":
         return [text(fx_tools.save(args["project"]))]
+    if name == "render_batch":
+        return [text(fx_tools.render_batch(args["jobs"]))]
     if name == "list_effects":
         return [text(fx_tools.list_projects())]
     if name == "load_effect":
         return [text(fx_tools.load(args["project_id"]))]
     if name == "export_effect":
         fmt = args.get("format", "rbxmx")
+        if fmt == "library":
+            paths = fx_tools.export_library(args.get("recipes") or {"Effect": project_from(args)})
+            return [text({"files": [str(path) for path in paths], "usage": "FX.play(Recipes.NomCourt, CFrame.new(), options)"})]
         path = fx_tools.export(project_from(args), fmt)
         hint = {"rbxmx": "Glissez ce fichier dans Roblox Studio, puis : require(workspace.<NomDuModèle>.DatakyFX).play()",
                 "lua": "Collez ce code dans un ModuleScript : fx.build(workspace, Vector3.new(0, 4, 0)); fx.play()",

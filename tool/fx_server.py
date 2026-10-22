@@ -235,10 +235,10 @@ class FXServer(ThreadingHTTPServer):
             capabilities = hello.get("capabilities", {})
             if not isinstance(capabilities, dict):
                 raise ValidationError("capabilities doit être un objet")
-            allowed = {"native_preview", "capture_permission", "capture_permission_request", "capture_context", "commands"}
+            allowed = {"native_preview", "sandbox", "capture_permission", "capture_permission_request", "capture_context", "commands"}
             if set(capabilities) - allowed:
                 raise ValidationError("Capacité de pont inconnue")
-            for flag in ("native_preview", "capture_permission", "capture_permission_request"):
+            for flag in ("native_preview", "sandbox", "capture_permission", "capture_permission_request"):
                 if flag in capabilities and not isinstance(capabilities[flag], bool):
                     raise ValidationError("capabilities." + flag + " doit être un booléen")
             if "capture_context" in capabilities and capabilities["capture_context"] not in {"plugin", "command_bar"}:
@@ -536,14 +536,32 @@ class Handler(BaseHTTPRequestHandler):
             self.send_json(sibling("fx_modules").compose(plan, data.get("project")))
         elif path == "/api/preview":
             action = data.get("action", "apply")
-            if action not in {"apply", "play", "stop", "clear", "pause", "resume", "status", "preview_start", "preview_stop", "capture_status"}:
+            sandbox_actions = {"sandbox", "emit", "enabled", "clear_particles", "update"}
+            if action not in {"apply", "play", "stop", "clear", "pause", "resume", "status", "preview_start", "preview_stop", "capture_status", "export_used_textures"} | sandbox_actions:
                 raise ValidationError("Action inconnue")
             project = validate_project(data["project"]) if data.get("project") is not None else None
-            if action in {"apply", "play"} and project is None:
+            if action in {"apply", "play", "sandbox", "update"} and project is None:
                 raise ValidationError("Projet requis pour appliquer ou lire")
             command = {"id": uuid.uuid4().hex, "action": action}
             if project is not None:
                 command["project"] = project
+            if action == "sandbox":
+                if data.get("mode") not in {"free", "timeline"}:
+                    raise ValidationError("mode free ou timeline requis")
+                command["mode"] = data["mode"]
+            for field in ("counts", "enabled"):
+                if field in data:
+                    values = data[field]
+                    if not isinstance(values, dict) or len(values) > 400:
+                        raise ValidationError(field + " : objet de 400 valeurs maximum requis")
+                    command[field] = {}
+                    for node_id, value in values.items():
+                        identifier(node_id, field + ".id")
+                        if field == "counts":
+                            value = number(value, "counts." + node_id, 0, 10000, True)
+                        elif not isinstance(value, bool):
+                            raise ValidationError("enabled : booléen requis")
+                        command[field][node_id] = value
             if "time" in data:
                 command["time"] = number(data["time"], "time", 0, project["duration"] if project else 600)
                 if command["time"] != 0:
@@ -553,13 +571,17 @@ class Handler(BaseHTTPRequestHandler):
             with server.lock:
                 if not server.connected():
                     raise APIError(409, "Roblox Studio n’est pas connecté. Installer ou lancer le pont depuis l’éditeur.")
+                if action in sandbox_actions and not server.client.get("capabilities", {}).get("sandbox"):
+                    raise APIError(409, "Le mode Libre nécessite le nouveau plugin. Relancez Studio puis Plugins > Dataky FX > Connexion.")
+                if action == "export_used_textures" and action not in server.client.get("capabilities", {}).get("commands", []):
+                    raise APIError(409, "Exporter les textures utilisées nécessite le nouveau plugin Dataky FX Studio.")
                 if action in {"preview_start", "preview_stop", "capture_status"} and not server.client.get("capabilities", {}).get("native_preview"):
                     raise APIError(409, "Le pont chargé dans Studio est ancien et ne prend pas en charge l’aperçu intégré. Relancez Roblox Studio, puis cliquez sur Plugins > Dataky FX > Connexion pour charger la nouvelle version.")
                 if len(server.commands) + len(server.pending) >= 50:
                     raise APIError(429, "Le pont a trop de commandes en attente")
-                if action in {"apply", "play", "stop", "clear", "preview_start", "preview_stop"}:
+                if action in {"apply", "play", "sandbox", "stop", "clear", "preview_start", "preview_stop"}:
                     server.invalidate_preview(disable=action in {"stop", "clear", "preview_stop"})
-                    if action in {"apply", "play"}:
+                    if action in {"apply", "play", "sandbox"}:
                         server.preview_project_id = project.get("id")
                         server.preview_project_name = project.get("name")
                     if action == "clear":
@@ -568,6 +590,11 @@ class Handler(BaseHTTPRequestHandler):
                 command["capture_generation"] = server.capture_generation
                 server.commands.append(command)
             self.send_json({"queued": True, "command": command, "id": command["id"]}, 202)
+        elif path == "/bridge/used_textures":
+            with server.lock:
+                server.require_active_client(data.get("client_id"))
+                result = sibling("fx_used_textures").save_used_textures(server.library, data.get("place_name"), data.get("ids"))
+            self.send_json(result)
         elif path == "/bridge/hello":
             server.touch_client(data.get("client_id"), data)
             self.send_json({"ok": True, "app": APP, "version": CURRENT_BRIDGE_VERSION})
@@ -589,6 +616,8 @@ class Handler(BaseHTTPRequestHandler):
             for field in ("enabled", "available", "permission"):
                 if not isinstance(data.get(field), bool):
                     raise ValidationError(field + " doit être un booléen")
+            if "window_focused" in data and not isinstance(data["window_focused"], bool):
+                raise ValidationError("window_focused doit être un booléen")
             error = data.get("error")
             if error is not None:
                 error = text(error, "error", 2000)
@@ -600,6 +629,8 @@ class Handler(BaseHTTPRequestHandler):
                     raise APIError(409, "État de capture périmé")
                 server.preview = {field: data[field] for field in ("enabled", "available", "permission")}
                 server.preview.update({"error": error, "fps": fps})
+                if "window_focused" in data:
+                    server.preview["window_focused"] = data["window_focused"]
                 if not data["enabled"] or not data["available"] or not data["permission"]:
                     server.latest_frame = None
             self.send_json({"ok": True})
@@ -609,7 +640,7 @@ class Handler(BaseHTTPRequestHandler):
             project_id = data.get("project_id")
             if project_id is not None:
                 identifier(project_id, "project_id")
-            timestamp = number(data.get("time", 0), "time", 0, 600)
+            timestamp = number(data.get("time", 0), "time", 0)
             # Check lease/generation before decoding attacker-provided image data,
             # then check again before publishing if commands arrived meanwhile.
             with server.lock:
@@ -670,7 +701,7 @@ class Handler(BaseHTTPRequestHandler):
             elif data.get("project_id") is not None:
                 item["project_id"] = identifier(data["project_id"], "project_id")
             if not native_meta and "time" in data:
-                item["time"] = number(data["time"], "time", 0, 600)
+                item["time"] = number(data["time"], "time", 0)
             if not native_meta:
                 source = data.get("source", "screen-share")
                 if source not in {"screen-share", "emulator"}:

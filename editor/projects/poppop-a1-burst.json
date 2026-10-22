@@ -1,0 +1,953 @@
+{
+  "version": 1,
+  "name": "Pop Pop · A1_Burst",
+  "id": "poppop-a1-burst",
+  "duration": 1.4,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "Burst",
+      "class": "Part",
+      "name": "Burst",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          2.6,
+          0
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "BurstPoint",
+      "class": "Attachment",
+      "name": "BurstPoint",
+      "parent": "Burst",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.15,
+          0.15
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5.5,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "RaysGold",
+      "class": "ParticleEmitter",
+      "name": "RaysGold",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.32,
+          0.32
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 7.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 8.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "RaysPink",
+      "class": "ParticleEmitter",
+      "name": "RaysPink",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.38,
+          0.38
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 6.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 7.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 0.5
+      },
+      "timing": {
+        "start": 0.03,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "Firework",
+      "class": "ParticleEmitter",
+      "name": "Firework",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://98788923842276",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.6,
+          0.6
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 10,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot"
+      },
+      "timing": {
+        "start": 0.02,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "StarsPink",
+      "class": "ParticleEmitter",
+      "name": "StarsPink",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "StarsYellow",
+      "class": "ParticleEmitter",
+      "name": "StarsYellow",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          16,
+          28
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.45,
+          0.8
+        ],
+        "Drag": 3,
+        "Acceleration": [
+          0,
+          -18,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.26,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 36
+      }
+    },
+    {
+      "id": "GlintZone",
+      "class": "Part",
+      "name": "GlintZone",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          2.6,
+          0
+        ],
+        "Size": [
+          7,
+          5,
+          7
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "GlintZone",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.25,
+          0.4
+        ],
+        "Shape": "Sphere",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.35,
+            "value": 1.7,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.4,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.1,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "Smoke",
+      "class": "ParticleEmitter",
+      "name": "Smoke",
+      "parent": "BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.1
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.96,
+            "envelope": 0.24
+          },
+          {
+            "time": 0.3,
+            "value": 2.5600000000000005,
+            "envelope": 0.48
+          },
+          {
+            "time": 1,
+            "value": 3.2,
+            "envelope": 0.48
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.04,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "BurstPoint",
+      "properties": {
+        "Brightness": 0.8,
+        "Range": 10,
+        "Color": [
+          1,
+          0.65,
+          0.75
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.25,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [
+    {
+      "node": "Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 0.8
+        },
+        {
+          "time": 0.25,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      16,
+      9,
+      18
+    ],
+    "target": [
+      0,
+      3,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

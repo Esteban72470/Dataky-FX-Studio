@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "name": "Blueberrinni · Gather_DarkInkOnly",
+  "id": "blueberrinni-gather-darkinkonly",
+  "duration": 0.6,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "root",
+      "class": "Part",
+      "name": "root",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "ground",
+      "class": "Attachment",
+      "name": "ground",
+      "parent": "root",
+      "properties": {
+        "Position": [
+          0,
+          0.08,
+          0
+        ]
+      }
+    },
+    {
+      "id": "body",
+      "class": "Attachment",
+      "name": "body",
+      "parent": "root",
+      "properties": {
+        "Position": [
+          0,
+          1.2,
+          0
+        ]
+      }
+    },
+    {
+      "id": "swirl",
+      "class": "ParticleEmitter",
+      "name": "swirl",
+      "parent": "ground",
+      "properties": {
+        "Texture": "rbxassetid://89721918773289",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.0,
+        "Brightness": 1,
+        "Speed": [
+          0.01,
+          0.01
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.48,
+          0.48
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 10,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 3.5,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.2,
+              0.1,
+              0.42
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.09,
+              0.05,
+              0.2
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          0
+        ],
+        "EmissionDirection": "Top",
+        "Orientation": "VelocityPerpendicular",
+        "RotSpeed": [
+          -420,
+          -420
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "ringPart",
+      "class": "Part",
+      "name": "ringPart",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0.6,
+          0
+        ],
+        "Size": [
+          11,
+          0.6,
+          11
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "suck",
+      "class": "ParticleEmitter",
+      "name": "suck",
+      "parent": "ringPart",
+      "properties": {
+        "Texture": "rbxassetid://7096972007",
+        "Rate": 90,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1,
+        "Speed": [
+          14,
+          17
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.3,
+          0.38
+        ],
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "ShapeInOut": "Inward",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.12,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 0.42,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.2,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.8,
+              0.66,
+              1
+            ]
+          },
+          {
+            "time": 0.5,
+            "value": [
+              0.62,
+              0.2,
+              0.78
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.2,
+              0.1,
+              0.42
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 0.85,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": -1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": -0.6,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.32,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "darkglow",
+      "class": "ParticleEmitter",
+      "name": "darkglow",
+      "parent": "body",
+      "properties": {
+        "Texture": "rbxassetid://85058904608661",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.25,
+        "Brightness": 1,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.4,
+          0.4
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.62,
+              0.2,
+              0.78
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.2,
+              0.1,
+              0.42
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.7,
+            "envelope": 0
+          },
+          {
+            "time": 0.6,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.05,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      14,
+      10,
+      16
+    ],
+    "target": [
+      0,
+      0.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#6f9fd8"
+  }
+}

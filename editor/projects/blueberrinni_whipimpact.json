@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "name": "Blueberrinni_WhipImpact",
+  "id": "blueberrinni_whipimpact",
+  "duration": 1.1,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "smoke1_ancre",
+      "class": "Part",
+      "name": "Fumée",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.96,
+          0.48,
+          0.96
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "smoke1_fumee",
+      "class": "ParticleEmitter",
+      "name": "Fumée",
+      "parent": "smoke1_ancre",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.42,
+          0.6
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          2,
+          5
+        ],
+        "SpreadAngle": [
+          85,
+          85
+        ],
+        "Texture": "rbxassetid://136646414528346",
+        "LightEmission": 0,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.3,
+              0.75,
+              0.9
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.28,
+              0.2,
+              0.6
+            ]
+          }
+        ],
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          0.72,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 2.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 2.7,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.6,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Brightness": 1,
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot",
+        "FlipbookBlendFrames": true
+      },
+      "timing": {
+        "start": 0.03,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 2
+      }
+    },
+    {
+      "id": "sparks1_ancre",
+      "class": "Part",
+      "name": "Étincelles",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "sparks1_point",
+      "class": "Attachment",
+      "name": "Point",
+      "parent": "sparks1_ancre",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "sparks1_etincelles",
+      "class": "ParticleEmitter",
+      "name": "Étincelles",
+      "parent": "sparks1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.3,
+          0.6
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          4,
+          8
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Texture": "rbxassetid://81997979611363",
+        "LightEmission": 0.2,
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.3,
+              0.75,
+              0.9
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.28,
+              0.2,
+              0.6
+            ]
+          }
+        ],
+        "Orientation": "VelocityParallel",
+        "Drag": 3,
+        "Acceleration": [
+          0,
+          -16,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Squash": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 10
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

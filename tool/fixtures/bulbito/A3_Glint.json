@@ -1,0 +1,230 @@
+{
+ "version": 1,
+ "name": "Bulbito · A3_Glint",
+ "id": "bulbito-a3-glint",
+ "duration": 0.6,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "Glasses",
+   "class": "Part",
+   "name": "Glasses",
+   "parent": null,
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ],
+    "Size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "Point",
+   "class": "Attachment",
+   "name": "Point",
+   "parent": "Glasses",
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "Star",
+   "class": "ParticleEmitter",
+   "name": "Star",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://80635905349701",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.55,
+    "Brightness": 1.6,
+    "Speed": [
+     0,
+     0
+    ],
+    "SpreadAngle": [
+     0,
+     0
+    ],
+    "Lifetime": [
+     0.34,
+     0.34
+    ],
+    "Rotation": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.3,
+      "value": 2.4,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       1,
+       1
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.95,
+       0.72
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.1,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 2
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 1
+   }
+  },
+  {
+   "id": "Shine",
+   "class": "ParticleEmitter",
+   "name": "Shine",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://107344697772217",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.5,
+    "Brightness": 1.4,
+    "Speed": [
+     0,
+     0
+    ],
+    "SpreadAngle": [
+     0,
+     0
+    ],
+    "Lifetime": [
+     0.3,
+     0.3
+    ],
+    "Rotation": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0.6,
+      "envelope": 0
+     },
+     {
+      "time": 0.4,
+      "value": 1.8,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.4,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.95,
+       0.72
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.84,
+       0.32
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 1.8,
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0.02,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 1
+   }
+  }
+ ],
+ "animations": [],
+ "camera": {
+  "position": [
+   1.5,
+   0.5,
+   -6
+  ],
+  "target": [
+   0,
+   0,
+   0
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

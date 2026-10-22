@@ -116,7 +116,7 @@
   }
   // jitter : une valeur dans [-1, 1] par point clé, tirée à l’émission de chaque particule.
   function sampleNumber(sequence, t, jitter) {
-    const at = i => sequence[i].value + (jitter ? jitter[i] * sequence[i].envelope : 0);
+    const at = i => sequence[i].value + (jitter ? num(jitter[i]) * sequence[i].envelope : 0);
     if (t <= sequence[0].time) return at(0);
     for (let i = 1; i < sequence.length; i++) {
       if (t <= sequence[i].time) {
@@ -141,9 +141,10 @@
     const project = JSON.parse(JSON.stringify(input || {}));
     const nodes = Array.isArray(project.nodes) ? project.nodes : [];
     const byId = new Map(nodes.map(node => [node.id, node]));
-    const duration = Math.max(0.01, num(project.duration, 3));
-    const durationTicks = Math.max(1, Math.round(duration / STEP));
-    const loop = !!project.loop;
+    let duration = Math.max(0.01, num(project.duration, 3));
+    let durationTicks = Math.max(1, Math.round(duration / STEP));
+    let loop = !!project.loop;
+    let mode = options.mode === 'free' ? 'free' : 'timeline';
     const seed = num(options.seed, 1) >>> 0;
     const tracks = new Map();
     for (const animation of project.animations || []) {
@@ -152,6 +153,7 @@
     const emitters = nodes.filter(n => n.class === 'ParticleEmitter').map(node => ({node, rng: null, particles: [], carry: 0}));
     const trails = nodes.filter(n => n.class === 'Trail').map(node => ({node, points: [], head: null, odometer: 0}));
     const enabled = new Map();
+    const previewEnabled = new Map();
     const frames = new Map();
     const fired = new Set();
     let ticks = 0, clockTicks = 0, ended = false;
@@ -159,7 +161,7 @@
     const time = () => ticks * STEP;
     const raw = (node, key) => node.properties?.[key] !== undefined ? node.properties[key] : NATIVE[node.class]?.[key];
     function prop(node, key) {
-      const keys = tracks.get(node.id + '\u0000' + key);
+      const keys = mode === 'free' ? undefined : tracks.get(node.id + '\u0000' + key);
       if (!keys) return raw(node, key);
       const t = time();
       if (t <= keys[0].time) return keys[0].value;
@@ -177,7 +179,7 @@
         frame = {p: vec(prop(node, 'Position')), m: fromOrientation(vec(prop(node, 'Orientation'))), size: vec(prop(node, 'Size'), [4, 1, 2]), part: node};
       } else if (node.class === 'Attachment') {
         const parent = frameOf(byId.get(node.parent), depth + 1);
-        const axes = ['Axis', 'SecondaryAxis'].some(k => node.properties?.[k] !== undefined || tracks.has(node.id + '\u0000' + k));
+        const axes = ['Axis', 'SecondaryAxis'].some(k => node.properties?.[k] !== undefined || (mode !== 'free' && tracks.has(node.id + '\u0000' + k)));
         const local = axes ? fromAxes(vec(prop(node, 'Axis'), [1, 0, 0]), vec(prop(node, 'SecondaryAxis'), [0, 1, 0])) : fromOrientation(vec(prop(node, 'Orientation')));
         frame = {p: add(parent.p, apply(parent.m, vec(prop(node, 'Position')))), m: matMul(parent.m, local), size: [0, 0, 0], part: parent.part, attachment: true};
       } else if (node.class === 'Folder' || node.class === 'Model') {
@@ -195,6 +197,10 @@
       const t = time();
       for (const node of nodes) {
         if (!SWITCHES.has(node.class)) continue;
+        if (mode === 'free') {
+          enabled.set(node.id, previewEnabled.has(node.id) ? previewEnabled.get(node.id) : raw(node, 'Enabled') !== false);
+          continue;
+        }
         const animated = tracks.has(node.id + '\u0000Enabled') ? prop(node, 'Enabled') !== false : undefined;
         const own = raw(node, 'Enabled') !== false;
         const timing = node.timing;
@@ -208,12 +214,12 @@
       }
     }
     function fireBursts() {
-      if (ended) return;
+      if (ended || mode === 'free') return;
       for (const emitter of emitters) {
         const timing = emitter.node.timing;
         if (timing?.mode === 'burst' && !fired.has(emitter.node.id) && time() >= num(timing.start) - 1e-9) {
           fired.add(emitter.node.id);
-          emit(emitter, clamp(Math.round(num(timing.count, 20)), 0, 10000), 0);
+          if (prop(emitter.node, 'Enabled') !== false) emit(emitter, clamp(Math.round(num(timing.count, 20)), 0, 10000), 0);
         }
       }
     }
@@ -340,7 +346,7 @@
       for (const trail of trails) { trail.points = []; trail.head = null; }
     }
     function reset() {
-      ticks = 0; clockTicks = 0; ended = false;
+      ticks = 0; clockTicks = 0; ended = false; pending = 0;
       fired.clear(); clearVisuals();
       for (const emitter of emitters) emitter.rng = random(seed ^ hash(emitter.node.id));
       refreshSwitches(); fireBursts();
@@ -356,7 +362,10 @@
       }
       for (const trail of trails) ageTrail(trail, STEP);
       clockTicks++;
-      if (!ended) {
+      if (mode === 'free') {
+        ticks++;
+        refreshSwitches();
+      } else if (!ended) {
         ticks++;
         if (ticks >= durationTicks) {
           ticks = durationTicks; refreshSwitches(); fireBursts();
@@ -367,6 +376,7 @@
       }
       for (const emitter of emitters) {
         if (!enabled.get(emitter.node.id)) continue;
+        if (mode === 'free' && emitter.node.timing?.mode === 'burst') continue;
         const dt = STEP * timeScale(emitter.node);
         emitter.carry += Math.max(0, num(prop(emitter.node, 'Rate'), 20)) * dt;
         const count = Math.floor(emitter.carry);
@@ -387,10 +397,69 @@
       while (pending >= STEP) { pending -= STEP; step(); }
     }
 
+    function manualEmit(ids, count) {
+      const selected = ids == null ? null : new Set(typeof ids === 'string' ? [ids] : ids);
+      let emitted = 0;
+      frames.clear();
+      for (const emitter of emitters) {
+        if (selected ? !selected.has(emitter.node.id) : emitter.node.timing?.mode !== 'burst') continue;
+        const amount = clamp(Math.round(num(count, num(emitter.node.timing?.count, 30))), 0, 10000);
+        const before = emitter.particles.length;
+        emit(emitter, amount, 0);
+        emitted += emitter.particles.length - before;
+      }
+      return emitted;
+    }
+    function setEnabled(id, value) {
+      const node = byId.get(id);
+      if (!node || !SWITCHES.has(node.class)) return false;
+      if (mode === 'free') previewEnabled.set(id, !!value);
+      else { node.properties ||= {}; node.properties.Enabled = !!value; }
+      refreshSwitches();
+      return true;
+    }
+    // Reconcile live properties and the node tree without discarding free-mode
+    // particles, random streams, preview switches or elapsed time.
+    function updateProject(input) {
+      const next = JSON.parse(JSON.stringify(input || {}));
+      const oldEmitters = new Map(emitters.map(e => [e.node.id, e]));
+      const oldTrails = new Map(trails.map(t => [t.node.id, t]));
+      for (const key of Object.keys(project)) delete project[key];
+      Object.assign(project, next);
+      nodes.splice(0, nodes.length, ...(Array.isArray(next.nodes) ? next.nodes : []));
+      project.nodes = nodes;
+      byId.clear();
+      for (const node of nodes) byId.set(node.id, node);
+      tracks.clear();
+      for (const animation of project.animations || []) {
+        if (byId.has(animation?.node) && Array.isArray(animation.keyframes) && animation.keyframes.length) tracks.set(animation.node + '\u0000' + animation.property, animation.keyframes);
+      }
+      emitters.splice(0, emitters.length, ...nodes.filter(n => n.class === 'ParticleEmitter').map(node => {
+        const emitter = oldEmitters.get(node.id) || {rng: random(seed ^ hash(node.id)), particles: [], carry: 0};
+        emitter.node = node;
+        return emitter;
+      }));
+      trails.splice(0, trails.length, ...nodes.filter(n => n.class === 'Trail').map(node => {
+        const trail = oldTrails.get(node.id) || {points: [], head: null, odometer: 0};
+        trail.node = node;
+        return trail;
+      }));
+      for (const id of previewEnabled.keys()) if (!byId.has(id)) previewEnabled.delete(id);
+      duration = Math.max(0.01, num(project.duration, 3));
+      durationTicks = Math.max(1, Math.round(duration / STEP));
+      loop = !!project.loop;
+      refreshSwitches();
+    }
+
     reset();
     const api = {
-      project, duration, loop, step: STEP, nodes, byId, emitters, trails,
+      project, step: STEP, nodes, byId, emitters, trails,
       prop, frameOf, isEnabled: id => !!enabled.get(id), reset, seek, advance, stepOnce: step,
+      emit: manualEmit, setEnabled, clearParticles: clearVisuals, updateProject,
+      resetPreviewState() { previewEnabled.clear(); reset(); clearVisuals(); },
+      setMode(next) { const value = next === 'free' ? 'free' : 'timeline'; if (value !== mode) { mode = value; reset(); } return mode; },
+      stop() { reset(); clearVisuals(); },
+      get mode() { return mode; }, get duration() { return duration; }, get loop() { return loop; },
       get time() { return time(); }, get clock() { return clockTicks * STEP; }, get ended() { return ended; },
       get alive() { return emitters.some(e => e.particles.length) || trails.some(t => t.points.length); },
       stats() { return {time: time(), particles: emitters.reduce((n, e) => n + e.particles.length, 0), trailPoints: trails.reduce((n, t) => n + t.points.length, 0)}; },
@@ -410,7 +479,7 @@
     return {position, target, forward, right, up: cross(right, forward), fov: clamp(num(camera?.fov, 50), 1, 120)};
   }
 
-  function buildFrame(sim, cameraInput) {
+  function buildFrame(sim, cameraInput, options = {}) {
     const camera = cameraBasis(cameraInput);
     let data = new Float32Array(STRIDE * 6 * 1024), count = 0;
     const batches = [], parts = [], lights = [], placeholders = [], points = [];
@@ -460,9 +529,12 @@
         const t = clamp(particle.age / particle.life, 0, 1);
         const size = Math.max(0, sampleNumber(sizeSeq, t, particle.size));
         const alpha = 1 - clamp(sampleNumber(transparencySeq, t, particle.transparency), 0, 1);
-        if (size <= 1e-5 || alpha <= 1e-4 || depth <= 0.05) continue;
+        if (size <= 1e-5 || alpha <= 1e-4 || (!options.boundsOnly && depth <= 0.05)) continue;
         const squash = clamp(sampleNumber(squashSeq, t, particle.squash), -3, 3);
-        const width = size * (squash > 0 ? 1 / (1 + squash) : 1 - squash), height = size * (squash > 0 ? 1 + squash : 1 / (1 - squash));
+        // Mesuré dans Roblox : en VelocityParallel, un Squash négatif étire le long
+        // de la vitesse. Les autres orientations gardent leur approximation existante.
+        const quadSquash = orientation === 'VelocityParallel' ? -squash : squash;
+        const width = size * (quadSquash > 0 ? 1 / (1 + quadSquash) : 1 - quadSquash), height = size * (quadSquash > 0 ? 1 + quadSquash : 1 / (1 - quadSquash));
         const velocity = particle.locked ? apply(frame.m, add(particle.v0, particle.va)) : add(particle.v0, particle.va);
         const toCamera = normalize(sub(camera.position, world), scale(camera.forward, -1));
         let right = camera.right, up = camera.up;
@@ -478,7 +550,7 @@
         const rx = add(scale(right, cr), scale(up, sr)), ry = add(scale(up, cr), scale(right, -sr));
         // ZOffset avance vers la caméra sans changer la taille apparente.
         let center = world, k = 1;
-        if (zOffset) { const distance = length(sub(camera.position, world)); const moved = clamp(zOffset, -1e4, distance - 0.05); center = madd(world, toCamera, moved); k = (distance - moved) / distance; }
+        if (zOffset && !options.boundsOnly) { const distance = length(sub(camera.position, world)); const moved = clamp(zOffset, -1e4, distance - 0.05); center = madd(world, toCamera, moved); k = (distance - moved) / distance; }
         const hx = scale(rx, width * k / 2), hy = scale(ry, height * k / 2);
         const corners = [add(sub(center, hx), hy), add(add(center, hx), hy), sub(sub(center, hx), hy), sub(add(center, hx), hy)];
         let uv = [[0, 0], [1, 0], [0, 1], [1, 1]], uv2 = uv, blend = 0;
@@ -496,7 +568,8 @@
         }
         const color = scale(sampleColor(colorSeq, t), light);
         quad(corners, uv, [color, color, color, color], [alpha, alpha, alpha, alpha], emission, uv2, blend);
-        points.push({p: world, size: Math.max(width, height), alpha});
+        points.push({node: node.id, p: world, size: Math.max(width, height), alpha,
+          ...(options.boundsOnly ? {corners, uv, uv2, blend, texture: sim.prop(node, 'Texture') ?? ''} : {})});
         depthSum += depth; drawn++;
       }
       if (drawn) batches.push({kind: 'particles', node: node.id, texture: sim.prop(node, 'Texture') ?? '', first, count: count - first, depth: depthSum / drawn - zOffset});
@@ -622,6 +695,15 @@
   // L’étendue couvre ce qui est visible sur toute la durée : particules assez opaques, beams, trails et Parts.
   function effectBounds(input, options = {}) {
     const sim = createSimulation(input, {seed: options.seed});
+    const selected = options.ids == null ? null : new Set(typeof options.ids === 'string' ? [options.ids] : options.ids);
+    if (selected) {
+      let changed = true;
+      while (changed) {
+        changed = false;
+        for (const node of sim.nodes) if (selected.has(node.parent) && !selected.has(node.id)) { selected.add(node.id); changed = true; }
+      }
+    }
+    const includes = id => !selected || selected.has(id);
     const samples = Math.max(2, options.samples || 24);
     const min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity];
     const grow = (p, r = 0) => { for (let i = 0; i < 3; i++) { min[i] = Math.min(min[i], p[i] - r); max[i] = Math.max(max[i], p[i] + r); } };
@@ -629,19 +711,147 @@
       sim.seek(sim.duration * i / samples);
       const frame = buildFrame(sim, input?.camera);
       // Particules : le contenu d’une texture est surtout près du centre ; les particules presque transparentes sont ignorées.
-      for (const point of frame.points) if (point.alpha >= 0.2) grow(point.p, point.size * 0.3);
+      for (const point of frame.points) if (includes(point.node) && point.alpha >= 0.2) grow(point.p, point.size * 0.3);
       for (const batch of frame.batches) {
-        if (batch.kind === 'particles') continue;
+        if (batch.kind === 'particles' || !includes(batch.node)) continue;
         for (let v = batch.first; v < batch.first + batch.count; v++) grow([frame.data[v * STRIDE], frame.data[v * STRIDE + 1], frame.data[v * STRIDE + 2]]);
       }
-      for (const part of frame.parts) grow(part.p, length(part.size) / 2);
-      for (const box of frame.placeholders) grow(box.frame.p, length(box.size) / 2);
+      for (const part of frame.parts) if (includes(part.node)) grow(part.p, length(part.size) / 2);
+      for (const box of frame.placeholders) if (includes(box.node)) grow(box.frame.p, length(box.size) / 2);
+    }
+    if (!Number.isFinite(min[0]) && selected) for (const id of selected) {
+      const node = sim.byId.get(id);
+      if (node) { const frame = sim.frameOf(node); grow(frame.p, Math.max(0.5, length(frame.size) / 2)); }
     }
     if (!Number.isFinite(min[0])) return null;
     return boundsOf(min, max);
   }
   const boundsOf = (min, max) => ({min, max, center: scale(add(min, max), 0.5), radius: Math.max(0.5, length(sub(max, min)) / 2)});
   const unionBounds = (a, b) => !a ? b : !b ? a : boundsOf(a.min.map((v, i) => Math.min(v, b.min[i])), a.max.map((v, i) => Math.max(v, b.max[i])));
+
+  // Rendu ciblé : union des particules encore vivantes aux seuls instants demandés.
+  // Le centile porte sur leurs centres, puis leur demi-taille (Squash compris) est ajoutée.
+  // Les particules derrière la caméra initiale restent prises en compte ;
+  // l'emprise des billboards suit la caméra candidate, sans rejet au plan proche.
+  function sampledParticleBounds(input, options = {}) {
+    const sim = createSimulation(input, {seed: options.seed});
+    const selected = new Set(typeof options.ids === 'string' ? [options.ids] : options.ids || sim.nodes.map(node => node.id));
+    for (let changed = true; changed;) {
+      changed = false;
+      for (const node of sim.nodes) if (selected.has(node.parent) && !selected.has(node.id)) { selected.add(node.id); changed = true; }
+    }
+    const times = [...new Set((options.times || [0]).map(t => Math.max(0, Math.round(t / STEP)) * STEP))].sort((a, b) => a - b);
+    const particles = [];
+    for (const time of times) {
+      sim.seek(time);
+      if (options.textureBounds) {
+        const scene = buildFrame(sim, options.camera || input?.camera, {boundsOnly: true});
+        for (const point of scene.points) {
+          if (!selected.has(point.node)) continue;
+          const rect = options.textureBounds(point.texture, point.uv, point.uv2, point.blend);
+          if (!rect) continue;
+          // The half-size is encoded in the actual rotated/squashed quad. Map
+          // only the nontransparent portion of its current flipbook cell.
+          const horizontal = sub(point.corners[1], point.corners[0]);
+          const vertical = sub(point.corners[2], point.corners[0]);
+          const coordinates = options.textureBounds.points?.(point.texture, point.uv, point.uv2, point.blend)
+            || [[rect.min[0], rect.min[1]], [rect.min[0], rect.max[1]], [rect.max[0], rect.min[1]], [rect.max[0], rect.max[1]]];
+          const corners = coordinates.map(([u, v]) => add(point.corners[0], add(scale(horizontal, u), scale(vertical, v))));
+          particles.push({p: point.p, corners});
+        }
+        continue;
+      }
+      for (const emitter of sim.emitters) {
+        const node = emitter.node;
+        if (!selected.has(node.id)) continue;
+        const frame = sim.frameOf(node);
+        const sizeSeq = numberSequence(sim.prop(node, 'Size'), NATIVE.ParticleEmitter.Size);
+        const squashSeq = numberSequence(sim.prop(node, 'Squash'), NATIVE.ParticleEmitter.Squash);
+        for (const particle of emitter.particles) {
+          const age = clamp(particle.age / particle.life, 0, 1);
+          const size = Math.max(0, sampleNumber(sizeSeq, age, particle.size));
+          const squash = clamp(sampleNumber(squashSeq, age, particle.squash), -3, 3);
+          particles.push({p: particle.locked ? add(frame.p, apply(frame.m, particle.p)) : particle.p.slice(), halfSize: size * (1 + Math.abs(squash)) / 2});
+        }
+      }
+    }
+    const min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity];
+    const grow = (p, r = 0) => { for (let i = 0; i < 3; i++) { min[i] = Math.min(min[i], p[i] - r); max[i] = Math.max(max[i], p[i] + r); } };
+    const percentile = clamp(num(options.percentile, 90), Number.EPSILON, 100);
+    const fitPoints = [];
+    let retained = 0;
+    if (particles.length) {
+      const centroid = scale(particles.reduce((sum, particle) => add(sum, particle.p), [0, 0, 0]), 1 / particles.length);
+      const distances = particles.map(particle => length(sub(particle.p, centroid)));
+      const sorted = distances.slice().sort((a, b) => a - b);
+      // Rang supérieur : les très petits ensembles ne perdent pas arbitrairement un objet.
+      const cutoff = sorted[Math.max(0, Math.ceil(sorted.length * percentile / 100) - 1)];
+      particles.forEach((particle, index) => { if (distances[index] <= cutoff + 1e-9) {
+        if (particle.corners) for (const corner of particle.corners) { grow(corner); fitPoints.push(corner); }
+        else grow(particle.p, particle.halfSize);
+        retained++;
+      } });
+    } else {
+      // Une sélection d'émetteur sans particules reprend sa Part porteuse et ses Attachments.
+      const anchors = new Set([...selected].filter(id => ['Part', 'MeshPart', 'Attachment'].includes(sim.byId.get(id)?.class)));
+      if (![...anchors].some(id => ['Part', 'MeshPart'].includes(sim.byId.get(id)?.class))) {
+        for (const id of selected) {
+          let node = sim.byId.get(id);
+          for (let depth = 0; node && depth <= sim.nodes.length; depth++, node = sim.byId.get(node.parent)) {
+            if (['Part', 'MeshPart'].includes(node.class)) { anchors.add(node.id); break; }
+          }
+        }
+      }
+      for (const node of sim.nodes) if (node.class === 'Attachment') {
+        let parent = sim.byId.get(node.parent);
+        for (let depth = 0; parent && depth <= sim.nodes.length; depth++, parent = sim.byId.get(parent.parent)) {
+          if (anchors.has(parent.id)) { anchors.add(node.id); break; }
+        }
+      }
+      for (const time of times) {
+        sim.seek(time);
+        for (const id of anchors) {
+          const node = sim.byId.get(id), frame = sim.frameOf(node);
+          if (node.class === 'Attachment') grow(frame.p);
+          else for (let k = 0; k < 8; k++) grow(add(frame.p, apply(frame.m, frame.size.map((v, i) => ((k >> i) & 1 ? 1 : -1) * v / 2))));
+        }
+      }
+    }
+    if (!Number.isFinite(min[0])) return null;
+    return {...boundsOf(min, max), particles: particles.length, retained, percentile, fallback: particles.length === 0,
+      ...(fitPoints.length ? {fitPoints} : {})};
+  }
+
+  // Fit the sampled quad corners in camera coordinates. An axis-aligned cube
+  // invents depth around a billboard and makes its visible footprint too small.
+  function particleCamera(input, options = {}) {
+    const points = options.points || [];
+    if (!points.length) return autoCamera(input, options);
+    const basis = cameraBasis(options.camera || input?.camera);
+    const coordinates = points.map(p => [dot(p, basis.right), dot(p, basis.up), dot(p, basis.forward)]);
+    const min = [Infinity, Infinity, Infinity], max = [-Infinity, -Infinity, -Infinity];
+    for (const p of coordinates) for (let i = 0; i < 3; i++) { min[i] = Math.min(min[i], p[i]); max[i] = Math.max(max[i], p[i]); }
+    const midpoint = scale(add(min, max), .5);
+    const center = add(add(scale(basis.right, midpoint[0]), scale(basis.up, midpoint[1])), scale(basis.forward, midpoint[2]));
+    const tanV = Math.tan(basis.fov * Math.PI / 360), tanH = tanV * (options.aspect || 16 / 9);
+    const fill = .875;
+    let distance = .2;
+    for (const p of coordinates) {
+      const rel = sub(p, midpoint);
+      distance = Math.max(distance, Math.abs(rel[0]) / (tanH * fill) - rel[2], Math.abs(rel[1]) / (tanV * fill) - rel[2], .1 - rel[2]);
+    }
+    return {position: add(center, scale(basis.forward, -distance)), target: center, fov: basis.fov};
+  }
+
+  // Une sphère remplit 87,5 % du plus petit champ : tan(alpha) = 0,875 * tan(demi-champ).
+  // sin(alpha) = rayon / distance évite de cadrer les huit coins d'un cube englobant.
+  function sphereCamera(input, options = {}) {
+    const basis = cameraBasis(options.camera || input?.camera);
+    const center = vec(options.center), radius = Math.max(1e-6, num(options.radius, 1));
+    const tangent = Math.tan(basis.fov * Math.PI / 360) * Math.min(1, options.aspect || 16 / 9) * 0.875;
+    const distance = Math.max(radius + 0.051, radius * Math.sqrt(1 + tangent * tangent) / tangent);
+    return {position: add(center, scale(basis.forward, -distance)), target: center.slice(), fov: basis.fov};
+  }
 
   // Mannequin R15 simplifié (≈ 5,2 studs, pieds au sol), à gauche de l’effet vu depuis la caméra, tourné vers elle.
   const DUMMY = [[[0, 4.6, 0], [1.2, 1.2, 1.2]], [[0, 3, 0], [2, 2, 1]], [[-1.5, 3, 0], [1, 2, 1]], [[1.5, 3, 0], [1, 2, 1]], [[-0.5, 1, 0], [1, 2, 1]], [[0.5, 1, 0], [1, 2, 1]]];
@@ -700,7 +910,15 @@ void main(){vec3 n=normalize(vNormal);
 if(uMode==1){outColor=vec4(uColor*uAlpha,uAlpha);return;}
 if(uMode==2){vec2 g=abs(fract(vWorld.xz-0.5)-0.5)/fwidth(vWorld.xz);float line=1.0-min(min(g.x,g.y),1.0);vec2 m=abs(fract(vWorld.xz/10.0-0.5)-0.5)/fwidth(vWorld.xz/10.0);float major=1.0-min(min(m.x,m.y),1.0);float fade=clamp(1.0-length(vWorld.xz)/90.0,0.0,1.0);vec3 base=uGround+uGround*lightAt(vWorld,vec3(0.0,1.0,0.0))*3.0+lightAt(vWorld,vec3(0.0,1.0,0.0))*0.25;outColor=vec4(base+vec3(0.09,0.08,0.11)*(line*0.35+major*0.5)*fade,1.0);return;}
 vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=uColor*(0.42+0.58*diffuse)+uColor*lightAt(vWorld,n);outColor=vec4(c*uAlpha,uAlpha);}`;
-  const SKIES = {sombre: [0.098, 0.082, 0.133], gris: [0.42, 0.42, 0.45], ciel: [0.53, 0.71, 0.92], noir: [0, 0, 0]};
+  const SKIES = {sombre: [0.098, 0.082, 0.133], gris: [0.42, 0.42, 0.45], ciel: [0.53, 0.71, 0.92], noir: [0, 0, 0], roblox: [0.64, 0.81, 0.94], dark: [0.035, 0.045, 0.08]};
+  // An explicit preview preset wins; otherwise use each recipe's own background.
+  function environmentColors(project, background) {
+    const value = background || project?.environment?.background;
+    const sky = typeof value === 'string' && /^#[\da-f]{6}$/i.test(value)
+      ? [1, 3, 5].map(i => parseInt(value.slice(i, i + 2), 16) / 255)
+      : (SKIES[value] || SKIES.sombre).slice();
+    return {sky, ground: value === 'roblox' ? [0.64, 0.64, 0.64] : value === 'dark' ? [0.16, 0.16, 0.17] : sky.map(v => v * 0.82 + 0.012)};
+  }
 
   function perspective(fovY, aspect, near, far) {
     const f = 1 / Math.tan(fovY / 2), nf = 1 / (near - far);
@@ -864,7 +1082,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     function render(sim, cameraInput, view = {}) {
       const width = canvas.width, height = canvas.height;
       gl.viewport(0, 0, width, height);
-      const sky = SKIES[view.background] || SKIES.sombre;
+      const {sky, ground} = environmentColors(sim.project, view.background);
       gl.clearColor(sky[0], sky[1], sky[2], 1);
       gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
       const scene = buildFrame(sim, cameraInput);
@@ -888,7 +1106,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       };
       gl.enable(gl.DEPTH_TEST); gl.depthMask(true); gl.disable(gl.BLEND); gl.disable(gl.CULL_FACE);
       if (view.ground !== false) {
-        gl.uniform3fv(solid.uniforms.uGround, sky.map(v => v * 0.82 + 0.012));
+        gl.uniform3fv(solid.uniforms.uGround, ground);
         drawSolid('ground', IDENTITY, [0, 0, 0], [1, 1, 1], [0, 0, 0], 1, 2);
       }
       // Part Ball : sphère du plus petit côté ; Part Cylinder : axe X ; SpecialMesh Sphere/Cylinder : ellipsoïde, axe Y.
@@ -922,8 +1140,9 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
   function createView(canvas, options = {}) {
     const renderer = createRenderer(canvas, {assetBase: options.assetBase, resolveTexture: options.resolveTexture, preserveDrawingBuffer: true, onTexture: () => draw()});
     let sim = null, signature = '', playing = false, frameRequest = 0, last = 0;
+    let mode = options.mode === 'free' ? 'free' : 'timeline';
     let camera = {position: [10, 6, 12], target: [0, 1, 0], fov: 50};
-    const view = {background: options.background || 'sombre', ground: options.ground !== false, dummy: !!options.dummy, extraParts: null};
+    const view = {background: options.background, ground: options.ground !== false, dummy: !!options.dummy, extraParts: null};
     let bounds;
     const currentBounds = () => bounds !== undefined ? bounds : (bounds = sim ? effectBounds(sim.project, {seed: options.seed}) : null);
     const placeDummy = () => { view.extraParts = view.dummy && sim ? dummyParts(currentBounds(), camera) : null; };
@@ -935,7 +1154,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       if (canvas.width !== w || canvas.height !== h) { canvas.width = w; canvas.height = h; }
     }
     // fromPlayback : l’image vient de la lecture (la timeline doit suivre), pas d’un seek ou d’un redimensionnement.
-    const notify = fromPlayback => options.onFrame?.({time: sim.time, playing, ended: sim.ended, fromPlayback, ...sim.stats(), warnings: [...renderer.warnings]});
+    const notify = fromPlayback => options.onFrame?.({time: sim.time, playing, mode, ended: sim.ended, fromPlayback, ...sim.stats(), warnings: [...renderer.warnings]});
     function draw(fromPlayback = false) {
       if (!sim || !canvas.isConnected) return null;
       resize();
@@ -960,29 +1179,40 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         if (next === signature) return false;
         const first = !sim;
         const time = sim ? sim.time : 0;
-        signature = next; sim = createSimulation(project, {seed: options.seed}); bounds = undefined;
+        signature = next;
+        if (sim && mode === 'free') sim.updateProject(project);
+        else sim = createSimulation(project, {seed: options.seed, mode});
+        bounds = undefined;
         if (first || !keepCamera) camera = projectCamera(project);
         placeDummy();
         renderer.preload(project).then(() => draw());
-        if (!playing) sim.seek(time);
+        if (!playing && mode !== 'free') sim.seek(time);
         draw();
         return true;
       },
-      play() { if (!sim) return; sim.reset(); playing = true; last = 0; if (!frameRequest) frameRequest = requestAnimationFrame(tick); draw(); },
+      updateProject(project, options) { return api.setProject(project, options); },
+      resetPreviewState() { signature = ''; bounds = undefined; last = 0; sim?.resetPreviewState(); },
+      play() { if (!sim) return; if (mode !== 'free') sim.reset(); playing = true; last = 0; if (!frameRequest) frameRequest = requestAnimationFrame(tick); draw(); },
       pause() { halt(); draw(); },
       resume() { if (!sim || playing) return; playing = true; last = 0; if (!frameRequest) frameRequest = requestAnimationFrame(tick); },
-      stop() { halt(); if (sim) sim.seek(0); draw(); },
+      stop() { halt(); if (sim) sim.stop(); draw(); },
       seek(time) { halt(); if (sim) sim.seek(time); draw(); },
+      setMode(next) { mode = next === 'free' ? 'free' : 'timeline'; if (sim) sim.setMode(mode); last = 0; draw(); return mode; },
+      emit(ids, count) { const emitted = sim ? sim.emit(ids, count) : 0; draw(); return emitted; },
+      setEnabled(id, value) { const changed = sim ? sim.setEnabled(id, value) : false; draw(); return changed; },
+      isEnabled(id) { return sim ? sim.isEnabled(id) : false; },
+      clearParticles() { if (sim) sim.clearParticles(); draw(); },
       draw, resize,
-      get playing() { return playing; }, get time() { return sim ? sim.time : 0; },
+      get playing() { return playing; }, get time() { return sim ? sim.time : 0; }, get mode() { return mode; },
       get camera() { return JSON.parse(JSON.stringify(camera)); },
       setCamera(next) { camera = {...camera, ...next}; draw(); },
       resetCamera(project) { camera = projectCamera(project || sim?.project); placeDummy(); draw(); },
       setView(next) { Object.assign(view, next); if ('dummy' in next) placeDummy(); draw(); },
       // Cadre toute l’étendue de l’effet depuis l’angle de vue actuel.
-      frameEffect() {
+      frameEffect(ids) {
         if (!sim) return null;
-        camera = autoCamera(sim.project, {bounds: currentBounds(), camera, dummy: view.dummy, aspect: canvas.width / Math.max(1, canvas.height)});
+        const selectedBounds = ids == null ? currentBounds() : effectBounds(sim.project, {seed: options.seed, ids});
+        camera = autoCamera(sim.project, {bounds: selectedBounds, camera, dummy: ids == null && view.dummy, aspect: canvas.width / Math.max(1, canvas.height)});
         placeDummy(); draw(); options.onCamera?.(api.camera);
         return api.camera;
       },
@@ -1025,13 +1255,13 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
   // Planche d’images à des instants précis : la même recette donne toujours la même planche.
   // Une ligne par projet pour comparer des variantes avec la même caméra et les mêmes instants.
   async function renderRows(projects, options = {}) {
-    const longest = Math.max(...projects.map(p => num(p?.duration, 3)));
-    const count = options.frames || 8;
-    const times = Array.isArray(options.times) && options.times.length ? options.times : Array.from({length: count}, (_, i) => longest * (i + 0.5) / count);
+    const times = renderTimes(projects, options);
     const width = options.width || 480, height = options.height || 270, label = 22;
-    const compare = projects.length > 1;
+    const backgrounds = options.backgrounds || [options.background];
+    const comparisons = projects.flatMap((project, projectIndex) => backgrounds.map(background => ({project, projectIndex, background})));
+    const compare = comparisons.length > 1;
     const columns = compare ? times.length : Math.max(1, Math.min(options.columns || 4, times.length));
-    const cells = projects.flatMap((project, row) => times.map(time => ({project, row, time})));
+    const cells = comparisons.flatMap((entry, row) => times.map(time => ({...entry, row, time})));
     const rows = Math.ceil(cells.length / columns);
     const canvas = document.createElement('canvas');
     canvas.width = width; canvas.height = height;
@@ -1048,21 +1278,154 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     ctx.fillStyle = '#0d0b12'; ctx.fillRect(0, 0, sheet.width, sheet.height);
     const frames = [], sims = projects.map(p => createSimulation(p, {seed: options.seed}));
     for (const [i, cell] of cells.entries()) {
-      const sim = sims[cell.row];
+      const sim = sims[cell.projectIndex];
       sim.seek(cell.time);
-      renderer.render(sim, camera, {background: options.background, ground: options.ground, extraParts});
+      renderer.render(sim, camera, {background: cell.background, ground: options.ground, extraParts});
       const x = (i % columns) * width, y = Math.floor(i / columns) * (height + label);
       ctx.drawImage(canvas, x, y + label);
       ctx.fillStyle = '#e8e0f0'; ctx.font = '13px monospace';
       const particles = sim.stats().particles;
-      const name = compare ? `${String.fromCharCode(65 + cell.row % 26)} ${cell.project?.name || ''}`.slice(0, 28) + ' · ' : '';
-      ctx.fillText(`${name}t = ${sim.time.toFixed(2)} s · ${particles} particule${particles > 1 ? 's' : ''}`, x + 8, y + 15);
-      if (options.individual) frames.push({row: cell.row, time: sim.time, image: canvas.toDataURL('image/png')});
+      const timing = `t = ${sim.time.toFixed(2)} s · ${particles} particule${particles > 1 ? 's' : ''}`;
+      const prefix = compare ? `${String.fromCharCode(65 + cell.row % 26)}${options.backgrounds ? ' [' + cell.background + ']' : ''} ` : '';
+      let name = compare ? cell.project?.name || '' : '';
+      const fullName = name;
+      while (name && ctx.measureText(prefix + name + (name === fullName ? '' : '…') + ' · ' + timing).width > width - 16) name = name.slice(0, -1);
+      const caption = prefix + (name ? name + (name === fullName ? '' : '…') + ' · ' : '') + timing;
+      ctx.save(); ctx.beginPath(); ctx.rect(x, y, width, label); ctx.clip();
+      ctx.fillText(caption, x + 8, y + 15); ctx.restore();
+      if (options.individual) frames.push({row: cell.row, project: cell.projectIndex, background: cell.background, time: sim.time, image: canvas.toDataURL('image/png')});
     }
-    return {image: sheet.toDataURL('image/png'), frames, times: times.map(t => Math.round(t / STEP) * STEP), camera, bounds, warnings: [...renderer.warnings]};
+    return {image: sheet.toDataURL('image/png'), frames, times: times.map(t => Math.round(t / STEP) * STEP), camera, bounds,
+      rows: comparisons.map((entry, row) => ({row, project: entry.projectIndex, name: entry.project?.name, background: entry.background || entry.project?.environment?.background || 'sombre'})),
+      sheet: {width: sheet.width, height: sheet.height, rows, columns}, warnings: [...renderer.warnings]};
   }
   const renderSheet = (project, options = {}) => renderRows([project], options);
   const renderComparison = (projects, options = {}) => renderRows(projects, options);
+
+  function renderTimes(projects, options = {}) {
+    const longest = Math.max(...projects.map(p => num(p?.duration, 3)));
+    const count = options.frames || 8;
+    return Array.isArray(options.times) && options.times.length ? options.times : Array.from({length: count}, (_, i) => longest * (i + 0.5) / count);
+  }
+
+  // Emprise alpha des miniatures réellement chargées par le rendu. Les coordonnées renvoyées
+  // sont locales au quad (0..1), y compris quand ses UV désignent une case de flipbook.
+  // Une image inaccessible garde le quad entier ; une case vide ne contribue pas au cadrage.
+  async function textureAlphaBounds(projects, options = {}) {
+    const full = () => ({min: [0, 0], max: [1, 1]});
+    const fullPoints = () => [[0,0],[1,0],[1,1],[0,1]];
+    const alphaPercentile = clamp(num(options.alphaPercentile, 100), Number.EPSILON, 100);
+    const alphaPower = Math.max(Number.EPSILON, num(options.alphaPower, 1));
+    const textures = new Map(), cache = new Map(), pointCache = new Map(), base = options.assetBase ?? '';
+    const hull = points => {
+      if (!points?.length) return null;
+      const sorted = points.slice().sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+      const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+      const lower = [], upper = [];
+      for (const p of sorted) { while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], p) <= 0) lower.pop(); lower.push(p); }
+      for (let i = sorted.length - 1; i >= 0; i--) { const p = sorted[i]; while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], p) <= 0) upper.pop(); upper.push(p); }
+      lower.pop(); upper.pop(); return lower.concat(upper);
+    };
+    const uris = new Set(projects.flatMap(project => (project.nodes || [])
+      .filter(node => node.class === 'ParticleEmitter').map(node => node.properties?.Texture ?? NATIVE.ParticleEmitter.Texture)));
+    if (typeof Image !== 'undefined') await Promise.all([...uris].map(async uri => {
+      try {
+        const kind = builtinKind(uri);
+        let source;
+        if (kind) source = proceduralTexture(kind);
+        else {
+          const id = assetId(uri), resolved = id && options.resolveTexture?.(id);
+          const candidates = resolved == null
+            ? (id ? ['images', 'beams/images', 'meshes/images'].map(folder => `${base}/library/${folder}/${id}.png`) : [])
+            : (Array.isArray(resolved) ? resolved : [resolved]);
+          for (const url of candidates) {
+            try {
+              const image = new Image(); image.decoding = 'async';
+              await new Promise((resolve, reject) => { image.onload = resolve; image.onerror = reject; image.src = url; });
+              source = image; break;
+            } catch (_) {}
+          }
+        }
+        if (!source) return;
+        const width = source.naturalWidth || source.width, height = source.naturalHeight || source.height;
+        const canvas = typeof OffscreenCanvas !== 'undefined' ? new OffscreenCanvas(width, height) : document.createElement('canvas');
+        canvas.width = width; canvas.height = height;
+        const context = canvas.getContext('2d'); context.drawImage(source, 0, 0);
+        const pixels = context.getImageData(0, 0, width, height).data, alpha = new Uint8Array(width * height);
+        for (let i = 0; i < alpha.length; i++) alpha[i] = pixels[i * 4 + 3];
+        textures.set(String(uri), {width, height, alpha});
+      } catch (_) { /* Sans accès aux pixels, conserver prudemment la demi-taille complète. */ }
+    }));
+    const rect = (uri, uv) => {
+      const texture = textures.get(String(uri));
+      if (!texture) return full();
+      const key = JSON.stringify([uri, uv]);
+      if (cache.has(key)) return cache.get(key);
+      const {width, height, alpha} = texture;
+      const u0 = Math.min(...uv.map(p => p[0])), u1 = Math.max(...uv.map(p => p[0]));
+      const v0 = Math.min(...uv.map(p => p[1])), v1 = Math.max(...uv.map(p => p[1]));
+      if (!(u1 > u0 && v1 > v0)) return full();
+      const left = clamp(Math.floor(u0 * width), 0, width), right = clamp(Math.ceil(u1 * width), 0, width);
+      const top = clamp(Math.floor(v0 * height), 0, height), bottom = clamp(Math.ceil(v1 * height), 0, height);
+      let minX = right, minY = bottom, maxX = left - 1, maxY = top - 1;
+      // Le centile est normalisé par la masse de la case : une texture entièrement
+      // pâle garde la même emprise. La puissance 2 mesure l'énergie du contraste.
+      let alphaCenter = [0,0], distanceCutoff = Infinity;
+      if (alphaPercentile < 100) {
+        const occupied = []; let mass = 0;
+        for (let y = top; y < bottom; y++) for (let x = left; x < right; x++) {
+          const a = alpha[y * width + x];
+          if (a > 0) {
+            const weight = Math.pow(a / 255, alphaPower);
+            occupied.push({x, y, weight}); mass += weight; alphaCenter[0] += (x + .5) * weight; alphaCenter[1] += (y + .5) * weight;
+          }
+        }
+        if (mass) {
+          alphaCenter = alphaCenter.map(v => v / mass);
+          for (const pixel of occupied) pixel.distance = Math.hypot(pixel.x + .5 - alphaCenter[0], pixel.y + .5 - alphaCenter[1]);
+          occupied.sort((a, b) => a.distance - b.distance);
+          let retainedMass = 0;
+          for (const pixel of occupied) { retainedMass += pixel.weight; if (retainedMass >= mass * alphaPercentile / 100) { distanceCutoff = pixel.distance; break; } }
+        }
+      }
+      const support = [], local = (x, y) => [clamp((x / width - u0) / (u1 - u0), 0, 1), clamp((y / height - v0) / (v1 - v0), 0, 1)];
+      for (let y = top; y < bottom; y++) {
+        let rowMin = right, rowMax = left - 1;
+        for (let x = left; x < right; x++) if (alpha[y * width + x] > 0
+          && Math.hypot(x + .5 - alphaCenter[0], y + .5 - alphaCenter[1]) <= distanceCutoff + 1e-9) {
+          rowMin = Math.min(rowMin, x); rowMax = Math.max(rowMax, x);
+          minX = Math.min(minX, x); maxX = Math.max(maxX, x);
+          minY = Math.min(minY, y); maxY = Math.max(maxY, y);
+        }
+        if (rowMax >= rowMin) for (const x of [rowMin - 1, rowMax + 2]) for (const v of [y - 1, y + 2]) support.push(local(x, v));
+      }
+      // Un texel de marge garde le bord filtré, sans étendre le contenu aux autres cases.
+      const bounds = maxX < minX ? null : {
+        min: [clamp(((minX - 1) / width - u0) / (u1 - u0), 0, 1), clamp(((minY - 1) / height - v0) / (v1 - v0), 0, 1)],
+        max: [clamp(((maxX + 2) / width - u0) / (u1 - u0), 0, 1), clamp(((maxY + 2) / height - v0) / (v1 - v0), 0, 1)],
+      };
+      cache.set(key, bounds); pointCache.set(key, hull(support)); return bounds;
+    };
+    const bounds = (uri, uv, uv2 = uv, blend = 0) => {
+      const first = blend < 1 ? rect(uri, uv) : null, second = blend > 0 ? rect(uri, uv2) : null;
+      if (!first) return second;
+      if (!second) return first;
+      return {min: first.min.map((v, i) => Math.min(v, second.min[i])), max: first.max.map((v, i) => Math.max(v, second.max[i]))};
+    };
+    // Le contour évite d'inventer les coins vides de la boîte d'un motif diagonal,
+    // surtout après la rotation du quad, sans seuil de luminosité absolue qui
+    // ferait disparaître les textures pâles.
+    bounds.points = (uri, uv, uv2 = uv, blend = 0) => {
+      if (!textures.has(String(uri))) return fullPoints();
+      const points = [];
+      for (const active of [blend < 1 ? uv : null, blend > 0 ? uv2 : null]) if (active) {
+        rect(uri, active); const support = pointCache.get(JSON.stringify([uri, active]));
+        if (support) points.push(...support);
+      }
+      return hull(points);
+    };
+    return bounds;
+  }
 
   // Planche de textures du catalogue : chaque case montre l’image, son ID et la grille du flipbook.
   async function renderTextureSheet(items, options = {}) {
@@ -1087,6 +1450,11 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
           ctx.beginPath(); ctx.moveTo(x + o, y + pad); ctx.lineTo(x + o, y + cell - pad); ctx.moveTo(x + pad, y + o); ctx.lineTo(x + cell - pad, y + o); ctx.stroke();
         }
       }
+      if (item.used) {
+        ctx.fillStyle = '#5c2439'; ctx.fillRect(x + cell - 55, y + 7, 48, 20);
+        ctx.fillStyle = '#ffd6de'; ctx.font = 'bold 12px monospace';
+        ctx.fillText('USED', x + cell - 49, y + 21);
+      }
       ctx.fillStyle = '#e8e0f0'; ctx.font = 'bold 12px monospace';
       ctx.fillText(String(item.id), x + 6, y + cell + 13);
       ctx.fillStyle = '#a99bb8'; ctx.font = '11px sans-serif';
@@ -1095,8 +1463,8 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     return {image: sheet.toDataURL('image/png'), count: items.length};
   }
 
-  const api = Object.freeze({STEP, createSimulation, buildFrame, effectBounds, autoCamera, dummyParts, createRenderer, createView,
-    renderSheet, renderComparison, renderTextureSheet, fromOrientation, sampleNumber, sampleColor});
+  const api = Object.freeze({STEP, createSimulation, buildFrame, effectBounds, sampledParticleBounds, autoCamera, particleCamera, sphereCamera, dummyParts, createRenderer, createView,
+    renderSheet, renderComparison, renderTimes, renderTextureSheet, textureAlphaBounds, environmentColors, fromOrientation, sampleNumber, sampleColor});
   if (typeof module === 'object' && module.exports) module.exports = api;
   global.DatakyEmulator = api;
 })(typeof window !== 'undefined' ? window : globalThis);

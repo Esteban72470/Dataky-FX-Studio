@@ -1,0 +1,430 @@
+{
+ "version": 1,
+ "name": "Bulbito · A1_Hit",
+ "id": "bulbito-a1-hit",
+ "duration": 0.9,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "Hit",
+   "class": "Part",
+   "name": "Hit",
+   "parent": null,
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ],
+    "Size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "Point",
+   "class": "Attachment",
+   "name": "Point",
+   "parent": "Hit",
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "Flash",
+   "class": "ParticleEmitter",
+   "name": "Flash",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://95205105629251",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.4,
+    "Brightness": 1.4,
+    "Speed": [
+     0,
+     0
+    ],
+    "SpreadAngle": [
+     0,
+     0
+    ],
+    "Lifetime": [
+     0.12,
+     0.12
+    ],
+    "Rotation": [
+     0,
+     360
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 2.0,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 2.9,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.84,
+       0.32
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.62,
+       0.14
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.55,
+      "value": 0.15,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 1,
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 1
+   }
+  },
+  {
+   "id": "Ring",
+   "class": "ParticleEmitter",
+   "name": "Ring",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://13811816636",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.3,
+    "Brightness": 1.2,
+    "Speed": [
+     0,
+     0
+    ],
+    "SpreadAngle": [
+     0,
+     0
+    ],
+    "Lifetime": [
+     0.2,
+     0.2
+    ],
+    "Rotation": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 1.2,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 3.0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.84,
+       0.32
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.5,
+       0.12
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.25,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 0.9,
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 1
+   }
+  },
+  {
+   "id": "Sparks",
+   "class": "ParticleEmitter",
+   "name": "Sparks",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://126956608507146",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0.5,
+    "Brightness": 1.4,
+    "Speed": [
+     14,
+     26
+    ],
+    "SpreadAngle": [
+     55,
+     55
+    ],
+    "Lifetime": [
+     0.18,
+     0.34
+    ],
+    "EmissionDirection": "Back",
+    "Drag": 2,
+    "Acceleration": [
+     0,
+     -30,
+     0
+    ],
+    "Orientation": "VelocityParallel",
+    "Squash": [
+     {
+      "time": 0,
+      "value": -2.2,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": -1.1,
+      "envelope": 0
+     }
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0.17,
+      "envelope": 0
+     },
+     {
+      "time": 0.7,
+      "value": 0.136,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.95,
+       0.72
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.5,
+       0.12
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.8,
+      "value": 0.1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ]
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 10
+   }
+  },
+  {
+   "id": "Dust",
+   "class": "ParticleEmitter",
+   "name": "Dust",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://11844402871",
+    "Rate": 0,
+    "LightInfluence": 0,
+    "LightEmission": 0,
+    "Brightness": 1,
+    "Speed": [
+     2,
+     4
+    ],
+    "SpreadAngle": [
+     60,
+     60
+    ],
+    "Lifetime": [
+     0.4,
+     0.6
+    ],
+    "EmissionDirection": "Back",
+    "Drag": 3,
+    "Acceleration": [
+     0,
+     1.5,
+     0
+    ],
+    "Rotation": [
+     0,
+     0
+    ],
+    "RotSpeed": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 1.1,
+      "envelope": 0.11000000000000001
+     },
+     {
+      "time": 0.35,
+      "value": 2.21,
+      "envelope": 0.312
+     },
+     {
+      "time": 1,
+      "value": 2.6,
+      "envelope": 0.312
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.3,
+      "envelope": 0
+     },
+     {
+      "time": 0.6,
+      "value": 0.5,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       0.86,
+       0.78,
+       0.64
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       0.66,
+       0.58,
+       0.46
+      ]
+     }
+    ],
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0.02,
+    "duration": 0.05,
+    "mode": "burst",
+    "count": 2
+   }
+  }
+ ],
+ "animations": [],
+ "camera": {
+  "position": [
+   5,
+   3,
+   5
+  ],
+  "target": [
+   0,
+   0,
+   0
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

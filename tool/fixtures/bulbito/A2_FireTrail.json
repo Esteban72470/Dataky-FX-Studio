@@ -1,0 +1,350 @@
+{
+ "version": 1,
+ "name": "Bulbito · A2_FireTrail",
+ "id": "bulbito-a2-firetrail",
+ "duration": 3.2,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "Spot",
+   "class": "Part",
+   "name": "Spot",
+   "parent": null,
+   "properties": {
+    "Position": [
+     0,
+     0.2,
+     0
+    ],
+    "Size": [
+     1.2,
+     0.3,
+     1.2
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "Fire",
+   "class": "ParticleEmitter",
+   "name": "Fire",
+   "parent": "Spot",
+   "properties": {
+    "Texture": "rbxassetid://112348020526756",
+    "Rate": 38,
+    "LightInfluence": 0,
+    "LightEmission": 0.3,
+    "Brightness": 1.2,
+    "Speed": [
+     0.4,
+     1.2
+    ],
+    "SpreadAngle": [
+     6,
+     6
+    ],
+    "Lifetime": [
+     1.0,
+     1.35
+    ],
+    "Shape": "Box",
+    "EmissionDirection": "Top",
+    "Rotation": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 2.2,
+      "envelope": 0
+     },
+     {
+      "time": 0.2,
+      "value": 4.6,
+      "envelope": 0
+     },
+     {
+      "time": 0.8,
+      "value": 4.0,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1.0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       1,
+       1
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       1,
+       1
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.75,
+      "value": 0.1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "FlipbookLayout": "Grid8x8",
+    "FlipbookMode": "Loop"
+   },
+   "timing": {
+    "start": 0.42,
+    "duration": 1.33,
+    "mode": "continuous",
+    "count": 1
+   }
+  },
+  {
+   "id": "Soot",
+   "class": "ParticleEmitter",
+   "name": "Soot",
+   "parent": "Spot",
+   "properties": {
+    "Texture": "rbxassetid://13468353904",
+    "Rate": 6,
+    "LightInfluence": 0,
+    "LightEmission": 0,
+    "Brightness": 1,
+    "Speed": [
+     3,
+     5
+    ],
+    "SpreadAngle": [
+     10,
+     10
+    ],
+    "Lifetime": [
+     0.8,
+     1.1
+    ],
+    "Shape": "Box",
+    "EmissionDirection": "Top",
+    "Drag": 1,
+    "Acceleration": [
+     0,
+     2,
+     0
+    ],
+    "Rotation": [
+     0,
+     0
+    ],
+    "RotSpeed": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 1.4,
+      "envelope": 0.13999999999999999
+     },
+     {
+      "time": 0.35,
+      "value": 2.72,
+      "envelope": 0.384
+     },
+     {
+      "time": 1,
+      "value": 3.2,
+      "envelope": 0.384
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.35,
+      "envelope": 0
+     },
+     {
+      "time": 0.6,
+      "value": 0.55,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       0.22,
+       0.2,
+       0.2
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       0.42,
+       0.4,
+       0.4
+      ]
+     }
+    ],
+    "FlipbookLayout": "Grid4x4",
+    "FlipbookMode": "OneShot"
+   },
+   "timing": {
+    "start": 0.5,
+    "duration": 1.25,
+    "mode": "continuous",
+    "count": 1
+   }
+  },
+  {
+   "id": "Embers",
+   "class": "ParticleEmitter",
+   "name": "Embers",
+   "parent": "Spot",
+   "properties": {
+    "Texture": "rbxassetid://126956608507146",
+    "Rate": 12,
+    "LightInfluence": 0,
+    "LightEmission": 0.5,
+    "Brightness": 1.4,
+    "Speed": [
+     3,
+     7
+    ],
+    "SpreadAngle": [
+     30,
+     30
+    ],
+    "Lifetime": [
+     0.4,
+     0.8
+    ],
+    "Shape": "Box",
+    "EmissionDirection": "Top",
+    "Drag": 1,
+    "Acceleration": [
+     0,
+     4,
+     0
+    ],
+    "Orientation": "VelocityParallel",
+    "Squash": [
+     {
+      "time": 0,
+      "value": -2.2,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": -1.1,
+      "envelope": 0
+     }
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0.16,
+      "envelope": 0
+     },
+     {
+      "time": 0.7,
+      "value": 0.128,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.74,
+       0.28
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.5,
+       0.12
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.8,
+      "value": 0.1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ]
+   },
+   "timing": {
+    "start": 0.42,
+    "duration": 1.33,
+    "mode": "continuous",
+    "count": 1
+   }
+  }
+ ],
+ "animations": [],
+ "camera": {
+  "position": [
+   10,
+   6,
+   10
+  ],
+  "target": [
+   0,
+   1.5,
+   0
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

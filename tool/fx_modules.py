@@ -122,7 +122,7 @@ def sparks(b: Block) -> None:
     b.emitter("etincelles", "Étincelles", at, b.burst(p["at"], 28 * p["intensity"]), [0.25, 0.55], Texture=GLOW, LightEmission=1,
               Brightness=_r(3 * p["intensity"]), Color=colors([1, 1, 1], _color(p.get("color2"), color)), Orientation="VelocityParallel",
               Speed=[_r(18 * s), _r(34 * s)], SpreadAngle=[180, 180], Drag=5, Acceleration=[0, _r(-25 * s), 0],
-              Size=seq((0, 0.6 * s), (1, 0)), Squash=seq((0, 2.6), (1, 1.2)), Transparency=seq((0, 0), (0.7, 0.1), (1, 1)))
+              Size=seq((0, 0.6 * s), (1, 0)), Squash=seq((0, -2.6), (1, -1.2)), Transparency=seq((0, 0), (0.7, 0.1), (1, 1)))
 
 
 def shockwave(b: Block) -> None:
@@ -238,7 +238,7 @@ def charge(b: Block) -> None:
     b.emitter("aspiration", "Concentration", root, b.window(p["at"], duration), [0.42, 0.42], Texture=GLOW, LightEmission=1,
               Brightness=_r(2.5 * p["intensity"]), Rate=_r(70 * p["intensity"]), Shape="Sphere", ShapeStyle="Surface", ShapeInOut="Inward",
               Speed=[_r(7 * s), _r(7 * s)], Orientation="VelocityParallel", Color=colors(color, [1, 1, 1]),
-              Size=seq((0, 0.15 * s), (0.5, 0.35 * s), (1, 0.2 * s)), Squash=seq((0, 2), (1, 2)), Transparency=seq((0, 1), (0.2, 0), (1, 0.2)))
+              Size=seq((0, 0.15 * s), (0.5, 0.35 * s), (1, 0.2 * s)), Squash=seq((0, -2), (1, -2)), Transparency=seq((0, 1), (0.2, 0), (1, 0.2)))
     at = b.point(root)
     b.emitter("coeur", "Concentration · cœur", at, b.burst(p["at"], 1), [duration, duration], Texture=GLOW, LightEmission=1,
               Brightness=_r(2 * p["intensity"]), Color=colors(color, [1, 1, 1]),
@@ -300,8 +300,12 @@ def _prefix(name: str, taken: set[str]) -> str:
     return f"{name}{index}_"
 
 
-def compose(plan: dict[str, Any], base: dict[str, Any] | None = None) -> dict[str, Any]:
-    """Assemble les briques du plan (ajoutées à base si fourni) en une recette validée."""
+def compose(plan: dict[str, Any], base: dict[str, Any] | None = None, *, include_loader=None) -> dict[str, Any]:
+    """Assemble briques et inclusions en recette ; include_loader(name) est injectable.
+
+    Une inclusion accepte include, at, position, orientation (YXZ), scale,
+    prefix et positionKeys (translation animée relative, temps locaux à la pièce).
+    """
     if not isinstance(plan, dict) or not isinstance(plan.get("blocks"), list) or not plan["blocks"]:
         raise ValidationError("plan : liste blocks requise, par exemple [{\"block\": \"flash\"}]")
     if len(plan["blocks"]) > 40:
@@ -315,6 +319,24 @@ def compose(plan: dict[str, Any], base: dict[str, Any] | None = None) -> dict[st
     taken = {node["id"] for node in project["nodes"]}
     end = 0.0
     for index, item in enumerate(plan["blocks"]):
+        if isinstance(item, dict) and "include" in item:
+            if "block" in item:
+                raise ValidationError(f"blocks[{index}] : choisir block ou include")
+            if __package__:
+                from .fx_builder import load_recipe, merge_recipes
+            else:
+                from fx_builder import load_recipe, merge_recipes
+            try:
+                piece = (include_loader or load_recipe)(item["include"])
+                project = merge_recipes(project, piece, item.get("prefix", _prefix("include", taken)),
+                    at=item.get("at", 0), position=item.get("position", [0, 0, 0]),
+                    orientation=item.get("orientation", [0, 0, 0]), scale=item.get("scale", 1),
+                    position_keys=item.get("positionKeys"))
+            except (TypeError, ValueError, OSError) as exc:
+                raise ValidationError(f"blocks[{index}] (include) : {exc}") from exc
+            taken.update(node["id"] for node in project["nodes"])
+            end = max(end, project["duration"])
+            continue
         if not isinstance(item, dict) or item.get("block") not in BLOCKS:
             raise ValidationError(f"blocks[{index}] : brique inconnue ; disponibles : {', '.join(BLOCKS)}")
         spec = BLOCKS[item["block"]]

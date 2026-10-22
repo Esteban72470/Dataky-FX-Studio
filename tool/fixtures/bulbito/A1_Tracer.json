@@ -1,0 +1,227 @@
+{
+ "version": 1,
+ "name": "Bulbito · A1_Tracer",
+ "id": "bulbito-a1-tracer",
+ "duration": 0.3,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "Bullet",
+   "class": "Part",
+   "name": "Bullet",
+   "parent": null,
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ],
+    "Size": [
+     0.2,
+     0.2,
+     0.2
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "Core",
+   "class": "Attachment",
+   "name": "Core",
+   "parent": "Bullet",
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "TA",
+   "class": "Attachment",
+   "name": "TA",
+   "parent": "Bullet",
+   "properties": {
+    "Position": [
+     0,
+     0.13,
+     0
+    ]
+   }
+  },
+  {
+   "id": "TB",
+   "class": "Attachment",
+   "name": "TB",
+   "parent": "Bullet",
+   "properties": {
+    "Position": [
+     0,
+     -0.13,
+     0
+    ]
+   }
+  },
+  {
+   "id": "Streak",
+   "class": "Trail",
+   "name": "Streak",
+   "parent": "Bullet",
+   "properties": {
+    "Attachment0": "TA",
+    "Attachment1": "TB",
+    "Texture": "",
+    "LightInfluence": 0,
+    "LightEmission": 0.6,
+    "FaceCamera": true,
+    "Lifetime": 0.08,
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.95,
+       0.72
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.62,
+       0.14
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "WidthScale": [
+     {
+      "time": 0,
+      "value": 1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.2,
+      "envelope": 0
+     }
+    ],
+    "Brightness": 2
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.2,
+    "mode": "continuous",
+    "count": 1
+   }
+  },
+  {
+   "id": "Glow",
+   "class": "ParticleEmitter",
+   "name": "Glow",
+   "parent": "Core",
+   "properties": {
+    "Texture": "rbxassetid://126956608507146",
+    "Rate": 80,
+    "LightInfluence": 0,
+    "LightEmission": 0.6,
+    "Brightness": 1.6,
+    "Speed": [
+     0,
+     0
+    ],
+    "SpreadAngle": [
+     0,
+     0
+    ],
+    "Lifetime": [
+     0.04,
+     0.06
+    ],
+    "LockedToPart": true,
+    "Size": [
+     {
+      "time": 0,
+      "value": 0.42,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.2,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       1,
+       1
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.84,
+       0.32
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.6,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 0.6
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.2,
+    "mode": "continuous",
+    "count": 1
+   }
+  }
+ ],
+ "animations": [],
+ "camera": {
+  "position": [
+   4,
+   1.5,
+   3
+  ],
+  "target": [
+   0,
+   0,
+   0
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

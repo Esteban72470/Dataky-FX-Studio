@@ -1,0 +1,236 @@
+{
+ "version": 1,
+ "name": "Bulbito · A1_Twirl",
+ "id": "bulbito-a1-twirl",
+ "duration": 0.6799999999999999,
+ "loop": false,
+ "nodes": [
+  {
+   "id": "Muzzle",
+   "class": "Part",
+   "name": "Muzzle",
+   "parent": null,
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ],
+    "Size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "Transparency": 1,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanTouch": false,
+    "CanQuery": false,
+    "CastShadow": false
+   }
+  },
+  {
+   "id": "Point",
+   "class": "Attachment",
+   "name": "Point",
+   "parent": "Muzzle",
+   "properties": {
+    "Position": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "ArcA",
+   "class": "Attachment",
+   "name": "ArcA",
+   "parent": "Muzzle",
+   "properties": {
+    "Position": [
+     0.22,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "ArcB",
+   "class": "Attachment",
+   "name": "ArcB",
+   "parent": "Muzzle",
+   "properties": {
+    "Position": [
+     -0.22,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "id": "Arc",
+   "class": "Trail",
+   "name": "Arc",
+   "parent": "Muzzle",
+   "properties": {
+    "Attachment0": "ArcA",
+    "Attachment1": "ArcB",
+    "Texture": "",
+    "LightInfluence": 0,
+    "LightEmission": 0.5,
+    "FaceCamera": true,
+    "Lifetime": 0.16,
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       0.95,
+       0.72
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.62,
+       0.14
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0.1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 1,
+      "envelope": 0
+     }
+    ],
+    "WidthScale": [
+     {
+      "time": 0,
+      "value": 1,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.25,
+      "envelope": 0
+     }
+    ],
+    "Brightness": 1.6
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.27999999999999997,
+    "mode": "continuous",
+    "count": 1
+   }
+  },
+  {
+   "id": "Stars",
+   "class": "ParticleEmitter",
+   "name": "Stars",
+   "parent": "Point",
+   "properties": {
+    "Texture": "rbxassetid://80635905349701",
+    "Rate": 34,
+    "LightInfluence": 0,
+    "LightEmission": 0.45,
+    "Brightness": 1.5,
+    "Speed": [
+     0.4,
+     1.4
+    ],
+    "SpreadAngle": [
+     180,
+     180
+    ],
+    "Lifetime": [
+     0.22,
+     0.34
+    ],
+    "Drag": 3,
+    "Rotation": [
+     0,
+     0
+    ],
+    "Size": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 0.25,
+      "value": 0.85,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0,
+      "envelope": 0
+     }
+    ],
+    "Color": [
+     {
+      "time": 0,
+      "value": [
+       1,
+       1,
+       1
+      ]
+     },
+     {
+      "time": 1,
+      "value": [
+       1,
+       0.84,
+       0.32
+      ]
+     }
+    ],
+    "Transparency": [
+     {
+      "time": 0,
+      "value": 0,
+      "envelope": 0
+     },
+     {
+      "time": 1,
+      "value": 0.2,
+      "envelope": 0
+     }
+    ],
+    "ZOffset": 0.5
+   },
+   "timing": {
+    "start": 0,
+    "duration": 0.27999999999999997,
+    "mode": "continuous",
+    "count": 1
+   }
+  }
+ ],
+ "animations": [],
+ "camera": {
+  "position": [
+   6,
+   2,
+   3
+  ],
+  "target": [
+   0,
+   0,
+   0
+  ]
+ },
+ "environment": {
+  "background": "#6f9fd8"
+ }
+}

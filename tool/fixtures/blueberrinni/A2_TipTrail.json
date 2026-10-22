@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "name": "Blueberrinni · A2_TipTrail",
+  "id": "blueberrinni-a2-tiptrail",
+  "duration": 0.9,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "root",
+      "class": "Part",
+      "name": "root",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "tip",
+      "class": "Attachment",
+      "name": "tip",
+      "parent": "root",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "ink",
+      "class": "ParticleEmitter",
+      "name": "ink",
+      "parent": "tip",
+      "properties": {
+        "Texture": "rbxassetid://7096972007",
+        "Rate": 170,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.2,
+          0.24
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.48,
+            "envelope": 0
+          },
+          {
+            "time": 0.6,
+            "value": 0.32,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.2,
+              0.1,
+              0.42
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.42,
+              0.1,
+              0.58
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.05,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.9,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "sheen",
+      "class": "ParticleEmitter",
+      "name": "sheen",
+      "parent": "tip",
+      "properties": {
+        "Texture": "rbxassetid://85058904608661",
+        "Rate": 40,
+        "LightInfluence": 0,
+        "LightEmission": 0.35,
+        "Brightness": 1,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.16,
+          0.16
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.4,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.8,
+              0.66,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.62,
+              0.2,
+              0.78
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.9,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      6,
+      4,
+      7
+    ],
+    "target": [
+      0,
+      1,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#6f9fd8"
+  }
+}

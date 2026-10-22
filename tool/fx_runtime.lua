@@ -12,6 +12,7 @@ local root, project, objects, specs, tracks = nil, nil, {}, {}, {}
 local options, origin = {}, Vector3.zero
 local connection, cameraConnection, savedCamera = nil, nil, nil
 local running, paused, elapsed, generation = false, false, 0, 0
+local freeMode, previewEnabled = false, {}
 local errors, warnings, fired = {}, {}, {}
 local pausedProperties = {}
 local activeOptions = nil
@@ -418,6 +419,7 @@ end
 function Runtime.stop()
     disconnect()
     running, paused, elapsed = false, false, 0
+    freeMode, previewEnabled = false, {}
     for id, props in pairs(pausedProperties) do
         if objects[id] then
             for property, value in pairs(props) do objects[id][property] = value end
@@ -600,7 +602,10 @@ local function update(time)
         if timing then
             if timing.mode == "burst" then
                 object.Enabled = false
-                if time >= timing.start and not fired[id] then object:Emit(timing.count); fired[id] = true end
+                if time >= timing.start and not fired[id] then
+                    if spec.properties.Enabled ~= false and animatedEnabled[id] ~= false then object:Emit(timing.count) end
+                    fired[id] = true
+                end
             else
                 object.Enabled = spec.properties.Enabled ~= false and animatedEnabled[id] ~= false and time >= timing.start and time < timing.start + timing.duration
             end
@@ -646,6 +651,91 @@ function Runtime.play(data, opts)
     return Runtime.status()
 end
 
+-- Additive preview-only API. The legacy timeline methods keep their lifecycle.
+local function freeSwitches()
+    for id, spec in pairs(specs) do
+        if isSwitchClass(spec.class) then
+            local enabled = previewEnabled[id]
+            if enabled == nil then enabled = spec.properties.Enabled ~= false end
+            if spec.class == "ParticleEmitter" and spec.timing and spec.timing.mode == "burst" then enabled = false end
+            if paused and spec.class == "ParticleEmitter" then
+                pausedProperties[id] = pausedProperties[id] or {TimeScale=objects[id].TimeScale}
+                pausedProperties[id].Enabled = enabled
+                objects[id].Enabled = false
+            else objects[id].Enabled = enabled end
+        end
+    end
+end
+
+function Runtime.sandbox(data, enabled, opts)
+    if data then Runtime.apply(data, opts or activeOptions) end
+    if not root or not root.Parent then fail("aucun effet pour le mode Libre") end
+    Runtime.stop()
+    freeMode, previewEnabled, running = true, table.clone(enabled or {}), true
+    freeSwitches()
+    connection = RunService.Heartbeat:Connect(function(dt)
+        if running and not paused then elapsed += dt end
+    end)
+    return Runtime.status()
+end
+
+function Runtime.emit(counts)
+    for id, count in pairs(counts or {}) do
+        finite(count, "emit.count")
+        if count < 0 or count > 10000 or count % 1 ~= 0 then fail("Emit exige un entier entre 0 et 10000") end
+        if not specs[id] or specs[id].class ~= "ParticleEmitter" then fail("Emit : émetteur introuvable " .. tostring(id)) end
+    end
+    for id, count in pairs(counts or {}) do objects[id]:Emit(count) end
+    return Runtime.status()
+end
+
+function Runtime.enabled(values)
+    if not freeMode then fail("Enabled d'aperçu exige le mode Libre") end
+    for id, value in pairs(values or {}) do
+        if not specs[id] or not isSwitchClass(specs[id].class) or type(value) ~= "boolean" then fail("Enabled : objet ou booléen invalide") end
+    end
+    for id, value in pairs(values or {}) do previewEnabled[id] = value end
+    freeSwitches()
+    return Runtime.status()
+end
+
+function Runtime.clearParticles()
+    for id, object in pairs(objects) do
+        if specs[id].class == "ParticleEmitter" or specs[id].class == "Trail" then object:Clear() end
+    end
+    return Runtime.status()
+end
+
+function Runtime.update(data)
+    if not freeMode then fail("la mise à jour en direct exige le mode Libre") end
+    local normalized, decodedTracks, duration = validate(data)
+    local matching, byId = #normalized == #project.nodes, {}
+    for _, spec in ipairs(normalized) do
+        byId[spec.id] = spec
+        local old = specs[spec.id]
+        if not old or old.class ~= spec.class or old.parent ~= spec.parent then matching = false
+        else for prop in pairs(old.properties) do if spec.properties[prop] == nil then matching = false end end end
+    end
+    if not matching then return Runtime.sandbox(data, previewEnabled, activeOptions) end
+    for _, spec in ipairs(normalized) do
+        for _, prop in ipairs(orderedProperties(spec.properties)) do
+            local value = spec.properties[prop]
+            if (prop == "MeshId" or prop == "RenderFidelity") and spec.class == "MeshPart" then
+                if value ~= specs[spec.id].properties[prop] then return Runtime.sandbox(data, previewEnabled, activeOptions) end
+            elseif prop ~= "Enabled" then
+                if schema[spec.class][prop] == "reference" then value = objects[value] end
+                if prop == "Position" and isBaseClass(spec.class) then value += origin end
+                if pausedProperties[spec.id] and pausedProperties[spec.id][prop] ~= nil then pausedProperties[spec.id][prop] = value
+                else setProperty(objects[spec.id], prop, value, spec.id) end
+            end
+        end
+    end
+    project, specs, tracks = data, byId, decodedTracks
+    options.duration = duration
+    freeSwitches()
+    return Runtime.status()
+end
+
 -- ParticleEmitter.TimeScale can freeze native particles. Trail history has no
 -- native time scale; refuse pause when an enabled Trail has a live history.
 function Runtime.pause()
@@ -685,7 +775,7 @@ function Runtime.status()
         duration=project and (project.duration or 3) or 0, node_count=count,
         root=root and root:GetFullName() or nil, errors=table.clone(errors), warnings=table.clone(warnings),
         loading_assets=loadingAssets, asset_failures=table.clone(assetFailures),
-        native=true, camera_controlled=savedCamera ~= nil,
+        native=true, camera_controlled=savedCamera ~= nil, mode=freeMode and "free" or "timeline",
     }
 end
 

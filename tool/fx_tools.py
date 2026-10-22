@@ -9,6 +9,7 @@ from __future__ import annotations
 
 from copy import deepcopy
 import json
+import math
 import os
 from pathlib import Path
 import re
@@ -51,19 +52,79 @@ def describe_asset(item: dict[str, Any], collection: str) -> dict[str, Any]:
     prefix = COLLECTIONS[collection][1]
     image = prefix + item["image_path"] if item.get("image_path") and (ROOT / prefix / item["image_path"]).is_file() else None
     out = {"id": str(item.get("asset_id")), "uri": item.get("uri"), "name": item.get("name") or "", "tags": item.get("tags", []),
-           "collection": collection, "kind": item.get("kind"), "image": image}
+           "collection": collection, "kind": item.get("kind"), "image": image,
+           "size": [item.get("width"), item.get("height")]}
     grid = item.get("grid") or 0
     if collection == "textures" and item.get("kind") == "flipbook":
+        try:
+            confirmed = _sibling("fx_grid_overrides").read_grid_overrides().get(str(item.get("asset_id")))
+        except (OSError, ValueError):
+            # Validation reports malformed overrides as an info; asset search
+            # can still show the original catalogue grid in the meantime.
+            confirmed = None
+        if confirmed is not None:
+            grid = confirmed
         out["flipbook"] = {"grid": grid, "FlipbookLayout": LAYOUTS.get(grid, "Custom" if grid else None),
-                           "estimated": str(item.get("grid_source", "")).startswith("inferred")}
+                           "estimated": confirmed is None and str(item.get("grid_source", "")).startswith("inferred")}
     if collection == "meshes":
         for reference in item.get("references", []):
             out[reference.get("label", "MeshId")] = reference.get("uri")
     return out
 
 
+def _asset_ids(values: str | list[str] | None) -> list[str]:
+    """Accept decimal IDs or asset URIs separated by whitespace, commas or semicolons."""
+    if values is None:
+        return []
+    values = [values] if isinstance(values, str) else values
+    if not isinstance(values, (list, tuple, set)):
+        raise ToolError("IDs attendus : liste ou texte séparé par des virgules")
+    result = []
+    for value in values:
+        if not isinstance(value, (str, int)) or isinstance(value, bool):
+            raise ToolError("ID d’asset invalide : " + str(value))
+        for token in re.split(r"[\s,;]+", str(value).strip()):
+            if not token:
+                continue
+            match = re.fullmatch(r"(?:rbxassetid://)?([0-9]+)", token)
+            if not match:
+                raise ToolError("ID d’asset invalide : " + token)
+            result.append(match.group(1))
+    return list(dict.fromkeys(result))
+
+
+def excluded_ids(exclude_ids: str | list[str] | None = None, exclude_file: str | Path | None = None) -> set[str]:
+    result = set(_asset_ids(exclude_ids))
+    if exclude_file:
+        content = Path(exclude_file).read_text(encoding="utf-8-sig")
+        result.update(_asset_ids("\n".join(line.partition("#")[0] for line in content.splitlines())))
+    return result
+
+
+def compact_assets(result: dict[str, Any]) -> str:
+    """Readable search table shared by the CLI and MCP, without losing image data internally."""
+    def clean(value):
+        return " ".join(str(value or "").replace("|", "/").split())
+
+    lines = ["id | nom | kind/grille | taille"]
+    for item in result["items"]:
+        flipbook = item.get("flipbook") or {}
+        grid = flipbook.get("grid")
+        kind = item.get("kind") or "?"
+        if grid:
+            kind += f"/{grid}x{grid}" + (" estimated" if flipbook.get("estimated") else "")
+        width, height = item.get("size") or [None, None]
+        size = f"{width}x{height}" if width and height else "?"
+        lines.append(" | ".join([("USED " if item.get("used") else "") + item["id"], clean(item.get("name")) or "—", kind, size]))
+    lines.append(f"{len(result['items'])} affichés / {result['total']} résultats · offset {result.get('offset', 0)}")
+    if result.get("sheet"):
+        lines.append("Planche : " + str(result["sheet"]))
+    return "\n".join(lines)
+
+
 def search_assets(collection: str = "textures", tag: str | None = None, kind: str | None = None, query: str | None = None,
-                  limit: int = 24, offset: int = 0) -> dict[str, Any]:
+                  limit: int = 24, offset: int = 0, *, exclude_ids: str | list[str] | None = None,
+                  exclude_file: str | Path | None = None, compact: bool = False) -> dict[str, Any]:
     """Filtre par tag (Impact, Slash, Smoke…), type (static / flipbook) et texte du nom ou ID."""
     items = catalog(collection)
     if tag:
@@ -75,9 +136,36 @@ def search_assets(collection: str = "textures", tag: str | None = None, kind: st
         words = query.lower().split()
         items = [item for item in items if str(item.get("asset_id")) == query.strip()
                  or all(word in (item.get("name") or "").lower() for word in words)]
+    excluded = excluded_ids(exclude_ids, exclude_file)
+    if excluded:
+        items = [item for item in items if str(item.get("asset_id")) not in excluded]
     limit = max(1, min(int(limit), 120))
-    page = items[max(0, int(offset)):max(0, int(offset)) + limit]
-    return {"collection": collection, "total": len(items), "offset": offset, "items": [describe_asset(item, collection) for item in page]}
+    offset = max(0, int(offset))
+    page = items[offset:offset + limit]
+    result = {"collection": collection, "total": len(items), "offset": offset, "items": [describe_asset(item, collection) for item in page]}
+    if compact:
+        result["table"] = compact_assets(result)
+    return result
+
+
+def assets_by_ids(ids: str | list[str], collection: str | None = None, *, exclude_ids: str | list[str] | None = None,
+                  exclude_file: str | Path | None = None) -> list[dict[str, Any]]:
+    """Explicit sheet selection retains excluded assets and marks them USED instead of dropping them."""
+    requested = _asset_ids(ids)
+    if not requested:
+        raise ToolError("la planche exige au moins un ID")
+    collections = [collection] if collection else list(COLLECTIONS)
+    found = {}
+    for name in collections:
+        for item in catalog(name):
+            ident = str(item.get("asset_id"))
+            if ident in requested and ident not in found:
+                found[ident] = describe_asset(item, name)
+    unknown = [ident for ident in requested if ident not in found]
+    if unknown:
+        raise ToolError("IDs inconnus dans le catalogue : " + ", ".join(unknown))
+    excluded = excluded_ids(exclude_ids, exclude_file)
+    return [{**found[ident], "used": ident in excluded} for ident in requested]
 
 
 def tags(collection: str = "textures") -> dict[str, int]:
@@ -120,7 +208,8 @@ def texture_sheet(items: list[dict[str, Any]], out: str | Path | None = None, co
     path = _out(out, "textures.png")
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
         json.dump([{"id": item["id"], "label": item.get("name") or ", ".join(item.get("tags", [])),
-                    "path": item.get("image"), "grid": (item.get("flipbook") or {}).get("grid", 0)} for item in items], handle)
+                    "path": item.get("image"), "grid": (item.get("flipbook") or {}).get("grid", 0),
+                    "used": bool(item.get("used"))} for item in items], handle)
     try:
         _run_renderer(["--textures", handle.name, "--out", str(path), "--columns", str(columns)])
     finally:
@@ -129,12 +218,25 @@ def texture_sheet(items: list[dict[str, Any]], out: str | Path | None = None, co
 
 
 def render(projects: dict[str, Any] | list[dict[str, Any]], out: str | Path | None = None, times: list[float] | None = None,
-           frames: int = 8, size: str = "480x270", auto_camera: bool = True, dummy: bool = True, background: str | None = None,
-           ground: bool = True, seed: int = 1, camera: list[float] | None = None, columns: int = 4) -> dict[str, Any]:
+           frames: int = 8, size: str = "480x270", auto_camera: bool = False, dummy: bool = True, background: str | None = None,
+           ground: bool = True, seed: int = 1, camera: list[float] | None = None, columns: int = 4,
+           fit: str | None = None, focus: list[float] | None = None, radius: float | None = None,
+           fit_percentile: float = 90, fit_all: bool = False, backgrounds: str | list[str] | None = None) -> dict[str, Any]:
     """Planche PNG d’un projet, ou d’une ligne par projet pour comparer des variantes."""
     projects = projects if isinstance(projects, list) else [projects]
     if not projects or len(projects) > 8:
         raise ToolError("1 à 8 projets par planche")
+    if isinstance(fit_percentile, bool) or not isinstance(fit_percentile, (int, float)) or not 0 < fit_percentile <= 100 or not math.isfinite(fit_percentile):
+        raise ToolError("fit_percentile doit être un nombre > 0 et <= 100")
+    if not isinstance(fit_all, bool):
+        raise ToolError("fit_all doit être un booléen")
+    if backgrounds is not None:
+        if background is not None:
+            raise ToolError("background et backgrounds sont exclusifs")
+        values = backgrounds.split(",") if isinstance(backgrounds, str) else backgrounds
+        if not isinstance(values, list) or not 1 <= len(values) <= 8 or any(not isinstance(value, str) or not re.fullmatch(r"(?:sombre|gris|ciel|noir|roblox|dark|#[\da-fA-F]{6})", value.strip()) for value in values):
+            raise ToolError("backgrounds : 1 à 8 presets ou couleurs #RRGGBB requis")
+        backgrounds = [value.strip() for value in values]
     validated = [validate_project(project) for project in projects]
     name = "comparaison" if len(validated) > 1 else _slug(validated[0].get("id") or validated[0]["name"])
     path = _out(out, f"{name}.png")
@@ -155,14 +257,60 @@ def render(projects: dict[str, Any] | list[dict[str, Any]], out: str | Path | No
             args.append("--dummy")
         if background:
             args += ["--background", background]
+        if backgrounds is not None:
+            args += ["--backgrounds", ",".join(backgrounds)]
         if not ground:
             args.append("--no-ground")
+        if fit is not None:
+            args += ["--fit", fit]
+        args += ["--fit-percentile", str(float(fit_percentile))]
+        if fit_all:
+            args.append("--fit-all")
+        if focus is not None:
+            args += ["--focus", ",".join(str(float(v)) for v in focus)]
+        if radius is not None:
+            args += ["--radius", str(float(radius))]
         result = _run_renderer(args)
     finally:
         for file in files:
             os.unlink(file)
     result["image"] = str(path)
     return result
+
+
+def render_batch(jobs: list[dict[str, Any]], *, base_dir: str | Path | None = None) -> dict[str, Any]:
+    """One Chromium launch for jobs with projects/out/times/camera/fit/focus.
+
+    Renderer options use camelCase (including fitPercentile=90 and fitAll=false).
+    Project files resolve relative to base_dir;
+    relative output paths keep the usual repository-root convention.
+    """
+    if not isinstance(jobs, list) or not jobs or len(jobs) > 128:
+        raise ToolError("render-batch : liste de 1 à 128 jobs requise")
+    manifest = []
+    for index, job in enumerate(jobs):
+        if not isinstance(job, dict) or not isinstance(job.get("projects"), list) or not 1 <= len(job["projects"]) <= 8:
+            raise ToolError(f"jobs[{index}].projects : 1 à 8 recettes requises")
+        recipes = []
+        for source in job["projects"]:
+            if isinstance(source, dict):
+                recipe = source
+            elif isinstance(source, str):
+                candidate = Path(base_dir or ROOT) / source
+                recipe = json.loads(candidate.read_text(encoding="utf-8-sig")) if candidate.is_file() else load(source)
+            else:
+                raise ToolError(f"jobs[{index}] : recette ou fichier/ID requis")
+            recipes.append(validate_project(recipe))
+        config = {"autoCamera": False, "dummy": True, **deepcopy(job), "projects": recipes}
+        if "out" not in config:
+            config["out"] = str(RENDERS / f"batch-{index + 1}.png")
+        manifest.append(config)
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
+        json.dump({"jobs": manifest}, handle, ensure_ascii=False, allow_nan=False)
+    try:
+        return _run_renderer(["--batch", handle.name], timeout=max(240, len(jobs) * 120))
+    finally:
+        os.unlink(handle.name)
 
 
 # ---- Projets ----
@@ -174,6 +322,26 @@ def _sibling(name: str):
 
 def validate(project: dict[str, Any]) -> dict[str, Any]:
     return validate_project(project)
+
+
+def warnings(project: dict[str, Any], include_infos: bool = False) -> list[dict[str, Any]]:
+    return _sibling("fx_warnings").validation_warnings(validate_project(project), include_infos=include_infos)
+
+
+def diagnostic_counts(diagnostics: list[dict[str, Any]]) -> dict[str, int]:
+    """Stable, one-entry-per-code summary shared by the CLI and MCP."""
+    counts: dict[str, int] = {}
+    for diagnostic in diagnostics:
+        counts[diagnostic["code"]] = counts.get(diagnostic["code"], 0) + 1
+    return dict(sorted(counts.items()))
+
+
+def grid_confirm(asset_id: str, grid: int) -> dict[str, Any]:
+    """Confirm a visually checked grid in the local overrides, outside the catalogue."""
+    ids = _asset_ids(asset_id)
+    if len(ids) != 1:
+        raise ToolError("grid-confirm exige un seul ID de texture")
+    return _sibling("fx_grid_overrides").confirm_grid(ids[0], grid)
 
 
 def project_path(ident: str) -> Path:
@@ -228,5 +396,12 @@ def export(project: dict[str, Any], fmt: str = "rbxmx", out: str | Path | None =
     return path
 
 
-__all__ = ["ToolError", "ValidationError", "search_assets", "tags", "texture_sheet", "render", "validate", "load", "save",
-           "list_projects", "export", "describe_asset"]
+def export_library(recipes: dict[str, dict[str, Any]], out: str | Path | None = None) -> tuple[Path, Path]:
+    """One data-only ModuleScript plus the independent gameplay kit."""
+    path = Path(out) if out else EXPORTS / "MesEffets.lua"
+    path = path if path.is_absolute() else ROOT / path
+    return _sibling("fx_export").write_library(recipes, path)
+
+
+__all__ = ["ToolError", "ValidationError", "search_assets", "compact_assets", "excluded_ids", "assets_by_ids", "tags", "texture_sheet", "render", "validate", "load", "save",
+           "list_projects", "export", "export_library", "describe_asset", "warnings", "diagnostic_counts", "grid_confirm", "render_batch"]

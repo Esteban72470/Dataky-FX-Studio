@@ -1,0 +1,8658 @@
+{
+  "version": 1,
+  "name": "Pop Pop · A1_Full",
+  "id": "poppop-a1-full",
+  "duration": 2.4,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "ig_Top",
+      "class": "Part",
+      "name": "Top",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          8.6,
+          0
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "ig_TopPoint",
+      "class": "Attachment",
+      "name": "TopPoint",
+      "parent": "ig_Top",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "ig_FuseSparks",
+      "class": "ParticleEmitter",
+      "name": "FuseSparks",
+      "parent": "ig_TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 80,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          6,
+          13
+        ],
+        "SpreadAngle": [
+          38,
+          38
+        ],
+        "Lifetime": [
+          0.2,
+          0.42
+        ],
+        "Acceleration": [
+          0,
+          -30,
+          0
+        ],
+        "Drag": 1,
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.4,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "ig_Gather",
+      "class": "Part",
+      "name": "Gather",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          8.6,
+          0
+        ],
+        "Size": [
+          5,
+          5,
+          5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "ig_GatherSparks",
+      "class": "ParticleEmitter",
+      "name": "GatherSparks",
+      "parent": "ig_Gather",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 55,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          9,
+          9
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.27,
+          0.27
+        ],
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "ShapeInOut": "Inward",
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 2,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.12,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.15,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "ig_Core",
+      "class": "ParticleEmitter",
+      "name": "Core",
+      "parent": "ig_TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.48,
+          0.48
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 2.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 2.6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.6,
+            "envelope": 0
+          },
+          {
+            "time": 0.2,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.9,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "ig_Flicker",
+      "class": "ParticleEmitter",
+      "name": "Flicker",
+      "parent": "ig_TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://118932979744260",
+        "Rate": 28,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.07,
+          0.12
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.2,
+            "envelope": 0.4
+          },
+          {
+            "time": 1,
+            "value": 1.6,
+            "envelope": 0.4
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1.5
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "ig_Smoke",
+      "class": "ParticleEmitter",
+      "name": "Smoke",
+      "parent": "ig_TopPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 9,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          2,
+          4
+        ],
+        "SpreadAngle": [
+          65,
+          65
+        ],
+        "Lifetime": [
+          0.6,
+          0.9
+        ],
+        "Acceleration": [
+          0,
+          2,
+          0
+        ],
+        "Drag": 1.5,
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.54,
+            "envelope": 0.135
+          },
+          {
+            "time": 0.3,
+            "value": 1.7600000000000002,
+            "envelope": 0.33
+          },
+          {
+            "time": 1,
+            "value": 2.2,
+            "envelope": 0.33
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.05,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "ig_Glow",
+      "class": "PointLight",
+      "name": "Glow",
+      "parent": "ig_TopPoint",
+      "properties": {
+        "Brightness": 1.2,
+        "Range": 8,
+        "Color": [
+          1,
+          0.5,
+          0.14
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.45,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz0_Muzzle",
+      "class": "Part",
+      "name": "Muzzle",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          8.6,
+          0
+        ],
+        "Size": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "mz0_MuzzlePoint",
+      "class": "Attachment",
+      "name": "MuzzlePoint",
+      "parent": "mz0_Muzzle",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "mz0_Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "mz0_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://118932979744260",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.14,
+          0.14
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2.2,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 4.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz0_FlashGlow",
+      "class": "ParticleEmitter",
+      "name": "FlashGlow",
+      "parent": "mz0_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.13,
+          0.13
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 3.6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz0_ShotSparks",
+      "class": "ParticleEmitter",
+      "name": "ShotSparks",
+      "parent": "mz0_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          18,
+          32
+        ],
+        "SpreadAngle": [
+          24,
+          24
+        ],
+        "Lifetime": [
+          0.2,
+          0.42
+        ],
+        "Drag": 5,
+        "Acceleration": [
+          0,
+          -20,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.24,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 22
+      }
+    },
+    {
+      "id": "mz0_Puff",
+      "class": "ParticleEmitter",
+      "name": "Puff",
+      "parent": "mz0_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          3,
+          6
+        ],
+        "SpreadAngle": [
+          75,
+          75
+        ],
+        "Lifetime": [
+          0.5,
+          0.8
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.66,
+            "envelope": 0.165
+          },
+          {
+            "time": 0.3,
+            "value": 1.92,
+            "envelope": 0.36
+          },
+          {
+            "time": 1,
+            "value": 2.4,
+            "envelope": 0.36
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.47,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 3
+      }
+    },
+    {
+      "id": "mz0_Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "mz0_MuzzlePoint",
+      "properties": {
+        "Brightness": 1.5,
+        "Range": 10,
+        "Color": [
+          1,
+          0.84,
+          0.25
+        ]
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.14,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl0_Pellet",
+      "class": "Part",
+      "name": "Pellet",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.55,
+          0.55,
+          1.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.92,
+          0.12,
+          0.14
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl0_Band",
+      "class": "Part",
+      "name": "Band",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.12
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.24
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.95,
+          0.88
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl0_Nose",
+      "class": "Part",
+      "name": "Nose",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.8
+        ],
+        "Size": [
+          0.4,
+          0.4,
+          0.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl0_Tip",
+      "class": "Part",
+      "name": "Tip",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -1.03
+        ],
+        "Size": [
+          0.2,
+          0.2,
+          0.18
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl0_FinH",
+      "class": "Part",
+      "name": "FinH",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          1.15,
+          0.08,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl0_FinV",
+      "class": "Part",
+      "name": "FinV",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          0.08,
+          1.15,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl0_PelletCore",
+      "class": "Attachment",
+      "name": "PelletCore",
+      "parent": "pl0_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl0_TrailA",
+      "class": "Attachment",
+      "name": "TrailA",
+      "parent": "pl0_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl0_TrailB",
+      "class": "Attachment",
+      "name": "TrailB",
+      "parent": "pl0_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          -0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl0_Halo",
+      "class": "ParticleEmitter",
+      "name": "Halo",
+      "parent": "pl0_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 40,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.1,
+          0.1
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.9,
+            "envelope": 0
+          }
+        ],
+        "LockedToPart": true,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.62,
+              0.3
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl0_Exhaust",
+      "class": "ParticleEmitter",
+      "name": "Exhaust",
+      "parent": "pl0_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 70,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.3,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          12,
+          12
+        ],
+        "Lifetime": [
+          0.1,
+          0.16
+        ],
+        "EmissionDirection": "Back",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.85,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.55,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.25,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.65,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.05,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl0_Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "pl0_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 110,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0.5,
+          2.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.25,
+          0.45
+        ],
+        "Acceleration": [
+          0,
+          -9,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.32,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl0_Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "pl0_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 14,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0.5,
+          1.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.18,
+          0.3
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl0_StarTrail",
+      "class": "Trail",
+      "name": "StarTrail",
+      "parent": "pl0_Pellet",
+      "properties": {
+        "Attachment0": "pl0_TrailA",
+        "Attachment1": "pl0_TrailB",
+        "Texture": "rbxassetid://16892366666",
+        "LightInfluence": 0,
+        "LightEmission": 0.5,
+        "FaceCamera": true,
+        "Lifetime": 0.3,
+        "WidthScale": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.4,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Brightness": 1.2
+      },
+      "timing": {
+        "start": 0.45,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs0_Burst",
+      "class": "Part",
+      "name": "Burst",
+      "parent": null,
+      "properties": {
+        "Position": [
+          -3.5,
+          2.6,
+          -14
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "bs0_BurstPoint",
+      "class": "Attachment",
+      "name": "BurstPoint",
+      "parent": "bs0_Burst",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "bs0_Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.15,
+          0.15
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5.5,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 0.83,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs0_RaysGold",
+      "class": "ParticleEmitter",
+      "name": "RaysGold",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.32,
+          0.32
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 7.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 8.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0.83,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs0_RaysPink",
+      "class": "ParticleEmitter",
+      "name": "RaysPink",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.38,
+          0.38
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 6.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 7.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 0.5
+      },
+      "timing": {
+        "start": 0.86,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs0_Firework",
+      "class": "ParticleEmitter",
+      "name": "Firework",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://98788923842276",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.6,
+          0.6
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 10,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot"
+      },
+      "timing": {
+        "start": 0.85,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs0_StarsPink",
+      "class": "ParticleEmitter",
+      "name": "StarsPink",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.83,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "bs0_StarsYellow",
+      "class": "ParticleEmitter",
+      "name": "StarsYellow",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.83,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "bs0_Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          16,
+          28
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.45,
+          0.8
+        ],
+        "Drag": 3,
+        "Acceleration": [
+          0,
+          -18,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.26,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.83,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 36
+      }
+    },
+    {
+      "id": "bs0_GlintZone",
+      "class": "Part",
+      "name": "GlintZone",
+      "parent": null,
+      "properties": {
+        "Position": [
+          -3.5,
+          2.6,
+          -14
+        ],
+        "Size": [
+          7,
+          5,
+          7
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "bs0_Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "bs0_GlintZone",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.25,
+          0.4
+        ],
+        "Shape": "Sphere",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.35,
+            "value": 1.7,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.4,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.93,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "bs0_Smoke",
+      "class": "ParticleEmitter",
+      "name": "Smoke",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.1
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.96,
+            "envelope": 0.24
+          },
+          {
+            "time": 0.3,
+            "value": 2.5600000000000005,
+            "envelope": 0.48
+          },
+          {
+            "time": 1,
+            "value": 3.2,
+            "envelope": 0.48
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.87,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "bs0_Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "bs0_BurstPoint",
+      "properties": {
+        "Brightness": 0.8,
+        "Range": 10,
+        "Color": [
+          1,
+          0.65,
+          0.75
+        ]
+      },
+      "timing": {
+        "start": 0.83,
+        "duration": 0.25,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz1_Muzzle",
+      "class": "Part",
+      "name": "Muzzle",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          8.6,
+          0
+        ],
+        "Size": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "mz1_MuzzlePoint",
+      "class": "Attachment",
+      "name": "MuzzlePoint",
+      "parent": "mz1_Muzzle",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "mz1_Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "mz1_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://118932979744260",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.14,
+          0.14
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2.2,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 4.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz1_FlashGlow",
+      "class": "ParticleEmitter",
+      "name": "FlashGlow",
+      "parent": "mz1_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.13,
+          0.13
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 3.6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz1_ShotSparks",
+      "class": "ParticleEmitter",
+      "name": "ShotSparks",
+      "parent": "mz1_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          18,
+          32
+        ],
+        "SpreadAngle": [
+          24,
+          24
+        ],
+        "Lifetime": [
+          0.2,
+          0.42
+        ],
+        "Drag": 5,
+        "Acceleration": [
+          0,
+          -20,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.24,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 22
+      }
+    },
+    {
+      "id": "mz1_Puff",
+      "class": "ParticleEmitter",
+      "name": "Puff",
+      "parent": "mz1_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          3,
+          6
+        ],
+        "SpreadAngle": [
+          75,
+          75
+        ],
+        "Lifetime": [
+          0.5,
+          0.8
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.66,
+            "envelope": 0.165
+          },
+          {
+            "time": 0.3,
+            "value": 1.92,
+            "envelope": 0.36
+          },
+          {
+            "time": 1,
+            "value": 2.4,
+            "envelope": 0.36
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.64,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 3
+      }
+    },
+    {
+      "id": "mz1_Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "mz1_MuzzlePoint",
+      "properties": {
+        "Brightness": 1.5,
+        "Range": 10,
+        "Color": [
+          1,
+          0.84,
+          0.25
+        ]
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.14,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl1_Pellet",
+      "class": "Part",
+      "name": "Pellet",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.55,
+          0.55,
+          1.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.92,
+          0.12,
+          0.14
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl1_Band",
+      "class": "Part",
+      "name": "Band",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.12
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.24
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.95,
+          0.88
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl1_Nose",
+      "class": "Part",
+      "name": "Nose",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.8
+        ],
+        "Size": [
+          0.4,
+          0.4,
+          0.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl1_Tip",
+      "class": "Part",
+      "name": "Tip",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -1.03
+        ],
+        "Size": [
+          0.2,
+          0.2,
+          0.18
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl1_FinH",
+      "class": "Part",
+      "name": "FinH",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          1.15,
+          0.08,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl1_FinV",
+      "class": "Part",
+      "name": "FinV",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          0.08,
+          1.15,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl1_PelletCore",
+      "class": "Attachment",
+      "name": "PelletCore",
+      "parent": "pl1_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl1_TrailA",
+      "class": "Attachment",
+      "name": "TrailA",
+      "parent": "pl1_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl1_TrailB",
+      "class": "Attachment",
+      "name": "TrailB",
+      "parent": "pl1_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          -0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl1_Halo",
+      "class": "ParticleEmitter",
+      "name": "Halo",
+      "parent": "pl1_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 40,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.1,
+          0.1
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.9,
+            "envelope": 0
+          }
+        ],
+        "LockedToPart": true,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.62,
+              0.3
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl1_Exhaust",
+      "class": "ParticleEmitter",
+      "name": "Exhaust",
+      "parent": "pl1_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 70,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.3,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          12,
+          12
+        ],
+        "Lifetime": [
+          0.1,
+          0.16
+        ],
+        "EmissionDirection": "Back",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.85,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.55,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.25,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.65,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.05,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl1_Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "pl1_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 110,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0.5,
+          2.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.25,
+          0.45
+        ],
+        "Acceleration": [
+          0,
+          -9,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.32,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl1_Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "pl1_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 14,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0.5,
+          1.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.18,
+          0.3
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl1_StarTrail",
+      "class": "Trail",
+      "name": "StarTrail",
+      "parent": "pl1_Pellet",
+      "properties": {
+        "Attachment0": "pl1_TrailA",
+        "Attachment1": "pl1_TrailB",
+        "Texture": "rbxassetid://16892366666",
+        "LightInfluence": 0,
+        "LightEmission": 0.5,
+        "FaceCamera": true,
+        "Lifetime": 0.3,
+        "WidthScale": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.4,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Brightness": 1.2
+      },
+      "timing": {
+        "start": 0.62,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs1_Burst",
+      "class": "Part",
+      "name": "Burst",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          2.6,
+          -17
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "bs1_BurstPoint",
+      "class": "Attachment",
+      "name": "BurstPoint",
+      "parent": "bs1_Burst",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "bs1_Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.15,
+          0.15
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5.5,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 1.0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs1_RaysGold",
+      "class": "ParticleEmitter",
+      "name": "RaysGold",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.32,
+          0.32
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 7.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 8.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 1.0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs1_RaysPink",
+      "class": "ParticleEmitter",
+      "name": "RaysPink",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.38,
+          0.38
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 6.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 7.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 0.5
+      },
+      "timing": {
+        "start": 1.03,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs1_Firework",
+      "class": "ParticleEmitter",
+      "name": "Firework",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://98788923842276",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.6,
+          0.6
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 10,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot"
+      },
+      "timing": {
+        "start": 1.02,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs1_StarsPink",
+      "class": "ParticleEmitter",
+      "name": "StarsPink",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "bs1_StarsYellow",
+      "class": "ParticleEmitter",
+      "name": "StarsYellow",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "bs1_Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          16,
+          28
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.45,
+          0.8
+        ],
+        "Drag": 3,
+        "Acceleration": [
+          0,
+          -18,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.26,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 36
+      }
+    },
+    {
+      "id": "bs1_GlintZone",
+      "class": "Part",
+      "name": "GlintZone",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          2.6,
+          -17
+        ],
+        "Size": [
+          7,
+          5,
+          7
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "bs1_Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "bs1_GlintZone",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.25,
+          0.4
+        ],
+        "Shape": "Sphere",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.35,
+            "value": 1.7,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.4,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.1,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "bs1_Smoke",
+      "class": "ParticleEmitter",
+      "name": "Smoke",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.1
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.96,
+            "envelope": 0.24
+          },
+          {
+            "time": 0.3,
+            "value": 2.5600000000000005,
+            "envelope": 0.48
+          },
+          {
+            "time": 1,
+            "value": 3.2,
+            "envelope": 0.48
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.04,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "bs1_Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "bs1_BurstPoint",
+      "properties": {
+        "Brightness": 0.8,
+        "Range": 10,
+        "Color": [
+          1,
+          0.65,
+          0.75
+        ]
+      },
+      "timing": {
+        "start": 1.0,
+        "duration": 0.25,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz2_Muzzle",
+      "class": "Part",
+      "name": "Muzzle",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          8.6,
+          0
+        ],
+        "Size": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "mz2_MuzzlePoint",
+      "class": "Attachment",
+      "name": "MuzzlePoint",
+      "parent": "mz2_Muzzle",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "mz2_Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "mz2_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://118932979744260",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.14,
+          0.14
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2.2,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 4.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz2_FlashGlow",
+      "class": "ParticleEmitter",
+      "name": "FlashGlow",
+      "parent": "mz2_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.13,
+          0.13
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 3.6,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "mz2_ShotSparks",
+      "class": "ParticleEmitter",
+      "name": "ShotSparks",
+      "parent": "mz2_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          18,
+          32
+        ],
+        "SpreadAngle": [
+          24,
+          24
+        ],
+        "Lifetime": [
+          0.2,
+          0.42
+        ],
+        "Drag": 5,
+        "Acceleration": [
+          0,
+          -20,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.24,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 22
+      }
+    },
+    {
+      "id": "mz2_Puff",
+      "class": "ParticleEmitter",
+      "name": "Puff",
+      "parent": "mz2_MuzzlePoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          3,
+          6
+        ],
+        "SpreadAngle": [
+          75,
+          75
+        ],
+        "Lifetime": [
+          0.5,
+          0.8
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.66,
+            "envelope": 0.165
+          },
+          {
+            "time": 0.3,
+            "value": 1.92,
+            "envelope": 0.36
+          },
+          {
+            "time": 1,
+            "value": 2.4,
+            "envelope": 0.36
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.81,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 3
+      }
+    },
+    {
+      "id": "mz2_Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "mz2_MuzzlePoint",
+      "properties": {
+        "Brightness": 1.5,
+        "Range": 10,
+        "Color": [
+          1,
+          0.84,
+          0.25
+        ]
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.14,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl2_Pellet",
+      "class": "Part",
+      "name": "Pellet",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.55,
+          0.55,
+          1.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.92,
+          0.12,
+          0.14
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl2_Band",
+      "class": "Part",
+      "name": "Band",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.12
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.24
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.95,
+          0.88
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl2_Nose",
+      "class": "Part",
+      "name": "Nose",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.8
+        ],
+        "Size": [
+          0.4,
+          0.4,
+          0.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl2_Tip",
+      "class": "Part",
+      "name": "Tip",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -1.03
+        ],
+        "Size": [
+          0.2,
+          0.2,
+          0.18
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl2_FinH",
+      "class": "Part",
+      "name": "FinH",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          1.15,
+          0.08,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl2_FinV",
+      "class": "Part",
+      "name": "FinV",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          0.08,
+          1.15,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "pl2_PelletCore",
+      "class": "Attachment",
+      "name": "PelletCore",
+      "parent": "pl2_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl2_TrailA",
+      "class": "Attachment",
+      "name": "TrailA",
+      "parent": "pl2_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl2_TrailB",
+      "class": "Attachment",
+      "name": "TrailB",
+      "parent": "pl2_Pellet",
+      "properties": {
+        "Position": [
+          0,
+          -0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "pl2_Halo",
+      "class": "ParticleEmitter",
+      "name": "Halo",
+      "parent": "pl2_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 40,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.1,
+          0.1
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.9,
+            "envelope": 0
+          }
+        ],
+        "LockedToPart": true,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.62,
+              0.3
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl2_Exhaust",
+      "class": "ParticleEmitter",
+      "name": "Exhaust",
+      "parent": "pl2_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 70,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.3,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          12,
+          12
+        ],
+        "Lifetime": [
+          0.1,
+          0.16
+        ],
+        "EmissionDirection": "Back",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.85,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.55,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.25,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.65,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.05,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl2_Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "pl2_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 110,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0.5,
+          2.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.25,
+          0.45
+        ],
+        "Acceleration": [
+          0,
+          -9,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.32,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl2_Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "pl2_PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 14,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0.5,
+          1.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.18,
+          0.3
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "pl2_StarTrail",
+      "class": "Trail",
+      "name": "StarTrail",
+      "parent": "pl2_Pellet",
+      "properties": {
+        "Attachment0": "pl2_TrailA",
+        "Attachment1": "pl2_TrailB",
+        "Texture": "rbxassetid://16892366666",
+        "LightInfluence": 0,
+        "LightEmission": 0.5,
+        "FaceCamera": true,
+        "Lifetime": 0.3,
+        "WidthScale": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.4,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Brightness": 1.2
+      },
+      "timing": {
+        "start": 0.79,
+        "duration": 0.38,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs2_Burst",
+      "class": "Part",
+      "name": "Burst",
+      "parent": null,
+      "properties": {
+        "Position": [
+          3.5,
+          2.6,
+          -12
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.6
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "bs2_BurstPoint",
+      "class": "Attachment",
+      "name": "BurstPoint",
+      "parent": "bs2_Burst",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "bs2_Flash",
+      "class": "ParticleEmitter",
+      "name": "Flash",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.15,
+          0.15
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.4,
+            "value": 5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 5.5,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.35,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 2
+      },
+      "timing": {
+        "start": 1.17,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs2_RaysGold",
+      "class": "ParticleEmitter",
+      "name": "RaysGold",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.32,
+          0.32
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 7.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 8.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.7,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 1
+      },
+      "timing": {
+        "start": 1.17,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs2_RaysPink",
+      "class": "ParticleEmitter",
+      "name": "RaysPink",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://11684637564",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.38,
+          0.38
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 6.5,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 7.5,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.55,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "ZOffset": 0.5
+      },
+      "timing": {
+        "start": 1.2,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs2_Firework",
+      "class": "ParticleEmitter",
+      "name": "Firework",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://98788923842276",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.45,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.6,
+          0.6
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 10,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.92,
+              0.26,
+              0.9
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot"
+      },
+      "timing": {
+        "start": 1.19,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "bs2_StarsPink",
+      "class": "ParticleEmitter",
+      "name": "StarsPink",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.17,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "bs2_StarsYellow",
+      "class": "ParticleEmitter",
+      "name": "StarsYellow",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://12362728616",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.1,
+        "Brightness": 1.3,
+        "Speed": [
+          10,
+          16
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.15
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Drag": 3.5,
+        "Acceleration": [
+          0,
+          -5,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -220,
+          220
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.17,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 7
+      }
+    },
+    {
+      "id": "bs2_Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0.7,
+        "Brightness": 1.4,
+        "Speed": [
+          16,
+          28
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.45,
+          0.8
+        ],
+        "Drag": 3,
+        "Acceleration": [
+          0,
+          -18,
+          0
+        ],
+        "Orientation": "VelocityParallel",
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2.6,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.26,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.17,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 36
+      }
+    },
+    {
+      "id": "bs2_GlintZone",
+      "class": "Part",
+      "name": "GlintZone",
+      "parent": null,
+      "properties": {
+        "Position": [
+          3.5,
+          2.6,
+          -12
+        ],
+        "Size": [
+          7,
+          5,
+          7
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "bs2_Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "bs2_GlintZone",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.3,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.25,
+          0.4
+        ],
+        "Shape": "Sphere",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.35,
+            "value": 1.7,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.4,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.27,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "bs2_Smoke",
+      "class": "ParticleEmitter",
+      "name": "Smoke",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Texture": "rbxassetid://10352566235",
+        "Rate": 0,
+        "LightInfluence": 0,
+        "LightEmission": 0,
+        "Brightness": 1,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.8,
+          1.1
+        ],
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          1.5,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.96,
+            "envelope": 0.24
+          },
+          {
+            "time": 0.3,
+            "value": 2.5600000000000005,
+            "envelope": 0.48
+          },
+          {
+            "time": 1,
+            "value": 3.2,
+            "envelope": 0.48
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.3,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.44999999999999996,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.9,
+              0.9,
+              0.94
+            ]
+          }
+        ]
+      },
+      "timing": {
+        "start": 1.21,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 6
+      }
+    },
+    {
+      "id": "bs2_Light",
+      "class": "PointLight",
+      "name": "Light",
+      "parent": "bs2_BurstPoint",
+      "properties": {
+        "Brightness": 0.8,
+        "Range": 10,
+        "Color": [
+          1,
+          0.65,
+          0.75
+        ]
+      },
+      "timing": {
+        "start": 1.17,
+        "duration": 0.25,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [
+    {
+      "node": "ig_Glow",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 1.2
+        },
+        {
+          "time": 0.6,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "mz0_Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": 1.5
+        },
+        {
+          "time": 0.59,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "pl0_Pellet",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": [
+            0.0,
+            8.6,
+            0.0
+          ]
+        },
+        {
+          "time": 0.488,
+          "value": [
+            -0.35000000000000003,
+            8.63,
+            -1.4000000000000001
+          ]
+        },
+        {
+          "time": 0.526,
+          "value": [
+            -0.7000000000000001,
+            8.52,
+            -2.8000000000000003
+          ]
+        },
+        {
+          "time": 0.564,
+          "value": [
+            -1.05,
+            8.27,
+            -4.2
+          ]
+        },
+        {
+          "time": 0.602,
+          "value": [
+            -1.4000000000000001,
+            7.879999999999999,
+            -5.6000000000000005
+          ]
+        },
+        {
+          "time": 0.64,
+          "value": [
+            -1.75,
+            7.35,
+            -7.0
+          ]
+        },
+        {
+          "time": 0.678,
+          "value": [
+            -2.1,
+            6.68,
+            -8.4
+          ]
+        },
+        {
+          "time": 0.716,
+          "value": [
+            -2.4499999999999997,
+            5.87,
+            -9.799999999999999
+          ]
+        },
+        {
+          "time": 0.754,
+          "value": [
+            -2.8000000000000003,
+            4.919999999999999,
+            -11.200000000000001
+          ]
+        },
+        {
+          "time": 0.792,
+          "value": [
+            -3.15,
+            3.829999999999999,
+            -12.6
+          ]
+        },
+        {
+          "time": 0.83,
+          "value": [
+            -3.5,
+            2.5999999999999996,
+            -14.0
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl0_Pellet",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": 0
+        },
+        {
+          "time": 0.82,
+          "value": 0
+        },
+        {
+          "time": 0.83,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl0_Band",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": [
+            0.0,
+            8.6,
+            -0.12
+          ]
+        },
+        {
+          "time": 0.488,
+          "value": [
+            -0.35000000000000003,
+            8.63,
+            -1.52
+          ]
+        },
+        {
+          "time": 0.526,
+          "value": [
+            -0.7000000000000001,
+            8.52,
+            -2.9200000000000004
+          ]
+        },
+        {
+          "time": 0.564,
+          "value": [
+            -1.05,
+            8.27,
+            -4.32
+          ]
+        },
+        {
+          "time": 0.602,
+          "value": [
+            -1.4000000000000001,
+            7.879999999999999,
+            -5.720000000000001
+          ]
+        },
+        {
+          "time": 0.64,
+          "value": [
+            -1.75,
+            7.35,
+            -7.12
+          ]
+        },
+        {
+          "time": 0.678,
+          "value": [
+            -2.1,
+            6.68,
+            -8.52
+          ]
+        },
+        {
+          "time": 0.716,
+          "value": [
+            -2.4499999999999997,
+            5.87,
+            -9.919999999999998
+          ]
+        },
+        {
+          "time": 0.754,
+          "value": [
+            -2.8000000000000003,
+            4.919999999999999,
+            -11.32
+          ]
+        },
+        {
+          "time": 0.792,
+          "value": [
+            -3.15,
+            3.829999999999999,
+            -12.719999999999999
+          ]
+        },
+        {
+          "time": 0.83,
+          "value": [
+            -3.5,
+            2.5999999999999996,
+            -14.12
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl0_Band",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": 0
+        },
+        {
+          "time": 0.82,
+          "value": 0
+        },
+        {
+          "time": 0.83,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl0_Nose",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": [
+            0.0,
+            8.6,
+            -0.8
+          ]
+        },
+        {
+          "time": 0.488,
+          "value": [
+            -0.35000000000000003,
+            8.63,
+            -2.2
+          ]
+        },
+        {
+          "time": 0.526,
+          "value": [
+            -0.7000000000000001,
+            8.52,
+            -3.6000000000000005
+          ]
+        },
+        {
+          "time": 0.564,
+          "value": [
+            -1.05,
+            8.27,
+            -5.0
+          ]
+        },
+        {
+          "time": 0.602,
+          "value": [
+            -1.4000000000000001,
+            7.879999999999999,
+            -6.4
+          ]
+        },
+        {
+          "time": 0.64,
+          "value": [
+            -1.75,
+            7.35,
+            -7.8
+          ]
+        },
+        {
+          "time": 0.678,
+          "value": [
+            -2.1,
+            6.68,
+            -9.200000000000001
+          ]
+        },
+        {
+          "time": 0.716,
+          "value": [
+            -2.4499999999999997,
+            5.87,
+            -10.6
+          ]
+        },
+        {
+          "time": 0.754,
+          "value": [
+            -2.8000000000000003,
+            4.919999999999999,
+            -12.000000000000002
+          ]
+        },
+        {
+          "time": 0.792,
+          "value": [
+            -3.15,
+            3.829999999999999,
+            -13.4
+          ]
+        },
+        {
+          "time": 0.83,
+          "value": [
+            -3.5,
+            2.5999999999999996,
+            -14.8
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl0_Nose",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": 0
+        },
+        {
+          "time": 0.82,
+          "value": 0
+        },
+        {
+          "time": 0.83,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl0_Tip",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": [
+            0.0,
+            8.6,
+            -1.03
+          ]
+        },
+        {
+          "time": 0.488,
+          "value": [
+            -0.35000000000000003,
+            8.63,
+            -2.43
+          ]
+        },
+        {
+          "time": 0.526,
+          "value": [
+            -0.7000000000000001,
+            8.52,
+            -3.83
+          ]
+        },
+        {
+          "time": 0.564,
+          "value": [
+            -1.05,
+            8.27,
+            -5.23
+          ]
+        },
+        {
+          "time": 0.602,
+          "value": [
+            -1.4000000000000001,
+            7.879999999999999,
+            -6.630000000000001
+          ]
+        },
+        {
+          "time": 0.64,
+          "value": [
+            -1.75,
+            7.35,
+            -8.03
+          ]
+        },
+        {
+          "time": 0.678,
+          "value": [
+            -2.1,
+            6.68,
+            -9.43
+          ]
+        },
+        {
+          "time": 0.716,
+          "value": [
+            -2.4499999999999997,
+            5.87,
+            -10.829999999999998
+          ]
+        },
+        {
+          "time": 0.754,
+          "value": [
+            -2.8000000000000003,
+            4.919999999999999,
+            -12.23
+          ]
+        },
+        {
+          "time": 0.792,
+          "value": [
+            -3.15,
+            3.829999999999999,
+            -13.629999999999999
+          ]
+        },
+        {
+          "time": 0.83,
+          "value": [
+            -3.5,
+            2.5999999999999996,
+            -15.03
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl0_Tip",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": 0
+        },
+        {
+          "time": 0.82,
+          "value": 0
+        },
+        {
+          "time": 0.83,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl0_FinH",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": [
+            0.0,
+            8.6,
+            0.48
+          ]
+        },
+        {
+          "time": 0.488,
+          "value": [
+            -0.35000000000000003,
+            8.63,
+            -0.9200000000000002
+          ]
+        },
+        {
+          "time": 0.526,
+          "value": [
+            -0.7000000000000001,
+            8.52,
+            -2.3200000000000003
+          ]
+        },
+        {
+          "time": 0.564,
+          "value": [
+            -1.05,
+            8.27,
+            -3.72
+          ]
+        },
+        {
+          "time": 0.602,
+          "value": [
+            -1.4000000000000001,
+            7.879999999999999,
+            -5.120000000000001
+          ]
+        },
+        {
+          "time": 0.64,
+          "value": [
+            -1.75,
+            7.35,
+            -6.52
+          ]
+        },
+        {
+          "time": 0.678,
+          "value": [
+            -2.1,
+            6.68,
+            -7.92
+          ]
+        },
+        {
+          "time": 0.716,
+          "value": [
+            -2.4499999999999997,
+            5.87,
+            -9.319999999999999
+          ]
+        },
+        {
+          "time": 0.754,
+          "value": [
+            -2.8000000000000003,
+            4.919999999999999,
+            -10.72
+          ]
+        },
+        {
+          "time": 0.792,
+          "value": [
+            -3.15,
+            3.829999999999999,
+            -12.12
+          ]
+        },
+        {
+          "time": 0.83,
+          "value": [
+            -3.5,
+            2.5999999999999996,
+            -13.52
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl0_FinH",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": 0
+        },
+        {
+          "time": 0.82,
+          "value": 0
+        },
+        {
+          "time": 0.83,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl0_FinV",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": [
+            0.0,
+            8.6,
+            0.48
+          ]
+        },
+        {
+          "time": 0.488,
+          "value": [
+            -0.35000000000000003,
+            8.63,
+            -0.9200000000000002
+          ]
+        },
+        {
+          "time": 0.526,
+          "value": [
+            -0.7000000000000001,
+            8.52,
+            -2.3200000000000003
+          ]
+        },
+        {
+          "time": 0.564,
+          "value": [
+            -1.05,
+            8.27,
+            -3.72
+          ]
+        },
+        {
+          "time": 0.602,
+          "value": [
+            -1.4000000000000001,
+            7.879999999999999,
+            -5.120000000000001
+          ]
+        },
+        {
+          "time": 0.64,
+          "value": [
+            -1.75,
+            7.35,
+            -6.52
+          ]
+        },
+        {
+          "time": 0.678,
+          "value": [
+            -2.1,
+            6.68,
+            -7.92
+          ]
+        },
+        {
+          "time": 0.716,
+          "value": [
+            -2.4499999999999997,
+            5.87,
+            -9.319999999999999
+          ]
+        },
+        {
+          "time": 0.754,
+          "value": [
+            -2.8000000000000003,
+            4.919999999999999,
+            -10.72
+          ]
+        },
+        {
+          "time": 0.792,
+          "value": [
+            -3.15,
+            3.829999999999999,
+            -12.12
+          ]
+        },
+        {
+          "time": 0.83,
+          "value": [
+            -3.5,
+            2.5999999999999996,
+            -13.52
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl0_FinV",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.45,
+          "value": 0
+        },
+        {
+          "time": 0.82,
+          "value": 0
+        },
+        {
+          "time": 0.83,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "bs0_Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0.83,
+          "value": 0.8
+        },
+        {
+          "time": 1.08,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "mz1_Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": 1.5
+        },
+        {
+          "time": 0.76,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "pl1_Pellet",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": [
+            0.0,
+            8.6,
+            0.0
+          ]
+        },
+        {
+          "time": 0.658,
+          "value": [
+            0.0,
+            8.63,
+            -1.7000000000000002
+          ]
+        },
+        {
+          "time": 0.696,
+          "value": [
+            0.0,
+            8.52,
+            -3.4000000000000004
+          ]
+        },
+        {
+          "time": 0.734,
+          "value": [
+            0.0,
+            8.27,
+            -5.1
+          ]
+        },
+        {
+          "time": 0.772,
+          "value": [
+            0.0,
+            7.879999999999999,
+            -6.800000000000001
+          ]
+        },
+        {
+          "time": 0.81,
+          "value": [
+            0.0,
+            7.35,
+            -8.5
+          ]
+        },
+        {
+          "time": 0.848,
+          "value": [
+            0.0,
+            6.68,
+            -10.2
+          ]
+        },
+        {
+          "time": 0.886,
+          "value": [
+            0.0,
+            5.87,
+            -11.899999999999999
+          ]
+        },
+        {
+          "time": 0.924,
+          "value": [
+            0.0,
+            4.919999999999999,
+            -13.600000000000001
+          ]
+        },
+        {
+          "time": 0.962,
+          "value": [
+            0.0,
+            3.829999999999999,
+            -15.3
+          ]
+        },
+        {
+          "time": 1.0,
+          "value": [
+            0.0,
+            2.5999999999999996,
+            -17.0
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl1_Pellet",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": 0
+        },
+        {
+          "time": 0.99,
+          "value": 0
+        },
+        {
+          "time": 1.0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl1_Band",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": [
+            0.0,
+            8.6,
+            -0.12
+          ]
+        },
+        {
+          "time": 0.658,
+          "value": [
+            0.0,
+            8.63,
+            -1.8200000000000003
+          ]
+        },
+        {
+          "time": 0.696,
+          "value": [
+            0.0,
+            8.52,
+            -3.5200000000000005
+          ]
+        },
+        {
+          "time": 0.734,
+          "value": [
+            0.0,
+            8.27,
+            -5.22
+          ]
+        },
+        {
+          "time": 0.772,
+          "value": [
+            0.0,
+            7.879999999999999,
+            -6.920000000000001
+          ]
+        },
+        {
+          "time": 0.81,
+          "value": [
+            0.0,
+            7.35,
+            -8.62
+          ]
+        },
+        {
+          "time": 0.848,
+          "value": [
+            0.0,
+            6.68,
+            -10.319999999999999
+          ]
+        },
+        {
+          "time": 0.886,
+          "value": [
+            0.0,
+            5.87,
+            -12.019999999999998
+          ]
+        },
+        {
+          "time": 0.924,
+          "value": [
+            0.0,
+            4.919999999999999,
+            -13.72
+          ]
+        },
+        {
+          "time": 0.962,
+          "value": [
+            0.0,
+            3.829999999999999,
+            -15.42
+          ]
+        },
+        {
+          "time": 1.0,
+          "value": [
+            0.0,
+            2.5999999999999996,
+            -17.12
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl1_Band",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": 0
+        },
+        {
+          "time": 0.99,
+          "value": 0
+        },
+        {
+          "time": 1.0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl1_Nose",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": [
+            0.0,
+            8.6,
+            -0.8
+          ]
+        },
+        {
+          "time": 0.658,
+          "value": [
+            0.0,
+            8.63,
+            -2.5
+          ]
+        },
+        {
+          "time": 0.696,
+          "value": [
+            0.0,
+            8.52,
+            -4.2
+          ]
+        },
+        {
+          "time": 0.734,
+          "value": [
+            0.0,
+            8.27,
+            -5.8999999999999995
+          ]
+        },
+        {
+          "time": 0.772,
+          "value": [
+            0.0,
+            7.879999999999999,
+            -7.6000000000000005
+          ]
+        },
+        {
+          "time": 0.81,
+          "value": [
+            0.0,
+            7.35,
+            -9.3
+          ]
+        },
+        {
+          "time": 0.848,
+          "value": [
+            0.0,
+            6.68,
+            -11.0
+          ]
+        },
+        {
+          "time": 0.886,
+          "value": [
+            0.0,
+            5.87,
+            -12.7
+          ]
+        },
+        {
+          "time": 0.924,
+          "value": [
+            0.0,
+            4.919999999999999,
+            -14.400000000000002
+          ]
+        },
+        {
+          "time": 0.962,
+          "value": [
+            0.0,
+            3.829999999999999,
+            -16.1
+          ]
+        },
+        {
+          "time": 1.0,
+          "value": [
+            0.0,
+            2.5999999999999996,
+            -17.8
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl1_Nose",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": 0
+        },
+        {
+          "time": 0.99,
+          "value": 0
+        },
+        {
+          "time": 1.0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl1_Tip",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": [
+            0.0,
+            8.6,
+            -1.03
+          ]
+        },
+        {
+          "time": 0.658,
+          "value": [
+            0.0,
+            8.63,
+            -2.7300000000000004
+          ]
+        },
+        {
+          "time": 0.696,
+          "value": [
+            0.0,
+            8.52,
+            -4.430000000000001
+          ]
+        },
+        {
+          "time": 0.734,
+          "value": [
+            0.0,
+            8.27,
+            -6.13
+          ]
+        },
+        {
+          "time": 0.772,
+          "value": [
+            0.0,
+            7.879999999999999,
+            -7.830000000000001
+          ]
+        },
+        {
+          "time": 0.81,
+          "value": [
+            0.0,
+            7.35,
+            -9.53
+          ]
+        },
+        {
+          "time": 0.848,
+          "value": [
+            0.0,
+            6.68,
+            -11.229999999999999
+          ]
+        },
+        {
+          "time": 0.886,
+          "value": [
+            0.0,
+            5.87,
+            -12.929999999999998
+          ]
+        },
+        {
+          "time": 0.924,
+          "value": [
+            0.0,
+            4.919999999999999,
+            -14.63
+          ]
+        },
+        {
+          "time": 0.962,
+          "value": [
+            0.0,
+            3.829999999999999,
+            -16.330000000000002
+          ]
+        },
+        {
+          "time": 1.0,
+          "value": [
+            0.0,
+            2.5999999999999996,
+            -18.03
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl1_Tip",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": 0
+        },
+        {
+          "time": 0.99,
+          "value": 0
+        },
+        {
+          "time": 1.0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl1_FinH",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": [
+            0.0,
+            8.6,
+            0.48
+          ]
+        },
+        {
+          "time": 0.658,
+          "value": [
+            0.0,
+            8.63,
+            -1.2200000000000002
+          ]
+        },
+        {
+          "time": 0.696,
+          "value": [
+            0.0,
+            8.52,
+            -2.9200000000000004
+          ]
+        },
+        {
+          "time": 0.734,
+          "value": [
+            0.0,
+            8.27,
+            -4.619999999999999
+          ]
+        },
+        {
+          "time": 0.772,
+          "value": [
+            0.0,
+            7.879999999999999,
+            -6.32
+          ]
+        },
+        {
+          "time": 0.81,
+          "value": [
+            0.0,
+            7.35,
+            -8.02
+          ]
+        },
+        {
+          "time": 0.848,
+          "value": [
+            0.0,
+            6.68,
+            -9.719999999999999
+          ]
+        },
+        {
+          "time": 0.886,
+          "value": [
+            0.0,
+            5.87,
+            -11.419999999999998
+          ]
+        },
+        {
+          "time": 0.924,
+          "value": [
+            0.0,
+            4.919999999999999,
+            -13.120000000000001
+          ]
+        },
+        {
+          "time": 0.962,
+          "value": [
+            0.0,
+            3.829999999999999,
+            -14.82
+          ]
+        },
+        {
+          "time": 1.0,
+          "value": [
+            0.0,
+            2.5999999999999996,
+            -16.52
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl1_FinH",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": 0
+        },
+        {
+          "time": 0.99,
+          "value": 0
+        },
+        {
+          "time": 1.0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl1_FinV",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": [
+            0.0,
+            8.6,
+            0.48
+          ]
+        },
+        {
+          "time": 0.658,
+          "value": [
+            0.0,
+            8.63,
+            -1.2200000000000002
+          ]
+        },
+        {
+          "time": 0.696,
+          "value": [
+            0.0,
+            8.52,
+            -2.9200000000000004
+          ]
+        },
+        {
+          "time": 0.734,
+          "value": [
+            0.0,
+            8.27,
+            -4.619999999999999
+          ]
+        },
+        {
+          "time": 0.772,
+          "value": [
+            0.0,
+            7.879999999999999,
+            -6.32
+          ]
+        },
+        {
+          "time": 0.81,
+          "value": [
+            0.0,
+            7.35,
+            -8.02
+          ]
+        },
+        {
+          "time": 0.848,
+          "value": [
+            0.0,
+            6.68,
+            -9.719999999999999
+          ]
+        },
+        {
+          "time": 0.886,
+          "value": [
+            0.0,
+            5.87,
+            -11.419999999999998
+          ]
+        },
+        {
+          "time": 0.924,
+          "value": [
+            0.0,
+            4.919999999999999,
+            -13.120000000000001
+          ]
+        },
+        {
+          "time": 0.962,
+          "value": [
+            0.0,
+            3.829999999999999,
+            -14.82
+          ]
+        },
+        {
+          "time": 1.0,
+          "value": [
+            0.0,
+            2.5999999999999996,
+            -16.52
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl1_FinV",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.62,
+          "value": 0
+        },
+        {
+          "time": 0.99,
+          "value": 0
+        },
+        {
+          "time": 1.0,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "bs1_Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 1.0,
+          "value": 0.8
+        },
+        {
+          "time": 1.25,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "mz2_Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": 1.5
+        },
+        {
+          "time": 0.93,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "pl2_Pellet",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": [
+            0.0,
+            8.6,
+            0.0
+          ]
+        },
+        {
+          "time": 0.828,
+          "value": [
+            0.35000000000000003,
+            8.63,
+            -1.2000000000000002
+          ]
+        },
+        {
+          "time": 0.866,
+          "value": [
+            0.7000000000000001,
+            8.52,
+            -2.4000000000000004
+          ]
+        },
+        {
+          "time": 0.904,
+          "value": [
+            1.05,
+            8.27,
+            -3.5999999999999996
+          ]
+        },
+        {
+          "time": 0.942,
+          "value": [
+            1.4000000000000001,
+            7.879999999999999,
+            -4.800000000000001
+          ]
+        },
+        {
+          "time": 0.98,
+          "value": [
+            1.75,
+            7.35,
+            -6.0
+          ]
+        },
+        {
+          "time": 1.018,
+          "value": [
+            2.1,
+            6.68,
+            -7.199999999999999
+          ]
+        },
+        {
+          "time": 1.056,
+          "value": [
+            2.4499999999999997,
+            5.87,
+            -8.399999999999999
+          ]
+        },
+        {
+          "time": 1.094,
+          "value": [
+            2.8000000000000003,
+            4.919999999999999,
+            -9.600000000000001
+          ]
+        },
+        {
+          "time": 1.132,
+          "value": [
+            3.15,
+            3.829999999999999,
+            -10.8
+          ]
+        },
+        {
+          "time": 1.17,
+          "value": [
+            3.5,
+            2.5999999999999996,
+            -12.0
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl2_Pellet",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": 0
+        },
+        {
+          "time": 1.16,
+          "value": 0
+        },
+        {
+          "time": 1.17,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl2_Band",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": [
+            0.0,
+            8.6,
+            -0.12
+          ]
+        },
+        {
+          "time": 0.828,
+          "value": [
+            0.35000000000000003,
+            8.63,
+            -1.3200000000000003
+          ]
+        },
+        {
+          "time": 0.866,
+          "value": [
+            0.7000000000000001,
+            8.52,
+            -2.5200000000000005
+          ]
+        },
+        {
+          "time": 0.904,
+          "value": [
+            1.05,
+            8.27,
+            -3.7199999999999998
+          ]
+        },
+        {
+          "time": 0.942,
+          "value": [
+            1.4000000000000001,
+            7.879999999999999,
+            -4.920000000000001
+          ]
+        },
+        {
+          "time": 0.98,
+          "value": [
+            1.75,
+            7.35,
+            -6.12
+          ]
+        },
+        {
+          "time": 1.018,
+          "value": [
+            2.1,
+            6.68,
+            -7.319999999999999
+          ]
+        },
+        {
+          "time": 1.056,
+          "value": [
+            2.4499999999999997,
+            5.87,
+            -8.519999999999998
+          ]
+        },
+        {
+          "time": 1.094,
+          "value": [
+            2.8000000000000003,
+            4.919999999999999,
+            -9.72
+          ]
+        },
+        {
+          "time": 1.132,
+          "value": [
+            3.15,
+            3.829999999999999,
+            -10.92
+          ]
+        },
+        {
+          "time": 1.17,
+          "value": [
+            3.5,
+            2.5999999999999996,
+            -12.12
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl2_Band",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": 0
+        },
+        {
+          "time": 1.16,
+          "value": 0
+        },
+        {
+          "time": 1.17,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl2_Nose",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": [
+            0.0,
+            8.6,
+            -0.8
+          ]
+        },
+        {
+          "time": 0.828,
+          "value": [
+            0.35000000000000003,
+            8.63,
+            -2.0
+          ]
+        },
+        {
+          "time": 0.866,
+          "value": [
+            0.7000000000000001,
+            8.52,
+            -3.2
+          ]
+        },
+        {
+          "time": 0.904,
+          "value": [
+            1.05,
+            8.27,
+            -4.3999999999999995
+          ]
+        },
+        {
+          "time": 0.942,
+          "value": [
+            1.4000000000000001,
+            7.879999999999999,
+            -5.6000000000000005
+          ]
+        },
+        {
+          "time": 0.98,
+          "value": [
+            1.75,
+            7.35,
+            -6.8
+          ]
+        },
+        {
+          "time": 1.018,
+          "value": [
+            2.1,
+            6.68,
+            -7.999999999999999
+          ]
+        },
+        {
+          "time": 1.056,
+          "value": [
+            2.4499999999999997,
+            5.87,
+            -9.2
+          ]
+        },
+        {
+          "time": 1.094,
+          "value": [
+            2.8000000000000003,
+            4.919999999999999,
+            -10.400000000000002
+          ]
+        },
+        {
+          "time": 1.132,
+          "value": [
+            3.15,
+            3.829999999999999,
+            -11.600000000000001
+          ]
+        },
+        {
+          "time": 1.17,
+          "value": [
+            3.5,
+            2.5999999999999996,
+            -12.8
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl2_Nose",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": 0
+        },
+        {
+          "time": 1.16,
+          "value": 0
+        },
+        {
+          "time": 1.17,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl2_Tip",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": [
+            0.0,
+            8.6,
+            -1.03
+          ]
+        },
+        {
+          "time": 0.828,
+          "value": [
+            0.35000000000000003,
+            8.63,
+            -2.2300000000000004
+          ]
+        },
+        {
+          "time": 0.866,
+          "value": [
+            0.7000000000000001,
+            8.52,
+            -3.4300000000000006
+          ]
+        },
+        {
+          "time": 0.904,
+          "value": [
+            1.05,
+            8.27,
+            -4.63
+          ]
+        },
+        {
+          "time": 0.942,
+          "value": [
+            1.4000000000000001,
+            7.879999999999999,
+            -5.830000000000001
+          ]
+        },
+        {
+          "time": 0.98,
+          "value": [
+            1.75,
+            7.35,
+            -7.03
+          ]
+        },
+        {
+          "time": 1.018,
+          "value": [
+            2.1,
+            6.68,
+            -8.229999999999999
+          ]
+        },
+        {
+          "time": 1.056,
+          "value": [
+            2.4499999999999997,
+            5.87,
+            -9.429999999999998
+          ]
+        },
+        {
+          "time": 1.094,
+          "value": [
+            2.8000000000000003,
+            4.919999999999999,
+            -10.63
+          ]
+        },
+        {
+          "time": 1.132,
+          "value": [
+            3.15,
+            3.829999999999999,
+            -11.83
+          ]
+        },
+        {
+          "time": 1.17,
+          "value": [
+            3.5,
+            2.5999999999999996,
+            -13.03
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl2_Tip",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": 0
+        },
+        {
+          "time": 1.16,
+          "value": 0
+        },
+        {
+          "time": 1.17,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl2_FinH",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": [
+            0.0,
+            8.6,
+            0.48
+          ]
+        },
+        {
+          "time": 0.828,
+          "value": [
+            0.35000000000000003,
+            8.63,
+            -0.7200000000000002
+          ]
+        },
+        {
+          "time": 0.866,
+          "value": [
+            0.7000000000000001,
+            8.52,
+            -1.9200000000000004
+          ]
+        },
+        {
+          "time": 0.904,
+          "value": [
+            1.05,
+            8.27,
+            -3.1199999999999997
+          ]
+        },
+        {
+          "time": 0.942,
+          "value": [
+            1.4000000000000001,
+            7.879999999999999,
+            -4.32
+          ]
+        },
+        {
+          "time": 0.98,
+          "value": [
+            1.75,
+            7.35,
+            -5.52
+          ]
+        },
+        {
+          "time": 1.018,
+          "value": [
+            2.1,
+            6.68,
+            -6.719999999999999
+          ]
+        },
+        {
+          "time": 1.056,
+          "value": [
+            2.4499999999999997,
+            5.87,
+            -7.919999999999998
+          ]
+        },
+        {
+          "time": 1.094,
+          "value": [
+            2.8000000000000003,
+            4.919999999999999,
+            -9.120000000000001
+          ]
+        },
+        {
+          "time": 1.132,
+          "value": [
+            3.15,
+            3.829999999999999,
+            -10.32
+          ]
+        },
+        {
+          "time": 1.17,
+          "value": [
+            3.5,
+            2.5999999999999996,
+            -11.52
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl2_FinH",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": 0
+        },
+        {
+          "time": 1.16,
+          "value": 0
+        },
+        {
+          "time": 1.17,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "pl2_FinV",
+      "property": "Position",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": [
+            0.0,
+            8.6,
+            0.48
+          ]
+        },
+        {
+          "time": 0.828,
+          "value": [
+            0.35000000000000003,
+            8.63,
+            -0.7200000000000002
+          ]
+        },
+        {
+          "time": 0.866,
+          "value": [
+            0.7000000000000001,
+            8.52,
+            -1.9200000000000004
+          ]
+        },
+        {
+          "time": 0.904,
+          "value": [
+            1.05,
+            8.27,
+            -3.1199999999999997
+          ]
+        },
+        {
+          "time": 0.942,
+          "value": [
+            1.4000000000000001,
+            7.879999999999999,
+            -4.32
+          ]
+        },
+        {
+          "time": 0.98,
+          "value": [
+            1.75,
+            7.35,
+            -5.52
+          ]
+        },
+        {
+          "time": 1.018,
+          "value": [
+            2.1,
+            6.68,
+            -6.719999999999999
+          ]
+        },
+        {
+          "time": 1.056,
+          "value": [
+            2.4499999999999997,
+            5.87,
+            -7.919999999999998
+          ]
+        },
+        {
+          "time": 1.094,
+          "value": [
+            2.8000000000000003,
+            4.919999999999999,
+            -9.120000000000001
+          ]
+        },
+        {
+          "time": 1.132,
+          "value": [
+            3.15,
+            3.829999999999999,
+            -10.32
+          ]
+        },
+        {
+          "time": 1.17,
+          "value": [
+            3.5,
+            2.5999999999999996,
+            -11.52
+          ]
+        }
+      ]
+    },
+    {
+      "node": "pl2_FinV",
+      "property": "Transparency",
+      "keyframes": [
+        {
+          "time": 0.79,
+          "value": 0
+        },
+        {
+          "time": 1.16,
+          "value": 0
+        },
+        {
+          "time": 1.17,
+          "value": 1
+        }
+      ]
+    },
+    {
+      "node": "bs2_Light",
+      "property": "Brightness",
+      "keyframes": [
+        {
+          "time": 1.17,
+          "value": 0.8
+        },
+        {
+          "time": 1.42,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      24,
+      12,
+      10
+    ],
+    "target": [
+      0,
+      5,
+      -9
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

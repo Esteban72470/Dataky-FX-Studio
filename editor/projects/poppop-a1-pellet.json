@@ -1,0 +1,666 @@
+{
+  "version": 1,
+  "name": "Pop Pop · A1_Pellet",
+  "id": "poppop-a1-pellet",
+  "duration": 0.9,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "Pellet",
+      "class": "Part",
+      "name": "Pellet",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          0.55,
+          0.55,
+          1.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.92,
+          0.12,
+          0.14
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "Band",
+      "class": "Part",
+      "name": "Band",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.12
+        ],
+        "Size": [
+          0.6,
+          0.6,
+          0.24
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.95,
+          0.88
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "Nose",
+      "class": "Part",
+      "name": "Nose",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -0.8
+        ],
+        "Size": [
+          0.4,
+          0.4,
+          0.3
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "Tip",
+      "class": "Part",
+      "name": "Tip",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          -1.03
+        ],
+        "Size": [
+          0.2,
+          0.2,
+          0.18
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          1,
+          0.76,
+          0.18
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "FinH",
+      "class": "Part",
+      "name": "FinH",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          1.15,
+          0.08,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "FinV",
+      "class": "Part",
+      "name": "FinV",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.48
+        ],
+        "Size": [
+          0.08,
+          1.15,
+          0.4
+        ],
+        "Transparency": 0,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false,
+        "Color": [
+          0.62,
+          0.06,
+          0.08
+        ],
+        "Material": "SmoothPlastic"
+      }
+    },
+    {
+      "id": "PelletCore",
+      "class": "Attachment",
+      "name": "PelletCore",
+      "parent": "Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "TrailA",
+      "class": "Attachment",
+      "name": "TrailA",
+      "parent": "Pellet",
+      "properties": {
+        "Position": [
+          0,
+          0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "TrailB",
+      "class": "Attachment",
+      "name": "TrailB",
+      "parent": "Pellet",
+      "properties": {
+        "Position": [
+          0,
+          -0.4,
+          0.72
+        ]
+      }
+    },
+    {
+      "id": "Halo",
+      "class": "ParticleEmitter",
+      "name": "Halo",
+      "parent": "PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 40,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.2,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Lifetime": [
+          0.1,
+          0.1
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 1.3,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.9,
+            "envelope": 0
+          }
+        ],
+        "LockedToPart": true,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.62,
+              0.3
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.45,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.6,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Exhaust",
+      "class": "ParticleEmitter",
+      "name": "Exhaust",
+      "parent": "PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 70,
+        "LightInfluence": 0,
+        "LightEmission": 0.6,
+        "Brightness": 1.3,
+        "Speed": [
+          4,
+          7
+        ],
+        "SpreadAngle": [
+          12,
+          12
+        ],
+        "Lifetime": [
+          0.1,
+          0.16
+        ],
+        "EmissionDirection": "Back",
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.85,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.55,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.25,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.65,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.05,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.6,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Sparks",
+      "class": "ParticleEmitter",
+      "name": "Sparks",
+      "parent": "PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://107251295851688",
+        "Rate": 110,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.5,
+        "Speed": [
+          0.5,
+          2.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.25,
+          0.45
+        ],
+        "Acceleration": [
+          0,
+          -9,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.32,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 0.2,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.6,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.2,
+              0.18
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.6,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "Glints",
+      "class": "ParticleEmitter",
+      "name": "Glints",
+      "parent": "PelletCore",
+      "properties": {
+        "Texture": "rbxassetid://73245886600206",
+        "Rate": 14,
+        "LightInfluence": 0,
+        "LightEmission": 1,
+        "Brightness": 1.2,
+        "Speed": [
+          0.5,
+          1.5
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Lifetime": [
+          0.18,
+          0.3
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.3,
+            "value": 0.9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.97,
+              0.86
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.6,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "StarTrail",
+      "class": "Trail",
+      "name": "StarTrail",
+      "parent": "Pellet",
+      "properties": {
+        "Attachment0": "TrailA",
+        "Attachment1": "TrailB",
+        "Texture": "rbxassetid://16892366666",
+        "LightInfluence": 0,
+        "LightEmission": 0.5,
+        "FaceCamera": true,
+        "Lifetime": 0.3,
+        "WidthScale": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              1,
+              0.84,
+              0.25
+            ]
+          },
+          {
+            "time": 0.4,
+            "value": [
+              1,
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              1,
+              0.36,
+              0.74
+            ]
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Brightness": 1.2
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.6,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      4.5,
+      2.5,
+      3.5
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

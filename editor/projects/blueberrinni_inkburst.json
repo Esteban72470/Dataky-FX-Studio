@@ -1,0 +1,415 @@
+{
+  "version": 1,
+  "name": "Blueberrinni_InkBurst",
+  "id": "blueberrinni_inkburst",
+  "duration": 1.65,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "shockwave1_ancre",
+      "class": "Part",
+      "name": "Onde de choc",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0.13,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "shockwave1_point",
+      "class": "Attachment",
+      "name": "Point",
+      "parent": "shockwave1_ancre",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "shockwave1_anneau",
+      "class": "ParticleEmitter",
+      "name": "Onde de choc",
+      "parent": "shockwave1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.52,
+          0.52
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0.01,
+          0.01
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://15268066299",
+        "LightEmission": 0.2,
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.25,
+              0.75,
+              0.9
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.24,
+              0.17,
+              0.6
+            ]
+          }
+        ],
+        "Orientation": "VelocityPerpendicular",
+        "Size": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 9,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 12.5,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "smoke1_ancre",
+      "class": "Part",
+      "name": "Fumée",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          1,
+          0
+        ],
+        "Size": [
+          0.96,
+          0.48,
+          0.96
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "smoke1_fumee",
+      "class": "ParticleEmitter",
+      "name": "Fumée",
+      "parent": "smoke1_ancre",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.7,
+          1
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          2,
+          5
+        ],
+        "SpreadAngle": [
+          85,
+          85
+        ],
+        "Texture": "rbxassetid://136646414528346",
+        "LightEmission": 0,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.18,
+              0.12,
+              0.4
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.35,
+              0.25,
+              0.65
+            ]
+          }
+        ],
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "Drag": 2.5,
+        "Acceleration": [
+          0,
+          0.72,
+          0
+        ],
+        "Rotation": [
+          0,
+          360
+        ],
+        "RotSpeed": [
+          -40,
+          40
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 0.25,
+            "value": 3.7,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 4.8,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0.15,
+            "envelope": 0
+          },
+          {
+            "time": 0.6,
+            "value": 0.25,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Brightness": 1,
+        "FlipbookLayout": "Grid4x4",
+        "FlipbookMode": "OneShot",
+        "FlipbookBlendFrames": true
+      },
+      "timing": {
+        "start": 0.03,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 5
+      }
+    },
+    {
+      "id": "sparks1_ancre",
+      "class": "Part",
+      "name": "Étincelles",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          1,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "sparks1_point",
+      "class": "Attachment",
+      "name": "Point",
+      "parent": "sparks1_ancre",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "sparks1_etincelles",
+      "class": "ParticleEmitter",
+      "name": "Étincelles",
+      "parent": "sparks1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.4,
+          0.8
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          8,
+          18
+        ],
+        "SpreadAngle": [
+          180,
+          180
+        ],
+        "Texture": "rbxassetid://81997979611363",
+        "LightEmission": 0.2,
+        "Brightness": 1,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.25,
+              0.6,
+              0.85
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.25,
+              0.13,
+              0.5
+            ]
+          }
+        ],
+        "Orientation": "VelocityParallel",
+        "Drag": 3,
+        "Acceleration": [
+          0,
+          -16,
+          0
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.5,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.38,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Squash": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.7,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ],
+        "Rotation": [
+          0,
+          360
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 22
+      }
+    }
+  ],
+  "animations": [],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}

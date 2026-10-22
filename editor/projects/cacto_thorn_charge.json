@@ -1,0 +1,1185 @@
+{
+  "version": 1,
+  "name": "Cacto Thorn Charge",
+  "id": "cacto_thorn_charge",
+  "duration": 1.3,
+  "loop": false,
+  "nodes": [
+    {
+      "id": "charge1_ancre",
+      "class": "Part",
+      "name": "Cactus energy",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          5.1,
+          5.1,
+          5.1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "charge1_aspiration",
+      "class": "ParticleEmitter",
+      "name": "Concentration",
+      "parent": "charge1_ancre",
+      "properties": {
+        "Rate": 45.5,
+        "Lifetime": [
+          0.42,
+          0.42
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          5.95,
+          5.95
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://107251295851688",
+        "LightEmission": 0.5,
+        "Brightness": 1.05,
+        "Shape": "Sphere",
+        "ShapeStyle": "Surface",
+        "ShapeInOut": "Inward",
+        "Orientation": "VelocityParallel",
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.4,
+              0.95,
+              0.04
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.85,
+              1,
+              0.2
+            ]
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0.1275,
+            "envelope": 0
+          },
+          {
+            "time": 0.5,
+            "value": 0.2975,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0.17,
+            "envelope": 0
+          }
+        ],
+        "Squash": [
+          {
+            "time": 0,
+            "value": 2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 2,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.1,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.7,
+        "mode": "continuous",
+        "count": 20
+      }
+    },
+    {
+      "id": "charge1_point",
+      "class": "Attachment",
+      "name": "Point",
+      "parent": "charge1_ancre",
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "charge1_coeur",
+      "class": "ParticleEmitter",
+      "name": "Concentration · cœur",
+      "parent": "charge1_point",
+      "properties": {
+        "Rate": 0,
+        "Lifetime": [
+          0.7,
+          0.7
+        ],
+        "LightInfluence": 0,
+        "Speed": [
+          0,
+          0
+        ],
+        "SpreadAngle": [
+          0,
+          0
+        ],
+        "Texture": "rbxassetid://107251295851688",
+        "LightEmission": 0.5,
+        "Brightness": 1.05,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.4,
+              0.95,
+              0.04
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.85,
+              1,
+              0.2
+            ]
+          }
+        ],
+        "Size": [
+          {
+            "time": 0,
+            "value": 0,
+            "envelope": 0
+          },
+          {
+            "time": 0.65,
+            "value": 0.8,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 0,
+            "envelope": 0
+          }
+        ],
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.1,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.75,
+            "value": 0.2,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.05,
+        "mode": "burst",
+        "count": 1
+      }
+    },
+    {
+      "id": "charge_arcs",
+      "class": "Part",
+      "name": "Vertical cactus energy",
+      "parent": null,
+      "properties": {
+        "Position": [
+          0,
+          0,
+          0
+        ],
+        "Size": [
+          1,
+          1,
+          1
+        ],
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": false
+      }
+    },
+    {
+      "id": "arc0_a",
+      "class": "Attachment",
+      "name": "Charge base 0",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          1.8,
+          -2.1,
+          0
+        ],
+        "Axis": [
+          0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          -0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc0_b",
+      "class": "Attachment",
+      "name": "Charge crown 0",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          1.8,
+          2.1,
+          0
+        ],
+        "Axis": [
+          -0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc0",
+      "class": "Beam",
+      "name": "Cactus vertical energy 0",
+      "parent": "charge_arcs",
+      "properties": {
+        "Attachment0": "arc0_a",
+        "Attachment1": "arc0_b",
+        "Texture": "rbxassetid://118741503383946",
+        "LightEmission": 0.45,
+        "LightInfluence": 0,
+        "Brightness": 1.3,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.5,
+              1,
+              0.03
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.8,
+              1,
+              0.12
+            ]
+          }
+        ],
+        "FaceCamera": true,
+        "Segments": 16,
+        "Width0": 0.16,
+        "Width1": 0.11,
+        "CurveSize0": 0.3,
+        "CurveSize1": 0.3,
+        "TextureSpeed": 1.4,
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0,
+        "duration": 0.7,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "arc1_a",
+      "class": "Attachment",
+      "name": "Charge base 1",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          0.9000000000000002,
+          -2.1,
+          1.5588457268119895
+        ],
+        "Axis": [
+          0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          -0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc1_b",
+      "class": "Attachment",
+      "name": "Charge crown 1",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          0.9000000000000002,
+          2.1,
+          1.5588457268119895
+        ],
+        "Axis": [
+          -0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc1",
+      "class": "Beam",
+      "name": "Cactus vertical energy 1",
+      "parent": "charge_arcs",
+      "properties": {
+        "Attachment0": "arc1_a",
+        "Attachment1": "arc1_b",
+        "Texture": "rbxassetid://118741503383946",
+        "LightEmission": 0.45,
+        "LightInfluence": 0,
+        "Brightness": 1.3,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.5,
+              1,
+              0.03
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.8,
+              1,
+              0.12
+            ]
+          }
+        ],
+        "FaceCamera": true,
+        "Segments": 16,
+        "Width0": 0.16,
+        "Width1": 0.11,
+        "CurveSize0": 0.3,
+        "CurveSize1": 0.3,
+        "TextureSpeed": 1.4,
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.05,
+        "duration": 0.6499999999999999,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "arc2_a",
+      "class": "Attachment",
+      "name": "Charge base 2",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          -0.8999999999999996,
+          -2.1,
+          1.5588457268119897
+        ],
+        "Axis": [
+          0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          -0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc2_b",
+      "class": "Attachment",
+      "name": "Charge crown 2",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          -0.8999999999999996,
+          2.1,
+          1.5588457268119897
+        ],
+        "Axis": [
+          -0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc2",
+      "class": "Beam",
+      "name": "Cactus vertical energy 2",
+      "parent": "charge_arcs",
+      "properties": {
+        "Attachment0": "arc2_a",
+        "Attachment1": "arc2_b",
+        "Texture": "rbxassetid://118741503383946",
+        "LightEmission": 0.45,
+        "LightInfluence": 0,
+        "Brightness": 1.3,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.5,
+              1,
+              0.03
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.8,
+              1,
+              0.12
+            ]
+          }
+        ],
+        "FaceCamera": true,
+        "Segments": 16,
+        "Width0": 0.16,
+        "Width1": 0.11,
+        "CurveSize0": 0.3,
+        "CurveSize1": 0.3,
+        "TextureSpeed": 1.4,
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.1,
+        "duration": 0.6,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "arc3_a",
+      "class": "Attachment",
+      "name": "Charge base 3",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          -1.8,
+          -2.1,
+          2.2043642384652358e-16
+        ],
+        "Axis": [
+          0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          -0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc3_b",
+      "class": "Attachment",
+      "name": "Charge crown 3",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          -1.8,
+          2.1,
+          2.2043642384652358e-16
+        ],
+        "Axis": [
+          -0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc3",
+      "class": "Beam",
+      "name": "Cactus vertical energy 3",
+      "parent": "charge_arcs",
+      "properties": {
+        "Attachment0": "arc3_a",
+        "Attachment1": "arc3_b",
+        "Texture": "rbxassetid://118741503383946",
+        "LightEmission": 0.45,
+        "LightInfluence": 0,
+        "Brightness": 1.3,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.5,
+              1,
+              0.03
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.8,
+              1,
+              0.12
+            ]
+          }
+        ],
+        "FaceCamera": true,
+        "Segments": 16,
+        "Width0": 0.16,
+        "Width1": 0.11,
+        "CurveSize0": 0.3,
+        "CurveSize1": 0.3,
+        "TextureSpeed": 1.4,
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.15000000000000002,
+        "duration": 0.5499999999999999,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "arc4_a",
+      "class": "Attachment",
+      "name": "Charge base 4",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          -0.9000000000000008,
+          -2.1,
+          -1.558845726811989
+        ],
+        "Axis": [
+          0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          -0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc4_b",
+      "class": "Attachment",
+      "name": "Charge crown 4",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          -0.9000000000000008,
+          2.1,
+          -1.558845726811989
+        ],
+        "Axis": [
+          -0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc4",
+      "class": "Beam",
+      "name": "Cactus vertical energy 4",
+      "parent": "charge_arcs",
+      "properties": {
+        "Attachment0": "arc4_a",
+        "Attachment1": "arc4_b",
+        "Texture": "rbxassetid://118741503383946",
+        "LightEmission": 0.45,
+        "LightInfluence": 0,
+        "Brightness": 1.3,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.5,
+              1,
+              0.03
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.8,
+              1,
+              0.12
+            ]
+          }
+        ],
+        "FaceCamera": true,
+        "Segments": 16,
+        "Width0": 0.16,
+        "Width1": 0.11,
+        "CurveSize0": 0.3,
+        "CurveSize1": 0.3,
+        "TextureSpeed": 1.4,
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.2,
+        "duration": 0.49999999999999994,
+        "mode": "continuous",
+        "count": 1
+      }
+    },
+    {
+      "id": "arc5_a",
+      "class": "Attachment",
+      "name": "Charge base 5",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          0.9000000000000002,
+          -2.1,
+          -1.5588457268119895
+        ],
+        "Axis": [
+          0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          -0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc5_b",
+      "class": "Attachment",
+      "name": "Charge crown 5",
+      "parent": "charge_arcs",
+      "properties": {
+        "Position": [
+          0.9000000000000002,
+          2.1,
+          -1.5588457268119895
+        ],
+        "Axis": [
+          -0.866,
+          0.5,
+          0
+        ],
+        "SecondaryAxis": [
+          0.5,
+          0.866,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arc5",
+      "class": "Beam",
+      "name": "Cactus vertical energy 5",
+      "parent": "charge_arcs",
+      "properties": {
+        "Attachment0": "arc5_a",
+        "Attachment1": "arc5_b",
+        "Texture": "rbxassetid://118741503383946",
+        "LightEmission": 0.45,
+        "LightInfluence": 0,
+        "Brightness": 1.3,
+        "Color": [
+          {
+            "time": 0,
+            "value": [
+              0.5,
+              1,
+              0.03
+            ]
+          },
+          {
+            "time": 1,
+            "value": [
+              0.8,
+              1,
+              0.12
+            ]
+          }
+        ],
+        "FaceCamera": true,
+        "Segments": 16,
+        "Width0": 0.16,
+        "Width1": 0.11,
+        "CurveSize0": 0.3,
+        "CurveSize1": 0.3,
+        "TextureSpeed": 1.4,
+        "TextureLength": 1,
+        "TextureMode": "Stretch",
+        "Transparency": [
+          {
+            "time": 0,
+            "value": 1,
+            "envelope": 0
+          },
+          {
+            "time": 0.15,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 0.8,
+            "value": 0.1,
+            "envelope": 0
+          },
+          {
+            "time": 1,
+            "value": 1,
+            "envelope": 0
+          }
+        ]
+      },
+      "timing": {
+        "start": 0.25,
+        "duration": 0.44999999999999996,
+        "mode": "continuous",
+        "count": 1
+      }
+    }
+  ],
+  "animations": [
+    {
+      "node": "arc0",
+      "property": "Width0",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 0.02
+        },
+        {
+          "time": 0.55,
+          "value": 0.2
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc0",
+      "property": "Width1",
+      "keyframes": [
+        {
+          "time": 0,
+          "value": 0.01
+        },
+        {
+          "time": 0.55,
+          "value": 0.14
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc1",
+      "property": "Width0",
+      "keyframes": [
+        {
+          "time": 0.05,
+          "value": 0.02
+        },
+        {
+          "time": 0.55,
+          "value": 0.2
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc1",
+      "property": "Width1",
+      "keyframes": [
+        {
+          "time": 0.05,
+          "value": 0.01
+        },
+        {
+          "time": 0.55,
+          "value": 0.14
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc2",
+      "property": "Width0",
+      "keyframes": [
+        {
+          "time": 0.1,
+          "value": 0.02
+        },
+        {
+          "time": 0.55,
+          "value": 0.2
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc2",
+      "property": "Width1",
+      "keyframes": [
+        {
+          "time": 0.1,
+          "value": 0.01
+        },
+        {
+          "time": 0.55,
+          "value": 0.14
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc3",
+      "property": "Width0",
+      "keyframes": [
+        {
+          "time": 0.15000000000000002,
+          "value": 0.02
+        },
+        {
+          "time": 0.55,
+          "value": 0.2
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc3",
+      "property": "Width1",
+      "keyframes": [
+        {
+          "time": 0.15000000000000002,
+          "value": 0.01
+        },
+        {
+          "time": 0.55,
+          "value": 0.14
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc4",
+      "property": "Width0",
+      "keyframes": [
+        {
+          "time": 0.2,
+          "value": 0.02
+        },
+        {
+          "time": 0.55,
+          "value": 0.2
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc4",
+      "property": "Width1",
+      "keyframes": [
+        {
+          "time": 0.2,
+          "value": 0.01
+        },
+        {
+          "time": 0.55,
+          "value": 0.14
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc5",
+      "property": "Width0",
+      "keyframes": [
+        {
+          "time": 0.25,
+          "value": 0.02
+        },
+        {
+          "time": 0.55,
+          "value": 0.2
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    {
+      "node": "arc5",
+      "property": "Width1",
+      "keyframes": [
+        {
+          "time": 0.25,
+          "value": 0.01
+        },
+        {
+          "time": 0.55,
+          "value": 0.14
+        },
+        {
+          "time": 0.8,
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      10,
+      6,
+      12
+    ],
+    "target": [
+      0,
+      1.5,
+      0
+    ]
+  },
+  "environment": {
+    "background": "#191522"
+  }
+}
