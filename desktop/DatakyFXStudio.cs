@@ -6,11 +6,13 @@ using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
+using Microsoft.Win32.SafeHandles;
 
 internal sealed class DatakyDesktop : ApplicationContext
 {
@@ -19,6 +21,27 @@ internal sealed class DatakyDesktop : ApplicationContext
     private readonly NotifyIcon tray;
     private Process server;
     private static readonly JavaScriptSerializer Json = new JavaScriptSerializer();
+
+    [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+    private static extern SafeFileHandle CreateFile(string name, uint access, uint share, IntPtr security, uint mode, uint flags, IntPtr template);
+    [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+    private static extern uint GetFinalPathNameByHandle(SafeFileHandle file, StringBuilder path, uint size, uint flags);
+
+    private static string ResolvedDirectory(string path)
+    {
+        string absolute = Path.GetFullPath(path).TrimEnd('\\');
+        using (SafeFileHandle file = CreateFile(absolute, 0, 7, IntPtr.Zero, 3, 0x02000000, IntPtr.Zero))
+        {
+            if (file.IsInvalid) return absolute;
+            var final = new StringBuilder(32768);
+            uint length = GetFinalPathNameByHandle(file, final, (uint)final.Capacity, 0);
+            if (length == 0 || length >= final.Capacity) return absolute;
+            string value = final.ToString();
+            if (value.StartsWith(@"\\?\UNC\", StringComparison.OrdinalIgnoreCase)) value = @"\\" + value.Substring(8);
+            else if (value.StartsWith(@"\\?\", StringComparison.Ordinal)) value = value.Substring(4);
+            return value.TrimEnd('\\');
+        }
+    }
 
     private DatakyDesktop(string library, string address, Process owned)
     {
@@ -111,7 +134,7 @@ internal sealed class DatakyDesktop : ApplicationContext
             {
                 var data = Json.Deserialize<Dictionary<string, object>>(reader.ReadToEnd());
                 return data.ContainsKey("app") && (string)data["app"] == "Dataky FX Studio" && data.ContainsKey("library") &&
-                    String.Equals(Path.GetFullPath((string)data["library"]).TrimEnd('\\'), library.TrimEnd('\\'), StringComparison.OrdinalIgnoreCase);
+                    String.Equals(ResolvedDirectory((string)data["library"]), ResolvedDirectory(library), StringComparison.OrdinalIgnoreCase);
             }
         }
         catch (WebException) { return false; }
@@ -197,7 +220,17 @@ internal sealed class DatakyDesktop : ApplicationContext
         catch (Exception ex)
         {
             if (owned != null) { try { if (!owned.HasExited) owned.Kill(); } catch (InvalidOperationException) { } owned.Dispose(); }
-            if (!selfTest) MessageBox.Show(ex.Message, "Dataky FX Studio", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (selfTest)
+            {
+                try
+                {
+                    string report = args.Length > 1 ? Path.GetFullPath(args[1]) : Path.Combine(root, "editor", "desktoplogs", "verification.json");
+                    Directory.CreateDirectory(Path.GetDirectoryName(report));
+                    File.WriteAllText(report, Json.Serialize(new { status = "error", error = ex.Message, detail = ex.ToString() }), Encoding.UTF8);
+                }
+                catch (IOException) { }
+            }
+            else MessageBox.Show(ex.Message, "Dataky FX Studio", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return 1;
         }
     }
