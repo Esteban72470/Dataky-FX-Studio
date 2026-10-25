@@ -1,6 +1,8 @@
 # Dataky FX Studio
 
-Un atelier local pour composer, animer et exporter des effets Roblox. Double-cliquez sur **DATAKY_FX_STUDIO.bat** pour ouvrir l'éditeur dans le navigateur. Python 3 suffit pour le serveur ; aucun modèle local ni clé API n'est nécessaire.
+Un atelier local pour composer, animer et exporter des effets Roblox. Sur Windows, double-cliquez sur **Dataky FX Studio.exe** pour ouvrir l'éditeur dans une fenêtre d'application, sans terminal. Un raccourci peut être placé sur le Bureau. Le lanceur utilise Python 3 et Edge, Chrome ou Brave déjà installés ; aucun modèle local ni clé API n'est nécessaire. [Fonctionnement du lanceur Windows](desktop/README.md).
+
+**DATAKY_FX_STUDIO.bat** reste disponible pour ouvrir l'éditeur dans le navigateur avec son serveur visible.
 
 Cette version comprend le catalogue dynamique Textures/Beams/Meshes, la géométrie OBJ locale, les courbes et pistes d'animation, les références vidéo locales et la direction artistique manuelle. Les Parts transparentes restent sélectionnables et leur silhouette apparaît lorsqu'elles sont sélectionnées. Le modèle local, son runtime, les lanceurs et le panneau de génération ont été retirés.
 

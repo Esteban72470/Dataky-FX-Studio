@@ -18,6 +18,7 @@ backups/
 editor/local_ai/
 editor/artistry/
 editor/snapshots/
+editor/desktoplogs/
 editor/projects/*.json
 !editor/projects/enuma-elish-rupture.json
 reports-*.txt
