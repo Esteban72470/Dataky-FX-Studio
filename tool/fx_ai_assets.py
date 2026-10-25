@@ -253,6 +253,9 @@ def compile_plan(plan, selected_assets, *, snapshot=None, root=None):
     if not isinstance(snapshot, dict) or not isinstance(snapshot.get("assets"), list):
         raise AssetCompileError("Snapshot catalogue invalide")
     by_key = {a["key"]: a for a in snapshot["assets"] if isinstance(a, dict) and isinstance(a.get("key"), str)}
+    for asset in snapshot["assets"]:
+        for alias in asset.get("key_aliases", []):
+            by_key.setdefault(alias, asset)
     project = {"version": 1, "name": name, "duration": .1, "loop": False, "nodes": [], "animations": [],
                "camera": {"position": [10, 6, 12], "target": [0, 1.5, 0]}, "environment": {"background": "#191522"}}
     bindings, warnings = [], []
@@ -263,7 +266,7 @@ def compile_plan(plan, selected_assets, *, snapshot=None, root=None):
             explicit = _resolve(item["asset_key"], by_key, block)
             if selected is None:
                 selected = explicit
-            elif _asset_key(selected) != explicit["key"]:
+            elif _resolve(selected, by_key, block)["key"] != explicit["key"]:
                 raise AssetCompileError(f"blocks[{index}] : sélection différente de l'asset_key explicite")
         asset = _resolve(selected, by_key, block)
         if block == "mesh":

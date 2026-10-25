@@ -233,7 +233,7 @@ def search(collection="textures", *, shape=None, style=None, color=None, usage=N
         categories = {str(tag).casefold() for tag in row.get("tags", [])}
         if any(not wanted.intersection(set(metadata[key]) | (categories if key == "category" else set())) for key, wanted in filters.items()):
             continue
-        haystack = " ".join([str(row.get("asset_id", "")), row.get("name") or "", *row.get("tags", []),
+        haystack = " ".join([str(row.get("asset_id", "")), row.get("name") or "", *row.get("aliases", []), *row.get("tags", []),
                              *(label for key in FIELDS for label in metadata[key]), metadata.get("notes", "")]).casefold()
         if not all(word in haystack for word in words):
             continue

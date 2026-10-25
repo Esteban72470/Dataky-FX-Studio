@@ -360,7 +360,7 @@
     }catch(error){message('Import du catalogue : '+error.message,'error');}
   }
   function applyFlipbook(node,record) {if(record.kind!=='flipbook'){if(record.kind==='static'&&'FlipbookLayout'in node.properties)node.properties.FlipbookLayout='None';return;}const grid=Number(record.grid);if([2,4,8].includes(grid)&&schema.classes.ParticleEmitter?.properties.FlipbookLayout){node.properties.FlipbookLayout='Grid'+grid+'x'+grid;message('Grille '+grid+'×'+grid+' appliquée. Vérifiez son estimation dans le catalogue.');}else message('Flipbook sélectionné : choisissez sa grille dans les propriétés.');}
-  function applyMeshTexture(node,record) {const ref=(record.references||[]).find(r=>/texture/i.test(r.label||r.property||''));const key=node.class==='MeshPart'?'TextureID':'TextureId';if(ref&&schema.classes[node.class]?.properties?.[key])node.properties[key]=ref.uri||ref.raw_uri||(ref.asset_id?'rbxassetid://'+ref.asset_id:'');}
+  function applyMeshTexture(node,record) {const ref=(record.references||[]).find(r=>/texture/i.test(r.label||r.property||''));const key=node.class==='MeshPart'?'TextureID':'TextureId';if(schema.classes[node.class]?.properties?.[key]){if(Object.hasOwn(record,'primary_texture_uri'))node.properties[key]=record.primary_texture_uri;else if(ref)node.properties[key]=ref.uri||ref.raw_uri||(ref.asset_id?'rbxassetid://'+ref.asset_id:'');}}
 
   function renderTimeline() {
     const host=$('#timeline');const scroll=host.scrollTop;host.replaceChildren();const duration=Math.max(0.1,num(project.duration,3));const tracks=project.nodes.filter(n=>TIMED_CLASSES.includes(n.class));$('#timeline-count').textContent=tracks.length+(project.animations?.length||0)+' pistes';

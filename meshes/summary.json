@@ -1,8 +1,8 @@
 {
   "collection": "meshes",
-  "generated_at": "2026-10-21T00:37:12Z",
-  "phase": "downloaded",
-  "elapsed_seconds": 1.19,
+  "generated_at": "2026-10-25T13:12:36Z",
+  "phase": "indexed",
+  "elapsed_seconds": 1.52,
   "limited_smokecheck": false,
   "capture_coverage": {
     "complete": true,
@@ -260,6 +260,21 @@
           "Wind"
         ]
       }
+    },
+    "plugin_merge": {
+      "collection": "meshes",
+      "before_rows": 158,
+      "incoming_observations": 512,
+      "incoming_asset_rows": 476,
+      "after_rows": 542,
+      "unique_valid_ids": 542,
+      "new_ids": 414,
+      "existing_ids_seen": 62,
+      "collapsed_rows": 187,
+      "renamed": [],
+      "mesh_texture_variants": 545,
+      "metadata_rows": 571,
+      "verified_ui_categories": []
     }
   },
   "tag_names": [
@@ -272,27 +287,27 @@
     "Wind"
   ],
   "stats": {
-    "asset_identities": 158,
-    "source_observations": 316,
-    "extra_observations_collapsed": 158,
-    "unique_asset_ids": 128,
-    "valid_unique_asset_ids": 128,
+    "asset_identities": 542,
+    "source_observations": 828,
+    "extra_observations_collapsed": 286,
+    "unique_asset_ids": 542,
+    "valid_unique_asset_ids": 542,
     "invalid_or_deleted_identities": 0,
-    "identities_with_image": 158,
-    "unique_asset_ids_with_image": 128,
+    "identities_with_image": 542,
+    "unique_asset_ids_with_image": 542,
     "identities_absent_from_all": 0,
-    "reference_count": 164,
+    "reference_count": 554,
     "image_status_counts": {
-      "cached": 158
+      "cached": 542
     },
     "per_tag": {
-      "Lightning": 9,
-      "Other": 23,
-      "Shockwave": 32,
-      "Spheres": 18,
-      "Spikes": 15,
-      "Swirls": 43,
-      "Wind": 18
+      "Lightning": 8,
+      "Other": 20,
+      "Shockwave": 29,
+      "Spheres": 16,
+      "Spikes": 11,
+      "Swirls": 36,
+      "Wind": 16
     }
   },
   "notes": [

@@ -166,6 +166,7 @@ def _asset(row, collection, overrides, annotations):
     record = {"key": collection + ":" + ident, "collection": collection, "id": ident,
               "uri": "rbxassetid://" + ident, "name": _clean(row.get("name")),
               "tags": _labels(row.get("tags")), "aliases": _labels(row.get("aliases")),
+              "key_aliases": list(dict.fromkeys(_clean(value, 100) for value in [row.get("key"), *row.get("key_aliases", [])] if isinstance(value, str) and value)),
               "kind": _clean(row.get("kind"), 30) or {"textures": "static", "beams": "beam", "meshes": "mesh"}[collection],
               "image": _image(row, collection), "visual_status": "unknown",
               "provenance": {"source": SOURCES[collection], "license": deepcopy(row.get("license")),
@@ -182,6 +183,32 @@ def _asset(row, collection, overrides, annotations):
     if annotations is not None:
         _annotation(record, annotations)
     return record
+
+
+def _mesh_variant_rows(row):
+    """Expose saved texture choices while the editor stores one mesh row per ID."""
+    if not isinstance(row, dict) or not isinstance(row.get("variants"), list) or not row["variants"]:
+        return [row]
+    result = []
+    for variant in row["variants"]:
+        if not isinstance(variant, dict):
+            continue
+        texture = variant.get("texture_uri") or ""
+        if texture and not _id(texture):
+            continue
+        item = deepcopy(row)
+        item["references"] = [ref for ref in row.get("references", []) if isinstance(ref, dict) and str(ref.get("label", "")).casefold() not in {"textureid"}]
+        if texture:
+            item["references"].append({"label": "TextureId", "uri": texture})
+        item["key_aliases"] = list(variant.get("key_aliases", []))
+        # The row's stable key resolves its original texture choice when known.
+        if row.get("key") not in item["key_aliases"]:
+            item.pop("key", None)
+        names = variant.get("names", [])
+        if isinstance(names, list) and names:
+            item["aliases"] = list(dict.fromkeys(item.get("aliases", []) + names))
+        result.append(item)
+    return result or [row]
 
 
 def _registry(body):
@@ -237,7 +264,8 @@ def snapshot(root=None):
         if not isinstance(rows, list) or len(rows) > MAX_ROWS:
             raise CatalogError(f"{name} : liste de {MAX_ROWS} assets maximum requise")
         raw_counts[collection] = len(rows)
-        prepared = [_asset(row, collection, overrides, None) for row in rows]
+        expanded = [item for row in rows for item in _mesh_variant_rows(row)] if collection == "meshes" else rows
+        prepared = [_asset(row, collection, overrides, None) for row in expanded]
         mesh_bases = {}
         if collection == "meshes":
             variants = {}
@@ -261,6 +289,7 @@ def snapshot(root=None):
                 duplicates += 1
                 assets[key]["tags"] = list(dict.fromkeys(assets[key]["tags"] + record["tags"]))
                 assets[key]["aliases"] = list(dict.fromkeys(assets[key]["aliases"] + record["aliases"] + ([record["name"]] if record["name"] else [])))
+                assets[key]["key_aliases"] = list(dict.fromkeys(assets[key].get("key_aliases", []) + record.get("key_aliases", [])))
             else:
                 assets[key] = record
     for record in _registry(bodies[REGISTRY])["assets"]:
@@ -346,7 +375,7 @@ def search(query="", collection=None, limit=12, offset=0, *, snapshot=None, root
         haystack = set((name + " " + tags + " " + alias + " " + fold(observed)).split())
         hits = sum(bool(group & haystack) for group in groups)
         role_hits = sum(bool(group & haystack) for group in role_groups)
-        exact_key = asset["key"] in explicit_keys or query.strip() == asset["key"]
+        exact_key = asset["key"] in explicit_keys or query.strip() == asset["key"] or query.strip() in asset.get("key_aliases", [])
         exact = asset["id"] in explicit_ids or exact_key or query.strip() == asset["id"]
         if (groups or role_groups) and not (hits or role_hits or exact):
             continue
@@ -371,6 +400,8 @@ def get_asset(key, *, snapshot=None, root=None):
         raise CatalogError("Clé d'asset invalide")
     snap = snapshot if snapshot is not None else globals()["snapshot"](root)
     found = [asset for asset in snap["assets"] if asset["key"] == key or asset["id"] == key]
+    if not found:
+        found = [asset for asset in snap["assets"] if key in asset.get("key_aliases", [])]
     if len(found) != 1:
         raise CatalogError("Asset absent ou identifiant ambigu dans le catalogue actuel : " + key)
     return deepcopy(found[0])

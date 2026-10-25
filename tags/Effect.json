@@ -35,7 +35,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -49,7 +50,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -63,7 +65,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/137352418041966.png",
@@ -84,6 +87,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
     "height": 420
@@ -99,9 +112,12 @@
     "raw_uris": [
       "rbxassetid://11764000644"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/Flame002"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Fire"
     ],
     "collections": [
       "Flipbooks"
@@ -109,7 +125,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Flipbooks"
+      "Flipbooks",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -124,7 +141,8 @@
         "rect_offset": [
           512,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -138,7 +156,8 @@
         "rect_offset": [
           0,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -152,7 +171,43 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/Flame002",
+        "raw_uri": "rbxassetid://11764000644",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": 1024,
+        "source_metadata": {
+          "Name": "Images/Flame002",
+          "Keywords": [
+            "Fire"
+          ],
+          "Grid": 2,
+          "Resolution": 1024
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Fire",
+        "file": "Textures_Fire.json",
+        "raw_uri": "rbxassetid://11764000644",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flipbook",
+        "file": "Textures_Flipbook.json",
+        "raw_uri": "rbxassetid://11764000644",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/11764000644.png",
@@ -175,7 +230,25 @@
       "Flipbooks"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "19f0b9dee6f88a2daee7e8df"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "2x2 Energy",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/Flame002",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -216,7 +289,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -230,7 +304,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -244,7 +319,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/119697158190230.png",
@@ -265,6 +341,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "4d8fce3f-4907-4636-88cb-810058f277fb",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -305,7 +391,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -319,7 +406,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -333,7 +421,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/82200958384861.png",
@@ -354,6 +443,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "5407029762",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -394,7 +493,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -408,7 +508,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -422,7 +523,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/138487779668330.png",
@@ -443,6 +545,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "AE_Impact_03",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -483,7 +595,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -497,7 +610,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -511,7 +625,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/115403308288487.png",
@@ -532,6 +647,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "AE_Impact_03 - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -547,9 +672,12 @@
     "raw_uris": [
       "rbxassetid://755925534"
     ],
-    "aliases": [],
+    "aliases": [
+      "Магия_Иллюзии_3"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Impact"
     ],
     "collections": [
       "Statics"
@@ -557,7 +685,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -572,7 +701,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -586,7 +716,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -600,7 +731,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Магия_Иллюзии_3",
+        "raw_uri": "rbxassetid://755925534",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Магия_Иллюзии_3"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://755925534",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://755925534",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/755925534.png",
@@ -620,7 +785,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "fd61de91686952976afcf917"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "anime energy",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Магия_Иллюзии_3",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 413
@@ -661,7 +844,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -675,7 +859,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -689,7 +874,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/97411260968454.png",
@@ -710,6 +896,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "arcana_hydra_spiral",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -750,7 +946,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -764,7 +961,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -778,7 +976,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/78370855179789.png",
@@ -799,6 +998,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "arcana_hydra_waves",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -839,7 +1048,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -853,7 +1063,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -867,7 +1078,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/119913821922431.png",
@@ -888,6 +1100,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "arcana_orb_galaxyTrail_color",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -930,7 +1152,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -944,7 +1167,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -958,57 +1182,9 @@
         "rect_offset": [
           0,
           0
-        ]
-      }
-    ],
-    "image_path": "images/104706480994458.png",
-    "preview_path": "images/104706480994458.png",
-    "image_status": "cached",
-    "image_error": null,
-    "kind": "static",
-    "grid": 0,
-    "grid_source": "static_type_collection",
-    "classification_conflicts": [],
-    "kind_source": "type_collection",
-    "observed_rect_kinds": [
-      "static"
-    ],
-    "type_collection_ambiguous": false,
-    "kind_source_labels": [
-      "Statics"
-    ],
-    "in_all_inventory": true,
-    "observation_count": 3,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "f5e4f4de8ddee89d45943afd",
-    "name": "arcana_orbSource_03_crimson",
-    "asset_id": "104706480994458",
-    "uri": "rbxassetid://104706480994458",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://104706480994458",
-    "raw_uris": [
-      "rbxassetid://104706480994458"
-    ],
-    "aliases": [
-      "arcana_orb_spiral"
-    ],
-    "tags": [
-      "Effect"
-    ],
-    "collections": [
-      "Statics"
-    ],
-    "source_labels": [
-      "All",
-      "Effect",
-      "Statics"
-    ],
-    "observations": [
+        ],
+        "plugin": "ZonitoVisuals"
+      },
       {
         "source": "All",
         "index": 680,
@@ -1021,7 +1197,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1035,7 +1212,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1049,7 +1227,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/104706480994458.png",
@@ -1069,7 +1248,23 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "f5e4f4de8ddee89d45943afd"
+    ],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "arcana_orb_spiral",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "arcana_orbSource_03_crimson",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1110,7 +1305,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1124,7 +1320,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1138,7 +1335,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/84225088133015.png",
@@ -1159,6 +1357,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "arcane_explosionRing",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1199,7 +1407,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1213,7 +1422,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1227,7 +1437,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/77896820212086.png",
@@ -1248,6 +1459,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "attackSpeed-spiral",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1288,7 +1509,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1302,7 +1524,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1316,7 +1539,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/114633527296614.png",
@@ -1337,6 +1561,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Banner_spawn_beamRing_diff",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
     "height": 420
@@ -1377,7 +1611,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1391,7 +1626,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1405,7 +1641,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/109977146301438.png",
@@ -1426,6 +1663,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Barbarian_bashRune_fury_flash",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1466,7 +1713,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1480,7 +1728,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1494,7 +1743,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/73252185725440.png",
@@ -1515,6 +1765,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Barbarian_CallOfTheAncients_castSoulDiff",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
     "height": 420
@@ -1555,7 +1815,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1569,7 +1830,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1583,7 +1845,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/98853069177602.png",
@@ -1604,6 +1867,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Barbarian_frenzyRune_stun_strikeResidue",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1644,7 +1917,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1658,7 +1932,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1672,7 +1947,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/79464779117903.png",
@@ -1693,6 +1969,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "barbarian_furiousCharge_airSuck_addsStun",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1733,7 +2019,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1747,7 +2034,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1761,7 +2049,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/127850343433520.png",
@@ -1782,6 +2071,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "barbarian_groundStompRune_pullClose_magicCracks",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1822,7 +2121,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1836,7 +2136,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1850,7 +2151,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/75203975525115.png",
@@ -1871,6 +2173,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "barbarian_sprintWaveRune_sustain",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1913,7 +2225,8 @@
         "rect_offset": [
           896,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -1927,7 +2240,8 @@
         "rect_offset": [
           384,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -1941,7 +2255,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1955,7 +2270,8 @@
         "rect_offset": [
           256,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/123742703186401.png",
@@ -1979,6 +2295,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 4,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Chomatic Dark Downward Strange Energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2023,7 +2349,8 @@
         "rect_offset": [
           768,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2037,7 +2364,8 @@
         "rect_offset": [
           768,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -2051,7 +2379,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -2065,7 +2394,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Star",
@@ -2079,7 +2409,8 @@
         "rect_offset": [
           0,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/112778252609195.png",
@@ -2103,6 +2434,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 5,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Chromatic Erica Star Shine",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2118,9 +2459,12 @@
     "raw_uris": [
       "rbxassetid://167063256"
     ],
-    "aliases": [],
+    "aliases": [
+      "orb"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Flare"
     ],
     "collections": [
       "Statics"
@@ -2128,7 +2472,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -2143,7 +2488,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2157,7 +2503,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2171,7 +2518,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "orb",
+        "raw_uri": "rbxassetid://167063256",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Flare"
+          ],
+          "Name": "orb"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flare",
+        "file": "Textures_Flare.json",
+        "raw_uri": "rbxassetid://167063256",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://167063256",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/167063256.png",
@@ -2191,7 +2572,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "3c6f15060aa174c9df7eb3b6"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "cosmic energy",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "orb",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2207,9 +2606,12 @@
     "raw_uris": [
       "rbxassetid://1038410267"
     ],
-    "aliases": [],
+    "aliases": [
+      "black magic particle"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -2217,7 +2619,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -2232,7 +2635,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2246,7 +2650,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2260,7 +2665,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "black magic particle",
+        "raw_uri": "rbxassetid://1038410267",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "black magic particle"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://1038410267",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://1038410267",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/1038410267.png",
@@ -2280,7 +2719,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "58918582916fd935dd7a4f46"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "cosmic energy 2",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "black magic particle",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2296,9 +2753,12 @@
     "raw_uris": [
       "rbxassetid://283710844"
     ],
-    "aliases": [],
+    "aliases": [
+      "fractal_effect_stock_02_by_frostbo-d4y2itl"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Flare"
     ],
     "collections": [
       "Statics"
@@ -2306,7 +2766,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -2321,7 +2782,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2335,7 +2797,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2349,7 +2812,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "fractal_effect_stock_02_by_frostbo-d4y2itl",
+        "raw_uri": "rbxassetid://283710844",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Flare"
+          ],
+          "Name": "fractal_effect_stock_02_by_frostbo-d4y2itl"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flare",
+        "file": "Textures_Flare.json",
+        "raw_uri": "rbxassetid://283710844",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://283710844",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/283710844.png",
@@ -2369,7 +2866,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "3d1390be53bba3db4974472c"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "cosmic energy 3",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "fractal_effect_stock_02_by_frostbo-d4y2itl",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 261
@@ -2410,7 +2925,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2424,7 +2940,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2438,7 +2955,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/76643095056268.png",
@@ -2459,6 +2977,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "dark blue energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2501,7 +3029,8 @@
         "rect_offset": [
           128,
           128
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2515,7 +3044,8 @@
         "rect_offset": [
           768,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -2529,7 +3059,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -2543,7 +3074,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/81596196878789.png",
@@ -2567,6 +3099,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 4,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Dark Downward Strange Energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2582,9 +3124,12 @@
     "raw_uris": [
       "rbxassetid://243474653"
     ],
-    "aliases": [],
+    "aliases": [
+      "Dirt_Smudge"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Smoke"
     ],
     "collections": [
       "Statics"
@@ -2592,7 +3137,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -2607,7 +3153,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2621,7 +3168,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2635,7 +3183,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Dirt_Smudge",
+        "raw_uri": "rbxassetid://243474653",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Smoke"
+          ],
+          "Name": "Dirt_Smudge"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Smoke",
+        "file": "Textures_Smoke.json",
+        "raw_uri": "rbxassetid://243474653",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://243474653",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/243474653.png",
@@ -2655,7 +3237,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "10b78b42dc44d5bb529fb1d6"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "dark green energy",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Dirt_Smudge",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2696,7 +3296,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2710,7 +3311,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2724,7 +3326,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/288392896.png",
@@ -2745,6 +3348,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "dbz ki",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2785,7 +3398,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2799,7 +3413,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2813,7 +3428,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/358965513.png",
@@ -2834,6 +3450,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "dbz ki 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2849,9 +3475,12 @@
     "raw_uris": [
       "rbxassetid://1360388830"
     ],
-    "aliases": [],
+    "aliases": [
+      "Aura"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -2859,7 +3488,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -2874,7 +3504,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2888,7 +3519,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2902,7 +3534,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Aura",
+        "raw_uri": "rbxassetid://1360388830",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Aura"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://1360388830",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://1360388830",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/1360388830.png",
@@ -2922,7 +3588,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "03f60402cd21068ac6259d0b"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "dbz ki 3",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Aura",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2938,9 +3622,12 @@
     "raw_uris": [
       "rbxassetid://250186345"
     ],
-    "aliases": [],
+    "aliases": [
+      "Aura"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -2948,7 +3635,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -2963,7 +3651,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -2977,7 +3666,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2991,7 +3681,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Aura",
+        "raw_uri": "rbxassetid://250186345",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Aura"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://250186345",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://250186345",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/250186345.png",
@@ -3011,7 +3735,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "93a1921de186ec4af05f5b0d"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "dbz ki 4",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Aura",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3027,9 +3769,12 @@
     "raw_uris": [
       "rbxassetid://530839385"
     ],
-    "aliases": [],
+    "aliases": [
+      "CABLE AURA"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -3037,7 +3782,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -3052,7 +3798,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3066,7 +3813,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3080,7 +3828,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "CABLE AURA",
+        "raw_uri": "rbxassetid://530839385",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "CABLE AURA"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://530839385",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://530839385",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/530839385.png",
@@ -3100,7 +3882,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "f4cba51a9e6f744b78ff75c0"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "dbz ki 5",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "CABLE AURA",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 315,
     "height": 420
@@ -3141,7 +3941,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3155,7 +3956,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3169,7 +3971,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/130103778037471.png",
@@ -3190,6 +3993,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "demonHunter_bolaShotRune_hatred_flash",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3230,7 +4043,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3244,7 +4058,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3258,7 +4073,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/92482022441049.png",
@@ -3279,6 +4095,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "demonHunter_entangleShot_blackHole",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3319,7 +4145,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3333,7 +4160,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3347,7 +4175,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/86672717542103.png",
@@ -3368,6 +4197,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "DH_safetyShotRune_Spread_novaTrans - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3408,7 +4247,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3422,7 +4262,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3436,7 +4277,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/110307444266421.png",
@@ -3457,6 +4299,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "effect",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3497,7 +4349,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3511,7 +4364,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3525,7 +4379,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/104315221836471.png",
@@ -3546,6 +4401,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "effect1",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3586,7 +4451,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3600,7 +4466,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3614,7 +4481,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/139965844120692.png",
@@ -3635,6 +4503,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "effect2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3675,7 +4553,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3689,7 +4568,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3703,7 +4583,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/125033466617431.png",
@@ -3724,6 +4605,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "effect3",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3764,7 +4655,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3778,7 +4670,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3792,7 +4685,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/135625182601793.png",
@@ -3813,6 +4707,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "effect4",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3853,7 +4757,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3867,7 +4772,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3881,7 +4787,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/90530535920961.png",
@@ -3902,6 +4809,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "effect5",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3942,7 +4859,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -3956,7 +4874,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3970,7 +4889,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/136099100816338.png",
@@ -3991,6 +4911,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "electric energy 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4031,7 +4961,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4045,7 +4976,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4059,7 +4991,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/76427354050718.png",
@@ -4080,6 +5013,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "electric energy orb",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4095,9 +5038,12 @@
     "raw_uris": [
       "rbxassetid://100900157130245"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/image (5)"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Smoke"
     ],
     "collections": [
       "Flipbooks"
@@ -4105,7 +5051,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Flipbooks"
+      "Flipbooks",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4120,7 +5067,8 @@
         "rect_offset": [
           768,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4134,7 +5082,8 @@
         "rect_offset": [
           768,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -4148,7 +5097,43 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/image (5)",
+        "raw_uri": "rbxassetid://100900157130245",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": 1024,
+        "source_metadata": {
+          "Name": "Images/image (5)",
+          "Keywords": [
+            "Smoke"
+          ],
+          "Grid": 4,
+          "Resolution": 1024
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flipbook",
+        "file": "Textures_Flipbook.json",
+        "raw_uri": "rbxassetid://100900157130245",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Smoke",
+        "file": "Textures_Smoke.json",
+        "raw_uri": "rbxassetid://100900157130245",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/100900157130245.png",
@@ -4157,7 +5142,7 @@
     "image_error": null,
     "kind": "flipbook",
     "grid": 4,
-    "grid_source": "inferred_from_1024_sheet",
+    "grid_source": "plugin_metadata",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -4171,7 +5156,25 @@
       "Flipbooks"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "65274ff985115123835ab4c3"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Energy Blast",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/image (5)",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4187,9 +5190,12 @@
     "raw_uris": [
       "rbxassetid://12389943946"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/75056f33-76d4-4a04-81e6-8d4347c5d785"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Other"
     ],
     "collections": [
       "Statics"
@@ -4197,7 +5203,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4212,7 +5219,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4226,7 +5234,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4240,7 +5249,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/75056f33-76d4-4a04-81e6-8d4347c5d785",
+        "raw_uri": "rbxassetid://12389943946",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Other"
+          ],
+          "Name": "Images/75056f33-76d4-4a04-81e6-8d4347c5d785"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Other",
+        "file": "Textures_Other.json",
+        "raw_uri": "rbxassetid://12389943946",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12389943946",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12389943946.png",
@@ -4260,7 +5303,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "bc930852eeb6a3cbb8af14d7"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "energy blast",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/75056f33-76d4-4a04-81e6-8d4347c5d785",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4276,9 +5337,12 @@
     "raw_uris": [
       "rbxassetid://15057274418"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/Jar_Of_Souls_Noise (1)"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -4286,7 +5350,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4301,7 +5366,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4315,7 +5381,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4329,7 +5396,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/Jar_Of_Souls_Noise (1)",
+        "raw_uri": "rbxassetid://15057274418",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Images/Jar_Of_Souls_Noise (1)"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://15057274418",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://15057274418",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/15057274418.png",
@@ -4349,7 +5450,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "bf8a97ad7b910c900c8010de"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "energy droplets",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/Jar_Of_Souls_Noise (1)",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4365,9 +5484,13 @@
     "raw_uris": [
       "rbxassetid://12779603482"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/EnergyVFX41"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Smoke",
+      "Energy"
     ],
     "collections": [
       "Flipbooks"
@@ -4375,7 +5498,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Flipbooks"
+      "Flipbooks",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4390,7 +5514,8 @@
         "rect_offset": [
           256,
           128
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4404,7 +5529,8 @@
         "rect_offset": [
           512,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -4418,7 +5544,50 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/EnergyVFX41",
+        "raw_uri": "rbxassetid://12779603482",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": 1024,
+        "source_metadata": {
+          "Name": "Images/EnergyVFX41",
+          "Keywords": [
+            "Smoke"
+          ],
+          "Grid": 8,
+          "Resolution": 1024
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://12779603482",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flipbook",
+        "file": "Textures_Flipbook.json",
+        "raw_uri": "rbxassetid://12779603482",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Smoke",
+        "file": "Textures_Smoke.json",
+        "raw_uri": "rbxassetid://12779603482",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12779603482.png",
@@ -4427,7 +5596,7 @@
     "image_error": null,
     "kind": "flipbook",
     "grid": 8,
-    "grid_source": "inferred_from_1024_sheet",
+    "grid_source": "plugin_metadata",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -4441,7 +5610,25 @@
       "Flipbooks"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 7,
+    "key_aliases": [
+      "add31ce303aaebb9813d33a5"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Energy Effect",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/EnergyVFX41",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4457,9 +5644,12 @@
     "raw_uris": [
       "rbxassetid://12123878312"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/T_eff_chr0050_20_Ea_002"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Smoke"
     ],
     "collections": [
       "Flipbooks"
@@ -4467,7 +5657,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Flipbooks"
+      "Flipbooks",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4482,7 +5673,8 @@
         "rect_offset": [
           512,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4496,7 +5688,8 @@
         "rect_offset": [
           256,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -4510,7 +5703,43 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/T_eff_chr0050_20_Ea_002",
+        "raw_uri": "rbxassetid://12123878312",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": 1024,
+        "source_metadata": {
+          "Name": "Images/T_eff_chr0050_20_Ea_002",
+          "Keywords": [
+            "Smoke"
+          ],
+          "Grid": 4,
+          "Resolution": 1024
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flipbook",
+        "file": "Textures_Flipbook.json",
+        "raw_uri": "rbxassetid://12123878312",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Smoke",
+        "file": "Textures_Smoke.json",
+        "raw_uri": "rbxassetid://12123878312",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12123878312.png",
@@ -4519,7 +5748,7 @@
     "image_error": null,
     "kind": "flipbook",
     "grid": 4,
-    "grid_source": "inferred_from_1024_sheet",
+    "grid_source": "plugin_metadata",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -4533,7 +5762,25 @@
       "Flipbooks"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "a59aa9de2a49cc9eef6f3fe5"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Energy Pulse",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/T_eff_chr0050_20_Ea_002",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4549,9 +5796,12 @@
     "raw_uris": [
       "rbxassetid://6531295492"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/shorter"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Beam"
     ],
     "collections": [
       "Statics"
@@ -4559,7 +5809,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4574,7 +5825,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4588,7 +5840,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4602,7 +5855,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/shorter",
+        "raw_uri": "rbxassetid://6531295492",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Beam"
+          ],
+          "Name": "Images/shorter"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Beam",
+        "file": "Textures_Beam.json",
+        "raw_uri": "rbxassetid://6531295492",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://6531295492",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/6531295492.png",
@@ -4622,7 +5909,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "9efd8ba940d58897612689ae"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "faint glowing light",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/shorter",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4638,9 +5943,12 @@
     "raw_uris": [
       "rbxassetid://6528210403"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/image0"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Beam"
     ],
     "collections": [
       "Statics"
@@ -4648,7 +5956,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4663,7 +5972,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4677,7 +5987,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4691,7 +6002,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/image0",
+        "raw_uri": "rbxassetid://6528210403",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Beam"
+          ],
+          "Name": "Images/image0"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Beam",
+        "file": "Textures_Beam.json",
+        "raw_uri": "rbxassetid://6528210403",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://6528210403",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/6528210403.png",
@@ -4711,7 +6056,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "817379ac2f113c08dec8231f"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "faint glowing light 2",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/image0",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4752,7 +6115,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4766,7 +6130,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4780,7 +6145,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/113570892984919.png",
@@ -4801,6 +6167,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "flash_Arcane_04 - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4816,9 +6192,12 @@
     "raw_uris": [
       "rbxassetid://12362867051"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/magic_particles_2"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -4826,7 +6205,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -4841,7 +6221,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4855,7 +6236,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4869,7 +6251,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/magic_particles_2",
+        "raw_uri": "rbxassetid://12362867051",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Images/magic_particles_2"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://12362867051",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12362867051",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12362867051.png",
@@ -4889,7 +6305,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "3574d19e59a6dabb1c0bbf4c"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "glowing dark blue energy",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/magic_particles_2",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4930,7 +6364,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -4944,7 +6379,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4958,7 +6394,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/109037652893602.png",
@@ -4979,6 +6416,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "glowing energy particles",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5019,7 +6466,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5033,7 +6481,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5047,7 +6496,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/111073072644723.png",
@@ -5068,6 +6518,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "glowing green energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5083,9 +6543,12 @@
     "raw_uris": [
       "rbxassetid://12362865454"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/magic_particles_9"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -5093,7 +6556,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -5108,7 +6572,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5122,7 +6587,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5136,7 +6602,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/magic_particles_9",
+        "raw_uri": "rbxassetid://12362865454",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Images/magic_particles_9"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://12362865454",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12362865454",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12362865454.png",
@@ -5156,7 +6656,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "044b4fd966484028187a3f48"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "glowing light greenenergy",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/magic_particles_9",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5197,7 +6715,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5211,7 +6730,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5225,7 +6745,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/120876777561854.png",
@@ -5246,6 +6767,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "glowing red energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5286,7 +6817,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5300,7 +6832,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5314,7 +6847,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/88099495636377.png",
@@ -5335,6 +6869,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "golden energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5375,7 +6919,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5389,7 +6934,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5403,7 +6949,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/97125793915707.png",
@@ -5424,6 +6971,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "golden energy 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5439,9 +6996,12 @@
     "raw_uris": [
       "rbxassetid://12362863729"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/magic_particles_16"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -5449,7 +7009,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -5464,7 +7025,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5478,7 +7040,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5492,7 +7055,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/magic_particles_16",
+        "raw_uri": "rbxassetid://12362863729",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Images/magic_particles_16"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://12362863729",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12362863729",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12362863729.png",
@@ -5512,7 +7109,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "c8f74ba125a532e5c3ccbda6"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "golden energy 3",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/magic_particles_16",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5528,9 +7143,12 @@
     "raw_uris": [
       "rbxassetid://12362867268"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/magic_particles_1"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -5538,7 +7156,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -5553,7 +7172,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5567,7 +7187,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5581,7 +7202,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/magic_particles_1",
+        "raw_uri": "rbxassetid://12362867268",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Images/magic_particles_1"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://12362867268",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12362867268",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12362867268.png",
@@ -5601,7 +7256,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "833143255bebf5cbb1a11a20"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "golden energy 4",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/magic_particles_1",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5642,7 +7315,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5656,7 +7330,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5670,7 +7345,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/80643261093020.png",
@@ -5691,6 +7367,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Inverted Witch Rune",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5731,7 +7417,8 @@
         "rect_offset": [
           256,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5745,7 +7432,8 @@
         "rect_offset": [
           512,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -5759,7 +7447,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/111590250909913.png",
@@ -5783,6 +7472,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "kajwater",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5823,7 +7522,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5837,7 +7537,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5851,7 +7552,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/119704797242940.png",
@@ -5872,6 +7574,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "LensFlare_01",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5912,7 +7624,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -5926,7 +7639,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5940,7 +7654,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/127737636843874.png",
@@ -5961,6 +7676,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "light blue energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6001,7 +7726,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6015,7 +7741,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6029,7 +7756,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/96047501175195.png",
@@ -6050,6 +7778,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Lightning_17",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6090,7 +7828,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6104,7 +7843,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6118,7 +7858,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/77531735095941.png",
@@ -6139,6 +7880,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "lime green energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6179,7 +7930,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6193,7 +7945,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6207,7 +7960,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/70488771458431.png",
@@ -6228,6 +7982,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "magic_particles_11 - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6268,7 +8032,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6282,7 +8047,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6296,7 +8062,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/126934727990155.png",
@@ -6317,6 +8084,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "magic_particles_14 - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6357,7 +8134,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6371,7 +8149,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6385,7 +8164,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/113808531942303.png",
@@ -6406,6 +8186,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "magic_particles_18 - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6446,7 +8236,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6460,7 +8251,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6474,7 +8266,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/73692477625754.png",
@@ -6495,6 +8288,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "magic_particles_19 - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6535,7 +8338,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6549,7 +8353,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6563,7 +8368,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": null,
@@ -6584,6 +8390,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "magic_particles_3",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
     "height": null
@@ -6624,7 +8440,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6638,7 +8455,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6652,7 +8470,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/102431005942948.png",
@@ -6673,6 +8492,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "magic_particles_9 - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6713,7 +8542,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6727,7 +8557,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6741,7 +8572,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/129447246824328.png",
@@ -6762,6 +8594,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "monk_waveofLight_glowRune_spirit",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6802,7 +8644,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6816,7 +8659,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6830,7 +8674,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/120437089584736.png",
@@ -6851,6 +8696,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "monsterAffix_healthLink_flash_blend",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6891,7 +8746,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6905,7 +8761,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6919,7 +8776,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/104888366080018.png",
@@ -6940,6 +8798,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "mystical energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6980,7 +8848,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -6994,7 +8863,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7008,7 +8878,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/97137753921679.png",
@@ -7029,6 +8900,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "mystical energy 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7069,7 +8950,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7083,7 +8965,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7097,7 +8980,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/120412261895804.png",
@@ -7118,6 +9002,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Nova Flare",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7158,7 +9052,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7172,7 +9067,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7186,7 +9082,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/463023400.png",
@@ -7207,6 +9104,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "plasma energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7222,9 +9129,12 @@
     "raw_uris": [
       "rbxassetid://359293256"
     ],
-    "aliases": [],
+    "aliases": [
+      "particleofsomekind"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -7232,7 +9142,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -7247,7 +9158,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7261,7 +9173,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7275,7 +9188,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "particleofsomekind",
+        "raw_uri": "rbxassetid://359293256",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "particleofsomekind"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://359293256",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://359293256",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/359293256.png",
@@ -7295,7 +9242,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "9e2aadf0c699a6c3e6a52443"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "plasma energy 2",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "particleofsomekind",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 350
@@ -7336,7 +9301,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7350,7 +9316,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7364,7 +9331,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/112264898810681.png",
@@ -7385,6 +9353,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "plasma energy 3",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7400,9 +9378,12 @@
     "raw_uris": [
       "rbxassetid://13013256540"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/smokeflip3"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Smoke"
     ],
     "collections": [
       "Flipbooks"
@@ -7410,7 +9391,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Flipbooks"
+      "Flipbooks",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -7425,7 +9407,8 @@
         "rect_offset": [
           128,
           128
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7439,7 +9422,8 @@
         "rect_offset": [
           384,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -7453,16 +9437,52 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/smokeflip3",
+        "raw_uri": "rbxassetid://13013256540",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": 512,
+        "source_metadata": {
+          "Name": "Images/smokeflip3",
+          "Keywords": [
+            "Smoke"
+          ],
+          "Grid": 4,
+          "Resolution": 512
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flipbook",
+        "file": "Textures_Flipbook.json",
+        "raw_uri": "rbxassetid://13013256540",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Smoke",
+        "file": "Textures_Smoke.json",
+        "raw_uri": "rbxassetid://13013256540",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/13013256540.png",
-    "preview_path": "previews/13013256540-8x8.png",
+    "preview_path": "previews/13013256540-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 8,
-    "grid_source": "inferred_from_1024_sheet",
+    "grid": 4,
+    "grid_source": "plugin_metadata",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -7476,7 +9496,25 @@
       "Flipbooks"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "b5ae66571b7505129555bdc6"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Purple Lightning",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/smokeflip3",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7492,9 +9530,12 @@
     "raw_uris": [
       "rbxassetid://16511790647"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/image (57)"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Flipbooks"
@@ -7502,7 +9543,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Flipbooks"
+      "Flipbooks",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -7517,7 +9559,8 @@
         "rect_offset": [
           128,
           128
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7531,7 +9574,8 @@
         "rect_offset": [
           512,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -7545,7 +9589,43 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/image (57)",
+        "raw_uri": "rbxassetid://16511790647",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": 1024,
+        "source_metadata": {
+          "Name": "Images/image (57)",
+          "Keywords": [
+            "Energy"
+          ],
+          "Grid": 8,
+          "Resolution": 1024
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://16511790647",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flipbook",
+        "file": "Textures_Flipbook.json",
+        "raw_uri": "rbxassetid://16511790647",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/16511790647.png",
@@ -7554,7 +9634,7 @@
     "image_error": null,
     "kind": "flipbook",
     "grid": 8,
-    "grid_source": "inferred_from_1024_sheet",
+    "grid_source": "plugin_metadata",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -7568,7 +9648,25 @@
       "Flipbooks"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "adb852b5f4ba39ca84c24679"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Realistic Energy Pulse",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/image (57)",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7609,7 +9707,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7623,7 +9722,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7637,7 +9737,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/87557278593158.png",
@@ -7658,6 +9759,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "red energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7673,9 +9784,12 @@
     "raw_uris": [
       "rbxassetid://569507596"
     ],
-    "aliases": [],
+    "aliases": [
+      "particle4"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -7683,7 +9797,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -7698,7 +9813,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7712,7 +9828,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7726,7 +9843,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "particle4",
+        "raw_uri": "rbxassetid://569507596",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "particle4"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://569507596",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://569507596",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/569507596.png",
@@ -7746,7 +9897,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "0daf83448425e8072f96af77"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "red energy 2",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "particle4",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7762,9 +9931,12 @@
     "raw_uris": [
       "rbxassetid://12362866761"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/magic_particles_3"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "collections": [
       "Statics"
@@ -7772,7 +9944,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -7787,7 +9960,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7801,7 +9975,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7815,7 +9990,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/magic_particles_3",
+        "raw_uri": "rbxassetid://12362866761",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Energy"
+          ],
+          "Name": "Images/magic_particles_3"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Energy",
+        "file": "Textures_Energy.json",
+        "raw_uri": "rbxassetid://12362866761",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12362866761",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": null,
@@ -7835,7 +10044,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "1fe1b5a776a156ab7b0e3dee"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "red energy 3",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/magic_particles_3",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
     "height": null
@@ -7876,7 +10103,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7890,7 +10118,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7904,7 +10133,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/81606720998560.png",
@@ -7925,6 +10155,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Rune_08_Glow - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -7965,7 +10205,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -7979,7 +10220,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -7993,7 +10235,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/94382524610530.png",
@@ -8014,6 +10257,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Rune_08_Threshold - Copy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8054,7 +10307,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8068,7 +10322,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8082,7 +10337,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/107964870312643.png",
@@ -8103,6 +10359,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "smoky energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8118,9 +10384,12 @@
     "raw_uris": [
       "rbxassetid://9841301124"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/ash"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Smoke"
     ],
     "collections": [
       "Statics"
@@ -8128,7 +10397,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -8143,7 +10413,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8157,7 +10428,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8171,7 +10443,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/ash",
+        "raw_uri": "rbxassetid://9841301124",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Smoke"
+          ],
+          "Name": "Images/ash"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Smoke",
+        "file": "Textures_Smoke.json",
+        "raw_uri": "rbxassetid://9841301124",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://9841301124",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/9841301124.png",
@@ -8191,7 +10497,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "b0a9a8efd7ce364ef820fde7"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "smoky energy 2",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/ash",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8234,7 +10558,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8248,7 +10573,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8262,57 +10588,9 @@
         "rect_offset": [
           0,
           0
-        ]
-      }
-    ],
-    "image_path": "images/112512506649308.png",
-    "preview_path": "images/112512506649308.png",
-    "image_status": "cached",
-    "image_error": null,
-    "kind": "static",
-    "grid": 0,
-    "grid_source": "static_type_collection",
-    "classification_conflicts": [],
-    "kind_source": "type_collection",
-    "observed_rect_kinds": [
-      "static"
-    ],
-    "type_collection_ambiguous": false,
-    "kind_source_labels": [
-      "Statics"
-    ],
-    "in_all_inventory": true,
-    "observation_count": 3,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "d92c180e57916ececc94ccca",
-    "name": "Splinter_Cracks_01",
-    "asset_id": "112512506649308",
-    "uri": "rbxassetid://112512506649308",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://112512506649308",
-    "raw_uris": [
-      "rbxassetid://112512506649308"
-    ],
-    "aliases": [
-      "Snowmound_01"
-    ],
-    "tags": [
-      "Effect"
-    ],
-    "collections": [
-      "Statics"
-    ],
-    "source_labels": [
-      "All",
-      "Effect",
-      "Statics"
-    ],
-    "observations": [
+        ],
+        "plugin": "ZonitoVisuals"
+      },
       {
         "source": "All",
         "index": 329,
@@ -8325,7 +10603,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8339,7 +10618,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8353,7 +10633,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/112512506649308.png",
@@ -8373,7 +10654,23 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "d92c180e57916ececc94ccca"
+    ],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Snowmound_01",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Splinter_Cracks_01",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8416,7 +10713,8 @@
         "rect_offset": [
           256,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8430,7 +10728,8 @@
         "rect_offset": [
           512,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -8444,7 +10743,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -8458,7 +10758,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/132843331254867.png",
@@ -8482,6 +10783,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 4,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Water reflection patch",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8522,7 +10833,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8536,7 +10848,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8550,7 +10863,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/109608106696657.png",
@@ -8571,6 +10885,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wavy Ground Crack 1",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8611,7 +10935,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8625,7 +10950,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8639,7 +10965,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/105512364082178.png",
@@ -8660,6 +10987,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wavy Ground Crack 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8700,7 +11037,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8714,7 +11052,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8728,7 +11067,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/110537373151140.png",
@@ -8749,6 +11089,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wavy Ground Crack 3",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8789,7 +11139,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8803,7 +11154,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8817,7 +11169,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/108012128296340.png",
@@ -8838,6 +11191,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wavy Ground Crack 4",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8878,7 +11241,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8892,7 +11256,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8906,7 +11271,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/97826041414417.png",
@@ -8927,6 +11293,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wavy_Ground_Crack_3",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -8967,7 +11343,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -8981,7 +11358,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -8995,7 +11373,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/132652263802336.png",
@@ -9016,6 +11395,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wavy_Ground_Crack_4",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -9056,7 +11445,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -9070,7 +11460,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -9084,7 +11475,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/82201119138255.png",
@@ -9105,6 +11497,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "web_proj_core0001",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -9145,7 +11547,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -9159,7 +11562,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -9173,7 +11577,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/121600872634594.png",
@@ -9194,6 +11599,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "White energy cluster",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
     "height": 420
@@ -9234,7 +11649,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -9248,7 +11664,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -9262,7 +11679,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/86264542760129.png",
@@ -9283,6 +11701,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wick Energy",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
     "height": 420
@@ -9323,7 +11751,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -9337,7 +11766,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -9351,7 +11781,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/107626526720775.png",
@@ -9372,6 +11803,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "WindRune_01_Rune",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -9387,9 +11828,12 @@
     "raw_uris": [
       "rbxassetid://243740013"
     ],
-    "aliases": [],
+    "aliases": [
+      "Wata"
+    ],
     "tags": [
-      "Effect"
+      "Effect",
+      "Other"
     ],
     "collections": [
       "Statics"
@@ -9397,7 +11841,8 @@
     "source_labels": [
       "All",
       "Effect",
-      "Statics"
+      "Statics",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -9412,7 +11857,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -9426,7 +11872,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -9440,7 +11887,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Wata",
+        "raw_uri": "rbxassetid://243740013",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Other"
+          ],
+          "Name": "Wata"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Other",
+        "file": "Textures_Other.json",
+        "raw_uri": "rbxassetid://243740013",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://243740013",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/243740013.png",
@@ -9460,7 +11941,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "1146adc9338a968a54640a84"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "windy energy",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Wata",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -9501,7 +12000,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Effect",
@@ -9515,7 +12015,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -9529,7 +12030,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/94445964082137.png",
@@ -9550,6 +12052,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "wizard_arcaneTorent_blast_diff",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420

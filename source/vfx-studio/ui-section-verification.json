@@ -1,0 +1,230 @@
+{
+  "texture_categories_complete": true,
+  "categories": [
+    {
+      "category": "Form",
+      "ui_count": 1215,
+      "unique_ids": 1215,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 1203,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 12,
+      "capture": "verified/Textures_Form.json"
+    },
+    {
+      "category": "Water",
+      "ui_count": 163,
+      "unique_ids": 163,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 112,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 51,
+      "capture": "verified/Textures_Water.json"
+    },
+    {
+      "category": "Swirl",
+      "ui_count": 323,
+      "unique_ids": 323,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 288,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 35,
+      "capture": "verified/Textures_Swirl.json"
+    },
+    {
+      "category": "Grid",
+      "ui_count": 172,
+      "unique_ids": 172,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 168,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 4,
+      "capture": "verified/Textures_Grid.json"
+    },
+    {
+      "category": "Flare",
+      "ui_count": 1015,
+      "unique_ids": 1015,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 990,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 25,
+      "capture": "verified/Textures_Flare.json"
+    },
+    {
+      "category": "Ground",
+      "ui_count": 140,
+      "unique_ids": 140,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 119,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 21,
+      "capture": "verified/Textures_Ground.json"
+    },
+    {
+      "category": "Star",
+      "ui_count": 228,
+      "unique_ids": 228,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 90,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 138,
+      "capture": "verified/Textures_Star.json"
+    },
+    {
+      "category": "Lightning",
+      "ui_count": 360,
+      "unique_ids": 360,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 331,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 29,
+      "capture": "verified/Textures_Lightning.json"
+    },
+    {
+      "category": "Circle",
+      "ui_count": 777,
+      "unique_ids": 777,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 644,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 133,
+      "capture": "verified/Textures_Circle.json"
+    },
+    {
+      "category": "Spec",
+      "ui_count": 448,
+      "unique_ids": 448,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 430,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 18,
+      "capture": "verified/Textures_Spec.json"
+    },
+    {
+      "category": "Impact",
+      "ui_count": 904,
+      "unique_ids": 904,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 863,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 41,
+      "capture": "verified/Textures_Impact.json"
+    },
+    {
+      "category": "Smoke",
+      "ui_count": 640,
+      "unique_ids": 640,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 601,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 39,
+      "capture": "verified/Textures_Smoke.json"
+    },
+    {
+      "category": "Text",
+      "ui_count": 2001,
+      "unique_ids": 2001,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 536,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 1465,
+      "capture": "verified/Textures_Text.json"
+    },
+    {
+      "category": "Slashes",
+      "ui_count": 583,
+      "unique_ids": 583,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 583,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 0,
+      "capture": "verified/Textures_Slashes.json"
+    },
+    {
+      "category": "Other",
+      "ui_count": 903,
+      "unique_ids": 903,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 896,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 7,
+      "capture": "verified/Textures_Other.json"
+    },
+    {
+      "category": "Beam",
+      "ui_count": 800,
+      "unique_ids": 800,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 781,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 19,
+      "capture": "verified/Textures_Beam.json"
+    },
+    {
+      "category": "Fire",
+      "ui_count": 353,
+      "unique_ids": 353,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 299,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 54,
+      "capture": "verified/Textures_Fire.json"
+    },
+    {
+      "category": "Energy",
+      "ui_count": 275,
+      "unique_ids": 275,
+      "missing_indexes": [],
+      "ids_outside_all": [],
+      "metadata_keyword_count": 244,
+      "metadata_keyword_ids_missing_from_ui": [],
+      "extra_ui_memberships_from_name_matching": 31,
+      "capture": "verified/Textures_Energy.json"
+    }
+  ],
+  "type_sweeps": {
+    "static_count": 6426,
+    "flipbook_count": 2752,
+    "disjoint": true,
+    "union_equals_all": true,
+    "static_equals_metadata": true,
+    "flipbook_equals_metadata": true
+  },
+  "empty_sections": [
+    "User",
+    "Favorites",
+    "Custom1",
+    "Custom2"
+  ],
+  "new_button": "The plus / New control creates a filter; it is not a catalogue collection and was not activated.",
+  "meshes": {
+    "ui_sweep_complete": false,
+    "ui_entries_captured": 289,
+    "package_browser_entries": 547,
+    "package_geometry_references": 571,
+    "package_unique_mesh_ids": 476,
+    "blocked_by": "Studio script-management permission request raised by VFX Studio when cloning a preview model with a script. No permission action taken.",
+    "complete_metadata": "meshes/meshes-metadata.json"
+  },
+  "place_edits": false,
+  "script_permission_action_taken": false,
+  "ui_restoration": "Not attempted while the permission dialog is open."
+}

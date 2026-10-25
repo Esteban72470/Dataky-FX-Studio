@@ -86,6 +86,8 @@ def describe_asset(item: dict[str, Any], collection: str) -> dict[str, Any]:
     out = {"id": str(item.get("asset_id")), "uri": item.get("uri"), "name": item.get("name") or "", "tags": item.get("tags", []),
            "collection": collection, "kind": item.get("kind"), "image": image,
            "size": [item.get("width"), item.get("height")]}
+    out["aliases"] = item.get("aliases", [])
+    out["key_aliases"] = item.get("key_aliases", [])
     grid = item.get("grid") or 0
     if collection == "textures" and item.get("kind") == "flipbook":
         try:
@@ -101,6 +103,10 @@ def describe_asset(item: dict[str, Any], collection: str) -> dict[str, Any]:
     if collection == "meshes":
         for reference in item.get("references", []):
             out[reference.get("label", "MeshId")] = reference.get("uri")
+        if "primary_texture_uri" in item:
+            out["TextureId"] = item["primary_texture_uri"]
+        if item.get("variants"):
+            out["variants"] = item["variants"]
     return out
 
 
@@ -167,7 +173,7 @@ def search_assets(collection: str = "textures", tag: str | None = None, kind: st
     if query:
         words = query.lower().split()
         items = [item for item in items if str(item.get("asset_id")) == query.strip()
-                 or all(word in (item.get("name") or "").lower() for word in words)]
+                 or all(word in " ".join([item.get("name") or "", *item.get("aliases", [])]).lower() for word in words)]
     excluded = excluded_ids(exclude_ids, exclude_file)
     if excluded:
         items = [item for item in items if str(item.get("asset_id")) not in excluded]

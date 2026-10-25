@@ -1,0 +1,62 @@
+{
+  "plugin": "VFX Studio",
+  "plugin_asset_id": "135581141962270",
+  "installed_version": "36372145307849",
+  "package_sha256": "4cd056bc8d2ab0053995035e611b049c38b3eceaf53e4f2e57a63304d3a0169c",
+  "captured_at": "2026-10-25T12:56:14.211317+00:00",
+  "remote_metadata_url": "https://raw.githubusercontent.com/Sytranom/VFXStudio/refs/heads/main/VFXData.json",
+  "local_and_remote_metadata_identical": false,
+  "texture_rows": 9178,
+  "texture_kind_counts": {
+    "static": 6426,
+    "flipbook": 2752
+  },
+  "texture_keyword_counts": {
+    "Flare": 990,
+    "Slashes": 583,
+    "Other": 896,
+    "Form": 1203,
+    "Grid": 168,
+    "Beam": 781,
+    "Fire": 299,
+    "Impact": 863,
+    "Circle": 644,
+    "Smoke": 601,
+    "Text": 536,
+    "Ground": 119,
+    "Lightning": 331,
+    "Spec": 430,
+    "Swirl": 288,
+    "Water": 112,
+    "Energy": 244,
+    "Star": 90
+  },
+  "mesh_geometry_rows": 571,
+  "unique_mesh_ids": 476,
+  "mesh_browser_root_items": 547,
+  "mesh_root_classes": {
+    "MeshPart": 533,
+    "Model": 7,
+    "Part": 6,
+    "UnionOperation": 1
+  },
+  "extraction": "Read-only installed package binary metadata plus publicly referenced JSON; no plugin code executed, no plugin scripts included.",
+  "ui_full_sweep_verified": true,
+  "ui_equals_remote_metadata": true,
+  "ui_unique_texture_ids": 9178,
+  "installed_vs_remote_changes": {
+    "remote_added": [
+      "117697269089448",
+      "135522487559371"
+    ],
+    "remote_removed": [
+      "110781751514494",
+      "139200777915968"
+    ],
+    "other_metadata_changes": 0
+  },
+  "kind_ui_mismatch_count": 0,
+  "non_mesh_id_browser_items": 6,
+  "ui_full_sweep_scope": "textures only; see ui-section-verification.json for the partial mesh UI sweep",
+  "mesh_ui_sweep_complete": false
+}

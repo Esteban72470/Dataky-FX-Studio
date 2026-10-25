@@ -19,6 +19,7 @@ import os
 from pathlib import Path
 import re
 import sqlite3
+import sys
 import tempfile
 import time
 
@@ -354,7 +355,7 @@ def make_summary(rows, raw_count, coverage, started, *, limited=False, phase="in
                       "all_inventory_identities": len(all_rows), "unique_asset_ids": len(assets),
                       "valid_unique_asset_ids": len(valid_assets),
                       "extra_observations_collapsed": raw_count - len(rows),
-                      "duplicate_rows_note": "An identity is canonical ID + exact name. Tag observations and repeated rows collapse into one identity.",
+                      "duplicate_rows_note": "One row per valid canonical Roblox ID; names and source keys are aliases, invalid placeholders stay separate." if coverage.get("plugin_merge") else "An identity is canonical ID + exact name. Tag observations and repeated rows collapse into one identity.",
                       "invalid_or_deleted_identities": sum(row["id_status"] != "valid" for row in rows),
                       "normalized_uri_identities": sum(bool(row["normalization_warnings"]) for row in rows),
                       "classification_conflict_identities": sum(bool(row["classification_conflicts"]) for row in rows),
@@ -492,6 +493,10 @@ def export_catalogue(rows, summary, output_dir):
     with tempfile.TemporaryDirectory(prefix=".gallery-", dir=output_dir) as temporary:
         generated = build_gallery(rows, Path(temporary), summary, extra_collections=load_extra_collections(output_dir))
         os.replace(generated, output_dir / "catalogue.html")
+    if any("VFX Studio" in row.get("plugins", []) for row in rows):
+        from import_vfx_studio import enrich_export_files
+        import asset_catalog
+        enrich_export_files(rows, summary, output_dir, "textures", sys.modules[__name__], asset_catalog)
 
 
 def run(args):
@@ -505,6 +510,11 @@ def run(args):
     if args.allow_partial and coverage["excluded_incomplete_labels"]:
         print("[catalogue] Excluded incomplete captures: " + ", ".join(coverage["excluded_incomplete_labels"]), flush=True)
     rows, raw_count = normalize_records(sources)
+    from import_vfx_studio import merge_saved_plugin
+    rows, plugin_merge = merge_saved_plugin(root, rows, "textures", sys.modules[__name__])
+    if plugin_merge:
+        coverage["plugin_merge"] = plugin_merge
+        raw_count = sum(len(row.get("observations", [])) for row in rows)
     if not rows:
         raise ValueError("No captured texture records were found")
     output_dir = root / "smokecheck" if args.limit else root

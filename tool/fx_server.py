@@ -835,7 +835,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     server = create_server(port=args.port)
     origin = f"http://127.0.0.1:{server.server_port}"
-    print(f"{APP} : {origin}\nFermer cette fenêtre arrête le serveur. Le bouton IA locale utilise le moteur local configuré.", flush=True)
+    print(f"{APP} : {origin}\nFermer cette fenêtre arrête le serveur.", flush=True)
     if not args.no_browser:
         webbrowser.open(origin)
     try:

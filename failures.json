@@ -4,7 +4,8 @@
     "asset_id": "101872876976948",
     "name": "3D Circle 49",
     "tags": [
-      "Circle"
+      "Circle",
+      "Spec"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -147,7 +148,8 @@
     "asset_id": "14248840306",
     "name": "Deteriorating Pixels",
     "tags": [
-      "Other"
+      "Other",
+      "Smoke"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -213,7 +215,8 @@
     "asset_id": "81276431283103",
     "name": "Foggy Circle Overlay",
     "tags": [
-      "Circle"
+      "Circle",
+      "Water"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -264,11 +267,449 @@
     "image_error": "Roblox thumbnail state: Blocked"
   },
   {
+    "key": "a39bee2e7ed221dbb828d2eb",
+    "asset_id": "86277405027439",
+    "name": "Images/15547440125",
+    "tags": [
+      "Slashes"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "8b856964cd87bcf746817339",
+    "asset_id": "129788587973385",
+    "name": "Images/1_00015 (1)",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "5ed74fbcf4f43dfbaaf7499f",
+    "asset_id": "82454921129566",
+    "name": "Images/2023-05-19_13-07-24 StarsFlipbook",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "258636cdc13ea137b0289a33",
+    "asset_id": "16978713087",
+    "name": "Images/a (14)",
+    "tags": [
+      "Energy"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "8a385944cbf543de58ae6b5b",
+    "asset_id": "103933711929682",
+    "name": "Images/betterstarmob_00000 (1)",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "e5c1a18a639a3666518cc3a7",
+    "asset_id": "106157690415710",
+    "name": "Images/efbb263d0e9a512d579f8a24468ca02b-modified",
+    "tags": [
+      "Smoke"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "e8cc32c921b14b40b7c35a0f",
+    "asset_id": "16924761676",
+    "name": "Images/explosion2",
+    "tags": [
+      "Smoke"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "767b709d6a029a044946fb99",
+    "asset_id": "75860837672225",
+    "name": "Images/ezgif-294fe1d4afd49e",
+    "tags": [
+      "Form"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "a960c673827fe4847496461e",
+    "asset_id": "97805000012919",
+    "name": "Images/Flipbook Beam 2",
+    "tags": [
+      "Other",
+      "Beam"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "1c515fd09e210d6984fbc619",
+    "asset_id": "97832520978860",
+    "name": "Images/Flipbook Beam 6",
+    "tags": [
+      "Other",
+      "Beam"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "ec74e4eb38afb2ce6441e2e3",
+    "asset_id": "112623203342692",
+    "name": "Images/Flipbook Form 1",
+    "tags": [
+      "Other",
+      "Form"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "efb6d3bde54ffc25ff8b06e8",
+    "asset_id": "131631145120497",
+    "name": "Images/Flipbook Form 2",
+    "tags": [
+      "Other",
+      "Form"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "5bfca9b247cf6169531363b5",
+    "asset_id": "81964261236473",
+    "name": "Images/Flipbook Form 5",
+    "tags": [
+      "Other",
+      "Form"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "e5f411a7bbb3341173480bdb",
+    "asset_id": "119773201490802",
+    "name": "Images/Flipbook Form 6",
+    "tags": [
+      "Other",
+      "Form"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "95dcabd140869d6ca5a4c3a3",
+    "asset_id": "84542799529943",
+    "name": "Images/gemostry_00000 (1)",
+    "tags": [
+      "Ground"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "912b8180b7c37911375b0772",
+    "asset_id": "16924773089",
+    "name": "Images/glass3",
+    "tags": [
+      "Ground"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "8a9ae71552aeec99e30bc371",
+    "asset_id": "7948622114",
+    "name": "Images/Glitch1 (1)",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "9c63e270fd8ad9aefced7641",
+    "asset_id": "123396326155795",
+    "name": "Images/JJK_CURSED_ENERGY",
+    "tags": [
+      "Energy"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "cc8f11323d6226cb9a1cefc3",
+    "asset_id": "100300862060592",
+    "name": "Images/less_circular_particle_fog_thing",
+    "tags": [
+      "Energy"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "90feb7f4d74cbd17e17271e8",
+    "asset_id": "136704387236058",
+    "name": "Images/Misc.003",
+    "tags": [
+      "Form"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "89e793673ca3b50e64a07e52",
+    "asset_id": "115276216840019",
+    "name": "Images/mob_better2_00000",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "3eeb5e29074877df303a1ad3",
+    "asset_id": "105866171848641",
+    "name": "Images/mob_better3_00000 (1)",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d36b57e998f7928d1fc401de",
+    "asset_id": "97510490919952",
+    "name": "Images/normal",
+    "tags": [
+      "Swirl"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b3116a0fc90bcb78c7018378",
+    "asset_id": "17170339044",
+    "name": "Images/SaitamaKanji4x4",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b6a917a18e68dccf7194f45e",
+    "asset_id": "79244938156718",
+    "name": "Images/sas1",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "726d87528447fe49a56e6679",
+    "asset_id": "78768579979870",
+    "name": "Images/sprite_sheet-9",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d3d488de6654142989958760",
+    "asset_id": "111825360272929",
+    "name": "Images/Squigglysmokey_Flippy (1)",
+    "tags": [
+      "Other",
+      "Smoke"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b6787778f17c3d786ac1e2e8",
+    "asset_id": "133231523317584",
+    "name": "Images/Star 6",
+    "tags": [
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "db31714492695cbd42c72e8a",
+    "asset_id": "17517672182",
+    "name": "Images/starmob_00000",
+    "tags": [
+      "Other",
+      "Star"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "5e319be7cc106587281d4bf1",
+    "asset_id": "110473164975577",
+    "name": "Images/SwirlPixel",
+    "tags": [
+      "Swirl"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "0abb1fe9e8cc3f9f1b2925b0",
+    "asset_id": "128629059905168",
+    "name": "Images/test-0",
+    "tags": [
+      "Fire"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "e87c01321147f64db1509a65",
+    "asset_id": "114556503855998",
+    "name": "Images/Text 40",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "238e531a5824f696d34b61ac",
+    "asset_id": "136988288511898",
+    "name": "Images/Text 43",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "07410a0556aed247a9bf1583",
+    "asset_id": "128179240445608",
+    "name": "Images/Text 44",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "1507dfc6a7fe715fa7cecc97",
+    "asset_id": "111564993816968",
+    "name": "Images/thingamajig_fog (1)",
+    "tags": [
+      "Circle"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "2b4265769f4a17bba1f5e926",
+    "asset_id": "74614021916565",
+    "name": "Images/Untitled328_20250427185929",
+    "tags": [
+      "Beam"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "e1bfc9fefab51f743d2432d7",
+    "asset_id": "118748429794810",
+    "name": "Images/Untitled329_20250408213758",
+    "tags": [
+      "Flare"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b6afe508d2fbdf54d8cf077f",
+    "asset_id": "100753447239359",
+    "name": "Images/Wing16_1",
+    "tags": [
+      "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "14a287d0c779bb41abd9e190",
+    "asset_id": "123410872768878",
+    "name": "Images/WITH_THIS_GYAT_I_SUMMON_00000",
+    "tags": [
+      "Energy"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
     "key": "cc465cc1c900286e9e59836d",
     "asset_id": "13378717718",
     "name": "Inner glow circle 14",
     "tags": [
-      "Circle"
+      "Circle",
+      "Impact"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -367,7 +808,8 @@
     "asset_id": "80765513197269",
     "name": "Mirrored Ripple Overlay",
     "tags": [
-      "Circle"
+      "Circle",
+      "Water"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -400,7 +842,8 @@
     "asset_id": "12402878994",
     "name": "Multiple Specs 34",
     "tags": [
-      "Spec"
+      "Spec",
+      "Flare"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -455,7 +898,8 @@
     "asset_id": "12362866761",
     "name": "red energy 3",
     "tags": [
-      "Effect"
+      "Effect",
+      "Energy"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -499,7 +943,9 @@
     "asset_id": "14061881330",
     "name": "Seamless Energy Mass",
     "tags": [
-      "Other"
+      "Other",
+      "Smoke",
+      "Ground"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -588,6 +1034,257 @@
     "name": "Text Kanji 3531",
     "tags": [
       "Other"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "d109a8c7cb3eb64de68bae00",
+    "asset_id": "116286167771416",
+    "name": "Texture",
+    "tags": [
+      "Other",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "ab83d99c7af0b3a7115fd5de",
+    "asset_id": "120563838014828",
+    "name": "Texture",
+    "tags": [
+      "Swirl",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "449fba9f99de6a408df1f9be",
+    "asset_id": "124870454414784",
+    "name": "Texture",
+    "tags": [
+      "Other",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "7529fe2bf10c74af78614848",
+    "asset_id": "125368463849350",
+    "name": "Texture",
+    "tags": [
+      "Swirl",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "3535679531a5d202039d4be3",
+    "asset_id": "128488005243516",
+    "name": "Texture",
+    "tags": [
+      "Swirl",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "32a51f97328ecf2cd7241be0",
+    "asset_id": "132208062160512",
+    "name": "Texture",
+    "tags": [
+      "Flare",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "b92b4d06bc0c6e17056bb270",
+    "asset_id": "133263366213660",
+    "name": "Texture",
+    "tags": [
+      "Circle",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "143779e6bb99da8b07bf6bdf",
+    "asset_id": "134752236747615",
+    "name": "Texture",
+    "tags": [
+      "Flare",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "805fe71053ae35e07262f39f",
+    "asset_id": "134908149077927",
+    "name": "Texture",
+    "tags": [
+      "Circle",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "541b085db8b3d31133955a15",
+    "asset_id": "18542389353",
+    "name": "Texture",
+    "tags": [
+      "Flare",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "pending",
+    "image_error": "Roblox thumbnail state: Pending"
+  },
+  {
+    "key": "8a57812003e5cd3c0be5feb9",
+    "asset_id": "71582444177805",
+    "name": "Texture",
+    "tags": [
+      "Flare",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "1e08165780a15c7586a1429a",
+    "asset_id": "74226308811002",
+    "name": "Texture",
+    "tags": [
+      "Other",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "eec060a534bdc16910f20de4",
+    "asset_id": "74965973703928",
+    "name": "Texture",
+    "tags": [
+      "Other",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "9497956c799e91f70f54d30a",
+    "asset_id": "79183785737654",
+    "name": "Texture",
+    "tags": [
+      "Smoke",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "8f2bf9a55faf1d775bbe9b4c",
+    "asset_id": "87969166990827",
+    "name": "Texture",
+    "tags": [
+      "Swirl",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "f5f978fdd4211a7cd485ac5b",
+    "asset_id": "88623426677656",
+    "name": "Texture",
+    "tags": [
+      "Swirl",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "2dd1d455c1f26978fa83f801",
+    "asset_id": "93420871310879",
+    "name": "Texture",
+    "tags": [
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "55e246586bc1fc1894a6492a",
+    "asset_id": "94698008981093",
+    "name": "Texture",
+    "tags": [
+      "Smoke",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "error",
+    "image_error": "HTTP 408"
+  },
+  {
+    "key": "2d2c534002eb340e8ad3318a",
+    "asset_id": "95708459147473",
+    "name": "Texture",
+    "tags": [
+      "Water",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "290caf9f6523ac507092421a",
+    "asset_id": "96173677014929",
+    "name": "Texture",
+    "tags": [
+      "Other",
+      "Text"
+    ],
+    "id_status": "valid",
+    "image_status": "blocked",
+    "image_error": "Roblox thumbnail state: Blocked"
+  },
+  {
+    "key": "f83d9994c3f34f6975542e2e",
+    "asset_id": "99690570529106",
+    "name": "Texture",
+    "tags": [
+      "Swirl",
+      "Text"
     ],
     "id_status": "valid",
     "image_status": "blocked",
@@ -697,7 +1394,8 @@
     "asset_id": "16504340270",
     "name": "White Ripple",
     "tags": [
-      "Other"
+      "Other",
+      "Water"
     ],
     "id_status": "valid",
     "image_status": "blocked",

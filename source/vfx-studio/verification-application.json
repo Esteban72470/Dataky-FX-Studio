@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "textures": {
+      "rows": 13282,
+      "valid_unique_ids": 13278,
+      "plugin_ids_verified": 9178
+    },
+    "meshes": {
+      "rows": 543,
+      "valid_unique_ids": 542,
+      "plugin_ids_verified": 476,
+      "machine_local_obj_rows_excluded": 1
+    }
+  },
+  "missing": {
+    "textures": [],
+    "meshes": []
+  },
+  "page_errors": [],
+  "no_local_ai_button": true,
+  "checked_at": "2026-10-25T13:15:12.297Z",
+  "revision": "a232e7dc7d1781f23e8673698a9d0f5a4d2796ca1655e524c09dc6521d604ab7",
+  "scope": "UI check of the source working copy; its one machine-local OBJ is excluded from the public distribution."
+}

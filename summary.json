@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T23:37:18Z",
-  "phase": "downloaded",
-  "elapsed_seconds": 62.33,
+  "generated_at": "2026-10-25T13:12:27Z",
+  "phase": "indexed",
+  "elapsed_seconds": 9.64,
   "limited_smokecheck": false,
   "capture_coverage": {
     "complete": true,
@@ -30,6 +30,7 @@
     "missing_required_labels": [],
     "incomplete_required_labels": [],
     "incomplete_optional_labels": [],
+    "excluded_incomplete_labels": [],
     "sources": {
       "All": {
         "label": "All",
@@ -559,6 +560,2133 @@
         "canvas_height": 1100,
         "window_height": 850
       }
+    },
+    "plugin_merge": {
+      "collection": "textures",
+      "before_rows": 6914,
+      "incoming_observations": 29656,
+      "incoming_asset_rows": 9178,
+      "after_rows": 13282,
+      "unique_valid_ids": 13278,
+      "new_ids": 6386,
+      "existing_ids_seen": 2792,
+      "collapsed_rows": 2810,
+      "renamed": [
+        {
+          "asset_id": "16877947889",
+          "before": "Circle13",
+          "after": "Images/glowyring"
+        },
+        {
+          "asset_id": "16878073342",
+          "before": "Circle16",
+          "after": "Images/Shockwave_4"
+        },
+        {
+          "asset_id": "16878087472",
+          "before": "Circle20",
+          "after": "Images/18dfvdfg"
+        },
+        {
+          "asset_id": "16878163169",
+          "before": "Circle56",
+          "after": "Images/Circle_04 - Copy"
+        },
+        {
+          "asset_id": "16878165349",
+          "before": "Circle57",
+          "after": "Images/MagicCircle8"
+        },
+        {
+          "asset_id": "16878166759",
+          "before": "Circle58",
+          "after": "Images/AltarOfRebirth_Symbol_01 - Copy"
+        },
+        {
+          "asset_id": "16878168153",
+          "before": "Circle59",
+          "after": "Images/Lightning_Mark_Big_01"
+        },
+        {
+          "asset_id": "16878169825",
+          "before": "Circle60",
+          "after": "Images/Moon_Circle_Inner"
+        },
+        {
+          "asset_id": "16878174995",
+          "before": "Circle63",
+          "after": "Images/Circle_Mask_02_Glow_tga"
+        },
+        {
+          "asset_id": "16879510067",
+          "before": "Circle64",
+          "after": "Images/Venti_Magic_Circle"
+        },
+        {
+          "asset_id": "16879520982",
+          "before": "Circle65",
+          "after": "Images/Ventiii (1)"
+        },
+        {
+          "asset_id": "16879522362",
+          "before": "Circle66",
+          "after": "Images/Png_30 (1)"
+        },
+        {
+          "asset_id": "16879526707",
+          "before": "Circle68",
+          "after": "Images/Meteor2 (1)"
+        },
+        {
+          "asset_id": "16879534356",
+          "before": "Circle69",
+          "after": "Images/image (8)"
+        },
+        {
+          "asset_id": "16989931959",
+          "before": "Circle71",
+          "after": "Images/circlee"
+        },
+        {
+          "asset_id": "17006206111",
+          "before": "Circle73",
+          "after": "Images/ripel_00000 (1)"
+        },
+        {
+          "asset_id": "17388445124",
+          "before": "Crescent29",
+          "after": "Images/wave2"
+        },
+        {
+          "asset_id": "17388445822",
+          "before": "Crescent33",
+          "after": "Images/slash2"
+        },
+        {
+          "asset_id": "122954463046434",
+          "before": "Fire125",
+          "after": "Images/ToonContrastFlame"
+        },
+        {
+          "asset_id": "16860267787",
+          "before": "Fire36",
+          "after": "Images/nmewrtert"
+        },
+        {
+          "asset_id": "16860307403",
+          "before": "Fire38",
+          "after": "Images/shockwave1"
+        },
+        {
+          "asset_id": "16860392125",
+          "before": "Fire41",
+          "after": "Images/flameshard_00000"
+        },
+        {
+          "asset_id": "16860398159",
+          "before": "Fire42",
+          "after": "Images/fiery_wind_00000"
+        },
+        {
+          "asset_id": "16860407735",
+          "before": "Fire44",
+          "after": "Images/fire_00000"
+        },
+        {
+          "asset_id": "16860419961",
+          "before": "Fire45",
+          "after": "Images/fire3"
+        },
+        {
+          "asset_id": "16860424478",
+          "before": "Fire46",
+          "after": "Images/fire12_1"
+        },
+        {
+          "asset_id": "16860461660",
+          "before": "Fire50",
+          "after": "Images/coolframeFLIP"
+        },
+        {
+          "asset_id": "16860466525",
+          "before": "Fire51",
+          "after": "Images/dissolvefireflip"
+        },
+        {
+          "asset_id": "16860479669",
+          "before": "Fire53",
+          "after": "Images/wat this flip"
+        },
+        {
+          "asset_id": "17062535921",
+          "before": "Fire55",
+          "after": "Images/FlameSpec4x4"
+        },
+        {
+          "asset_id": "13580356309",
+          "before": "Impact109",
+          "after": "Images/swirl2"
+        },
+        {
+          "asset_id": "15232757562",
+          "before": "Impact112",
+          "after": "JJK2"
+        },
+        {
+          "asset_id": "13877773941",
+          "before": "Impact131",
+          "after": "Images/spiked aura"
+        },
+        {
+          "asset_id": "17116634286",
+          "before": "Impact133",
+          "after": "Images/flare thing"
+        },
+        {
+          "asset_id": "14198289536",
+          "before": "Impact136",
+          "after": "Images/0035a"
+        },
+        {
+          "asset_id": "17230502008",
+          "before": "Impact141",
+          "after": "Images/T_RadialFlareFragmentedSmear002"
+        },
+        {
+          "asset_id": "17230469812",
+          "before": "Impact142",
+          "after": "Images/T_Burst013"
+        },
+        {
+          "asset_id": "15249897265",
+          "before": "Impact143",
+          "after": "Images/spiral soft"
+        },
+        {
+          "asset_id": "6835970470",
+          "before": "Impact153",
+          "after": "circle"
+        },
+        {
+          "asset_id": "7216853032",
+          "before": "Impact165",
+          "after": "Images/muzzle_05"
+        },
+        {
+          "asset_id": "7216980507",
+          "before": "Impact173",
+          "after": "Images/muzzle_03_rotated"
+        },
+        {
+          "asset_id": "12363834464",
+          "before": "Impact181",
+          "after": "Images/muzzle_flash_4"
+        },
+        {
+          "asset_id": "108619105019258",
+          "before": "Impact182",
+          "after": "Images/waaaaaaaa"
+        },
+        {
+          "asset_id": "17233782592",
+          "before": "Impact187",
+          "after": "Images/T_Burst014"
+        },
+        {
+          "asset_id": "13276340568",
+          "before": "Impact199",
+          "after": "Images/gateofSWIRL"
+        },
+        {
+          "asset_id": "13008240253",
+          "before": "Impact200",
+          "after": "Images/Shockwave18"
+        },
+        {
+          "asset_id": "8050136743",
+          "before": "Impact201",
+          "after": "Images/OutlineThin"
+        },
+        {
+          "asset_id": "12363831015",
+          "before": "Impact205",
+          "after": "Images/muzzle_flash_15"
+        },
+        {
+          "asset_id": "75575191296959",
+          "before": "Impact206",
+          "after": "Images/2023-10-29_15-49-27 Idk_shape_mapper_practi"
+        },
+        {
+          "asset_id": "13312871240",
+          "before": "Impact208",
+          "after": "Images/cracks"
+        },
+        {
+          "asset_id": "8187306950",
+          "before": "Impact210",
+          "after": "Images/Smash"
+        },
+        {
+          "asset_id": "10358044068",
+          "before": "Impact214",
+          "after": "Images/after1"
+        },
+        {
+          "asset_id": "15846281508",
+          "before": "Impact216",
+          "after": "Images/shine3"
+        },
+        {
+          "asset_id": "12363829499",
+          "before": "Impact217",
+          "after": "Images/muzzle_flash_20"
+        },
+        {
+          "asset_id": "7216980374",
+          "before": "Impact219",
+          "after": "Images/muzzle_04_rotated"
+        },
+        {
+          "asset_id": "12934525258",
+          "before": "Impact220",
+          "after": "Images/Impact06"
+        },
+        {
+          "asset_id": "13052216743",
+          "before": "Impact223",
+          "after": "Images/weird color ring (FAIR USE)"
+        },
+        {
+          "asset_id": "91258273437332",
+          "before": "Impact224",
+          "after": "Images/twirler"
+        },
+        {
+          "asset_id": "15414372185",
+          "before": "Impact226",
+          "after": "Images/why"
+        },
+        {
+          "asset_id": "6700005265",
+          "before": "Impact227",
+          "after": "vortex spell effect"
+        },
+        {
+          "asset_id": "12318428842",
+          "before": "Impact228",
+          "after": "Images/Png (17)"
+        },
+        {
+          "asset_id": "11037771923",
+          "before": "Impact230",
+          "after": "Images/DAX_GenericGlow"
+        },
+        {
+          "asset_id": "1380079888",
+          "before": "Impact231",
+          "after": "cracked ground"
+        },
+        {
+          "asset_id": "9841274014",
+          "before": "Impact232",
+          "after": "Images/flash_large"
+        },
+        {
+          "asset_id": "12363835029",
+          "before": "Impact233",
+          "after": "Images/muzzle_flash_2"
+        },
+        {
+          "asset_id": "7216853129",
+          "before": "Impact235",
+          "after": "Images/muzzle_04"
+        },
+        {
+          "asset_id": "6950204777",
+          "before": "Impact240",
+          "after": "Hit1"
+        },
+        {
+          "asset_id": "12363834704",
+          "before": "Impact241",
+          "after": "Images/muzzle_flash_3"
+        },
+        {
+          "asset_id": "12363835324",
+          "before": "Impact242",
+          "after": "Images/muzzle_flash_1"
+        },
+        {
+          "asset_id": "14261185577",
+          "before": "Impact244",
+          "after": "Images/Shockwave"
+        },
+        {
+          "asset_id": "10176632695",
+          "before": "Impact245",
+          "after": "Images/Shockwave7"
+        },
+        {
+          "asset_id": "8120282803",
+          "before": "Impact247",
+          "after": "scattered radical rays"
+        },
+        {
+          "asset_id": "7229481183",
+          "before": "Impact248",
+          "after": "fractal burst"
+        },
+        {
+          "asset_id": "8172249266",
+          "before": "Impact249",
+          "after": "Images/Crater"
+        },
+        {
+          "asset_id": "7083340510",
+          "before": "Impact253",
+          "after": "Images/circle wave"
+        },
+        {
+          "asset_id": "12363833757",
+          "before": "Impact255",
+          "after": "Images/muzzle_flash_6"
+        },
+        {
+          "asset_id": "12363806794",
+          "before": "Impact256",
+          "after": "Images/impact_2"
+        },
+        {
+          "asset_id": "266366832",
+          "before": "Impact257",
+          "after": "Vortex"
+        },
+        {
+          "asset_id": "18469255840",
+          "before": "Impact258",
+          "after": "Images/Untitled27_20240706194158"
+        },
+        {
+          "asset_id": "12363807038",
+          "before": "Impact259",
+          "after": "Images/impact_1"
+        },
+        {
+          "asset_id": "8620925663",
+          "before": "Impact260",
+          "after": "Images/TX-D-001"
+        },
+        {
+          "asset_id": "16505105356",
+          "before": "Impact261",
+          "after": "Images/CoolFogRing"
+        },
+        {
+          "asset_id": "15795148629",
+          "before": "Impact262",
+          "after": "Lines"
+        },
+        {
+          "asset_id": "531628477",
+          "before": "Impact263",
+          "after": "SmashParticle"
+        },
+        {
+          "asset_id": "9119467826",
+          "before": "Impact264",
+          "after": "a"
+        },
+        {
+          "asset_id": "15232760101",
+          "before": "Impact265",
+          "after": "JJK4"
+        },
+        {
+          "asset_id": "15157788474",
+          "before": "Impact271",
+          "after": "Images/doublecrescent3"
+        },
+        {
+          "asset_id": "14052694884",
+          "before": "Impact272",
+          "after": "Images/n1"
+        },
+        {
+          "asset_id": "13052328202",
+          "before": "Impact273",
+          "after": "Images/worst particle of all time"
+        },
+        {
+          "asset_id": "421935851",
+          "before": "Impact275",
+          "after": "Customizeable Grass Particle 2"
+        },
+        {
+          "asset_id": "12937922388",
+          "before": "Impact276",
+          "after": "Images/bluntHit"
+        },
+        {
+          "asset_id": "129214390501092",
+          "before": "Impact277",
+          "after": "Images/MAIN_000010"
+        },
+        {
+          "asset_id": "17222880434",
+          "before": "Impact278",
+          "after": "Images/circle 복사2"
+        },
+        {
+          "asset_id": "10151994092",
+          "before": "Impact279",
+          "after": "Images/aura5"
+        },
+        {
+          "asset_id": "10039693328",
+          "before": "Impact280",
+          "after": "Images/Shockwave7"
+        },
+        {
+          "asset_id": "11037774773",
+          "before": "Impact281",
+          "after": "Images/DAX_Fur_G0_02"
+        },
+        {
+          "asset_id": "13254479230",
+          "before": "Impact282",
+          "after": "Images/flare_25bad"
+        },
+        {
+          "asset_id": "13911306541",
+          "before": "Impact283",
+          "after": "a"
+        },
+        {
+          "asset_id": "7216856276",
+          "before": "Impact284",
+          "after": "Images/circle_02"
+        },
+        {
+          "asset_id": "10358014393",
+          "before": "Impact285",
+          "after": "Images/swirl2"
+        },
+        {
+          "asset_id": "14163287554",
+          "before": "Impact287",
+          "after": "Images/d04effb4-931f-44d8-86e4-6366b73048ce"
+        },
+        {
+          "asset_id": "12713735498",
+          "before": "Impact289",
+          "after": "Images/fx_cloud_white_3"
+        },
+        {
+          "asset_id": "11037771358",
+          "before": "Impact290",
+          "after": "Images/DAX_Ground_0"
+        },
+        {
+          "asset_id": "12102003705",
+          "before": "Impact291",
+          "after": "Images/godly_smash_transparent"
+        },
+        {
+          "asset_id": "100377073579906",
+          "before": "Impact292",
+          "after": "Images/Splinter_Cracks_01"
+        },
+        {
+          "asset_id": "91458692181989",
+          "before": "Impact293",
+          "after": "Images/348eaff5-e76b-4b3a-ae1f-635df61b70d1"
+        },
+        {
+          "asset_id": "12604178841",
+          "before": "Impact295",
+          "after": "Images/Blurry Spike Circle (Fair Use)"
+        },
+        {
+          "asset_id": "13934866570",
+          "before": "Impact297",
+          "after": "Images/Ripple"
+        },
+        {
+          "asset_id": "12329058133",
+          "before": "Impact299",
+          "after": "Images/awesomecircle1"
+        },
+        {
+          "asset_id": "12363830081",
+          "before": "Impact300",
+          "after": "Images/muzzle_flash_18"
+        },
+        {
+          "asset_id": "13504296914",
+          "before": "Impact301",
+          "after": "Images/waterwheel ###"
+        },
+        {
+          "asset_id": "528280947",
+          "before": "Impact302",
+          "after": "particle_spark"
+        },
+        {
+          "asset_id": "13934906846",
+          "before": "Impact303",
+          "after": "Images/Ripple2"
+        },
+        {
+          "asset_id": "8538309001",
+          "before": "Impact304",
+          "after": "Images/lightning"
+        },
+        {
+          "asset_id": "15057249267",
+          "before": "Impact305",
+          "after": "Images/Burst2"
+        },
+        {
+          "asset_id": "12363806228",
+          "before": "Impact307",
+          "after": "Images/impact_4"
+        },
+        {
+          "asset_id": "14186586240",
+          "before": "Impact310",
+          "after": "Air1"
+        },
+        {
+          "asset_id": "13366467537",
+          "before": "Impact311",
+          "after": "Images/Impact"
+        },
+        {
+          "asset_id": "16511716188",
+          "before": "Impact312",
+          "after": "Images/GroundTech"
+        },
+        {
+          "asset_id": "16511719438",
+          "before": "Impact313",
+          "after": "Images/Ground3"
+        },
+        {
+          "asset_id": "15190419677",
+          "before": "Impact314",
+          "after": "Images/shockwave_2_00000_00000"
+        },
+        {
+          "asset_id": "2083452767",
+          "before": "Impact317",
+          "after": "Test"
+        },
+        {
+          "asset_id": "14101024770",
+          "before": "Impact318",
+          "after": "Images/92ec1979-26a5-4efc-b7bd-a1b8f43765ff"
+        },
+        {
+          "asset_id": "13322172582",
+          "before": "Impact319",
+          "after": "Images/just the circle"
+        },
+        {
+          "asset_id": "11155929795",
+          "before": "Impact320",
+          "after": "Images/Crack2"
+        },
+        {
+          "asset_id": "17511023878",
+          "before": "Impact321",
+          "after": "Images/impacttexture"
+        },
+        {
+          "asset_id": "15107669350",
+          "before": "Impact322",
+          "after": "Images/what_00063"
+        },
+        {
+          "asset_id": "11155927496",
+          "before": "Impact323",
+          "after": "Images/Crack1"
+        },
+        {
+          "asset_id": "16442657509",
+          "before": "Impact324",
+          "after": "Images/@Flame17"
+        },
+        {
+          "asset_id": "11155931654",
+          "before": "Impact325",
+          "after": "Images/Crack3"
+        },
+        {
+          "asset_id": "12363693873",
+          "before": "Impact326",
+          "after": "Images/rounded_14"
+        },
+        {
+          "asset_id": "16924487116",
+          "before": "Impact328",
+          "after": "Images/glass"
+        },
+        {
+          "asset_id": "7216849471",
+          "before": "Impact330",
+          "after": "Images/star_03"
+        },
+        {
+          "asset_id": "16310636399",
+          "before": "Impact331",
+          "after": "Images/S"
+        },
+        {
+          "asset_id": "13877774093",
+          "before": "Impact332",
+          "after": "Images/god lines"
+        },
+        {
+          "asset_id": "14457094589",
+          "before": "Impact333",
+          "after": "Images/Twirl Shockwave"
+        },
+        {
+          "asset_id": "9263377611",
+          "before": "Impact334",
+          "after": "Ring Particle"
+        },
+        {
+          "asset_id": "12362799983",
+          "before": "Impact336",
+          "after": "Images/color_burst_11"
+        },
+        {
+          "asset_id": "6508928742",
+          "before": "Impact337",
+          "after": "light burst"
+        },
+        {
+          "asset_id": "17426550881",
+          "before": "Impact339",
+          "after": "Images/balling"
+        },
+        {
+          "asset_id": "12363771712",
+          "before": "Impact340",
+          "after": "Images/flare_30"
+        },
+        {
+          "asset_id": "6900421398",
+          "before": "Impact341",
+          "after": "energy ring particle 2"
+        },
+        {
+          "asset_id": "7136554315",
+          "before": "Impact342",
+          "after": "Circle3 Effect"
+        },
+        {
+          "asset_id": "13580367052",
+          "before": "Impact343",
+          "after": "Images/hollow-gradient-blur"
+        },
+        {
+          "asset_id": "17311703172",
+          "before": "Impact344",
+          "after": "Images/swirl-dots"
+        },
+        {
+          "asset_id": "12937922496",
+          "before": "Impact347",
+          "after": "Images/Shockwave1"
+        },
+        {
+          "asset_id": "13776019823",
+          "before": "Impact349",
+          "after": "Images/side_burst"
+        },
+        {
+          "asset_id": "15232762362",
+          "before": "Impact350",
+          "after": "JJK6"
+        },
+        {
+          "asset_id": "133641703264989",
+          "before": "Impact352",
+          "after": "Images/Circle36"
+        },
+        {
+          "asset_id": "12363831334",
+          "before": "Impact355",
+          "after": "Images/muzzle_flash_14"
+        },
+        {
+          "asset_id": "12389944306",
+          "before": "Impact359",
+          "after": "Images/906abefa-60fa-4077-ba01-bcf1862573ff"
+        },
+        {
+          "asset_id": "11037785994",
+          "before": "Impact379",
+          "after": "Images/DAX_DUST_CP_0"
+        },
+        {
+          "asset_id": "13052243772",
+          "before": "Impact382",
+          "after": "Images/hopefully reasonable color ring"
+        },
+        {
+          "asset_id": "12363830762",
+          "before": "Impact383",
+          "after": "Images/muzzle_flash_16"
+        },
+        {
+          "asset_id": "12363693111",
+          "before": "Impact385",
+          "after": "Images/rounded_17"
+        },
+        {
+          "asset_id": "12363829856",
+          "before": "Impact389",
+          "after": "Images/muzzle_flash_19"
+        },
+        {
+          "asset_id": "12363832189",
+          "before": "Impact391",
+          "after": "Images/muzzle_flash_11"
+        },
+        {
+          "asset_id": "17223867020",
+          "before": "Impact392",
+          "after": "Images/11복사"
+        },
+        {
+          "asset_id": "12363834197",
+          "before": "Impact401",
+          "after": "Images/muzzle_flash_5"
+        },
+        {
+          "asset_id": "13195681934",
+          "before": "Impact402",
+          "after": "Images/shockwave"
+        },
+        {
+          "asset_id": "14049993216",
+          "before": "Impact405",
+          "after": "Images/shine2"
+        },
+        {
+          "asset_id": "9281305957",
+          "before": "Impact406",
+          "after": "Images/Aura 4"
+        },
+        {
+          "asset_id": "7216980203",
+          "before": "Impact407",
+          "after": "Images/muzzle_05_rotated"
+        },
+        {
+          "asset_id": "130051131742651",
+          "before": "Impact408",
+          "after": "Images/Pngtreewall_crack_effect_1899077"
+        },
+        {
+          "asset_id": "7216980646",
+          "before": "Impact409",
+          "after": "Images/muzzle_02_rotated"
+        },
+        {
+          "asset_id": "6991254829",
+          "before": "Impact411",
+          "after": "Shockwave 3"
+        },
+        {
+          "asset_id": "10468554009",
+          "before": "Impact412",
+          "after": "impact"
+        },
+        {
+          "asset_id": "9841260358",
+          "before": "Impact413",
+          "after": "Images/plasma_ring"
+        },
+        {
+          "asset_id": "14006332061",
+          "before": "Impact416",
+          "after": "Images/Comp 1 (3)"
+        },
+        {
+          "asset_id": "12363805508",
+          "before": "Impact417",
+          "after": "Images/impact_7"
+        },
+        {
+          "asset_id": "14050027802",
+          "before": "Impact418",
+          "after": "Images/Shine4"
+        },
+        {
+          "asset_id": "13580361554",
+          "before": "Impact422",
+          "after": "Images/shockwave3"
+        },
+        {
+          "asset_id": "17218042034",
+          "before": "Impact423",
+          "after": "Images/circle"
+        },
+        {
+          "asset_id": "89475216268158",
+          "before": "Impact424",
+          "after": "Images/quant7"
+        },
+        {
+          "asset_id": "15611866526",
+          "before": "Impact426",
+          "after": "Images/fog ring"
+        },
+        {
+          "asset_id": "12878479033",
+          "before": "Impact430",
+          "after": "Images/Circle_14"
+        },
+        {
+          "asset_id": "12074939493",
+          "before": "Impact431",
+          "after": "Arbiter Rings"
+        },
+        {
+          "asset_id": "7216856158",
+          "before": "Impact434",
+          "after": "Images/circle_03"
+        },
+        {
+          "asset_id": "13276318464",
+          "before": "Impact435",
+          "after": "Images/Impact_1"
+        },
+        {
+          "asset_id": "12363804409",
+          "before": "Impact437",
+          "after": "Images/impact_12"
+        },
+        {
+          "asset_id": "9573351641",
+          "before": "Impact440",
+          "after": "Burst particle"
+        },
+        {
+          "asset_id": "14902601560",
+          "before": "Impact443",
+          "after": "Images/Untitled76_20230927235831"
+        },
+        {
+          "asset_id": "9841283317",
+          "before": "Impact445",
+          "after": "Images/burst_spray"
+        },
+        {
+          "asset_id": "7417145436",
+          "before": "Impact446",
+          "after": "Images/Png (17)"
+        },
+        {
+          "asset_id": "917189380",
+          "before": "Impact448",
+          "after": "Light Effect: 4-Arm Spiral"
+        },
+        {
+          "asset_id": "13580368246",
+          "before": "Impact449",
+          "after": "Images/ground-blast2"
+        },
+        {
+          "asset_id": "11037781450",
+          "before": "Impact450",
+          "after": "Images/DAX_Explode_Qc_01"
+        },
+        {
+          "asset_id": "16310656466",
+          "before": "Impact451",
+          "after": "Images/S6"
+        },
+        {
+          "asset_id": "1021559161",
+          "before": "Impact452",
+          "after": "powergather"
+        },
+        {
+          "asset_id": "12985993958",
+          "before": "Impact453",
+          "after": "Images/shockwave burst1"
+        },
+        {
+          "asset_id": "13322173171",
+          "before": "Impact455",
+          "after": "Images/just the ring"
+        },
+        {
+          "asset_id": "73686186124009",
+          "before": "Impact456",
+          "after": "Images/Untitled_Artwork_63"
+        },
+        {
+          "asset_id": "10423605602",
+          "before": "Impact457",
+          "after": "Images/couldworklol"
+        },
+        {
+          "asset_id": "14187042797",
+          "before": "Impact459",
+          "after": "Air3"
+        },
+        {
+          "asset_id": "8553497052",
+          "before": "Impact461",
+          "after": "particle"
+        },
+        {
+          "asset_id": "14670080222",
+          "before": "Impact462",
+          "after": "Images/Vortex"
+        },
+        {
+          "asset_id": "14850595833",
+          "before": "Impact463",
+          "after": "Images/FinalWindTest"
+        },
+        {
+          "asset_id": "12363803018",
+          "before": "Impact464",
+          "after": "Images/impact_18"
+        },
+        {
+          "asset_id": "12363804203",
+          "before": "Impact465",
+          "after": "Images/impact_13"
+        },
+        {
+          "asset_id": "17511017695",
+          "before": "Impact466",
+          "after": "Images/shadow"
+        },
+        {
+          "asset_id": "8271495905",
+          "before": "Impact467",
+          "after": "Images/rainbow patter"
+        },
+        {
+          "asset_id": "12362801799",
+          "before": "Impact468",
+          "after": "Images/color_burst_1"
+        },
+        {
+          "asset_id": "11037781125",
+          "before": "Impact469",
+          "after": "Images/DAX_Flare_0"
+        },
+        {
+          "asset_id": "11198241185",
+          "before": "Impact470",
+          "after": "Images/Shockwave6"
+        },
+        {
+          "asset_id": "10357935135",
+          "before": "Impact471",
+          "after": "Imag#######"
+        },
+        {
+          "asset_id": "991687067",
+          "before": "Impact473",
+          "after": "stun"
+        },
+        {
+          "asset_id": "8133065785",
+          "before": "Impact477",
+          "after": "Images/HitFX2"
+        },
+        {
+          "asset_id": "13052235894",
+          "before": "Impact478",
+          "after": "Images/hollow color ring"
+        },
+        {
+          "asset_id": "426653646",
+          "before": "Impact479",
+          "after": "Wind Slash"
+        },
+        {
+          "asset_id": "11037775680",
+          "before": "Impact481",
+          "after": "Images/DAX_Fur_G0_00"
+        },
+        {
+          "asset_id": "14191976356",
+          "before": "Impact482",
+          "after": "Images/shiene"
+        },
+        {
+          "asset_id": "12934685982",
+          "before": "Impact483",
+          "after": "Images/Circle_Mask_01"
+        },
+        {
+          "asset_id": "18463089761",
+          "before": "Impact485",
+          "after": "Images/Clouds"
+        },
+        {
+          "asset_id": "130910060014626",
+          "before": "Impact486",
+          "after": "Images/lalaaa"
+        },
+        {
+          "asset_id": "11037774449",
+          "before": "Impact488",
+          "after": "Images/DAX_Fur_G0_03"
+        },
+        {
+          "asset_id": "2512988643",
+          "before": "Impact489",
+          "after": "pureblast"
+        },
+        {
+          "asset_id": "7185003058",
+          "before": "Impact490",
+          "after": "image (23)"
+        },
+        {
+          "asset_id": "13580361755",
+          "before": "Impact491",
+          "after": "Images/shockwave2"
+        },
+        {
+          "asset_id": "16924434689",
+          "before": "Impact494",
+          "after": "Images/timewarp"
+        },
+        {
+          "asset_id": "7136551175",
+          "before": "Impact495",
+          "after": "Circle2 Effect"
+        },
+        {
+          "asset_id": "10372847108",
+          "before": "Impact497",
+          "after": "Images/after"
+        },
+        {
+          "asset_id": "81031882000395",
+          "before": "Impact498",
+          "after": "Images/Comdp_1_00000"
+        },
+        {
+          "asset_id": "347913776",
+          "before": "Impact500",
+          "after": "ssj aura"
+        },
+        {
+          "asset_id": "917180351",
+          "before": "Impact501",
+          "after": "Light Effect: Vertical Rays"
+        },
+        {
+          "asset_id": "13366469414",
+          "before": "Impact502",
+          "after": "Images/Wave"
+        },
+        {
+          "asset_id": "6479341134",
+          "before": "Impact503",
+          "after": "Images/sparko"
+        },
+        {
+          "asset_id": "12363804675",
+          "before": "Impact504",
+          "after": "Images/impact_11"
+        },
+        {
+          "asset_id": "12362801668",
+          "before": "Impact505",
+          "after": "Images/color_burst_2"
+        },
+        {
+          "asset_id": "13412508268",
+          "before": "Impact511",
+          "after": "Pixel circle"
+        },
+        {
+          "asset_id": "130699061689075",
+          "before": "Impact513",
+          "after": "Images/whirpol"
+        },
+        {
+          "asset_id": "15267344381",
+          "before": "Impact520",
+          "after": "Images/glow-ring"
+        },
+        {
+          "asset_id": "16504781241",
+          "before": "Impact521",
+          "after": "Images/ShineYarrow"
+        },
+        {
+          "asset_id": "14261953171",
+          "before": "Impact523",
+          "after": "Images/spinny-remake"
+        },
+        {
+          "asset_id": "13463779259",
+          "before": "Impact524",
+          "after": "Images/groundshockwave2"
+        },
+        {
+          "asset_id": "18244764764",
+          "before": "Impact527",
+          "after": "Images/trail"
+        },
+        {
+          "asset_id": "13261022937",
+          "before": "Impact533",
+          "after": "Images/Impact16"
+        },
+        {
+          "asset_id": "119042490072369",
+          "before": "Impact534",
+          "after": "Images/Untitled_Artwork_15"
+        },
+        {
+          "asset_id": "17511071788",
+          "before": "Impact535",
+          "after": "Images/fancy"
+        },
+        {
+          "asset_id": "11037779500",
+          "before": "Impact536",
+          "after": "Images/DAX_Flare_4"
+        },
+        {
+          "asset_id": "18356099314",
+          "before": "Impact539",
+          "after": "Images/shock"
+        },
+        {
+          "asset_id": "13463782016",
+          "before": "Impact540",
+          "after": "Images/swirl (1)"
+        },
+        {
+          "asset_id": "14163269969",
+          "before": "Impact541",
+          "after": "Images/Shockwave_02"
+        },
+        {
+          "asset_id": "88071472734604",
+          "before": "Impact544",
+          "after": "Images/Frost_Shockwave_01"
+        },
+        {
+          "asset_id": "7216853466",
+          "before": "Impact545",
+          "after": "Images/muzzle_01"
+        },
+        {
+          "asset_id": "8187306832",
+          "before": "Impact547",
+          "after": "Images/Swirl"
+        },
+        {
+          "asset_id": "12363803287",
+          "before": "Impact549",
+          "after": "Images/impact_17"
+        },
+        {
+          "asset_id": "12939193247",
+          "before": "Impact550",
+          "after": "Images/spikes"
+        },
+        {
+          "asset_id": "13380577992",
+          "before": "Impact551",
+          "after": "Images/rintg"
+        },
+        {
+          "asset_id": "16132530029",
+          "before": "Impact552",
+          "after": "Ink splash"
+        },
+        {
+          "asset_id": "18230541777",
+          "before": "Impact553",
+          "after": "Images/blooddd"
+        },
+        {
+          "asset_id": "16357973363",
+          "before": "Impact554",
+          "after": "Images/flares_49"
+        },
+        {
+          "asset_id": "6110499276",
+          "before": "Impact558",
+          "after": "Images/firework2"
+        },
+        {
+          "asset_id": "17492035906",
+          "before": "Impact560",
+          "after": "Images/shinething"
+        },
+        {
+          "asset_id": "17212277976",
+          "before": "Impact561",
+          "after": "Images/T_BurstFragmentedSmear006"
+        },
+        {
+          "asset_id": "9590261549",
+          "before": "Impact562",
+          "after": "Images/Shockwave2"
+        },
+        {
+          "asset_id": "13131393513",
+          "before": "Impact563",
+          "after": "Images/GroundWind"
+        },
+        {
+          "asset_id": "14400010915",
+          "before": "Impact564",
+          "after": "Images/double-sided-crescent"
+        },
+        {
+          "asset_id": "13964665265",
+          "before": "Impact567",
+          "after": "Images/detailed_eye_Shine"
+        },
+        {
+          "asset_id": "15232725926",
+          "before": "Impact568",
+          "after": "Twirl1"
+        },
+        {
+          "asset_id": "12363805108",
+          "before": "Impact569",
+          "after": "Images/impact_9"
+        },
+        {
+          "asset_id": "18356198599",
+          "before": "Impact573",
+          "after": "Images/Shockwave15"
+        },
+        {
+          "asset_id": "18469255549",
+          "before": "Impact574",
+          "after": "Images/NewTexture"
+        },
+        {
+          "asset_id": "12363832526",
+          "before": "Impact576",
+          "after": "Images/muzzle_flash_10"
+        },
+        {
+          "asset_id": "1463840694",
+          "before": "Impact577",
+          "after": "Hit1"
+        },
+        {
+          "asset_id": "12878479106",
+          "before": "Impact579",
+          "after": "Images/Circle_12"
+        },
+        {
+          "asset_id": "18787656402",
+          "before": "Impact581",
+          "after": "wind effect |M|"
+        },
+        {
+          "asset_id": "243457340",
+          "before": "Impact584",
+          "after": "PARTICLE Water Splash"
+        },
+        {
+          "asset_id": "15144989540",
+          "before": "Impact585",
+          "after": "Images/impact"
+        },
+        {
+          "asset_id": "17635422190",
+          "before": "Impact589",
+          "after": "Images/WB3"
+        },
+        {
+          "asset_id": "17649753753",
+          "before": "Impact590",
+          "after": "Images/WireframeCircle"
+        },
+        {
+          "asset_id": "12363805949",
+          "before": "Impact592",
+          "after": "Images/impact_5"
+        },
+        {
+          "asset_id": "12363806504",
+          "before": "Impact606",
+          "after": "Images/impact_3"
+        },
+        {
+          "asset_id": "13280193761",
+          "before": "Impact608",
+          "after": "Images/ring"
+        },
+        {
+          "asset_id": "12363832808",
+          "before": "Impact609",
+          "after": "Images/muzzle_flash_9"
+        },
+        {
+          "asset_id": "12363830393",
+          "before": "Impact610",
+          "after": "Images/muzzle_flash_17"
+        },
+        {
+          "asset_id": "18453327840",
+          "before": "Impact611",
+          "after": "Images/SlashAura1"
+        },
+        {
+          "asset_id": "12363831817",
+          "before": "Impact612",
+          "after": "Images/muzzle_flash_12"
+        },
+        {
+          "asset_id": "10537588488",
+          "before": "Impact613",
+          "after": "Images/swirl"
+        },
+        {
+          "asset_id": "18765331542",
+          "before": "Impact614",
+          "after": "Images/Circle_Glow_02"
+        },
+        {
+          "asset_id": "13276325263",
+          "before": "Impact615",
+          "after": "Images/Vortex_01"
+        },
+        {
+          "asset_id": "7107683672",
+          "before": "Impact618",
+          "after": "Images/waves"
+        },
+        {
+          "asset_id": "13548514180",
+          "before": "Impact620",
+          "after": "Images/woatr wheel"
+        },
+        {
+          "asset_id": "14265928242",
+          "before": "Impact625",
+          "after": "Images/Impact"
+        },
+        {
+          "asset_id": "576551165",
+          "before": "Impact629",
+          "after": "PURPLE PARTICLE"
+        },
+        {
+          "asset_id": "92058892289421",
+          "before": "Impact634",
+          "after": "Images/IMG_1841"
+        },
+        {
+          "asset_id": "17635429593",
+          "before": "Impact635",
+          "after": "Images/WB45"
+        },
+        {
+          "asset_id": "8617787647",
+          "before": "Impact637",
+          "after": "Images/TX-GQ-077 (1)"
+        },
+        {
+          "asset_id": "12878479210",
+          "before": "Impact638",
+          "after": "Images/Circle_11"
+        },
+        {
+          "asset_id": "14525931482",
+          "before": "Impact641",
+          "after": "Images/winddd_00015"
+        },
+        {
+          "asset_id": "12363833029",
+          "before": "Impact642",
+          "after": "Images/muzzle_flash_8"
+        },
+        {
+          "asset_id": "12363833404",
+          "before": "Impact643",
+          "after": "Images/muzzle_flash_7"
+        },
+        {
+          "asset_id": "6700006778",
+          "before": "Impact646",
+          "after": "water spell effect"
+        },
+        {
+          "asset_id": "12363804869",
+          "before": "Impact649",
+          "after": "Images/impact_10"
+        },
+        {
+          "asset_id": "12363803712",
+          "before": "Impact650",
+          "after": "Images/impact_15"
+        },
+        {
+          "asset_id": "16892063825",
+          "before": "Impact7",
+          "after": "Images/ddd"
+        },
+        {
+          "asset_id": "15056677063",
+          "before": "Impact76",
+          "after": "Images/Png-15"
+        },
+        {
+          "asset_id": "12410868786",
+          "before": "Impact86",
+          "after": "Images/Ripple V1"
+        },
+        {
+          "asset_id": "12362740456",
+          "before": "Part",
+          "after": "Images/target_5"
+        },
+        {
+          "asset_id": "17069520163",
+          "before": "Slash10",
+          "after": "Images/bn vbmgk"
+        },
+        {
+          "asset_id": "17062564588",
+          "before": "Slash2",
+          "after": "Images/;lol"
+        },
+        {
+          "asset_id": "78267222277920",
+          "before": "Slash34",
+          "after": "Images/spritesheet"
+        },
+        {
+          "asset_id": "17069519664",
+          "before": "Slash8",
+          "after": "Images/why"
+        },
+        {
+          "asset_id": "7405798505",
+          "before": "smoke 10",
+          "after": "Particle"
+        },
+        {
+          "asset_id": "13400373656",
+          "before": "smoke 12",
+          "after": "Images/smoke_26"
+        },
+        {
+          "asset_id": "7216851474",
+          "before": "smoke 13",
+          "after": "Images/smoke_05"
+        },
+        {
+          "asset_id": "2671910894",
+          "before": "smoke 14",
+          "after": "Fog"
+        },
+        {
+          "asset_id": "7216851879",
+          "before": "smoke 15",
+          "after": "Images/smoke_02"
+        },
+        {
+          "asset_id": "13388193136",
+          "before": "smoke 17",
+          "after": "Images/dust"
+        },
+        {
+          "asset_id": "965116971",
+          "before": "smoke 18",
+          "after": "fog_tx"
+        },
+        {
+          "asset_id": "258128463",
+          "before": "smoke 2",
+          "after": "cloud_main"
+        },
+        {
+          "asset_id": "9544354287",
+          "before": "smoke 20",
+          "after": "Images/PropelSmoke"
+        },
+        {
+          "asset_id": "13556798897",
+          "before": "smoke 21",
+          "after": "Images/dust (1)"
+        },
+        {
+          "asset_id": "4510290214",
+          "before": "smoke 22",
+          "after": "Cloudne"
+        },
+        {
+          "asset_id": "14050364977",
+          "before": "smoke 24",
+          "after": "Images/fog29"
+        },
+        {
+          "asset_id": "178107563",
+          "before": "smoke 25",
+          "after": "Snowflake"
+        },
+        {
+          "asset_id": "387288028",
+          "before": "smoke 27",
+          "after": "ef_ch_sns_yh1_water_steam1"
+        },
+        {
+          "asset_id": "7216851326",
+          "before": "smoke 28",
+          "after": "Images/smoke_06"
+        },
+        {
+          "asset_id": "9841246256",
+          "before": "smoke 31",
+          "after": "Images/smoke_fiery_large"
+        },
+        {
+          "asset_id": "619393574",
+          "before": "smoke 32",
+          "after": "bg-clouds"
+        },
+        {
+          "asset_id": "98792625311685",
+          "before": "smoke 33",
+          "after": "Images/Comp_1_00002 (1)"
+        },
+        {
+          "asset_id": "14265652323",
+          "before": "smoke 34",
+          "after": "Images/Cloud"
+        },
+        {
+          "asset_id": "6928325971",
+          "before": "smoke 35",
+          "after": "Images/smoke"
+        },
+        {
+          "asset_id": "102071926154708",
+          "before": "smoke 36",
+          "after": "Images/less_circular_00004"
+        },
+        {
+          "asset_id": "10180479311",
+          "before": "smoke 37",
+          "after": "Images/Smoke13"
+        },
+        {
+          "asset_id": "1084987899",
+          "before": "smoke 38",
+          "after": "cloud"
+        },
+        {
+          "asset_id": "7216851225",
+          "before": "smoke 39",
+          "after": "Images/smoke_07"
+        },
+        {
+          "asset_id": "9345352897",
+          "before": "smoke 4",
+          "after": "Mist Particle"
+        },
+        {
+          "asset_id": "13380517587",
+          "before": "smoke 42",
+          "after": "Images/woahwoahwoah"
+        },
+        {
+          "asset_id": "8684351794",
+          "before": "smoke 44",
+          "after": "Images/SmokeCircleCharge"
+        },
+        {
+          "asset_id": "11037787050",
+          "before": "smoke 49",
+          "after": "Images/DAX_Clouds_V_01"
+        },
+        {
+          "asset_id": "14050358959",
+          "before": "smoke 50",
+          "after": "Images/fog24"
+        },
+        {
+          "asset_id": "15271738362",
+          "before": "smoke 51",
+          "after": "Images/smoke_22"
+        },
+        {
+          "asset_id": "15753663130",
+          "before": "smoke 6",
+          "after": "Images/ORBVFX21"
+        },
+        {
+          "asset_id": "11037784926",
+          "before": "smoke 9",
+          "after": "Images/DAX_DUST_CP_3"
+        },
+        {
+          "asset_id": "16867444334",
+          "before": "Smoke22",
+          "after": "Images/29v"
+        },
+        {
+          "asset_id": "16997104240",
+          "before": "Spec48",
+          "after": "Images/vertical_noise_4x4_1_-_Copy"
+        },
+        {
+          "asset_id": "7216849703",
+          "before": "Star101",
+          "after": "Images/star_01"
+        },
+        {
+          "asset_id": "17391818367",
+          "before": "Star102",
+          "after": "Images/stealingfreisstar"
+        },
+        {
+          "asset_id": "13580346182",
+          "before": "Star105",
+          "after": "Images/glowstar"
+        },
+        {
+          "asset_id": "13366353306",
+          "before": "Star109",
+          "after": "Images/star"
+        },
+        {
+          "asset_id": "18964235304",
+          "before": "Star111",
+          "after": "Images/whitestarriftoutline"
+        },
+        {
+          "asset_id": "14590086212",
+          "before": "Star113",
+          "after": "Images/sparkel"
+        },
+        {
+          "asset_id": "105480580622301",
+          "before": "Star114",
+          "after": "Images/Comp_1_00015"
+        },
+        {
+          "asset_id": "8037777212",
+          "before": "Star116",
+          "after": "Images/spark"
+        },
+        {
+          "asset_id": "669133414",
+          "before": "Star117",
+          "after": "Particle_Sparkle"
+        },
+        {
+          "asset_id": "108410399780728",
+          "before": "Star118",
+          "after": "Images/Untitled36_20240828211608"
+        },
+        {
+          "asset_id": "10335418884",
+          "before": "Star119",
+          "after": "Images/66d54cb6-9ce5-42e9-822e-7b66d4e6ede9"
+        },
+        {
+          "asset_id": "17085199891",
+          "before": "Star122",
+          "after": "Images/Sukuna"
+        },
+        {
+          "asset_id": "11037778608",
+          "before": "Star124",
+          "after": "Images/DAX_Flare_8"
+        },
+        {
+          "asset_id": "11037560871",
+          "before": "Star125",
+          "after": "Images/Flare9"
+        },
+        {
+          "asset_id": "17255319890",
+          "before": "Star126",
+          "after": "Images/dark ssstar 복사"
+        },
+        {
+          "asset_id": "14197929950",
+          "before": "Star127",
+          "after": "Images/Star-Texture"
+        },
+        {
+          "asset_id": "7216849325",
+          "before": "Star128",
+          "after": "Images/star_04"
+        },
+        {
+          "asset_id": "136177821208948",
+          "before": "Star129",
+          "after": "Images/Untitled36_20240828210647"
+        },
+        {
+          "asset_id": "11037776419",
+          "before": "Star130",
+          "after": "Images/DAX_Flare_M_0"
+        },
+        {
+          "asset_id": "12363775390",
+          "before": "Star132",
+          "after": "Images/flare_11"
+        },
+        {
+          "asset_id": "15785273325",
+          "before": "Star133",
+          "after": "Images/SparkLong"
+        },
+        {
+          "asset_id": "11037776044",
+          "before": "Star134",
+          "after": "Images/DAX_Flare_M_1"
+        },
+        {
+          "asset_id": "12363978278",
+          "before": "Star135",
+          "after": "Images/star_10"
+        },
+        {
+          "asset_id": "12363978547",
+          "before": "Star136",
+          "after": "Images/star_9"
+        },
+        {
+          "asset_id": "13903581452",
+          "before": "Star138",
+          "after": "Images/sharp_star"
+        },
+        {
+          "asset_id": "12363978770",
+          "before": "Star139",
+          "after": "Images/star_8"
+        },
+        {
+          "asset_id": "11037777676",
+          "before": "Star140",
+          "after": "Images/DAX_Flare_F_0"
+        },
+        {
+          "asset_id": "11037777312",
+          "before": "Star141",
+          "after": "Images/DAX_Flare_F_1"
+        },
+        {
+          "asset_id": "17211298816",
+          "before": "Star142",
+          "after": "Images/image (12)"
+        },
+        {
+          "asset_id": "8120666025",
+          "before": "Star144",
+          "after": "Smooth star"
+        },
+        {
+          "asset_id": "15214318786",
+          "before": "Star146",
+          "after": "Images/sparkle"
+        },
+        {
+          "asset_id": "15452013947",
+          "before": "Star148",
+          "after": "Images/star"
+        },
+        {
+          "asset_id": "13908198788",
+          "before": "Star149",
+          "after": "thin star particle"
+        },
+        {
+          "asset_id": "4791826133",
+          "before": "Star150",
+          "after": "Images/shinestar"
+        },
+        {
+          "asset_id": "13580351747",
+          "before": "Star151",
+          "after": "Images/cartoon-star"
+        },
+        {
+          "asset_id": "16444981264",
+          "before": "Star153",
+          "after": "Images/flare1"
+        },
+        {
+          "asset_id": "80461772858840",
+          "before": "Star155",
+          "after": "Images/Starry"
+        },
+        {
+          "asset_id": "6909741538",
+          "before": "Star156",
+          "after": "Images/Sparkle"
+        },
+        {
+          "asset_id": "8180428772",
+          "before": "Star157",
+          "after": "sparkin1"
+        },
+        {
+          "asset_id": "13271628051",
+          "before": "Star158",
+          "after": "Images/Sparkle"
+        },
+        {
+          "asset_id": "4463216225",
+          "before": "Star159",
+          "after": "glowingcircles"
+        },
+        {
+          "asset_id": "14197626379",
+          "before": "Star160",
+          "after": "Images/0033a"
+        },
+        {
+          "asset_id": "111352593268650",
+          "before": "Star81",
+          "after": "Images/Untitled141_20241009070915"
+        },
+        {
+          "asset_id": "15495277841",
+          "before": "Star82",
+          "after": "star"
+        },
+        {
+          "asset_id": "5946093983",
+          "before": "Star86",
+          "after": "Genshin Impact Star Particle"
+        },
+        {
+          "asset_id": "18454329983",
+          "before": "Star87",
+          "after": "Images/Shine1"
+        },
+        {
+          "asset_id": "7216848960",
+          "before": "Star88",
+          "after": "Images/star_07"
+        },
+        {
+          "asset_id": "14128174572",
+          "before": "Star89",
+          "after": "Images/hexagon-flare-specs"
+        },
+        {
+          "asset_id": "15439360454",
+          "before": "Star90",
+          "after": "Images/Rune_02"
+        },
+        {
+          "asset_id": "16608943230",
+          "before": "Star92",
+          "after": "cursor"
+        },
+        {
+          "asset_id": "115470063682950",
+          "before": "Star93",
+          "after": "Images/star2"
+        },
+        {
+          "asset_id": "9563725604",
+          "before": "Star94",
+          "after": "Images/yes (43)"
+        },
+        {
+          "asset_id": "13463792226",
+          "before": "Star95",
+          "after": "Images/6-star"
+        },
+        {
+          "asset_id": "18256370999",
+          "before": "Star98",
+          "after": "Images/Oblivion"
+        },
+        {
+          "asset_id": "10598374841",
+          "before": "Star99",
+          "after": "Images/star"
+        },
+        {
+          "asset_id": "14050424199",
+          "before": "swirl 9",
+          "after": "Images/fog34"
+        },
+        {
+          "asset_id": "76056597100004",
+          "before": "swirl2",
+          "after": "Images/Untitled_Artwork_9"
+        },
+        {
+          "asset_id": "95981596731268",
+          "before": "swirl3",
+          "after": "Images/Untitled_Artwork_10"
+        },
+        {
+          "asset_id": "126203834853784",
+          "before": "swirl4",
+          "after": "Images/ezgif-4-df8de75756"
+        },
+        {
+          "asset_id": "103832117709724",
+          "before": "Text 2",
+          "after": "Images/JUSTICE"
+        },
+        {
+          "asset_id": "95021516837022",
+          "before": "Text 3",
+          "after": "Images/Ending"
+        },
+        {
+          "asset_id": "118072404253090",
+          "before": "Text 5",
+          "after": "Images/EMOTION"
+        }
+      ],
+      "mesh_texture_variants": null,
+      "metadata_rows": 9178,
+      "verified_ui_categories": [
+        {
+          "label": "Beam",
+          "count": 800,
+          "file": "Textures_Beam.json"
+        },
+        {
+          "label": "Circle",
+          "count": 777,
+          "file": "Textures_Circle.json"
+        },
+        {
+          "label": "Custom1",
+          "count": 0,
+          "file": "Textures_Custom1.json"
+        },
+        {
+          "label": "Custom2",
+          "count": 0,
+          "file": "Textures_Custom2.json"
+        },
+        {
+          "label": "Energy",
+          "count": 275,
+          "file": "Textures_Energy.json"
+        },
+        {
+          "label": "Favorites",
+          "count": 0,
+          "file": "Textures_Favorites.json"
+        },
+        {
+          "label": "Fire",
+          "count": 353,
+          "file": "Textures_Fire.json"
+        },
+        {
+          "label": "Flare",
+          "count": 1015,
+          "file": "Textures_Flare.json"
+        },
+        {
+          "label": "Flipbook",
+          "count": 2752,
+          "file": "Textures_Flipbook.json"
+        },
+        {
+          "label": "Form",
+          "count": 1215,
+          "file": "Textures_Form.json"
+        },
+        {
+          "label": "Grid",
+          "count": 172,
+          "file": "Textures_Grid.json"
+        },
+        {
+          "label": "Ground",
+          "count": 140,
+          "file": "Textures_Ground.json"
+        },
+        {
+          "label": "Impact",
+          "count": 904,
+          "file": "Textures_Impact.json"
+        },
+        {
+          "label": "Lightning",
+          "count": 360,
+          "file": "Textures_Lightning.json"
+        },
+        {
+          "label": "Other",
+          "count": 903,
+          "file": "Textures_Other.json"
+        },
+        {
+          "label": "Slashes",
+          "count": 583,
+          "file": "Textures_Slashes.json"
+        },
+        {
+          "label": "Smoke",
+          "count": 640,
+          "file": "Textures_Smoke.json"
+        },
+        {
+          "label": "Spec",
+          "count": 448,
+          "file": "Textures_Spec.json"
+        },
+        {
+          "label": "Star",
+          "count": 228,
+          "file": "Textures_Star.json"
+        },
+        {
+          "label": "Static",
+          "count": 6426,
+          "file": "Textures_Static.json"
+        },
+        {
+          "label": "Swirl",
+          "count": 323,
+          "file": "Textures_Swirl.json"
+        },
+        {
+          "label": "Text",
+          "count": 2001,
+          "file": "Textures_Text.json"
+        },
+        {
+          "label": "User",
+          "count": 0,
+          "file": "Textures_User.json"
+        },
+        {
+          "label": "Water",
+          "count": 163,
+          "file": "Textures_Water.json"
+        }
+      ]
     }
   },
   "tag_names": [
@@ -580,52 +2708,63 @@
     "Water",
     "Wind",
     "Slash",
-    "Other"
+    "Other",
+    "Beam",
+    "Energy",
+    "Form",
+    "Slashes"
   ],
   "stats": {
-    "source_observations": 20780,
-    "texture_identities": 6914,
-    "all_inventory_identities": 6914,
-    "unique_asset_ids": 6893,
-    "valid_unique_asset_ids": 6892,
-    "extra_observations_collapsed": 13866,
-    "duplicate_rows_note": "An identity is canonical ID + exact name. Tag observations and repeated rows collapse into one identity.",
+    "source_observations": 50436,
+    "texture_identities": 13282,
+    "all_inventory_identities": 13282,
+    "unique_asset_ids": 13279,
+    "valid_unique_asset_ids": 13278,
+    "extra_observations_collapsed": 37154,
+    "duplicate_rows_note": "One row per valid canonical Roblox ID; names and source keys are aliases, invalid placeholders stay separate.",
     "invalid_or_deleted_identities": 4,
     "normalized_uri_identities": 5,
-    "classification_conflict_identities": 2586,
-    "kind_from_type_collection_identities": 6914,
-    "ambiguous_type_collection_identities": 0,
+    "classification_conflict_identities": 2581,
+    "kind_from_type_collection_identities": 6895,
+    "ambiguous_type_collection_identities": 1,
     "tag_identities_absent_from_all": 0,
-    "static_identities": 4205,
-    "flipbook_identities": 2709,
-    "unknown_flipbook_grid_identities": 136,
-    "unique_asset_ids_with_image": 6832,
-    "identities_with_image": 6850,
+    "static_identities": 8541,
+    "flipbook_identities": 4741,
+    "unknown_flipbook_grid_identities": 98,
+    "unique_asset_ids_with_image": 13158,
+    "identities_with_image": 13158,
     "image_status_counts": {
-      "blocked": 60,
-      "cached": 6850,
-      "invalid_id": 4
+      "blocked": 118,
+      "cached": 6832,
+      "downloaded": 6326,
+      "error": 1,
+      "invalid_id": 4,
+      "pending": 1
     },
     "per_tag": {
-      "Circle": 794,
+      "Circle": 1339,
       "Crescent": 301,
-      "Effect": 106,
-      "Fire": 231,
-      "Flare": 478,
+      "Effect": 104,
+      "Fire": 518,
+      "Flare": 1379,
       "GUI": 12,
-      "Grid": 98,
-      "Ground": 73,
-      "Impact": 772,
-      "Lightning": 280,
-      "Smoke": 470,
-      "Spec": 852,
-      "Star": 258,
-      "Swirl": 187,
-      "Text": 232,
-      "Water": 151,
+      "Grid": 257,
+      "Ground": 210,
+      "Impact": 1402,
+      "Lightning": 553,
+      "Smoke": 977,
+      "Spec": 1146,
+      "Star": 423,
+      "Swirl": 471,
+      "Text": 2168,
+      "Water": 308,
       "Wind": 77,
-      "Slash": 264,
-      "Other": 1316
+      "Slash": 263,
+      "Other": 2103,
+      "Beam": 800,
+      "Energy": 275,
+      "Form": 1215,
+      "Slashes": 583
     }
   },
   "notes": [

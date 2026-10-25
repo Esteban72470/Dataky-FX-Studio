@@ -35,7 +35,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -49,7 +50,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -63,7 +65,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/17376622970.png",
@@ -84,6 +87,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Full Ring",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -124,7 +137,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -138,7 +152,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -152,7 +167,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/10529371971.png",
@@ -173,6 +189,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Full Shockwave",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -213,7 +239,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -227,7 +254,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -241,7 +269,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/116310890602740.png",
@@ -262,6 +291,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "LE Wind Details",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -302,7 +341,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -316,7 +356,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -330,7 +371,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/115790032133177.png",
@@ -351,6 +393,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "LE Wind Shockwave",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -366,9 +418,12 @@
     "raw_uris": [
       "rbxassetid://18356309922"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/Shockwave06"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact"
     ],
     "collections": [
       "Statics"
@@ -376,7 +431,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -391,7 +447,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -405,7 +462,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -419,7 +477,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/Shockwave06",
+        "raw_uri": "rbxassetid://18356309922",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Images/Shockwave06"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://18356309922",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://18356309922",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/18356309922.png",
@@ -439,7 +531,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "01aba3151439b999e88de85f"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "OneSided Wind",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/Shockwave06",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -455,9 +565,12 @@
     "raw_uris": [
       "rbxassetid://12318427672"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/Png (13)"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact"
     ],
     "collections": [
       "Statics"
@@ -465,7 +578,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -480,7 +594,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -494,7 +609,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -508,7 +624,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/Png (13)",
+        "raw_uri": "rbxassetid://12318427672",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Images/Png (13)"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://12318427672",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12318427672",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12318427672.png",
@@ -528,7 +678,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "19ad651abd578ccdfaf563e0"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Smokey Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/Png (13)",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -544,9 +712,12 @@
     "raw_uris": [
       "rbxassetid://12329133324"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/ArcaneRing3"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact"
     ],
     "collections": [
       "Statics"
@@ -554,7 +725,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -569,7 +741,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -583,7 +756,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -597,7 +771,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/ArcaneRing3",
+        "raw_uri": "rbxassetid://12329133324",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Images/ArcaneRing3"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://12329133324",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://12329133324",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/12329133324.png",
@@ -617,7 +825,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "b1990b3724b837777afbfc72"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Stylized Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/ArcaneRing3",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -633,9 +859,12 @@
     "raw_uris": [
       "rbxassetid://13580361995"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/shockwave1"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact"
     ],
     "collections": [
       "Statics"
@@ -643,7 +872,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -658,7 +888,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -672,7 +903,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -686,7 +918,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/shockwave1",
+        "raw_uri": "rbxassetid://13580361995",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Images/shockwave1"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://13580361995",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://13580361995",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/13580361995.png",
@@ -706,7 +972,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "35704c816435b6d83ba711c3"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Thicker Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/shockwave1",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -747,7 +1031,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -761,7 +1046,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -775,7 +1061,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/15846370432.png",
@@ -796,6 +1083,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparenct Blast 1",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -836,7 +1133,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -850,7 +1148,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -864,7 +1163,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/15846427306.png",
@@ -885,6 +1185,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparenct Blast 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -925,7 +1235,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -939,7 +1250,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -953,7 +1265,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/13959942757.png",
@@ -974,6 +1287,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparenct Blast 3",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -989,9 +1312,13 @@
     "raw_uris": [
       "rbxassetid://13401773376"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/ground-blast"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact",
+      "Ground"
     ],
     "collections": [
       "Statics"
@@ -999,7 +1326,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1014,7 +1342,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1028,7 +1357,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1042,7 +1372,48 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/ground-blast",
+        "raw_uri": "rbxassetid://13401773376",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Images/ground-blast"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Ground",
+        "file": "Textures_Ground.json",
+        "raw_uri": "rbxassetid://13401773376",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://13401773376",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://13401773376",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/13401773376.png",
@@ -1062,7 +1433,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 7,
+    "key_aliases": [
+      "620e2b13dfda899cee541923"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparenct Blast 4",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/ground-blast",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1103,7 +1492,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1117,7 +1507,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1131,7 +1522,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/15824417274.png",
@@ -1152,6 +1544,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparenct Blast 5",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1167,9 +1569,12 @@
     "raw_uris": [
       "rbxassetid://15696101558"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/Png (6)"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact"
     ],
     "collections": [
       "Statics"
@@ -1177,7 +1582,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1192,7 +1598,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1206,7 +1613,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1220,7 +1628,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/Png (6)",
+        "raw_uri": "rbxassetid://15696101558",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Images/Png (6)"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://15696101558",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://15696101558",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/15696101558.png",
@@ -1240,7 +1682,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "6a4f56433efd49c560bd9f42"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparenct Ring",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/Png (6)",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1256,9 +1716,12 @@
     "raw_uris": [
       "rbxassetid://18450756590"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/ringlsahsthing"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Swirl"
     ],
     "collections": [
       "Statics"
@@ -1266,7 +1729,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1281,7 +1745,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1295,7 +1760,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1309,7 +1775,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/ringlsahsthing",
+        "raw_uri": "rbxassetid://18450756590",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Swirl"
+          ],
+          "Name": "Images/ringlsahsthing"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://18450756590",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Swirl",
+        "file": "Textures_Swirl.json",
+        "raw_uri": "rbxassetid://18450756590",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/18450756590.png",
@@ -1329,7 +1829,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "fbf4355a82d72f1b44f5c0e9"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparent Ring 2",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/ringlsahsthing",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1345,9 +1863,12 @@
     "raw_uris": [
       "rbxassetid://93597927350355"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/lines_idk"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Flare"
     ],
     "collections": [
       "Statics"
@@ -1355,7 +1876,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1370,7 +1892,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1384,7 +1907,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1398,7 +1922,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/lines_idk",
+        "raw_uri": "rbxassetid://93597927350355",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Flare"
+          ],
+          "Name": "Images/lines_idk"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flare",
+        "file": "Textures_Flare.json",
+        "raw_uri": "rbxassetid://93597927350355",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://93597927350355",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/93597927350355.png",
@@ -1418,7 +1976,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "a8eb6a3c5acfed487e251cc5"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparent Ring 3",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/lines_idk",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1434,9 +2010,12 @@
     "raw_uris": [
       "rbxassetid://9163249315"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/Png (94)"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact"
     ],
     "collections": [
       "Statics"
@@ -1444,7 +2023,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1459,7 +2039,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1473,7 +2054,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1487,7 +2069,41 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/Png (94)",
+        "raw_uri": "rbxassetid://9163249315",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Images/Png (94)"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://9163249315",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://9163249315",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/9163249315.png",
@@ -1507,7 +2123,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "eb9a9440c70d6585687cd687"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Transparent Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/Png (94)",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1523,9 +2157,13 @@
     "raw_uris": [
       "rbxassetid://18838828771"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Impact",
+      "Text"
     ],
     "collections": [
       "Statics"
@@ -1533,7 +2171,8 @@
     "source_labels": [
       "All",
       "Statics",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1548,7 +2187,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1562,7 +2202,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1576,7 +2217,48 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Texture",
+        "raw_uri": "rbxassetid://18838828771",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": null,
+        "source_metadata": {
+          "Keywords": [
+            "Impact"
+          ],
+          "Name": "Texture"
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Impact",
+        "file": "Textures_Impact.json",
+        "raw_uri": "rbxassetid://18838828771",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Static",
+        "file": "Textures_Static.json",
+        "raw_uri": "rbxassetid://18838828771",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Text",
+        "file": "Textures_Text.json",
+        "raw_uri": "rbxassetid://18838828771",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/18838828771.png",
@@ -1596,7 +2278,25 @@
       "Statics"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 7,
+    "key_aliases": [
+      "b69776762034cee5e30589ac"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind Crescent 1",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Texture",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1637,7 +2337,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1651,7 +2352,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1665,7 +2367,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/10316078099.png",
@@ -1686,6 +2389,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind Crescent 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1726,7 +2439,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1740,7 +2454,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1754,7 +2469,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/15556415618.png",
@@ -1775,6 +2491,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind Details",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1815,7 +2541,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1829,7 +2556,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1843,7 +2571,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/76109550912270.png",
@@ -1864,6 +2593,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind1",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1904,7 +2643,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -1918,7 +2658,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -1932,7 +2673,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/127713467290396.png",
@@ -1953,6 +2695,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind10",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1993,7 +2745,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2007,7 +2760,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2021,7 +2775,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/102849206266491.png",
@@ -2042,6 +2797,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind11",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2082,7 +2847,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2096,7 +2862,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2110,7 +2877,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/72975090349578.png",
@@ -2131,6 +2899,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind12",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2171,7 +2949,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2185,7 +2964,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2199,7 +2979,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/109169488067783.png",
@@ -2220,6 +3001,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind13",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2260,7 +3051,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2274,7 +3066,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2288,7 +3081,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/75412173597770.png",
@@ -2309,6 +3103,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind14",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2349,7 +3153,8 @@
         "rect_offset": [
           0,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -2363,7 +3168,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2377,7 +3183,8 @@
         "rect_offset": [
           0,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/101535472799928.png",
@@ -2401,6 +3208,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind15",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2441,7 +3258,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2455,7 +3273,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2469,7 +3288,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/73296613374574.png",
@@ -2490,6 +3310,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind16",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2530,7 +3360,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2544,7 +3375,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2558,7 +3390,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/101543208462261.png",
@@ -2579,6 +3412,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind17",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2619,7 +3462,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2633,7 +3477,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2647,7 +3492,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/118726955290846.png",
@@ -2668,6 +3514,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind18",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2708,7 +3564,8 @@
         "rect_offset": [
           0,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -2722,7 +3579,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2736,7 +3594,8 @@
         "rect_offset": [
           0,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/93312079157280.png",
@@ -2760,6 +3619,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind19",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2800,7 +3669,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2814,7 +3684,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2828,7 +3699,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/82525068951507.png",
@@ -2849,6 +3721,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2889,7 +3771,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2903,7 +3786,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -2917,7 +3801,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/74899887803900.png",
@@ -2938,6 +3823,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind20",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -2978,7 +3873,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -2992,7 +3888,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3006,7 +3903,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/104304232262370.png",
@@ -3027,6 +3925,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind21",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3067,7 +3975,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3081,7 +3990,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3095,7 +4005,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/116579220922305.png",
@@ -3116,6 +4027,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind22",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3156,7 +4077,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3170,7 +4092,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3184,7 +4107,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/103000834263561.png",
@@ -3205,6 +4129,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind23",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3245,7 +4179,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3259,7 +4194,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3273,7 +4209,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/137596045221383.png",
@@ -3294,6 +4231,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind24",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3334,7 +4281,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3348,7 +4296,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3362,7 +4311,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/139607233090243.png",
@@ -3383,6 +4333,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind25",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3423,7 +4383,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3437,7 +4398,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3451,7 +4413,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/107577948223334.png",
@@ -3472,6 +4435,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind26",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3512,7 +4485,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3526,7 +4500,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3540,7 +4515,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/78140204291780.png",
@@ -3561,6 +4537,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind27",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3601,7 +4587,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3615,7 +4602,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3629,7 +4617,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/78592280941627.png",
@@ -3650,6 +4639,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind28",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3690,7 +4689,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3704,7 +4704,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3718,7 +4719,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/109474863702604.png",
@@ -3739,6 +4741,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind29",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3779,7 +4791,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3793,7 +4806,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3807,7 +4821,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/89929855206165.png",
@@ -3828,6 +4843,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind3",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3868,7 +4893,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3882,7 +4908,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3896,7 +4923,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/122484551759506.png",
@@ -3917,6 +4945,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind30",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -3957,7 +4995,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -3971,7 +5010,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -3985,7 +5025,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/73041967539025.png",
@@ -4006,6 +5047,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind31",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4046,7 +5097,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4060,7 +5112,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4074,7 +5127,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/110502543965445.png",
@@ -4095,6 +5149,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind32",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4135,7 +5199,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4149,7 +5214,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4163,7 +5229,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/117299459118480.png",
@@ -4184,6 +5251,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind33",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4224,7 +5301,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4238,7 +5316,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4252,7 +5331,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/100113424383392.png",
@@ -4273,6 +5353,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind34",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4313,7 +5403,8 @@
         "rect_offset": [
           256,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -4327,7 +5418,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4341,7 +5433,8 @@
         "rect_offset": [
           256,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/91804963265247.png",
@@ -4365,6 +5458,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind35",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4405,7 +5508,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4419,7 +5523,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4433,7 +5538,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/84269775676097.png",
@@ -4454,6 +5560,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind36",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4494,7 +5610,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4508,7 +5625,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4522,7 +5640,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/122272192974730.png",
@@ -4543,6 +5662,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind37",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4583,7 +5712,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4597,7 +5727,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4611,7 +5742,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/76340603837890.png",
@@ -4632,6 +5764,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind38",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4672,7 +5814,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4686,7 +5829,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4700,7 +5844,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/120150903567427.png",
@@ -4721,6 +5866,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind39",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4761,7 +5916,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4775,7 +5931,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4789,7 +5946,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/131147883064427.png",
@@ -4810,6 +5968,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind4",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4850,7 +6018,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4864,7 +6033,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4878,7 +6048,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/125658288142903.png",
@@ -4899,6 +6070,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind40",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -4939,7 +6120,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -4953,7 +6135,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -4967,7 +6150,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/99096695944611.png",
@@ -4988,6 +6172,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind41",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5028,7 +6222,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5042,7 +6237,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5056,7 +6252,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/115839225153561.png",
@@ -5077,6 +6274,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind42",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5117,7 +6324,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5131,7 +6339,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5145,7 +6354,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/92824085650493.png",
@@ -5166,6 +6376,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind43",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5206,7 +6426,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5220,7 +6441,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5234,7 +6456,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/79454007816524.png",
@@ -5255,6 +6478,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind44",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5295,7 +6528,8 @@
         "rect_offset": [
           768,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -5309,7 +6543,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5323,7 +6558,8 @@
         "rect_offset": [
           256,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/126052664189577.png",
@@ -5347,6 +6583,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind45",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5387,7 +6633,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5401,7 +6648,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5415,7 +6663,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/85092053817884.png",
@@ -5436,6 +6685,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind46",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5476,7 +6735,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5490,7 +6750,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5504,7 +6765,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/86521711047914.png",
@@ -5525,6 +6787,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind47",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5565,7 +6837,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5579,7 +6852,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5593,7 +6867,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/80189053385709.png",
@@ -5614,6 +6889,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind48",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5654,7 +6939,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5668,7 +6954,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5682,7 +6969,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/112558793664091.png",
@@ -5703,6 +6991,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind49",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5743,7 +7041,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5757,7 +7056,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5771,7 +7071,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/102374151967894.png",
@@ -5792,6 +7093,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind5",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5832,7 +7143,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5846,7 +7158,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5860,7 +7173,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/95524323490226.png",
@@ -5881,6 +7195,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind50",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -5921,7 +7245,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -5935,7 +7260,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -5949,7 +7275,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/99030912594735.png",
@@ -5970,6 +7297,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind51",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6010,7 +7347,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6024,7 +7362,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6038,7 +7377,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/121693455521335.png",
@@ -6059,6 +7399,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind52",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6099,7 +7449,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6113,7 +7464,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6127,7 +7479,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/84954758993461.png",
@@ -6148,6 +7501,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind53",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6188,7 +7551,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6202,7 +7566,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6216,7 +7581,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/116196743854601.png",
@@ -6237,6 +7603,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind54",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6277,7 +7653,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6291,7 +7668,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6305,7 +7683,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/77399181389527.png",
@@ -6326,6 +7705,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind55",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6366,7 +7755,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6380,7 +7770,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6394,7 +7785,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/90956254243960.png",
@@ -6415,6 +7807,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind56",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6430,9 +7832,12 @@
     "raw_uris": [
       "rbxassetid://101478845975822"
     ],
-    "aliases": [],
+    "aliases": [
+      "Images/57 (1)"
+    ],
     "tags": [
-      "Wind"
+      "Wind",
+      "Slashes"
     ],
     "collections": [
       "Flipbooks"
@@ -6440,7 +7845,8 @@
     "source_labels": [
       "All",
       "Flipbooks",
-      "Wind"
+      "Wind",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -6455,7 +7861,8 @@
         "rect_offset": [
           512,
           256
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Flipbooks",
@@ -6469,7 +7876,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6483,7 +7891,43 @@
         "rect_offset": [
           0,
           512
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "textures-metadata.json",
+        "index": null,
+        "name": "Images/57 (1)",
+        "raw_uri": "rbxassetid://101478845975822",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "resolution": 1024,
+        "source_metadata": {
+          "Name": "Images/57 (1)",
+          "Keywords": [
+            "Slashes"
+          ],
+          "Grid": 4,
+          "Resolution": 1024
+        }
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Flipbook",
+        "file": "Textures_Flipbook.json",
+        "raw_uri": "rbxassetid://101478845975822",
+        "evidence": "live_ui_filter_membership"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "Slashes",
+        "file": "Textures_Slashes.json",
+        "raw_uri": "rbxassetid://101478845975822",
+        "evidence": "live_ui_filter_membership"
       }
     ],
     "image_path": "images/101478845975822.png",
@@ -6492,7 +7936,7 @@
     "image_error": null,
     "kind": "flipbook",
     "grid": 4,
-    "grid_source": "inferred_from_1024_sheet",
+    "grid_source": "plugin_metadata",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -6506,7 +7950,25 @@
       "Flipbooks"
     ],
     "in_all_inventory": true,
-    "observation_count": 3,
+    "observation_count": 6,
+    "key_aliases": [
+      "b11c97453c64c4e3f9d84ade"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind57",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Images/57 (1)",
+        "plugin": "VFX Studio",
+        "file": "textures-metadata.json"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6547,7 +8009,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6561,7 +8024,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6575,7 +8039,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/89247216145301.png",
@@ -6596,6 +8061,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind6",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6636,7 +8111,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6650,7 +8126,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6664,7 +8141,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/115178122155246.png",
@@ -6685,6 +8163,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind7",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6725,7 +8213,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6739,7 +8228,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6753,7 +8243,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/128787416203960.png",
@@ -6774,6 +8265,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind8",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -6814,7 +8315,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Statics",
@@ -6828,7 +8330,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Wind",
@@ -6842,7 +8345,8 @@
         "rect_offset": [
           0,
           0
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "image_path": "images/82431051811025.png",
@@ -6863,6 +8367,16 @@
     ],
     "in_all_inventory": true,
     "observation_count": 3,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind9",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420

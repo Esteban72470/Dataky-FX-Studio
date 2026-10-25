@@ -1,4 +1,4 @@
-"""Generate the self-contained, offline ZonitoVisuals catalogue report."""
+"""Generate the self-contained, offline Dataky catalogue report."""
 
 from __future__ import annotations
 
@@ -55,6 +55,8 @@ def _clean_records(records: list[dict], collection: str = "textures") -> list[di
             "asset_id": asset_id,
             "uri": str(record.get("uri") or ("rbxassetid://" + asset_id if asset_id else "")),
             "name": str(record.get("name", "")),
+            "aliases": [name for name in record.get("aliases", []) if isinstance(name, str)],
+            "plugins": [name for name in record.get("plugins", []) if isinstance(name, str)],
             "creator": str(record.get("creator") or ""),
             "tags": [str(t) for t in record.get("tags", [])],
             "kind": kind,
@@ -132,7 +134,7 @@ const DATA=JSON.parse(document.getElementById('catalogue-data').textContent);
 const $=id=>document.getElementById(id), SIZE=100;
 const number=n=>n.toLocaleString('fr-FR');
 const collectionLabels={textures:'Textures',beams:'Beams',meshes:'Meshes'};
-function searchable(rows){return rows.map(r=>({...r,_search:[r.asset_id,r.uri,r.name,r.creator,...r.tags,...r.references.flatMap(ref=>[ref.label,ref.asset_id,ref.uri])].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}));}
+function searchable(rows){return rows.map(r=>({...r,_search:[r.asset_id,r.uri,r.name,r.creator,...r.aliases,...r.plugins,...r.tags,...r.references.flatMap(ref=>[ref.label,ref.asset_id,ref.uri])].join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}));}
 const collections={textures:{...DATA,records:searchable(DATA.records)}};
 for(const id of ['beams','meshes']){const extra=(DATA.extra_collections||{})[id];if(extra)collections[id]={...extra,records:searchable(extra.records)};}
 const states={};
@@ -141,7 +143,7 @@ function el(tag, cls, text){const e=document.createElement(tag);if(cls)e.classNa
 function source(r){return r.preview_path||r.image_path;}
 function kindHint(r){if(r.kind==='beam')return 'Référence issue de l’onglet Beams du plugin.';if(r.kind==='mesh')return 'Référence issue de l’onglet Meshes du plugin.';if(r.type_collection_ambiguous)return 'Type ambigu : cette entrée apparaît dans les filtres images fixes et flipbooks. Le classement affiché est déduit du cadrage observé, à vérifier.';if(r.kind_source==='type_collection')return 'Type enregistré depuis le filtre du plugin'+(r.kind_source_labels.length?' : '+r.kind_source_labels.join(', '):'')+'.';return 'Type déduit du cadrage observé dans le plugin, à vérifier.';}
 function statusHint(r){return 'État de récupération : '+r.image_status+' · '+kindHint(r)+(r.image_source?' · Aperçu : '+r.image_source:'');}
-function inferredGrid(r){return r.grid&&!['plugin','explicit','verified','rect_size'].includes(r.grid_source);}
+function inferredGrid(r){return r.grid&&!['plugin','plugin_metadata','explicit','verified','rect_size'].includes(r.grid_source);}
 function gridHint(r){if(!r.grid)return 'Disposition inconnue';if(r.grid_source==='name')return 'Disposition déduite du nom, à vérifier';if(r.grid_source==='inferred_from_1024_sheet')return 'Disposition estimée à partir d’une feuille de 1024 px, à vérifier';return inferredGrid(r)?'Disposition estimée, à vérifier':'Disposition enregistrée dans le plugin';}
 function localUrl(path){return path.split('/').map(encodeURIComponent).join('/');}
 function notify(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,2200);}

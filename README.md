@@ -10,7 +10,7 @@ L'exemple [Enuma Elish](source/vfx/enuma-elish/README.md) fournit une recette de
 
 Les nouvelles entrées du catalogue sont relues sans redémarrer le serveur. Les miniatures de meshes ne contiennent pas leur géométrie : [limites des meshes](docs/MESH_PREVIEW.md) et [compatibilité des exports](docs/EXPORT_COMPATIBILITY.md).
 
-Le catalogue conserve la provenance des assets du plugin ZonitoVisuals. Son ancien nom de dossier reste utilisé pour garder les chemins et les scripts compatibles.
+Le catalogue réunit les captures **ZonitoVisuals** et **VFX Studio**. Les assets valides sont regroupés par ID Roblox ; leurs anciens noms et clés restent des alias recherchables. Les variantes de textures d'un même mesh sont conservées dans les données. Les noms plus descriptifs proviennent des métadonnées des plugins. Voir [la fusion et sa provenance](docs/IMPORT_VFX_STUDIO.md).
 
 Double-cliquez sur **catalogue.html**, puis choisissez l’onglet **Textures**, **Beams** ou **Meshes**. La recherche accepte un nom, un tag ou un ID. Chaque onglet conserve ses propres filtres ; Textures permet aussi de choisir les images fixes ou flipbooks. **Copier l’ID** et **rbxassetid** donnent les références à utiliser dans Roblox Studio.
 
@@ -43,7 +43,7 @@ Une disposition de flipbook marquée **estimée** est une déduction, pas une pr
 
 ## Actualiser
 
-Double-cliquez sur **METTRE_A_JOUR.bat** pour régénérer le catalogue des trois collections et télécharger les miniatures manquantes à partir des captures déjà présentes dans `source/`, `beams/source/` et `meshes/source/`. Le téléchargement se fait en parallèle. Les images valides sont conservées en cache : après une interruption, relancez la mise à jour pour reprendre les aperçus manquants sans télécharger à nouveau ceux déjà enregistrés. Une connexion Internet est nécessaire pour les nouveaux aperçus.
+Double-cliquez sur **METTRE_A_JOUR.bat** pour régénérer le catalogue des trois collections et télécharger les miniatures manquantes à partir des captures déjà présentes dans `source/`, `beams/source/` et `meshes/source/`, avec les métadonnées complémentaires de `source/vfx-studio/`. Le téléchargement se fait en parallèle. Les images valides sont conservées en cache : après une interruption, relancez la mise à jour pour reprendre les aperçus manquants sans télécharger à nouveau ceux déjà enregistrés. Une connexion Internet est nécessaire pour les nouveaux aperçus.
 
 Pour régénérer les exports et retenter les aperçus **Beams** et **Meshes** depuis leurs captures existantes, lancez à la racine du catalogue :
 
@@ -51,7 +51,7 @@ Pour régénérer les exports et retenter les aperçus **Beams** et **Meshes** d
 python tool/asset_catalog.py --collections beams meshes --workers 12
 ```
 
-Cette actualisation ne relit pas automatiquement les nouveautés du plugin. Pour une nouvelle capture, double-cliquez sur **`tool/macro.bat`** (ou lancez `python tool/macro.py`), ouvrez le plugin avec les tags et la recherche effacés, puis suivez les indications affichées. La macro fournit une ligne à coller dans la barre de commande Studio. Placez ensuite la souris au centre de l’en-tête **Tags** et appuyez sur **F8** pour calibrer. **Échap** interrompt la macro. Gardez la fenêtre `vfx.rbxl` visible et ne déplacez pas ses panneaux pendant les clics. Par défaut, la macro parcourt **Textures, Beams et Meshes**, leurs tags et leurs listes complètes ; elle capture aussi **Statics** et **Flipbooks** pour Textures, puis reconstruit les catalogues. Les instructions détaillées sont dans **`tool/MACRO_LIRE_MOI.md`**.
+Cette actualisation conserve la fusion VFX Studio à partir des captures enregistrées ; elle ne relit pas automatiquement les nouveautés des plugins. Pour une nouvelle capture, double-cliquez sur **`tool/macro.bat`** (ou lancez `python tool/macro.py`), ouvrez le plugin avec les tags et la recherche effacés, puis suivez les indications affichées. La macro fournit une ligne à coller dans la barre de commande Studio. Placez ensuite la souris au centre de l’en-tête **Tags** et appuyez sur **F8** pour calibrer. **Échap** interrompt la macro. Gardez la fenêtre `vfx.rbxl` visible et ne déplacez pas ses panneaux pendant les clics. Par défaut, la macro parcourt **Textures, Beams et Meshes**, leurs tags et leurs listes complètes ; elle capture aussi **Statics** et **Flipbooks** pour Textures, puis reconstruit les catalogues. Les instructions détaillées sont dans **`tool/MACRO_LIRE_MOI.md`**.
 
 **La macro a été vérifiée hors interface ; nous n’avons pas exécuté son parcours par clics natifs Windows.** Son premier lancement interactif doit être surveillé par l’utilisateur, notamment le premier changement de tag. Les captures déjà terminées sont conservées si la macro s’arrête. Les tags sont découverts automatiquement ; les vues personnelles et récentes sont exclues par défaut (`--include-personal` les inclut).
 

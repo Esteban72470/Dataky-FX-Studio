@@ -2,36 +2,36 @@
   "Lightning": {
     "json": "tags/Lightning-41e68f2c.json",
     "csv": "tags/Lightning-41e68f2c.csv",
-    "count": 9
+    "count": 8
   },
   "Other": {
     "json": "tags/Other-f97e9da0.json",
     "csv": "tags/Other-f97e9da0.csv",
-    "count": 23
+    "count": 20
   },
   "Shockwave": {
     "json": "tags/Shockwave-6da37aae.json",
     "csv": "tags/Shockwave-6da37aae.csv",
-    "count": 32
+    "count": 29
   },
   "Spheres": {
     "json": "tags/Spheres-21815c03.json",
     "csv": "tags/Spheres-21815c03.csv",
-    "count": 18
+    "count": 16
   },
   "Spikes": {
     "json": "tags/Spikes-94b74810.json",
     "csv": "tags/Spikes-94b74810.csv",
-    "count": 15
+    "count": 11
   },
   "Swirls": {
     "json": "tags/Swirls-052c23bf.json",
     "csv": "tags/Swirls-052c23bf.csv",
-    "count": 43
+    "count": 36
   },
   "Wind": {
     "json": "tags/Wind-d151346f.json",
     "csv": "tags/Wind-d151346f.csv",
-    "count": 18
+    "count": 16
   }
 }

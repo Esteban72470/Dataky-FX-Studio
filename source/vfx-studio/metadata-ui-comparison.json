@@ -1,0 +1,24 @@
+{
+  "ui_count": 9178,
+  "ui_unique_ids": 9178,
+  "local_count": 9178,
+  "remote_count": 9178,
+  "ui_equals_installed_metadata": false,
+  "ui_equals_current_remote_metadata": true,
+  "local_missing_from_ui": [
+    "110781751514494",
+    "139200777915968"
+  ],
+  "remote_missing_from_ui": [],
+  "ui_extra_vs_installed": [
+    "117697269089448",
+    "135522487559371"
+  ],
+  "ui_extra_vs_remote": [],
+  "kind_mismatch_count": 0,
+  "kind_mismatches": [],
+  "ui_rect_kinds": {
+    "flipbook": 2752,
+    "static": 6426
+  }
+}

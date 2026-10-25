@@ -1,0 +1,4269 @@
+{
+  "records": [
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://903888897",
+          "name": "RoughShockwaveElectricity",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 1,
+      "slot": "TemplateItem_1"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926607746",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 2,
+      "slot": "TemplateItem_2"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4041733635",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 3,
+      "slot": "TemplateItem_3"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862671502",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 4,
+      "slot": "TemplateItem_4"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862669105",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 5,
+      "slot": "TemplateItem_5"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030401",
+          "name": "IcosidodecaHedron",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 6,
+      "slot": "TemplateItem_6"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643722934",
+          "name": "HalfSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 7,
+      "slot": "TemplateItem_7"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220387765",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 8,
+      "slot": "TemplateItem_8"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5708435383",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 9,
+      "slot": "TemplateItem_9"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926605936",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 10,
+      "slot": "TemplateItem_10"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=12812752309",
+          "name": "Inverted Smooth Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 11,
+      "slot": "TemplateItem_11"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926606491",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 12,
+      "slot": "TemplateItem_12"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026290320",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 13,
+      "slot": "TemplateItem_13"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5946435602",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 14,
+      "slot": "TemplateItem_14"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://881809484",
+          "name": "SwirlShockwaveFire",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 15,
+      "slot": "TemplateItem_15"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643724785",
+          "name": "IcoSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 16,
+      "slot": "TemplateItem_16"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926606164",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 17,
+      "slot": "TemplateItem_17"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926605400",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 18,
+      "slot": "TemplateItem_18"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2855431753",
+          "name": "Whirl",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 19,
+      "slot": "TemplateItem_19"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643719371",
+          "name": "RoundedCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 20,
+      "slot": "TemplateItem_20"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926606313",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 21,
+      "slot": "TemplateItem_21"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862666538",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 22,
+      "slot": "TemplateItem_22"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922911838",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 23,
+      "slot": "TemplateItem_23"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2855433036",
+          "name": "Chase Whirl",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 24,
+      "slot": "TemplateItem_24"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643725981",
+          "name": "HollowedCylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 25,
+      "slot": "TemplateItem_25"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922652488",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 26,
+      "slot": "TemplateItem_26"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030418",
+          "name": "Gear5B",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 27,
+      "slot": "TemplateItem_27"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://18187917672",
+          "name": "RoundedSquare",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 28,
+      "slot": "TemplateItem_28"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://3454554153",
+          "name": "growing wind",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 29,
+      "slot": "TemplateItem_29"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6063634156",
+          "name": "Wave3",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 30,
+      "slot": "TemplateItem_30"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6700607404",
+          "name": "G-Stun Stars",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://6711713628",
+          "label": "TextureId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 31,
+      "slot": "TemplateItem_31"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4316118084",
+          "name": "Meshes/newWave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 32,
+      "slot": "TemplateItem_32"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643722425",
+          "name": "Capsule",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 33,
+      "slot": "TemplateItem_33"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=7960893139",
+          "name": "SpinOutward",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://2855431753",
+          "name": "Fade",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+          "name": "ExtendSpin",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://2855433036",
+          "name": "Spin",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://903888897",
+          "name": "ExtendSpin",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 34,
+      "slot": "TemplateItem_34"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220384859",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 35,
+      "slot": "TemplateItem_35"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5769822169",
+          "name": "Impact",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 36,
+      "slot": "TemplateItem_36"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862671368",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 37,
+      "slot": "TemplateItem_37"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004868",
+          "name": "Mesh3T.25",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 38,
+      "slot": "TemplateItem_38"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643729897",
+          "name": "Egg",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 39,
+      "slot": "TemplateItem_39"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=12812752257",
+          "name": "Smooth Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 40,
+      "slot": "TemplateItem_40"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922912119",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 41,
+      "slot": "TemplateItem_41"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922912334",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 42,
+      "slot": "TemplateItem_42"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5769822043",
+          "name": "Shockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 43,
+      "slot": "TemplateItem_43"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4558726590",
+          "name": "Shockwaves",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 44,
+      "slot": "TemplateItem_44"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926606968",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 45,
+      "slot": "TemplateItem_45"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://3097373378",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 46,
+      "slot": "TemplateItem_46"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5694660543",
+          "name": "Shockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 47,
+      "slot": "TemplateItem_47"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643724208",
+          "name": "BeveledCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 48,
+      "slot": "TemplateItem_48"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1726537151",
+          "name": "Shockwave mesh",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 49,
+      "slot": "TemplateItem_49"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922652005",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 50,
+      "slot": "TemplateItem_50"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://437326965",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 51,
+      "slot": "TemplateItem_51"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=1778999",
+          "name": "WeaponPart",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=9756362",
+          "name": "WeaponPart",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=9756362",
+          "name": "WeaponPart",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=1778999",
+          "name": "WeaponPart",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=1778999",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=9756362",
+          "name": "WeaponPart",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "",
+          "name": "Part1",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 52,
+      "slot": "TemplateItem_52"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://903888897",
+          "name": "RoughShockwaveElectricity",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 53,
+      "slot": "TemplateItem_53"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5139788213",
+          "name": "Explosion",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 54,
+      "slot": "TemplateItem_54"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030636",
+          "name": "Mesh256.2",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 55,
+      "slot": "TemplateItem_55"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862666322",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 56,
+      "slot": "TemplateItem_56"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5696416905",
+          "name": "Wave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 57,
+      "slot": "TemplateItem_57"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643733718",
+          "name": "RoundedWedge",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 58,
+      "slot": "TemplateItem_58"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922912416",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 59,
+      "slot": "TemplateItem_59"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://10691561431",
+          "name": "Rock4",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 60,
+      "slot": "TemplateItem_60"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643721576",
+          "name": "RoundedTriangle",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 61,
+      "slot": "TemplateItem_61"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5946435396",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 62,
+      "slot": "TemplateItem_62"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220385703",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 63,
+      "slot": "TemplateItem_63"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926605285",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 64,
+      "slot": "TemplateItem_64"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220386565",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 65,
+      "slot": "TemplateItem_65"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862672980",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 66,
+      "slot": "TemplateItem_66"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004432",
+          "name": "Mesh12R",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 67,
+      "slot": "TemplateItem_67"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://643098245",
+          "name": "MeshPart",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://643064975",
+          "label": "TextureId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 68,
+      "slot": "TemplateItem_68"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5694660914",
+          "name": "Shockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 69,
+      "slot": "TemplateItem_69"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220388093",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 70,
+      "slot": "TemplateItem_70"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5946436521",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 71,
+      "slot": "TemplateItem_71"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://137253122196048",
+          "name": "Rock4",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 72,
+      "slot": "TemplateItem_72"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://5411666792",
+          "name": "Snake Head",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 73,
+      "slot": "TemplateItem_73"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://12823918173",
+          "name": "One Sided Pane",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 74,
+      "slot": "TemplateItem_74"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695027243",
+          "name": "Mesh6OF.33",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 75,
+      "slot": "TemplateItem_75"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4933939521",
+          "name": "Sphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 76,
+      "slot": "TemplateItem_76"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643726506",
+          "name": "RoundedTriangle",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 77,
+      "slot": "TemplateItem_77"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://5411666792",
+          "name": "Snake Head",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://452039165",
+          "name": "Chain Link",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 78,
+      "slot": "TemplateItem_78"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4313235782",
+          "name": "Meshes/WindMesh2",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 79,
+      "slot": "TemplateItem_79"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://60886166",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 80,
+      "slot": "TemplateItem_80"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862673437",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 81,
+      "slot": "TemplateItem_81"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643720369",
+          "name": "IcoSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 82,
+      "slot": "TemplateItem_82"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643720180",
+          "name": "Head",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 83,
+      "slot": "TemplateItem_83"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6063631009",
+          "name": "Vento2",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 84,
+      "slot": "TemplateItem_84"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://18997269097",
+          "name": "mini rock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 85,
+      "slot": "TemplateItem_85"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2855433036",
+          "name": "WhirlLowPoly",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 86,
+      "slot": "TemplateItem_86"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004423",
+          "name": "Mesh8",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 87,
+      "slot": "TemplateItem_87"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030651",
+          "name": "Sphere.8",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 88,
+      "slot": "TemplateItem_88"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220387990",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 89,
+      "slot": "TemplateItem_89"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643726350",
+          "name": "HollowedCylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 90,
+      "slot": "TemplateItem_90"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://435114964",
+          "name": "Rocks",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 91,
+      "slot": "TemplateItem_91"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6133078795",
+          "name": "e",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 92,
+      "slot": "TemplateItem_92"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030469",
+          "name": "Gear6C",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 93,
+      "slot": "TemplateItem_93"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=12820931144",
+          "name": "One Way pane Corner",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 94,
+      "slot": "TemplateItem_94"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030248",
+          "name": "Outer Wedge",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 95,
+      "slot": "TemplateItem_95"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1638897353",
+          "name": "Shockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 96,
+      "slot": "TemplateItem_96"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1474874211",
+          "name": "CircleShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 97,
+      "slot": "TemplateItem_97"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4646044301",
+          "name": "RenderMesh (1)",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 98,
+      "slot": "TemplateItem_98"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643721202",
+          "name": "Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 99,
+      "slot": "TemplateItem_99"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643723750",
+          "name": "BeveledCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 100,
+      "slot": "TemplateItem_100"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5747850601",
+          "name": "Sphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 101,
+      "slot": "TemplateItem_101"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5703278366",
+          "name": "Sphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 102,
+      "slot": "TemplateItem_102"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030476",
+          "name": "Gear8B",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 103,
+      "slot": "TemplateItem_103"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026287091",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 104,
+      "slot": "TemplateItem_104"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2689837482",
+          "name": "Wave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 105,
+      "slot": "TemplateItem_105"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643729759",
+          "name": "HollowedCylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 106,
+      "slot": "TemplateItem_106"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026289931",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 107,
+      "slot": "TemplateItem_107"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643732404",
+          "name": "HollowedCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 108,
+      "slot": "TemplateItem_108"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643721663",
+          "name": "IcoSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 109,
+      "slot": "TemplateItem_109"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2788580235",
+          "name": "Wave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 110,
+      "slot": "TemplateItem_110"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922651425",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 111,
+      "slot": "TemplateItem_111"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695027030",
+          "name": "Mesh9OF.66",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 112,
+      "slot": "TemplateItem_112"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026282821",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 113,
+      "slot": "TemplateItem_113"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922651594",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 114,
+      "slot": "TemplateItem_114"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026289814",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 115,
+      "slot": "TemplateItem_115"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1886703108",
+          "name": "ultra high res sphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 116,
+      "slot": "TemplateItem_116"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://3354830324",
+          "name": "SemiShock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 117,
+      "slot": "TemplateItem_117"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862668371",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 118,
+      "slot": "TemplateItem_118"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922652409",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 119,
+      "slot": "TemplateItem_119"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5671930987",
+          "name": "cute shockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 120,
+      "slot": "TemplateItem_120"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643725880",
+          "name": "HollowedCylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 121,
+      "slot": "TemplateItem_121"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862670896",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 122,
+      "slot": "TemplateItem_122"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926607194",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 123,
+      "slot": "TemplateItem_123"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://903888897",
+          "name": "Extend",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://6065944963",
+          "name": "SpinOutward",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://4558726590",
+          "name": "Spin",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+          "name": "Extend",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://2855433036",
+          "name": "Spin",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 124,
+      "slot": "TemplateItem_124"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926605619",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 125,
+      "slot": "TemplateItem_125"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030606",
+          "name": "Mesh24.4",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 126,
+      "slot": "TemplateItem_126"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5946435832",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 127,
+      "slot": "TemplateItem_127"
+    },
+    {
+      "index": 128,
+      "slot": "TemplateItem_128",
+      "union_name": "Sphere",
+      "references": [],
+      "names": [
+        "Default"
+      ]
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5188651386",
+          "name": "SpiralMiddle",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://6065944963",
+          "name": "SpinOutward",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://6494560271",
+          "name": "SpiralCenter",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 129,
+      "slot": "TemplateItem_129"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862671261",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 130,
+      "slot": "TemplateItem_130"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://967645205",
+          "name": "Spike",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 131,
+      "slot": "TemplateItem_131"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004399",
+          "name": "Mesh7",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 132,
+      "slot": "TemplateItem_132"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://60886166",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 133,
+      "slot": "TemplateItem_133"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4041733635",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 134,
+      "slot": "TemplateItem_134"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://881809484",
+          "name": "SwirlShockwaveFire",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 135,
+      "slot": "TemplateItem_135"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695027023",
+          "name": "Mesh11OF.66",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 136,
+      "slot": "TemplateItem_136"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004964",
+          "name": "Mesh5T.25",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 137,
+      "slot": "TemplateItem_137"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030428",
+          "name": "Gear5C",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 138,
+      "slot": "TemplateItem_138"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926605006",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 139,
+      "slot": "TemplateItem_139"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220384067",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 140,
+      "slot": "TemplateItem_140"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://437326965",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 141,
+      "slot": "TemplateItem_141"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026289092",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 142,
+      "slot": "TemplateItem_142"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922651859",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 143,
+      "slot": "TemplateItem_143"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643720932",
+          "name": "IcoSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 144,
+      "slot": "TemplateItem_144"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695006543",
+          "name": "Mesh256T.50",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 145,
+      "slot": "TemplateItem_145"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6063634156",
+          "name": "Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 146,
+      "slot": "TemplateItem_146"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922652091",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 147,
+      "slot": "TemplateItem_147"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5878130693",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 148,
+      "slot": "TemplateItem_148"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=12820931160",
+          "name": "One Way pane Cube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 149,
+      "slot": "TemplateItem_149"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=16606212",
+          "name": "Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 150,
+      "slot": "TemplateItem_150"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922911173",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 151,
+      "slot": "TemplateItem_151"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643721321",
+          "name": "Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 152,
+      "slot": "TemplateItem_152"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643730054",
+          "name": "Egg",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 153,
+      "slot": "TemplateItem_153"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862674375",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 154,
+      "slot": "TemplateItem_154"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220385025",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 155,
+      "slot": "TemplateItem_155"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://433631286",
+          "name": "Rocks",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 156,
+      "slot": "TemplateItem_156"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922652409",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 157,
+      "slot": "TemplateItem_157"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862665849",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 158,
+      "slot": "TemplateItem_158"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220385475",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 159,
+      "slot": "TemplateItem_159"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220386737",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 160,
+      "slot": "TemplateItem_160"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5694660823",
+          "name": "Shockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 161,
+      "slot": "TemplateItem_161"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695027094",
+          "name": "Mesh256OF.66",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 162,
+      "slot": "TemplateItem_162"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862673553",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 163,
+      "slot": "TemplateItem_163"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030336",
+          "name": "IcosaHedron",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 164,
+      "slot": "TemplateItem_164"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643724358",
+          "name": "BeveledCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 165,
+      "slot": "TemplateItem_165"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643721469",
+          "name": "Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 166,
+      "slot": "TemplateItem_166"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4776842084",
+          "name": "WaterWheel",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://4776839420",
+          "label": "TextureId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 167,
+      "slot": "TemplateItem_167"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643729305",
+          "name": "HollowedCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 168,
+      "slot": "TemplateItem_168"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862666989",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 169,
+      "slot": "TemplateItem_169"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862667871",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 170,
+      "slot": "TemplateItem_170"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862670814",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 171,
+      "slot": "TemplateItem_171"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://60886166",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 172,
+      "slot": "TemplateItem_172"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862669513",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 173,
+      "slot": "TemplateItem_173"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643723326",
+          "name": "Stump",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 174,
+      "slot": "TemplateItem_174"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://437326965",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 175,
+      "slot": "TemplateItem_175"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5946436392",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 176,
+      "slot": "TemplateItem_176"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695026910",
+          "name": "Mesh10OF.75",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 177,
+      "slot": "TemplateItem_177"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862669870",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 178,
+      "slot": "TemplateItem_178"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4124211540",
+          "name": "Meshes/Shockwave 1",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 179,
+      "slot": "TemplateItem_179"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643724868",
+          "name": "IcoSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 180,
+      "slot": "TemplateItem_180"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643718894",
+          "name": "Cube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 181,
+      "slot": "TemplateItem_181"
+    },
+    {
+      "references": [],
+      "names": [
+        "Default"
+      ],
+      "index": 182,
+      "slot": "TemplateItem_182"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695026977",
+          "name": "Mesh256OF.75",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 183,
+      "slot": "TemplateItem_183"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://11506494626",
+          "name": "Meshes/Scissors",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 184,
+      "slot": "TemplateItem_184"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://18997255615",
+          "name": "mini rock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 185,
+      "slot": "TemplateItem_185"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643733376",
+          "name": "RoundedWedge",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 186,
+      "slot": "TemplateItem_186"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926605501",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 187,
+      "slot": "TemplateItem_187"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://137706463927900",
+          "name": "Rock5",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 188,
+      "slot": "TemplateItem_188"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862673712",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 189,
+      "slot": "TemplateItem_189"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://80571342529548",
+          "name": "Rock3",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 190,
+      "slot": "TemplateItem_190"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220385240",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 191,
+      "slot": "TemplateItem_191"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6063631009",
+          "name": "Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 192,
+      "slot": "TemplateItem_192"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004398",
+          "name": "Mesh6",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 193,
+      "slot": "TemplateItem_193"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643726432",
+          "name": "RoundedTriangle",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 194,
+      "slot": "TemplateItem_194"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4461104675",
+          "name": "Meshes/new Wind",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 195,
+      "slot": "TemplateItem_195"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://60886166",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 196,
+      "slot": "TemplateItem_196"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862674539",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 197,
+      "slot": "TemplateItem_197"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4646044301",
+          "name": "RenderMesh (1)",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 198,
+      "slot": "TemplateItem_198"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862671631",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 199,
+      "slot": "TemplateItem_199"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030650",
+          "name": "Sphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 200,
+      "slot": "TemplateItem_200"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643733062",
+          "name": "RoundedWedge",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 201,
+      "slot": "TemplateItem_201"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862673105",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 202,
+      "slot": "TemplateItem_202"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026287171",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 203,
+      "slot": "TemplateItem_203"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926606024",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 204,
+      "slot": "TemplateItem_204"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862667626",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 205,
+      "slot": "TemplateItem_205"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220384276",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 206,
+      "slot": "TemplateItem_206"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926726777",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 207,
+      "slot": "TemplateItem_207"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=16606212",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 208,
+      "slot": "TemplateItem_208"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862669627",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 209,
+      "slot": "TemplateItem_209"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2855431753",
+          "name": "Circle",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 210,
+      "slot": "TemplateItem_210"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220383826",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 211,
+      "slot": "TemplateItem_211"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4646047946",
+          "name": "RenderMesh",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 212,
+      "slot": "TemplateItem_212"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926606403",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 213,
+      "slot": "TemplateItem_213"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922912615",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 214,
+      "slot": "TemplateItem_214"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=12812752267",
+          "name": "Inverted Smooth Cube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 215,
+      "slot": "TemplateItem_215"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862671023",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 216,
+      "slot": "TemplateItem_216"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5946436250",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 217,
+      "slot": "TemplateItem_217"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004343",
+          "name": "Mesh4.00",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 218,
+      "slot": "TemplateItem_218"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643722286",
+          "name": "Head",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 219,
+      "slot": "TemplateItem_219"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862668737",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 220,
+      "slot": "TemplateItem_220"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6494560271",
+          "name": "Spiral",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 221,
+      "slot": "TemplateItem_221"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4316118084",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 222,
+      "slot": "TemplateItem_222"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://3375161112",
+          "name": "Meshes/spikeyball",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 223,
+      "slot": "TemplateItem_223"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643734124",
+          "name": "RoundedWedge",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 224,
+      "slot": "TemplateItem_224"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695027238",
+          "name": "Mesh4OF.33",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 225,
+      "slot": "TemplateItem_225"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922911757",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 226,
+      "slot": "TemplateItem_226"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220387416",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 227,
+      "slot": "TemplateItem_227"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643733515",
+          "name": "OutwardRamp",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 228,
+      "slot": "TemplateItem_228"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643719495",
+          "name": "RoundedCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 229,
+      "slot": "TemplateItem_229"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5878130298",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 230,
+      "slot": "TemplateItem_230"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://433643512",
+          "name": "Rocks",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 231,
+      "slot": "TemplateItem_231"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220384680",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 232,
+      "slot": "TemplateItem_232"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=12812752208",
+          "name": "Smooth Cube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 233,
+      "slot": "TemplateItem_233"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5694660722",
+          "name": "Shockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 234,
+      "slot": "TemplateItem_234"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643719151",
+          "name": "RoundedCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 235,
+      "slot": "TemplateItem_235"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643723956",
+          "name": "BeveledCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 236,
+      "slot": "TemplateItem_236"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://465435723",
+          "name": "Cylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 237,
+      "slot": "TemplateItem_237"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004428",
+          "name": "Mesh9",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 238,
+      "slot": "TemplateItem_238"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004474",
+          "name": "Mesh5.00",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 239,
+      "slot": "TemplateItem_239"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5986630611",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 240,
+      "slot": "TemplateItem_240"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://3454554153",
+          "name": "Circle",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 241,
+      "slot": "TemplateItem_241"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026289529",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 242,
+      "slot": "TemplateItem_242"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643723480",
+          "name": "BeveledCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 243,
+      "slot": "TemplateItem_243"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862672731",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 244,
+      "slot": "TemplateItem_244"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2855431753",
+          "name": "Circle",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 245,
+      "slot": "TemplateItem_245"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643732507",
+          "name": "HollowedCube",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 246,
+      "slot": "TemplateItem_246"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643726275",
+          "name": "HollowedCylinder",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 247,
+      "slot": "TemplateItem_247"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030449",
+          "name": "Gear6B",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 248,
+      "slot": "TemplateItem_248"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4461104675",
+          "name": "Spiral",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 249,
+      "slot": "TemplateItem_249"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926607336",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 250,
+      "slot": "TemplateItem_250"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4313233873",
+          "name": "Meshes/WindMesh1",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 251,
+      "slot": "TemplateItem_251"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026287010",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 252,
+      "slot": "TemplateItem_252"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026290701",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 253,
+      "slot": "TemplateItem_253"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922651737",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 254,
+      "slot": "TemplateItem_254"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6220387632",
+          "name": "InwardShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 255,
+      "slot": "TemplateItem_255"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=1051557",
+          "name": "MeshPart",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 256,
+      "slot": "TemplateItem_256"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://2855433036",
+          "name": "Spin",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+          "name": "Extend",
+          "label": "MeshId"
+        },
+        {
+          "raw_uri": "rbxassetid://903888897",
+          "name": "Extend",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 257,
+      "slot": "TemplateItem_257"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://452960473",
+          "name": "Wave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 258,
+      "slot": "TemplateItem_258"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643733858",
+          "name": "OutwardRamp",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 259,
+      "slot": "TemplateItem_259"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643723050",
+          "name": "HalfCapsule",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 260,
+      "slot": "TemplateItem_260"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695030499",
+          "name": "Icosphere.4",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 261,
+      "slot": "TemplateItem_261"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://3354830324",
+          "name": "Circle",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 262,
+      "slot": "TemplateItem_262"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643720511",
+          "name": "IcoSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 263,
+      "slot": "TemplateItem_263"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643734201",
+          "name": "OutwardRamp",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 264,
+      "slot": "TemplateItem_264"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=12812752271",
+          "name": "Smooth Sphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 265,
+      "slot": "TemplateItem_265"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643726881",
+          "name": "Stump",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 266,
+      "slot": "TemplateItem_266"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://18997270973",
+          "name": "mini rock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 267,
+      "slot": "TemplateItem_267"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://4313233873",
+          "name": "Meshes/WindMesh1",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 268,
+      "slot": "TemplateItem_268"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862669759",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 269,
+      "slot": "TemplateItem_269"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://489415286",
+          "name": "10smash",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 270,
+      "slot": "TemplateItem_270"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862668120",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 271,
+      "slot": "TemplateItem_271"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643722795",
+          "name": "HollowHalfSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 272,
+      "slot": "TemplateItem_272"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5878130860",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 273,
+      "slot": "TemplateItem_273"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "",
+          "name": "Glow",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 274,
+      "slot": "TemplateItem_274"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026288943",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 275,
+      "slot": "TemplateItem_275"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://18997254558",
+          "name": "mini rock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 276,
+      "slot": "TemplateItem_276"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922912840",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 277,
+      "slot": "TemplateItem_277"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862671828",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 278,
+      "slot": "TemplateItem_278"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5922911237",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 279,
+      "slot": "TemplateItem_279"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004533",
+          "name": "Mesh24",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 280,
+      "slot": "TemplateItem_280"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5926607506",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 281,
+      "slot": "TemplateItem_281"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://13643720037",
+          "name": "IcoSphere",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 282,
+      "slot": "TemplateItem_282"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695027227",
+          "name": "Mesh256OF.50",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 283,
+      "slot": "TemplateItem_283"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026286917",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 284,
+      "slot": "TemplateItem_284"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://5862673942",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 285,
+      "slot": "TemplateItem_285"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1474874211",
+          "name": "CircleShockwave",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 286,
+      "slot": "TemplateItem_286"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://6026287641",
+          "name": "Shock",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 287,
+      "slot": "TemplateItem_287"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "rbxassetid://1254390558",
+          "name": "Spike",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 288,
+      "slot": "TemplateItem_288"
+    },
+    {
+      "references": [
+        {
+          "raw_uri": "https://assetdelivery.roblox.com/v1/asset/?id=10695004133",
+          "name": "Mesh3",
+          "label": "MeshId"
+        }
+      ],
+      "names": [
+        "Default"
+      ],
+      "index": 289,
+      "slot": "TemplateItem_289"
+    }
+  ],
+  "count": 289,
+  "label": "Meshes All",
+  "canvas_height": 58377,
+  "captured_at": "2026-10-25T13:09:39Z",
+  "missing_indexes": [],
+  "max_index": 289,
+  "complete": false,
+  "blocked_by": "Studio script-management permission request raised by VFX Studio when cloning a preview model with a script. No permission action taken."
+}

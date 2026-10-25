@@ -31,7 +31,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spikes"
+      "Spikes",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -46,7 +47,8 @@
             "raw_uri": "rbxassetid://4316118084",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -60,10 +62,99 @@
             "raw_uri": "rbxassetid://4316118084",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 127,
+        "raw_uri": "rbxassetid://4316118084",
+        "image": "",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4316118084",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spikes",
+        "index": 14,
+        "raw_uri": "rbxassetid://4316118084",
+        "image": "",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4316118084",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Meshes/newWave",
+        "raw_uri": "rbxassetid://4316118084",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Meshes/newWave",
+        "item_name": "Meshes/newWave",
+        "item_path": "Meshes/newWave",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "4316118084",
+            "uri": "rbxassetid://4316118084",
+            "raw_uri": "rbxassetid://4316118084",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "MeshPart",
+        "raw_uri": "rbxassetid://4316118084",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.MeshPart",
+        "item_name": "MeshPart",
+        "item_path": "MeshPart",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "4316118084",
+            "uri": "rbxassetid://4316118084",
+            "raw_uri": "rbxassetid://4316118084",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
+      "Meshes/newWave",
+      "MeshPart",
       "Upwards Alternative Spike"
     ],
     "image_path": "images/4316118084.png",
@@ -71,7 +162,281 @@
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 6,
+    "key_aliases": [
+      "a80f9b4af0dd767f58493cc7",
+      "a5cc613ea52eed8539500170",
+      "b8149d563639bbee84cac76d"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Basic Upwards Spikes",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Upwards Alternative Spike",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Meshes/newWave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      },
+      {
+        "name": "MeshPart",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4316118084",
+        "texture_uri": "",
+        "names": [
+          "Basic Upwards Spikes",
+          "Upwards Alternative Spike",
+          "Meshes/newWave",
+          "MeshPart"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "96d0e0937b6b76b88f7b040a",
+          "a80f9b4af0dd767f58493cc7",
+          "a5cc613ea52eed8539500170",
+          "b8149d563639bbee84cac76d"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "b0a0da3bc9a1a3f4c5b13ebf",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Cartoony Shockwave",
+    "asset_id": "2689837482",
+    "uri": "rbxassetid://2689837482",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2689837482",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2689837482"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2689837482",
+        "uri": "rbxassetid://2689837482",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2689837482",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave",
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave",
+      "Spikes",
+      "VFX Studio/All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 18,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Shockwave",
+        "index": 10,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 27,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spikes",
+        "index": 3,
+        "raw_uri": "rbxassetid://2689837482",
+        "image": "",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2689837482",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Wave",
+        "raw_uri": "rbxassetid://2689837482",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Wave",
+        "item_name": "Wave",
+        "item_path": "Wave",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "2689837482",
+            "uri": "rbxassetid://2689837482",
+            "raw_uri": "rbxassetid://2689837482",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Meshes/Wave",
+        "raw_uri": "rbxassetid://2689837482",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Meshes/Wave",
+        "item_name": "Meshes/Wave",
+        "item_path": "Meshes/Wave",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "2689837482",
+            "uri": "rbxassetid://2689837482",
+            "raw_uri": "rbxassetid://2689837482",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Meshes/Wave",
+      "Upwards Jagged Spike",
+      "Wave"
+    ],
+    "image_path": "images/2689837482.png",
+    "preview_path": "images/2689837482.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 6,
+    "key_aliases": [
+      "fb8af0d1d102774231119891",
+      "81c44b20a43188bb9152dc0f",
+      "f1402b6c5bd390cdc8310dae"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Cartoony Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Upwards Jagged Spike",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Wave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      },
+      {
+        "name": "Meshes/Wave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://2689837482",
+        "texture_uri": "",
+        "names": [
+          "Cartoony Shockwave",
+          "Upwards Jagged Spike",
+          "Wave",
+          "Meshes/Wave"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "b0a0da3bc9a1a3f4c5b13ebf",
+          "fb8af0d1d102774231119891",
+          "81c44b20a43188bb9152dc0f",
+          "f1402b6c5bd390cdc8310dae"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -108,7 +473,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spikes"
+      "Spikes",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -123,7 +489,8 @@
             "raw_uri": "rbxassetid://489415286",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -137,10 +504,70 @@
             "raw_uri": "rbxassetid://489415286",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 71,
+        "raw_uri": "rbxassetid://489415286",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415286",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spikes",
+        "index": 9,
+        "raw_uri": "rbxassetid://489415286",
+        "image": "",
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://489415286",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "10smash",
+        "raw_uri": "rbxassetid://489415286",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.10smash",
+        "item_name": "10smash",
+        "item_path": "10smash",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "489415286",
+            "uri": "rbxassetid://489415286",
+            "raw_uri": "rbxassetid://489415286",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
+      "10smash",
       "Upwards Thick Spike"
     ],
     "image_path": "images/489415286.png",
@@ -148,7 +575,51 @@
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 5,
+    "key_aliases": [
+      "6e9e3db7e270bf44c87eff99",
+      "f2f02243bbdf3226ec6b9e71"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Complex Flattened Spikes",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Upwards Thick Spike",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "10smash",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://489415286",
+        "texture_uri": "",
+        "names": [
+          "Complex Flattened Spikes",
+          "Upwards Thick Spike",
+          "10smash"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "bcbfb9664d14df17259f9fac",
+          "6e9e3db7e270bf44c87eff99",
+          "f2f02243bbdf3226ec6b9e71"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -200,7 +671,8 @@
             "raw_uri": "rbxassetid://2620058357",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -214,7 +686,38 @@
             "raw_uri": "rbxassetid://2620058357",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 151,
+        "raw_uri": "rbxassetid://2620058357",
+        "image": "",
+        "mesh_uri": "rbxassetid://2620058357",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2620058357",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spikes",
+        "index": 17,
+        "raw_uri": "rbxassetid://2620058357",
+        "image": "",
+        "mesh_uri": "rbxassetid://2620058357",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2620058357",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [
@@ -225,7 +728,41 @@
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 4,
+    "key_aliases": [
+      "36e93327fda75f0449420a2e"
+    ],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Even Spikes",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Spikes",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://2620058357",
+        "texture_uri": "",
+        "names": [
+          "Even Spikes",
+          "Spikes"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "737b9321253587bf4fe0e50f",
+          "36e93327fda75f0449420a2e"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -262,7 +799,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spikes"
+      "Spikes",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -277,7 +815,8 @@
             "raw_uri": "rbxassetid://489415447",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -291,16 +830,84 @@
             "raw_uri": "rbxassetid://489415447",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "8smash",
+        "raw_uri": "rbxassetid://489415447",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.8smash",
+        "item_name": "8smash",
+        "item_path": "8smash",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://489415447",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "489415447",
+            "uri": "rbxassetid://489415447",
+            "raw_uri": "rbxassetid://489415447",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "8smash"
+    ],
     "image_path": "images/489415447.png",
     "preview_path": "images/489415447.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "cd228b5c91dc9ff9f72b04a6"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Flattened Spikes",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "8smash",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://489415447",
+        "texture_uri": "",
+        "names": [
+          "Flattened Spikes",
+          "8smash"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "0abb4bd7a9d7461595390d38",
+          "cd228b5c91dc9ff9f72b04a6"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -337,7 +944,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spikes"
+      "Spikes",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -352,7 +960,8 @@
             "raw_uri": "rbxassetid://967645205",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -366,16 +975,84 @@
             "raw_uri": "rbxassetid://967645205",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Spike",
+        "raw_uri": "rbxassetid://967645205",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Spike",
+        "item_name": "Spike",
+        "item_path": "Spike",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://967645205",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "967645205",
+            "uri": "rbxassetid://967645205",
+            "raw_uri": "rbxassetid://967645205",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "Spike"
+    ],
     "image_path": "images/967645205.png",
     "preview_path": "images/967645205.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "d7436a4954ff287b7f6d0c88"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Ground Spikes",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Spike",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://967645205",
+        "texture_uri": "",
+        "names": [
+          "Ground Spikes",
+          "Spike"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "5b6078a328206c89140ccacd",
+          "d7436a4954ff287b7f6d0c88"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -393,7 +1070,8 @@
     "raw_uri": "rbxassetid://92588061",
     "uri_parse_method": "rbxassetid",
     "raw_uris": [
-      "rbxassetid://92588061"
+      "rbxassetid://92588061",
+      "http://www.roblox.com/asset/?id=92588061"
     ],
     "references": [
       {
@@ -412,7 +1090,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spikes"
+      "Spikes",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -427,7 +1106,8 @@
             "raw_uri": "rbxassetid://92588061",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -441,10 +1121,159 @@
             "raw_uri": "rbxassetid://92588061",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 86,
+        "raw_uri": "rbxassetid://92588061",
+        "image": "",
+        "mesh_uri": "rbxassetid://92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://92588061",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spikes",
+        "index": 11,
+        "raw_uri": "rbxassetid://92588061",
+        "image": "",
+        "mesh_uri": "rbxassetid://92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://92588061",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "ExtendSpin",
+        "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Shock 3.ExtendSpin",
+        "item_name": "Shock 3",
+        "item_path": "Shock 3/ExtendSpin",
+        "class": "MeshPart",
+        "mesh_uri": "http://www.roblox.com/asset/?id=92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "92588061",
+            "uri": "rbxassetid://92588061",
+            "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Extend",
+        "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Shock 2.Extend",
+        "item_name": "Shock 2",
+        "item_path": "Shock 2/Extend",
+        "class": "MeshPart",
+        "mesh_uri": "http://www.roblox.com/asset/?id=92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "92588061",
+            "uri": "rbxassetid://92588061",
+            "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Extend",
+        "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Shock 1.Extend",
+        "item_name": "Shock 1",
+        "item_path": "Shock 1/Extend",
+        "class": "MeshPart",
+        "mesh_uri": "http://www.roblox.com/asset/?id=92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "92588061",
+            "uri": "rbxassetid://92588061",
+            "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Meshes/shockwave",
+        "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Meshes/shockwave",
+        "item_name": "Meshes/shockwave",
+        "item_path": "Meshes/shockwave",
+        "class": "MeshPart",
+        "mesh_uri": "http://www.roblox.com/asset/?id=92588061",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "92588061",
+            "uri": "rbxassetid://92588061",
+            "raw_uri": "http://www.roblox.com/asset/?id=92588061",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
+      "Extend",
+      "ExtendSpin",
+      "Meshes/shockwave",
+      "Shock 1",
+      "Shock 2",
+      "Shock 3",
       "Upwards Layered Spike"
     ],
     "image_path": "images/92588061.png",
@@ -452,7 +1281,67 @@
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 8,
+    "key_aliases": [
+      "7c73a5aa978aaec842ddbb39",
+      "791fad0e851430c0d73581b8",
+      "efcdf8fa1a0938de1d731671",
+      "6d32deeb12c1300e72e5e194"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Inside Out Spikes",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Upwards Layered Spike",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "ExtendSpin",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      },
+      {
+        "name": "Extend",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      },
+      {
+        "name": "Meshes/shockwave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://92588061",
+        "texture_uri": "",
+        "names": [
+          "Inside Out Spikes",
+          "Upwards Layered Spike",
+          "ExtendSpin",
+          "Extend",
+          "Meshes/shockwave"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "de0595f44f0624d41fafa410",
+          "7c73a5aa978aaec842ddbb39",
+          "791fad0e851430c0d73581b8",
+          "efcdf8fa1a0938de1d731671",
+          "6d32deeb12c1300e72e5e194"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -504,7 +1393,8 @@
             "raw_uri": "rbxassetid://1826588507",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -518,7 +1408,8 @@
             "raw_uri": "rbxassetid://1826588507",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -528,6 +1419,402 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Inverted Spike",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://1826588507",
+        "texture_uri": "",
+        "names": [
+          "Inverted Spike"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "94558018b167d3088dc25f4b"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "4999e8ff945ed3568a379f5c",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Shockwave",
+    "asset_id": "2788580235",
+    "uri": "rbxassetid://2788580235",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2788580235",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2788580235"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2788580235",
+        "uri": "rbxassetid://2788580235",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2788580235",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave",
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave",
+      "Spikes",
+      "VFX Studio/All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 32,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Shockwave",
+        "index": 13,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 140,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spikes",
+        "index": 16,
+        "raw_uri": "rbxassetid://2788580235",
+        "image": "",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2788580235",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Wave",
+        "raw_uri": "rbxassetid://2788580235",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Wave",
+        "item_name": "Wave",
+        "item_path": "Wave",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "2788580235",
+            "uri": "rbxassetid://2788580235",
+            "raw_uri": "rbxassetid://2788580235",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Thick Floor",
+      "Wave"
+    ],
+    "image_path": "images/2788580235.png",
+    "preview_path": "images/2788580235.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 5,
+    "key_aliases": [
+      "2e5edfd6c85b372a6cde048b",
+      "194344a94e87b223cf7d2d5c"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Thick Floor",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Wave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://2788580235",
+        "texture_uri": "",
+        "names": [
+          "Shockwave",
+          "Thick Floor",
+          "Wave"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "4999e8ff945ed3568a379f5c",
+          "2e5edfd6c85b372a6cde048b",
+          "194344a94e87b223cf7d2d5c"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "10db16bcec0edb7ab4f4fdba",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Simple Shockwave",
+    "asset_id": "4124211540",
+    "uri": "rbxassetid://4124211540",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://4124211540",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://4124211540"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "4124211540",
+        "uri": "rbxassetid://4124211540",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://4124211540",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Shockwave",
+      "Spikes"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Shockwave",
+      "Spikes",
+      "VFX Studio/All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 62,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Shockwave",
+        "index": 20,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 90,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spikes",
+        "index": 12,
+        "raw_uri": "rbxassetid://4124211540",
+        "image": "",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://4124211540",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Meshes/Shockwave 1",
+        "raw_uri": "rbxassetid://4124211540",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Meshes/Shockwave 1",
+        "item_name": "Meshes/Shockwave 1",
+        "item_path": "Meshes/Shockwave 1",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "4124211540",
+            "uri": "rbxassetid://4124211540",
+            "raw_uri": "rbxassetid://4124211540",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Meshes/Shockwave 1",
+      "Upwards Spike"
+    ],
+    "image_path": "images/4124211540.png",
+    "preview_path": "images/4124211540.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 5,
+    "key_aliases": [
+      "da95bc824a956ebb625347c6",
+      "6fa9e9d0d1bf3c77e05aa23a"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Simple Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Upwards Spike",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Meshes/Shockwave 1",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4124211540",
+        "texture_uri": "",
+        "names": [
+          "Simple Shockwave",
+          "Upwards Spike",
+          "Meshes/Shockwave 1"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "10db16bcec0edb7ab4f4fdba",
+          "da95bc824a956ebb625347c6",
+          "6fa9e9d0d1bf3c77e05aa23a"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -564,7 +1851,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spikes"
+      "Spikes",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -579,7 +1867,8 @@
             "raw_uri": "rbxassetid://489415572",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spikes",
@@ -593,555 +1882,84 @@
             "raw_uri": "rbxassetid://489415572",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "6smash",
+        "raw_uri": "rbxassetid://489415572",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.6smash",
+        "item_name": "6smash",
+        "item_path": "6smash",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://489415572",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "489415572",
+            "uri": "rbxassetid://489415572",
+            "raw_uri": "rbxassetid://489415572",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "6smash"
+    ],
     "image_path": "images/489415572.png",
     "preview_path": "images/489415572.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "36e93327fda75f0449420a2e",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Spikes",
-    "asset_id": "2620058357",
-    "uri": "rbxassetid://2620058357",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://2620058357",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://2620058357"
+    "observation_count": 3,
+    "key_aliases": [
+      "f2df559967532802612d655a"
     ],
-    "references": [
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
       {
-        "label": "MeshId",
-        "asset_id": "2620058357",
-        "uri": "rbxassetid://2620058357",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://2620058357",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spikes"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spikes"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 151,
-        "raw_uri": "rbxassetid://2620058357",
-        "image": "",
-        "mesh_uri": "rbxassetid://2620058357",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2620058357",
-            "label": "MeshId"
-          }
-        ]
+        "name": "Simpler Flattened Spikes",
+        "plugin": "ZonitoVisuals"
       },
       {
-        "source": "Spikes",
-        "index": 17,
-        "raw_uri": "rbxassetid://2620058357",
-        "image": "",
-        "mesh_uri": "rbxassetid://2620058357",
+        "name": "6smash",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://489415572",
         "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2620058357",
-            "label": "MeshId"
-          }
+        "names": [
+          "Simpler Flattened Spikes",
+          "6smash"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "df555bce1e1632d24ff525a8",
+          "f2df559967532802612d655a"
         ]
       }
     ],
-    "aliases": [
-      "Even Spikes"
-    ],
-    "image_path": "images/2620058357.png",
-    "preview_path": "images/2620058357.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "2e5edfd6c85b372a6cde048b",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Thick Floor",
-    "asset_id": "2788580235",
-    "uri": "rbxassetid://2788580235",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://2788580235",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://2788580235"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "2788580235",
-        "uri": "rbxassetid://2788580235",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://2788580235",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spikes"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spikes"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 140,
-        "raw_uri": "rbxassetid://2788580235",
-        "image": "",
-        "mesh_uri": "rbxassetid://2788580235",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2788580235",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Spikes",
-        "index": 16,
-        "raw_uri": "rbxassetid://2788580235",
-        "image": "",
-        "mesh_uri": "rbxassetid://2788580235",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2788580235",
-            "label": "MeshId"
-          }
-        ]
-      }
-    ],
-    "aliases": [
-      "Shockwave"
-    ],
-    "image_path": "images/2788580235.png",
-    "preview_path": "images/2788580235.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "a80f9b4af0dd767f58493cc7",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Upwards Alternative Spike",
-    "asset_id": "4316118084",
-    "uri": "rbxassetid://4316118084",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://4316118084",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://4316118084"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "4316118084",
-        "uri": "rbxassetid://4316118084",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://4316118084",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spikes"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spikes"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 127,
-        "raw_uri": "rbxassetid://4316118084",
-        "image": "",
-        "mesh_uri": "rbxassetid://4316118084",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://4316118084",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Spikes",
-        "index": 14,
-        "raw_uri": "rbxassetid://4316118084",
-        "image": "",
-        "mesh_uri": "rbxassetid://4316118084",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://4316118084",
-            "label": "MeshId"
-          }
-        ]
-      }
-    ],
-    "aliases": [
-      "Basic Upwards Spikes"
-    ],
-    "image_path": "images/4316118084.png",
-    "preview_path": "images/4316118084.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "fb8af0d1d102774231119891",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Upwards Jagged Spike",
-    "asset_id": "2689837482",
-    "uri": "rbxassetid://2689837482",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://2689837482",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://2689837482"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "2689837482",
-        "uri": "rbxassetid://2689837482",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://2689837482",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spikes"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spikes"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 27,
-        "raw_uri": "rbxassetid://2689837482",
-        "image": "",
-        "mesh_uri": "rbxassetid://2689837482",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2689837482",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Spikes",
-        "index": 3,
-        "raw_uri": "rbxassetid://2689837482",
-        "image": "",
-        "mesh_uri": "rbxassetid://2689837482",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2689837482",
-            "label": "MeshId"
-          }
-        ]
-      }
-    ],
-    "aliases": [
-      "Cartoony Shockwave"
-    ],
-    "image_path": "images/2689837482.png",
-    "preview_path": "images/2689837482.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "7c73a5aa978aaec842ddbb39",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Upwards Layered Spike",
-    "asset_id": "92588061",
-    "uri": "rbxassetid://92588061",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://92588061",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://92588061"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "92588061",
-        "uri": "rbxassetid://92588061",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://92588061",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spikes"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spikes"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 86,
-        "raw_uri": "rbxassetid://92588061",
-        "image": "",
-        "mesh_uri": "rbxassetid://92588061",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://92588061",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Spikes",
-        "index": 11,
-        "raw_uri": "rbxassetid://92588061",
-        "image": "",
-        "mesh_uri": "rbxassetid://92588061",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://92588061",
-            "label": "MeshId"
-          }
-        ]
-      }
-    ],
-    "aliases": [
-      "Inside Out Spikes"
-    ],
-    "image_path": "images/92588061.png",
-    "preview_path": "images/92588061.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "da95bc824a956ebb625347c6",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Upwards Spike",
-    "asset_id": "4124211540",
-    "uri": "rbxassetid://4124211540",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://4124211540",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://4124211540"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "4124211540",
-        "uri": "rbxassetid://4124211540",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://4124211540",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spikes"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spikes"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 90,
-        "raw_uri": "rbxassetid://4124211540",
-        "image": "",
-        "mesh_uri": "rbxassetid://4124211540",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://4124211540",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Spikes",
-        "index": 12,
-        "raw_uri": "rbxassetid://4124211540",
-        "image": "",
-        "mesh_uri": "rbxassetid://4124211540",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://4124211540",
-            "label": "MeshId"
-          }
-        ]
-      }
-    ],
-    "aliases": [
-      "Simple Shockwave"
-    ],
-    "image_path": "images/4124211540.png",
-    "preview_path": "images/4124211540.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "6e9e3db7e270bf44c87eff99",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Upwards Thick Spike",
-    "asset_id": "489415286",
-    "uri": "rbxassetid://489415286",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://489415286",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://489415286"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "489415286",
-        "uri": "rbxassetid://489415286",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://489415286",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spikes"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spikes"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 71,
-        "raw_uri": "rbxassetid://489415286",
-        "image": "",
-        "mesh_uri": "rbxassetid://489415286",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://489415286",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Spikes",
-        "index": 9,
-        "raw_uri": "rbxassetid://489415286",
-        "image": "",
-        "mesh_uri": "rbxassetid://489415286",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://489415286",
-            "label": "MeshId"
-          }
-        ]
-      }
-    ],
-    "aliases": [
-      "Complex Flattened Spikes"
-    ],
-    "image_path": "images/489415286.png",
-    "preview_path": "images/489415286.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420

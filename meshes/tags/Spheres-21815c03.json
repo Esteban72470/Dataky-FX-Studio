@@ -46,7 +46,8 @@
             "raw_uri": "rbxassetid://4933939180",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -60,7 +61,8 @@
             "raw_uri": "rbxassetid://4933939180",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -70,6 +72,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Effect Sphere",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4933939180",
+        "texture_uri": "",
+        "names": [
+          "Effect Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "0e4374a6c9a55839da03a4f8"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -106,7 +134,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spheres"
+      "Spheres",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -121,7 +150,8 @@
             "raw_uri": "rbxassetid://5703278366",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -135,18 +165,122 @@
             "raw_uri": "rbxassetid://5703278366",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 72,
+        "raw_uri": "rbxassetid://5703278366",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703278366",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spheres",
+        "index": 10,
+        "raw_uri": "rbxassetid://5703278366",
+        "image": "",
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5703278366",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Sphere",
+        "raw_uri": "rbxassetid://5703278366",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Sphere",
+        "item_name": "Sphere",
+        "item_path": "Sphere",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "5703278366",
+            "uri": "rbxassetid://5703278366",
+            "raw_uri": "rbxassetid://5703278366",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
-      "Heavy Shockwave Sphere"
+      "Heavy Shockwave Sphere",
+      "Sphere"
     ],
     "image_path": "images/5703278366.png",
     "preview_path": "images/5703278366.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 5,
+    "key_aliases": [
+      "ca5db5d65f358eb5ad5b93d5",
+      "00c7150ce1e7fb4437ee0630"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Energy Ball",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Heavy Shockwave Sphere",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Sphere",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5703278366",
+        "texture_uri": "",
+        "names": [
+          "Energy Ball",
+          "Heavy Shockwave Sphere",
+          "Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "128a48e011c98e5ff3eb3ea4",
+          "ca5db5d65f358eb5ad5b93d5",
+          "00c7150ce1e7fb4437ee0630"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -183,7 +317,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spheres"
+      "Spheres",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -198,7 +333,8 @@
             "raw_uri": "rbxassetid://5747850601",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -212,16 +348,84 @@
             "raw_uri": "rbxassetid://5747850601",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Sphere",
+        "raw_uri": "rbxassetid://5747850601",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Sphere",
+        "item_name": "Sphere",
+        "item_path": "Sphere",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://5747850601",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "5747850601",
+            "uri": "rbxassetid://5747850601",
+            "raw_uri": "rbxassetid://5747850601",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "Sphere"
+    ],
     "image_path": "images/5747850601.png",
     "preview_path": "images/5747850601.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "57cdece15e15aa72cc14f101"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Energy Swirl Sphere",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Sphere",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5747850601",
+        "texture_uri": "",
+        "names": [
+          "Energy Swirl Sphere",
+          "Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "146517d4b7beae6e36970dba",
+          "57cdece15e15aa72cc14f101"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -273,7 +477,8 @@
             "raw_uri": "rbxassetid://6553027596",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -287,7 +492,8 @@
             "raw_uri": "rbxassetid://6553027596",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -297,6 +503,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Explosion Wind",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553027596",
+        "texture_uri": "",
+        "names": [
+          "Explosion Wind"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "fa1abb934f1bbb6d9ac42dd3"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -348,7 +580,8 @@
             "raw_uri": "rbxassetid://6553023590",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -362,7 +595,8 @@
             "raw_uri": "rbxassetid://6553023590",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -372,6 +606,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Explosion Wind Thicker",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553023590",
+        "texture_uri": "",
+        "names": [
+          "Explosion Wind Thicker"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "e5febed1dc31f955f98e4d29"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -423,7 +683,8 @@
             "raw_uri": "rbxassetid://6553170677",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -437,7 +698,8 @@
             "raw_uri": "rbxassetid://6553170677",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -447,6 +709,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Glitch Sphere",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553170677",
+        "texture_uri": "",
+        "names": [
+          "Glitch Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "38f23b87b5c7a60f2ca18183"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -498,7 +786,8 @@
             "raw_uri": "rbxassetid://6553021063",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -512,7 +801,8 @@
             "raw_uri": "rbxassetid://6553021063",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -522,6 +812,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Glitch Sphere 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553021063",
+        "texture_uri": "",
+        "names": [
+          "Glitch Sphere 2"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "a8bee230c494cf2d9b6722fc"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -573,7 +889,8 @@
             "raw_uri": "rbxassetid://6071327170",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -587,7 +904,8 @@
             "raw_uri": "rbxassetid://6071327170",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -597,83 +915,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "ca5db5d65f358eb5ad5b93d5",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Heavy Shockwave Sphere",
-    "asset_id": "5703278366",
-    "uri": "rbxassetid://5703278366",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://5703278366",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://5703278366"
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
     ],
-    "references": [
+    "name_provenance": [
       {
-        "label": "MeshId",
-        "asset_id": "5703278366",
-        "uri": "rbxassetid://5703278366",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://5703278366",
-        "uri_parse_method": "rbxassetid"
+        "name": "Ground Energy Sphere",
+        "plugin": "ZonitoVisuals"
       }
     ],
-    "tags": [
-      "Spheres"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spheres"
-    ],
-    "observations": [
+    "variants": [
       {
-        "source": "All",
-        "index": 72,
-        "raw_uri": "rbxassetid://5703278366",
-        "image": "",
-        "mesh_uri": "rbxassetid://5703278366",
+        "mesh_uri": "rbxassetid://6071327170",
         "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://5703278366",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Spheres",
-        "index": 10,
-        "raw_uri": "rbxassetid://5703278366",
-        "image": "",
-        "mesh_uri": "rbxassetid://5703278366",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://5703278366",
-            "label": "MeshId"
-          }
+        "names": [
+          "Ground Energy Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "e6f4bf946d661d3d5d8420ba"
         ]
       }
     ],
-    "aliases": [
-      "Energy Ball"
-    ],
-    "image_path": "images/5703278366.png",
-    "preview_path": "images/5703278366.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -710,7 +977,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spheres"
+      "Spheres",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -725,7 +993,8 @@
             "raw_uri": "rbxassetid://1886703108",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -739,16 +1008,84 @@
             "raw_uri": "rbxassetid://1886703108",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "ultra high res sphere",
+        "raw_uri": "rbxassetid://1886703108",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.ultra high res sphere",
+        "item_name": "ultra high res sphere",
+        "item_path": "ultra high res sphere",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://1886703108",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "1886703108",
+            "uri": "rbxassetid://1886703108",
+            "raw_uri": "rbxassetid://1886703108",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "ultra high res sphere"
+    ],
     "image_path": "images/1886703108.png",
     "preview_path": "images/1886703108.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "ea9d78130009a56941357b28"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "High Res Sphere",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "ultra high res sphere",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://1886703108",
+        "texture_uri": "",
+        "names": [
+          "High Res Sphere",
+          "ultra high res sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "dfab00441104cf869931c3fa",
+          "ea9d78130009a56941357b28"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -800,7 +1137,8 @@
             "raw_uri": "rbxassetid://3027924097",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -814,7 +1152,8 @@
             "raw_uri": "rbxassetid://3027924097",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -824,6 +1163,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Inside Out Mesh",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://3027924097",
+        "texture_uri": "",
+        "names": [
+          "Inside Out Mesh"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "06014ce226e4f13f967d14fb"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -860,7 +1225,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spheres"
+      "Spheres",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -875,7 +1241,8 @@
             "raw_uri": "rbxassetid://6220387416",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -889,16 +1256,84 @@
             "raw_uri": "rbxassetid://6220387416",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "InwardShockwave",
+        "raw_uri": "rbxassetid://6220387416",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.InwardShockwave",
+        "item_name": "InwardShockwave",
+        "item_path": "InwardShockwave",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://6220387416",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "6220387416",
+            "uri": "rbxassetid://6220387416",
+            "raw_uri": "rbxassetid://6220387416",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "InwardShockwave"
+    ],
     "image_path": "images/6220387416.png",
     "preview_path": "images/6220387416.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "da1b36404b7dda4940fdaf47"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Inward Shockwave",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "InwardShockwave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6220387416",
+        "texture_uri": "",
+        "names": [
+          "Inward Shockwave",
+          "InwardShockwave"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "c32b5bea121d76b7c0bad0ca",
+          "da1b36404b7dda4940fdaf47"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -950,7 +1385,8 @@
             "raw_uri": "rbxassetid://5703288879",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -964,7 +1400,8 @@
             "raw_uri": "rbxassetid://5703288879",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -974,6 +1411,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Light Shockwave Sphere",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5703288879",
+        "texture_uri": "",
+        "names": [
+          "Light Shockwave Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "5a285d64cfc22519f4797d97"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1010,7 +1473,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spheres"
+      "Spheres",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1025,7 +1489,8 @@
             "raw_uri": "rbxassetid://1254390558",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -1039,10 +1504,70 @@
             "raw_uri": "rbxassetid://1254390558",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 53,
+        "raw_uri": "rbxassetid://1254390558",
+        "image": "",
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1254390558",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Spheres",
+        "index": 8,
+        "raw_uri": "rbxassetid://1254390558",
+        "image": "",
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://1254390558",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Spike",
+        "raw_uri": "rbxassetid://1254390558",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Spike",
+        "item_name": "Spike",
+        "item_path": "Spike",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "1254390558",
+            "uri": "rbxassetid://1254390558",
+            "raw_uri": "rbxassetid://1254390558",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
+      "Spike",
       "Thick Spiked Ball"
     ],
     "image_path": "images/1254390558.png",
@@ -1050,7 +1575,51 @@
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 5,
+    "key_aliases": [
+      "72dabbe75dabae86a2d5e13b",
+      "2de65c2120ec3481ced23e43"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Spiked Ball",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Thick Spiked Ball",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Spike",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://1254390558",
+        "texture_uri": "",
+        "names": [
+          "Spiked Ball",
+          "Thick Spiked Ball",
+          "Spike"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "e7edae4d929ad71f337b678c",
+          "72dabbe75dabae86a2d5e13b",
+          "2de65c2120ec3481ced23e43"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1087,7 +1656,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Spheres"
+      "Spheres",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1102,7 +1672,8 @@
             "raw_uri": "rbxassetid://4933939521",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -1116,93 +1687,84 @@
             "raw_uri": "rbxassetid://4933939521",
             "label": "MeshId"
           }
-        ]
-      }
-    ],
-    "aliases": [],
-    "image_path": "images/4933939521.png",
-    "preview_path": "images/4933939521.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "72dabbe75dabae86a2d5e13b",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Thick Spiked Ball",
-    "asset_id": "1254390558",
-    "uri": "rbxassetid://1254390558",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://1254390558",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://1254390558"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "1254390558",
-        "uri": "rbxassetid://1254390558",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://1254390558",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Spheres"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Spheres"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 53,
-        "raw_uri": "rbxassetid://1254390558",
-        "image": "",
-        "mesh_uri": "rbxassetid://1254390558",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://1254390558",
-            "label": "MeshId"
-          }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
-        "source": "Spheres",
-        "index": 8,
-        "raw_uri": "rbxassetid://1254390558",
-        "image": "",
-        "mesh_uri": "rbxassetid://1254390558",
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Sphere",
+        "raw_uri": "rbxassetid://4933939521",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Sphere",
+        "item_name": "Sphere",
+        "item_path": "Sphere",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://4933939521",
         "texture_uri": "",
         "references": [
           {
-            "raw_uri": "rbxassetid://1254390558",
-            "label": "MeshId"
+            "label": "MeshId",
+            "asset_id": "4933939521",
+            "uri": "rbxassetid://4933939521",
+            "raw_uri": "rbxassetid://4933939521",
+            "id_status": "valid",
+            "normalization_warnings": []
           }
         ]
       }
     ],
     "aliases": [
-      "Spiked Ball"
+      "Sphere"
     ],
-    "image_path": "images/1254390558.png",
-    "preview_path": "images/1254390558.png",
+    "image_path": "images/4933939521.png",
+    "preview_path": "images/4933939521.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "3dc0f9c7d4fb3bd01e4e136d"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Thick Explosion Sphere",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Sphere",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4933939521",
+        "texture_uri": "",
+        "names": [
+          "Thick Explosion Sphere",
+          "Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "4232bae7d9a29f8fff091c89",
+          "3dc0f9c7d4fb3bd01e4e136d"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1254,7 +1816,8 @@
             "raw_uri": "rbxassetid://5703242100",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -1268,7 +1831,8 @@
             "raw_uri": "rbxassetid://5703242100",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1278,6 +1842,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind Sphere",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5703242100",
+        "texture_uri": "",
+        "names": [
+          "Wind Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "b14f2c88be6092f97320c6c0"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1329,7 +1919,8 @@
             "raw_uri": "rbxassetid://6553177537",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Spheres",
@@ -1343,7 +1934,8 @@
             "raw_uri": "rbxassetid://6553177537",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1353,6 +1945,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Wind Spiral Sphere",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553177537",
+        "texture_uri": "",
+        "names": [
+          "Wind Spiral Sphere"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "95798a1e4634671889390f6d"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420

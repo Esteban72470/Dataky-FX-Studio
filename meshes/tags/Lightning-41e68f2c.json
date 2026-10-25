@@ -46,7 +46,8 @@
             "raw_uri": "rbxassetid://5694662348",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -60,7 +61,38 @@
             "raw_uri": "rbxassetid://5694662348",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 28,
+        "raw_uri": "rbxassetid://5694662348",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662348",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662348",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Lightning",
+        "index": 3,
+        "raw_uri": "rbxassetid://5694662348",
+        "image": "",
+        "mesh_uri": "rbxassetid://5694662348",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://5694662348",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [
@@ -71,7 +103,41 @@
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 4,
+    "key_aliases": [
+      "559422974c17014b01e662a4"
+    ],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Bolt Sparks",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Botl Sparks 4",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5694662348",
+        "texture_uri": "",
+        "names": [
+          "Bolt Sparks",
+          "Botl Sparks 4"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "eef47bb016e21d465974a7be",
+          "559422974c17014b01e662a4"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -123,7 +189,8 @@
             "raw_uri": "rbxassetid://5694662480",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -137,7 +204,8 @@
             "raw_uri": "rbxassetid://5694662480",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -147,6 +215,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Bolt Sparks 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5694662480",
+        "texture_uri": "",
+        "names": [
+          "Bolt Sparks 2"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "db59353a9cd1f5d3755a9948"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -198,7 +292,8 @@
             "raw_uri": "rbxassetid://5694662639",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -212,7 +307,8 @@
             "raw_uri": "rbxassetid://5694662639",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -222,83 +318,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "559422974c17014b01e662a4",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Botl Sparks 4",
-    "asset_id": "5694662348",
-    "uri": "rbxassetid://5694662348",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://5694662348",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://5694662348"
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
     ],
-    "references": [
+    "name_provenance": [
       {
-        "label": "MeshId",
-        "asset_id": "5694662348",
-        "uri": "rbxassetid://5694662348",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://5694662348",
-        "uri_parse_method": "rbxassetid"
+        "name": "Bolt Sparks 3",
+        "plugin": "ZonitoVisuals"
       }
     ],
-    "tags": [
-      "Lightning"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Lightning"
-    ],
-    "observations": [
+    "variants": [
       {
-        "source": "All",
-        "index": 28,
-        "raw_uri": "rbxassetid://5694662348",
-        "image": "",
-        "mesh_uri": "rbxassetid://5694662348",
+        "mesh_uri": "rbxassetid://5694662639",
         "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://5694662348",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Lightning",
-        "index": 3,
-        "raw_uri": "rbxassetid://5694662348",
-        "image": "",
-        "mesh_uri": "rbxassetid://5694662348",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://5694662348",
-            "label": "MeshId"
-          }
+        "names": [
+          "Bolt Sparks 3"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "3e3ccf2841e30c7cedd25d67"
         ]
       }
     ],
-    "aliases": [
-      "Bolt Sparks"
-    ],
-    "image_path": "images/5694662348.png",
-    "preview_path": "images/5694662348.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -350,7 +395,8 @@
             "raw_uri": "rbxassetid://6071318588",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -364,7 +410,8 @@
             "raw_uri": "rbxassetid://6071318588",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -374,6 +421,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Lightning",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6071318588",
+        "texture_uri": "",
+        "names": [
+          "Lightning"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "50906a004bdd3a218921b89d"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -425,7 +498,8 @@
             "raw_uri": "rbxassetid://6553232712",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -439,7 +513,8 @@
             "raw_uri": "rbxassetid://6553232712",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -449,6 +524,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Lightning Bolt",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553232712",
+        "texture_uri": "",
+        "names": [
+          "Lightning Bolt"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "c59e88c6a60900d04c43695f"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -485,7 +586,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Lightning"
+      "Lightning",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -500,7 +602,8 @@
             "raw_uri": "rbxassetid://3375161112",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -514,16 +617,84 @@
             "raw_uri": "rbxassetid://3375161112",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Meshes/spikeyball",
+        "raw_uri": "rbxassetid://3375161112",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Meshes/spikeyball",
+        "item_name": "Meshes/spikeyball",
+        "item_path": "Meshes/spikeyball",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://3375161112",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "3375161112",
+            "uri": "rbxassetid://3375161112",
+            "raw_uri": "rbxassetid://3375161112",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "Meshes/spikeyball"
+    ],
     "image_path": "images/3375161112.png",
     "preview_path": "images/3375161112.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "99d7362d01124b5504b0b313"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Lightning Waves",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Meshes/spikeyball",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://3375161112",
+        "texture_uri": "",
+        "names": [
+          "Lightning Waves",
+          "Meshes/spikeyball"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "a32e62701dbe85d0741fbd9f",
+          "99d7362d01124b5504b0b313"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -575,7 +746,8 @@
             "raw_uri": "rbxassetid://6553146627",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -589,7 +761,8 @@
             "raw_uri": "rbxassetid://6553146627",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -599,6 +772,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Spark",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553146627",
+        "texture_uri": "",
+        "names": [
+          "Spark"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "fdaa92edaf89d69740d5de5e"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -650,7 +849,8 @@
             "raw_uri": "rbxassetid://6553130477",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Lightning",
@@ -664,7 +864,8 @@
             "raw_uri": "rbxassetid://6553130477",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -674,6 +875,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Spark 2",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553130477",
+        "texture_uri": "",
+        "names": [
+          "Spark 2"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "34c37b16b46c726db4514354"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420

@@ -17,6 +17,7 @@ import os
 from pathlib import Path, PurePosixPath
 import re
 import sqlite3
+import sys
 import tempfile
 import time
 
@@ -334,6 +335,10 @@ def export_assets(rows, summary, directory):
                 for row in rows if row["id_status"] != "valid" or row["image_status"] not in {"not_requested", "downloaded", "cached"}]
     _write_json(directory / "failures.json", failures)
     _write_json(directory / "summary.json", summary)
+    if any("VFX Studio" in row.get("plugins", []) for row in rows):
+        from import_vfx_studio import enrich_export_files
+        import catalog
+        enrich_export_files(rows, summary, directory, rows[0]["collection"], catalog, sys.modules[__name__])
 
 
 def _reuse_cached_images(rows, directory, root):
@@ -377,6 +382,14 @@ def rebuild_extra(root, collection, *, workers=12, skip_download=False, allow_pa
     if coverage["excluded_incomplete_labels"]:
         print(f"[{collection}] Excluded incomplete captures: {', '.join(coverage['excluded_incomplete_labels'])}", flush=True)
     rows, raw_count, tags = normalize_assets(sources, collection)
+    if collection == "meshes":
+        from import_vfx_studio import merge_saved_plugin
+        import catalog
+        rows, plugin_merge = merge_saved_plugin(root, rows, collection, catalog)
+        if plugin_merge:
+            coverage["plugin_merge"] = plugin_merge
+            raw_count = sum(len(row.get("observations", [])) for row in rows)
+            tags = sorted({tag for row in rows for tag in row.get("tags", [])}, key=str.casefold)
     if not sources:
         raise ValueError(f"{collection}: no complete source captures")
     directory = (root / "smokecheck" / collection) if limit else (root / collection)

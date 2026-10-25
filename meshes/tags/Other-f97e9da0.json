@@ -31,7 +31,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -46,7 +47,8 @@
             "raw_uri": "rbxassetid://452960473",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -60,18 +62,159 @@
             "raw_uri": "rbxassetid://452960473",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 141,
+        "raw_uri": "rbxassetid://452960473",
+        "image": "",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://452960473",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Other",
+        "index": 21,
+        "raw_uri": "rbxassetid://452960473",
+        "image": "",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://452960473",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Wave",
+        "raw_uri": "rbxassetid://452960473",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Wave",
+        "item_name": "Wave",
+        "item_path": "Wave",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "452960473",
+            "uri": "rbxassetid://452960473",
+            "raw_uri": "rbxassetid://452960473",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Slash_Skill1",
+        "raw_uri": "rbxassetid://452960473",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Slash_Skill1",
+        "item_name": "Slash_Skill1",
+        "item_path": "Slash_Skill1",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "452960473",
+            "uri": "rbxassetid://452960473",
+            "raw_uri": "rbxassetid://452960473",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
-      "Blast 3"
+      "Blast 3",
+      "Slash_Skill1",
+      "Wave"
     ],
     "image_path": "images/452960473.png",
     "preview_path": "images/452960473.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 6,
+    "key_aliases": [
+      "00e1cee99a4e520230493974",
+      "fd8745145265cd7db1061f9a",
+      "e5048b3a2d089eb27b88c63e"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Blast",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Blast 3",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Wave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      },
+      {
+        "name": "Slash_Skill1",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://452960473",
+        "texture_uri": "",
+        "names": [
+          "Blast",
+          "Blast 3",
+          "Wave",
+          "Slash_Skill1"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "1f97dffcc177c0347345d6c1",
+          "00e1cee99a4e520230493974",
+          "fd8745145265cd7db1061f9a",
+          "e5048b3a2d089eb27b88c63e"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -108,7 +251,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -123,7 +267,8 @@
             "raw_uri": "rbxassetid://437347603",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -137,134 +282,9 @@
             "raw_uri": "rbxassetid://437347603",
             "label": "MeshId"
           }
-        ]
-      }
-    ],
-    "aliases": [
-      "Blast 4"
-    ],
-    "image_path": "images/437347603.png",
-    "preview_path": "images/437347603.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "00e1cee99a4e520230493974",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Blast 3",
-    "asset_id": "452960473",
-    "uri": "rbxassetid://452960473",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://452960473",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://452960473"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "452960473",
-        "uri": "rbxassetid://452960473",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://452960473",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Other"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Other"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 141,
-        "raw_uri": "rbxassetid://452960473",
-        "image": "",
-        "mesh_uri": "rbxassetid://452960473",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://452960473",
-            "label": "MeshId"
-          }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
-      {
-        "source": "Other",
-        "index": 21,
-        "raw_uri": "rbxassetid://452960473",
-        "image": "",
-        "mesh_uri": "rbxassetid://452960473",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://452960473",
-            "label": "MeshId"
-          }
-        ]
-      }
-    ],
-    "aliases": [
-      "Blast"
-    ],
-    "image_path": "images/452960473.png",
-    "preview_path": "images/452960473.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "c8fe5a6ac0c4a1b3ab8ccfb6",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Blast 4",
-    "asset_id": "437347603",
-    "uri": "rbxassetid://437347603",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://437347603",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://437347603"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "437347603",
-        "uri": "rbxassetid://437347603",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://437347603",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Other"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Other"
-    ],
-    "observations": [
       {
         "source": "All",
         "index": 46,
@@ -277,7 +297,8 @@
             "raw_uri": "rbxassetid://437347603",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -291,18 +312,92 @@
             "raw_uri": "rbxassetid://437347603",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Shockwave mesh",
+        "raw_uri": "rbxassetid://437347603",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Shockwave mesh",
+        "item_name": "Shockwave mesh",
+        "item_path": "Shockwave mesh",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://437347603",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "437347603",
+            "uri": "rbxassetid://437347603",
+            "raw_uri": "rbxassetid://437347603",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
-      "Blast 2"
+      "Blast 4",
+      "Shockwave mesh"
     ],
     "image_path": "images/437347603.png",
     "preview_path": "images/437347603.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 5,
+    "key_aliases": [
+      "c8fe5a6ac0c4a1b3ab8ccfb6",
+      "f3f88d0f0c35b9cfc5152a00"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Blast 2",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Blast 4",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Shockwave mesh",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://437347603",
+        "texture_uri": "",
+        "names": [
+          "Blast 2",
+          "Blast 4",
+          "Shockwave mesh"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "46dd4527579d413e3b332c14",
+          "c8fe5a6ac0c4a1b3ab8ccfb6",
+          "f3f88d0f0c35b9cfc5152a00"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -339,7 +434,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -354,7 +450,8 @@
             "raw_uri": "rbxassetid://471124075",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -368,10 +465,70 @@
             "raw_uri": "rbxassetid://471124075",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 152,
+        "raw_uri": "rbxassetid://471124075",
+        "image": "",
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://471124075",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Other",
+        "index": 24,
+        "raw_uri": "rbxassetid://471124075",
+        "image": "",
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://471124075",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "MeshPart",
+        "raw_uri": "rbxassetid://471124075",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.MeshPart",
+        "item_name": "MeshPart",
+        "item_path": "MeshPart",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "471124075",
+            "uri": "rbxassetid://471124075",
+            "raw_uri": "rbxassetid://471124075",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
     "aliases": [
+      "MeshPart",
       "Thicker Ring"
     ],
     "image_path": "images/471124075.png",
@@ -379,7 +536,236 @@
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 5,
+    "key_aliases": [
+      "2ed0c1830156857663add434",
+      "ff5e84e60617fbe414078efe"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Clay Ring",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Thicker Ring",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "MeshPart",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://471124075",
+        "texture_uri": "",
+        "names": [
+          "Clay Ring",
+          "Thicker Ring",
+          "MeshPart"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "a072a2fbad39e6afdd7eda45",
+          "2ed0c1830156857663add434",
+          "ff5e84e60617fbe414078efe"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
+  },
+  {
+    "key": "123d1e7d134cac6e13537053",
+    "collection": "meshes",
+    "kind": "mesh",
+    "grid": 0,
+    "name": "Curved Wind Upwards",
+    "asset_id": "2836527412",
+    "uri": "rbxassetid://2836527412",
+    "id_status": "valid",
+    "normalization_warnings": [],
+    "raw_uri": "rbxassetid://2836527412",
+    "uri_parse_method": "rbxassetid",
+    "raw_uris": [
+      "rbxassetid://2836527412"
+    ],
+    "references": [
+      {
+        "label": "MeshId",
+        "asset_id": "2836527412",
+        "uri": "rbxassetid://2836527412",
+        "id_status": "valid",
+        "normalization_warnings": [],
+        "raw_uri": "rbxassetid://2836527412",
+        "uri_parse_method": "rbxassetid"
+      }
+    ],
+    "tags": [
+      "Wind",
+      "Other"
+    ],
+    "collections": [],
+    "source_labels": [
+      "All",
+      "Wind",
+      "Other",
+      "VFX Studio/All"
+    ],
+    "observations": [
+      {
+        "source": "All",
+        "index": 105,
+        "raw_uri": "rbxassetid://2836527412",
+        "image": "",
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2836527412",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Wind",
+        "index": 13,
+        "raw_uri": "rbxassetid://2836527412",
+        "image": "",
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2836527412",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "All",
+        "index": 58,
+        "raw_uri": "rbxassetid://2836527412",
+        "image": "",
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2836527412",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "source": "Other",
+        "index": 11,
+        "raw_uri": "rbxassetid://2836527412",
+        "image": "",
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "references": [
+          {
+            "raw_uri": "rbxassetid://2836527412",
+            "label": "MeshId"
+          }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Effect",
+        "raw_uri": "rbxassetid://2836527412",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Effect",
+        "item_name": "Effect",
+        "item_path": "Effect",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "2836527412",
+            "uri": "rbxassetid://2836527412",
+            "raw_uri": "rbxassetid://2836527412",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
+        ]
+      }
+    ],
+    "aliases": [
+      "Effect",
+      "Jagged Slash"
+    ],
+    "image_path": "images/2836527412.png",
+    "preview_path": "images/2836527412.png",
+    "image_status": "cached",
+    "image_error": null,
+    "in_all_inventory": true,
+    "observation_count": 5,
+    "key_aliases": [
+      "9e5fdfb912a91cd4c94a5d70",
+      "539fe54924bfe88ae97ebc44"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Curved Wind Upwards",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Jagged Slash",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Effect",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://2836527412",
+        "texture_uri": "",
+        "names": [
+          "Curved Wind Upwards",
+          "Jagged Slash",
+          "Effect"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "123d1e7d134cac6e13537053",
+          "9e5fdfb912a91cd4c94a5d70",
+          "539fe54924bfe88ae97ebc44"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -431,7 +817,8 @@
             "raw_uri": "rbxassetid://2548924123",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -445,7 +832,8 @@
             "raw_uri": "rbxassetid://2548924123",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -455,6 +843,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Dragon Head",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://2548924123",
+        "texture_uri": "",
+        "names": [
+          "Dragon Head"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "608d0b5a238456f6f4e7fa6b"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -506,7 +920,8 @@
             "raw_uri": "rbxassetid://6071299561",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -520,7 +935,8 @@
             "raw_uri": "rbxassetid://6071299561",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -530,6 +946,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Dust",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6071299561",
+        "texture_uri": "",
+        "names": [
+          "Dust"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "b764256c82dc2aeff7f1ae46"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -581,7 +1023,8 @@
             "raw_uri": "rbxassetid://6553110800",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -595,7 +1038,8 @@
             "raw_uri": "rbxassetid://6553110800",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -605,6 +1049,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Glitch",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://6553110800",
+        "texture_uri": "",
+        "names": [
+          "Glitch"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "656846ab759d8684a0b9f86d"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -641,7 +1111,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -656,7 +1127,8 @@
             "raw_uri": "rbxassetid://750305703",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -670,16 +1142,84 @@
             "raw_uri": "rbxassetid://750305703",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "GravityBallShockwave",
+        "raw_uri": "rbxassetid://750305703",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.GravityBallShockwave",
+        "item_name": "GravityBallShockwave",
+        "item_path": "GravityBallShockwave",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://750305703",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "750305703",
+            "uri": "rbxassetid://750305703",
+            "raw_uri": "rbxassetid://750305703",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "GravityBallShockwave"
+    ],
     "image_path": "images/750305703.png",
     "preview_path": "images/750305703.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "375beaa9243fe168172eb48e"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Inside Out Ring",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "GravityBallShockwave",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://750305703",
+        "texture_uri": "",
+        "names": [
+          "Inside Out Ring",
+          "GravityBallShockwave"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "5b8358e9f3427606d1a2b49a",
+          "375beaa9243fe168172eb48e"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -731,7 +1271,8 @@
             "raw_uri": "rbxassetid://4901273127",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -745,7 +1286,8 @@
             "raw_uri": "rbxassetid://4901273127",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -755,83 +1297,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "9e5fdfb912a91cd4c94a5d70",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Jagged Slash",
-    "asset_id": "2836527412",
-    "uri": "rbxassetid://2836527412",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://2836527412",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://2836527412"
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
     ],
-    "references": [
+    "name_provenance": [
       {
-        "label": "MeshId",
-        "asset_id": "2836527412",
-        "uri": "rbxassetid://2836527412",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://2836527412",
-        "uri_parse_method": "rbxassetid"
+        "name": "Jagged Crescent",
+        "plugin": "ZonitoVisuals"
       }
     ],
-    "tags": [
-      "Other"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Other"
-    ],
-    "observations": [
+    "variants": [
       {
-        "source": "All",
-        "index": 58,
-        "raw_uri": "rbxassetid://2836527412",
-        "image": "",
-        "mesh_uri": "rbxassetid://2836527412",
+        "mesh_uri": "rbxassetid://4901273127",
         "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2836527412",
-            "label": "MeshId"
-          }
-        ]
-      },
-      {
-        "source": "Other",
-        "index": 11,
-        "raw_uri": "rbxassetid://2836527412",
-        "image": "",
-        "mesh_uri": "rbxassetid://2836527412",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://2836527412",
-            "label": "MeshId"
-          }
+        "names": [
+          "Jagged Crescent"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "5805ecf75a2374fcc0bb5e16"
         ]
       }
     ],
-    "aliases": [
-      "Curved Wind Upwards"
-    ],
-    "image_path": "images/2836527412.png",
-    "preview_path": "images/2836527412.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -849,7 +1340,8 @@
     "raw_uri": "rbxassetid://22543762",
     "uri_parse_method": "rbxassetid",
     "raw_uris": [
-      "rbxassetid://22543762"
+      "rbxassetid://22543762",
+      "http://www.roblox.com/asset/?id=22543762"
     ],
     "references": [
       {
@@ -868,7 +1360,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -883,7 +1376,8 @@
             "raw_uri": "rbxassetid://22543762",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -897,16 +1391,84 @@
             "raw_uri": "rbxassetid://22543762",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "MeshPart",
+        "raw_uri": "http://www.roblox.com/asset/?id=22543762",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.MeshPart",
+        "item_name": "MeshPart",
+        "item_path": "MeshPart",
+        "class": "MeshPart",
+        "mesh_uri": "http://www.roblox.com/asset/?id=22543762",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "22543762",
+            "uri": "rbxassetid://22543762",
+            "raw_uri": "http://www.roblox.com/asset/?id=22543762",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "MeshPart"
+    ],
     "image_path": "images/22543762.png",
     "preview_path": "images/22543762.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "774132d48bf4273c6509f083"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Layered Ring",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "MeshPart",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://22543762",
+        "texture_uri": "",
+        "names": [
+          "Layered Ring",
+          "MeshPart"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "2a878904992da9d9e29eb3fe",
+          "774132d48bf4273c6509f083"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -958,7 +1520,8 @@
             "raw_uri": "rbxassetid://5129539702",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -972,7 +1535,8 @@
             "raw_uri": "rbxassetid://5129539702",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -982,6 +1546,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Leaf",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5129539702",
+        "texture_uri": "",
+        "names": [
+          "Leaf"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "fbaacfc9a445d7f4fdcad651"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1018,7 +1608,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1033,7 +1624,8 @@
             "raw_uri": "rbxassetid://4313235782",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1047,16 +1639,84 @@
             "raw_uri": "rbxassetid://4313235782",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Meshes/WindMesh2",
+        "raw_uri": "rbxassetid://4313235782",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Meshes/WindMesh2",
+        "item_name": "Meshes/WindMesh2",
+        "item_path": "Meshes/WindMesh2",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://4313235782",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "4313235782",
+            "uri": "rbxassetid://4313235782",
+            "raw_uri": "rbxassetid://4313235782",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "Meshes/WindMesh2"
+    ],
     "image_path": "images/4313235782.png",
     "preview_path": "images/4313235782.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "23d8f396ab36eddf3aae2294"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Lines",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Meshes/WindMesh2",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4313235782",
+        "texture_uri": "",
+        "names": [
+          "Lines",
+          "Meshes/WindMesh2"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "bcd0f712d3ba8e01590bc2ff",
+          "23d8f396ab36eddf3aae2294"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1108,7 +1768,8 @@
             "raw_uri": "rbxassetid://1851169338",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1122,7 +1783,8 @@
             "raw_uri": "rbxassetid://1851169338",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1132,6 +1794,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Ring",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://1851169338",
+        "texture_uri": "",
+        "names": [
+          "Ring"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "0bccbc9fbf0874ac6f981f05"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1168,7 +1856,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1183,7 +1872,8 @@
             "raw_uri": "rbxassetid://4452526014",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1197,16 +1887,84 @@
             "raw_uri": "rbxassetid://4452526014",
             "label": "MeshId"
           }
+        ],
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "Meshes/EyeRing",
+        "raw_uri": "rbxassetid://4452526014",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.Meshes/EyeRing",
+        "item_name": "Meshes/EyeRing",
+        "item_path": "Meshes/EyeRing",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://4452526014",
+        "texture_uri": "",
+        "references": [
+          {
+            "label": "MeshId",
+            "asset_id": "4452526014",
+            "uri": "rbxassetid://4452526014",
+            "raw_uri": "rbxassetid://4452526014",
+            "id_status": "valid",
+            "normalization_warnings": []
+          }
         ]
       }
     ],
-    "aliases": [],
+    "aliases": [
+      "Meshes/EyeRing"
+    ],
     "image_path": "images/4452526014.png",
     "preview_path": "images/4452526014.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "ec53d33b8ddc70e133b9bc41"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Simple Ring",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "Meshes/EyeRing",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4452526014",
+        "texture_uri": "",
+        "names": [
+          "Simple Ring",
+          "Meshes/EyeRing"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "53fa2a494be3210765e20e91",
+          "ec53d33b8ddc70e133b9bc41"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1258,7 +2016,8 @@
             "raw_uri": "rbxassetid://4572036304",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1272,7 +2031,8 @@
             "raw_uri": "rbxassetid://4572036304",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1282,6 +2042,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Slash",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4572036304",
+        "texture_uri": "",
+        "names": [
+          "Slash"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "5f0cd10ff4e334f5868e3d66"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1333,7 +2119,8 @@
             "raw_uri": "rbxassetid://5769820604",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1347,7 +2134,8 @@
             "raw_uri": "rbxassetid://5769820604",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1357,6 +2145,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Smear",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5769820604",
+        "texture_uri": "",
+        "names": [
+          "Smear"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "326bcff16bdfe8cc7a0cfd58"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1408,7 +2222,8 @@
             "raw_uri": "rbxassetid://5769820098",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1422,7 +2237,8 @@
             "raw_uri": "rbxassetid://5769820098",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1432,6 +2248,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Speed Smears",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://5769820098",
+        "texture_uri": "",
+        "names": [
+          "Speed Smears"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "daa1c5875dea589e4607fc5f"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1496,7 +2338,8 @@
             "raw_uri": "rbxassetid://87526468721369",
             "label": "TextureId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1514,7 +2357,8 @@
             "raw_uri": "rbxassetid://87526468721369",
             "label": "TextureId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1524,6 +2368,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Star",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4886514859",
+        "texture_uri": "rbxassetid://87526468721369",
+        "names": [
+          "Star"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "25a3d0ed69d88e1e11527f85"
+        ]
+      }
+    ],
+    "primary_texture_uri": "rbxassetid://87526468721369",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1560,7 +2430,8 @@
     "collections": [],
     "source_labels": [
       "All",
-      "Other"
+      "Other",
+      "VFX Studio/All"
     ],
     "observations": [
       {
@@ -1575,7 +2446,8 @@
             "raw_uri": "rbxassetid://4646047946",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1589,93 +2461,84 @@
             "raw_uri": "rbxassetid://4646047946",
             "label": "MeshId"
           }
-        ]
-      }
-    ],
-    "aliases": [],
-    "image_path": "images/4646047946.png",
-    "preview_path": "images/4646047946.png",
-    "image_status": "cached",
-    "image_error": null,
-    "in_all_inventory": true,
-    "observation_count": 2,
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420
-  },
-  {
-    "key": "2ed0c1830156857663add434",
-    "collection": "meshes",
-    "kind": "mesh",
-    "grid": 0,
-    "name": "Thicker Ring",
-    "asset_id": "471124075",
-    "uri": "rbxassetid://471124075",
-    "id_status": "valid",
-    "normalization_warnings": [],
-    "raw_uri": "rbxassetid://471124075",
-    "uri_parse_method": "rbxassetid",
-    "raw_uris": [
-      "rbxassetid://471124075"
-    ],
-    "references": [
-      {
-        "label": "MeshId",
-        "asset_id": "471124075",
-        "uri": "rbxassetid://471124075",
-        "id_status": "valid",
-        "normalization_warnings": [],
-        "raw_uri": "rbxassetid://471124075",
-        "uri_parse_method": "rbxassetid"
-      }
-    ],
-    "tags": [
-      "Other"
-    ],
-    "collections": [],
-    "source_labels": [
-      "All",
-      "Other"
-    ],
-    "observations": [
-      {
-        "source": "All",
-        "index": 152,
-        "raw_uri": "rbxassetid://471124075",
-        "image": "",
-        "mesh_uri": "rbxassetid://471124075",
-        "texture_uri": "",
-        "references": [
-          {
-            "raw_uri": "rbxassetid://471124075",
-            "label": "MeshId"
-          }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
-        "source": "Other",
-        "index": 24,
-        "raw_uri": "rbxassetid://471124075",
-        "image": "",
-        "mesh_uri": "rbxassetid://471124075",
+        "plugin": "VFX Studio",
+        "source": "All",
+        "file": "meshes-metadata.json",
+        "index": null,
+        "name": "RenderMesh",
+        "raw_uri": "rbxassetid://4646047946",
+        "image": null,
+        "rect_size": null,
+        "rect_offset": null,
+        "captured_at": "2026-10-25T12:56:14.211317+00:00",
+        "source_path": "VFX Studio.Defaults.Meshes.RenderMesh",
+        "item_name": "RenderMesh",
+        "item_path": "RenderMesh",
+        "class": "MeshPart",
+        "mesh_uri": "rbxassetid://4646047946",
         "texture_uri": "",
         "references": [
           {
-            "raw_uri": "rbxassetid://471124075",
-            "label": "MeshId"
+            "label": "MeshId",
+            "asset_id": "4646047946",
+            "uri": "rbxassetid://4646047946",
+            "raw_uri": "rbxassetid://4646047946",
+            "id_status": "valid",
+            "normalization_warnings": []
           }
         ]
       }
     ],
     "aliases": [
-      "Clay Ring"
+      "RenderMesh"
     ],
-    "image_path": "images/471124075.png",
-    "preview_path": "images/471124075.png",
+    "image_path": "images/4646047946.png",
+    "preview_path": "images/4646047946.png",
     "image_status": "cached",
     "image_error": null,
     "in_all_inventory": true,
-    "observation_count": 2,
+    "observation_count": 3,
+    "key_aliases": [
+      "465f5cee34d3e6d068936451"
+    ],
+    "plugins": [
+      "ZonitoVisuals",
+      "VFX Studio"
+    ],
+    "name_provenance": [
+      {
+        "name": "Thick Crescent",
+        "plugin": "ZonitoVisuals"
+      },
+      {
+        "name": "RenderMesh",
+        "plugin": "VFX Studio",
+        "file": "meshes-metadata.json"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4646047946",
+        "texture_uri": "",
+        "names": [
+          "Thick Crescent",
+          "RenderMesh"
+        ],
+        "plugins": [
+          "ZonitoVisuals",
+          "VFX Studio"
+        ],
+        "key_aliases": [
+          "94f794472f61463fe7f66a34",
+          "465f5cee34d3e6d068936451"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
@@ -1727,7 +2590,8 @@
             "raw_uri": "rbxassetid://4901269283",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       },
       {
         "source": "Other",
@@ -1741,7 +2605,8 @@
             "raw_uri": "rbxassetid://4901269283",
             "label": "MeshId"
           }
-        ]
+        ],
+        "plugin": "ZonitoVisuals"
       }
     ],
     "aliases": [],
@@ -1751,6 +2616,32 @@
     "image_error": null,
     "in_all_inventory": true,
     "observation_count": 2,
+    "key_aliases": [],
+    "plugins": [
+      "ZonitoVisuals"
+    ],
+    "name_provenance": [
+      {
+        "name": "Tunnel",
+        "plugin": "ZonitoVisuals"
+      }
+    ],
+    "variants": [
+      {
+        "mesh_uri": "rbxassetid://4901269283",
+        "texture_uri": "",
+        "names": [
+          "Tunnel"
+        ],
+        "plugins": [
+          "ZonitoVisuals"
+        ],
+        "key_aliases": [
+          "8a41fb49d1f192ea084ebd5e"
+        ]
+      }
+    ],
+    "primary_texture_uri": "",
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
     "height": 420
