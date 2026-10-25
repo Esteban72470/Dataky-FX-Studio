@@ -118,6 +118,9 @@ internal sealed class DatakyDesktop : ApplicationContext
     {
         string browser = FindBrowser();
         if (browser == null) { Process.Start(address); return; }
+        // The Windows activation-context loader must see the real directory
+        // when a Store-hosted process has redirected the packaged browser.
+        browser = Path.Combine(ResolvedDirectory(Path.GetDirectoryName(browser)), Path.GetFileName(browser));
         string profile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "DatakyFXStudio", "Browser-" + Path.GetFileNameWithoutExtension(browser));
         var start = new ProcessStartInfo(browser, "--no-first-run --no-default-browser-check --user-data-dir=" + Quote(profile) + " --app=" + Quote(address));
         start.UseShellExecute = false; start.CreateNoWindow = true;
