@@ -76,7 +76,7 @@ internal sealed class DatakyDesktop : ApplicationContext
     private static string FindBrowser()
     {
         string[] bases = { Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) };
-        string[] paths = { @"Microsoft\Edge\Application\msedge.exe", @"Google\Chrome\Application\chrome.exe", @"BraveSoftware\Brave-Browser\Application\brave.exe" };
+        string[] paths = { @"BraveSoftware\Brave-Browser\Application\brave.exe", @"Google\Chrome\Application\chrome.exe", @"Microsoft\Edge\Application\msedge.exe" };
         foreach (string item in paths) foreach (string folder in bases)
         { string file = Path.Combine(folder, item); if (File.Exists(file)) return file; }
         return null;
@@ -86,7 +86,7 @@ internal sealed class DatakyDesktop : ApplicationContext
     {
         string browser = FindBrowser();
         if (browser == null) { Process.Start(address); return; }
-        string profile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "DatakyFXStudio", "Browser");
+        string profile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "DatakyFXStudio", "Browser-" + Path.GetFileNameWithoutExtension(browser));
         var start = new ProcessStartInfo(browser, "--no-first-run --no-default-browser-check --user-data-dir=" + Quote(profile) + " --app=" + Quote(address));
         start.UseShellExecute = false; start.CreateNoWindow = true;
         Process.Start(start);
