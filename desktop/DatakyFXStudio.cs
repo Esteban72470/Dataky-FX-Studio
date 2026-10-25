@@ -1,4 +1,4 @@
-// Small Windows desktop launcher. Uses the installed Python 3 and Chromium browser.
+// Windows desktop launcher. Prefers the packaged runtime when available.
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -53,6 +53,8 @@ internal sealed class DatakyDesktop : ApplicationContext
 
     private static string FindPython()
     {
+        string bundled = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "_runtime", "python", "pythonw.exe");
+        if (File.Exists(bundled)) return bundled;
         string programs = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Programs", "Python");
         if (Directory.Exists(programs))
         {
@@ -75,6 +77,13 @@ internal sealed class DatakyDesktop : ApplicationContext
 
     private static string FindBrowser()
     {
+        string bundled = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "_runtime", "browsers");
+        if (Directory.Exists(bundled))
+        {
+            string[] browsers = Directory.GetFiles(bundled, "chrome.exe", SearchOption.AllDirectories);
+            Array.Sort(browsers, StringComparer.OrdinalIgnoreCase);
+            if (browsers.Length > 0) return browsers[0];
+        }
         string[] bases = { Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) };
         string[] paths = { @"BraveSoftware\Brave-Browser\Application\brave.exe", @"Google\Chrome\Application\chrome.exe", @"Microsoft\Edge\Application\msedge.exe" };
         foreach (string item in paths) foreach (string folder in bases)
@@ -129,6 +138,15 @@ internal sealed class DatakyDesktop : ApplicationContext
         start.WorkingDirectory = library; start.UseShellExecute = false; start.CreateNoWindow = true;
         start.RedirectStandardError = true; start.RedirectStandardOutput = true;
         start.EnvironmentVariables["PYTHONUTF8"] = "1";
+        string runtime = Path.Combine(library, "_runtime");
+        if (Directory.Exists(runtime))
+        {
+            start.EnvironmentVariables.Remove("PYTHONHOME");
+            start.EnvironmentVariables.Remove("PYTHONPATH");
+            start.EnvironmentVariables["PATH"] = Path.Combine(runtime, "node") + Path.PathSeparator + (Environment.GetEnvironmentVariable("PATH") ?? "");
+            start.EnvironmentVariables["NODE_PATH"] = Path.Combine(runtime, "node_modules");
+            start.EnvironmentVariables["PLAYWRIGHT_BROWSERS_PATH"] = Path.Combine(runtime, "browsers");
+        }
         var logLock = new object();
         var process = new Process(); process.StartInfo = start;
         DataReceivedEventHandler log = delegate(object sender, DataReceivedEventArgs e) { if (e.Data != null) lock(logLock) { try { File.AppendAllText(logPath, e.Data + Environment.NewLine, Encoding.UTF8); } catch (IOException) { } } };

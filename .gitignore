@@ -9,6 +9,10 @@ desktop.ini
 *.lock
 .pytest_cache/
 .venv/
+_runtime/
+dist/
+*.payload.zip
+DatakyFX-Studio-Complet.exe
 
 # Generated outputs and machine-local data
 rendus/
