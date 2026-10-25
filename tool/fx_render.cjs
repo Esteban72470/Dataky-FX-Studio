@@ -94,7 +94,7 @@ function routeFile(url) {
   const pathname = decodeURIComponent(new URL(url).pathname);
   if (pathname === '/render.html') return path.join(ROOT, 'editor', 'render.html');
   if (pathname === '/emulator.js') return path.join(ROOT, 'editor', 'emulator.js');
-  const match = pathname.match(/^\/library\/((?:beams\/|meshes\/)?(?:images|previews)\/[\w-]+\.png)$/);
+  const match = pathname.match(/^\/library\/((?:(?:beams\/|meshes\/)?(?:images|previews)\/[\w-]+|source\/vfx\/[a-z0-9_-]+\/textures\/[a-z0-9_-]+)\.png)$/);
   return match ? path.join(ROOT, match[1]) : null;
 }
 

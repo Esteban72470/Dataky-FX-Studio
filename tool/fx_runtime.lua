@@ -255,6 +255,7 @@ local function validate(data)
         end
     end
     for _, track in ipairs(data.animations or {}) do
+        if track.runtime ~= nil and type(track.runtime) ~= "boolean" then fail("animation.runtime doit être un booléen") end
         local node = byId[track.node]
         if not node then fail("animation : node introuvable " .. tostring(track.node)) end
         local kind = schema[node.class][track.property]

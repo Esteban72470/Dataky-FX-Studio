@@ -1,6 +1,14 @@
 # Dataky FX Studio
 
-Pour créer et modifier des effets, double-cliquez sur **DATAKY_FX_STUDIO.bat**. L’atelier local s’ouvre dans le navigateur : bibliothèque, hiérarchie, propriétés, courbes, timeline et émulation 3D de l’effet, sans Roblox Studio. Studio reste disponible pour la vérification finale. Pour créer des effets avec Claude, double-cliquez sur **INSTALLER_CLAUDE_DESKTOP.bat** (Claude Desktop) ou ouvrez ce dossier dans Claude Code (**CLAUDE.md**) ; les outils et l’export **.rbxmx** sont décrits dans **DATAKY_FX_STUDIO.md**. Le guide de création et de connexion native est **DATAKY_FX_STUDIO.md**.
+Un atelier local pour composer, animer et exporter des effets Roblox. Double-cliquez sur **DATAKY_FX_STUDIO.bat** pour ouvrir l'éditeur dans le navigateur. Python 3 suffit pour le serveur ; aucun modèle local ni clé API n'est nécessaire.
+
+Cette version comprend le catalogue dynamique Textures/Beams/Meshes, la géométrie OBJ locale, les courbes et pistes d'animation, les références vidéo locales et la direction artistique manuelle. Les Parts transparentes restent sélectionnables et leur silhouette apparaît lorsqu'elles sont sélectionnées. Le modèle local, son runtime, les lanceurs et le panneau de génération ont été retirés.
+
+Lisez [le guide de l'atelier](DATAKY_FX_STUDIO.md) pour la connexion à Roblox Studio et les exports. Les outils MCP restent disponibles pour un assistant externe via [CLAUDE.md](CLAUDE.md) ; ils ne nécessitent aucun modèle installé avec cette application.
+
+L'exemple [Enuma Elish](source/vfx/enuma-elish/README.md) fournit une recette de 29,4 secondes, ses générateurs, huit textures originales et les exports Roblox. Les textures originales utilisent des URI locales pour l'aperçu Studio ; leur publication dans un jeu nécessite leur import comme assets Roblox.
+
+Les nouvelles entrées du catalogue sont relues sans redémarrer le serveur. Les miniatures de meshes ne contiennent pas leur géométrie : [limites des meshes](docs/MESH_PREVIEW.md) et [compatibilité des exports](docs/EXPORT_COMPATIBILITY.md).
 
 Le catalogue conserve la provenance des assets du plugin ZonitoVisuals. Son ancien nom de dossier reste utilisé pour garder les chemins et les scripts compatibles.
 

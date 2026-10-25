@@ -5,7 +5,7 @@ Un atelier local pour composer des effets Roblox à la main ou depuis une recett
 ## Ouvrir l’atelier
 
 1. Double-cliquez sur **DATAKY_FX_STUDIO.bat**. Python 3 suffit ; aucun service d’IA ni clé API ne sont nécessaires.
-2. L’application s’ouvre sur **http://127.0.0.1:48754/**. Gardez sa fenêtre de serveur ouverte pendant votre travail.
+2. L’application utilise **http://127.0.0.1:48754/** ou le prochain port libre ; le lanceur affiche l’adresse choisie. Gardez sa fenêtre de serveur ouverte pendant votre travail.
 3. Créez votre effet : la vue **✦ Émulation** le joue directement dans l’atelier. Roblox Studio n’est pas nécessaire à cette étape.
 4. Facultatif, pour la vérification finale : ouvrez votre projet dans Roblox Studio en mode édition, cliquez sur **Studio déconnecté** dans l’atelier, copiez la commande proposée et exécutez-la dans la barre de commande Studio. La connexion est valable pour cette session.
 
@@ -17,6 +17,7 @@ Commencez par un modèle **Impact**, **Fumée**, **Beam** ou **Trail**, ou par u
 
 - **Hiérarchie → Ajouter → Briques** ajoute un bloc prêt à l’emploi à l’instant de la tête de lecture : Flash, Étincelles, Onde de choc, Fumée, Slash, Arc, Traînée, Feu, Concentration ou Orbe. Ses objets sont ordinaires et restent modifiables comme les autres.
 - Ajoutez les objets depuis **Hiérarchie → Ajouter**. Un ParticleEmitter peut être placé directement dans un Part ou dans un Attachment. Roblox applique alors nativement sa logique de volume ou de point d’émission.
+- Un Part transparent reste sélectionnable : son contour apparaît dans la vue 3D lorsqu’il est sélectionné, sans modifier sa transparence exportée.
 - Sélectionnez un objet pour modifier ses propriétés. Les valeurs et les noms suivent les classes Roblox ; les courbes permettent de modifier taille, couleur ou transparence au cours de la vie des particules.
 - Cliquez sur une courbe pour ouvrir l’éditeur graphique : glissez ses points et ses poignées Bézier, ajoutez un point par double-clic et choisissez un profil linéaire, accéléré, ralenti, impact ou fondu. Les points de début et de fin gardent leur temps. Les dégradés de couleur ont des repères glissables et un sélecteur de couleur. Les animations numériques et XYZ proposent aussi **Éditeur graphique**.
 - La ligne lisse sert à dessiner la courbe. La ligne en pointillés montre son approximation réellement exportée en points Roblox, avec une limite de 20 points. Les poignées sont enregistrées dans `editor.curves` pour retrouver la courbe à la réouverture ; le moteur utilise les valeurs échantillonnées. Modifier le JSON des valeurs invalide automatiquement les anciennes poignées.
@@ -53,8 +54,8 @@ Limites à connaître :
 - En `VelocityParallel` avec `Rotation: 0`, un Squash négatif étire le long de la vitesse et un Squash positif en travers (mesuré en Play). Pour une texture de trait vertical, utilisez `Rotation: 90` et un Squash positif. FacingCamera reste une approximation non mesurée.
 - Le message de connexion du plugin apparaît une seule fois en édition, sans polluer les sorties client et serveur de Play.
 
-- Les textures affichées sont les **miniatures 420 × 420** de la bibliothèque locale. Une texture absente de la bibliothèque est remplacée par un halo doux et signalée dans la barre d’état. Les textures intégrées `rbxasset://` sont approchées par des formes générées.
-- La géométrie des **MeshPart** et des SpecialMesh FileMesh n’est disponible que dans Roblox : l’émulation les montre comme des boîtes filaires.
+- Les textures du catalogue sont principalement les **miniatures 420 × 420** de la bibliothèque locale. Un ID Roblox sans aperçu local utilise un halo de remplacement signalé dans la barre d’état. Les textures originales `rbxasset://textures/dataky-local/...` utilisent leurs PNG ; une image originale absente devient transparente et produit un avertissement. Les autres textures intégrées `rbxasset://` sont approchées par des formes générées.
+- Une géométrie OBJ importée localement est rendue en 3D dans l’émulation. Sans géométrie locale, les **MeshPart** et SpecialMesh FileMesh restent des boîtes filaires : une miniature de catalogue ne contient pas le maillage. Voir [le format OBJ local](docs/MESH_PREVIEW.md).
 - Sur un Beam ou un Trail, l’émulation fait courir l’**axe vertical de l’image le long du ruban**. La documentation ne le précise pas ; c’est l’orientation de la grande majorité des 447 textures de la collection Beams.
 - Le moteur Roblox n’est pas public. La forme exacte de Squash, la répartition de SpreadAngle, l’éclairage, le bloom, la qualité graphique et le tri fin des particules sont des approximations fondées sur la documentation officielle. VelocityInheritance n’a pas d’effet, comme dans le pont Studio où les Parts sont ancrées et déplacées par propriété.
 - L’émulation sert à créer et itérer vite. Avant de publier, vérifiez une fois l’effet dans **◉ Roblox Studio**.

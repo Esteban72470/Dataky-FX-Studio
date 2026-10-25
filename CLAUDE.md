@@ -1,5 +1,19 @@
 # Dataky FX Studio · guide pour Claude
 
+## Moteur artistique de cette copie locale
+
+Lire `PREMIERE_ETAPE.md`. Commencer par `artistry_schema` et planifier les
+couches/phases avec `plan_effect`. `animate_procedural` et `edit_effect_batch`
+construisent des pistes natives réutilisables. `search_art_assets` exploite les
+observations vérifiées ; les attributs visuels inconnus restent inconnus.
+
+`start_visual_review` → `capture_visual_review` joint deux vues et deux fonds.
+Regarder réellement les images avant `submit_visual_review` (neuf critères,
+approve/revise). Sans vision : validation humaine. Les métriques ne mesurent
+pas la beauté. Reprendre avec get/list_visual_review(s). Les nouvelles pistes
+Part Position/Transparency `runtime:true` sont jouées par le kit ; conserver
+ce marqueur. Les exemples et le parcours historique ci-dessous restent valides.
+
 Ce dépôt crée des effets visuels Roblox (VFX) décrits par une **recette JSON**, les montre dans un **émulateur** sans Roblox Studio, puis les **exporte** vers Roblox. Ce guide couvre les outils et les pièges propres à Roblox. La direction artistique (rythme, couleurs, lisibilité d’un effet) relève du skill VFX de l’utilisateur : appliquez-le, puis utilisez ces outils pour le réaliser et le vérifier.
 
 ## Boucle de travail

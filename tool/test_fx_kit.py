@@ -61,6 +61,12 @@ class LibraryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             write_library({"A": RECIPE}, "DatakyFXKit.lua")
 
+    def test_library_preserves_explicit_runtime_track_flag(self):
+        recipe = deepcopy(RECIPE)
+        recipe["animations"].append({"node": "part", "property": "Position", "runtime": True,
+                                     "keyframes": [{"time": 0, "value": [2, 0, 0]}]})
+        self.assertIn('["runtime"]=true', export_library({"Motion": recipe}))
+
 
 @unittest.skipUnless(LUAU, "Luau CLI absent (DATAKY_LUAU)")
 class KitLuauTests(unittest.TestCase):
@@ -121,6 +127,79 @@ h:Move(CFrame.new(10,0,0))
 v = h:Part("part").CFrame:VectorToWorldSpace(Vector3.new(1,0,0))
 near(v.X,math.sqrt(0.5)); near(v.Z,-math.sqrt(0.5))
 h:Stop()
+''', recipe)
+
+    def test_runtime_part_motion_scales_and_composes_with_follow_move_and_orientation(self):
+        recipe = deepcopy(RECIPE)
+        recipe["animations"] += [
+            {"node": "part", "property": "Orientation", "keyframes": [
+                {"time": 0, "value": [0, 0, 0]}, {"time": .5, "value": [0, 90, 0]}]},
+            {"node": "part", "property": "Position", "runtime": True, "keyframes": [
+                {"time": 0, "value": [2, 0, 0]}, {"time": .5, "value": [4, 2, 0]}]},
+            {"node": "part", "property": "Transparency", "runtime": True, "keyframes": [
+                {"time": 0, "value": 0}, {"time": .5, "value": 1}]},
+        ]
+        self.run_luau('''
+FX.prepare(R)
+local cf = CFrame.new(10,0,0) * CFrame.fromOrientation(0,math.pi/2,0)
+local h = FX.play(R,cf,{scale=2,follow=function() return cf end})
+local other = FX.play(R,CFrame.new(-10,0,0))
+near(h:Part("part").Position.X,10); near(h:Part("part").Position.Z,-4)
+near(h:Part("part").Transparency,0)
+Step(.25)
+near(h:Part("part").Position.X,10); near(h:Part("part").Position.Y,2); near(h:Part("part").Position.Z,-6)
+near(h:Part("part").Transparency,.5)
+near(other:Part("part").Position.X,-7); near(other:Part("part").Position.Y,1)
+local v = h:Part("part").CFrame:VectorToWorldSpace(Vector3.new(1,0,0))
+near(v.X,-math.sqrt(.5)); near(v.Z,-math.sqrt(.5))
+h:Move(CFrame.new(30,0,0))
+near(h:Part("part").Position.X,36); near(h:Part("part").Position.Y,2)
+v = h:Part("part").CFrame:VectorToWorldSpace(Vector3.new(1,0,0))
+near(v.X,math.sqrt(.5)); near(v.Z,-math.sqrt(.5))
+cf = CFrame.new(20,0,0) * CFrame.fromOrientation(0,math.pi,0)
+Step(.1)
+near(h:Part("part").Position.X,13.2); near(h:Part("part").Position.Y,2.8)
+h:Release({hideParts=true}); Step(.05)
+near(h:Part("part").Transparency,1)
+h:Stop(); other:Stop()
+''', recipe)
+
+    def test_runtime_meshpart_motion_and_position_before_orientation(self):
+        recipe = deepcopy(RECIPE)
+        recipe["nodes"][0]["class"] = "MeshPart"
+        recipe["nodes"][0]["properties"]["MeshId"] = "rbxassetid://123"
+        recipe["animations"] += [
+            {"node": "part", "property": "Position", "runtime": True, "keyframes": [
+                {"time": 0, "value": [2, 0, 0]}, {"time": .5, "value": [4, 0, 0]}]},
+            {"node": "part", "property": "Orientation", "keyframes": [
+                {"time": 0, "value": [0, 0, 0]}, {"time": .5, "value": [0, 90, 0]}]},
+            {"node": "part", "property": "Transparency", "runtime": True, "keyframes": [
+                {"time": 0, "value": .2}, {"time": .5, "value": .8}]},
+        ]
+        self.run_luau('''
+FX.preload(R)
+local h = FX.play(R,CFrame.new(10,0,0)*CFrame.fromOrientation(0,math.pi/2,0),{scale=2})
+Step(.25)
+near(h:Part("part").Position.X,10); near(h:Part("part").Position.Z,-6)
+near(h:Part("part").Transparency,.5)
+local v = h:Part("part").CFrame:VectorToWorldSpace(Vector3.new(1,0,0))
+near(v.X,-math.sqrt(.5)); near(v.Z,-math.sqrt(.5))
+h:Stop()
+''', recipe)
+
+    def test_explicit_false_keeps_carrier_tracks_ignored_and_invalid_runtime_is_rejected(self):
+        recipe = deepcopy(RECIPE)
+        recipe["animations"] += [
+            {"node": "part", "property": "Position", "runtime": False, "keyframes": [{"time": 0, "value": [100, 0, 0]}]},
+            {"node": "part", "property": "Transparency", "runtime": False, "keyframes": [{"time": 0, "value": 0}]},
+        ]
+        self.run_luau('''
+local h = FX.play(R,CFrame.new())
+near(h:Part("part").Position.X,2); near(h:Part("part").Transparency,1)
+h:Stop()
+local invalid = table.clone(R); invalid.animations = {{node="part",property="Position",runtime="true",keyframes={{time=0,value={0,0,0}}}}}
+local ok, message = pcall(FX.play,invalid,CFrame.new())
+assert(not ok and tostring(message):match("animation.runtime"))
 ''', recipe)
 
     def test_timeline_speed_does_not_shorten_native_particle_lifetime(self):

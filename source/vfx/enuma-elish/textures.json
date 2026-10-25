@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "author": "Codex — original procedural artwork",
+  "method": "Hand-authored NumPy/Pillow geometry and alpha fields; no local AI model",
+  "source": "Original masks inspired by observed rhythm and silhouette, not extracted video artwork",
+  "local_preview_only": true,
+  "upload_performed": false,
+  "textures": [
+    {
+      "name": "sigil",
+      "file": "textures/sigil.png",
+      "width": 1024,
+      "height": 1024,
+      "grid": 0,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/sigil.png",
+      "sha256": "55487c6b3240905b3d0e2541edb326f841fbefd224ff7b9f2d1eddb555dabc0b",
+      "bytes": 198590,
+      "alpha_nonzero_fraction": 0.10473,
+      "alpha_above_127_fraction": 0.02466
+    },
+    {
+      "name": "ribbon",
+      "file": "textures/ribbon.png",
+      "width": 512,
+      "height": 128,
+      "grid": 0,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/ribbon.png",
+      "sha256": "07251887c97d6293c874bd69af817c9f576eebbdc905fb4d5432cb09eb88dc2e",
+      "bytes": 13753,
+      "alpha_nonzero_fraction": 0.7812,
+      "alpha_above_127_fraction": 0.07062
+    },
+    {
+      "name": "star",
+      "file": "textures/star.png",
+      "width": 512,
+      "height": 512,
+      "grid": 0,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/star.png",
+      "sha256": "452160d19aa93006db0a8d53751295a6a1773e0f65babe20fdff0b6d29d55363",
+      "bytes": 9812,
+      "alpha_nonzero_fraction": 0.12376,
+      "alpha_above_127_fraction": 0.01869
+    },
+    {
+      "name": "wind",
+      "file": "textures/wind.png",
+      "width": 512,
+      "height": 512,
+      "grid": 0,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/wind.png",
+      "sha256": "d614d0b8a5bff9be3ffd152249249ae17d34c980f43f7722255611d7f01f5a1d",
+      "bytes": 26960,
+      "alpha_nonzero_fraction": 0.19757,
+      "alpha_above_127_fraction": 0.0467
+    },
+    {
+      "name": "spark",
+      "file": "textures/spark.png",
+      "width": 256,
+      "height": 256,
+      "grid": 0,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/spark.png",
+      "sha256": "54a66d1139b47324ce3273b7e4314c98e7dded781e6d04a48b980bf051bf66dc",
+      "bytes": 1926,
+      "alpha_nonzero_fraction": 0.05151,
+      "alpha_above_127_fraction": 0.00534
+    },
+    {
+      "name": "glow",
+      "file": "textures/glow.png",
+      "width": 256,
+      "height": 256,
+      "grid": 0,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/glow.png",
+      "sha256": "628a02e948f3735dff99a425fb6857448bd4f8cef4ccd8ab28b19463dce74065",
+      "bytes": 4387,
+      "alpha_nonzero_fraction": 0.28717,
+      "alpha_above_127_fraction": 0.00964
+    },
+    {
+      "name": "turbulence",
+      "file": "textures/turbulence.png",
+      "width": 1024,
+      "height": 1024,
+      "grid": 4,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/turbulence.png",
+      "sha256": "580370089384237f8a4d9c089ff2770c740f7c1253835d238c52786e233db3e1",
+      "bytes": 262075,
+      "alpha_nonzero_fraction": 0.20095,
+      "alpha_above_127_fraction": 0.02487,
+      "frames": 16,
+      "frame_size": 256,
+      "mode": "Loop",
+      "recommended_fps": 18,
+      "padding_pixels": 11
+    },
+    {
+      "name": "ribbon_body",
+      "file": "textures/ribbon_body.png",
+      "width": 512,
+      "height": 128,
+      "grid": 0,
+      "roblox_preview_uri": "rbxasset://textures/dataky-local/enuma-elish/ribbon_body.png",
+      "sha256": "79e326bc21c55c69e3cd16341587cd2a5e78e5a66d37375bf96331a4c4e8818c",
+      "bytes": 26111,
+      "alpha_nonzero_fraction": 0.64326,
+      "alpha_above_127_fraction": 0.54637
+    }
+  ]
+}

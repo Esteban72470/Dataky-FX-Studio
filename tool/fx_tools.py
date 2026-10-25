@@ -8,6 +8,7 @@ seulement ; le rendu appelle Node.js et Playwright (tool/fx_render.cjs).
 from __future__ import annotations
 
 from copy import deepcopy
+import hashlib
 import json
 import math
 import os
@@ -16,6 +17,7 @@ import re
 import shutil
 import subprocess
 import tempfile
+import threading
 from typing import Any
 
 if __package__:
@@ -31,6 +33,9 @@ RENDERER = Path(__file__).with_name("fx_render.cjs")
 COLLECTIONS = {"textures": ("textures.json", ""), "beams": ("beams/assets.json", "beams/"), "meshes": ("meshes/assets.json", "meshes/")}
 LAYOUTS = {2: "Grid2x2", 4: "Grid4x4", 8: "Grid8x8"}
 _catalogs: dict[str, list[dict[str, Any]]] = {}
+_catalog_fingerprints: dict[str, tuple[str, str]] = {}
+_catalog_lock = threading.RLock()
+MAX_CATALOG_BYTES = 64 * 1024 * 1024
 
 
 class ToolError(RuntimeError):
@@ -40,12 +45,39 @@ class ToolError(RuntimeError):
 # ---- Bibliothèque d’assets ----
 
 def catalog(collection: str) -> list[dict[str, Any]]:
+    """Read the current catalogue, reusing parsing only for identical file bytes.
+
+    Size/mtime alone miss edits made by an external catalogue writer. Hashing the
+    current bounded bytes also detects same-size replacements and root changes.
+    Missing or malformed files never silently return a prior catalogue snapshot.
+    """
     if collection not in COLLECTIONS:
         raise ToolError("collection inconnue : textures, beams ou meshes")
-    if collection not in _catalogs:
-        path = ROOT / COLLECTIONS[collection][0]
-        _catalogs[collection] = json.loads(path.read_text(encoding="utf-8")) if path.is_file() else []
-    return _catalogs[collection]
+    path = (ROOT / COLLECTIONS[collection][0]).resolve()
+    with _catalog_lock:
+        try:
+            with path.open("rb") as source:
+                content = source.read(MAX_CATALOG_BYTES + 1)
+        except FileNotFoundError:
+            _catalogs.pop(collection, None)
+            _catalog_fingerprints.pop(collection, None)
+            return []
+        except OSError as exc:
+            raise ToolError(f"Catalogue {collection} illisible : {exc}") from exc
+        if len(content) > MAX_CATALOG_BYTES:
+            raise ToolError(f"Catalogue {collection} limité à 64 Mio")
+        fingerprint = (str(path), hashlib.sha256(content).hexdigest())
+        if collection in _catalogs and _catalog_fingerprints.get(collection) == fingerprint:
+            return _catalogs[collection]
+        try:
+            rows = json.loads(content.decode("utf-8-sig"))
+        except (ValueError, UnicodeError, RecursionError) as exc:
+            raise ToolError(f"Catalogue {collection} JSON invalide : {exc}") from exc
+        if not isinstance(rows, list) or any(not isinstance(row, dict) for row in rows):
+            raise ToolError(f"Catalogue {collection} : liste d'assets JSON requise")
+        _catalogs[collection] = rows
+        _catalog_fingerprints[collection] = fingerprint
+        return rows
 
 
 def describe_asset(item: dict[str, Any], collection: str) -> dict[str, Any]:
@@ -387,13 +419,20 @@ def export(project: dict[str, Any], fmt: str = "rbxmx", out: str | Path | None =
         data = _sibling("fx_rbxmx").export_rbxmx(project)
     elif fmt == "json":
         data = json.dumps(project, ensure_ascii=False, indent=2) + "\n"
+    elif fmt == "manifest":
+        data = json.dumps(export_manifest(project), ensure_ascii=False, indent=2) + "\n"
     else:
-        raise ToolError("format : rbxmx, lua ou json")
-    path = Path(out) if out else EXPORTS / f"{name}.{fmt}"
+        raise ToolError("format : rbxmx, lua, json ou manifest")
+    path = Path(out) if out else EXPORTS / (f"{name}.assets.json" if fmt == "manifest" else f"{name}.{fmt}")
     path = path if path.is_absolute() else ROOT / path
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(data, encoding="utf-8")
     return path
+
+
+def export_manifest(project: dict[str, Any]) -> dict[str, Any]:
+    """Return manual Roblox upload requirements; no files or assets are uploaded."""
+    return _sibling("fx_export").mesh_export_manifest(project)
 
 
 def export_library(recipes: dict[str, dict[str, Any]], out: str | Path | None = None) -> tuple[Path, Path]:
@@ -404,4 +443,4 @@ def export_library(recipes: dict[str, dict[str, Any]], out: str | Path | None = 
 
 
 __all__ = ["ToolError", "ValidationError", "search_assets", "compact_assets", "excluded_ids", "assets_by_ids", "tags", "texture_sheet", "render", "validate", "load", "save",
-           "list_projects", "export", "export_library", "describe_asset", "warnings", "diagnostic_counts", "grid_confirm", "render_batch"]
+           "list_projects", "export", "export_library", "export_manifest", "describe_asset", "warnings", "diagnostic_counts", "grid_confirm", "render_batch"]

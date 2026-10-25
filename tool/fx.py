@@ -125,10 +125,17 @@ def main(argv: list[str] | None = None) -> int:
     export.add_argument("--out")
 
     commands.add_parser("projects", help="projets enregistrés")
+    artistry = commands.add_parser("artistry", help="direction, mouvements, assets et revue visuelle : action + requête JSON")
+    import fx_agent_tools
+    artistry.add_argument("action", choices=sorted(set(fx_agent_tools.ACTIONS.values())))
+    artistry.add_argument("request", nargs="?", help="fichier JSON de paramètres ; optionnel pour schema/reference_list")
     args = parser.parse_args(argv)
 
     try:
-        if args.command == "textures":
+        if args.command == "artistry":
+            data = json.loads(Path(args.request).read_text(encoding="utf-8-sig")) if args.request else {}
+            show(fx_agent_tools.perform(args.action, data))
+        elif args.command == "textures":
             result = fx_tools.search_assets(args.collection, args.tag, args.kind, args.query, args.limit, args.offset,
                                             exclude_ids=args.exclude_ids, exclude_file=args.exclude_file)
             if result["items"] and not args.no_sheet:

@@ -50,6 +50,7 @@
   let filters = {textures:{search:'',tag:'',page:0},beams:{search:'',tag:'',page:0},meshes:{search:'',tag:'',page:0}};
   let catalogLoaded = false;
   let catalogFailed = false;
+  let catalogBusy = false, catalogSignature = '', catalogRevision = null;
   let history = [];
   let future = [];
   let dirty = false;
@@ -153,18 +154,30 @@
     });
   }
   function selectNode(id,{multi=false}={}) { if(multi){if(!selectionIds.size&&selectedId)selectionIds.add(selectedId);selectionIds.has(id)?selectionIds.delete(id):selectionIds.add(id);}else selectionIds.clear();selectedId=id;renderTree();renderProperties();renderTimeline();drawScene(); }
+  function mappedEditorMetadata(editor, mapping) {
+    const result={version:1,curves:{}};
+    for(const [key,value] of Object.entries(editor?.curves||{})){const separator=key.indexOf('::'),id=key.slice(0,separator);if(separator>0&&mapping.has(id))result.curves[mapping.get(id)+key.slice(separator)]=clone(value);}
+    for(const [id,mesh] of Object.entries(editor?.meshes||{}))if(mapping.has(id)){result.meshes??={};result.meshes[mapping.get(id)]=clone(mesh);}
+    return result;
+  }
+  function mergeEditorMetadata(target, extra) {
+    if(!Object.keys(extra?.curves||{}).length&&!Object.keys(extra?.meshes||{}).length)return;
+    target.editor??={version:1,curves:{}};target.editor.curves={...target.editor.curves,...extra.curves};
+    if(extra.meshes)target.editor.meshes={...target.editor.meshes,...extra.meshes};
+  }
   function removeNode() {
     if(!selected())return;
     const remove=new Set([selectedId]);let changed=true;
     while(changed){changed=false;for(const n of project.nodes)if(remove.has(n.parent)&&!remove.has(n.id)){remove.add(n.id);changed=true;}}
-    commit(p=>{p.nodes=p.nodes.filter(n=>!remove.has(n.id));p.animations=(p.animations||[]).filter(a=>!remove.has(a.node));for(const n of p.nodes)for(const [key,def] of Object.entries(schema.classes[n.class]?.properties||{}))if(def.type==='reference'&&remove.has(n.properties[key]))n.properties[key]=null;selectedId=p.nodes[0]?.id||null;});
+    commit(p=>{p.nodes=p.nodes.filter(n=>!remove.has(n.id));p.animations=(p.animations||[]).filter(a=>!remove.has(a.node));if(p.editor){for(const id of remove)delete p.editor.meshes?.[id];for(const key of Object.keys(p.editor.curves||{}))if(remove.has(key.split('::')[0]))delete p.editor.curves[key];}for(const n of p.nodes)for(const [key,def] of Object.entries(schema.classes[n.class]?.properties||{}))if(def.type==='reference'&&remove.has(n.properties[key]))n.properties[key]=null;selectedId=p.nodes[0]?.id||null;});
   }
   function duplicateNode() {
     const source=selected();if(!source)return;
-    commit(p=>{const originals=[source];let i=0;while(i<originals.length){const n=originals[i++];for(const child of p.nodes.filter(c=>c.parent===n.id))if(!originals.includes(child))originals.push(child);}
+    try{const originals=[source];let i=0;while(i<originals.length){const n=originals[i++];for(const child of project.nodes.filter(c=>c.parent===n.id))if(!originals.includes(child))originals.push(child);}
       const map=new Map(originals.map(n=>[n.id,uid(n.class)]));const copies=originals.map(n=>{const copy=clone(n);copy.id=map.get(n.id);copy.parent=map.get(n.parent)||n.parent;copy.name=n===source?n.name+' copie':n.name;for(const [key,def] of Object.entries(schema.classes[n.class]?.properties||{}))if(def.type==='reference'&&map.has(copy.properties[key]))copy.properties[key]=map.get(copy.properties[key]);return copy;});
-      p.nodes.push(...copies);p.animations.push(...p.animations.filter(a=>map.has(a.node)).map(a=>({...clone(a),node:map.get(a.node)})));selectedId=copies[0].id;
-    });
+      const draft=clone(project);mergeEditorMetadata(draft,mappedEditorMetadata(project.editor,map));draft.nodes.push(...copies);draft.animations.push(...project.animations.filter(a=>map.has(a.node)).map(a=>({...clone(a),node:map.get(a.node)})));validateProject(draft);
+      commit(p=>{p.nodes=draft.nodes;p.animations=draft.animations;if(draft.editor)p.editor=draft.editor;selectedId=copies[0].id;});
+    }catch(error){message('Duplication : '+error.message,'error');}
   }
   function template(kind) {
     const p=emptyProject();
@@ -285,14 +298,40 @@
     if(kind!=='textures'&&!path.startsWith(kind+'/'))path=kind+'/'+path;
     return '/library/'+path.split('/').map(encodeURIComponent).join('/');
   }
-  function assetUri(record) {return record.uri||record.raw_uri||record.asset_uri||(record.asset_id?'rbxassetid://'+record.asset_id:'');}
+  function localMeshKey(record) {return record.local_key||(/^meshes:local-/.test(record.catalog_key||'')?record.catalog_key:null)||(/^local-/.test(record.asset_id||'')?'meshes:'+record.asset_id:null);}
+  function assetUri(record) {return record.uri||record.raw_uri||record.asset_uri||(!localMeshKey(record)&&record.asset_id?'rbxassetid://'+record.asset_id:'');}
+  async function refreshCatalog({quiet=true,force=false}={}) {
+    if(catalogBusy)return false;catalogBusy=true;
+    try {
+      const summary=await api('/api/catalog/summary');
+      if(!force&&catalogLoaded&&!catalogFailed&&typeof summary.revision==='string'&&summary.revision===catalogRevision)return false;
+      const data=await api('/api/catalog');
+      if(!['textures','beams','meshes'].every(key=>Array.isArray(data[key])))throw new Error('Format du catalogue invalide.');
+      const next={textures:data.textures,beams:data.beams,meshes:data.meshes},signature=JSON.stringify(next),changed=signature!==catalogSignature;
+      const hadError=catalogFailed;catalogFailed=false;catalogLoaded=true;
+      catalogRevision=typeof summary.revision==='string'?summary.revision:null;
+      if(changed){
+        const old=assetSelection,identity=old&&(old.record.catalog_key||old.record.local_key||old.record.asset_id||old.record.key);
+        catalog=next;catalogSignature=signature;
+        if(old){const record=(catalog[old.kind]||[]).find(row=>(row.catalog_key||row.local_key||row.asset_id||row.key)===identity);assetSelection=record?{kind:old.kind,record}:null;}
+        const scroll=$('#catalog-grid').scrollTop;renderCatalog(true);$('#catalog-grid').scrollTop=scroll;renderResourceDetail();
+      }else if(hadError)renderCatalog(true);
+      $('#catalog-count').title='Catalogue actualisé automatiquement';
+      return changed;
+    }catch(error){
+      const firstFailure=!catalogFailed;catalogFailed=true;renderCatalog(true);
+      $('#catalog-count').title='Actualisation indisponible : '+error.message;
+      if(!quiet||firstFailure)message('Actualisation du catalogue : '+error.message,'error');
+      return false;
+    }finally{catalogBusy=false;}
+  }
   function renderCatalog(refreshTags=false) {
     const state=filters[collection];const records=catalog[collection]||[];
     $$('[data-collection]').forEach(button=>{const active=button.dataset.collection===collection;button.classList.toggle('active',active);button.setAttribute('aria-selected',active);});
     $('#catalog-search').value=state.search;
-    if(refreshTags){const tags=[...new Set(records.flatMap(r=>r.tags||[]))].sort((a,b)=>a.localeCompare(b));$('#catalog-tag').replaceChildren(new Option('Tous les tags',''));for(const tag of tags)$('#catalog-tag').append(new Option(tag,tag));}
+    if(refreshTags){const tags=[...new Set(records.flatMap(r=>r.tags||[]))];if(state.tag&&!tags.includes(state.tag))tags.push(state.tag);tags.sort((a,b)=>a.localeCompare(b));$('#catalog-tag').replaceChildren(new Option('Tous les tags',''));for(const tag of tags)$('#catalog-tag').append(new Option(tag,tag));}
     $('#catalog-tag').value=state.tag;const search=state.search.toLocaleLowerCase();const filtered=records.filter(r=>(!state.tag||(r.tags||[]).includes(state.tag))&&(!search||(String(r.name||'')+' '+String(r.asset_id||'')+' '+(r.tags||[]).join(' ')).toLocaleLowerCase().includes(search)));
-    const pageSize=36;const pages=Math.max(1,Math.ceil(filtered.length/pageSize));state.page=bounded(state.page,0,pages-1);const rows=filtered.slice(state.page*pageSize,(state.page+1)*pageSize);$('#catalog-count').textContent=numberFormat.format(filtered.length);$('#catalog-page').textContent=catalogLoaded?`${state.page+1} / ${pages}`:catalogFailed?'Catalogue indisponible':'Chargement…';$('#catalog-prev').disabled=!state.page;$('#catalog-next').disabled=state.page>=pages-1;
+    const pageSize=36;const pages=Math.max(1,Math.ceil(filtered.length/pageSize));state.page=bounded(state.page,0,pages-1);const rows=filtered.slice(state.page*pageSize,(state.page+1)*pageSize);$('#catalog-count').textContent=numberFormat.format(filtered.length);$('#catalog-page').textContent=catalogLoaded?`${state.page+1} / ${pages}`+(catalogFailed?' · à actualiser':''):catalogFailed?'Catalogue indisponible':'Chargement…';$('#catalog-prev').disabled=!state.page;$('#catalog-next').disabled=state.page>=pages-1;
     const grid=$('#catalog-grid');grid.replaceChildren();
     if(!rows.length){grid.innerHTML=`<div class="empty-message">${catalogLoaded?'Aucune ressource pour ce filtre.':catalogFailed?'La bibliothèque est indisponible. Les modèles intégrés restent utilisables.':'Chargement de votre bibliothèque…'}</div>`;return;}
     for(const record of rows){const button=document.createElement('button');button.className='catalog-card'+(assetSelection?.record===record?' selected':'');button.title=`${record.name||'Ressource'}\n${record.asset_id||assetUri(record)}`;button.draggable=true;const path=catalogPath(record,collection);if(path){const image=document.createElement('img');image.loading='lazy';image.alt=record.name||'Aperçu';image.src=path;image.onerror=()=>{image.remove();const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.prepend(missing);};button.append(image);}else{const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.append(missing);}const name=document.createElement('span');name.textContent=record.name||record.asset_id||'Ressource';button.append(name);button.onclick=()=>{assetSelection={record,kind:collection};renderCatalog();renderResourceDetail();};button.ondblclick=()=>applyAsset(record,collection);button.ondragstart=e=>{assetSelection={record,kind:collection};e.dataTransfer.setData('application/x-dataky-asset',JSON.stringify({kind:collection,record}));e.dataTransfer.setData('text/plain',assetUri(record));e.dataTransfer.effectAllowed='copy';renderResourceDetail();};grid.append(button);}
@@ -300,15 +339,25 @@
   function renderResourceDetail() {
     const host=$('#resource-detail');if(!assetSelection){host.innerHTML='<span class="mini-label">RESSOURCE</span><p>Sélectionnez une image pour l’utiliser dans votre effet.</p>';return;}
     const {record,kind}=assetSelection;host.innerHTML=`<span class="mini-label">${escape(COLLECTION_LABELS[kind].toUpperCase())}</span><div class="resource-name" title="${escape(record.name)}">${escape(record.name||'Ressource')}</div><div class="resource-id">${escape(record.asset_id||assetUri(record))}</div><div class="resource-buttons"><button class="primary" id="use-resource">Utiliser</button><button class="secondary" id="copy-resource">Copier l’ID</button></div>`;
-    $('#use-resource').onclick=()=>applyAsset(record,kind);$('#copy-resource').onclick=()=>copyText(String(record.asset_id||assetUri(record)),'ID copié');
+    $('#use-resource').onclick=()=>applyAsset(record,kind);const localKey=localMeshKey(record);if(localKey)$('#copy-resource').textContent='Copier la référence';$('#copy-resource').onclick=()=>copyText(String(localKey||record.asset_id||assetUri(record)),localKey?'Référence copiée':'ID copié');
   }
   function applyAsset(record,kind,targetId=selectedId) {
+    if(kind==='meshes'&&localMeshKey(record))return applyCatalogMesh(record);
     const uri=assetUri(record);if(!uri)return message('Cette ressource ne possède pas d’ID utilisable.','error');
     let target=nodeById(targetId);const property=target&&CONTENT_BY_CLASS[target.class];const compatible=kind==='meshes'?['SpecialMesh','MeshPart'].includes(target?.class):kind==='beams'?['Beam','Trail'].includes(target?.class):['ParticleEmitter','Beam','Trail'].includes(target?.class);
     if(compatible&&property&&schema.classes[target.class]?.properties?.[property]){
       commit(()=>{target.properties[property]=uri;selectedId=target.id;if(kind==='meshes'){if(target.class==='SpecialMesh')target.properties.MeshType='FileMesh';applyMeshTexture(target,record);}else if(target.class==='ParticleEmitter')applyFlipbook(target,record);});message('Ressource appliquée à '+target.name+'.');return;
     }
     const className=kind==='meshes'?'SpecialMesh':kind==='beams'?'Beam':'ParticleEmitter';addNode(className);target=selected();if(target){commit(()=>{const prop=CONTENT_BY_CLASS[className];target.properties[prop]=uri;target.name=record.name||target.name;if(kind==='meshes'){target.properties.MeshType='FileMesh';applyMeshTexture(target,record);const support=nodeById(target.parent);if(support&&support.properties.Transparency===1)support.properties.Transparency=0;}else if(className==='ParticleEmitter')applyFlipbook(target,record);});message(className+' créé avec cette ressource.');}
+  }
+  async function applyCatalogMesh(record) {
+    const source=clone(project),signature=JSON.stringify(source);
+    try{
+      const result=await api('/api/mesh/from-catalog',{method:'POST',body:JSON.stringify({project:source,key:localMeshKey(record)})});
+      if(signature!==JSON.stringify(project))throw new Error('La composition a changé pendant le chargement. Réappliquez la ressource pour conserver vos modifications.');
+      const next=validateProject(result.project);remember();resetPreviewState();project=next;selectedId=result.node_id;dirty=true;persist();renderAll();
+      message('Mesh ajouté avec sa géométrie locale.','success');
+    }catch(error){message('Import du catalogue : '+error.message,'error');}
   }
   function applyFlipbook(node,record) {if(record.kind!=='flipbook'){if(record.kind==='static'&&'FlipbookLayout'in node.properties)node.properties.FlipbookLayout='None';return;}const grid=Number(record.grid);if([2,4,8].includes(grid)&&schema.classes.ParticleEmitter?.properties.FlipbookLayout){node.properties.FlipbookLayout='Grid'+grid+'x'+grid;message('Grille '+grid+'×'+grid+' appliquée. Vérifiez son estimation dans le catalogue.');}else message('Flipbook sélectionné : choisissez sa grille dans les propriétés.');}
   function applyMeshTexture(node,record) {const ref=(record.references||[]).find(r=>/texture/i.test(r.label||r.property||''));const key=node.class==='MeshPart'?'TextureID':'TextureId';if(ref&&schema.classes[node.class]?.properties?.[key])node.properties[key]=ref.uri||ref.raw_uri||(ref.asset_id?'rbxassetid://'+ref.asset_id:'');}
@@ -332,7 +381,7 @@
   function emulatorView() {
     if(emulator||emulatorError)return emulator;
     if(!window.DatakyEmulator){emulatorError='Rechargez l’application pour charger l’émulateur.';return null;}
-    try{emulator=window.DatakyEmulator.createView($('#emu-canvas'),{background:$('#emu-background').value||undefined,ground:$('#emu-ground').checked,dummy:$('#emu-dummy').checked,onFrame:emulatorFrame,resolveTexture:catalogImage});}
+    try{emulator=window.DatakyEmulator.createView($('#emu-canvas'),{background:$('#emu-background').value||undefined,ground:$('#emu-ground').checked,dummy:$('#emu-dummy').checked,onFrame:emulatorFrame,resolveTexture:catalogImage,onSelect:(id,details)=>{if(id||!details.multi)selectNode(id,details);}});}
     catch(e){emulatorError=e.message;$('#emu-message').textContent=e.message;$('#emu-message').hidden=false;}
     return emulator;
   }
@@ -347,6 +396,7 @@
   function syncEmulator() {
     if(viewportMode!=='emu')return;const view=emulatorView();if(!view)return;
     const changed=previewMode==='free'&&view.updateProject?view.updateProject(previewProject()):view.setProject(previewProject());
+    view.setSelection?.(selectionIds.size?[...selectionIds]:selectedId?[selectedId]:[]);
     if(view.mode!==previewMode)view.setMode?.(previewMode);
     if(previewMode==='free'){for(const [id,value]of Object.entries(previewEnabled))view.setEnabled?.(id,value);}
     else if(changed&&$('#auto-preview').checked&&project.nodes.length)view.play();
@@ -467,7 +517,9 @@
   }
   function frameSelection(all=false) {if(viewportMode!=='emu')setViewport('emu');syncEmulator();return emulatorView()?.frameEffect(all?undefined:selectionNodes().map(node=>node.id));}
   async function exportProject(format) {
-    const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.'+format;link.download=projectFilename(format);document.body.append(link);link.click();link.remove();
+    const id=await saveProject(true);if(!id)return;
+    try{const response=await fetch('/api/export/'+encodeURIComponent(id)+'.'+format);if(!response.ok){let detail;try{detail=await response.json();}catch(_){detail={};}throw new Error(detail.error||'Export refusé ('+response.status+').');}downloadBlob(await response.blob(),projectFilename(format));message('Export '+format+' téléchargé.','success');}
+    catch(error){message('Export : '+error.message,'error');}
   }
   async function copySelection() {
     const nodes=selectionNodes();if(!nodes.length)return;
@@ -475,6 +527,7 @@
     const included=new Set(nodes.map(node=>node.id));let before=-1;
     while(before!==included.size){before=included.size;for(const node of project.nodes.filter(item=>included.has(item.id))){for(const [key,def]of Object.entries(schema.classes[node.class]?.properties||{}))if(def.type==='reference'&&nodeById(node.properties[key])){let dependency=nodeById(node.properties[key]);while(dependency&&!included.has(dependency.id)){included.add(dependency.id);dependency=nodeById(dependency.parent);}}}}
     const payload={dataky:'selection',version:1,nodes:clone(project.nodes.filter(node=>included.has(node.id))),animations:clone((project.animations||[]).filter(track=>included.has(track.node))),...(project.params?{params:clone(project.params)}:{})};
+    const metadata=mappedEditorMetadata(project.editor,new Map([...included].map(id=>[id,id])));if(Object.keys(metadata.curves).length||metadata.meshes)payload.editor=metadata;
     clipboardSelection=JSON.stringify(payload);try{await navigator.clipboard.writeText(clipboardSelection);message('Sélection copiée (JSON).','success');}catch(_){message('Sélection copiée dans l’atelier. Le presse-papiers système est indisponible.');}return payload;
   }
   async function pasteSelection() {
@@ -497,8 +550,8 @@
         node.parent=parent?.id||null;
       }
       const animations=(Array.isArray(payload.animations)?payload.animations:[]).filter(track=>mapping.has(track.node)).map(track=>({...clone(track),node:mapping.get(track.node)}));
-      const draft=clone(project);if(Object.keys(params).length)draft.params=params;draft.nodes.push(...additions,...copies);draft.animations.push(...animations);draft.duration=Math.max(draft.duration,...copies.map(node=>num(node.timing?.start)+num(node.timing?.duration)),...animations.flatMap(track=>(track.keyframes||[]).map(frame=>num(frame.time))));validateProject(draft);
-      commit(p=>{p.nodes=draft.nodes;p.animations=draft.animations;p.duration=draft.duration;if(draft.params)p.params=draft.params;selectedId=copies[0].id;selectionIds=new Set(payload.nodes.filter(node=>!mapping.has(node.parent)).map(node=>mapping.get(node.id)));});message('Sélection collée.','success');return copies;
+      const draft=clone(project);if(Object.keys(params).length)draft.params=params;draft.nodes.push(...additions,...copies);draft.animations.push(...animations);mergeEditorMetadata(draft,mappedEditorMetadata(payload.editor,mapping));draft.duration=Math.max(draft.duration,...copies.map(node=>num(node.timing?.start)+num(node.timing?.duration)),...animations.flatMap(track=>(track.keyframes||[]).map(frame=>num(frame.time))));validateProject(draft);
+      commit(p=>{p.nodes=draft.nodes;p.animations=draft.animations;p.duration=draft.duration;if(draft.params)p.params=draft.params;if(draft.editor)p.editor=draft.editor;selectedId=copies[0].id;selectionIds=new Set(payload.nodes.filter(node=>!mapping.has(node.parent)).map(node=>mapping.get(node.id)));});message('Sélection collée.','success');return copies;
     }catch(error){message('Collage : '+error.message,'error');}
   }
   const KEYBOARD_HELP=[
@@ -554,6 +607,7 @@
   }
   function projectPoint(point,w,h) {return [w/2+cameraPan[0]+(point[0]-point[2])*.866*planScale,h*.54+cameraPan[1]+(point[0]+point[2])*.35*planScale-point[1]*planScale];}
   function drawScene() {
+    if(viewportMode==='emu')emulator?.setSelection?.(selectionIds.size?[...selectionIds]:selectedId?[selectedId]:[]);
     const canvas=$('#scene-canvas');const rect=canvas.getBoundingClientRect();if(!rect.width||!rect.height)return;const dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(rect.width*dpr);canvas.height=Math.round(rect.height*dpr);const ctx=canvas.getContext('2d');if(!ctx)return;ctx.scale(dpr,dpr);const w=rect.width,h=rect.height;const toScreen=p=>projectPoint(p,w,h);ctx.clearRect(0,0,w,h);sceneHitTargets=[];
     for(let i=-20;i<=20;i++){ctx.strokeStyle=i===0?'#76618448':'#6f57751d';ctx.lineWidth=i===0?1:0.65;for(const axis of [0,1]){const a=toScreen(axis?[i,0,-20]:[-20,0,i]);const b=toScreen(axis?[i,0,20]:[20,0,i]);ctx.beginPath();ctx.moveTo(...a);ctx.lineTo(...b);ctx.stroke();}}
     const origin=toScreen([0,0,0]);for(const [v,c,label]of [[[2.3,0,0],'#b27d96','X'],[[0,2.3,0],'#8caf88','Y'],[[0,0,2.3],'#7198b4','Z']]){const p=toScreen(v);ctx.strokeStyle=c+'9c';ctx.beginPath();ctx.moveTo(...origin);ctx.lineTo(...p);ctx.stroke();ctx.fillStyle=c;ctx.font='9px monospace';ctx.fillText(label,p[0]+5,p[1]-3);}
@@ -577,6 +631,7 @@
     const ids=new Set();for(const node of value.nodes){if(typeof node.id!=='string'||!node.id||ids.has(node.id))throw new Error('Chaque objet doit avoir un ID unique.');ids.add(node.id);if(!schema.classes[node.class])throw new Error('Classe non prise en charge : '+node.class);if(!node.properties||typeof node.properties!=='object'||Array.isArray(node.properties))throw new Error('Propriétés invalides pour '+node.id);}
     for(const node of value.nodes){if(node.parent&&!ids.has(node.parent))throw new Error('Parent introuvable pour '+node.id+' : '+node.parent);let cursor=node;const visited=new Set();while(cursor?.parent){if(visited.has(cursor.id))throw new Error('La hiérarchie contient une boucle : '+node.id);visited.add(cursor.id);cursor=value.nodes.find(n=>n.id===cursor.parent);}}
     if(value.animations!==undefined&&!Array.isArray(value.animations))throw new Error('Le champ animations doit être une liste.');
+    if(value.editor?.meshes){const meshes=value.editor.meshes;if(typeof meshes!=='object'||Array.isArray(meshes)||Object.keys(meshes).length>32)throw new Error('32 maillages locaux maximum.');let triangles=0;for(const [id,mesh]of Object.entries(meshes)){if(value.nodes.find(n=>n.id===id)?.class!=='MeshPart')throw new Error('Géométrie sans MeshPart : '+id);window.DatakyEmulator?.validatePreviewMesh?.(mesh);triangles+=(mesh.indices?.length||0)/3;}if(triangles>100000)throw new Error('100000 triangles locaux maximum.');}
     return {...clone(value),name:String(value.name||'Effet sans nom'),animations:value.animations||[]};
   }
   function exportableProject() {return validateProject(project);}
@@ -597,12 +652,13 @@
     if(dirty&&project.nodes.length&&!confirm('Ouvrir ce projet et remplacer le brouillon actuel ?'))return;
     try{const data=await api('/api/project/'+encodeURIComponent(id));const loaded=validateProject(data.project||data);remember();resetPreviewState();project=loaded;selectedId=project.nodes[0]?.id||null;dirty=false;time=0;persist();renderAll();$('#projects-dialog').close();message('Projet ouvert.');}catch(e){message(e.message,'error');}
   }
-  function download(content,filename,type='application/json') {const blob=new Blob([content],{type});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download=filename;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+  function downloadBlob(blob,filename) {const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download=filename;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+  function download(content,filename,type='application/json') {downloadBlob(new Blob([content],{type}),filename);}
   function projectFilename(extension='json') {return (project.name||'effet').replace(/[^\p{L}\p{N}_-]+/gu,'_')+'.'+extension;}
   async function copyText(value,success='Copié') {try{await navigator.clipboard.writeText(value);message(success,'success');}catch(_){message('La copie a été refusée par le navigateur. Sélectionnez et copiez le texte manuellement.','error');}}
   function showJSON() {$('#project-json').value=JSON.stringify(project,null,2);$('#json-error').textContent='';$('#json-dialog').showModal();}
   function openExportMenu(button) {
-    showMenu(button,[['menu-label','EXPORTER VOTRE EFFET'],['Recette JSON · brouillon',()=>download(JSON.stringify(project,null,2),projectFilename())],['Modèle Roblox .rbxmx · à glisser dans Studio',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.rbxmx';link.download=projectFilename('rbxmx');document.body.append(link);link.click();link.remove();}],['Script Roblox Luau',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.lua';link.download=projectFilename('lua');document.body.append(link);link.click();link.remove();}],['Recette JSON validée',async()=>{const id=await saveProject(true);if(!id)return;const link=document.createElement('a');link.href='/api/export/'+encodeURIComponent(id)+'.json';link.download=projectFilename();document.body.append(link);link.click();link.remove();}]]);
+    showMenu(button,[['menu-label','EXPORTER VOTRE EFFET'],['Recette JSON · brouillon',()=>download(JSON.stringify(project,null,2),projectFilename())],['Modèle Roblox .rbxmx · à glisser dans Studio',()=>exportProject('rbxmx')],['Script Roblox Luau',()=>exportProject('lua')],['Recette JSON validée',()=>exportProject('json')],['Manifeste des assets Roblox',async()=>{try{const result=await api('/api/export/manifest',{method:'POST',body:JSON.stringify({project:exportableProject()})});download(JSON.stringify(result,null,2),projectFilename('assets.json'));}catch(error){message('Manifeste : '+error.message,'error');}}]]);
   }
   function showMenu(anchor,items) {
     const menu=$('#floating-menu');menu.replaceChildren();
@@ -686,7 +742,7 @@
   }
   function openCamera(){cameraFields(project.camera||{position:[10,6,12],target:[0,1,0]});$('#camera-error').textContent='';$('#camera-dialog').showModal();}
   function openAnimationGraph(){
-    try{if(!window.DatakyCurves)throw new Error('Rechargez l’application pour charger l’éditeur de courbes.');const node=nodeById(animationNode);const property=$('#animation-property').value;const def=schema.classes[node.class].properties[property];if(!['number','integer','Vector2','Vector3','Color3','NumberRange'].includes(def.type))throw new Error('L’éditeur graphique s’utilise avec des nombres, des vecteurs ou des couleurs.');const value=JSON.parse($('#animation-json').value);const key=node.id+'::'+property;$('#animation-dialog').close();window.DatakyCurves.open({type:'animation',value,definition:def,duration:project.duration,title:node.name+' · '+property,editor:project.editor?.curves?.[key],onApply:result=>{commit(p=>{p.animations=p.animations.filter(a=>!(a.node===node.id&&a.property===property));p.animations.push({node:node.id,property,keyframes:result.value});p.editor??={version:1,curves:{}};p.editor.curves??={};p.editor.curves[key]=result.editor;});}});}catch(e){$('#animation-error').textContent=e.message;}
+    try{if(!window.DatakyCurves)throw new Error('Rechargez l’application pour charger l’éditeur de courbes.');const node=nodeById(animationNode);const property=$('#animation-property').value;const def=schema.classes[node.class].properties[property];if(!['number','integer','Vector2','Vector3','Color3','NumberRange'].includes(def.type))throw new Error('L’éditeur graphique s’utilise avec des nombres, des vecteurs ou des couleurs.');const value=JSON.parse($('#animation-json').value);const key=node.id+'::'+property;$('#animation-dialog').close();window.DatakyCurves.open({type:'animation',value,definition:def,duration:project.duration,title:node.name+' · '+property,editor:project.editor?.curves?.[key],onApply:result=>{commit(p=>{const existing=p.animations.find(a=>a.node===node.id&&a.property===property);p.animations=p.animations.filter(a=>!(a.node===node.id&&a.property===property));p.animations.push({...existing,node:node.id,property,keyframes:result.value});p.editor??={version:1,curves:{}};p.editor.curves??={};p.editor.curves[key]=result.editor;});}});}catch(e){$('#animation-error').textContent=e.message;}
   }
   async function takeSnapshot() {
     if(viewportMode==='emu'){const view=emulatorView();if(!view)return message(emulatorError||'Émulation indisponible.','error');try{await api('/api/snapshot',{method:'POST',body:JSON.stringify({image:view.snapshot(),project_id:project.id||null,time:round(view.time),source:'emulator'})});message('Image de l’émulation enregistrée avec son instant.','success');}catch(e){message('Capture : '+e.message,'error');}return;}
@@ -714,7 +770,7 @@
     $('#camera-button').onclick=openCamera;$('#camera-front').onclick=()=>cameraFields({position:[0,2,14],target:[0,1,0],fov:50});$('#camera-perspective').onclick=()=>cameraFields({position:[10,6,12],target:[0,1,0],fov:50});$('#camera-apply').onclick=()=>{try{const camera={position:[],target:[],fov:Number($('#camera-fov').value)};for(const input of $$('[data-camera]'))camera[input.dataset.camera][Number(input.dataset.axis)]=Number(input.value);if([...camera.position,...camera.target,camera.fov].some(v=>!Number.isFinite(v))||camera.fov<1||camera.fov>120)throw new Error('Les coordonnées doivent être finies et le champ de vision entre 1 et 120.');if(camera.position.every((v,i)=>v===camera.target[i]))throw new Error('La caméra et sa cible doivent être distinctes.');commit(p=>{p.camera=camera;},{properties:false});$('#camera-dialog').close();message('Caméra conservée. Appliquez la composition pour actualiser Studio.');}catch(e){$('#camera-error').textContent=e.message;}};
     $('#sequence-add').onclick=()=>{const p=sequenceEdit.points;const sorted=[...p].sort((a,b)=>a.time-b.time);let biggest=[sorted[0],sorted[1]];for(let i=1;i<sorted.length;i++)if(sorted[i].time-sorted[i-1].time>biggest[1].time-biggest[0].time)biggest=[sorted[i-1],sorted[i]];const [a,b]=biggest;const value=Array.isArray(a.value)?a.value.map((v,i)=>(v+b.value[i])/2):(a.value+b.value)/2;p.push({time:round((a.time+b.time)/2),value,envelope:0});p.sort((a,b)=>a.time-b.time);renderSequenceEditor();};
     $('#sequence-apply').onclick=()=>{try{const points=validateSequence();const node=nodeById(sequenceEdit.node);if(!node)throw new Error('L’objet a été supprimé.');commit(()=>{node.properties[sequenceEdit.key]=sequenceArray(points,sequenceEdit.type);});$('#sequence-dialog').close();}catch(e){$('#sequence-error').textContent=e.message;}};
-    $('#animation-apply').onclick=()=>{try{const keyframes=JSON.parse($('#animation-json').value);if(!Array.isArray(keyframes)||keyframes.length<2)throw new Error('Au moins deux points clés sont nécessaires.');const node=nodeById(animationNode);const property=$('#animation-property').value;const def=schema.classes[node.class].properties[property];const type=def.type;for(let i=0;i<keyframes.length;i++){const f=keyframes[i];if(!Number.isFinite(f.time)||f.time<0||f.time>project.duration||(i&&f.time<=keyframes[i-1].time))throw new Error('Les temps doivent être croissants, distincts, et dans la durée du projet.');if(['number','integer'].includes(type)){if(!Number.isFinite(f.value)||(type==='integer'&&!Number.isInteger(f.value)))throw new Error('Valeur numérique attendue.');}else if(type==='boolean'){if(typeof f.value!=='boolean')throw new Error('Valeur true ou false attendue.');}else if(type==='enum'){if(!(def.enum||def.values||[]).includes(f.value))throw new Error('Valeur attendue : '+(def.enum||def.values||[]).join(', '));}else{const size=['Vector2','NumberRange'].includes(type)?2:3;if(!Array.isArray(f.value)||f.value.length!==size||f.value.some(v=>!Number.isFinite(v)))throw new Error('Le point clé attend un vecteur de '+size+' nombres.');}}commit(p=>{p.animations=p.animations.filter(a=>!(a.node===animationNode&&a.property===property));p.animations.push({node:animationNode,property,keyframes});});$('#animation-dialog').close();}catch(e){$('#animation-error').textContent=e.message;}};
+    $('#animation-apply').onclick=()=>{try{const keyframes=JSON.parse($('#animation-json').value);if(!Array.isArray(keyframes)||keyframes.length<2)throw new Error('Au moins deux points clés sont nécessaires.');const node=nodeById(animationNode);const property=$('#animation-property').value;const def=schema.classes[node.class].properties[property];const type=def.type;for(let i=0;i<keyframes.length;i++){const f=keyframes[i];if(!Number.isFinite(f.time)||f.time<0||f.time>project.duration||(i&&f.time<=keyframes[i-1].time))throw new Error('Les temps doivent être croissants, distincts, et dans la durée du projet.');if(['number','integer'].includes(type)){if(!Number.isFinite(f.value)||(type==='integer'&&!Number.isInteger(f.value)))throw new Error('Valeur numérique attendue.');}else if(type==='boolean'){if(typeof f.value!=='boolean')throw new Error('Valeur true ou false attendue.');}else if(type==='enum'){if(!(def.enum||def.values||[]).includes(f.value))throw new Error('Valeur attendue : '+(def.enum||def.values||[]).join(', '));}else{const size=['Vector2','NumberRange'].includes(type)?2:3;if(!Array.isArray(f.value)||f.value.length!==size||f.value.some(v=>!Number.isFinite(v)))throw new Error('Le point clé attend un vecteur de '+size+' nombres.');}}commit(p=>{const existing=p.animations.find(a=>a.node===animationNode&&a.property===property);p.animations=p.animations.filter(a=>!(a.node===animationNode&&a.property===property));p.animations.push({...existing,node:animationNode,property,keyframes});});$('#animation-dialog').close();}catch(e){$('#animation-error').textContent=e.message;}};
     $('#animation-remove').onclick=()=>{const property=$('#animation-property').value;commit(p=>{p.animations=p.animations.filter(a=>!(a.node===animationNode&&a.property===property));});$('#animation-dialog').close();};
     document.addEventListener('pointerdown',e=>{if(!$('#floating-menu').contains(e.target)&&!e.target.closest('#add-button,#export-button'))hideMenu();});
     document.addEventListener('keydown',handleKeyDown);
@@ -724,13 +780,13 @@
     await Promise.allSettled([
       (async()=>{try{const data=await api('/api/schema');if(!data.classes)throw new Error('Le schéma ne contient pas de classes.');schema=data;schemaOnline=true;$('#duration').max=schema.limits?.duration||600;try{localStorage.setItem(CACHE_SCHEMA,JSON.stringify(schema));}catch(_){}renderProperties();}catch(e){if(!schemaWarning){schemaWarning=true;message('Schéma local indisponible. Votre brouillon reste accessible; reconnectez le serveur avant l’export.','error');}}})(),
       (async()=>{try{blocks=(await api('/api/blocks')).blocks||[];}catch(_){blocks=[];}})(),
-      (async()=>{try{const data=await api('/api/catalog');catalog={textures:data.textures||[],beams:data.beams||[],meshes:data.meshes||[]};catalogLoaded=true;renderCatalog(true);}catch(e){catalogFailed=true;renderCatalog(true);message('La bibliothèque n’a pas pu être chargée. Les modèles intégrés restent disponibles.','error');}})(),refreshStatus()
+      refreshCatalog({quiet:false}),refreshStatus()
     ]);
   }
   if(!Array.isArray(project.animations))project.animations=[];
-  bindEvents();renderAll();renderCatalog(true);renderNativeStatus();setViewport(viewportMode);persist();loadData();setInterval(()=>refreshStatus(),3500);setInterval(()=>pollNativeFrame(),250);
+  bindEvents();renderAll();renderCatalog(true);renderNativeStatus();setViewport(viewportMode);persist();loadData();setInterval(()=>refreshStatus(),3500);setInterval(()=>pollNativeFrame(),250);setInterval(()=>{if(document.visibilityState!=='hidden')refreshCatalog();},15000);window.addEventListener('focus',()=>refreshCatalog());window.addEventListener('dataky-catalog-changed',()=>refreshCatalog());
   // A compact public automation surface uses the same editor validation and commands.
-  window.DatakyFX = Object.freeze({getProject:()=>clone(project),getSchema:()=>clone(schema),getStatus:()=>clone(nativeStatus),setProject:value=>{const next=validateProject(value);remember();resetPreviewState();project=next;selectedId=next.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();return clone(project);},save:()=>saveProject(),preview:action=>nativeAction(action),select:selectNode,
+  window.DatakyFX = Object.freeze({getProject:()=>clone(project),getSchema:()=>clone(schema),getStatus:()=>clone(nativeStatus),refreshCatalog,setProject:value=>{const next=validateProject(value);remember();resetPreviewState();project=next;selectedId=next.nodes[0]?.id||null;dirty=true;time=0;persist();renderAll();return clone(project);},save:()=>saveProject(),preview:action=>nativeAction(action),select:selectNode,
     emulator:Object.freeze({play:()=>transport('play'),stop:()=>transport('stop'),seek:value=>{setViewport('emu');time=cursorTime=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return time;},
       frame:value=>{setViewport('emu');time=bounded(num(value),0,project.duration);movePlayhead();seekEmulator();return emulatorView()?.snapshot()||null;},
       sheet:(options={})=>window.DatakyEmulator.renderSheet(clone(project),options)})});

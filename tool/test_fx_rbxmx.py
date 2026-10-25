@@ -3,6 +3,7 @@ under Luau (DATAKY_LUAU or `luau` on PATH) against the instances read back from 
 from __future__ import annotations
 
 import base64
+from copy import deepcopy
 import math
 import os
 from pathlib import Path
@@ -113,8 +114,19 @@ class RbxmxTests(unittest.TestCase):
             self.assertEqual(self.prop(ident, "bool", "Enabled").text, "false")
         self.assertIsNone(self.items["beam"].find("Properties/bool[@name='Enabled']"), "untimed switches keep their recipe value")
 
+    def test_player_export_preserves_runtime_animation_flag(self):
+        project = deepcopy(PROJECT)
+        project["animations"][0]["runtime"] = True
+        root = ET.fromstring(export_rbxmx(project))
+        source = root.find(".//ProtectedString[@name='Source']").text
+        self.assertIn('["runtime"]=true', source)
+        self.assertIn('animation.runtime doit être un booléen', source)
+
     @unittest.skipUnless(os.environ.get("DATAKY_LUAU") or shutil.which("luau"), "Luau CLI absent (DATAKY_LUAU)")
     def test_player_runs_the_timeline_on_the_file_instances(self):
+        project = deepcopy(PROJECT)
+        project["animations"][0]["runtime"] = True
+        root = ET.fromstring(export_rbxmx(project))
         lines = [(TOOL / "luau_roblox_mock.luau").read_text(encoding="utf-8")]
         names = {}
 
@@ -131,8 +143,8 @@ class RbxmxTests(unittest.TestCase):
                 build(child, var)
             return var
 
-        model = build(self.root.find("Item"), "workspace")
-        source = self.items["ModuleScript"].find("Properties/ProtectedString[@name='Source']").text
+        model = build(root.find("Item"), "workspace")
+        source = root.find(".//ProtectedString[@name='Source']").text
         lines += [f'rawset({model}, "_pivot", CFrame.new(10, 0, 0))', f"script = {{Parent = {model}}}",
                   "local Effect = (function()\n" + source + "\nend)()",
                   "Effect.play()", "for _ = 1, 66 do Step(1 / 60) end", "Dump()"]

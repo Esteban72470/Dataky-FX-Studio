@@ -104,6 +104,19 @@ class SchemaTests(unittest.TestCase):
             for key, prop in spec["properties"].items():
                 validate_value(prop["default"], prop, cls + "." + key)
 
+    def test_runtime_animation_flag_is_optional_boolean_and_preserved(self):
+        data = project()
+        self.assertNotIn("runtime", validate_project(data)["animations"][0])
+        for flag in (False, True):
+            data["animations"][0]["runtime"] = flag
+            clean = validate_project(data)
+            self.assertIs(clean["animations"][0]["runtime"], flag)
+            self.assertEqual(clean, validate_project(clean))
+            self.assertEqual(data["animations"][0]["runtime"], flag)
+        for flag in (None, "true", 1, 0, [], {}):
+            data["animations"][0]["runtime"] = flag
+            self.reject(data, ".runtime")
+
     def test_environment_plan_metadata_is_validated_and_preserved(self):
         data = project()
         data["environment"] = {"background": "#19aB22"}

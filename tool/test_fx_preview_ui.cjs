@@ -43,6 +43,7 @@ function editorHarness(){
     if(url==='/api/runtime')return response({bootstrap_command:'local bridge = true'});
     if(url==='/api/project')return response({...body,id:'saved-project'});
     if(url.startsWith('/api/project/'))return response({...plain(schemaFixture()),id:'loaded-project'});
+    if(url.startsWith('/api/export/'))return denyAction==='export'?response({error:'MeshPart local : renseigner un MeshId Roblox avant export.'},false):response(null);
     throw new Error('Unexpected integration request: '+url);
   };
   const filename=path.resolve(__dirname,'../editor/app.js');const original=fs.readFileSync(filename,'utf8');
@@ -59,7 +60,7 @@ function editorHarness(){
   return;
 ${marker}`);
   const emulatorCalls=[],clipboard={text:''};
-  const captured=[];const window={DatakyCurves:{open:options=>{captured.push(options);return{};}},DatakyEmulator:{createView:(canvas,options)=>{emulatorCalls.push({action:'createView',options});const view={mode:'timeline',playing:false,camera:{position:[10,6,12],target:[0,1,0]},setProject:project=>{emulatorCalls.push({action:'setProject',project:plain(project)});return true;},updateProject:project=>{emulatorCalls.push({action:'updateProject',project:plain(project)});return true;},resetPreviewState:()=>emulatorCalls.push({action:'resetPreviewState'}),setMode:mode=>{view.mode=mode;emulatorCalls.push({action:'setMode',mode});},setEnabled:(id,value)=>emulatorCalls.push({action:'setEnabled',id,value}),emit:(id,count)=>emulatorCalls.push({action:'emit',id,count}),clearParticles:()=>emulatorCalls.push({action:'clearParticles'}),frameEffect:ids=>emulatorCalls.push({action:'frameEffect',ids}),setView:value=>emulatorCalls.push({action:'setView',value}),draw(){}};for(const name of ['play','resume','pause','stop','seek'])view[name]=value=>{emulatorCalls.push({action:name,value});view.playing=['play','resume'].includes(name);};return view;}}};
+  const captured=[];const window={DatakyCurves:{open:options=>{captured.push(options);return{};}},DatakyEmulator:{validatePreviewMesh:require('../editor/emulator.js').validatePreviewMesh,createView:(canvas,options)=>{emulatorCalls.push({action:'createView',options});const view={mode:'timeline',playing:false,camera:{position:[10,6,12],target:[0,1,0]},setProject:project=>{emulatorCalls.push({action:'setProject',project:plain(project)});return true;},updateProject:project=>{emulatorCalls.push({action:'updateProject',project:plain(project)});return true;},resetPreviewState:()=>emulatorCalls.push({action:'resetPreviewState'}),setMode:mode=>{view.mode=mode;emulatorCalls.push({action:'setMode',mode});},setEnabled:(id,value)=>emulatorCalls.push({action:'setEnabled',id,value}),emit:(id,count)=>emulatorCalls.push({action:'emit',id,count}),clearParticles:()=>emulatorCalls.push({action:'clearParticles'}),frameEffect:ids=>emulatorCalls.push({action:'frameEffect',ids}),setView:value=>emulatorCalls.push({action:'setView',value}),draw(){}};for(const name of ['play','resume','pause','stop','seek'])view[name]=value=>{emulatorCalls.push({action:name,value});view.playing=['play','resume'].includes(name);};return view;}}};
   const sandbox={window,document:{querySelector:get,querySelectorAll:selector=>selector==='dialog[open]'?[...nodes.values()].filter(node=>node.open):[],createElement:tag=>new Element(tag),body:get('body')},console,crypto,Blob,fetch,
     Option:class extends Element{constructor(label,value){super('option');this.textContent=label;this.value=value;}},getComputedStyle:()=>({gridTemplateColumns:'134px 1fr'}),
     navigator:{clipboard:{writeText:async text=>{clipboard.text=text;},readText:async()=>clipboard.text}},
@@ -208,7 +209,32 @@ test('Ctrl shortcuts preserve save, duplicate and history, and export the reques
   app.api.handleKeyDown(keyEvent('d',{ctrlKey:true}));assert.equal(app.api.getProject().nodes.length,recipe.nodes.length*2);app.api.handleKeyDown(keyEvent('z',{ctrlKey:true}));assert.equal(app.api.getProject().nodes.length,recipe.nodes.length);app.api.handleKeyDown(keyEvent('z',{ctrlKey:true,shiftKey:true}));assert.equal(app.api.getProject().nodes.length,recipe.nodes.length*2);
   app.api.handleKeyDown(keyEvent('z',{ctrlKey:true}));app.api.handleKeyDown(keyEvent('y',{ctrlKey:true}));assert.equal(app.api.getProject().nodes.length,recipe.nodes.length*2);
   app.api.handleKeyDown(keyEvent('s',{ctrlKey:true,target:{closest:()=>({})}}));await flush();assert.ok(app.calls.some(call=>call.url==='/api/project'));
-  for(const shiftKey of [false,true]){app.api.handleKeyDown(keyEvent('e',{ctrlKey:true,shiftKey}));await flush();const link=app.get('body').children.at(-1);assert.ok(link.clicked);assert.match(link.href,shiftKey?/\.lua$/:/\.rbxmx$/);}
+  for(const shiftKey of [false,true]){app.api.handleKeyDown(keyEvent('e',{ctrlKey:true,shiftKey}));await flush();await flush();const link=app.get('body').children.at(-1);assert.ok(link,app.get('#status-text').textContent);assert.ok(link.clicked);assert.match(link.href,/^blob:/);assert.match(link.download,shiftKey?/\.lua$/:/\.rbxmx$/);}
+});
+
+function localMeshRecipe(){
+  const mesh={version:1,positions:[-.5,-.5,0,.5,-.5,0,0,.5,0],normals:[0,0,1,0,0,1,0,0,1],uvs:[0,1,1,1,.5,0],indices:[0,1,2],source:{name:'slash.obj',format:'obj',sha256:'a'.repeat(64),dimensions:[2,2,0]}};
+  return {version:1,name:'OBJ editor',duration:1,nodes:[{id:'slash',class:'MeshPart',parent:null,name:'Slash',properties:{Size:[2,2,.001],Transparency:0,MeshId:''}}],animations:[],
+    editor:{version:1,meshes:{slash:mesh},curves:{'slash::Size':{version:1,mode:'linear',note:'authored curve'}}}};
+}
+
+test('OBJ editor metadata follows duplicate/delete/undo and clipboard ID remapping across projects',async()=>{
+  const app=editorHarness(),original=localMeshRecipe();app.api.configure({project:original,mode:'emu',selectedId:'slash'});
+  app.api.handleKeyDown(keyEvent('d',{ctrlKey:true}));let result=plain(app.api.getProject());const copy=result.nodes.find(node=>node.id!=='slash');
+  assert.equal(Object.keys(result.editor.meshes).length,2);assert.deepEqual(result.editor.meshes[copy.id],original.editor.meshes.slash);
+  assert.ok(result.editor.curves[copy.id+'::Size']);assert.ok(result.editor.curves['slash::Size']);
+  app.api.handleKeyDown(keyEvent('Delete'));result=plain(app.api.getProject());assert.equal(result.nodes.length,1);assert.deepEqual(Object.keys(result.editor.meshes),['slash']);assert.deepEqual(Object.keys(result.editor.curves),['slash::Size']);
+  app.api.handleKeyDown(keyEvent('z',{ctrlKey:true}));assert.equal(Object.keys(plain(app.api.getProject()).editor.meshes).length,2);
+  app.api.configure({project:original,selectedId:'slash'});await app.api.copySelection();const payload=JSON.parse(app.clipboard.text);assert.deepEqual(payload.editor.meshes.slash,original.editor.meshes.slash);
+  app.api.configure({project:app.api.makeTemplate('empty')});await app.api.pasteSelection();result=plain(app.api.getProject());const pasted=result.nodes[0];assert.notEqual(pasted.id,'slash');assert.deepEqual(Object.keys(result.editor.meshes),[pasted.id]);assert.ok(result.editor.curves[pasted.id+'::Size']);
+  app.api.handleKeyDown(keyEvent('s',{ctrlKey:true}));await flush();const saved=app.calls.filter(call=>call.url==='/api/project').at(-1).body;
+  assert.deepEqual(saved.editor.meshes,result.editor.meshes,'JSON save preserves preview geometry');
+  const malformed=JSON.parse(app.clipboard.text);malformed.editor.meshes.slash.indices[0]=99;app.clipboard.text=JSON.stringify(malformed);const before=plain(app.api.getProject());await app.api.pasteSelection();assert.deepEqual(plain(app.api.getProject()),before);assert.match(app.get('#status-text').textContent,/Indices/);
+});
+
+test('a refused native export shows its reason and never downloads an error as a Roblox file',async()=>{
+  const app=editorHarness();app.deny('export');app.api.configure({mode:'emu'});app.api.handleKeyDown(keyEvent('e',{ctrlKey:true}));await flush();await flush();
+  assert.match(app.get('#status-text').textContent,/MeshId Roblox/);assert.equal(app.created.length,0);assert.equal(app.get('body').children.length,0);
 });
 test('native focus warning requires an explicit inactive viewport signal while playback is active',async()=>{
   const app=editorHarness();app.api.configure({status:{connected:true,last_result:{playing:true}}});

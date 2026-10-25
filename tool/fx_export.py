@@ -16,6 +16,98 @@ RUNTIME_PATH = Path(__file__).with_name("fx_runtime.lua")
 KIT_PATH = Path(__file__).with_name("fx_kit.lua")
 
 
+class MeshExportError(ValueError):
+    """An editable local mesh still needs an authorized Roblox asset mapping."""
+
+    def __init__(self, manifest: dict[str, Any]):
+        self.manifest = manifest
+        missing = ", ".join(item["node"] for item in manifest["missing_assets"])
+        super().__init__(
+            "Export Roblox bloqué : maillage local sans MeshId Roblox pour " + missing
+            + ". Importez le fichier OBJ dans Roblox Studio, vérifiez ses dimensions et ses UV, "
+            "puis renseignez le MeshId obtenu. Le JSON et le manifeste restent exportables."
+        )
+
+
+def _roblox_mesh_uri(value: Any) -> str | None:
+    """A local preview requires a persistent positive Roblox mesh asset ID.
+
+    This checks an explicit mapping, never claims ownership or visual equality.
+    Session content handles and local rbxasset:// paths are not published assets.
+    """
+    if not isinstance(value, str):
+        return None
+    match = re.fullmatch(
+        r"(?:rbxassetid://|https?://(?:www\.)?roblox\.com/asset/?\?id=)?([0-9]+)", value
+    )
+    if not match or int(match.group(1)) <= 0:
+        return None
+    return "rbxassetid://" + str(int(match.group(1)))
+
+
+def mesh_export_manifest(project: dict[str, Any]) -> dict[str, Any]:
+    """Describe local geometry mappings without embedding or uploading meshes.
+
+    The schema validates the original editable project. Local OBJ geometry is
+    preview metadata, not a Roblox mesh asset. Mapping an ID is an explicit
+    authoring step; authorization and matching geometry still require Studio.
+    """
+    if __package__:
+        from .fx_schema import validate_project
+    else:
+        from fx_schema import validate_project
+    return _validated_mesh_export_manifest(validate_project(project))
+
+
+def _validated_mesh_export_manifest(project: dict[str, Any]) -> dict[str, Any]:
+    by_id = {node["id"]: node for node in project["nodes"]}
+    missing, mapped = [], []
+    for node_id, geometry in (project.get("editor", {}).get("meshes") or {}).items():
+        node = by_id[node_id]
+        source = geometry.get("source") or {}
+        item = {
+            "node": node_id,
+            "class": node["class"],
+            "source": {key: source[key] for key in ("name", "format", "sha256", "dimensions") if key in source},
+            "mesh_id": _roblox_mesh_uri(node.get("properties", {}).get("MeshId")),
+            "verification": "Roblox permissions, geometry, dimensions and UVs must be checked in Studio",
+        }
+        (mapped if item["mesh_id"] else missing).append(item)
+    return {
+        "version": 1,
+        "project": project.get("id") or project["name"],
+        "exportable": not missing,
+        "missing_assets": missing,
+        "mapped_assets": mapped,
+        "manual_steps": [
+            "Keep the original OBJ file; JSON contains preview triangles, not an uploaded Roblox asset.",
+            "Import each original OBJ through Roblox Studio's 3D importer using your own authorized account.",
+            "Check axis orientation, world scale, pivot, normals, UVs and texture permissions against the local preview.",
+            "Copy the resulting persistent MeshId into the corresponding MeshPart properties and export again.",
+            "Verify the exported effect inside the target Roblox experience before integration.",
+        ] if missing or mapped else [],
+        "warnings": [
+            "An explicit MeshId is not proof of asset access or equivalent geometry; this export never uploads assets.",
+            "Preview mesh metadata is omitted from native exports; preserve JSON to continue editing it locally.",
+        ] if missing or mapped else [],
+    }
+
+
+def prepare_native_project(project: dict[str, Any]) -> dict[str, Any]:
+    """Validate mappings and remove renderer-only mesh buffers from native data."""
+    if __package__:
+        from .fx_schema import validate_project
+    else:
+        from fx_schema import validate_project
+    project = validate_project(project)
+    manifest = _validated_mesh_export_manifest(project)
+    if not manifest["exportable"]:
+        raise MeshExportError(manifest)
+    if "editor" in project:
+        project["editor"].pop("meshes", None)
+    return project
+
+
 def _lua(value: Any) -> str:
     """Serialize JSON values as Luau literals without executable interpolation."""
     if value is None:
@@ -53,11 +145,7 @@ def _lua(value: Any) -> str:
 
 
 def export_project(project: dict[str, Any]) -> str:
-    if __package__:
-        from .fx_schema import validate_project
-    else:
-        from fx_schema import validate_project
-    project = validate_project(project)
+    project = prepare_native_project(project)
     if not isinstance(project, dict) or project.get("version") != 1 or not isinstance(project.get("nodes"), list):
         raise ValueError("Dataky FX project version 1 with nodes is required")
     if len(project["nodes"]) > 400:
@@ -96,20 +184,17 @@ def export_library(recipes: dict[str, dict[str, Any]]) -> str:
 
     Keys are supplied by the caller (normally the input filename stem). Data
     keeps the ordinary recipe format, including params, scaleWith and tracks;
-    DatakyFXKit ignores carrier Part Position/Transparency preview tracks.
+    DatakyFXKit ignores carrier Part Position/Transparency preview tracks unless
+    the track explicitly opts into runtime playback with runtime=true.
     listTextures() lives on the metatable so pairs() still yields only recipes.
     """
-    if __package__:
-        from .fx_schema import validate_project
-    else:
-        from fx_schema import validate_project
     if not isinstance(recipes, dict) or not recipes:
         raise ValueError("Une bibliothèque doit contenir au moins une recette")
     validated = {}
     for name, recipe in recipes.items():
         if not isinstance(name, str) or not name.strip():
             raise ValueError("Chaque recette doit avoir un nom court non vide")
-        validated[name] = validate_project(recipe)
+        validated[name] = prepare_native_project(recipe)
     return (
         "-- Dataky FX Studio — recipe library (data only)\n"
         "-- Install DatakyFXKit.lua as a sibling ModuleScript.\n"

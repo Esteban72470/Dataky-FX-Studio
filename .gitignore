@@ -6,7 +6,24 @@ desktop.ini
 *.log
 *.tmp
 *.bak
+*.lock
+.pytest_cache/
+.venv/
 
-# Sorties des outils IA (tool/fx.py, tool/fx_mcp.py)
+# Generated outputs and machine-local data
 rendus/
 exports/
+backups/
+.local-ai/
+editor/local_ai/
+editor/artistry/
+editor/snapshots/
+editor/projects/*.json
+!editor/projects/enuma-elish-rupture.json
+reports-*.txt
+
+# Authored example exports are part of the distribution
+!source/vfx/enuma-elish/exports/
+!source/vfx/enuma-elish/exports/Enuma-Elish.json
+!source/vfx/enuma-elish/exports/Enuma-Elish.lua
+!source/vfx/enuma-elish/exports/Enuma-Elish.rbxmx

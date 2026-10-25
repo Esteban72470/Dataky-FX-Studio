@@ -219,6 +219,8 @@ def merge_recipes(base, other, prefix, *, position=(0, 0, 0), at=0, orientation=
     for track in source["animations"]:
         cls = source_by_id[track["node"]]["class"]
         clone = {"node": node_ids[track["node"]], "property": track["property"], "keyframes": []}
+        if "runtime" in track:
+            clone["runtime"] = track["runtime"]
         if cls in {"Part", "MeshPart"} and track["property"] == "Position" and motion:
             position_tracks.add(track["node"])
             times = sorted({k["time"] for k in track["keyframes"]} | {k["time"] for k in motion})
@@ -240,6 +242,13 @@ def merge_recipes(base, other, prefix, *, position=(0, 0, 0), at=0, orientation=
                     "keyframes": [{"time": k["time"] + at, "value": transform(node["class"], "Position", position_value, k["time"])} for k in motion]})
     source_end = max(source["duration"], motion[-1]["time"] if motion else 0)
     result["duration"] = max(result["duration"], at + source_end)
+    # Local geometry follows the copied node IDs. Keeping this authoring data
+    # also preserves the native-export requirement for an explicit MeshId.
+    # Vertices are normalized; the native Size tracks above carry scene scale.
+    if source.get("editor", {}).get("meshes"):
+        meshes = result.setdefault("editor", {"version": 1, "curves": {}}).setdefault("meshes", {})
+        for source_id, geometry in source["editor"]["meshes"].items():
+            meshes[node_ids[source_id]] = deepcopy(geometry)
     return validate_project(result)
 
 

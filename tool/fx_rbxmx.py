@@ -25,10 +25,10 @@ from typing import Any
 from xml.sax.saxutils import escape
 
 if __package__:
-    from .fx_export import RUNTIME_PATH, _lua
+    from .fx_export import RUNTIME_PATH, _lua, prepare_native_project
     from .fx_schema import CLASSES, validate_project
 else:
-    from fx_export import RUNTIME_PATH, _lua
+    from fx_export import RUNTIME_PATH, _lua, prepare_native_project
     from fx_schema import CLASSES, validate_project
 
 ENUMS = {
@@ -205,6 +205,7 @@ def _write_node(w: Writer, node: dict[str, Any], children: dict[str | None, list
 
 
 def player_source(project: dict[str, Any]) -> str:
+    project = prepare_native_project(project)
     runtime = RUNTIME_PATH.read_text(encoding="utf-8-sig")
     return (
         f"-- Dataky FX Studio — lecteur de l’effet {project['name'].replace(chr(10), ' ')}\n"
@@ -233,7 +234,7 @@ def player_source(project: dict[str, Any]) -> str:
 
 
 def export_rbxmx(project: dict[str, Any]) -> str:
-    project = validate_project(project)
+    project = prepare_native_project(project)
     referents = {node["id"]: _referent(node["id"]) for node in project["nodes"]}
     children: dict[str | None, list[dict[str, Any]]] = {}
     for node in project["nodes"]:

@@ -23,6 +23,7 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import fx_modules  # noqa: E402
 import fx_tools  # noqa: E402
+import fx_agent_tools  # noqa: E402
 from fx_schema import SCHEMA, ValidationError  # noqa: E402
 
 VERSIONS = ["2025-06-18", "2025-03-26", "2024-11-05"]
@@ -34,6 +35,7 @@ les images (mannequin de 5 studs pour l’échelle) ; corriger et recommencer ; 
 l’axe vertical d’une texture de Beam suit sa longueur ; Transparency doit finir à 1 pour éviter les disparitions sèches ; les instants de
 timing doivent tenir dans duration ; Orientation et Axis/SecondaryAxis d’un Attachment s’excluent. guide donne le détail."""
 GUIDE = (Path(__file__).resolve().parent.parent / "CLAUDE.md")
+INSTRUCTIONS += "\nDirection avancée : artistry_schema puis plan_effect ; animate_procedural et edit_effect_batch pour construire. start_visual_review/capture_visual_review joignent deux vues et deux fonds. REGARDER avant submit_visual_review ; sans vision déclarée, validation humaine requise. search_art_assets filtre seulement les observations vérifiées, annotate_art_asset enrichit avec preuve."
 
 PROJECT = {"type": "object", "description": "Recette Dataky FX complète (version 1, nodes, animations, duration…)"}
 PROJECT_INPUTS = {"project": PROJECT, "project_id": {"type": "string", "description": "ID d’un projet enregistré (list_effects)"}}
@@ -110,6 +112,7 @@ TOOLS = [
      "inputSchema": {"type": "object", "properties": {**PROJECT_INPUTS, "format": {"type": "string", "enum": ["rbxmx", "lua", "json", "library"]},
          "recipes": {"type": "object", "additionalProperties": PROJECT, "description": "Noms courts vers recettes pour format library"}}}},
 ]
+TOOLS.extend(fx_agent_tools.definitions(PROJECT_INPUTS))
 
 
 def text(value: Any) -> dict[str, str]:
@@ -137,6 +140,14 @@ def render_options(args: dict[str, Any]) -> dict[str, Any]:
 
 
 def call(name: str, args: dict[str, Any]) -> list[dict[str, Any]]:
+    if name in fx_agent_tools.ACTIONS:
+        result = fx_agent_tools.perform(fx_agent_tools.ACTIONS[name], args)
+        content = [text(result)]
+        if name == "capture_visual_review":
+            content.extend(image(path) for path in result["attempts"][-1]["images"])
+        elif name == "search_art_assets" and result["items"]:
+            content.append(image(fx_tools.texture_sheet(result["items"], "rendus/mcp-art-assets.png")))
+        return content
     if name == "guide":
         return [text(GUIDE.read_text(encoding="utf-8") if GUIDE.is_file() else INSTRUCTIONS)]
     if name == "get_schema":
@@ -147,6 +158,7 @@ def call(name: str, args: dict[str, Any]) -> list[dict[str, Any]]:
         compact = {cls: {key: {k: v for k, v in spec.items() if k in {"type", "default", "enum", "min", "max", "className"}}
                          for key, spec in data["properties"].items()} for cls, data in SCHEMA["classes"].items()}
         return [text({"classes": compact, "limits": SCHEMA["limits"], "sequenceFormat": SCHEMA["sequenceFormat"], "parameters": SCHEMA["parameters"],
+                      "animationPolicy": SCHEMA.get("animationPolicy"),
                       "timing": "nodes[].timing = {start, duration, mode: burst|continuous, count} pour émetteurs, beams, trails, lumières",
                       "animations": "[{node, property, keyframes: [{time (s), value}]}] pour les propriétés animatables"})]
     if name == "search_assets":
@@ -226,7 +238,7 @@ def handle(message: dict[str, Any]) -> dict[str, Any] | None:
         try:
             content = call(params.get("name", ""), params.get("arguments") or {})
             return {"jsonrpc": "2.0", "id": ident, "result": {"content": content, "isError": False}}
-        except (ValidationError, fx_tools.ToolError, ValueError, KeyError, OSError) as error:
+        except (ValidationError, fx_tools.ToolError, ValueError, KeyError, TypeError, OSError) as error:
             return {"jsonrpc": "2.0", "id": ident, "result": {"content": [text(f"Erreur : {error}")], "isError": True}}
         except Exception:  # keep the server alive; the traceback helps the client fix its call
             traceback.print_exc(file=sys.stderr)

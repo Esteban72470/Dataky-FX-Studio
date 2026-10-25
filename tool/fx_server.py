@@ -35,7 +35,7 @@ CURRENT_BRIDGE_VERSION = 2
 LIBRARY = Path(__file__).resolve().parent.parent
 CLIENT_TIMEOUT = 20
 FRAME_TIMEOUT = 5
-MAX_BODY = 12_000_000
+MAX_BODY = 24 * 1024 * 1024
 
 
 class APIError(ValueError):
@@ -217,7 +217,7 @@ class FXServer(ThreadingHTTPServer):
         with self.lock:
             connected = self.connected()
             client = self.client or {}
-            return {"app": APP, "version": 1, "connected": connected,
+            return {"app": APP, "version": 1, "connected": connected, "library": str(self.library),
                     "last_seen": client.get("last_seen"), "studio": client.get("studio"),
                     "client_id": client.get("client_id"), "bridge_version": client.get("version"),
                     "bridge_capabilities": client.get("capabilities", {}),
@@ -404,16 +404,55 @@ class Handler(BaseHTTPRequestHandler):
 
     def get(self, path, query):
         server = self.server
-        if path in {"/", "/index.html", "/app.js", "/curves.js", "/emulator.js", "/render.html", "/render.js", "/styles.css"}:
+        if path in {"/", "/index.html", "/app.js", "/artistry.js", "/video.js", "/video.css", "/curves.js", "/emulator.js", "/render.html", "/render.js", "/styles.css", "/artistry.css"}:
             self.file(confined(server.editor, "index.html" if path in {"/", "/index.html"} else path[1:]))
         elif path == "/api/schema":
             self.send_json(SCHEMA)
+        elif path == "/api/catalog/summary":
+            catalogue = sibling("fx_ai_catalog").snapshot(root=server.library)
+            self.send_json({key: catalogue[key] for key in ("revision", "counts", "raw_counts", "warnings")})
+        elif path == "/api/video/references":
+            self.send_json({"references": sibling("fx_video").list_videos(root=server.library)})
+        elif path == "/api/video/analyses":
+            self.send_json({"analyses": sibling("fx_video").list_analyses(root=server.library)})
+        elif path.startswith("/api/video/analysis/"):
+            ident = path.removeprefix("/api/video/analysis/")
+            result = sibling("fx_video").get_analysis(ident, root=server.library)
+            self.send_json({**result, "annotations": sibling("fx_video").list_annotations(ident, root=server.library)})
+        elif path.startswith("/api/video/file/"):
+            parts = path.removeprefix("/api/video/file/").split("/")
+            if len(parts) != 2 or not re.fullmatch(r"[a-f0-9]{64}", parts[0]) or not re.fullmatch(r"(?:contact-sheet-[0-9]+|segment-[0-9]+-frame-[0-9]+)\.jpg", parts[1]):
+                raise APIError(403, "Image d'analyse vidéo non autorisée")
+            result = sibling("fx_video").get_analysis(parts[0], root=server.library)
+            permitted = set(result["contact_sheets"]) | {item["file"] for item in result["selected_frames"]}
+            if parts[1] not in permitted:
+                raise APIError(404, "Image absente de cette analyse")
+            self.file(confined(server.editor / "local_ai" / "video" / "analyses", parts[0]+"/"+parts[1]))
+        elif path == "/api/artistry/schema":
+            self.send_json(sibling("fx_agent_tools").perform("schema", {}))
+        elif path == "/api/artistry/reviews":
+            self.send_json({"reviews": sibling("fx_artistry").list_reviews(query.get("project_id", [None])[0])})
+        elif path.startswith("/api/artistry/plan/"):
+            self.send_json(sibling("fx_artistry").load_plan(path.removeprefix("/api/artistry/plan/")))
+        elif path.startswith("/api/artistry/review/"):
+            self.send_json(sibling("fx_artistry").get_review(path.removeprefix("/api/artistry/review/")))
+        elif path.startswith("/api/artistry/file/"):
+            relative = path.removeprefix("/api/artistry/file/")
+            parts = relative.split("/")
+            if len(parts) != 2 or not re.fullmatch(r"review-[a-f0-9]{16}", parts[0]) or not re.fullmatch(r"attempt-\d+-(hero|player)\.png", parts[1]):
+                raise APIError(403, "Image de revue invalide")
+            self.file(confined(server.editor / "artistry" / "reviews", relative))
+        elif path == "/api/artistry/references":
+            self.send_json({"references": sibling("fx_assets").list_references()})
+        elif path.startswith("/api/artistry/reference/"):
+            assets = sibling("fx_assets")
+            try:
+                reference = assets.get_reference(path.removeprefix("/api/artistry/reference/"))
+            except assets.ToolError as exc:
+                raise APIError(404, str(exc)) from exc
+            self.file(confined(server.library, reference["relative_path"]))
         elif path == "/api/catalog":
-            result = {}
-            for key, rel in (("textures", "textures.json"), ("beams", "beams/assets.json"), ("meshes", "meshes/assets.json")):
-                source = confined(server.library, rel)
-                result[key] = json.loads(source.read_text(encoding="utf-8")) if source.is_file() else []
-            self.send_json(result)
+            self.send_json(sibling("fx_ai_catalog").editor_catalog(root=server.library))
         elif path == "/api/projects":
             projects = []
             if server.projects.is_dir():
@@ -517,23 +556,81 @@ class Handler(BaseHTTPRequestHandler):
             return relative in root_files
         if parts[0] in {"images", "previews", "tags"}:
             return suffix != ".html"
+        if re.fullmatch(r"source/vfx/[a-z0-9][a-z0-9_-]{0,63}/textures/[A-Za-z0-9][A-Za-z0-9_-]{0,119}\.png", relative):
+            return True
         if parts[0] in {"beams", "meshes"}:
             return (len(parts) == 2 and parts[1] in {"assets.json", "assets.csv", "assets.sqlite", "summary.json", "failures.json", "apercu.jpg"}) or (len(parts) >= 3 and parts[1] in {"images", "previews", "tags"} and suffix != ".html")
         return False
 
     def post(self, path):
         server = self.server
-        data = self.read_json(12_000_000 if path in {"/api/snapshot", "/bridge/frame"} else 4_000_000)
-        if path == "/api/project":
+        project_payload = path in {"/api/project", "/api/compose", "/api/mesh/import", "/api/mesh/from-catalog", "/api/export/manifest", "/api/preview"} or path.startswith("/api/artistry/")
+        data = self.read_json(MAX_BODY if project_payload else 12_000_000 if path in {"/api/snapshot", "/bridge/frame"} else 4_000_000)
+        if path == "/api/video/import":
+            self.send_json(sibling("fx_video").import_video(data.get("path"), root=server.library,
+                source_url=data.get("source_url", ""), rights_note=data.get("rights_note", "")), 201)
+        elif path == "/api/video/analyze":
+            self.send_json(sibling("fx_video").analyze_video(data.get("reference_id"), root=server.library,
+                level=data.get("level", "A"), sample_interval=data.get("sample_interval", 3),
+                max_samples=data.get("max_samples", 1800), segments=data.get("segments")), 201)
+        elif path == "/api/video/annotate":
+            self.send_json(sibling("fx_video").annotate_analysis(data.get("analysis_id"), data.get("observations"), root=server.library), 201)
+        elif path == "/api/project":
             project = validate_project(data.get("project", data))
             project.setdefault("id", uuid.uuid4().hex)
             with server.lock:
+                geometry = project.get("editor", {}).get("meshes", {})
+                for node in project["nodes"]:
+                    if node["id"] in geometry:
+                        sibling("fx_ai_catalog").register_mesh({"node": node, "mesh": geometry[node["id"]]}, root=server.library)
                 atomic_json(self.project_path(project["id"]), project)
             self.send_json(project, 201)
         elif path == "/api/compose":
             # Ajoute des briques à la recette fournie (ou en crée une) ; rien n’est enregistré.
             plan = data.get("plan") or {"blocks": data.get("blocks")}
             self.send_json(sibling("fx_modules").compose(plan, data.get("project")))
+        elif path == "/api/mesh/from-catalog":
+            catalogue = sibling("fx_ai_catalog")
+            project = validate_project(data.get("project"))
+            asset = catalogue.get_asset(data.get("key"), root=server.library)
+            if asset["collection"] != "meshes":
+                raise ValidationError("Une ressource de la collection meshes est requise")
+            mesh = catalogue.load_geometry(asset, root=server.library)
+            ident = "mesh_" + uuid.uuid4().hex[:12]
+            properties = {"MeshId": asset.get("mesh_id", asset.get("uri", "")), "TextureID": asset.get("mesh_texture_id", ""),
+                          "Position": [0, 2, 0], "Size": [max(.001, x) for x in mesh["source"]["dimensions"]] if mesh else [4, 4, 4],
+                          "Color": [1, 1, 1], "Transparency": 0, "Anchored": True, "CanCollide": False, "DoubleSided": True}
+            project["nodes"].append({"id": ident, "class": "MeshPart", "name": asset["name"] or "Mesh", "parent": None, "properties": properties})
+            if mesh:
+                project.setdefault("editor", {"version": 1}).setdefault("meshes", {})[ident] = mesh
+            project = validate_project(project)
+            self.send_json({"project": project, "node_id": ident, "warnings": [] if mesh else ["Géométrie non disponible localement : aperçu filaire, MeshId exportable vers Studio."],
+                            "manifest": sibling("fx_export").mesh_export_manifest(project)}, 201)
+        elif path == "/api/mesh/import":
+            module = sibling("fx_mesh")
+            project = validate_project(data.get("project"))
+            ident = "mesh_" + uuid.uuid4().hex[:12]
+            result = module.import_obj(data.get("text"), ident, name=data.get("name", "mesh.obj"), mesh_id=data.get("mesh_id", ""))
+            project["nodes"].append(result["node"])
+            project.setdefault("editor", {"version": 1})
+            project["editor"].setdefault("meshes", {})[ident] = result["mesh"]
+            project = validate_project(project)
+            registered = sibling("fx_ai_catalog").register_mesh(result, root=server.library)
+            self.send_json({"project": project, "node_id": ident, "warnings": result.get("warnings", []),
+                            "catalog_asset": {key: registered[key] for key in ("key", "id", "name", "collection")},
+                            "manifest": sibling("fx_export").mesh_export_manifest(project)}, 201)
+        elif path == "/api/export/manifest":
+            self.send_json(sibling("fx_export").mesh_export_manifest(validate_project(data.get("project"))))
+        elif path.startswith("/api/artistry/"):
+            action = path.removeprefix("/api/artistry/")
+            allowed = set(sibling("fx_agent_tools").ACTIONS.values())
+            if action not in allowed:
+                raise APIError(404, "Action artistique inconnue")
+            try:
+                result = sibling("fx_agent_tools").perform(action, data)
+            except sibling("fx_tools").ToolError as exc:
+                raise APIError(400, str(exc)) from exc
+            self.send_json(result)
         elif path == "/api/preview":
             action = data.get("action", "apply")
             sandbox_actions = {"sandbox", "emit", "enabled", "clear_particles", "update"}
@@ -542,6 +639,8 @@ class Handler(BaseHTTPRequestHandler):
             project = validate_project(data["project"]) if data.get("project") is not None else None
             if action in {"apply", "play", "sandbox", "update"} and project is None:
                 raise ValidationError("Projet requis pour appliquer ou lire")
+            if project is not None and action in {"apply", "play", "sandbox", "update"}:
+                project = sibling("fx_export").prepare_native_project(project)
             command = {"id": uuid.uuid4().hex, "action": action}
             if project is not None:
                 command["project"] = project
@@ -736,7 +835,7 @@ def main(argv=None):
     args = parser.parse_args(argv)
     server = create_server(port=args.port)
     origin = f"http://127.0.0.1:{server.server_port}"
-    print(f"{APP} : {origin}\nFermer cette fenêtre arrête le serveur. Aucun appel à une IA.", flush=True)
+    print(f"{APP} : {origin}\nFermer cette fenêtre arrête le serveur. Le bouton IA locale utilise le moteur local configuré.", flush=True)
     if not args.no_browser:
         webbrowser.open(origin)
     try:

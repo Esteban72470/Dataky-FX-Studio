@@ -2801,6 +2801,531 @@
         }
       ],
       "sha256": "2df1bd5f83091c8efe898859f0159714423c3f37af0244092883c8b7862a43f8"
+    },
+    "17388368090:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.032555644480014224,
+          "coverage": 0.04585600907029479,
+          "luma_alpha_mean": 0.032555644480014224
+        }
+      ],
+      "sha256": "d9d4f7484d1bcf311d18e0545c1527d5b367de2ba92ea3b495387e3d68e9e697"
+    },
+    "17388417332:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.09548121470810546,
+          "coverage": 0.14941043083900227,
+          "luma_alpha_mean": 0.07580769161695179
+        }
+      ],
+      "sha256": "512b19cf195e4399ef44937d6c0c3c9d724e388b54a1b31b862eaa34dcf1d870"
+    },
+    "17388366135:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.026266284291494375,
+          "coverage": 0.03706349206349206,
+          "luma_alpha_mean": 0.009323468908260472
+        }
+      ],
+      "sha256": "93ae0dbb4f83818d1cd478ab095ed90531b64613d0921c98cd156cae6aa78ea5"
+    },
+    "8708744804:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.1906266506602641,
+          "coverage": 0.20785147392290249,
+          "luma_alpha_mean": 0.19062665066026407
+        }
+      ],
+      "sha256": "41850ee61a45fcc02972429f7b7b939435cc9e64e1d1f6b259c1a3dfaff01c66"
+    },
+    "13975873083:2x2": {
+      "width": 420,
+      "height": 420,
+      "columns": 2,
+      "rows": 2,
+      "frames": [
+        {
+          "alpha_mean": 0.2462750433506736,
+          "coverage": 0.603514739229025,
+          "luma_alpha_mean": 0.10451929482527651
+        },
+        {
+          "alpha_mean": 0.1781489484682762,
+          "coverage": 0.5250113378684808,
+          "luma_alpha_mean": 0.07646392925379301
+        },
+        {
+          "alpha_mean": 0.15005486639100085,
+          "coverage": 0.5345578231292517,
+          "luma_alpha_mean": 0.0601343830107555
+        },
+        {
+          "alpha_mean": 0.23584580498866214,
+          "coverage": 0.6290249433106576,
+          "luma_alpha_mean": 0.11153203812313596
+        }
+      ],
+      "sha256": "71174f0b586f67868eede9e0fe5c9a84eb3cff751c6d8d509962a2f0a552fbbf"
+    },
+    "12402892454:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.0986526388333111,
+          "coverage": 0.2424263038548753,
+          "luma_alpha_mean": 0.09865263883331109
+        }
+      ],
+      "sha256": "a48b315a557273257ae21afd79fbda452979c1024ea4cd79cf5431e90ced660d"
+    },
+    "8779210242:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.298542127962296,
+          "coverage": 0.6557369614512472,
+          "luma_alpha_mean": 0.1878357897407329
+        }
+      ],
+      "sha256": "be148d44ec828886023ddfeb93b59aa075f92f7e6197051d000ba8fcd186f8b7"
+    },
+    "12733057490:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.12589889289048953,
+          "coverage": 0.26182539682539685,
+          "luma_alpha_mean": 0.0952675230702477
+        }
+      ],
+      "sha256": "14ff5731e4af63ecc46ad36bfc2b04a5c543bc3ef435a3a0e7fc3684ceacbb0a"
+    },
+    "115525217267409:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.09901269396647548,
+          "coverage": 0.1922562358276644,
+          "luma_alpha_mean": 0.09845154274164568
+        }
+      ],
+      "sha256": "2fe70bc96cef714af52474a0c5cff57d6da1f048ea668544a2160434a7c6c40d"
+    },
+    "112500707969412:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.14223409363745498,
+          "coverage": 0.24121315192743764,
+          "luma_alpha_mean": 0.14223409363745496
+        }
+      ],
+      "sha256": "a4ccddea8d52894e089aad577a379efff7886dceedca348ec2013579d0bc3d11"
+    },
+    "7447854952:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.01717213552087502,
+          "coverage": 0.028310657596371882,
+          "luma_alpha_mean": 0.017172135520875015
+        }
+      ],
+      "sha256": "3e979158256be214894e576cdee87f5d93a606e3a9ee38151988bebae4afd41f"
+    },
+    "12800352216:4x4": {
+      "width": 420,
+      "height": 420,
+      "columns": 4,
+      "rows": 4,
+      "frames": [
+        {
+          "alpha_mean": 0.07690151616202036,
+          "coverage": 0.14857142857142858,
+          "luma_alpha_mean": 0.05350351033659651
+        },
+        {
+          "alpha_mean": 0.0235927259792806,
+          "coverage": 0.06494331065759637,
+          "luma_alpha_mean": 0.012566782181282099
+        },
+        {
+          "alpha_mean": 0.10931234716108666,
+          "coverage": 0.21414965986394557,
+          "luma_alpha_mean": 0.07517242714079095
+        },
+        {
+          "alpha_mean": 0.03477266462140412,
+          "coverage": 0.08870748299319728,
+          "luma_alpha_mean": 0.019315774763064265
+        },
+        {
+          "alpha_mean": 0.024303410252990085,
+          "coverage": 0.05750566893424036,
+          "luma_alpha_mean": 0.014721888406778834
+        },
+        {
+          "alpha_mean": 0.10275078920457072,
+          "coverage": 0.18494331065759637,
+          "luma_alpha_mean": 0.07511299770452842
+        },
+        {
+          "alpha_mean": 0.06594104308390022,
+          "coverage": 0.12489795918367347,
+          "luma_alpha_mean": 0.04670942503363001
+        },
+        {
+          "alpha_mean": 0.0,
+          "coverage": 0.0,
+          "luma_alpha_mean": 0.0
+        },
+        {
+          "alpha_mean": 0.02666986794717887,
+          "coverage": 0.06412698412698413,
+          "luma_alpha_mean": 0.015741969816248938
+        },
+        {
+          "alpha_mean": 0.07722448979591837,
+          "coverage": 0.15002267573696146,
+          "luma_alpha_mean": 0.05343462073282472
+        },
+        {
+          "alpha_mean": 0.05830207638611,
+          "coverage": 0.12244897959183673,
+          "luma_alpha_mean": 0.03786724694234993
+        },
+        {
+          "alpha_mean": 0.00955724512027033,
+          "coverage": 0.03056689342403628,
+          "luma_alpha_mean": 0.004516810122741907
+        },
+        {
+          "alpha_mean": 0.08418976479480682,
+          "coverage": 0.16108843537414966,
+          "luma_alpha_mean": 0.0586267671338688
+        },
+        {
+          "alpha_mean": 0.0483734827264239,
+          "coverage": 0.09541950113378685,
+          "luma_alpha_mean": 0.03313723572217558
+        },
+        {
+          "alpha_mean": 0.10981672669067627,
+          "coverage": 0.19419501133786848,
+          "luma_alpha_mean": 0.08069249346797541
+        },
+        {
+          "alpha_mean": 0.010681961673558312,
+          "coverage": 0.03346938775510204,
+          "luma_alpha_mean": 0.005154442430566998
+        }
+      ],
+      "sha256": "0eee64a54bc50a01e4bce303734052e0466d23cc6cf8cc5295e7fa2e2edf5a31"
+    },
+    "14050533905:2x2": {
+      "width": 420,
+      "height": 420,
+      "columns": 2,
+      "rows": 2,
+      "frames": [
+        {
+          "alpha_mean": 0.21030305455515538,
+          "coverage": 0.5221995464852608,
+          "luma_alpha_mean": 0.21030305455515536
+        },
+        {
+          "alpha_mean": 0.14600177848917345,
+          "coverage": 0.48346938775510206,
+          "luma_alpha_mean": 0.14600177848917342
+        },
+        {
+          "alpha_mean": 0.23060655373260416,
+          "coverage": 0.5335827664399093,
+          "luma_alpha_mean": 0.2306065537326041
+        },
+        {
+          "alpha_mean": 0.19693797519007603,
+          "coverage": 0.5232879818594104,
+          "luma_alpha_mean": 0.196937975190076
+        }
+      ],
+      "sha256": "272ed9b1f510d63062ef911a1e6e2fab0be454219eb58184a1990c9c486c9fdb"
+    },
+    "12362689688:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.1974874616513272,
+          "coverage": 0.21344104308390022,
+          "luma_alpha_mean": 0.19225436960140047
+        }
+      ],
+      "sha256": "b55fe7b57f35725d1b76c9f8610bb35a8a1d27a8bb021072ffe3642c3af1fc9a"
+    },
+    "7216853231:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.10144755680049798,
+          "coverage": 0.18187074829931973,
+          "luma_alpha_mean": 0.0823186498113668
+        }
+      ],
+      "sha256": "23972164437efd87fe11a89dd961ccd12362ca0171e8d7e4100a272b13d6b93b"
+    },
+    "115684066676652:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.20472062158196613,
+          "coverage": 0.6869954648526078,
+          "luma_alpha_mean": 0.11002559620798211
+        }
+      ],
+      "sha256": "8faae197fe317f376bb3c96856308d18775e5c8281b4c557f0386472f2767220"
+    },
+    "118243636520967:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.09144815704059402,
+          "coverage": 0.10696712018140589,
+          "luma_alpha_mean": 0.03814095293890977
+        }
+      ],
+      "sha256": "5f3a3ed2af9792d2352a8d8a2e1ef9e882e66ae65ac37a9fd446463400f0ec7e"
+    },
+    "110719867330869:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.022442132408518962,
+          "coverage": 0.06003401360544218,
+          "luma_alpha_mean": 0.02062703088121523
+        }
+      ],
+      "sha256": "5309e5a207eef86820dc21b4e7ddba4c08b0f3476889857829bf3dcf1d34005f"
+    },
+    "73245886600206:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.04102943399582055,
+          "coverage": 0.08151927437641723,
+          "luma_alpha_mean": 0.03066840888860991
+        }
+      ],
+      "sha256": "2de37dab6cb89cfd1d42ef8474eb85a3350f0917fdf427e3341ca52e54d82096"
+    },
+    "10976611540:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.021397447868036105,
+          "coverage": 0.022732426303854875,
+          "luma_alpha_mean": 0.014322461184909693
+        }
+      ],
+      "sha256": "8e766af2db3f8eff5d05d08968697bafbfec6aca52606fd84ad533d6bef3b124"
+    },
+    "91804820881066:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.015292072384509359,
+          "coverage": 0.06397392290249433,
+          "luma_alpha_mean": 0.015292072384509357
+        }
+      ],
+      "sha256": "dced57abc2931b9ed4df8f1c183a0745adf78954a123fe45aca896ce62652b5f"
+    },
+    "117158756559879:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.09943942021252945,
+          "coverage": 0.18181972789115647,
+          "luma_alpha_mean": 0.09894072031810545
+        }
+      ],
+      "sha256": "a5e8b28d6319b0ac2d98e93546a8112530125156ccbdf725ca87bbeaf3c875cf"
+    },
+    "113718672233773:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.12211597972522342,
+          "coverage": 0.12482993197278912,
+          "luma_alpha_mean": 0.06347853363567649
+        }
+      ],
+      "sha256": "c7e4cee2f0e678abf37ed1b8279ab4d305c532a4a9aea2928bc523efe0ae9bf3"
+    },
+    "13274617070:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.16446967675959273,
+          "coverage": 0.18408730158730158,
+          "luma_alpha_mean": 0.15853988561962476
+        }
+      ],
+      "sha256": "fbd5cf62cd7b7506b459ae01483dd97d95c3ad23fd07e8bbefad5fed175846f0"
+    },
+    "17388417211:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.054763283091014185,
+          "coverage": 0.0751984126984127,
+          "luma_alpha_mean": 0.04452523894089226
+        }
+      ],
+      "sha256": "863ae550723ce7f6efe3e5a67e1451363aea05c6aa0350ee4b9fa3a6b0497636"
+    },
+    "17388416918:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.03202521008403361,
+          "coverage": 0.04677437641723356,
+          "luma_alpha_mean": 0.022996352266396757
+        }
+      ],
+      "sha256": "ad45a85fc84d32907fe55d9bef4c862efb491b3d0d7cc0c4028c24aa4aa63552"
+    },
+    "12364066735:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.16646322973633898,
+          "coverage": 0.17001700680272108,
+          "luma_alpha_mean": 0.16586473536625104
+        }
+      ],
+      "sha256": "0c61ab1f8495caffa13d39726eea9297f1cbefa2e88021e563caae02d1af6653"
+    },
+    "81729442315187:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.10819825708061002,
+          "coverage": 0.11058390022675738,
+          "luma_alpha_mean": 0.10819825708061
+        }
+      ],
+      "sha256": "e54e9ed32566eb40187a5e348abe567e07f34b78f8ea96b1e61a28df576e96b0"
+    },
+    "8612207012:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.1657065048241519,
+          "coverage": 0.3794784580498866,
+          "luma_alpha_mean": 0.09426463587964162
+        }
+      ],
+      "sha256": "bc5791abfecd417506ab9479c92a60fcb2888183e3f047f71441f01b0207de50"
+    },
+    "117614171376502:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.03989466897870259,
+          "coverage": 0.04252267573696145,
+          "luma_alpha_mean": 0.012528737159351757
+        }
+      ],
+      "sha256": "52f2339254753ca075993ca8b6a569ac02e1e6f220c9770f57d3f76d9d06d29f"
     }
   }
 }

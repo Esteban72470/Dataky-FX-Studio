@@ -24,6 +24,42 @@ const attachment = (id, parent, properties = {}) => ({id, class: 'Attachment', n
 const emitter = (id, parent, properties = {}, timing) => ({id, class: 'ParticleEmitter', name: id, parent,
   properties: {Rate: 0, Speed: [4, 4], Lifetime: [1, 1], Size: sequence(1), Transparency: sequence(0), ...properties}, ...(timing ? {timing} : {})});
 
+test('fully transparent supports remain pickable, with nearest shape and actual sphere/cylinder boundaries', () => {
+  const camera = {position:[0,0,8],target:[0,0,0],fov:50};
+  const recipe = project([part('hidden',{Position:[0,0,0],Size:[4,4,4]})],{camera});
+  const before = JSON.stringify(recipe), sim = E.createSimulation(recipe);
+  assert.equal(E.buildFrame(sim,camera).parts.length,0);
+  assert.equal(E.pickPart(sim,camera,160,120,320,240),'hidden');
+  assert.equal(E.pickPart(sim,camera,1,1,320,240),null);
+  recipe.nodes.push(part('closer',{Position:[0,0,2],Size:[1,1,1],Transparency:0}));
+  assert.equal(E.pickPart(E.createSimulation(recipe),camera,160,120,320,240),'closer');
+  recipe.nodes.pop();
+  assert.equal(JSON.stringify(recipe),before);
+  recipe.nodes[0].properties.Shape='Ball';
+  const ball=E.createSimulation(recipe);
+  assert.equal(E.pickPart(ball,camera,160,120,320,240),'hidden');
+  assert.equal(E.pickPart(ball,camera,215,65,320,240),null,'empty corner of a sphere bounding box must not intercept a click');
+  recipe.nodes[0].properties.Shape='Cylinder';
+  assert.equal(E.pickPart(E.createSimulation(recipe),camera,160,120,320,240),'hidden');
+});
+
+test('selection outline follows animated host transform without making it visible in the effect', () => {
+  const recipe=project([part('host',{Position:[1,2,3],Orientation:[0,45,0],Size:[4,2,3]}),attachment('tip','host'),emitter('e','tip')]);
+  recipe.animations=[{node:'host',property:'Position',keyframes:[{time:0,value:[1,2,3]},{time:2,value:[5,4,3]}]}];
+  const before=JSON.stringify(recipe),sim=E.createSimulation(recipe);sim.seek(1);
+  const outlines=E.selectionOutlines(sim,['host','e','tip']);
+  assert.equal(outlines.length,1,'selected children share their supporting shape');
+  near(outlines[0].p,[3,3,3]);near(outlines[0].size,[4,2,3]);
+  assert.equal(E.buildFrame(sim,recipe.camera).parts.length,0);
+  assert.deepEqual(E.selectionOutlines(sim,[]),[]);
+  assert.equal(JSON.stringify(recipe),before,'selection never edits project properties');
+});
+
+test('local texture URIs are confined to authored PNG resources, never arbitrary files or URLs', () => {
+  assert.equal(E.localTexturePath('rbxasset://textures/dataky-local/enuma-elish/impact_ring.png'),'source/vfx/enuma-elish/textures/impact_ring.png');
+  for(const uri of ['rbxasset://textures/dataky-local/../secrets.png','rbxasset://textures/dataky-local/enuma-elish/../x.png','rbxasset://textures/dataky-local/enuma-elish/%2e%2e.png','https://evil.test/x.png','file:///secrets.png','rbxasset://textures/dataky-local/enuma-elish/a.png?x=1'])assert.equal(E.localTexturePath(uri),null);
+});
+
 test('orientation follows CFrame.fromOrientation (Y, then X, then Z)', () => {
   near(column(E.fromOrientation([0, 90, 0]), 0), [0, 0, -1], 1e-9, 'yaw 90 RightVector');
   near(column(E.fromOrientation([90, 0, 0]), 1), [0, 0, 1], 1e-9, 'pitch 90 UpVector');

@@ -1,0 +1,17 @@
+{
+  "author": "Codex, handwritten data and generators; no local inference",
+  "reference_offset_seconds": 2.8,
+  "duration": 29.4,
+  "nodes": 291,
+  "animations": 242,
+  "texture_uri_prefix": "rbxasset://textures/dataky-local/enuma-elish/",
+  "publishing_status": "Local Studio textures; upload originals to publish to other players",
+  "layers": [
+    "held charge",
+    "ritual seal",
+    "counterrotating textured rings",
+    "six rising helical ribbons",
+    "sparks and four-point glints",
+    "red-white discharge"
+  ]
+}

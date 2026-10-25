@@ -246,6 +246,7 @@ local function validate(data)
         end
     end
     for _, track in ipairs(data.animations or {}) do
+        if track.runtime ~= nil and type(track.runtime) ~= "boolean" then fail("animation.runtime doit être un booléen") end
         local node = byId[track.node]
         if not node then fail("animation : node introuvable " .. tostring(track.node)) end
         local kind = schema[node.class][track.property]
@@ -259,7 +260,7 @@ local function validate(data)
             last = t
             table.insert(points, {time=t, value=decode(kind, key.value, node.id .. ".animation." .. track.property)})
         end
-        table.insert(decodedTracks, {node=node.id, property=track.property, kind=kind, keyframes=points})
+        table.insert(decodedTracks, {node=node.id, property=track.property, kind=kind, keyframes=points, runtime=track.runtime})
     end
     return normalized, decodedTracks, duration
 end
@@ -324,8 +325,8 @@ local function compiled(data)
     end
     for _, track in ipairs(tracks) do
         local spec = entry.specs[track.node]
-        -- Gameplay owns carrier movement and visibility; these are preview tracks.
-        if not (isBaseClass(spec.class) and (track.property == "Position" or track.property == "Transparency")) then
+        -- Gameplay owns legacy carrier tracks. Authored effect motion opts in explicitly.
+        if track.runtime == true or not (isBaseClass(spec.class) and (track.property == "Position" or track.property == "Transparency")) then
             table.insert(entry.tracks, track)
         end
     end
@@ -568,9 +569,11 @@ local function update(handle, dt)
         if track.property == "Enabled" then animatedEnabled[track.node] = value
         elseif not handle.released then
             value = scaleValue(value, handle.factor(track.node, track.property))
-            if track.property == "Orientation" and isBaseClass(handle.specs[track.node].class) then
+            if (track.property == "Position" or track.property == "Orientation") and isBaseClass(handle.specs[track.node].class) then
                 local item = handle.partById[track.node]
-                item.offset = CFrame.new(item.position) * CFrame.fromOrientation(math.rad(value.X), math.rad(value.Y), math.rad(value.Z))
+                if track.property == "Position" then item.position = value
+                else item.rotation = CFrame.fromOrientation(math.rad(value.X), math.rad(value.Y), math.rad(value.Z)) end
+                item.offset = CFrame.new(item.position) * item.rotation
                 object.CFrame = handle.cf * item.offset
             elseif track.property == "Acceleration" and handle.specs[track.node].class == "ParticleEmitter" then
                 handle.accelerationById[track.node].value = value
@@ -663,7 +666,7 @@ function FX.play(data, cf, opts)
                 local factor = handle.factor(node.id, "Position")
                 local position = factor == 1 and node.position or node.position * factor
                 local offset = factor == 1 and node.offset or CFrame.new(position) * node.rotation
-                local item = {object=object, position=position, offset=offset}
+                local item = {object=object, position=position, rotation=node.rotation, offset=offset}
                 table.insert(handle.parts, item)
                 handle.partById[node.id] = item
             elseif node.class == "ParticleEmitter" then

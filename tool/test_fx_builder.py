@@ -140,6 +140,17 @@ class BuilderTests(unittest.TestCase):
         with self.assertRaises(ValidationError):
             full.merge(piece, "a_")
 
+    def test_merge_preserves_explicit_runtime_flags(self):
+        piece = self.make_piece().to_dict()
+        piece["animations"][0]["runtime"] = False
+        piece["animations"][-1]["runtime"] = True
+        original = deepcopy(piece)
+        merged = B.merge_recipes(B.Recipe("Full", 1), piece, "run_", at=.2,
+                                 position_keys=[(0, [0, 0, 0]), (1, [0, 0, -5])])
+        self.assertIs(merged["animations"][0]["runtime"], False)
+        self.assertIs(merged["animations"][-1]["runtime"], True)
+        self.assertEqual(piece, original)
+
     def test_optional_translation_path_combines_with_existing_part_motion(self):
         piece = self.make_piece()
         merged = B.merge_recipes(B.Recipe("Full", 1), piece, "fly_", at=.25, position=[10, 0, 0],

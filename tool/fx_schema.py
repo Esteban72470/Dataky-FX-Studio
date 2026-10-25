@@ -156,7 +156,8 @@ SCHEMA = {
     "limits": {"nodes": 400, "animations": 2000, "duration": 600, "keyframes": 1000},
     "sequenceFormat": {"NumberSequence": "[{time,value,envelope},...] (also accepts [time,value,envelope])", "ColorSequence": "[{time,value:[r,g,b]},...] (also accepts [time,[r,g,b]])"},
     "defaultsPolicy": "Property defaults are editor presets; omitted properties keep Roblox native defaults. Explicit values are never silently dropped.",
-    "editorPolicy": "Optional editor.version=1 and editor.curves preserve authoring handles only. Roblox uses the baked properties/keyframes; metadata is never executed. Max depth 8, 20 KB per curve, 50 KB total.",
+    "editorPolicy": "Optional editor.version=1 and editor.curves preserve authoring handles (50 KB). editor.meshes maps MeshPart node IDs to bounded indexed OBJ preview geometry (32 meshes, 20k triangles each, 100k total, 16 MiB). Preview geometry is separate from Roblox MeshId; native export requires an explicit Roblox asset mapping. Metadata is never executed.",
+    "animationPolicy": "Optional animation.runtime=true plays Part/MeshPart Position and Transparency tracks in DatakyFXKit. Omitted or false keeps their legacy preview-only behavior. Position values remain recipe-local and compose with scale, Move and follow CFrames.",
 }
 
 ID_PATTERN = re.compile(r"[A-Za-z0-9][A-Za-z0-9_.-]{0,79}\Z")
@@ -375,7 +376,7 @@ def validate_project(project):
     tracks = set()
     for i, animation in enumerate(animations):
         path = f"animations[{i}]"
-        keys(animation, {"node", "property", "keyframes"}, path)
+        keys(animation, {"node", "property", "keyframes", "runtime"}, path)
         node_id, prop = animation.get("node"), animation.get("property")
         if node_id not in by_id:
             fail(path + ".node", "objet introuvable")
@@ -396,7 +397,10 @@ def validate_project(project):
                 fail(path, "temps des images clés strictement croissants requis")
             previous = time
             cleaned_frames.append({"time": time, "value": validate_value(frame.get("value"), spec, path + ".value")})
-        out["animations"].append({"node": node_id, "property": prop, "keyframes": cleaned_frames})
+        cleaned_animation = {"node": node_id, "property": prop, "keyframes": cleaned_frames}
+        if "runtime" in animation:
+            cleaned_animation["runtime"] = validate_value(animation["runtime"], {"type": "boolean"}, path + ".runtime")
+        out["animations"].append(cleaned_animation)
     camera = project.get("camera", {"position": [10, 6, 12], "target": [0, 1, 0]})
     keys(camera, {"position", "target", "fov"}, "camera")
     out["camera"] = {key: validate_value(camera.get(key, default), {"type": "Vector3"}, "camera." + key)
@@ -415,7 +419,7 @@ def validate_project(project):
         out["environment"] = {"background": background}
     if "editor" in project:
         editor = project["editor"]
-        keys(editor, {"version", "curves"}, "editor")
+        keys(editor, {"version", "curves", "meshes"}, "editor")
         if editor.get("version") != 1 or isinstance(editor.get("version"), bool):
             fail("editor.version", "version 1 requise")
         curves = editor.get("curves", {})
@@ -463,5 +467,28 @@ def validate_project(project):
         cleaned_editor = {"version": 1, "curves": deepcopy(curves)}
         if len(json.dumps(cleaned_editor, ensure_ascii=False, allow_nan=False).encode("utf-8")) > 50000:
             fail("editor", "métadonnées limitées à 50 Ko")
+        if "meshes" in editor:
+            if __package__:
+                from .fx_mesh import validate_mesh, MeshError, MAX_MESHES, MAX_TOTAL_TRIANGLES, MAX_TOTAL_JSON_BYTES
+            else:
+                from fx_mesh import validate_mesh, MeshError, MAX_MESHES, MAX_TOTAL_TRIANGLES, MAX_TOTAL_JSON_BYTES
+            meshes = editor["meshes"]
+            if not isinstance(meshes, dict) or len(meshes) > MAX_MESHES:
+                fail("editor.meshes", "objet de 32 maillages maximum requis")
+            triangles = 0
+            for mesh_node, mesh in meshes.items():
+                identifier(mesh_node, "editor.meshes.node")
+                if mesh_node not in by_id or by_id[mesh_node]["class"] != "MeshPart":
+                    fail("editor.meshes." + mesh_node, "référence MeshPart du projet requise")
+                try:
+                    validate_mesh(mesh)
+                except MeshError as error:
+                    fail("editor.meshes." + mesh_node, str(error))
+                triangles += len(mesh["indices"]) // 3
+                if triangles > MAX_TOTAL_TRIANGLES:
+                    fail("editor.meshes", "100000 triangles au total maximum")
+            if len(json.dumps(meshes, allow_nan=False, separators=(",", ":")).encode("utf-8")) > MAX_TOTAL_JSON_BYTES:
+                fail("editor.meshes", "géométrie totale limitée à 16 Mio")
+            cleaned_editor["meshes"] = deepcopy(meshes)
         out["editor"] = cleaned_editor
     return out

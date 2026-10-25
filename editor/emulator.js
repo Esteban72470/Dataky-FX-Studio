@@ -137,10 +137,40 @@
     return sequence[sequence.length - 1].value;
   }
 
+  // Indexed OBJ preview data is deliberately separate from Roblox asset IDs.
+  // Validate at project load, rather than trusting JSON or reallocating per frame.
+  function validatePreviewMesh(mesh) {
+    if (!mesh || mesh.version !== 1) throw new Error('Version de maillage local invalide.');
+    const {positions, normals, uvs, indices} = mesh;
+    if (!Array.isArray(positions) || positions.length < 9 || positions.length > 180000 || positions.length % 3 ||
+        !positions.every(v => Number.isFinite(v) && Math.abs(v) <= .500001)) throw new Error('Positions de maillage local invalides.');
+    const count = positions.length / 3;
+    if (!Array.isArray(normals) || normals.length !== positions.length || !normals.every(v => Number.isFinite(v) && Math.abs(v) <= 1.000001) ||
+        !Array.isArray(uvs) || uvs.length !== count * 2 || !uvs.every(v => Number.isFinite(v) && Math.abs(v) <= 10000)) throw new Error('Normales ou UV de maillage local invalides.');
+    if (!Array.isArray(indices) || !indices.length || indices.length % 3 || indices.length > 60000 ||
+        !indices.every(v => Number.isInteger(v) && v >= 0 && v < count)) throw new Error('Indices de maillage local invalides.');
+    return mesh;
+  }
+
   function createSimulation(input, options = {}) {
     const project = JSON.parse(JSON.stringify(input || {}));
     const nodes = Array.isArray(project.nodes) ? project.nodes : [];
     const byId = new Map(nodes.map(node => [node.id, node]));
+    const localMeshes = new Map();
+    function refreshMeshes() {
+      localMeshes.clear();
+      const meshes = project.editor?.meshes || {};
+      if (Object.keys(meshes).length > 32) throw new Error('32 maillages locaux maximum.');
+      let total = 0;
+      for (const [id, mesh] of Object.entries(meshes)) {
+        if (byId.get(id)?.class !== 'MeshPart') throw new Error('Géométrie locale sans MeshPart : ' + id);
+        validatePreviewMesh(mesh);
+        total += mesh.indices.length / 3;
+        if (total > 100000) throw new Error('100000 triangles locaux maximum.');
+        localMeshes.set(id, mesh);
+      }
+    }
+    refreshMeshes();
     let duration = Math.max(0.01, num(project.duration, 3));
     let durationTicks = Math.max(1, Math.round(duration / STEP));
     let loop = !!project.loop;
@@ -430,6 +460,7 @@
       project.nodes = nodes;
       byId.clear();
       for (const node of nodes) byId.set(node.id, node);
+      refreshMeshes();
       tracks.clear();
       for (const animation of project.animations || []) {
         if (byId.has(animation?.node) && Array.isArray(animation.keyframes) && animation.keyframes.length) tracks.set(animation.node + '\u0000' + animation.property, animation.keyframes);
@@ -453,7 +484,7 @@
 
     reset();
     const api = {
-      project, step: STEP, nodes, byId, emitters, trails,
+      project, step: STEP, nodes, byId, emitters, trails, localMeshes,
       prop, frameOf, isEnabled: id => !!enabled.get(id), reset, seek, advance, stepOnce: step,
       emit: manualEmit, setEnabled, clearParticles: clearVisuals, updateProject,
       resetPreviewState() { previewEnabled.clear(); reset(); clearVisuals(); },
@@ -557,7 +588,7 @@
         if (grid) {
           let position;
           if (flipMode === 'OneShot') position = t * frameCount;
-          else if (flipMode === 'PingPong') { const cycle = Math.max(1, 2 * frameCount - 2); const raw = (particle.flipStart * cycle + particle.age * particle.flipRate) % cycle; position = raw < frameCount ? raw : cycle - raw; }
+          else if (flipMode === 'PingPong') { const cycle = Math.max(1, 2 * frameCount - 2); const raw = (particle.flipStart * cycle + particle.age * particle.flipRate) % cycle; position = raw <= frameCount - 1 ? raw : cycle - raw; }
           else if (flipMode === 'Random') { const tick = Math.floor(particle.age * particle.flipRate); position = (hash(particle.flipSeed + ':' + tick) % frameCount) + ((particle.age * particle.flipRate) % 1); }
           else position = (particle.flipStart * frameCount + particle.age * particle.flipRate) % frameCount;
           const index = clamp(Math.floor(position), 0, frameCount - 1);
@@ -671,16 +702,18 @@
         const frame = sim.frameOf(node);
         const transparency = clamp(num(sim.prop(node, 'Transparency')), 0, 1);
         const mesh = sim.nodes.find(n => n.parent === node.id && n.class === 'SpecialMesh');
-        if (node.class === 'MeshPart' || (mesh && !['Sphere', 'Cylinder', 'Brick'].includes(sim.prop(mesh, 'MeshType')))) {
+        const imported = node.class === 'MeshPart' ? sim.localMeshes.get(node.id) : null;
+        if ((node.class === 'MeshPart' && !imported) || (mesh && !['Sphere', 'Cylinder', 'Brick'].includes(sim.prop(mesh, 'MeshType')))) {
           if (transparency < 1) placeholders.push({node: node.id, frame, size: mesh ? vec(sim.prop(mesh, 'Scale'), [1, 1, 1]).map((v, i) => v * frame.size[i]) : frame.size});
           continue;
         }
         if (transparency >= 1) continue;
-        const shape = mesh ? {Sphere: 'MeshSphere', Cylinder: 'MeshCylinder', Brick: 'Block'}[sim.prop(mesh, 'MeshType')] : sim.prop(node, 'Shape');
+        const shape = imported ? 'ImportedMesh' : mesh ? {Sphere: 'MeshSphere', Cylinder: 'MeshCylinder', Brick: 'Block'}[sim.prop(mesh, 'MeshType')] : sim.prop(node, 'Shape');
         const size = mesh ? vec(sim.prop(mesh, 'Scale'), [1, 1, 1]).map((v, i) => v * frame.size[i]) : frame.size;
         const position = mesh ? add(frame.p, apply(frame.m, vec(sim.prop(mesh, 'Offset')))) : frame.p;
         parts.push({node: node.id, shape: shape || 'Block', p: position, m: frame.m, size, color: vec(sim.prop(node, 'Color'), PART.Color),
-          alpha: 1 - transparency, neon: sim.prop(node, 'Material') === 'Neon', depth: depthOf(position)});
+          alpha: 1 - transparency, neon: sim.prop(node, 'Material') === 'Neon', depth: depthOf(position),
+          ...(imported ? {geometry: imported, texture: sim.prop(node, 'TextureID') || '', doubleSided: sim.prop(node, 'DoubleSided') === true} : {})});
       } else if (/Light$/.test(node.class) && sim.isEnabled(node.id)) {
         const frame = sim.frameOf(node);
         const face = NORMALS[sim.prop(node, 'Face')] || NORMALS.Front;
@@ -898,18 +931,20 @@ void main(){vUv=aUv;vUv2=aUv2;vColor=aColor;vMisc=aMisc;gl_Position=uViewProj*ve
 precision mediump float; uniform sampler2D uTex; in vec2 vUv; in vec2 vUv2; in vec4 vColor; in vec2 vMisc; out vec4 outColor;
 void main(){vec4 t=texture(uTex,vUv);if(vMisc.x>0.0)t=mix(t,texture(uTex,vUv2),vMisc.x);float a=t.a*vColor.a;outColor=vec4(t.rgb*vColor.rgb*a,a*(1.0-vMisc.y));}`;
   const SOLID_VERTEX = `#version 300 es
-layout(location=0) in vec3 aPos; layout(location=1) in vec3 aNormal;
-uniform mat4 uViewProj; uniform mat4 uModel; uniform mat3 uNormal; out vec3 vWorld; out vec3 vNormal;
-void main(){vec4 w=uModel*vec4(aPos,1.0);vWorld=w.xyz;vNormal=normalize(uNormal*aNormal);gl_Position=uViewProj*w;}`;
+layout(location=0) in vec3 aPos; layout(location=1) in vec3 aNormal; layout(location=2) in vec2 aUv;
+uniform mat4 uViewProj; uniform mat4 uModel; uniform mat3 uNormal; out vec3 vWorld; out vec3 vNormal; out vec2 vUv;
+void main(){vec4 w=uModel*vec4(aPos,1.0);vWorld=w.xyz;vNormal=normalize(uNormal*aNormal);vUv=aUv;gl_Position=uViewProj*w;}`;
   const SOLID_FRAGMENT = `#version 300 es
-precision highp float; in vec3 vWorld; in vec3 vNormal; out vec4 outColor;
-uniform vec3 uColor; uniform float uAlpha; uniform int uMode; uniform vec3 uGround;
+precision highp float; in vec3 vWorld; in vec3 vNormal; in vec2 vUv; out vec4 outColor;
+uniform vec3 uColor; uniform float uAlpha; uniform int uMode; uniform vec3 uGround; uniform sampler2D uTexture; uniform bool uTextured; uniform int uAlphaPass;
 uniform int uLightCount; uniform vec3 uLightPos[8]; uniform vec3 uLightColor[8]; uniform float uLightRange[8]; uniform vec4 uLightCone[8];
 vec3 lightAt(vec3 p,vec3 n){vec3 sum=vec3(0.0);for(int i=0;i<8;i++){if(i>=uLightCount)break;vec3 d=uLightPos[i]-p;float dist=length(d);if(dist>uLightRange[i]||uLightRange[i]<=0.0)continue;vec3 l=d/max(dist,1e-4);float fall=1.0-dist/uLightRange[i];float cone=1.0;if(uLightCone[i].w>0.0){float c=dot(-l,uLightCone[i].xyz);cone=smoothstep(cos(radians(uLightCone[i].w*0.5)),cos(radians(uLightCone[i].w*0.5))+0.05,c);}sum+=uLightColor[i]*fall*fall*max(dot(n,l),0.0)*cone;}return sum;}
-void main(){vec3 n=normalize(vNormal);
-if(uMode==1){outColor=vec4(uColor*uAlpha,uAlpha);return;}
+void main(){vec3 n=normalize(gl_FrontFacing?vNormal:-vNormal);vec4 tex=uTextured?texture(uTexture,vUv):vec4(1.0);float alpha=uAlpha*tex.a;vec3 color=uColor*tex.rgb;
+if(uMode!=2&&alpha<0.003)discard;
+if(uMode!=2&&((uAlphaPass==1&&alpha<0.999)||(uAlphaPass==2&&alpha>=0.999)))discard;
+if(uMode==1){outColor=vec4(color*alpha,alpha);return;}
 if(uMode==2){vec2 g=abs(fract(vWorld.xz-0.5)-0.5)/fwidth(vWorld.xz);float line=1.0-min(min(g.x,g.y),1.0);vec2 m=abs(fract(vWorld.xz/10.0-0.5)-0.5)/fwidth(vWorld.xz/10.0);float major=1.0-min(min(m.x,m.y),1.0);float fade=clamp(1.0-length(vWorld.xz)/90.0,0.0,1.0);vec3 base=uGround+uGround*lightAt(vWorld,vec3(0.0,1.0,0.0))*3.0+lightAt(vWorld,vec3(0.0,1.0,0.0))*0.25;outColor=vec4(base+vec3(0.09,0.08,0.11)*(line*0.35+major*0.5)*fade,1.0);return;}
-vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=uColor*(0.42+0.58*diffuse)+uColor*lightAt(vWorld,n);outColor=vec4(c*uAlpha,uAlpha);}`;
+vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=color*(0.42+0.58*diffuse)+color*lightAt(vWorld,n);outColor=vec4(c*alpha,alpha);}`;
   const SKIES = {sombre: [0.098, 0.082, 0.133], gris: [0.42, 0.42, 0.45], ciel: [0.53, 0.71, 0.92], noir: [0, 0, 0], roblox: [0.64, 0.81, 0.94], dark: [0.035, 0.045, 0.08]};
   // An explicit preview preset wins; otherwise use each recipe's own background.
   function environmentColors(project, background) {
@@ -938,14 +973,102 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
   }
   const normalMatrix = (m, s) => [m[0] / s[0], m[3] / s[0], m[6] / s[0], m[1] / s[1], m[4] / s[1], m[7] / s[1], m[2] / s[2], m[5] / s[2], m[8] / s[2]];
 
+  // Editor helpers use the native transform even when the visual is fully transparent.
+  // They never change the recipe, the simulated opacity or the exported effect.
+  function partOutline(sim, node) {
+    const frame = sim.frameOf(node), mesh = sim.nodes.find(n => n.parent === node.id && n.class === 'SpecialMesh');
+    const geometry = node.class === 'MeshPart' ? sim.localMeshes.get(node.id) : null;
+    const type = mesh && sim.prop(mesh, 'MeshType');
+    const p = mesh ? add(frame.p, apply(frame.m, vec(sim.prop(mesh, 'Offset')))) : frame.p;
+    let size = mesh ? vec(sim.prop(mesh, 'Scale'), [1, 1, 1]).map((v, i) => v * frame.size[i]) : frame.size;
+    let m = frame.m, shape = geometry ? 'ImportedMesh' : mesh ? ({Sphere: 'MeshSphere', Cylinder: 'MeshCylinder', Wedge: 'Wedge', CornerWedge: 'CornerWedge'}[type] || 'Block') : sim.prop(node, 'Shape') || 'Block';
+    if (shape === 'Ball') { const d = Math.min(...size); size = [d, d, d]; }
+    if (shape === 'MeshCylinder') { m = matMul(m, rotation(2, 90)); size = [size[1], size[0], size[2]]; }
+    return {node: node.id, shape, p, m, size, ...(geometry ? {geometry, texture: '', doubleSided: true} : {})};
+  }
+
+  function selectionOutlines(sim, ids) {
+    const parts = new Map();
+    for (const id of typeof ids === 'string' ? [ids] : ids || []) {
+      let node = sim.byId.get(id), visited = new Set();
+      // A selected emitter, Attachment or SpecialMesh exposes its supporting Part.
+      while (node && !['Part', 'MeshPart', 'Folder', 'Model'].includes(node.class) && !visited.has(node.id)) {
+        visited.add(node.id); node = sim.byId.get(node.parent);
+      }
+      if (node && ['Part', 'MeshPart'].includes(node.class)) parts.set(node.id, partOutline(sim, node));
+    }
+    return [...parts.values()];
+  }
+
+  function pickPart(sim, cameraInput, x, y, width, height) {
+    if (!sim || width <= 0 || height <= 0 || x < 0 || y < 0 || x > width || y > height) return null;
+    const camera = cameraBasis(cameraInput), tan = Math.tan(camera.fov * Math.PI / 360);
+    const direction = normalize(add(camera.forward, add(scale(camera.right, (2 * x / width - 1) * tan * width / height), scale(camera.up, (1 - 2 * y / height) * tan))));
+    const local = (v, m) => [dot(v, [m[0], m[3], m[6]]), dot(v, [m[1], m[4], m[7]]), dot(v, [m[2], m[5], m[8]])];
+    const boxHit = (o, d) => {
+      let enter = -Infinity, exit = Infinity;
+      for (let i = 0; i < 3; i++) {
+        if (Math.abs(d[i]) < 1e-12) { if (Math.abs(o[i]) > .5) return Infinity; continue; }
+        const a = (-.5 - o[i]) / d[i], b = (.5 - o[i]) / d[i];
+        enter = Math.max(enter, Math.min(a, b)); exit = Math.min(exit, Math.max(a, b));
+      }
+      return exit >= Math.max(0, enter) ? (enter > .0001 ? enter : exit) : Infinity;
+    };
+    const roots = (a, b, c) => { const disc = b * b - 4 * a * c; return a > 1e-16 && disc >= 0 ? [(-b - Math.sqrt(disc)) / (2 * a), (-b + Math.sqrt(disc)) / (2 * a)] : []; };
+    const triangleHit = (o, d, a, b, c) => {
+      const e1 = sub(b, a), e2 = sub(c, a), h = cross(d, e2), determinant = dot(e1, h);
+      if (Math.abs(determinant) < 1e-12) return Infinity;
+      const inv = 1 / determinant, s = sub(o, a), u = inv * dot(s, h);
+      if (u < 0 || u > 1) return Infinity;
+      const q = cross(s, e1), v = inv * dot(d, q);
+      if (v < 0 || u + v > 1) return Infinity;
+      const t = inv * dot(e2, q); return t > .0001 ? t : Infinity;
+    };
+    let nearest = Infinity, picked = null;
+    for (const node of sim.nodes) {
+      if (!['Part', 'MeshPart'].includes(node.class)) continue;
+      const part = partOutline(sim, node), safe = part.size.map(v => Math.max(1e-4, Math.abs(v)));
+      const o = local(sub(camera.position, part.p), part.m).map((v, i) => v / safe[i]);
+      const d = local(direction, part.m).map((v, i) => v / safe[i]);
+      let t = boxHit(o, d);
+      if (!Number.isFinite(t)) continue;
+      if (part.shape === 'Ball' || part.shape === 'MeshSphere') {
+        t = Math.min(...roots(dot(d, d), 2 * dot(o, d), dot(o, o) - .25).filter(value => value > .0001));
+      } else if (part.shape === 'Cylinder' || part.shape === 'MeshCylinder') {
+        const candidates = roots(d[1] ** 2 + d[2] ** 2, 2 * (o[1] * d[1] + o[2] * d[2]), o[1] ** 2 + o[2] ** 2 - .25).filter(value => value > .0001 && Math.abs(o[0] + value * d[0]) <= .500001);
+        if (Math.abs(d[0]) > 1e-12) for (const cap of [-.5, .5]) { const value = (cap - o[0]) / d[0]; if (value > .0001 && (o[1] + value * d[1]) ** 2 + (o[2] + value * d[2]) ** 2 <= .250001) candidates.push(value); }
+        t = Math.min(...candidates);
+      } else if (part.geometry) {
+        t = Infinity;
+        const mesh = part.geometry, vertex = index => mesh.positions.slice(index * 3, index * 3 + 3);
+        for (let i = 0; i < mesh.indices.length; i += 3) t = Math.min(t, triangleHit(o, d, vertex(mesh.indices[i]), vertex(mesh.indices[i + 1]), vertex(mesh.indices[i + 2])));
+      }
+      if (t < nearest) { nearest = t; picked = node.id; }
+    }
+    return picked;
+  }
+
   function meshes() {
-    const box = [], wire = [], sphere = [], cylinder = [];
+    const box = [], wire = [], sphere = [], cylinder = [], wireSphere = [], wireCylinder = [], wireWedge = [], wireCornerWedge = [];
     const faces = [[[1, 0, 0], [0, 1, 0], [0, 0, 1]], [[-1, 0, 0], [0, 1, 0], [0, 0, -1]], [[0, 1, 0], [0, 0, 1], [1, 0, 0]], [[0, -1, 0], [0, 0, -1], [1, 0, 0]], [[0, 0, 1], [1, 0, 0], [0, 1, 0]], [[0, 0, -1], [-1, 0, 0], [0, 1, 0]]];
     for (const [n, u, v] of faces) {
       const corner = (a, b) => add(scale(n, 0.5), add(scale(u, a * 0.5), scale(v, b * 0.5)));
       for (const [a, b] of [[-1, -1], [1, -1], [1, 1], [-1, -1], [1, 1], [-1, 1]]) box.push(...corner(a, b), ...n);
     }
     for (const a of [-0.5, 0.5]) for (const b of [-0.5, 0.5]) wire.push(-0.5, a, b, 0, 1, 0, 0.5, a, b, 0, 1, 0, a, -0.5, b, 0, 1, 0, a, 0.5, b, 0, 1, 0, a, b, -0.5, 0, 1, 0, a, b, 0.5, 0, 1, 0);
+    const line = (target, a, b) => target.push(...a, 0, 1, 0, ...b, 0, 1, 0);
+    for (let i = 0; i < 64; i++) {
+      const a = i / 64 * Math.PI * 2, b = (i + 1) / 64 * Math.PI * 2;
+      for (let axis = 0; axis < 3; axis++) {
+        const p = [0, 0, 0], q = [0, 0, 0]; p[(axis + 1) % 3] = .5 * Math.cos(a); p[(axis + 2) % 3] = .5 * Math.sin(a); q[(axis + 1) % 3] = .5 * Math.cos(b); q[(axis + 2) % 3] = .5 * Math.sin(b); line(wireSphere, p, q);
+      }
+      for (const x of [-.5, .5]) line(wireCylinder, [x, .5 * Math.cos(a), .5 * Math.sin(a)], [x, .5 * Math.cos(b), .5 * Math.sin(b)]);
+    }
+    for (let i = 0; i < 4; i++) { const a = i / 4 * Math.PI * 2; line(wireCylinder, [-.5, .5 * Math.cos(a), .5 * Math.sin(a)], [.5, .5 * Math.cos(a), .5 * Math.sin(a)]); }
+    const wedge = [[-.5,-.5,-.5],[.5,-.5,-.5],[-.5,-.5,.5],[.5,-.5,.5],[-.5,.5,.5],[.5,.5,.5]];
+    for (const [a,b] of [[0,1],[0,2],[2,4],[4,0],[1,3],[3,5],[5,1],[2,3],[4,5]]) line(wireWedge,wedge[a],wedge[b]);
+    const corner = [[-.5,-.5,-.5],[.5,-.5,-.5],[.5,-.5,.5],[-.5,-.5,.5],[.5,.5,.5]];
+    for (const [a,b] of [[0,1],[1,2],[2,3],[3,0],[0,4],[1,4],[2,4],[3,4]]) line(wireCornerWedge,corner[a],corner[b]);
     const rows = 14, cols = 24;
     const sp = (i, j) => { const th = i / rows * Math.PI, ph = j / cols * Math.PI * 2; const n = [Math.sin(th) * Math.cos(ph), Math.cos(th), Math.sin(th) * Math.sin(ph)]; return [...scale(n, 0.5), ...n]; };
     for (let i = 0; i < rows; i++) for (let j = 0; j < cols; j++) sphere.push(...sp(i, j), ...sp(i + 1, j), ...sp(i + 1, j + 1), ...sp(i, j), ...sp(i + 1, j + 1), ...sp(i, j + 1));
@@ -959,13 +1082,14 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     }
     const ground = [];
     for (const [x, z] of [[-1, -1], [1, 1], [1, -1], [-1, -1], [-1, 1], [1, 1]]) ground.push(x * 120, 0, z * 120, 0, 1, 0);
-    return {box, wire, sphere, cylinder, ground};
+    return {box, wire, sphere, cylinder, ground, wireSphere, wireCylinder, wireWedge, wireCornerWedge};
   }
 
   function proceduralTexture(kind) {
     const canvas = typeof OffscreenCanvas !== 'undefined' ? new OffscreenCanvas(128, 128) : document.createElement('canvas');
     canvas.width = canvas.height = 128;
     const ctx = canvas.getContext('2d');
+    if (kind === 'transparent') return canvas;
     const glow = (r, a) => { const g = ctx.createRadialGradient(64, 64, 0, 64, 64, r); g.addColorStop(0, `rgba(255,255,255,${a})`); g.addColorStop(1, 'rgba(255,255,255,0)'); ctx.fillStyle = g; ctx.fillRect(0, 0, 128, 128); };
     if (kind === 'white') { ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, 128, 128); }
     else if (kind === 'sparkle') {
@@ -979,8 +1103,13 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     } else glow(62, 1);
     return canvas;
   }
+  function localTexturePath(uri) {
+    const match = typeof uri === 'string' && uri.match(/^rbxasset:\/\/textures\/dataky-local\/([a-z0-9_-]+)\/([a-z0-9_-]+\.png)$/);
+    return match ? `source/vfx/${match[1]}/textures/${match[2]}` : null;
+  }
   function builtinKind(uri) {
     if (!uri) return 'white';
+    if (localTexturePath(uri)) return null;
     const s = String(uri).toLowerCase();
     if (!s.startsWith('rbxasset://')) return null;
     return s.includes('sparkle') ? 'sparkle' : s.includes('smoke') ? 'smoke' : 'soft';
@@ -1019,9 +1148,37 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       gl.bindVertexArray(vao); gl.bindBuffer(gl.ARRAY_BUFFER, buffer); gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(values), gl.STATIC_DRAW);
       gl.enableVertexAttribArray(0); gl.vertexAttribPointer(0, 3, gl.FLOAT, false, 24, 0);
       gl.enableVertexAttribArray(1); gl.vertexAttribPointer(1, 3, gl.FLOAT, false, 24, 12);
-      geometry[name] = {vao, count: values.length / 6};
+      geometry[name] = {vao, buffer, count: values.length / 6};
     }
     gl.bindVertexArray(null);
+
+    const importedGeometry = new Map();
+    function meshGeometry(id, mesh, wireframe = false) {
+      const key = wireframe ? 'selection:' + id : id;
+      const prior = importedGeometry.get(key);
+      if (prior?.source === mesh) return prior.geometry;
+      if (prior) { gl.deleteVertexArray(prior.geometry.vao); gl.deleteBuffer(prior.geometry.buffer); }
+      let indices = mesh.indices;
+      if (wireframe) {
+        indices = []; const edges = new Set();
+        for (let i = 0; i < mesh.indices.length; i += 3) for (const [a, b] of [[mesh.indices[i], mesh.indices[i + 1]], [mesh.indices[i + 1], mesh.indices[i + 2]], [mesh.indices[i + 2], mesh.indices[i]]]) {
+          const edge = Math.min(a, b) + ':' + Math.max(a, b); if (edges.has(edge)) continue; edges.add(edge); indices.push(a, b);
+        }
+      }
+      const data = new Float32Array(indices.length * 8);
+      let cursor = 0;
+      for (const index of indices) {
+        data.set(mesh.positions.slice(index * 3, index * 3 + 3), cursor);
+        data.set(mesh.normals.slice(index * 3, index * 3 + 3), cursor + 3);
+        data.set(mesh.uvs.slice(index * 2, index * 2 + 2), cursor + 6); cursor += 8;
+      }
+      const vao = gl.createVertexArray(), buffer = gl.createBuffer();
+      gl.bindVertexArray(vao); gl.bindBuffer(gl.ARRAY_BUFFER, buffer); gl.bufferData(gl.ARRAY_BUFFER, data, gl.STATIC_DRAW);
+      for (const [location, size, offset] of [[0, 3, 0], [1, 3, 12], [2, 2, 24]]) { gl.enableVertexAttribArray(location); gl.vertexAttribPointer(location, size, gl.FLOAT, false, 32, offset); }
+      const result = {vao, buffer, count: indices.length};
+      importedGeometry.set(key, {node: id, source: mesh, geometry: result});
+      return result;
+    }
 
     const textures = new Map();
     function upload(source) {
@@ -1046,9 +1203,9 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       if (!entry) {
         entry = {state: 'loading', texture: null, promise: null};
         textures.set(key, entry);
-        const id = assetId(uri);
+        const id = assetId(uri), localPath = localTexturePath(uri);
         // resolveTexture(id) peut donner l’adresse exacte connue du catalogue ; sinon les trois collections sont essayées.
-        const candidates = !id ? [] : options.resolveTexture?.(id) || ['images', 'beams/images', 'meshes/images'].map(folder => `${base}/library/${folder}/${id}.png`);
+        const candidates = localPath ? [`${base}/library/${localPath}`] : !id ? [] : options.resolveTexture?.(id) || ['images', 'beams/images', 'meshes/images'].map(folder => `${base}/library/${folder}/${id}.png`);
         entry.promise = (async () => {
           for (const url of candidates) {
             try {
@@ -1061,16 +1218,16 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
             } catch (_) {}
           }
           entry.state = 'failed';
-          warnings.add(`Texture ${uri} absente de la bibliothèque locale : aperçu remplacé par un halo doux.`);
+          warnings.add(localPath ? `Texture locale ${uri} introuvable : elle n’est pas affichée.` : `Texture ${uri} absente de la bibliothèque locale : aperçu remplacé par un halo doux.`);
           options.onTexture?.(uri);
         })();
       }
-      return entry.texture || builtin('soft');
+      return entry.texture || builtin(localTexturePath(uri) ? 'transparent' : 'soft');
     }
     function preload(project) {
       const pending = [];
       for (const node of project?.nodes || []) {
-        const uri = node.properties?.Texture ?? (['ParticleEmitter'].includes(node.class) ? NATIVE.ParticleEmitter.Texture : undefined);
+        const uri = node.properties?.Texture ?? node.properties?.TextureID ?? node.properties?.TextureId ?? (['ParticleEmitter'].includes(node.class) ? NATIVE.ParticleEmitter.Texture : undefined);
         if (uri === undefined || builtinKind(uri)) continue;
         texture(uri);
         const promise = textures.get(String(uri))?.promise;
@@ -1086,6 +1243,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       gl.clearColor(sky[0], sky[1], sky[2], 1);
       gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
       const scene = buildFrame(sim, cameraInput);
+      for (const [id, entry] of importedGeometry) if (!sim.localMeshes.has(entry.node)) { gl.deleteVertexArray(entry.geometry.vao); gl.deleteBuffer(entry.geometry.buffer); importedGeometry.delete(id); }
       const viewProj = mat4Mul(perspective(scene.camera.fov * Math.PI / 180, width / Math.max(1, height), 0.1, 2000), lookAt(scene.camera));
       gl.useProgram(solid.program);
       gl.uniformMatrix4fv(solid.uniforms.uViewProj, false, viewProj);
@@ -1097,12 +1255,17 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         gl.uniform1fv(solid.uniforms.uLightRange, lights.map(l => l.range));
         gl.uniform4fv(solid.uniforms.uLightCone, lights.flatMap(l => l.kind === 'PointLight' ? [0, 0, 0, 0] : [...l.direction, Math.max(1, l.angle)]));
       }
-      const drawSolid = (name, m, p, s, color, alpha, mode, primitive = gl.TRIANGLES) => {
+      const drawSolid = (name, m, p, s, color, alpha, mode, primitive = gl.TRIANGLES, imported = null, alphaPass = 0, wireframe = false) => {
         const safe = s.map(v => Math.max(1e-4, Math.abs(v)));
+        const geo = imported ? meshGeometry(imported.node, imported.geometry, wireframe) : geometry[name];
         gl.uniformMatrix4fv(solid.uniforms.uModel, false, model(m, p, safe));
         gl.uniformMatrix3fv(solid.uniforms.uNormal, false, normalMatrix(m, safe));
         gl.uniform3fv(solid.uniforms.uColor, color); gl.uniform1f(solid.uniforms.uAlpha, alpha); gl.uniform1i(solid.uniforms.uMode, mode);
-        gl.bindVertexArray(geometry[name].vao); gl.drawArrays(primitive, 0, geometry[name].count);
+        gl.uniform1i(solid.uniforms.uTextured, !!imported?.texture); gl.uniform1i(solid.uniforms.uTexture, 0);
+        gl.uniform1i(solid.uniforms.uAlphaPass, alphaPass);
+        gl.activeTexture(gl.TEXTURE0); gl.bindTexture(gl.TEXTURE_2D, imported?.texture ? texture(imported.texture) : builtin('white'));
+        if (imported && !imported.doubleSided) { gl.enable(gl.CULL_FACE); gl.cullFace(gl.BACK); } else gl.disable(gl.CULL_FACE);
+        gl.bindVertexArray(geo.vao); gl.drawArrays(primitive, 0, geo.count);
       };
       gl.enable(gl.DEPTH_TEST); gl.depthMask(true); gl.disable(gl.BLEND); gl.disable(gl.CULL_FACE);
       if (view.ground !== false) {
@@ -1111,16 +1274,19 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       }
       // Part Ball : sphère du plus petit côté ; Part Cylinder : axe X ; SpecialMesh Sphere/Cylinder : ellipsoïde, axe Y.
       const meshFor = part => {
+        if (part.geometry) return {name: null, m: part.m, size: part.size};
         if (part.shape === 'MeshCylinder') return {name: 'cylinder', m: matMul(part.m, rotation(2, 90)), size: [part.size[1], part.size[0], part.size[2]]};
         if (part.shape === 'MeshSphere') return {name: 'sphere', m: part.m, size: part.size};
         if (part.shape === 'Ball') { const d = Math.min(...part.size); return {name: 'sphere', m: part.m, size: [d, d, d]}; }
         return {name: part.shape === 'Cylinder' ? 'cylinder' : 'box', m: part.m, size: part.size};
       };
       const solids = view.extraParts ? scene.parts.concat(view.extraParts) : scene.parts;
-      for (const part of solids.filter(p => p.alpha >= 0.999)) { const g = meshFor(part); drawSolid(g.name, g.m, part.p, g.size, part.color, 1, part.neon ? 1 : 0); }
+      const transparentMesh = p => p.alpha < .999 || !!p.texture;
+      for (const part of solids.filter(p => p.alpha >= .999)) { const g = meshFor(part); drawSolid(g.name, g.m, part.p, g.size, part.color, 1, part.neon ? 1 : 0, gl.TRIANGLES, part.geometry ? part : null, part.texture ? 1 : 0); }
       gl.enable(gl.BLEND); gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA); gl.depthMask(false);
       for (const box of scene.placeholders) drawSolid('wire', box.frame.m, box.frame.p, box.size, [0.66, 0.56, 0.88], 0.8, 1, gl.LINES);
-      for (const part of scene.parts.filter(p => p.alpha < 0.999).sort((a, b) => b.depth - a.depth)) { const g = meshFor(part); drawSolid(g.name, g.m, part.p, g.size, part.color, part.alpha, part.neon ? 1 : 0); }
+      for (const part of scene.parts.filter(transparentMesh).sort((a, b) => b.depth - a.depth)) { const g = meshFor(part); drawSolid(g.name, g.m, part.p, g.size, part.color, part.alpha, part.neon ? 1 : 0, gl.TRIANGLES, part.geometry ? part : null, part.texture ? 2 : 0); }
+      gl.disable(gl.CULL_FACE);
       if (scene.vertices) {
         gl.useProgram(fx.program);
         gl.uniformMatrix4fv(fx.uniforms.uViewProj, false, viewProj);
@@ -1128,6 +1294,18 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         gl.bindVertexArray(fxVao); gl.bindBuffer(gl.ARRAY_BUFFER, fxBuffer);
         gl.bufferData(gl.ARRAY_BUFFER, scene.data, gl.STREAM_DRAW);
         for (const batch of scene.batches) { gl.bindTexture(gl.TEXTURE_2D, texture(batch.texture)); gl.drawArrays(gl.TRIANGLES, batch.first, batch.count); }
+      }
+      // Selection is an editor overlay, drawn after the effect. Transparent supports
+      // retain their actual opacity and still expose their oriented shape on click.
+      const outlines = selectionOutlines(sim, view.selectedIds);
+      if (outlines.length) {
+        gl.useProgram(solid.program); gl.disable(gl.DEPTH_TEST); gl.disable(gl.CULL_FACE); gl.disable(gl.BLEND); gl.depthMask(false);
+        for (const part of outlines) {
+          const name = part.shape === 'Ball' || part.shape === 'MeshSphere' ? 'wireSphere'
+            : part.shape === 'Cylinder' || part.shape === 'MeshCylinder' ? 'wireCylinder'
+            : part.shape === 'Wedge' ? 'wireWedge' : part.shape === 'CornerWedge' ? 'wireCornerWedge' : 'wire';
+          drawSolid(name, part.m, part.p, part.size, [0.28, 1, .87], 1, 1, gl.LINES, part.geometry ? part : null, 0, true);
+        }
       }
       gl.depthMask(true); gl.bindVertexArray(null);
       if (scene.placeholders.length) warnings.add('Les MeshPart et maillages FileMesh sont affichés comme boîtes : leur géométrie n’est disponible que dans Roblox.');
@@ -1142,7 +1320,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     let sim = null, signature = '', playing = false, frameRequest = 0, last = 0;
     let mode = options.mode === 'free' ? 'free' : 'timeline';
     let camera = {position: [10, 6, 12], target: [0, 1, 0], fov: 50};
-    const view = {background: options.background, ground: options.ground !== false, dummy: !!options.dummy, extraParts: null};
+    const view = {background: options.background, ground: options.ground !== false, dummy: !!options.dummy, extraParts: null, selectedIds: []};
     let bounds;
     const currentBounds = () => bounds !== undefined ? bounds : (bounds = sim ? effectBounds(sim.project, {seed: options.seed}) : null);
     const placeDummy = () => { view.extraParts = view.dummy && sim ? dummyParts(currentBounds(), camera) : null; };
@@ -1208,6 +1386,8 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       setCamera(next) { camera = {...camera, ...next}; draw(); },
       resetCamera(project) { camera = projectCamera(project || sim?.project); placeDummy(); draw(); },
       setView(next) { Object.assign(view, next); if ('dummy' in next) placeDummy(); draw(); },
+      setSelection(ids) { const next = typeof ids === 'string' ? [ids] : [...new Set(ids || [])]; if (JSON.stringify(next) === JSON.stringify(view.selectedIds)) return; view.selectedIds = next; draw(); },
+      pick(x, y) { const rect = canvas.getBoundingClientRect(); return pickPart(sim, camera, x, y, rect.width, rect.height); },
       // Cadre toute l’étendue de l’effet depuis l’angle de vue actuel.
       frameEffect(ids) {
         if (!sim) return null;
@@ -1216,16 +1396,23 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         placeDummy(); draw(); options.onCamera?.(api.camera);
         return api.camera;
       },
-      snapshot(type = 'image/png') { draw(); return canvas.toDataURL(type); },
+      snapshot(type = 'image/png', {includeSelection = false} = {}) {
+        const previous = view.selectedIds;
+        if (!includeSelection) view.selectedIds = [];
+        try { draw(); return canvas.toDataURL(type); }
+        finally { view.selectedIds = previous; if (!includeSelection) draw(); }
+      },
       destroy() { halt(); },
     };
     // Glisser : orbite ; Maj ou clic droit : déplacement ; molette : zoom.
     let drag = null;
     canvas.addEventListener('contextmenu', e => e.preventDefault());
-    canvas.addEventListener('pointerdown', e => { drag = {x: e.clientX, y: e.clientY, pan: e.shiftKey || e.button === 2 || e.button === 1}; canvas.setPointerCapture?.(e.pointerId); });
+    canvas.addEventListener('pointerdown', e => { drag = {x: e.clientX, y: e.clientY, startX: e.clientX, startY: e.clientY, moved: false, button: e.button, pan: e.shiftKey || e.button === 2 || e.button === 1}; canvas.setPointerCapture?.(e.pointerId); });
     canvas.addEventListener('pointermove', e => {
       if (!drag) return;
       const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (!drag.moved && Math.hypot(e.clientX - drag.startX, e.clientY - drag.startY) < 3) return;
+      drag.moved = true;
       drag.x = e.clientX; drag.y = e.clientY;
       const offset = sub(camera.position, camera.target), distance = length(offset);
       if (drag.pan) {
@@ -1239,7 +1426,13 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       }
       if (!playing) draw();
     });
-    const release = () => { if (drag) { drag = null; placeDummy(); if (!playing) draw(); options.onCamera?.(api.camera); } };
+    const release = e => {
+      if (!drag) return;
+      const click = !drag.moved && !drag.pan && drag.button === 0 && e.type === 'pointerup';
+      drag = null;
+      if (click && options.onSelect) { const rect = canvas.getBoundingClientRect(), id = api.pick(e.clientX - rect.left, e.clientY - rect.top); options.onSelect(id, {multi: e.ctrlKey || e.metaKey}); }
+      placeDummy(); if (!playing) draw(); options.onCamera?.(api.camera);
+    };
     canvas.addEventListener('pointerup', release); canvas.addEventListener('pointercancel', release);
     canvas.addEventListener('wheel', e => {
       e.preventDefault();
@@ -1334,8 +1527,8 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         let source;
         if (kind) source = proceduralTexture(kind);
         else {
-          const id = assetId(uri), resolved = id && options.resolveTexture?.(id);
-          const candidates = resolved == null
+          const id = assetId(uri), localPath = localTexturePath(uri), resolved = id && options.resolveTexture?.(id);
+          const candidates = localPath ? [`${base}/library/${localPath}`] : resolved == null
             ? (id ? ['images', 'beams/images', 'meshes/images'].map(folder => `${base}/library/${folder}/${id}.png`) : [])
             : (Array.isArray(resolved) ? resolved : [resolved]);
           for (const url of candidates) {
@@ -1463,7 +1656,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     return {image: sheet.toDataURL('image/png'), count: items.length};
   }
 
-  const api = Object.freeze({STEP, createSimulation, buildFrame, effectBounds, sampledParticleBounds, autoCamera, particleCamera, sphereCamera, dummyParts, createRenderer, createView,
+  const api = Object.freeze({STEP, createSimulation, validatePreviewMesh, buildFrame, selectionOutlines, pickPart, localTexturePath, effectBounds, sampledParticleBounds, autoCamera, particleCamera, sphereCamera, dummyParts, createRenderer, createView,
     renderSheet, renderComparison, renderTimes, renderTextureSheet, textureAlphaBounds, environmentColors, fromOrientation, sampleNumber, sampleColor});
   if (typeof module === 'object' && module.exports) module.exports = api;
   global.DatakyEmulator = api;
