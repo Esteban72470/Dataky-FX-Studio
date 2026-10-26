@@ -6,6 +6,7 @@
   const clone = value => JSON.parse(JSON.stringify(value));
   const STORE = 'dataky-fx-studio.project.v1';
   const CACHE_SCHEMA = 'dataky-fx-studio.schema.v1';
+  const CATALOG_ANIMATION_STORE = 'dataky-fx-studio.catalog-flipbooks.v1';
   const ICONS = {Part:'◇',MeshPart:'⬡',SpecialMesh:'⬡',Attachment:'⊹',ParticleEmitter:'✦',Beam:'⌁',Trail:'↝',PointLight:'☀',SpotLight:'◉',SurfaceLight:'◧',Folder:'▱',Model:'▣'};
   const COLLECTION_LABELS = {textures:'textures', beams:'beams', meshes:'meshes'};
   const TIMED_CLASSES = ['ParticleEmitter','Beam','Trail','PointLight','SpotLight','SurfaceLight'];
@@ -51,6 +52,9 @@
   let catalogLoaded = false;
   let catalogFailed = false;
   let catalogBusy = false, catalogSignature = '', catalogRevision = null;
+  let animateCatalogFlipbooks = true;
+  try { animateCatalogFlipbooks = localStorage.getItem(CATALOG_ANIMATION_STORE) !== 'false'; } catch (_) {}
+  let catalogAnimation = null, catalogFrame = 0, catalogPreviews = [];
   let history = [];
   let future = [];
   let dirty = false;
@@ -291,8 +295,8 @@
     const property=$('#animation-property').value;const existing=project.animations.find(a=>a.node===animationNode&&a.property===property);const node=nodeById(animationNode);const value=node.properties[property]??schema.classes[node.class].properties[property].default;$('#animation-json').value=JSON.stringify(existing?.keyframes||[{time:0,value:clone(value)},{time:Math.min(2,project.duration),value:clone(value)}],null,2);$('#animation-remove').disabled=!existing;
   }
 
-  function catalogPath(record,kind) {
-    let path=record.preview_path||record.image_path||'';if(!path)return '';
+  function catalogPath(record,kind,fullImage=false) {
+    let path=(fullImage?record.image_path:record.preview_path||record.image_path)||'';if(!path)return '';
     path=path.replaceAll('\\','/');if(/^(https?:|data:)/.test(path))return path;
     if(path.startsWith('/library/'))return path;if(path.startsWith('/'))return path;
     if(kind!=='textures'&&!path.startsWith(kind+'/'))path=kind+'/'+path;
@@ -325,7 +329,25 @@
       return false;
     }finally{catalogBusy=false;}
   }
+  function syncCatalogAnimation() {
+    if(catalogAnimation!==null){clearInterval(catalogAnimation);catalogAnimation=null;}
+    if(!animateCatalogFlipbooks||!catalogPreviews.length||document.visibilityState==='hidden')return;
+    catalogAnimation=setInterval(()=>{
+      catalogFrame=(catalogFrame+1)%64;
+      const viewport=$('#catalog-grid').getBoundingClientRect();
+      for(const {image,button,grid} of catalogPreviews){
+        if(!image.complete||!image.naturalWidth)continue;
+        const rect=button.getBoundingClientRect();
+        if(rect.bottom<=viewport.top||rect.top>=viewport.bottom)continue;
+        const frame=catalogFrame%(grid*grid);
+        image.style.transform=`translate(${-(frame%grid)*100/grid}%,${-Math.floor(frame/grid)*100/grid}%)`;
+      }
+    },1000/16);
+  }
   function renderCatalog(refreshTags=false) {
+    if(catalogAnimation!==null){clearInterval(catalogAnimation);catalogAnimation=null;}
+    catalogPreviews=[];catalogFrame=0;
+    $('#catalog-animate').checked=animateCatalogFlipbooks;
     const state=filters[collection];const records=catalog[collection]||[];
     $$('[data-collection]').forEach(button=>{const active=button.dataset.collection===collection;button.classList.toggle('active',active);button.setAttribute('aria-selected',active);});
     $('#catalog-search').value=state.search;
@@ -334,7 +356,18 @@
     const pageSize=36;const pages=Math.max(1,Math.ceil(filtered.length/pageSize));state.page=bounded(state.page,0,pages-1);const rows=filtered.slice(state.page*pageSize,(state.page+1)*pageSize);$('#catalog-count').textContent=numberFormat.format(filtered.length);$('#catalog-page').textContent=catalogLoaded?`${state.page+1} / ${pages}`+(catalogFailed?' · à actualiser':''):catalogFailed?'Catalogue indisponible':'Chargement…';$('#catalog-prev').disabled=!state.page;$('#catalog-next').disabled=state.page>=pages-1;
     const grid=$('#catalog-grid');grid.replaceChildren();
     if(!rows.length){grid.innerHTML=`<div class="empty-message">${catalogLoaded?'Aucune ressource pour ce filtre.':catalogFailed?'La bibliothèque est indisponible. Les modèles intégrés restent utilisables.':'Chargement de votre bibliothèque…'}</div>`;return;}
-    for(const record of rows){const button=document.createElement('button');button.className='catalog-card'+(assetSelection?.record===record?' selected':'');button.title=`${record.name||'Ressource'}\n${record.asset_id||assetUri(record)}`;button.draggable=true;const path=catalogPath(record,collection);if(path){const image=document.createElement('img');image.loading='lazy';image.alt=record.name||'Aperçu';image.src=path;image.onerror=()=>{image.remove();const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.prepend(missing);};button.append(image);}else{const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.append(missing);}const name=document.createElement('span');name.textContent=record.name||record.asset_id||'Ressource';button.append(name);button.onclick=()=>{assetSelection={record,kind:collection};renderCatalog();renderResourceDetail();};button.ondblclick=()=>applyAsset(record,collection);button.ondragstart=e=>{assetSelection={record,kind:collection};e.dataTransfer.setData('application/x-dataky-asset',JSON.stringify({kind:collection,record}));e.dataTransfer.setData('text/plain',assetUri(record));e.dataTransfer.effectAllowed='copy';renderResourceDetail();};grid.append(button);}
+    for(const record of rows){
+      const button=document.createElement('button');button.className='catalog-card'+(assetSelection?.record===record?' selected':'');button.title=`${record.name||'Ressource'}\n${record.asset_id||assetUri(record)}`;button.draggable=true;
+      const flipbook=animateCatalogFlipbooks&&record.kind==='flipbook'&&[2,4,8].includes(Number(record.grid))&&record.image_path;
+      const path=catalogPath(record,collection,Boolean(flipbook));
+      if(path){
+        const image=document.createElement('img');image.loading='lazy';image.alt=record.name||'Aperçu';image.src=path;
+        if(flipbook){const grid=Number(record.grid);image.className='flipbook-preview';image.style.width=image.style.height=(grid*100)+'%';catalogPreviews.push({image,button,grid});}
+        image.onerror=()=>{catalogPreviews=catalogPreviews.filter(preview=>preview.image!==image);syncCatalogAnimation();image.remove();const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.prepend(missing);};button.append(image);
+      }else{const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.append(missing);}
+      const name=document.createElement('span');name.textContent=record.name||record.asset_id||'Ressource';button.append(name);button.onclick=()=>{assetSelection={record,kind:collection};renderCatalog();renderResourceDetail();};button.ondblclick=()=>applyAsset(record,collection);button.ondragstart=e=>{assetSelection={record,kind:collection};e.dataTransfer.setData('application/x-dataky-asset',JSON.stringify({kind:collection,record}));e.dataTransfer.setData('text/plain',assetUri(record));e.dataTransfer.effectAllowed='copy';renderResourceDetail();};grid.append(button);
+    }
+    syncCatalogAnimation();
   }
   function renderResourceDetail() {
     const host=$('#resource-detail');if(!assetSelection){host.innerHTML='<span class="mini-label">RESSOURCE</span><p>Sélectionnez une image pour l’utiliser dans votre effet.</p>';return;}
@@ -752,6 +785,8 @@
     catch(e){message('Capture : '+e.message,'error');}
   }
   function bindEvents() {
+    $('#catalog-animate').onchange=e=>{animateCatalogFlipbooks=e.target.checked;try{localStorage.setItem(CATALOG_ANIMATION_STORE,String(animateCatalogFlipbooks));}catch(_){}const scroll=$('#catalog-grid').scrollTop;renderCatalog();$('#catalog-grid').scrollTop=scroll;};
+    document.addEventListener('visibilitychange',syncCatalogAnimation);
     $('#project-name').onchange=e=>commit(p=>{p.name=e.target.value.trim()||'Effet sans nom';},{properties:false});$('#save-button').onclick=()=>saveProject();$('#undo-button').onclick=undo;$('#redo-button').onclick=redo;$('#clone-button').onclick=duplicateNode;$('#delete-button').onclick=removeNode;
     $('#add-button').onclick=e=>showMenu(e.currentTarget,[['menu-label','STRUCTURE'],...['Part','MeshPart','Attachment','Folder','Model'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),['menu-label','EFFETS'],...['ParticleEmitter','Beam','Trail','SpecialMesh','PointLight','SpotLight','SurfaceLight'].filter(c=>schema.classes[c]).map(c=>[(ICONS[c]||'◇')+' '+c,()=>addNode(c)]),...(blocks.length?[['menu-label','BRIQUES · À '+round(cursorTime)+' S'],...blocks.map(b=>['✦ '+b.title,()=>addBlock(b.block)])]:[])]);
     $('#empty-add').onclick=()=>addNode('Part');$$('[data-template]').forEach(b=>b.onclick=()=>useTemplate(b.dataset.template));$('#project-menu').onclick=listProjects;

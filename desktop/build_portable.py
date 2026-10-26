@@ -20,7 +20,9 @@ import zipfile
 
 MAGIC = b"DATAKYFXBUNDLE01"
 FOOTER = struct.Struct("<16sQQ32s")
-PRIVATE_DIRS = ("editor/projects", "editor/artistry", "editor/snapshots", "editor/local_ai/meshes", "editor/local_ai/video", "exports")
+PRIVATE_DIRS = ("editor/projects", "editor/artistry", "editor/snapshots", "editor/local_ai", "exports")
+PRIVATE_FILES = {"tool/grid_overrides.json", "tool/texture_frames.json"}
+PUBLIC_EXAMPLES = {"editor/projects/enuma-elish-rupture.json"}
 SKIP_PARTS = {".git", "__pycache__", ".pytest_cache", ".local-ai", ".venv", "backups", "desktoplogs"}
 MODEL_SUFFIXES = {".gguf", ".safetensors", ".ckpt", ".pt", ".pth"}
 
@@ -35,6 +37,11 @@ def selected_files(root: Path, runtime: Path, include_user_data: bool):
     result = {}
     for name in filter(None, names):
         path = root / name
+        private = name in PRIVATE_FILES or any(name == base or name.startswith(base + "/") for base in PRIVATE_DIRS)
+        if private and not include_user_data and name not in PUBLIC_EXAMPLES:
+            continue
+        if name.startswith(("docs/livraison/", "reports-", "server-")):
+            continue
         if not path.is_file() or any(part in SKIP_PARTS for part in path.relative_to(root).parts):
             continue
         if name.startswith(("smokecheck/", "tool/fixtures/")) or Path(name).name.startswith("test_"):

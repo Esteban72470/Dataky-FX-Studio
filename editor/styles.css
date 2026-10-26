@@ -19,3 +19,4 @@
 .render-sheet h1{font:500 22px var(--display);margin-bottom:8px}
 .render-sheet p{font-size:12px;margin-bottom:16px}
 .render-sheet img{max-width:100%;height:auto;display:block;border-radius:6px}
+.catalog-animation-toggle{display:flex;align-items:center;gap:6px;margin:0 0 12px;color:var(--muted);font-size:11px;cursor:pointer}.catalog-animation-toggle input{accent-color:var(--cyan);margin:0}.catalog-card img.flipbook-preview{position:absolute;left:0;top:0;max-width:none;padding:0;object-fit:fill}

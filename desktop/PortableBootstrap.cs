@@ -1,15 +1,18 @@
-// Single-file package bootstrap: appended ZIP + a 64-byte footer. No installer or network download.
+// Single-file package bootstrap: local extraction, then verified code-only updates.
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.IO.Compression;
+using System.Net;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
+using Microsoft.Win32.SafeHandles;
 
 internal sealed class PayloadStream : Stream
 {
@@ -87,6 +90,188 @@ internal sealed class PortableBootstrap : Form
     private static string Hex(byte[] value) { return BitConverter.ToString(value).Replace("-", "").ToLowerInvariant(); }
     private static string Quote(string value) { return "\"" + value.Replace("\"", "") + "\""; }
 
+    [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+    private static extern SafeFileHandle CreateFile(string name, uint access, uint share, IntPtr security, uint mode, uint flags, IntPtr template);
+    [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)]
+    private static extern uint GetFinalPathNameByHandle(SafeFileHandle file, StringBuilder path, uint size, uint flags);
+
+    private static string ResolvedDirectory(string path)
+    {
+        string absolute = Path.GetFullPath(path).TrimEnd('\\');
+        using (SafeFileHandle file = CreateFile(absolute, 0, 7, IntPtr.Zero, 3, 0x02000000, IntPtr.Zero))
+        {
+            if (file.IsInvalid) return absolute;
+            var final = new StringBuilder(32768);
+            uint length = GetFinalPathNameByHandle(file, final, (uint)final.Capacity, 0);
+            if (length == 0 || length >= final.Capacity) return absolute;
+            string value = final.ToString();
+            if (value.StartsWith(@"\\?\UNC\", StringComparison.OrdinalIgnoreCase)) value = @"\\" + value.Substring(8);
+            else if (value.StartsWith(@"\\?\", StringComparison.Ordinal)) value = value.Substring(4);
+            return value.TrimEnd('\\');
+        }
+    }
+
+    private static string StartupKey(string directory)
+    {
+        using (var hash = SHA256.Create()) return "Local\\DatakyFX-Startup-" + Hex(hash.ComputeHash(Encoding.UTF8.GetBytes(ResolvedDirectory(directory).ToLowerInvariant()))).Substring(0, 24);
+    }
+
+    private static List<string> RunningLibraries()
+    {
+        var roots = new List<string>();
+        foreach (var process in Process.GetProcessesByName("Dataky FX Studio"))
+        {
+            using (process)
+            {
+                try
+                {
+                    string directory = Path.GetDirectoryName(process.MainModule.FileName);
+                    if (File.Exists(Path.Combine(directory, "tool", "fx_server.py"))) roots.Add(ResolvedDirectory(directory));
+                }
+                catch (Exception error) { if (!(error is System.ComponentModel.Win32Exception || error is InvalidOperationException || error is ArgumentException)) throw; }
+            }
+        }
+        for (int port = 48754; port <= 48774; port++)
+        {
+            try
+            {
+                var request = (HttpWebRequest)WebRequest.Create("http://127.0.0.1:" + port + "/api/status");
+                request.Proxy = null; request.Timeout = 250; request.ReadWriteTimeout = 250;
+                using (var response = request.GetResponse()) using (var reader = new StreamReader(response.GetResponseStream()))
+                {
+                    var data = Json.Deserialize<Dictionary<string, object>>(reader.ReadToEnd());
+                    object app, root;
+                    if (data.TryGetValue("app", out app) && (string)app == "Dataky FX Studio" && data.TryGetValue("library", out root) && root is string)
+                        roots.Add(ResolvedDirectory((string)root));
+                }
+            }
+            catch (Exception error) { if (!(error is WebException || error is ArgumentException || error is InvalidCastException || error is IOException)) throw; }
+        }
+        return roots;
+    }
+
+    private static bool RegularPath(string path)
+    {
+        return (File.GetAttributes(path) & FileAttributes.ReparsePoint) == 0;
+    }
+
+    private static bool NoReparseUnder(string root, string path)
+    {
+        string fullRoot = Path.GetFullPath(root).TrimEnd('\\'), full = Path.GetFullPath(path);
+        if (!full.StartsWith(fullRoot + "\\", StringComparison.OrdinalIgnoreCase)) return false;
+        string current = fullRoot;
+        if (!RegularPath(current)) return false;
+        foreach (string part in full.Substring(fullRoot.Length + 1).Split('\\'))
+        {
+            current = Path.Combine(current, part);
+            if ((File.Exists(current) || Directory.Exists(current)) && !RegularPath(current)) return false;
+        }
+        return true;
+    }
+
+    private static bool ReadySibling(string path, string parent)
+    {
+        string name = Path.GetFileName(path);
+        if (name.Length != 24 || !String.Equals(Path.GetDirectoryName(Path.GetFullPath(path)), Path.GetFullPath(parent).TrimEnd('\\'), StringComparison.OrdinalIgnoreCase)) return false;
+        foreach (char value in name) if (!Uri.IsHexDigit(value)) return false;
+        if (!RegularPath(path)) return false;
+        string marker = Path.Combine(path, ".dataky-package-ready");
+        if (!File.Exists(marker) || !RegularPath(marker)) return false;
+        string digest = File.ReadAllText(marker, Encoding.UTF8).Trim();
+        if (digest.Length != 64 || !digest.StartsWith(name, StringComparison.OrdinalIgnoreCase)) return false;
+        foreach (char value in digest) if (!Uri.IsHexDigit(value)) return false;
+        return true;
+    }
+
+    private static void CopyMissingTree(string source, string target)
+    {
+        if (!Directory.Exists(source) || !RegularPath(source)) return;
+        if (Directory.Exists(target) && !RegularPath(target)) throw new IOException("Dossier personnel redirigé : copie interrompue.");
+        Directory.CreateDirectory(target);
+        foreach (string entry in Directory.GetFileSystemEntries(source))
+        {
+            if (!RegularPath(entry)) continue;
+            string destination = Path.Combine(target, Path.GetFileName(entry));
+            if (Directory.Exists(entry)) CopyMissingTree(entry, destination);
+            else if (!File.Exists(destination) && !Directory.Exists(destination)) File.Copy(entry, destination, false);
+        }
+    }
+
+    private static void CopyMissingFile(string source, string target)
+    {
+        if (!File.Exists(source) || !RegularPath(source) || File.Exists(target) || Directory.Exists(target)) return;
+        string parent = Path.GetDirectoryName(target);
+        if (Directory.Exists(parent) && !RegularPath(parent)) throw new IOException("Dossier personnel redirigé : copie interrompue.");
+        Directory.CreateDirectory(parent); File.Copy(source, target, false);
+    }
+
+    // Called once for a new full bundle. Originals and existing destination files stay intact.
+    internal static void MigrateUserData(string destination, string parent, IEnumerable<string> running)
+    {
+        string marker = Path.Combine(destination, ".dataky-user-migration.json");
+        if (File.Exists(marker)) return;
+        var candidates = new List<string>();
+        foreach (string path in Directory.GetDirectories(parent))
+            if (!String.Equals(ResolvedDirectory(path), ResolvedDirectory(destination), StringComparison.OrdinalIgnoreCase) && ReadySibling(path, parent)) candidates.Add(path);
+        candidates.Sort(delegate(string a, string b) { return Directory.GetLastWriteTimeUtc(b).CompareTo(Directory.GetLastWriteTimeUtc(a)); });
+        string previous = null;
+        foreach (string active in running) foreach (string candidate in candidates)
+            if (String.Equals(ResolvedDirectory(candidate), ResolvedDirectory(active), StringComparison.OrdinalIgnoreCase) && previous == null) previous = candidate;
+        if (previous == null && candidates.Count > 0) previous = candidates[0];
+        if (previous != null)
+        {
+            foreach (string relative in new[] { @"editor\projects", @"editor\snapshots", @"editor\artistry", @"editor\local_ai\meshes", @"editor\local_ai\video", "exports" })
+                if (NoReparseUnder(previous, Path.Combine(previous, relative)) && NoReparseUnder(destination, Path.Combine(destination, relative))) CopyMissingTree(Path.Combine(previous, relative), Path.Combine(destination, relative));
+            foreach (string relative in new[] { @"editor\local_ai\catalog.json", @"tool\grid_overrides.json" })
+                if (NoReparseUnder(previous, Path.Combine(previous, relative)) && NoReparseUnder(destination, Path.Combine(destination, relative))) CopyMissingFile(Path.Combine(previous, relative), Path.Combine(destination, relative));
+        }
+        File.WriteAllText(marker, Json.Serialize(new { status = "complete", source = previous, completed_at = DateTime.UtcNow.ToString("o") }), new UTF8Encoding(false));
+    }
+
+    private void ApplyUpdates(string destination)
+    {
+        string script = Path.Combine(destination, "tool", "fx_update.py");
+        string python = Path.Combine(destination, "_runtime", "python", "python.exe");
+        if (!File.Exists(python)) python = Path.Combine(destination, "_runtime", "python", "pythonw.exe");
+        if (!File.Exists(script) || !File.Exists(python)) return;
+        Status(100, "Vérification des mises à jour…");
+        var start = new ProcessStartInfo(python, Quote(script) + " --root " + Quote(destination) + " --apply");
+        start.WorkingDirectory = destination; start.UseShellExecute = false; start.CreateNoWindow = true; start.WindowStyle = ProcessWindowStyle.Hidden;
+        start.RedirectStandardOutput = true; start.RedirectStandardError = true;
+        start.EnvironmentVariables["PYTHONUTF8"] = "1";
+        start.EnvironmentVariables.Remove("PYTHONHOME"); start.EnvironmentVariables.Remove("PYTHONPATH");
+        var output = new StringBuilder(); var error = new StringBuilder();
+        using (var process = new Process())
+        {
+            process.StartInfo = start;
+            process.OutputDataReceived += delegate(object sender, DataReceivedEventArgs line) { if (line.Data != null) lock (output) { if (output.Length < 65536) output.AppendLine(line.Data); } };
+            process.ErrorDataReceived += delegate(object sender, DataReceivedEventArgs line) { if (line.Data != null) lock (error) { if (error.Length < 65536) error.AppendLine(line.Data); } };
+            process.Start(); process.BeginOutputReadLine(); process.BeginErrorReadLine();
+            // The helper bounds all network operations. Never kill a transactional apply halfway through.
+            process.WaitForExit();
+            if (process.ExitCode != 0) WriteStartupLog(destination, "La mise à jour n’a pas été appliquée ; ouverture de la version conservée.");
+        }
+    }
+
+    private void TryApplyUpdates(string destination)
+    {
+        try { ApplyUpdates(destination); }
+        catch (Exception error) { WriteStartupLog(destination, "Vérification indisponible : " + error.GetType().Name + ". Ouverture de la version installée."); }
+    }
+
+    internal static bool ShouldApplyUpdates(string destination, IEnumerable<string> running)
+    {
+        foreach (string path in running) if (String.Equals(ResolvedDirectory(path), ResolvedDirectory(destination), StringComparison.OrdinalIgnoreCase)) return false;
+        return true;
+    }
+
+    private static void WriteStartupLog(string destination, string message)
+    {
+        try { string directory = Path.Combine(destination, "editor", "desktoplogs"); Directory.CreateDirectory(directory); File.AppendAllText(Path.Combine(directory, "demarrage.log"), DateTime.UtcNow.ToString("o") + " " + message + Environment.NewLine, Encoding.UTF8); }
+        catch (IOException) { }
+        catch (UnauthorizedAccessException) { }
+    }
+
     private void RunPackage()
     {
         string staging = null, installParent = null, bundleId = null;
@@ -138,6 +323,35 @@ internal sealed class PortableBootstrap : Form
                     }
                 }
                 finally { extractionLock.ReleaseMutex(); }
+            }
+            if (!selfTest)
+            {
+                using (var startup = new Mutex(false, StartupKey(destination)))
+                {
+                    bool acquired;
+                    try { acquired = startup.WaitOne(TimeSpan.FromMinutes(3)); }
+                    catch (AbandonedMutexException) { acquired = true; }
+                    if (!acquired) throw new IOException("Un autre démarrage est encore en cours. Relancez dans un instant.");
+                    try
+                    {
+                        var running = RunningLibraries();
+                        if (ShouldApplyUpdates(destination, running))
+                        {
+                            try { MigrateUserData(destination, installParent, running); }
+                            catch (IOException) { WriteStartupLog(destination, "Certaines données personnelles n’ont pas pu être recopiées ; les originaux sont conservés."); }
+                            catch (UnauthorizedAccessException) { WriteStartupLog(destination, "Certaines données personnelles ne sont pas accessibles ; les originaux sont conservés."); }
+                            TryApplyUpdates(destination);
+                        }
+                        Status(100, "Ouverture de l’atelier…");
+                        var launch = new ProcessStartInfo(Path.Combine(destination, "Dataky FX Studio.exe"));
+                        launch.WorkingDirectory = destination; launch.UseShellExecute = false; launch.CreateNoWindow = true; launch.WindowStyle = ProcessWindowStyle.Hidden;
+                        launch.EnvironmentVariables["DATAKY_PACKAGE_PATH"] = executable;
+                        launch.EnvironmentVariables["DATAKY_UPDATE_CHECKED"] = "1";
+                        Process.Start(launch);
+                    }
+                    finally { startup.ReleaseMutex(); }
+                }
+                result = 0; return;
             }
             Status(100, "Ouverture de l’atelier…");
             var start = new ProcessStartInfo(Path.Combine(destination, "Dataky FX Studio.exe"));
