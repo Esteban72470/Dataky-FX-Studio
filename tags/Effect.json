@@ -1,7 +1,7 @@
 [
   {
     "key": "a50ba704ea105d439adc2ef3",
-    "name": "",
+    "name": "Fumée verticale diffuse",
     "asset_id": "137352418041966",
     "uri": "rbxassetid://137352418041966",
     "id_status": "valid",
@@ -99,7 +99,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f0ab874c96d53a6dec641357",
@@ -357,7 +360,7 @@
   },
   {
     "key": "4a65d5fe75e82785c29efcf4",
-    "name": "5407029762",
+    "name": "Éclat blanc irrégulier",
     "asset_id": "82200958384861",
     "uri": "rbxassetid://82200958384861",
     "id_status": "valid",
@@ -366,7 +369,9 @@
     "raw_uris": [
       "rbxassetid://82200958384861"
     ],
-    "aliases": [],
+    "aliases": [
+      "5407029762"
+    ],
     "tags": [
       "Effect"
     ],
@@ -455,7 +460,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "5407029762",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2b1a017fb48d290696f433bc",

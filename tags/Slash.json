@@ -13504,12 +13504,12 @@
       }
     ],
     "image_path": "images/75247711479210.png",
-    "preview_path": "images/75247711479210.png",
+    "preview_path": "previews/75247711479210-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -13535,7 +13535,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "02d4062a5cb19ec51f77691c",
@@ -14133,12 +14138,12 @@
       }
     ],
     "image_path": "images/74423014151204.png",
-    "preview_path": "images/74423014151204.png",
+    "preview_path": "previews/74423014151204-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -14164,7 +14169,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "660ab0f72a35f6f4f9b62837",
@@ -14668,12 +14678,12 @@
       }
     ],
     "image_path": "images/71045195015818.png",
-    "preview_path": "images/71045195015818.png",
+    "preview_path": "previews/71045195015818-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -14699,7 +14709,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "1ef0aedbf8e28e052f0643bc",
@@ -16565,12 +16580,12 @@
       }
     ],
     "image_path": "images/113474313020316.png",
-    "preview_path": "images/113474313020316.png",
+    "preview_path": "previews/113474313020316-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -16596,7 +16611,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "246c8b0f95d7da902be29f8d",
@@ -18664,12 +18684,12 @@
       }
     ],
     "image_path": "images/72026093442655.png",
-    "preview_path": "images/72026093442655.png",
+    "preview_path": "previews/72026093442655-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -18695,7 +18715,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "03cb86e83e257804c458cbe5",
@@ -26325,12 +26350,12 @@
       }
     ],
     "image_path": "images/95484479669715.png",
-    "preview_path": "images/95484479669715.png",
+    "preview_path": "previews/95484479669715-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -26356,7 +26381,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "349ed8d316e893a719451d41",

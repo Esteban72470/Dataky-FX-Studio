@@ -34,7 +34,8 @@ IMAGE_FIELDS = ("image_path", "preview_path", "image_status", "image_error", "im
 CSV_FIELDS = ("key", "asset_id", "name", "uri", "tags", "kind", "grid", "grid_source",
               "id_status", "image_path", "preview_path", "image_status", "image_error",
               "width", "height", "creator", "raw_uris", "normalization_warnings", "aliases", "collections",
-              "kind_source", "observed_rect_kinds", "type_collection_ambiguous")
+              "kind_source", "observed_rect_kinds", "type_collection_ambiguous",
+              "grid_columns", "grid_rows", "name_source")
 
 
 def _label_token(label):
@@ -458,6 +459,11 @@ def _write_sqlite(path, rows, summary):
                     json.dumps(row["observed_rect_kinds"]), int(row["type_collection_ambiguous"]),
                     json.dumps(row["kind_source_labels"], ensure_ascii=False)))
                 db.executemany("INSERT INTO texture_tags VALUES (?,?)", [(row["key"], tag) for tag in row["tags"]])
+            db.execute("ALTER TABLE textures ADD COLUMN grid_columns INTEGER")
+            db.execute("ALTER TABLE textures ADD COLUMN grid_rows INTEGER")
+            db.execute("ALTER TABLE textures ADD COLUMN name_source TEXT")
+            db.executemany("UPDATE textures SET grid_columns=?,grid_rows=?,name_source=? WHERE key=?", [
+                (row.get("grid_columns", row.get("grid") or None), row.get("grid_rows", row.get("grid") or None), row.get("name_source"), row["key"]) for row in rows])
             db.execute("INSERT INTO metadata VALUES (?,?)", ("summary", json.dumps(summary, ensure_ascii=False)))
             db.commit()
             if db.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
@@ -468,6 +474,10 @@ def _write_sqlite(path, rows, summary):
 
 
 def export_catalogue(rows, summary, output_dir):
+    from catalog_annotations import apply_annotations
+    rows[:] = apply_annotations(rows, output_dir)
+    if "stats" in summary:
+        summary["stats"]["unknown_flipbook_grid_identities"] = sum(r["kind"] == "flipbook" and not (r.get("grid") or r.get("grid_columns")) for r in rows)
     output_dir.mkdir(parents=True, exist_ok=True)
     _write_json(output_dir / "textures.json", rows)
     _write_csv(output_dir / "textures.csv", rows)
@@ -518,6 +528,8 @@ def run(args):
     if not rows:
         raise ValueError("No captured texture records were found")
     output_dir = root / "smokecheck" if args.limit else root
+    from catalog_annotations import apply_annotations
+    rows = apply_annotations(rows, root)
     _reuse_images(rows, output_dir)
     if args.limit:
         rows = rows[:args.limit]

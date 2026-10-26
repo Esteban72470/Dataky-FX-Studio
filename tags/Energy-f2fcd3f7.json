@@ -25098,7 +25098,7 @@
   },
   {
     "key": "d01d41aee81fea5120d19ebe",
-    "name": "Texture",
+    "name": "Sphère sombre à reflets",
     "asset_id": "100249010604254",
     "uri": "rbxassetid://100249010604254",
     "id_status": "valid",
@@ -25107,7 +25107,9 @@
     "raw_uris": [
       "rbxassetid://100249010604254"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25189,11 +25191,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fdcebdcc41a0346391581fd6",
-    "name": "Texture",
+    "name": "Brume granuleuse horizontale",
     "asset_id": "102105924928801",
     "uri": "rbxassetid://102105924928801",
     "id_status": "valid",
@@ -25202,7 +25207,9 @@
     "raw_uris": [
       "rbxassetid://102105924928801"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25284,11 +25291,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "245564615407b79d4800c648",
-    "name": "Texture",
+    "name": "Anneau de fumée sombre · 853002",
     "asset_id": "106441899853002",
     "uri": "rbxassetid://106441899853002",
     "id_status": "valid",
@@ -25297,7 +25307,9 @@
     "raw_uris": [
       "rbxassetid://106441899853002"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25379,11 +25391,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "80de9454d28a3ddecb7b397b",
-    "name": "Texture",
+    "name": "Nuage de volutes sombres",
     "asset_id": "106880439890999",
     "uri": "rbxassetid://106880439890999",
     "id_status": "valid",
@@ -25392,7 +25407,9 @@
     "raw_uris": [
       "rbxassetid://106880439890999"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25474,11 +25491,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f4cae40bca8acbb1c87871b3",
-    "name": "Texture",
+    "name": "Nuage d’énergie très diffus",
     "asset_id": "107419055189421",
     "uri": "rbxassetid://107419055189421",
     "id_status": "valid",
@@ -25487,7 +25507,9 @@
     "raw_uris": [
       "rbxassetid://107419055189421"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25569,11 +25591,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1f14292daf72d732e66c2e95",
-    "name": "Texture",
+    "name": "Nuage de fragments scintillants",
     "asset_id": "108097660848534",
     "uri": "rbxassetid://108097660848534",
     "id_status": "valid",
@@ -25582,7 +25607,9 @@
     "raw_uris": [
       "rbxassetid://108097660848534"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25664,11 +25691,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6706633ca5a91e9b45089611",
-    "name": "Texture",
+    "name": "Nuage de fumée sombre",
     "asset_id": "109297279496424",
     "uri": "rbxassetid://109297279496424",
     "id_status": "valid",
@@ -25677,7 +25707,9 @@
     "raw_uris": [
       "rbxassetid://109297279496424"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25759,11 +25791,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a1670076a979c9e3116d8d42",
-    "name": "Texture",
+    "name": "Spirale de fumée noire",
     "asset_id": "109662572138436",
     "uri": "rbxassetid://109662572138436",
     "id_status": "valid",
@@ -25772,7 +25807,9 @@
     "raw_uris": [
       "rbxassetid://109662572138436"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25854,11 +25891,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "99f1e5d5eebfd5565a8f9801",
-    "name": "Texture",
+    "name": "Anneau irrégulier de fumée · 307225",
     "asset_id": "110331394307225",
     "uri": "rbxassetid://110331394307225",
     "id_status": "valid",
@@ -25867,7 +25907,9 @@
     "raw_uris": [
       "rbxassetid://110331394307225"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -25949,11 +25991,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "aba983ed15d9b01a33b7d843",
-    "name": "Texture",
+    "name": "Nuage sombre de volutes",
     "asset_id": "123417077142974",
     "uri": "rbxassetid://123417077142974",
     "id_status": "valid",
@@ -25962,7 +26007,9 @@
     "raw_uris": [
       "rbxassetid://123417077142974"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26044,11 +26091,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "660088e3eda353d0a1c73d6d",
-    "name": "Texture",
+    "name": "Anneau de fumée sombre · 711636",
     "asset_id": "124589734711636",
     "uri": "rbxassetid://124589734711636",
     "id_status": "valid",
@@ -26057,7 +26107,9 @@
     "raw_uris": [
       "rbxassetid://124589734711636"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26139,11 +26191,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b20220bf94ca8793db29b8c8",
-    "name": "Texture",
+    "name": "Nuage de filaments électriques",
     "asset_id": "126730361459560",
     "uri": "rbxassetid://126730361459560",
     "id_status": "valid",
@@ -26152,7 +26207,9 @@
     "raw_uris": [
       "rbxassetid://126730361459560"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26234,11 +26291,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8c78ef74edb309828c2799da",
-    "name": "Texture",
+    "name": "Sphère de lignes ondulées",
     "asset_id": "132133380519233",
     "uri": "rbxassetid://132133380519233",
     "id_status": "valid",
@@ -26247,7 +26307,9 @@
     "raw_uris": [
       "rbxassetid://132133380519233"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26329,11 +26391,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ae32ed0e6b4902a267cc42e0",
-    "name": "Texture",
+    "name": "Couronne de fumée noire",
     "asset_id": "132732458998500",
     "uri": "rbxassetid://132732458998500",
     "id_status": "valid",
@@ -26342,7 +26407,9 @@
     "raw_uris": [
       "rbxassetid://132732458998500"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26424,11 +26491,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "40c8672502d625117f5513f1",
-    "name": "Texture",
+    "name": "Nuage blanc arrondi",
     "asset_id": "138453293510759",
     "uri": "rbxassetid://138453293510759",
     "id_status": "valid",
@@ -26437,7 +26507,9 @@
     "raw_uris": [
       "rbxassetid://138453293510759"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26519,11 +26591,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "860da3b6b16631b6eb9251a8",
-    "name": "Texture",
+    "name": "Spirale de lignes fluides",
     "asset_id": "77428365764717",
     "uri": "rbxassetid://77428365764717",
     "id_status": "valid",
@@ -26532,7 +26607,9 @@
     "raw_uris": [
       "rbxassetid://77428365764717"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26614,11 +26691,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c3ff860794638a81f1010d24",
-    "name": "Texture",
+    "name": "Anneau sombre vaporeux",
     "asset_id": "80787936590547",
     "uri": "rbxassetid://80787936590547",
     "id_status": "valid",
@@ -26627,7 +26707,9 @@
     "raw_uris": [
       "rbxassetid://80787936590547"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26709,11 +26791,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d4dda8f686ca7fcff723b160",
-    "name": "Texture",
+    "name": "Éclats blancs en brume",
     "asset_id": "80904477162285",
     "uri": "rbxassetid://80904477162285",
     "id_status": "valid",
@@ -26722,7 +26807,9 @@
     "raw_uris": [
       "rbxassetid://80904477162285"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26804,11 +26891,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fa91e763dd86484c6fdc9dd6",
-    "name": "Texture",
+    "name": "Nuage gris granuleux · 926841",
     "asset_id": "81681173926841",
     "uri": "rbxassetid://81681173926841",
     "id_status": "valid",
@@ -26817,7 +26907,9 @@
     "raw_uris": [
       "rbxassetid://81681173926841"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26899,11 +26991,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "09662ce3b4b581f3b9376a15",
-    "name": "Texture",
+    "name": "Brume filaire scintillante",
     "asset_id": "84079558714526",
     "uri": "rbxassetid://84079558714526",
     "id_status": "valid",
@@ -26912,7 +27007,9 @@
     "raw_uris": [
       "rbxassetid://84079558714526"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -26994,11 +27091,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "16dfcddd99cf4ec6d070dd66",
-    "name": "Texture",
+    "name": "Volutes brunes diffuses",
     "asset_id": "92012290010755",
     "uri": "rbxassetid://92012290010755",
     "id_status": "valid",
@@ -27007,7 +27107,9 @@
     "raw_uris": [
       "rbxassetid://92012290010755"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -27089,11 +27191,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fd9ae2bdb7c262d9dd4a31b6",
-    "name": "Texture",
+    "name": "Nuage gris granuleux · 309097",
     "asset_id": "92855429309097",
     "uri": "rbxassetid://92855429309097",
     "id_status": "valid",
@@ -27102,7 +27207,9 @@
     "raw_uris": [
       "rbxassetid://92855429309097"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -27184,11 +27291,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "df53645f933904b8f81e29ac",
-    "name": "Texture",
+    "name": "Nuage blanc en volutes",
     "asset_id": "99588637039619",
     "uri": "rbxassetid://99588637039619",
     "id_status": "valid",
@@ -27197,7 +27307,9 @@
     "raw_uris": [
       "rbxassetid://99588637039619"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -27279,11 +27391,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "19506bcbe8554e3edf5357c2",
-    "name": "Texture",
+    "name": "Volutes grises granuleuses",
     "asset_id": "99899866795131",
     "uri": "rbxassetid://99899866795131",
     "id_status": "valid",
@@ -27292,7 +27407,9 @@
     "raw_uris": [
       "rbxassetid://99899866795131"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Energy",
@@ -27374,7 +27491,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e83072c11accbc6086b9bf73",

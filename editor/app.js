@@ -329,18 +329,24 @@
       return false;
     }finally{catalogBusy=false;}
   }
+  function flipbookLayout(record) {
+    if(record?.grid_review_status==='single_image')return null;
+    const columns=Number(record?.grid_columns),rows=Number(record?.grid_rows);
+    if([columns,rows].every(value=>Number.isInteger(value)&&value>=1&&value<=64)&&columns*rows>1)return {columns,rows};
+    const grid=Number(record?.grid);return [2,4,8].includes(grid)?{columns:grid,rows:grid}:null;
+  }
   function syncCatalogAnimation() {
     if(catalogAnimation!==null){clearInterval(catalogAnimation);catalogAnimation=null;}
     if(!animateCatalogFlipbooks||!catalogPreviews.length||document.visibilityState==='hidden')return;
     catalogAnimation=setInterval(()=>{
-      catalogFrame=(catalogFrame+1)%64;
+      catalogFrame++;
       const viewport=$('#catalog-grid').getBoundingClientRect();
-      for(const {image,button,grid} of catalogPreviews){
+      for(const {image,button,columns,rows} of catalogPreviews){
         if(!image.complete||!image.naturalWidth)continue;
         const rect=button.getBoundingClientRect();
         if(rect.bottom<=viewport.top||rect.top>=viewport.bottom)continue;
-        const frame=catalogFrame%(grid*grid);
-        image.style.transform=`translate(${-(frame%grid)*100/grid}%,${-Math.floor(frame/grid)*100/grid}%)`;
+        const frame=catalogFrame%(columns*rows);
+        image.style.transform=`translate(${-(frame%columns)*100/columns}%,${-Math.floor(frame/columns)*100/rows}%)`;
       }
     },1000/16);
   }
@@ -352,17 +358,17 @@
     $$('[data-collection]').forEach(button=>{const active=button.dataset.collection===collection;button.classList.toggle('active',active);button.setAttribute('aria-selected',active);});
     $('#catalog-search').value=state.search;
     if(refreshTags){const tags=[...new Set(records.flatMap(r=>r.tags||[]))];if(state.tag&&!tags.includes(state.tag))tags.push(state.tag);tags.sort((a,b)=>a.localeCompare(b));$('#catalog-tag').replaceChildren(new Option('Tous les tags',''));for(const tag of tags)$('#catalog-tag').append(new Option(tag,tag));}
-    $('#catalog-tag').value=state.tag;const search=state.search.toLocaleLowerCase();const filtered=records.filter(r=>(!state.tag||(r.tags||[]).includes(state.tag))&&(!search||(String(r.name||'')+' '+String(r.asset_id||'')+' '+(r.tags||[]).join(' ')).toLocaleLowerCase().includes(search)));
+    $('#catalog-tag').value=state.tag;const search=state.search.toLocaleLowerCase();const filtered=records.filter(r=>(!state.tag||(r.tags||[]).includes(state.tag))&&(!search||(String(r.name||'')+' '+String(r.asset_id||'')+' '+(r.aliases||[]).join(' ')+' '+(r.tags||[]).join(' ')).toLocaleLowerCase().includes(search)));
     const pageSize=36;const pages=Math.max(1,Math.ceil(filtered.length/pageSize));state.page=bounded(state.page,0,pages-1);const rows=filtered.slice(state.page*pageSize,(state.page+1)*pageSize);$('#catalog-count').textContent=numberFormat.format(filtered.length);$('#catalog-page').textContent=catalogLoaded?`${state.page+1} / ${pages}`+(catalogFailed?' · à actualiser':''):catalogFailed?'Catalogue indisponible':'Chargement…';$('#catalog-prev').disabled=!state.page;$('#catalog-next').disabled=state.page>=pages-1;
     const grid=$('#catalog-grid');grid.replaceChildren();
     if(!rows.length){grid.innerHTML=`<div class="empty-message">${catalogLoaded?'Aucune ressource pour ce filtre.':catalogFailed?'La bibliothèque est indisponible. Les modèles intégrés restent utilisables.':'Chargement de votre bibliothèque…'}</div>`;return;}
     for(const record of rows){
       const button=document.createElement('button');button.className='catalog-card'+(assetSelection?.record===record?' selected':'');button.title=`${record.name||'Ressource'}\n${record.asset_id||assetUri(record)}`;button.draggable=true;
-      const flipbook=animateCatalogFlipbooks&&record.kind==='flipbook'&&[2,4,8].includes(Number(record.grid))&&record.image_path;
+      const layout=flipbookLayout(record),flipbook=animateCatalogFlipbooks&&record.kind==='flipbook'&&layout&&record.image_path;
       const path=catalogPath(record,collection,Boolean(flipbook));
       if(path){
         const image=document.createElement('img');image.loading='lazy';image.alt=record.name||'Aperçu';image.src=path;
-        if(flipbook){const grid=Number(record.grid);image.className='flipbook-preview';image.style.width=image.style.height=(grid*100)+'%';catalogPreviews.push({image,button,grid});}
+        if(flipbook){const {columns,rows}=layout;image.className='flipbook-preview';image.style.width=(columns*100)+'%';image.style.height=(rows*100)+'%';catalogPreviews.push({image,button,columns,rows});}
         image.onerror=()=>{catalogPreviews=catalogPreviews.filter(preview=>preview.image!==image);syncCatalogAnimation();image.remove();const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.prepend(missing);};button.append(image);
       }else{const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.append(missing);}
       const name=document.createElement('span');name.textContent=record.name||record.asset_id||'Ressource';button.append(name);button.onclick=()=>{assetSelection={record,kind:collection};renderCatalog();renderResourceDetail();};button.ondblclick=()=>applyAsset(record,collection);button.ondragstart=e=>{assetSelection={record,kind:collection};e.dataTransfer.setData('application/x-dataky-asset',JSON.stringify({kind:collection,record}));e.dataTransfer.setData('text/plain',assetUri(record));e.dataTransfer.effectAllowed='copy';renderResourceDetail();};grid.append(button);
@@ -392,7 +398,16 @@
       message('Mesh ajouté avec sa géométrie locale.','success');
     }catch(error){message('Import du catalogue : '+error.message,'error');}
   }
-  function applyFlipbook(node,record) {if(record.kind!=='flipbook'){if(record.kind==='static'&&'FlipbookLayout'in node.properties)node.properties.FlipbookLayout='None';return;}const grid=Number(record.grid);if([2,4,8].includes(grid)&&schema.classes.ParticleEmitter?.properties.FlipbookLayout){node.properties.FlipbookLayout='Grid'+grid+'x'+grid;message('Grille '+grid+'×'+grid+' appliquée. Vérifiez son estimation dans le catalogue.');}else message('Flipbook sélectionné : choisissez sa grille dans les propriétés.');}
+  function applyFlipbook(node,record) {
+    if(record.kind!=='flipbook'||record.grid_review_status==='single_image'){if((record.kind==='static'||record.grid_review_status==='single_image')&&'FlipbookLayout'in node.properties)node.properties.FlipbookLayout='None';return;}
+    const layout=flipbookLayout(record),properties=schema.classes.ParticleEmitter?.properties;
+    if(!layout||!properties?.FlipbookLayout)return message('Flipbook sélectionné : choisissez sa grille dans les propriétés.');
+    const {columns,rows}=layout;
+    if(columns===rows&&[2,4,8].includes(columns))node.properties.FlipbookLayout='Grid'+columns+'x'+rows;
+    else if(properties.FlipbookSizeX&&properties.FlipbookSizeY){node.properties.FlipbookLayout='Custom';node.properties.FlipbookSizeX=columns;node.properties.FlipbookSizeY=rows;}
+    else return message('Flipbook sélectionné : choisissez sa grille dans les propriétés.');
+    const verified=record.grid_source==='verified'||record.grid_review_status==='confirmed';message('Grille '+columns+'×'+rows+' appliquée.'+(verified?'':' Vérifiez son estimation dans le catalogue.'));
+  }
   function applyMeshTexture(node,record) {const ref=(record.references||[]).find(r=>/texture/i.test(r.label||r.property||''));const key=node.class==='MeshPart'?'TextureID':'TextureId';if(schema.classes[node.class]?.properties?.[key]){if(Object.hasOwn(record,'primary_texture_uri'))node.properties[key]=record.primary_texture_uri;else if(ref)node.properties[key]=ref.uri||ref.raw_uri||(ref.asset_id?'rbxassetid://'+ref.asset_id:'');}}
 
   function renderTimeline() {

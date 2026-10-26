@@ -262,7 +262,7 @@
   },
   {
     "key": "f82259c014e71474abdcf8a8",
-    "name": "45",
+    "name": "Trait lumineux vertical",
     "asset_id": "12402876219",
     "uri": "rbxassetid://12402876219",
     "id_status": "valid",
@@ -271,7 +271,9 @@
     "raw_uris": [
       "rbxassetid://12402876219"
     ],
-    "aliases": [],
+    "aliases": [
+      "45"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam"
@@ -345,11 +347,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "45",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "493685dee3a72eacf62646f5",
-    "name": "65",
+    "name": "Ruban ondulé translucide",
     "asset_id": "12402893521",
     "uri": "rbxassetid://12402893521",
     "id_status": "valid",
@@ -358,7 +363,9 @@
     "raw_uris": [
       "rbxassetid://12402893521"
     ],
-    "aliases": [],
+    "aliases": [
+      "65"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam"
@@ -432,11 +439,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "65",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "861e6f8921b263caa7f09d8f",
-    "name": "70",
+    "name": "Traînées lumineuses verticales",
     "asset_id": "12402898856",
     "uri": "rbxassetid://12402898856",
     "id_status": "valid",
@@ -445,7 +455,9 @@
     "raw_uris": [
       "rbxassetid://12402898856"
     ],
-    "aliases": [],
+    "aliases": [
+      "70"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam"
@@ -519,11 +531,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "70",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "02ee79bae12365a067aefb33",
-    "name": "74",
+    "name": "Bandes de flammes dentelées",
     "asset_id": "12402901998",
     "uri": "rbxassetid://12402901998",
     "id_status": "valid",
@@ -532,7 +547,9 @@
     "raw_uris": [
       "rbxassetid://12402901998"
     ],
-    "aliases": [],
+    "aliases": [
+      "74"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam"
@@ -606,11 +623,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "74",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cec227085f1210f42e9ddc4a",
-    "name": "75",
+    "name": "Rayon vertical dégradé",
     "asset_id": "12402902689",
     "uri": "rbxassetid://12402902689",
     "id_status": "valid",
@@ -619,7 +639,9 @@
     "raw_uris": [
       "rbxassetid://12402902689"
     ],
-    "aliases": [],
+    "aliases": [
+      "75"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam"
@@ -693,11 +715,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "75",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9d211dbf81a8c3a0d370abcc",
-    "name": "76",
+    "name": "Bande lumineuse horizontale",
     "asset_id": "12402903335",
     "uri": "rbxassetid://12402903335",
     "id_status": "valid",
@@ -706,7 +731,9 @@
     "raw_uris": [
       "rbxassetid://12402903335"
     ],
-    "aliases": [],
+    "aliases": [
+      "76"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam"
@@ -780,11 +807,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 210
+    "height": 210,
+    "original_name": "76",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "dc6e9ec278035097fd657151",
-    "name": "9",
+    "name": "Pointe lumineuse verticale",
     "asset_id": "12386384198",
     "uri": "rbxassetid://12386384198",
     "id_status": "valid",
@@ -793,7 +823,9 @@
     "raw_uris": [
       "rbxassetid://12386384198"
     ],
-    "aliases": [],
+    "aliases": [
+      "9"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam"
@@ -867,7 +899,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "9",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8784230283301398a11936df",
@@ -50667,7 +50702,7 @@
   },
   {
     "key": "f9c29e0da6ec8f792883ec46",
-    "name": "Texture",
+    "name": "Ondes lumineuses horizontales",
     "asset_id": "100073078759889",
     "uri": "rbxassetid://100073078759889",
     "id_status": "valid",
@@ -50676,7 +50711,9 @@
     "raw_uris": [
       "rbxassetid://100073078759889"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -50758,11 +50795,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9883514e327ed204f0536554",
-    "name": "Texture",
+    "name": "Pluie verticale de scintillements",
     "asset_id": "100561149288020",
     "uri": "rbxassetid://100561149288020",
     "id_status": "valid",
@@ -50771,7 +50811,9 @@
     "raw_uris": [
       "rbxassetid://100561149288020"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -50853,11 +50895,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "596bfe5230b1698f0902e491",
-    "name": "Texture",
+    "name": "Éclair vertical lumineux",
     "asset_id": "100657218687787",
     "uri": "rbxassetid://100657218687787",
     "id_status": "valid",
@@ -50866,7 +50911,9 @@
     "raw_uris": [
       "rbxassetid://100657218687787"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -50948,11 +50995,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "12f77cb571c22f527609ce94",
-    "name": "Texture",
+    "name": "Ruban ondulé multicolore",
     "asset_id": "100711747748543",
     "uri": "rbxassetid://100711747748543",
     "id_status": "valid",
@@ -50961,7 +51011,9 @@
     "raw_uris": [
       "rbxassetid://100711747748543"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51043,11 +51095,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4ba1327d404633a0779b2e52",
-    "name": "Texture",
+    "name": "Flammes grises ajourées",
     "asset_id": "100713603433158",
     "uri": "rbxassetid://100713603433158",
     "id_status": "valid",
@@ -51056,7 +51111,9 @@
     "raw_uris": [
       "rbxassetid://100713603433158"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51138,11 +51195,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "61721d72a5d02ce6cede60f5",
-    "name": "Texture",
+    "name": "Courbes irisées sur fond noir",
     "asset_id": "101033982942191",
     "uri": "rbxassetid://101033982942191",
     "id_status": "valid",
@@ -51151,7 +51211,9 @@
     "raw_uris": [
       "rbxassetid://101033982942191"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51233,11 +51295,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "200ad4cfb200de0bf40657bb",
-    "name": "Texture",
+    "name": "Spirale verticale de points",
     "asset_id": "101716048213315",
     "uri": "rbxassetid://101716048213315",
     "id_status": "valid",
@@ -51246,7 +51311,9 @@
     "raw_uris": [
       "rbxassetid://101716048213315"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51328,11 +51395,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "59b6182096a0b39c50252e5e",
-    "name": "Texture",
+    "name": "Colonne de lignes symétriques",
     "asset_id": "101942035914662",
     "uri": "rbxassetid://101942035914662",
     "id_status": "valid",
@@ -51341,7 +51411,9 @@
     "raw_uris": [
       "rbxassetid://101942035914662"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51423,11 +51495,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "233dd367c0b411751f986f0e",
-    "name": "Texture",
+    "name": "Réseau de courbes irisées",
     "asset_id": "102272486381887",
     "uri": "rbxassetid://102272486381887",
     "id_status": "valid",
@@ -51436,7 +51511,9 @@
     "raw_uris": [
       "rbxassetid://102272486381887"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51518,11 +51595,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "91a35a0360c379b01c0be225",
-    "name": "Texture",
+    "name": "Colonne de flammes lumineuses",
     "asset_id": "102509001815851",
     "uri": "rbxassetid://102509001815851",
     "id_status": "valid",
@@ -51531,7 +51611,9 @@
     "raw_uris": [
       "rbxassetid://102509001815851"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51613,11 +51695,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6911455d141081381b20f96a",
-    "name": "Texture",
+    "name": "Bandes verticales rouge vert bleu",
     "asset_id": "102929992237253",
     "uri": "rbxassetid://102929992237253",
     "id_status": "valid",
@@ -51626,7 +51711,9 @@
     "raw_uris": [
       "rbxassetid://102929992237253"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51708,11 +51795,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "23ac739e29eae6f2c36e25a6",
-    "name": "Texture",
+    "name": "Pistes électroniques verticales",
     "asset_id": "103150977942875",
     "uri": "rbxassetid://103150977942875",
     "id_status": "valid",
@@ -51721,7 +51811,9 @@
     "raw_uris": [
       "rbxassetid://103150977942875"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51803,11 +51895,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 185,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5a8077d3e89ec048846a0712",
-    "name": "Texture",
+    "name": "Ruban lumineux torsadé irisé",
     "asset_id": "103321819931943",
     "uri": "rbxassetid://103321819931943",
     "id_status": "valid",
@@ -51816,7 +51911,9 @@
     "raw_uris": [
       "rbxassetid://103321819931943"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51898,11 +51995,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e76c77ed6aaf526bea1f5677",
-    "name": "Texture",
+    "name": "Ondes lumineuses en zigzag",
     "asset_id": "104302749850957",
     "uri": "rbxassetid://104302749850957",
     "id_status": "valid",
@@ -51911,7 +52011,9 @@
     "raw_uris": [
       "rbxassetid://104302749850957"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -51993,11 +52095,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b4ac78d51965e0ff7f20ae88",
-    "name": "Texture",
+    "name": "Bloc de code sur noir",
     "asset_id": "104393261942312",
     "uri": "rbxassetid://104393261942312",
     "id_status": "valid",
@@ -52006,7 +52111,9 @@
     "raw_uris": [
       "rbxassetid://104393261942312"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52088,11 +52195,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "29c67a9d07c8b68d53254c2c",
-    "name": "Texture",
+    "name": "Rideau de traits lumineux",
     "asset_id": "104607543410146",
     "uri": "rbxassetid://104607543410146",
     "id_status": "valid",
@@ -52101,7 +52211,9 @@
     "raw_uris": [
       "rbxassetid://104607543410146"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52183,11 +52295,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0b5b6e3c13f03bfd81dd375a",
-    "name": "Texture",
+    "name": "Bande blanche aux bords déchirés",
     "asset_id": "105117753061718",
     "uri": "rbxassetid://105117753061718",
     "id_status": "valid",
@@ -52196,7 +52311,9 @@
     "raw_uris": [
       "rbxassetid://105117753061718"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52278,11 +52395,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9912aee9923f29e4bc94fb6e",
-    "name": "Texture",
+    "name": "Lignes lumineuses horizontales",
     "asset_id": "105540823735649",
     "uri": "rbxassetid://105540823735649",
     "id_status": "valid",
@@ -52291,7 +52411,9 @@
     "raw_uris": [
       "rbxassetid://105540823735649"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52373,11 +52495,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d29c7762c8fff8fd5b78fa9a",
-    "name": "Texture",
+    "name": "Boucles verticales irisées · 691229",
     "asset_id": "105597280691229",
     "uri": "rbxassetid://105597280691229",
     "id_status": "valid",
@@ -52386,7 +52511,9 @@
     "raw_uris": [
       "rbxassetid://105597280691229"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52468,11 +52595,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3262e5cac3c7ddc07865495e",
-    "name": "Texture",
+    "name": "Bande blanche à encoches",
     "asset_id": "105738573121156",
     "uri": "rbxassetid://105738573121156",
     "id_status": "valid",
@@ -52481,7 +52611,9 @@
     "raw_uris": [
       "rbxassetid://105738573121156"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52563,11 +52695,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4aeb0b7f9121faca18dc7ed2",
-    "name": "Texture",
+    "name": "Colonne de flammes grises",
     "asset_id": "105813825073054",
     "uri": "rbxassetid://105813825073054",
     "id_status": "valid",
@@ -52576,7 +52711,9 @@
     "raw_uris": [
       "rbxassetid://105813825073054"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52658,11 +52795,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "328f03cbac2655b263ea26bd",
-    "name": "Texture",
+    "name": "Bande ondulée de chiffres",
     "asset_id": "106320400746818",
     "uri": "rbxassetid://106320400746818",
     "id_status": "valid",
@@ -52671,7 +52811,9 @@
     "raw_uris": [
       "rbxassetid://106320400746818"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52753,11 +52895,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "99c75a1d8c87646ab6e789a7",
-    "name": "Texture",
+    "name": "Voile de filaments lumineux",
     "asset_id": "106791431460439",
     "uri": "rbxassetid://106791431460439",
     "id_status": "valid",
@@ -52766,7 +52911,9 @@
     "raw_uris": [
       "rbxassetid://106791431460439"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52848,11 +52995,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3dc91281dfd10801d964b0d6",
-    "name": "Texture",
+    "name": "Trait vertical irisé",
     "asset_id": "107220424413820",
     "uri": "rbxassetid://107220424413820",
     "id_status": "valid",
@@ -52861,7 +53011,9 @@
     "raw_uris": [
       "rbxassetid://107220424413820"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -52943,11 +53095,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 53,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a03b7f06c87e006e04b56d4d",
-    "name": "Texture",
+    "name": "Éclairs verticaux épais",
     "asset_id": "107344442102626",
     "uri": "rbxassetid://107344442102626",
     "id_status": "valid",
@@ -52956,7 +53111,9 @@
     "raw_uris": [
       "rbxassetid://107344442102626"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53038,11 +53195,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "163e042d40ebc3d76b4d6994",
-    "name": "Texture",
+    "name": "Colonne de carrés lumineux",
     "asset_id": "107675169564728",
     "uri": "rbxassetid://107675169564728",
     "id_status": "valid",
@@ -53051,7 +53211,9 @@
     "raw_uris": [
       "rbxassetid://107675169564728"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53133,11 +53295,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c4dfb9bc6edbb78aab7770c5",
-    "name": "Texture",
+    "name": "Bande torsadée arc-en-ciel",
     "asset_id": "107678035040794",
     "uri": "rbxassetid://107678035040794",
     "id_status": "valid",
@@ -53146,7 +53311,9 @@
     "raw_uris": [
       "rbxassetid://107678035040794"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53228,11 +53395,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f1cada18e60d76123379c8fe",
-    "name": "Texture",
+    "name": "Voile lumineux horizontal",
     "asset_id": "108095765757468",
     "uri": "rbxassetid://108095765757468",
     "id_status": "valid",
@@ -53241,7 +53411,9 @@
     "raw_uris": [
       "rbxassetid://108095765757468"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53323,11 +53495,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d25d2b352363ba950e26ebee",
-    "name": "Texture",
+    "name": "Bande lumineuse dentelée",
     "asset_id": "108931244146014",
     "uri": "rbxassetid://108931244146014",
     "id_status": "valid",
@@ -53336,7 +53511,9 @@
     "raw_uris": [
       "rbxassetid://108931244146014"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53418,11 +53595,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e4fa959ea4e1921f329f29d7",
-    "name": "Texture",
+    "name": "Ruban de fragments irisés",
     "asset_id": "109651700200464",
     "uri": "rbxassetid://109651700200464",
     "id_status": "valid",
@@ -53431,7 +53611,9 @@
     "raw_uris": [
       "rbxassetid://109651700200464"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53513,11 +53695,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ead19990e87ac7935228dce7",
-    "name": "Texture",
+    "name": "Bande blanche déchirée",
     "asset_id": "109860440398956",
     "uri": "rbxassetid://109860440398956",
     "id_status": "valid",
@@ -53526,7 +53711,9 @@
     "raw_uris": [
       "rbxassetid://109860440398956"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53608,11 +53795,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2672df0b999007981ad1152a",
-    "name": "Texture",
+    "name": "Bande de flammes argentées",
     "asset_id": "110014039074550",
     "uri": "rbxassetid://110014039074550",
     "id_status": "valid",
@@ -53621,7 +53811,9 @@
     "raw_uris": [
       "rbxassetid://110014039074550"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53703,11 +53895,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "715e940be179b4c29e789188",
-    "name": "Texture",
+    "name": "Colonne de petits scintillements",
     "asset_id": "110232424748123",
     "uri": "rbxassetid://110232424748123",
     "id_status": "valid",
@@ -53716,7 +53911,9 @@
     "raw_uris": [
       "rbxassetid://110232424748123"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53798,11 +53995,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "518877671cb2ae34988978f6",
-    "name": "Texture",
+    "name": "Trait blanc ondulé",
     "asset_id": "110450349483923",
     "uri": "rbxassetid://110450349483923",
     "id_status": "valid",
@@ -53811,7 +54011,9 @@
     "raw_uris": [
       "rbxassetid://110450349483923"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53893,11 +54095,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "feb1b54fc49910dadc3a9f12",
-    "name": "Texture",
+    "name": "Ruban vaporeux en spirale",
     "asset_id": "110572573275657",
     "uri": "rbxassetid://110572573275657",
     "id_status": "valid",
@@ -53906,7 +54111,9 @@
     "raw_uris": [
       "rbxassetid://110572573275657"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -53988,11 +54195,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "903f805df65bcc3c16c0b5cc",
-    "name": "Texture",
+    "name": "Lignes blanches horizontales brouillées",
     "asset_id": "110594755995773",
     "uri": "rbxassetid://110594755995773",
     "id_status": "valid",
@@ -54001,7 +54211,9 @@
     "raw_uris": [
       "rbxassetid://110594755995773"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54083,11 +54295,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 129
+    "height": 129,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2a0c08abd54a847ece709fd4",
-    "name": "Texture",
+    "name": "Colonne de flammes dessinées",
     "asset_id": "110730527044263",
     "uri": "rbxassetid://110730527044263",
     "id_status": "valid",
@@ -54096,7 +54311,9 @@
     "raw_uris": [
       "rbxassetid://110730527044263"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54178,11 +54395,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c42cce95c8dff86c5dde400d",
-    "name": "Texture",
+    "name": "Ruban de fragments prismatiques",
     "asset_id": "110744378277834",
     "uri": "rbxassetid://110744378277834",
     "id_status": "valid",
@@ -54191,7 +54411,9 @@
     "raw_uris": [
       "rbxassetid://110744378277834"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54273,11 +54495,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5fccaed69e7e452699ddecd9",
-    "name": "Texture",
+    "name": "Traînée verticale vaporeuse",
     "asset_id": "110993479856364",
     "uri": "rbxassetid://110993479856364",
     "id_status": "valid",
@@ -54286,7 +54511,9 @@
     "raw_uris": [
       "rbxassetid://110993479856364"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54369,11 +54596,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4323601de12d96ed4f366b3d",
-    "name": "Texture",
+    "name": "Chevrons blancs superposés",
     "asset_id": "111097371031802",
     "uri": "rbxassetid://111097371031802",
     "id_status": "valid",
@@ -54382,7 +54612,9 @@
     "raw_uris": [
       "rbxassetid://111097371031802"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54464,11 +54696,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1cb0db94aeff602763725e4f",
-    "name": "Texture",
+    "name": "Éclair blanc à bord noir",
     "asset_id": "111944633739861",
     "uri": "rbxassetid://111944633739861",
     "id_status": "valid",
@@ -54477,7 +54712,9 @@
     "raw_uris": [
       "rbxassetid://111944633739861"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54559,11 +54796,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e8dabb07c17c0aa14ab96908",
-    "name": "Texture",
+    "name": "Petits scintillements centraux",
     "asset_id": "112646097373763",
     "uri": "rbxassetid://112646097373763",
     "id_status": "valid",
@@ -54572,7 +54812,9 @@
     "raw_uris": [
       "rbxassetid://112646097373763"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54654,11 +54896,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a27d8d883ee57c642685ccfe",
-    "name": "Texture",
+    "name": "Rideau de traits horizontaux",
     "asset_id": "113106277578622",
     "uri": "rbxassetid://113106277578622",
     "id_status": "valid",
@@ -54667,7 +54912,9 @@
     "raw_uris": [
       "rbxassetid://113106277578622"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54749,11 +54996,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "36bf0ae8b45c3c5798e21e32",
-    "name": "Texture",
+    "name": "Bande ondulée aux bords irisés",
     "asset_id": "113500600607845",
     "uri": "rbxassetid://113500600607845",
     "id_status": "valid",
@@ -54762,7 +55012,9 @@
     "raw_uris": [
       "rbxassetid://113500600607845"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54844,11 +55096,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3272a5064fc711d3146f9511",
-    "name": "Texture",
+    "name": "Colonne de particules sur noir",
     "asset_id": "114073678433507",
     "uri": "rbxassetid://114073678433507",
     "id_status": "valid",
@@ -54857,7 +55112,9 @@
     "raw_uris": [
       "rbxassetid://114073678433507"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -54939,11 +55196,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 282,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f2c866de1997c98e6aeb7ac6",
-    "name": "Texture",
+    "name": "Pluie de petits scintillements",
     "asset_id": "114301345333581",
     "uri": "rbxassetid://114301345333581",
     "id_status": "valid",
@@ -54952,7 +55212,9 @@
     "raw_uris": [
       "rbxassetid://114301345333581"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55034,11 +55296,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "450911c64c433cfe1451752f",
-    "name": "Texture",
+    "name": "Colonne de volutes symétriques",
     "asset_id": "114556864641053",
     "uri": "rbxassetid://114556864641053",
     "id_status": "valid",
@@ -55047,7 +55312,9 @@
     "raw_uris": [
       "rbxassetid://114556864641053"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55129,11 +55396,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4c4dc0a04e4ff655bd531722",
-    "name": "Texture",
+    "name": "Ruban ondulé gris translucide",
     "asset_id": "115093464608937",
     "uri": "rbxassetid://115093464608937",
     "id_status": "valid",
@@ -55142,7 +55412,9 @@
     "raw_uris": [
       "rbxassetid://115093464608937"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55224,11 +55496,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d9583cae949ce47e9a5fa4cf",
-    "name": "Texture",
+    "name": "Éclair vertical sur fond noir",
     "asset_id": "115140022315028",
     "uri": "rbxassetid://115140022315028",
     "id_status": "valid",
@@ -55237,7 +55512,9 @@
     "raw_uris": [
       "rbxassetid://115140022315028"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55319,11 +55596,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c0830d1878f1871cc9131d21",
-    "name": "Texture",
+    "name": "Larges bandes diagonales blanches",
     "asset_id": "116218166180864",
     "uri": "rbxassetid://116218166180864",
     "id_status": "valid",
@@ -55332,7 +55612,9 @@
     "raw_uris": [
       "rbxassetid://116218166180864"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55414,11 +55696,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b47e88b8957338854e35e9b3",
-    "name": "Texture",
+    "name": "Bande sombre au contour blanc",
     "asset_id": "116777065359603",
     "uri": "rbxassetid://116777065359603",
     "id_status": "valid",
@@ -55427,7 +55712,9 @@
     "raw_uris": [
       "rbxassetid://116777065359603"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55509,11 +55796,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 236,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "dfa2dc2e0fab05df8cc73208",
-    "name": "Texture",
+    "name": "Colonnes grises aux bords noirs",
     "asset_id": "116836106897410",
     "uri": "rbxassetid://116836106897410",
     "id_status": "valid",
@@ -55522,7 +55812,9 @@
     "raw_uris": [
       "rbxassetid://116836106897410"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55604,11 +55896,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0c32c6ea705982d3d34e3645",
-    "name": "Texture",
+    "name": "Lignes blanches angulaires verticales",
     "asset_id": "117697269089448",
     "uri": "rbxassetid://117697269089448",
     "id_status": "valid",
@@ -55617,7 +55912,9 @@
     "raw_uris": [
       "rbxassetid://117697269089448"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55699,11 +55996,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "81bc2f554c280b3b15fac208",
-    "name": "Texture",
+    "name": "Colonne de petites volutes",
     "asset_id": "117719484260984",
     "uri": "rbxassetid://117719484260984",
     "id_status": "valid",
@@ -55712,7 +56012,9 @@
     "raw_uris": [
       "rbxassetid://117719484260984"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55794,11 +56096,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "11e74c9e72c48f228bcf56b5",
-    "name": "Texture",
+    "name": "Bande rocheuse grise",
     "asset_id": "117746935350326",
     "uri": "rbxassetid://117746935350326",
     "id_status": "valid",
@@ -55807,7 +56112,9 @@
     "raw_uris": [
       "rbxassetid://117746935350326"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55889,11 +56196,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b35d1fad27f094f37adcc3d0",
-    "name": "Texture",
+    "name": "Bande de fragments irisés",
     "asset_id": "117866458751737",
     "uri": "rbxassetid://117866458751737",
     "id_status": "valid",
@@ -55902,7 +56212,9 @@
     "raw_uris": [
       "rbxassetid://117866458751737"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -55984,11 +56296,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "567fde7b2d457503686c5a59",
-    "name": "Texture",
+    "name": "Motif lumineux doré symétrique",
     "asset_id": "118839580577775",
     "uri": "rbxassetid://118839580577775",
     "id_status": "valid",
@@ -55997,7 +56312,9 @@
     "raw_uris": [
       "rbxassetid://118839580577775"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56079,11 +56396,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bbdad713b419b930e4e879bc",
-    "name": "Texture",
+    "name": "Colonne de brume lumineuse",
     "asset_id": "119005706329424",
     "uri": "rbxassetid://119005706329424",
     "id_status": "valid",
@@ -56092,7 +56412,9 @@
     "raw_uris": [
       "rbxassetid://119005706329424"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56174,11 +56496,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2a43334d9685c91ef0758a32",
-    "name": "Texture",
+    "name": "Traînée horizontale multicolore",
     "asset_id": "120169495280156",
     "uri": "rbxassetid://120169495280156",
     "id_status": "valid",
@@ -56187,7 +56512,9 @@
     "raw_uris": [
       "rbxassetid://120169495280156"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56269,11 +56596,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9b8566a3ef0613d4c93faf52",
-    "name": "Texture",
+    "name": "Bandes diagonales de pointes lumineuses",
     "asset_id": "120189800742673",
     "uri": "rbxassetid://120189800742673",
     "id_status": "valid",
@@ -56282,7 +56612,9 @@
     "raw_uris": [
       "rbxassetid://120189800742673"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56364,11 +56696,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6c9bdf396fe93693feaafcd8",
-    "name": "Texture",
+    "name": "Rideau de traits verticaux",
     "asset_id": "120892912687696",
     "uri": "rbxassetid://120892912687696",
     "id_status": "valid",
@@ -56377,7 +56712,9 @@
     "raw_uris": [
       "rbxassetid://120892912687696"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56459,11 +56796,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "66d32de80b33976d0c5ac4a8",
-    "name": "Texture",
+    "name": "Ruban lumineux en S",
     "asset_id": "121071786089554",
     "uri": "rbxassetid://121071786089554",
     "id_status": "valid",
@@ -56472,7 +56812,9 @@
     "raw_uris": [
       "rbxassetid://121071786089554"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56554,11 +56896,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d26e589108398a10c5811215",
-    "name": "Texture",
+    "name": "Bande vaporeuse lumineuse",
     "asset_id": "121341522414317",
     "uri": "rbxassetid://121341522414317",
     "id_status": "valid",
@@ -56567,7 +56912,9 @@
     "raw_uris": [
       "rbxassetid://121341522414317"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56650,11 +56997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1acd470bab68c0545cbea455",
-    "name": "Texture",
+    "name": "Colonne de scintillements étoilés",
     "asset_id": "121384059147159",
     "uri": "rbxassetid://121384059147159",
     "id_status": "valid",
@@ -56663,7 +57013,9 @@
     "raw_uris": [
       "rbxassetid://121384059147159"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56745,11 +57097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2ee753d49dd9147bab626a71",
-    "name": "Texture",
+    "name": "Traits blancs filants horizontaux",
     "asset_id": "121391031117815",
     "uri": "rbxassetid://121391031117815",
     "id_status": "valid",
@@ -56758,7 +57113,9 @@
     "raw_uris": [
       "rbxassetid://121391031117815"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56840,11 +57197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f9afe71cbd6b7a4c4cd94bc8",
-    "name": "Texture",
+    "name": "Traits lumineux horizontaux dorés",
     "asset_id": "121817950556742",
     "uri": "rbxassetid://121817950556742",
     "id_status": "valid",
@@ -56853,7 +57213,9 @@
     "raw_uris": [
       "rbxassetid://121817950556742"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -56935,11 +57297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 293,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2a636dcd2546f20000698054",
-    "name": "Texture",
+    "name": "Flammes blanches torsadées",
     "asset_id": "122926129309529",
     "uri": "rbxassetid://122926129309529",
     "id_status": "valid",
@@ -56948,7 +57313,9 @@
     "raw_uris": [
       "rbxassetid://122926129309529"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57030,11 +57397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0adbc0c5305d2cbea9650348",
-    "name": "Texture",
+    "name": "Ruban vertical de fumée",
     "asset_id": "123701591675246",
     "uri": "rbxassetid://123701591675246",
     "id_status": "valid",
@@ -57043,7 +57413,9 @@
     "raw_uris": [
       "rbxassetid://123701591675246"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57125,11 +57497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5e01f4043cefd9b3bc16fc5",
-    "name": "Texture",
+    "name": "Ruban vertical lumineux en S",
     "asset_id": "124592250389698",
     "uri": "rbxassetid://124592250389698",
     "id_status": "valid",
@@ -57138,7 +57513,9 @@
     "raw_uris": [
       "rbxassetid://124592250389698"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57220,11 +57597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "166d8384bc50b8400735baa4",
-    "name": "Texture",
+    "name": "Bande blanche aux bords crénelés",
     "asset_id": "124880490716591",
     "uri": "rbxassetid://124880490716591",
     "id_status": "valid",
@@ -57233,7 +57613,9 @@
     "raw_uris": [
       "rbxassetid://124880490716591"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57315,11 +57697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f16038241cf9a16088333f52",
-    "name": "Texture",
+    "name": "Colonne de taches blanches",
     "asset_id": "124941742306930",
     "uri": "rbxassetid://124941742306930",
     "id_status": "valid",
@@ -57328,7 +57713,9 @@
     "raw_uris": [
       "rbxassetid://124941742306930"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57410,11 +57797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "accf3351e50de60ec7216f61",
-    "name": "Texture",
+    "name": "Contours blancs ondulés symétriques",
     "asset_id": "125098541718966",
     "uri": "rbxassetid://125098541718966",
     "id_status": "valid",
@@ -57423,7 +57813,9 @@
     "raw_uris": [
       "rbxassetid://125098541718966"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57505,11 +57897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5897eb859a1586fbd27905a1",
-    "name": "Texture",
+    "name": "Flamme sombre bordée de blanc",
     "asset_id": "125132040997790",
     "uri": "rbxassetid://125132040997790",
     "id_status": "valid",
@@ -57518,7 +57913,9 @@
     "raw_uris": [
       "rbxassetid://125132040997790"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57600,11 +57997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9c79f61b9461cbc0b502cadc",
-    "name": "Texture",
+    "name": "Bande verticale striée grise",
     "asset_id": "125229879559634",
     "uri": "rbxassetid://125229879559634",
     "id_status": "valid",
@@ -57613,7 +58013,9 @@
     "raw_uris": [
       "rbxassetid://125229879559634"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57695,11 +58097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 231,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "029bb32e3b6eb2a4ee227a21",
-    "name": "Texture",
+    "name": "Colonne de pointes blanches",
     "asset_id": "126636573173852",
     "uri": "rbxassetid://126636573173852",
     "id_status": "valid",
@@ -57708,7 +58113,9 @@
     "raw_uris": [
       "rbxassetid://126636573173852"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57790,11 +58197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "448dca4e459778b9abd9799c",
-    "name": "Texture",
+    "name": "Bandes horizontales de brume",
     "asset_id": "127211627009566",
     "uri": "rbxassetid://127211627009566",
     "id_status": "valid",
@@ -57803,7 +58213,9 @@
     "raw_uris": [
       "rbxassetid://127211627009566"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57885,11 +58297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0e3dc44e4ee5de2f2d398691",
-    "name": "Texture",
+    "name": "Bande verticale irisée fragmentée",
     "asset_id": "127644217050149",
     "uri": "rbxassetid://127644217050149",
     "id_status": "valid",
@@ -57898,7 +58313,9 @@
     "raw_uris": [
       "rbxassetid://127644217050149"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -57980,11 +58397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 231,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "da5753241d695e88180e7aa7",
-    "name": "Texture",
+    "name": "Éclair blanc aux bords noirs",
     "asset_id": "128156628052765",
     "uri": "rbxassetid://128156628052765",
     "id_status": "valid",
@@ -57993,7 +58413,9 @@
     "raw_uris": [
       "rbxassetid://128156628052765"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58075,11 +58497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9aed6546ca85b5f700a6fd90",
-    "name": "Texture",
+    "name": "Large bande de flammes blanches",
     "asset_id": "128948128745120",
     "uri": "rbxassetid://128948128745120",
     "id_status": "valid",
@@ -58088,7 +58513,9 @@
     "raw_uris": [
       "rbxassetid://128948128745120"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58170,11 +58597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "64a64c85c89cd84800dfd24b",
-    "name": "Texture",
+    "name": "Fente noire verticale",
     "asset_id": "129565493703743",
     "uri": "rbxassetid://129565493703743",
     "id_status": "valid",
@@ -58183,7 +58613,9 @@
     "raw_uris": [
       "rbxassetid://129565493703743"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58265,11 +58697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "515bbd16ae062a847d14d83a",
-    "name": "Texture",
+    "name": "Rubans torsadés arc-en-ciel",
     "asset_id": "129753759007415",
     "uri": "rbxassetid://129753759007415",
     "id_status": "valid",
@@ -58278,7 +58713,9 @@
     "raw_uris": [
       "rbxassetid://129753759007415"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58360,11 +58797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 287,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d2d88fa8f6633d7837d0ece5",
-    "name": "Texture",
+    "name": "Bande blanche à bords hachurés",
     "asset_id": "129879456182581",
     "uri": "rbxassetid://129879456182581",
     "id_status": "valid",
@@ -58373,7 +58813,9 @@
     "raw_uris": [
       "rbxassetid://129879456182581"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58455,11 +58897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3bdb9bab4d7636de8904cd1f",
-    "name": "Texture",
+    "name": "Faisceau blanc évasé en dégradé",
     "asset_id": "129995653062560",
     "uri": "rbxassetid://129995653062560",
     "id_status": "valid",
@@ -58468,7 +58913,9 @@
     "raw_uris": [
       "rbxassetid://129995653062560"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58550,11 +58997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cd56e9a44d6692ebeb643f55",
-    "name": "Texture",
+    "name": "Grandes volutes lumineuses blanches",
     "asset_id": "130391648086897",
     "uri": "rbxassetid://130391648086897",
     "id_status": "valid",
@@ -58563,7 +59013,9 @@
     "raw_uris": [
       "rbxassetid://130391648086897"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58645,11 +59097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 315,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5e55f1c2ba533d4031f08e3",
-    "name": "Texture",
+    "name": "Ruban de fumée en S",
     "asset_id": "130446276829810",
     "uri": "rbxassetid://130446276829810",
     "id_status": "valid",
@@ -58658,7 +59113,9 @@
     "raw_uris": [
       "rbxassetid://130446276829810"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58740,11 +59197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d451883c68579c4518bc2fbb",
-    "name": "Texture",
+    "name": "Bandes tribales courbes blanches",
     "asset_id": "130457484548532",
     "uri": "rbxassetid://130457484548532",
     "id_status": "valid",
@@ -58753,7 +59213,9 @@
     "raw_uris": [
       "rbxassetid://130457484548532"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58835,11 +59297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6f09aacb99e86a6bf99d6f82",
-    "name": "Texture",
+    "name": "Motif lumineux bleu et or",
     "asset_id": "131003089789214",
     "uri": "rbxassetid://131003089789214",
     "id_status": "valid",
@@ -58848,7 +59313,9 @@
     "raw_uris": [
       "rbxassetid://131003089789214"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -58930,11 +59397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0627ff94a33cde91dab44e7d",
-    "name": "Texture",
+    "name": "Bande blanche fortement dentelée",
     "asset_id": "131069691699670",
     "uri": "rbxassetid://131069691699670",
     "id_status": "valid",
@@ -58943,7 +59413,9 @@
     "raw_uris": [
       "rbxassetid://131069691699670"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59025,11 +59497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f78c7714ad1812a09b7ba3e8",
-    "name": "Texture",
+    "name": "Ruban vaporeux torsadé",
     "asset_id": "131143346105265",
     "uri": "rbxassetid://131143346105265",
     "id_status": "valid",
@@ -59038,7 +59513,9 @@
     "raw_uris": [
       "rbxassetid://131143346105265"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59120,11 +59597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e2b7f645d8d0c0fb6b602dbe",
-    "name": "Texture",
+    "name": "Éclair horizontal ramifié",
     "asset_id": "131418481418779",
     "uri": "rbxassetid://131418481418779",
     "id_status": "valid",
@@ -59133,7 +59613,9 @@
     "raw_uris": [
       "rbxassetid://131418481418779"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59215,11 +59697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4a0a6b717d0cbbb360a6be3f",
-    "name": "Texture",
+    "name": "Jet blanc ondulé avec éclaboussures",
     "asset_id": "131553392638206",
     "uri": "rbxassetid://131553392638206",
     "id_status": "valid",
@@ -59228,7 +59713,9 @@
     "raw_uris": [
       "rbxassetid://131553392638206"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59310,11 +59797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 280,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1d6a5e7e5d265db5ccd74cbc",
-    "name": "Texture",
+    "name": "Texte répété en colonne",
     "asset_id": "131904769989531",
     "uri": "rbxassetid://131904769989531",
     "id_status": "valid",
@@ -59323,7 +59813,9 @@
     "raw_uris": [
       "rbxassetid://131904769989531"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59405,11 +59897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 237,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5be545967e56bfa21ea3e05c",
-    "name": "Texture",
+    "name": "Vagues lumineuses horizontales",
     "asset_id": "132469871647298",
     "uri": "rbxassetid://132469871647298",
     "id_status": "valid",
@@ -59418,7 +59913,9 @@
     "raw_uris": [
       "rbxassetid://132469871647298"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59500,11 +59997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 280
+    "height": 280,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5e139fd510b0997345bce0c1",
-    "name": "Texture",
+    "name": "Éclair horizontal épais",
     "asset_id": "133005284958447",
     "uri": "rbxassetid://133005284958447",
     "id_status": "valid",
@@ -59513,7 +60013,9 @@
     "raw_uris": [
       "rbxassetid://133005284958447"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59595,11 +60097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 210
+    "height": 210,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6e4c58c153774b16a4e27cb9",
-    "name": "Texture",
+    "name": "Colonne de fumée sombre",
     "asset_id": "133564787795072",
     "uri": "rbxassetid://133564787795072",
     "id_status": "valid",
@@ -59608,7 +60113,9 @@
     "raw_uris": [
       "rbxassetid://133564787795072"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59690,11 +60197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1769d1eb6f59514a650426f7",
-    "name": "Texture",
+    "name": "Colonnes de chiffres sur noir",
     "asset_id": "133631225599887",
     "uri": "rbxassetid://133631225599887",
     "id_status": "valid",
@@ -59703,7 +60213,9 @@
     "raw_uris": [
       "rbxassetid://133631225599887"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59785,11 +60297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "efd99b8b021309c1569c4746",
-    "name": "Texture",
+    "name": "Ruban vertical de lumière torsadée",
     "asset_id": "133752892201347",
     "uri": "rbxassetid://133752892201347",
     "id_status": "valid",
@@ -59798,7 +60313,9 @@
     "raw_uris": [
       "rbxassetid://133752892201347"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59880,11 +60397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f8e4ad68f0d765e1cf443caf",
-    "name": "Texture",
+    "name": "Large éclair blanc bordé de noir",
     "asset_id": "134011837162445",
     "uri": "rbxassetid://134011837162445",
     "id_status": "valid",
@@ -59893,7 +60413,9 @@
     "raw_uris": [
       "rbxassetid://134011837162445"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -59975,11 +60497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1d16ea300240206c8909eaf3",
-    "name": "Texture",
+    "name": "Bande noire aux bords irisés",
     "asset_id": "134095631127258",
     "uri": "rbxassetid://134095631127258",
     "id_status": "valid",
@@ -59988,7 +60513,9 @@
     "raw_uris": [
       "rbxassetid://134095631127258"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60070,11 +60597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d3088cb0d96dd50e67dae959",
-    "name": "Texture",
+    "name": "Colonne de lumière sinueuse",
     "asset_id": "134527502083009",
     "uri": "rbxassetid://134527502083009",
     "id_status": "valid",
@@ -60083,7 +60613,9 @@
     "raw_uris": [
       "rbxassetid://134527502083009"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60165,11 +60697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ec6ed1c051611d9ff27c9946",
-    "name": "Texture",
+    "name": "Ligne électrique horizontale blanche",
     "asset_id": "134832735981901",
     "uri": "rbxassetid://134832735981901",
     "id_status": "valid",
@@ -60178,7 +60713,9 @@
     "raw_uris": [
       "rbxassetid://134832735981901"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60260,11 +60797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ed359a94e2695b62c25993a4",
-    "name": "Texture",
+    "name": "Rideau de fumée lumineuse",
     "asset_id": "134860892123286",
     "uri": "rbxassetid://134860892123286",
     "id_status": "valid",
@@ -60273,7 +60813,9 @@
     "raw_uris": [
       "rbxassetid://134860892123286"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60355,11 +60897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 315,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b62771e3e20121abc11e1561",
-    "name": "Texture",
+    "name": "Peigne de traits horizontaux",
     "asset_id": "134948744441093",
     "uri": "rbxassetid://134948744441093",
     "id_status": "valid",
@@ -60368,7 +60913,9 @@
     "raw_uris": [
       "rbxassetid://134948744441093"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60450,11 +60997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 293,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b85e3f8b2fcdc9d25dcd7fb8",
-    "name": "Texture",
+    "name": "Frange de lumière descendante",
     "asset_id": "135104552956691",
     "uri": "rbxassetid://135104552956691",
     "id_status": "valid",
@@ -60463,7 +61013,9 @@
     "raw_uris": [
       "rbxassetid://135104552956691"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60545,11 +61097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f970e7ab18dc485d5d8375bd",
-    "name": "Texture",
+    "name": "Colonne blanche hachurée",
     "asset_id": "135299559434836",
     "uri": "rbxassetid://135299559434836",
     "id_status": "valid",
@@ -60558,7 +61113,9 @@
     "raw_uris": [
       "rbxassetid://135299559434836"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60640,11 +61197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6cdf621554f5919427d7a84e",
-    "name": "Texture",
+    "name": "Lignes anguleuses parallèles",
     "asset_id": "135522487559371",
     "uri": "rbxassetid://135522487559371",
     "id_status": "valid",
@@ -60653,7 +61213,9 @@
     "raw_uris": [
       "rbxassetid://135522487559371"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60735,11 +61297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e5342d74957d1d4d763419ed",
-    "name": "Texture",
+    "name": "Flamme blanche verticale",
     "asset_id": "135725553791438",
     "uri": "rbxassetid://135725553791438",
     "id_status": "valid",
@@ -60748,7 +61313,9 @@
     "raw_uris": [
       "rbxassetid://135725553791438"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60830,11 +61397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "192c8e107fd25503f04d41c0",
-    "name": "Texture",
+    "name": "Réseau lumineux ramifié",
     "asset_id": "135843771321196",
     "uri": "rbxassetid://135843771321196",
     "id_status": "valid",
@@ -60843,7 +61413,9 @@
     "raw_uris": [
       "rbxassetid://135843771321196"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -60925,11 +61497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "91583a616db82d4879f4b65f",
-    "name": "Texture",
+    "name": "Volutes blanches ascendantes",
     "asset_id": "135929107101577",
     "uri": "rbxassetid://135929107101577",
     "id_status": "valid",
@@ -60938,7 +61513,9 @@
     "raw_uris": [
       "rbxassetid://135929107101577"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61020,11 +61597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0ede53bd7afe96083b41101b",
-    "name": "Texture",
+    "name": "Ruban vertical irisé",
     "asset_id": "136193784169987",
     "uri": "rbxassetid://136193784169987",
     "id_status": "valid",
@@ -61033,7 +61613,9 @@
     "raw_uris": [
       "rbxassetid://136193784169987"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61115,11 +61697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "81523fe350333913c5a68721",
-    "name": "Texture",
+    "name": "Ruban blanc torsadé",
     "asset_id": "136250878156996",
     "uri": "rbxassetid://136250878156996",
     "id_status": "valid",
@@ -61128,7 +61713,9 @@
     "raw_uris": [
       "rbxassetid://136250878156996"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61210,11 +61797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 236,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7f0fcdb8ea724df09f738350",
-    "name": "Texture",
+    "name": "Deux rubans noirs et blancs",
     "asset_id": "136924338465402",
     "uri": "rbxassetid://136924338465402",
     "id_status": "valid",
@@ -61223,7 +61813,9 @@
     "raw_uris": [
       "rbxassetid://136924338465402"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61305,11 +61897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9f65dadac3cd68d9a0cba8fa",
-    "name": "Texture",
+    "name": "Colonne de fumée blanche",
     "asset_id": "136968294940275",
     "uri": "rbxassetid://136968294940275",
     "id_status": "valid",
@@ -61318,7 +61913,9 @@
     "raw_uris": [
       "rbxassetid://136968294940275"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61400,11 +61997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f0441590f986365bb6977879",
-    "name": "Texture",
+    "name": "Tresse verticale filaire",
     "asset_id": "136973575773549",
     "uri": "rbxassetid://136973575773549",
     "id_status": "valid",
@@ -61413,7 +62013,9 @@
     "raw_uris": [
       "rbxassetid://136973575773549"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61495,11 +62097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5100eaf20e41d26dd8ba36ea",
-    "name": "Texture",
+    "name": "Traits horizontaux gris effilés",
     "asset_id": "137068575959438",
     "uri": "rbxassetid://137068575959438",
     "id_status": "valid",
@@ -61508,7 +62113,9 @@
     "raw_uris": [
       "rbxassetid://137068575959438"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61590,11 +62197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "05ab4f04058fdbab8efe13e9",
-    "name": "Texture",
+    "name": "Deux volutes verticales fines",
     "asset_id": "137286320829908",
     "uri": "rbxassetid://137286320829908",
     "id_status": "valid",
@@ -61603,7 +62213,9 @@
     "raw_uris": [
       "rbxassetid://137286320829908"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61685,11 +62297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3fb84e4507c6dd6544beaec4",
-    "name": "Texture",
+    "name": "Impact tramé noir et blanc",
     "asset_id": "137627361366303",
     "uri": "rbxassetid://137627361366303",
     "id_status": "valid",
@@ -61698,7 +62313,9 @@
     "raw_uris": [
       "rbxassetid://137627361366303"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61780,11 +62397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "20f2d21f009f68dfaec2315d",
-    "name": "Texture",
+    "name": "Rubans verticaux prismatiques",
     "asset_id": "137640035937807",
     "uri": "rbxassetid://137640035937807",
     "id_status": "valid",
@@ -61793,7 +62413,9 @@
     "raw_uris": [
       "rbxassetid://137640035937807"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61875,11 +62497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bc0b4d535c5b3c3f8f38a40a",
-    "name": "Texture",
+    "name": "Lianes blanches entrelacées",
     "asset_id": "138486973142547",
     "uri": "rbxassetid://138486973142547",
     "id_status": "valid",
@@ -61888,7 +62513,9 @@
     "raw_uris": [
       "rbxassetid://138486973142547"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -61970,11 +62597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e59126c795a9c70c7760f964",
-    "name": "Texture",
+    "name": "Faisceau blanc noueux",
     "asset_id": "138982825010202",
     "uri": "rbxassetid://138982825010202",
     "id_status": "valid",
@@ -61983,7 +62613,9 @@
     "raw_uris": [
       "rbxassetid://138982825010202"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62065,11 +62697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "188360bf6deebdc07e3bda0e",
-    "name": "Texture",
+    "name": "Colonne de petites étincelles",
     "asset_id": "139158602977635",
     "uri": "rbxassetid://139158602977635",
     "id_status": "valid",
@@ -62078,7 +62713,9 @@
     "raw_uris": [
       "rbxassetid://139158602977635"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62160,11 +62797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a77df4d33b73da9bc47bca9b",
-    "name": "Texture",
+    "name": "Filets de fumée verticaux",
     "asset_id": "139329695942262",
     "uri": "rbxassetid://139329695942262",
     "id_status": "valid",
@@ -62173,7 +62813,9 @@
     "raw_uris": [
       "rbxassetid://139329695942262"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62255,11 +62897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "712b2bb3766563fc0910c76a",
-    "name": "Texture",
+    "name": "Entaille blanche verticale",
     "asset_id": "139413405433475",
     "uri": "rbxassetid://139413405433475",
     "id_status": "valid",
@@ -62268,7 +62913,9 @@
     "raw_uris": [
       "rbxassetid://139413405433475"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62350,11 +62997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9a5c5e1ea6c6da4a0c689ce8",
-    "name": "Texture",
+    "name": "Onde zigzag grisâtre",
     "asset_id": "139944988900210",
     "uri": "rbxassetid://139944988900210",
     "id_status": "valid",
@@ -62363,7 +63013,9 @@
     "raw_uris": [
       "rbxassetid://139944988900210"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62445,11 +63097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0ac69c78031b0d87bc20344a",
-    "name": "Texture",
+    "name": "Ruban blanc sinueux",
     "asset_id": "18568183566",
     "uri": "rbxassetid://18568183566",
     "id_status": "valid",
@@ -62458,7 +63113,9 @@
     "raw_uris": [
       "rbxassetid://18568183566"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62540,11 +63197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3c11c0ee6bcd9324e6b2668d",
-    "name": "Texture",
+    "name": "Fumée blanche en mailles",
     "asset_id": "18664241750",
     "uri": "rbxassetid://18664241750",
     "id_status": "valid",
@@ -62553,7 +63213,9 @@
     "raw_uris": [
       "rbxassetid://18664241750"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62635,11 +63297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6692feb6afe3caf895480671",
-    "name": "Texture",
+    "name": "Flamme blanche entrelacée",
     "asset_id": "18664247912",
     "uri": "rbxassetid://18664247912",
     "id_status": "valid",
@@ -62648,7 +63313,9 @@
     "raw_uris": [
       "rbxassetid://18664247912"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62730,11 +63397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6671dde425e9b653f9b145af",
-    "name": "Texture",
+    "name": "Filet de fumée sombre",
     "asset_id": "18664251329",
     "uri": "rbxassetid://18664251329",
     "id_status": "valid",
@@ -62743,7 +63413,9 @@
     "raw_uris": [
       "rbxassetid://18664251329"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62825,11 +63497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fe8f948234df7226b868a7c4",
-    "name": "Texture",
+    "name": "Volutes grises verticales",
     "asset_id": "18664258743",
     "uri": "rbxassetid://18664258743",
     "id_status": "valid",
@@ -62838,7 +63513,9 @@
     "raw_uris": [
       "rbxassetid://18664258743"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -62920,11 +63597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fa6610f2cd31ec40865bac40",
-    "name": "Texture",
+    "name": "Éclairs blancs parallèles",
     "asset_id": "18664808996",
     "uri": "rbxassetid://18664808996",
     "id_status": "valid",
@@ -62933,7 +63613,9 @@
     "raw_uris": [
       "rbxassetid://18664808996"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63015,11 +63697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "63b1813085d8b072fa3c6c4a",
-    "name": "Texture",
+    "name": "Deux filets gris ondulés",
     "asset_id": "18664812275",
     "uri": "rbxassetid://18664812275",
     "id_status": "valid",
@@ -63028,7 +63713,9 @@
     "raw_uris": [
       "rbxassetid://18664812275"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63110,11 +63797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ebfe79eca92e50833a73e13b",
-    "name": "Texture",
+    "name": "Trait vertical anguleux",
     "asset_id": "18664821028",
     "uri": "rbxassetid://18664821028",
     "id_status": "valid",
@@ -63123,7 +63813,9 @@
     "raw_uris": [
       "rbxassetid://18664821028"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63205,11 +63897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ce1bb3768b765c1247285832",
-    "name": "Texture",
+    "name": "Éclair blanc ramifié",
     "asset_id": "18664848453",
     "uri": "rbxassetid://18664848453",
     "id_status": "valid",
@@ -63218,7 +63913,9 @@
     "raw_uris": [
       "rbxassetid://18664848453"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63300,11 +63997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "21bbba6c98fdfb945a6da06f",
-    "name": "Texture",
+    "name": "Rubans blancs brisés",
     "asset_id": "18664864950",
     "uri": "rbxassetid://18664864950",
     "id_status": "valid",
@@ -63313,7 +64013,9 @@
     "raw_uris": [
       "rbxassetid://18664864950"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63395,11 +64097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3c764ed6d655c4bce930b8e9",
-    "name": "Texture",
+    "name": "Ruban blanc déchiré",
     "asset_id": "18664874807",
     "uri": "rbxassetid://18664874807",
     "id_status": "valid",
@@ -63408,7 +64113,9 @@
     "raw_uris": [
       "rbxassetid://18664874807"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63490,11 +64197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0074c3b6bb50477f23065f94",
-    "name": "Texture",
+    "name": "Liane blanche à spirales",
     "asset_id": "18664898738",
     "uri": "rbxassetid://18664898738",
     "id_status": "valid",
@@ -63503,7 +64213,9 @@
     "raw_uris": [
       "rbxassetid://18664898738"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63585,11 +64297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2d12b3bcd5ec03e49d3443c0",
-    "name": "Texture",
+    "name": "Ruban lumineux translucide",
     "asset_id": "18824145778",
     "uri": "rbxassetid://18824145778",
     "id_status": "valid",
@@ -63598,7 +64313,9 @@
     "raw_uris": [
       "rbxassetid://18824145778"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63680,11 +64397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "51cd2b8eee96329c742bd9ed",
-    "name": "Texture",
+    "name": "Traits lumineux verticaux",
     "asset_id": "18837316844",
     "uri": "rbxassetid://18837316844",
     "id_status": "valid",
@@ -63693,7 +64413,9 @@
     "raw_uris": [
       "rbxassetid://18837316844"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63775,11 +64497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b8b574881fe226a7f6e39464",
-    "name": "Texture",
+    "name": "Fumée grise en spirale",
     "asset_id": "18837319394",
     "uri": "rbxassetid://18837319394",
     "id_status": "valid",
@@ -63788,7 +64513,9 @@
     "raw_uris": [
       "rbxassetid://18837319394"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63870,11 +64597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "31d8c6b7168a5e694fe873cd",
-    "name": "Texture",
+    "name": "Maillage lumineux irisé",
     "asset_id": "18837564141",
     "uri": "rbxassetid://18837564141",
     "id_status": "valid",
@@ -63883,7 +64613,9 @@
     "raw_uris": [
       "rbxassetid://18837564141"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -63965,11 +64697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f9cc562fd1a7f209aebd2413",
-    "name": "Texture",
+    "name": "Ruban vertical arc-en-ciel",
     "asset_id": "70869120447403",
     "uri": "rbxassetid://70869120447403",
     "id_status": "valid",
@@ -63978,7 +64713,9 @@
     "raw_uris": [
       "rbxassetid://70869120447403"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64060,11 +64797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0ef5d395ea4d88245e18d167",
-    "name": "Texture",
+    "name": "Bandes verticales estompées",
     "asset_id": "71854388256696",
     "uri": "rbxassetid://71854388256696",
     "id_status": "valid",
@@ -64073,7 +64813,9 @@
     "raw_uris": [
       "rbxassetid://71854388256696"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64155,11 +64897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "271af59d0a60e1095bef6404",
-    "name": "Texture",
+    "name": "Zigzags blancs horizontaux",
     "asset_id": "71877950127627",
     "uri": "rbxassetid://71877950127627",
     "id_status": "valid",
@@ -64168,7 +64913,9 @@
     "raw_uris": [
       "rbxassetid://71877950127627"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64250,11 +64997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 210
+    "height": 210,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1940a017cf71bf3677edc42e",
-    "name": "Texture",
+    "name": "Pluie de fragments brillants",
     "asset_id": "72550815923180",
     "uri": "rbxassetid://72550815923180",
     "id_status": "valid",
@@ -64263,7 +65013,9 @@
     "raw_uris": [
       "rbxassetid://72550815923180"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64345,11 +65097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2c2a894f73c814fced821301",
-    "name": "Texture",
+    "name": "Filets verticaux fins",
     "asset_id": "72835154736166",
     "uri": "rbxassetid://72835154736166",
     "id_status": "valid",
@@ -64358,7 +65113,9 @@
     "raw_uris": [
       "rbxassetid://72835154736166"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64440,11 +65197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "511506a180a5ba89303d1819",
-    "name": "Texture",
+    "name": "Longues courbes sombres",
     "asset_id": "73109947457110",
     "uri": "rbxassetid://73109947457110",
     "id_status": "valid",
@@ -64453,7 +65213,9 @@
     "raw_uris": [
       "rbxassetid://73109947457110"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64535,11 +65297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5525eadfc47cd2fab421ea39",
-    "name": "Texture",
+    "name": "Colonne de texte minuscule",
     "asset_id": "73576791205228",
     "uri": "rbxassetid://73576791205228",
     "id_status": "valid",
@@ -64548,7 +65313,9 @@
     "raw_uris": [
       "rbxassetid://73576791205228"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64630,11 +65397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e0b87cc4b66dd94283e0d1e1",
-    "name": "Texture",
+    "name": "Flamme blanche stylisée",
     "asset_id": "73691880139198",
     "uri": "rbxassetid://73691880139198",
     "id_status": "valid",
@@ -64643,7 +65413,9 @@
     "raw_uris": [
       "rbxassetid://73691880139198"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64725,11 +65497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1e8cbb363830fb2edba0712e",
-    "name": "Texture",
+    "name": "Flammes blanches en frise",
     "asset_id": "73891166325582",
     "uri": "rbxassetid://73891166325582",
     "id_status": "valid",
@@ -64738,7 +65513,9 @@
     "raw_uris": [
       "rbxassetid://73891166325582"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64820,11 +65597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "694ccfaec489459825ed9173",
-    "name": "Texture",
+    "name": "Filet vertical irisé",
     "asset_id": "74912090701669",
     "uri": "rbxassetid://74912090701669",
     "id_status": "valid",
@@ -64833,7 +65613,9 @@
     "raw_uris": [
       "rbxassetid://74912090701669"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -64915,11 +65697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 105,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1ee40dd3bc8f363352389708",
-    "name": "Texture",
+    "name": "Deux lignes blanches ondulées",
     "asset_id": "75266441855569",
     "uri": "rbxassetid://75266441855569",
     "id_status": "valid",
@@ -64928,7 +65713,9 @@
     "raw_uris": [
       "rbxassetid://75266441855569"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65010,11 +65797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "159f0fdd1903b8837b536fb2",
-    "name": "Texture",
+    "name": "Faisceau blanc conique",
     "asset_id": "75340644591351",
     "uri": "rbxassetid://75340644591351",
     "id_status": "valid",
@@ -65023,7 +65813,9 @@
     "raw_uris": [
       "rbxassetid://75340644591351"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65105,11 +65897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bf89649402ca3092f531b41c",
-    "name": "Texture",
+    "name": "Traits blancs verticaux effilés",
     "asset_id": "75461177525058",
     "uri": "rbxassetid://75461177525058",
     "id_status": "valid",
@@ -65118,7 +65913,9 @@
     "raw_uris": [
       "rbxassetid://75461177525058"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65200,11 +65997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c33e5db683f027b726d04355",
-    "name": "Texture",
+    "name": "Reflets verticaux prismatiques",
     "asset_id": "75752401350921",
     "uri": "rbxassetid://75752401350921",
     "id_status": "valid",
@@ -65213,7 +66013,9 @@
     "raw_uris": [
       "rbxassetid://75752401350921"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65295,11 +66097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9cf867995d54cd7f1492ba35",
-    "name": "Texture",
+    "name": "Stries horizontales en frange",
     "asset_id": "76431922293440",
     "uri": "rbxassetid://76431922293440",
     "id_status": "valid",
@@ -65308,7 +66113,9 @@
     "raw_uris": [
       "rbxassetid://76431922293440"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65390,11 +66197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "398d85f4327081ecf0ef14e5",
-    "name": "Texture",
+    "name": "Flamme blanche diffuse",
     "asset_id": "77321161868995",
     "uri": "rbxassetid://77321161868995",
     "id_status": "valid",
@@ -65403,7 +66213,9 @@
     "raw_uris": [
       "rbxassetid://77321161868995"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65485,11 +66297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8d0fa596e2a519fe8a2a2172",
-    "name": "Texture",
+    "name": "Maillage vertical granuleux",
     "asset_id": "77367506524715",
     "uri": "rbxassetid://77367506524715",
     "id_status": "valid",
@@ -65498,7 +66313,9 @@
     "raw_uris": [
       "rbxassetid://77367506524715"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65580,11 +66397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6338ebd98de0b9dce1251833",
-    "name": "Texture",
+    "name": "Bandes blanches ondulantes",
     "asset_id": "78176668286590",
     "uri": "rbxassetid://78176668286590",
     "id_status": "valid",
@@ -65593,7 +66413,9 @@
     "raw_uris": [
       "rbxassetid://78176668286590"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65675,11 +66497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "84701cee12c50da29307528a",
-    "name": "Texture",
+    "name": "Rubans blancs bordés de noir",
     "asset_id": "78229149546910",
     "uri": "rbxassetid://78229149546910",
     "id_status": "valid",
@@ -65688,7 +66513,9 @@
     "raw_uris": [
       "rbxassetid://78229149546910"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65770,11 +66597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b03af54cd0ba0730e3d0dd63",
-    "name": "Texture",
+    "name": "Volutes verticales bleutées",
     "asset_id": "78415207986928",
     "uri": "rbxassetid://78415207986928",
     "id_status": "valid",
@@ -65783,7 +66613,9 @@
     "raw_uris": [
       "rbxassetid://78415207986928"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65865,11 +66697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b1676b4bea86d4198fd2e58e",
-    "name": "Texture",
+    "name": "Filet gris sinueux",
     "asset_id": "78483759342446",
     "uri": "rbxassetid://78483759342446",
     "id_status": "valid",
@@ -65878,7 +66713,9 @@
     "raw_uris": [
       "rbxassetid://78483759342446"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -65960,11 +66797,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1298edf36b2c2f90f6bcad08",
-    "name": "Texture",
+    "name": "Filets blancs entrelacés horizontaux",
     "asset_id": "78915550850801",
     "uri": "rbxassetid://78915550850801",
     "id_status": "valid",
@@ -65973,7 +66813,9 @@
     "raw_uris": [
       "rbxassetid://78915550850801"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66055,11 +66897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 210
+    "height": 210,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f85b308b3217d39766a13916",
-    "name": "Texture",
+    "name": "Bande blanche à franges",
     "asset_id": "79009613262258",
     "uri": "rbxassetid://79009613262258",
     "id_status": "valid",
@@ -66068,7 +66913,9 @@
     "raw_uris": [
       "rbxassetid://79009613262258"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66150,11 +66997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9fde03295bfd6b140bbd10e5",
-    "name": "Texture",
+    "name": "Boucles verticales irisées · 238409",
     "asset_id": "79118305238409",
     "uri": "rbxassetid://79118305238409",
     "id_status": "valid",
@@ -66163,7 +67013,9 @@
     "raw_uris": [
       "rbxassetid://79118305238409"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66245,11 +67097,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a4261e63e237cc8c9fa69609",
-    "name": "Texture",
+    "name": "Rubans blancs déchirés verticaux",
     "asset_id": "79742271208048",
     "uri": "rbxassetid://79742271208048",
     "id_status": "valid",
@@ -66258,7 +67113,9 @@
     "raw_uris": [
       "rbxassetid://79742271208048"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66340,11 +67197,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ef39455aed745fd06ad9620b",
-    "name": "Texture",
+    "name": "Faisceau horizontal strié",
     "asset_id": "79744831831100",
     "uri": "rbxassetid://79744831831100",
     "id_status": "valid",
@@ -66353,7 +67213,9 @@
     "raw_uris": [
       "rbxassetid://79744831831100"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66435,11 +67297,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 210
+    "height": 210,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3c61213c12fd82b5dafd7b49",
-    "name": "Texture",
+    "name": "Éclair vertical irrégulier",
     "asset_id": "80308325487892",
     "uri": "rbxassetid://80308325487892",
     "id_status": "valid",
@@ -66448,7 +67313,9 @@
     "raw_uris": [
       "rbxassetid://80308325487892"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66530,11 +67397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "19d2bcdf1c079900b9ae9ed8",
-    "name": "Texture",
+    "name": "Filets blancs verticaux croisés",
     "asset_id": "81055823203465",
     "uri": "rbxassetid://81055823203465",
     "id_status": "valid",
@@ -66543,7 +67413,9 @@
     "raw_uris": [
       "rbxassetid://81055823203465"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66625,11 +67497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "33aee035749bfc3d75b8467d",
-    "name": "Texture",
+    "name": "Bande ornementale à symboles",
     "asset_id": "81181121254184",
     "uri": "rbxassetid://81181121254184",
     "id_status": "valid",
@@ -66638,7 +67513,9 @@
     "raw_uris": [
       "rbxassetid://81181121254184"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66720,11 +67597,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a71cedcf7e9de80308770928",
-    "name": "Texture",
+    "name": "Colonne blanche vaporeuse",
     "asset_id": "81719209139005",
     "uri": "rbxassetid://81719209139005",
     "id_status": "valid",
@@ -66733,7 +67613,9 @@
     "raw_uris": [
       "rbxassetid://81719209139005"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66816,11 +67698,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6ef1918c64be9fd54ec450dc",
-    "name": "Texture",
+    "name": "Ruban de filaments torsadés",
     "asset_id": "82098711870714",
     "uri": "rbxassetid://82098711870714",
     "id_status": "valid",
@@ -66829,7 +67714,9 @@
     "raw_uris": [
       "rbxassetid://82098711870714"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -66911,11 +67798,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6913145d6ed882f16934e4a3",
-    "name": "Texture",
+    "name": "Colonne de petits traits lumineux",
     "asset_id": "82125300406355",
     "uri": "rbxassetid://82125300406355",
     "id_status": "valid",
@@ -66924,7 +67814,9 @@
     "raw_uris": [
       "rbxassetid://82125300406355"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67006,11 +67898,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0433fdcadaf633c1f9a222b2",
-    "name": "Texture",
+    "name": "Éclair blanc épais sinueux",
     "asset_id": "82140737844682",
     "uri": "rbxassetid://82140737844682",
     "id_status": "valid",
@@ -67019,7 +67914,9 @@
     "raw_uris": [
       "rbxassetid://82140737844682"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67101,11 +67998,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8c40e0be176155976f8f2129",
-    "name": "Texture",
+    "name": "Gerbe blanche verticale",
     "asset_id": "82332428985989",
     "uri": "rbxassetid://82332428985989",
     "id_status": "valid",
@@ -67114,7 +68014,9 @@
     "raw_uris": [
       "rbxassetid://82332428985989"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67196,11 +68098,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1c16433748546547719b572c",
-    "name": "Texture",
+    "name": "Rubans fins prismatiques",
     "asset_id": "82386449519032",
     "uri": "rbxassetid://82386449519032",
     "id_status": "valid",
@@ -67209,7 +68114,9 @@
     "raw_uris": [
       "rbxassetid://82386449519032"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67291,11 +68198,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2c1a4d0b7f43fdad2c425bf7",
-    "name": "Texture",
+    "name": "Traits lumineux verticaux ondulés",
     "asset_id": "83231740014899",
     "uri": "rbxassetid://83231740014899",
     "id_status": "valid",
@@ -67304,7 +68214,9 @@
     "raw_uris": [
       "rbxassetid://83231740014899"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67386,11 +68298,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0ca2cf6e3005ec323cd394a0",
-    "name": "Texture",
+    "name": "Ruban noir bordé blanc",
     "asset_id": "83334081491041",
     "uri": "rbxassetid://83334081491041",
     "id_status": "valid",
@@ -67399,7 +68314,9 @@
     "raw_uris": [
       "rbxassetid://83334081491041"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67481,11 +68398,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 113,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5b6e598fdea640adb60ba562",
-    "name": "Texture",
+    "name": "Deux amas blancs granuleux",
     "asset_id": "83616758154416",
     "uri": "rbxassetid://83616758154416",
     "id_status": "valid",
@@ -67494,7 +68414,9 @@
     "raw_uris": [
       "rbxassetid://83616758154416"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67576,11 +68498,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3640c800ee8491100a9084c7",
-    "name": "Texture",
+    "name": "Colonne blanche en bouffées",
     "asset_id": "84109939335574",
     "uri": "rbxassetid://84109939335574",
     "id_status": "valid",
@@ -67589,7 +68514,9 @@
     "raw_uris": [
       "rbxassetid://84109939335574"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67671,11 +68598,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b863d131dd219564ad57fdb1",
-    "name": "Texture",
+    "name": "Rubans blancs entrelacés",
     "asset_id": "84337102713810",
     "uri": "rbxassetid://84337102713810",
     "id_status": "valid",
@@ -67684,7 +68614,9 @@
     "raw_uris": [
       "rbxassetid://84337102713810"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67766,11 +68698,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d9dc64ffc8c89aa027dadf7a",
-    "name": "Texture",
+    "name": "Gerbe de traits obliques",
     "asset_id": "84356081089401",
     "uri": "rbxassetid://84356081089401",
     "id_status": "valid",
@@ -67779,7 +68714,9 @@
     "raw_uris": [
       "rbxassetid://84356081089401"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67861,11 +68798,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 210
+    "height": 210,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "681d9868a42b6c69589fb3ef",
-    "name": "Texture",
+    "name": "Points gris très estompés",
     "asset_id": "84466386615329",
     "uri": "rbxassetid://84466386615329",
     "id_status": "valid",
@@ -67874,7 +68814,9 @@
     "raw_uris": [
       "rbxassetid://84466386615329"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -67956,11 +68898,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "25f3c35ec01d075e2f29f0ff",
-    "name": "Texture",
+    "name": "Frise de flammes blanches",
     "asset_id": "84535267131483",
     "uri": "rbxassetid://84535267131483",
     "id_status": "valid",
@@ -67969,7 +68914,9 @@
     "raw_uris": [
       "rbxassetid://84535267131483"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68051,11 +68998,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a35f5ba388fb8fdb87ae83ea",
-    "name": "Texture",
+    "name": "Rubans fibreux verticaux",
     "asset_id": "84554833980502",
     "uri": "rbxassetid://84554833980502",
     "id_status": "valid",
@@ -68064,7 +69014,9 @@
     "raw_uris": [
       "rbxassetid://84554833980502"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68146,11 +69098,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 315,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "49e5e5c6091585a1f50f3e11",
-    "name": "Texture",
+    "name": "Réseau blanc ondulant",
     "asset_id": "84662118023491",
     "uri": "rbxassetid://84662118023491",
     "id_status": "valid",
@@ -68159,7 +69114,9 @@
     "raw_uris": [
       "rbxassetid://84662118023491"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68241,11 +69198,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "66a9b62d824dec1bd2e97da0",
-    "name": "Texture",
+    "name": "Colonne prismatique vaporeuse",
     "asset_id": "85222971475673",
     "uri": "rbxassetid://85222971475673",
     "id_status": "valid",
@@ -68254,7 +69214,9 @@
     "raw_uris": [
       "rbxassetid://85222971475673"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68336,11 +69298,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "779700f2cb366c31b6123dd9",
-    "name": "Texture",
+    "name": "Fragments prismatiques verticaux",
     "asset_id": "85225290265405",
     "uri": "rbxassetid://85225290265405",
     "id_status": "valid",
@@ -68349,7 +69314,9 @@
     "raw_uris": [
       "rbxassetid://85225290265405"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68431,11 +69398,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6d47d2c7a22a9151d33b0b31",
-    "name": "Texture",
+    "name": "Boucles verticales prismatiques",
     "asset_id": "85368020730729",
     "uri": "rbxassetid://85368020730729",
     "id_status": "valid",
@@ -68444,7 +69414,9 @@
     "raw_uris": [
       "rbxassetid://85368020730729"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68526,11 +69498,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "768f656fd95146d67f0889b7",
-    "name": "Texture",
+    "name": "Rubans blancs pointus entrecroisés",
     "asset_id": "85482296318877",
     "uri": "rbxassetid://85482296318877",
     "id_status": "valid",
@@ -68539,7 +69514,9 @@
     "raw_uris": [
       "rbxassetid://85482296318877"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68621,11 +69598,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "31386549ec5d99fa5595370f",
-    "name": "Texture",
+    "name": "Filets de fumée pâles",
     "asset_id": "85750723854937",
     "uri": "rbxassetid://85750723854937",
     "id_status": "valid",
@@ -68634,7 +69614,9 @@
     "raw_uris": [
       "rbxassetid://85750723854937"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68716,11 +69698,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7fbec84a73d242b2fbadb7c6",
-    "name": "Texture",
+    "name": "Colonne de stries irisées",
     "asset_id": "85758372126183",
     "uri": "rbxassetid://85758372126183",
     "id_status": "valid",
@@ -68729,7 +69714,9 @@
     "raw_uris": [
       "rbxassetid://85758372126183"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68811,11 +69798,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 231,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "81f47b600574c7a353f03ca2",
-    "name": "Texture",
+    "name": "Rubans de points entrelacés",
     "asset_id": "86070025247863",
     "uri": "rbxassetid://86070025247863",
     "id_status": "valid",
@@ -68824,7 +69814,9 @@
     "raw_uris": [
       "rbxassetid://86070025247863"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -68906,11 +69898,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "db0fb92dde012017b622beef",
-    "name": "Texture",
+    "name": "Frange blanche descendante",
     "asset_id": "86680389153041",
     "uri": "rbxassetid://86680389153041",
     "id_status": "valid",
@@ -68919,7 +69914,9 @@
     "raw_uris": [
       "rbxassetid://86680389153041"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69001,11 +69998,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "49af197126d4d3621617d8e7",
-    "name": "Texture",
+    "name": "Éclair blanc à contour noir",
     "asset_id": "86820958407305",
     "uri": "rbxassetid://86820958407305",
     "id_status": "valid",
@@ -69014,7 +70014,9 @@
     "raw_uris": [
       "rbxassetid://86820958407305"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69096,11 +70098,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "53f53e8c0d3febd0bfa7e906",
-    "name": "Texture",
+    "name": "Colonne de grains blancs",
     "asset_id": "86989477066412",
     "uri": "rbxassetid://86989477066412",
     "id_status": "valid",
@@ -69109,7 +70114,9 @@
     "raw_uris": [
       "rbxassetid://86989477066412"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69191,11 +70198,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e0533db9edf31e178941b833",
-    "name": "Texture",
+    "name": "Voile de filets verticaux",
     "asset_id": "87033147565221",
     "uri": "rbxassetid://87033147565221",
     "id_status": "valid",
@@ -69204,7 +70214,9 @@
     "raw_uris": [
       "rbxassetid://87033147565221"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69286,11 +70298,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b8fafc465f62003c788b497d",
-    "name": "Texture",
+    "name": "Colonne de blocs lumineux",
     "asset_id": "87229497227491",
     "uri": "rbxassetid://87229497227491",
     "id_status": "valid",
@@ -69299,7 +70314,9 @@
     "raw_uris": [
       "rbxassetid://87229497227491"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69381,11 +70398,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8e1dd0c41f51a39e91594c80",
-    "name": "Texture",
+    "name": "Pointes blanches verticales superposées",
     "asset_id": "87584260298594",
     "uri": "rbxassetid://87584260298594",
     "id_status": "valid",
@@ -69394,7 +70414,9 @@
     "raw_uris": [
       "rbxassetid://87584260298594"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69476,11 +70498,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "739536ab57db727109dd744b",
-    "name": "Texture",
+    "name": "Éclairs blancs horizontaux",
     "asset_id": "87912223909243",
     "uri": "rbxassetid://87912223909243",
     "id_status": "valid",
@@ -69489,7 +70514,9 @@
     "raw_uris": [
       "rbxassetid://87912223909243"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69571,11 +70598,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 210
+    "height": 210,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "caaa09d363fbeb7763678048",
-    "name": "Texture",
+    "name": "Fumée grise verticale",
     "asset_id": "89002166606331",
     "uri": "rbxassetid://89002166606331",
     "id_status": "valid",
@@ -69584,7 +70614,9 @@
     "raw_uris": [
       "rbxassetid://89002166606331"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69666,11 +70698,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0ce9038d00b946a41339bc4a",
-    "name": "Texture",
+    "name": "Ruban blanc épais déchiré",
     "asset_id": "89385111694169",
     "uri": "rbxassetid://89385111694169",
     "id_status": "valid",
@@ -69679,7 +70714,9 @@
     "raw_uris": [
       "rbxassetid://89385111694169"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69761,11 +70798,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "34fce7ae082ad8fef234c183",
-    "name": "Texture",
+    "name": "Colonne de perles lumineuses",
     "asset_id": "89512938363754",
     "uri": "rbxassetid://89512938363754",
     "id_status": "valid",
@@ -69774,7 +70814,9 @@
     "raw_uris": [
       "rbxassetid://89512938363754"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69856,11 +70898,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ce4e1e5109540be9e96239ba",
-    "name": "Texture",
+    "name": "Longs filets verticaux blancs",
     "asset_id": "89635446519735",
     "uri": "rbxassetid://89635446519735",
     "id_status": "valid",
@@ -69869,7 +70914,9 @@
     "raw_uris": [
       "rbxassetid://89635446519735"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -69951,11 +70998,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "80444daccaf89331272768bf",
-    "name": "Texture",
+    "name": "Chaîne argentée horizontale",
     "asset_id": "89779470780389",
     "uri": "rbxassetid://89779470780389",
     "id_status": "valid",
@@ -69964,7 +71014,9 @@
     "raw_uris": [
       "rbxassetid://89779470780389"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70046,11 +71098,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d659ea63268bc9c19a65e496",
-    "name": "Texture",
+    "name": "Lianes blanches verticales fines",
     "asset_id": "90181477911038",
     "uri": "rbxassetid://90181477911038",
     "id_status": "valid",
@@ -70059,7 +71114,9 @@
     "raw_uris": [
       "rbxassetid://90181477911038"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70141,11 +71198,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 118,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9acb95ea12aa12797a4fb2b7",
-    "name": "Texture",
+    "name": "Ligne blanche ondulée lumineuse",
     "asset_id": "90868251682438",
     "uri": "rbxassetid://90868251682438",
     "id_status": "valid",
@@ -70154,7 +71214,9 @@
     "raw_uris": [
       "rbxassetid://90868251682438"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70236,11 +71298,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "95f038bc55b603a8f1e4b986",
-    "name": "Texture",
+    "name": "Ruban prismatique torsadé",
     "asset_id": "91097851833946",
     "uri": "rbxassetid://91097851833946",
     "id_status": "valid",
@@ -70249,7 +71314,9 @@
     "raw_uris": [
       "rbxassetid://91097851833946"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70331,11 +71398,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 199,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "aa27898f87cf609e8f8c74c0",
-    "name": "Texture",
+    "name": "Pluie verticale multicolore",
     "asset_id": "91136340949423",
     "uri": "rbxassetid://91136340949423",
     "id_status": "valid",
@@ -70344,7 +71414,9 @@
     "raw_uris": [
       "rbxassetid://91136340949423"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70426,11 +71498,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 231,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a33963852f39dddb55d34d74",
-    "name": "Texture",
+    "name": "Rubans gris fibreux entrelacés",
     "asset_id": "91403737374576",
     "uri": "rbxassetid://91403737374576",
     "id_status": "valid",
@@ -70439,7 +71514,9 @@
     "raw_uris": [
       "rbxassetid://91403737374576"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70521,11 +71598,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b396566764a1f9d01b8fd943",
-    "name": "Texture",
+    "name": "Bande de nuages blancs",
     "asset_id": "91946623038303",
     "uri": "rbxassetid://91946623038303",
     "id_status": "valid",
@@ -70534,7 +71614,9 @@
     "raw_uris": [
       "rbxassetid://91946623038303"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70616,11 +71698,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 292
+    "height": 292,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bd54b2c035a2f2f07453c82d",
-    "name": "Texture",
+    "name": "Lianes noires entrelacées",
     "asset_id": "91947519650809",
     "uri": "rbxassetid://91947519650809",
     "id_status": "valid",
@@ -70629,7 +71714,9 @@
     "raw_uris": [
       "rbxassetid://91947519650809"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70711,11 +71798,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0df09fb1afb46b63a0683078",
-    "name": "Texture",
+    "name": "Colonne de points blancs réguliers",
     "asset_id": "92206374339728",
     "uri": "rbxassetid://92206374339728",
     "id_status": "valid",
@@ -70724,7 +71814,9 @@
     "raw_uris": [
       "rbxassetid://92206374339728"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70806,11 +71898,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0d31f0934de926b4488e2a12",
-    "name": "Texture",
+    "name": "Colonne de brume scintillante",
     "asset_id": "92369327490361",
     "uri": "rbxassetid://92369327490361",
     "id_status": "valid",
@@ -70819,7 +71914,9 @@
     "raw_uris": [
       "rbxassetid://92369327490361"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70901,11 +71998,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6877894c300e5ebf9f5142c2",
-    "name": "Texture",
+    "name": "Maillage de fumée blanche",
     "asset_id": "93415455636913",
     "uri": "rbxassetid://93415455636913",
     "id_status": "valid",
@@ -70914,7 +72014,9 @@
     "raw_uris": [
       "rbxassetid://93415455636913"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -70996,11 +72098,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a46b7dfc3a2ae636d228e257",
-    "name": "Texture",
+    "name": "Flamme blanche étroite",
     "asset_id": "93907704355702",
     "uri": "rbxassetid://93907704355702",
     "id_status": "valid",
@@ -71009,7 +72114,9 @@
     "raw_uris": [
       "rbxassetid://93907704355702"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71091,11 +72198,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3736ef7282e57983358b6972",
-    "name": "Texture",
+    "name": "Réseau blanc à bulles",
     "asset_id": "94231615575220",
     "uri": "rbxassetid://94231615575220",
     "id_status": "valid",
@@ -71104,7 +72214,9 @@
     "raw_uris": [
       "rbxassetid://94231615575220"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71186,11 +72298,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 315,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "afa096f8cbd5338927f280e7",
-    "name": "Texture",
+    "name": "Large bande blanche diagonale",
     "asset_id": "94417710379062",
     "uri": "rbxassetid://94417710379062",
     "id_status": "valid",
@@ -71199,7 +72314,9 @@
     "raw_uris": [
       "rbxassetid://94417710379062"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71281,11 +72398,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "df49169fabff42c9788503e1",
-    "name": "Texture",
+    "name": "Lignes blanches anguleuses entrelacées",
     "asset_id": "95177288118041",
     "uri": "rbxassetid://95177288118041",
     "id_status": "valid",
@@ -71294,7 +72414,9 @@
     "raw_uris": [
       "rbxassetid://95177288118041"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71376,11 +72498,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "296de493fa4ccb61541c6df8",
-    "name": "Texture",
+    "name": "Vague de flammes blanches",
     "asset_id": "95404886750421",
     "uri": "rbxassetid://95404886750421",
     "id_status": "valid",
@@ -71389,7 +72514,9 @@
     "raw_uris": [
       "rbxassetid://95404886750421"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71471,11 +72598,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0ca13be4e679fc75f83f5514",
-    "name": "Texture",
+    "name": "Flamme blanche verticale dense",
     "asset_id": "96486417401170",
     "uri": "rbxassetid://96486417401170",
     "id_status": "valid",
@@ -71484,7 +72614,9 @@
     "raw_uris": [
       "rbxassetid://96486417401170"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71566,11 +72698,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b93b5c3750f292f70fb39ed5",
-    "name": "Texture",
+    "name": "Volutes blanches à boucles",
     "asset_id": "96504022957944",
     "uri": "rbxassetid://96504022957944",
     "id_status": "valid",
@@ -71579,7 +72714,9 @@
     "raw_uris": [
       "rbxassetid://96504022957944"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71661,11 +72798,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0fdf6e824a01c4c7a3baf5fa",
-    "name": "Texture",
+    "name": "Ruban blanc torsadé lumineux",
     "asset_id": "97072380963737",
     "uri": "rbxassetid://97072380963737",
     "id_status": "valid",
@@ -71674,7 +72814,9 @@
     "raw_uris": [
       "rbxassetid://97072380963737"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71756,11 +72898,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5b5de3b9e6c2c481feae52f4",
-    "name": "Texture",
+    "name": "Filets lumineux verticaux étroits",
     "asset_id": "99398913027112",
     "uri": "rbxassetid://99398913027112",
     "id_status": "valid",
@@ -71769,7 +72914,9 @@
     "raw_uris": [
       "rbxassetid://99398913027112"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71851,11 +72998,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9d8c0ac0122fb27c40c49f3d",
-    "name": "Texture",
+    "name": "Pluie de fragments argentés",
     "asset_id": "99418129568765",
     "uri": "rbxassetid://99418129568765",
     "id_status": "valid",
@@ -71864,7 +73014,9 @@
     "raw_uris": [
       "rbxassetid://99418129568765"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Beam",
@@ -71946,7 +73098,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1b6560ed20ff42133f8aecf8",

@@ -19075,7 +19075,7 @@
   },
   {
     "key": "a7e55f60145d790ff63920c0",
-    "name": "Texture",
+    "name": "Traînée sombre effilée",
     "asset_id": "105272024807416",
     "uri": "rbxassetid://105272024807416",
     "id_status": "valid",
@@ -19084,7 +19084,9 @@
     "raw_uris": [
       "rbxassetid://105272024807416"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19166,11 +19168,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bcd095ee82cf29a38ed0ffb5",
-    "name": "Texture",
+    "name": "Impact noir radial",
     "asset_id": "108496611533707",
     "uri": "rbxassetid://108496611533707",
     "id_status": "valid",
@@ -19179,7 +19184,9 @@
     "raw_uris": [
       "rbxassetid://108496611533707"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19261,11 +19268,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fffbe4a717b414d82f3fb0a5",
-    "name": "Texture",
+    "name": "Impact circulaire en toile",
     "asset_id": "111164159076492",
     "uri": "rbxassetid://111164159076492",
     "id_status": "valid",
@@ -19274,7 +19284,9 @@
     "raw_uris": [
       "rbxassetid://111164159076492"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19356,11 +19368,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5e8e3076d9edce25da9c34c",
-    "name": "Texture",
+    "name": "Craquelures grises ramifiées",
     "asset_id": "115099037838152",
     "uri": "rbxassetid://115099037838152",
     "id_status": "valid",
@@ -19369,7 +19384,9 @@
     "raw_uris": [
       "rbxassetid://115099037838152"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19451,11 +19468,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6dedbc62e7a37952a3d20856",
-    "name": "Texture",
+    "name": "Cercle de pointes déchirées",
     "asset_id": "120165346770650",
     "uri": "rbxassetid://120165346770650",
     "id_status": "valid",
@@ -19464,7 +19484,9 @@
     "raw_uris": [
       "rbxassetid://120165346770650"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19546,11 +19568,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ca5bb0455c5ee5a02a71fbb6",
-    "name": "Texture",
+    "name": "Éclatement de facettes transparentes",
     "asset_id": "120553214432263",
     "uri": "rbxassetid://120553214432263",
     "id_status": "valid",
@@ -19559,7 +19584,9 @@
     "raw_uris": [
       "rbxassetid://120553214432263"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19641,11 +19668,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "79ae52ade9164aa08bba2913",
-    "name": "Texture",
+    "name": "Fissures blanches rayonnantes",
     "asset_id": "125427453566131",
     "uri": "rbxassetid://125427453566131",
     "id_status": "valid",
@@ -19654,7 +19684,9 @@
     "raw_uris": [
       "rbxassetid://125427453566131"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19736,11 +19768,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3fd2e2cd6e6879ab6c0200bc",
-    "name": "Texture",
+    "name": "Fissure verticale brune",
     "asset_id": "125475250569192",
     "uri": "rbxassetid://125475250569192",
     "id_status": "valid",
@@ -19749,7 +19784,9 @@
     "raw_uris": [
       "rbxassetid://125475250569192"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19831,11 +19868,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 210,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e3c12ffe35c07f344f01195b",
-    "name": "Texture",
+    "name": "Anneau de facettes lumineuses",
     "asset_id": "130498005184010",
     "uri": "rbxassetid://130498005184010",
     "id_status": "valid",
@@ -19844,7 +19884,9 @@
     "raw_uris": [
       "rbxassetid://130498005184010"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -19926,11 +19968,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "42f6a7bc81a68077b515eae1",
-    "name": "Texture",
+    "name": "Emblème géométrique vertical",
     "asset_id": "132405331059223",
     "uri": "rbxassetid://132405331059223",
     "id_status": "valid",
@@ -19939,7 +19984,9 @@
     "raw_uris": [
       "rbxassetid://132405331059223"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20021,11 +20068,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3098cb8bd8f31476f726f54c",
-    "name": "Texture",
+    "name": "Impact circulaire sombre craquelé",
     "asset_id": "132633122618473",
     "uri": "rbxassetid://132633122618473",
     "id_status": "valid",
@@ -20034,7 +20084,9 @@
     "raw_uris": [
       "rbxassetid://132633122618473"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20118,11 +20170,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7d497e876dd1f3d373549ff2",
-    "name": "Texture",
+    "name": "Portique orné japonais",
     "asset_id": "135677116679711",
     "uri": "rbxassetid://135677116679711",
     "id_status": "valid",
@@ -20131,7 +20186,9 @@
     "raw_uris": [
       "rbxassetid://135677116679711"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20213,11 +20270,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bf545bcbf2b693c1acba1797",
-    "name": "Texture",
+    "name": "Grille de losanges lumineux",
     "asset_id": "136237655749606",
     "uri": "rbxassetid://136237655749606",
     "id_status": "valid",
@@ -20226,7 +20286,9 @@
     "raw_uris": [
       "rbxassetid://136237655749606"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20310,11 +20372,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f6dd77d1ec3557a26721a2b5",
-    "name": "Texture",
+    "name": "Fissure blanche étoilée",
     "asset_id": "136772264678179",
     "uri": "rbxassetid://136772264678179",
     "id_status": "valid",
@@ -20323,7 +20388,9 @@
     "raw_uris": [
       "rbxassetid://136772264678179"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20405,11 +20472,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e97105bb8061ffe2a20309ef",
-    "name": "Texture",
+    "name": "Petit tourbillon blanc",
     "asset_id": "80984259161011",
     "uri": "rbxassetid://80984259161011",
     "id_status": "valid",
@@ -20418,7 +20488,9 @@
     "raw_uris": [
       "rbxassetid://80984259161011"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20502,11 +20574,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1d0d3400edd1f936e623ab67",
-    "name": "Texture",
+    "name": "Réseau de fissures grises",
     "asset_id": "82810010436720",
     "uri": "rbxassetid://82810010436720",
     "id_status": "valid",
@@ -20515,7 +20590,9 @@
     "raw_uris": [
       "rbxassetid://82810010436720"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20597,11 +20674,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad1877548575967955a6345a",
-    "name": "Texture",
+    "name": "Petit impact blanc lumineux",
     "asset_id": "83928219258515",
     "uri": "rbxassetid://83928219258515",
     "id_status": "valid",
@@ -20610,7 +20690,9 @@
     "raw_uris": [
       "rbxassetid://83928219258515"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20694,11 +20776,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2b57f8dcc70082bd371790f0",
-    "name": "Texture",
+    "name": "Impact sombre à longues pointes",
     "asset_id": "84847629229771",
     "uri": "rbxassetid://84847629229771",
     "id_status": "valid",
@@ -20707,7 +20792,9 @@
     "raw_uris": [
       "rbxassetid://84847629229771"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20789,11 +20876,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e82f8ff2f45031774d13cd33",
-    "name": "Texture",
+    "name": "Fissure noire horizontale",
     "asset_id": "85417574538516",
     "uri": "rbxassetid://85417574538516",
     "id_status": "valid",
@@ -20802,7 +20892,9 @@
     "raw_uris": [
       "rbxassetid://85417574538516"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20884,11 +20976,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "250f502aa1a185af2af8ab91",
-    "name": "Texture",
+    "name": "Spirale sombre à fissures",
     "asset_id": "85597046729842",
     "uri": "rbxassetid://85597046729842",
     "id_status": "valid",
@@ -20897,7 +20992,9 @@
     "raw_uris": [
       "rbxassetid://85597046729842"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -20979,11 +21076,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f0f15644e06d9fbbf350e1f9",
-    "name": "Texture",
+    "name": "Tache noire de fissures",
     "asset_id": "86726095803553",
     "uri": "rbxassetid://86726095803553",
     "id_status": "valid",
@@ -20992,7 +21092,9 @@
     "raw_uris": [
       "rbxassetid://86726095803553"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -21074,11 +21176,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cfd6e271087bfec6c79672df",
-    "name": "Texture",
+    "name": "Cercles lumineux fragmentés",
     "asset_id": "89633289873920",
     "uri": "rbxassetid://89633289873920",
     "id_status": "valid",
@@ -21087,7 +21192,9 @@
     "raw_uris": [
       "rbxassetid://89633289873920"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -21169,11 +21276,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "224cf927c115f9b3e21cd80e",
-    "name": "Texture",
+    "name": "Cercle de fissures filaires",
     "asset_id": "92247353634349",
     "uri": "rbxassetid://92247353634349",
     "id_status": "valid",
@@ -21182,7 +21292,9 @@
     "raw_uris": [
       "rbxassetid://92247353634349"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -21264,11 +21376,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d47bd811a88fb67931516c0f",
-    "name": "Texture",
+    "name": "Réseau lumineux de fissures",
     "asset_id": "96492483671062",
     "uri": "rbxassetid://96492483671062",
     "id_status": "valid",
@@ -21277,7 +21392,9 @@
     "raw_uris": [
       "rbxassetid://96492483671062"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -21359,11 +21476,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0918eb7153fc30c7a211abfb",
-    "name": "Texture",
+    "name": "Rosace fissurée prismatique",
     "asset_id": "96969593942181",
     "uri": "rbxassetid://96969593942181",
     "id_status": "valid",
@@ -21372,7 +21492,9 @@
     "raw_uris": [
       "rbxassetid://96969593942181"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Ground",
@@ -21456,7 +21578,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a838f72b7da990cab2d04d6c",

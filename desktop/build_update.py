@@ -22,7 +22,8 @@ MAX_EXPANDED_BYTES = 64 * 1024 * 1024
 MAX_FILE_BYTES = 16 * 1024 * 1024
 MAX_FILES = 1024
 REQUIRED = {"Dataky FX Studio.exe", "version.json", "tool/fx_update.py",
-            "tool/fx_server.py", "tool/gallery.py", "tool/asset_catalog.py", "editor/index.html"}
+            "tool/fx_server.py", "tool/gallery.py", "tool/asset_catalog.py", "editor/index.html",
+            "tool/catalog_annotations.py", "tool/catalog_annotations_data.py"}
 VERSION = re.compile(r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\Z")
 
 

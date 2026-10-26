@@ -1,7 +1,7 @@
 [
   {
     "key": "557e62f2946cb61acdfe5b98",
-    "name": "42",
+    "name": "Éclair fin ramifié",
     "asset_id": "12402873530",
     "uri": "rbxassetid://12402873530",
     "id_status": "valid",
@@ -10,7 +10,9 @@
     "raw_uris": [
       "rbxassetid://12402873530"
     ],
-    "aliases": [],
+    "aliases": [
+      "42"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning"
@@ -84,7 +86,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "42",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cd707e7a135ef9cd2cdf7a14",
@@ -1470,12 +1475,12 @@
       }
     ],
     "image_path": "images/11593142512.png",
-    "preview_path": "images/11593142512.png",
+    "preview_path": "previews/11593142512-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [],
     "kind_source": "type_collection",
     "observed_rect_kinds": [
@@ -1499,7 +1504,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "7863ad2a0493daa66428f3c2",
@@ -5497,12 +5507,12 @@
       }
     ],
     "image_path": "images/112638787534456.png",
-    "preview_path": "images/112638787534456.png",
+    "preview_path": "previews/112638787534456-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -5528,7 +5538,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "c5a69c27a6066858f322e22a",
@@ -43097,12 +43112,12 @@
       }
     ],
     "image_path": "images/17005836128.png",
-    "preview_path": "images/17005836128.png",
+    "preview_path": "previews/17005836128-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -43128,7 +43143,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "85debec9d383521e83e1773b",
@@ -43306,12 +43326,12 @@
       }
     ],
     "image_path": "images/17005844682.png",
-    "preview_path": "images/17005844682.png",
+    "preview_path": "previews/17005844682-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -43337,7 +43357,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "ce30323751f3702935e029ff",
@@ -44145,12 +44170,12 @@
       }
     ],
     "image_path": "images/17005876540.png",
-    "preview_path": "images/17005876540.png",
+    "preview_path": "previews/17005876540-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -44176,7 +44201,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "261ed5c0fefdaa4692b4b02c",
@@ -45824,12 +45854,12 @@
       }
     ],
     "image_path": "images/17005492589.png",
-    "preview_path": "images/17005492589.png",
+    "preview_path": "previews/17005492589-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -45855,7 +45885,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "3b61eedaaf633a0bf7f2b234",
@@ -46440,12 +46475,12 @@
       }
     ],
     "image_path": "images/79593708822934.png",
-    "preview_path": "images/79593708822934.png",
+    "preview_path": "previews/79593708822934-6x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
     "grid": 0,
-    "grid_source": "unknown",
+    "grid_source": "verified",
     "classification_conflicts": [],
     "kind_source": "type_collection",
     "observed_rect_kinds": [
@@ -46469,7 +46504,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 6,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 6 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "384dc086dc88e18a159cb8a2",
@@ -46542,12 +46582,12 @@
       }
     ],
     "image_path": "images/108660964501526.png",
-    "preview_path": "images/108660964501526.png",
+    "preview_path": "previews/108660964501526-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -46574,7 +46614,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "929f02b318555f41dadc11d9",
@@ -46752,12 +46797,12 @@
       }
     ],
     "image_path": "images/139406395271055.png",
-    "preview_path": "images/139406395271055.png",
+    "preview_path": "previews/139406395271055-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [],
     "kind_source": "type_collection",
     "observed_rect_kinds": [
@@ -46781,7 +46826,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "97b19d4bf44c6782b4c3f971",
@@ -48188,12 +48238,12 @@
       }
     ],
     "image_path": "images/97848024764330.png",
-    "preview_path": "images/97848024764330.png",
+    "preview_path": "previews/97848024764330-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -48219,7 +48269,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "349f8197d7c812b70b2b5c66",
@@ -49105,12 +49160,12 @@
       }
     ],
     "image_path": "images/15703772837.png",
-    "preview_path": "images/15703772837.png",
+    "preview_path": "previews/15703772837-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -49137,7 +49192,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "e9682f58a4570dd184075184",
@@ -52052,12 +52112,12 @@
       }
     ],
     "image_path": "images/105632758458518.png",
-    "preview_path": "images/105632758458518.png",
+    "preview_path": "previews/105632758458518-8x8.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 8,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -52083,7 +52143,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 8,
+    "grid_rows": 8,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 8 colonnes et 8 lignes vérifiée visuellement."
   },
   {
     "key": "9df23a68108546864a154c23",
@@ -53821,12 +53886,12 @@
       }
     ],
     "image_path": "images/124475953601516.png",
-    "preview_path": "images/124475953601516.png",
+    "preview_path": "previews/124475953601516-2x2.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 2,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -53852,7 +53917,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 2,
+    "grid_rows": 2,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 2 colonnes et 2 lignes vérifiée visuellement."
   },
   {
     "key": "963a71f14bef4ca3f1c0f083",
@@ -55291,7 +55361,7 @@
   },
   {
     "key": "58eb006653f01e4dac4253d5",
-    "name": "Texture",
+    "name": "Petit éclair courbé",
     "asset_id": "100840464111164",
     "uri": "rbxassetid://100840464111164",
     "id_status": "valid",
@@ -55300,7 +55370,9 @@
     "raw_uris": [
       "rbxassetid://100840464111164"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -55384,11 +55456,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2766e280348dc10ba3e5256f",
-    "name": "Texture",
+    "name": "Petit éclair angulaire fin",
     "asset_id": "111198221983425",
     "uri": "rbxassetid://111198221983425",
     "id_status": "valid",
@@ -55397,7 +55472,9 @@
     "raw_uris": [
       "rbxassetid://111198221983425"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -55482,11 +55559,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "87dc31e282ba7cfdc89c9b46",
-    "name": "Texture",
+    "name": "Éclair blanc court ramifié",
     "asset_id": "111899421988292",
     "uri": "rbxassetid://111899421988292",
     "id_status": "valid",
@@ -55495,7 +55575,9 @@
     "raw_uris": [
       "rbxassetid://111899421988292"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -55579,11 +55661,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "07883e31957dc222adb05121",
-    "name": "Texture",
+    "name": "Petit éclair ondulé fin",
     "asset_id": "113857161747305",
     "uri": "rbxassetid://113857161747305",
     "id_status": "valid",
@@ -55592,7 +55677,9 @@
     "raw_uris": [
       "rbxassetid://113857161747305"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -55677,11 +55764,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "333312af9301d87921873163",
-    "name": "Texture",
+    "name": "Contour électrique sinueux",
     "asset_id": "121805957395630",
     "uri": "rbxassetid://121805957395630",
     "id_status": "valid",
@@ -55690,7 +55780,9 @@
     "raw_uris": [
       "rbxassetid://121805957395630"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -55775,11 +55867,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "251c8aaf19920e9d98ebefc4",
-    "name": "Texture",
+    "name": "Éclair blanc angulaire",
     "asset_id": "122421939246958",
     "uri": "rbxassetid://122421939246958",
     "id_status": "valid",
@@ -55788,7 +55883,9 @@
     "raw_uris": [
       "rbxassetid://122421939246958"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -55872,11 +55969,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4a106bc7ffd1da949cf8a4ac",
-    "name": "Texture",
+    "name": "Éclair noir bordé de clair",
     "asset_id": "123569526918055",
     "uri": "rbxassetid://123569526918055",
     "id_status": "valid",
@@ -55885,7 +55985,9 @@
     "raw_uris": [
       "rbxassetid://123569526918055"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -55969,11 +56071,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3883f5a9797189907d20528d",
-    "name": "Texture",
+    "name": "Éclair fin en zigzag",
     "asset_id": "125108303625897",
     "uri": "rbxassetid://125108303625897",
     "id_status": "valid",
@@ -55982,7 +56087,9 @@
     "raw_uris": [
       "rbxassetid://125108303625897"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56067,11 +56174,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "993bfa1bb0376a7529a1e872",
-    "name": "Texture",
+    "name": "Éclair en losange fragmenté",
     "asset_id": "130312252864830",
     "uri": "rbxassetid://130312252864830",
     "id_status": "valid",
@@ -56080,7 +56190,9 @@
     "raw_uris": [
       "rbxassetid://130312252864830"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56164,11 +56276,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e466b0c8a053336dd0701eca",
-    "name": "Texture",
+    "name": "Éclair noir en boucle · 916685",
     "asset_id": "132369589916685",
     "uri": "rbxassetid://132369589916685",
     "id_status": "valid",
@@ -56177,7 +56292,9 @@
     "raw_uris": [
       "rbxassetid://132369589916685"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56261,11 +56378,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "86dfd049189d45e7a37bfe34",
-    "name": "Texture",
+    "name": "Éclair fin en crochet",
     "asset_id": "70954853683314",
     "uri": "rbxassetid://70954853683314",
     "id_status": "valid",
@@ -56274,7 +56394,9 @@
     "raw_uris": [
       "rbxassetid://70954853683314"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56359,11 +56481,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c5c59d11865d43210c191183",
-    "name": "Texture",
+    "name": "Petit éclair en crochet",
     "asset_id": "73087009064712",
     "uri": "rbxassetid://73087009064712",
     "id_status": "valid",
@@ -56372,7 +56497,9 @@
     "raw_uris": [
       "rbxassetid://73087009064712"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56457,11 +56584,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c151b956987ec5d6fd0de782",
-    "name": "Texture",
+    "name": "Éclair blanc anguleux",
     "asset_id": "74251526289160",
     "uri": "rbxassetid://74251526289160",
     "id_status": "valid",
@@ -56470,7 +56600,9 @@
     "raw_uris": [
       "rbxassetid://74251526289160"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56554,11 +56686,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ed84ed0830b0be81e45c45f0",
-    "name": "Texture",
+    "name": "Éclair blanc circulaire brisé",
     "asset_id": "85741801855420",
     "uri": "rbxassetid://85741801855420",
     "id_status": "valid",
@@ -56567,7 +56702,9 @@
     "raw_uris": [
       "rbxassetid://85741801855420"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56651,11 +56788,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "80fc953dee5d884b871c70de",
-    "name": "Texture",
+    "name": "Petit éclair filaire blanc",
     "asset_id": "91264437930232",
     "uri": "rbxassetid://91264437930232",
     "id_status": "valid",
@@ -56664,7 +56804,9 @@
     "raw_uris": [
       "rbxassetid://91264437930232"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56749,11 +56891,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7094ed957dec21841d104e5c",
-    "name": "Texture",
+    "name": "Éclair noir en boucle · 490909",
     "asset_id": "91816651490909",
     "uri": "rbxassetid://91816651490909",
     "id_status": "valid",
@@ -56762,7 +56907,9 @@
     "raw_uris": [
       "rbxassetid://91816651490909"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56846,11 +56993,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8bdbcf4ba203d3c10a938fd3",
-    "name": "Texture",
+    "name": "Éclair blanc en étoile brisée",
     "asset_id": "98788186856501",
     "uri": "rbxassetid://98788186856501",
     "id_status": "valid",
@@ -56859,7 +57009,9 @@
     "raw_uris": [
       "rbxassetid://98788186856501"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Lightning",
@@ -56943,7 +57095,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "66c75d199607f566933d9899",
@@ -58432,12 +58587,12 @@
       }
     ],
     "image_path": "images/82608837273553.png",
-    "preview_path": "images/82608837273553.png",
+    "preview_path": "previews/82608837273553-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -58464,7 +58619,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "015d5e55bb56d8a8215b790b",

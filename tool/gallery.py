@@ -64,7 +64,11 @@ def _clean_records(records: list[dict], collection: str = "textures") -> list[di
             "kind_source_labels": [str(label) for label in record.get("kind_source_labels", [])],
             "type_collection_ambiguous": bool(record.get("type_collection_ambiguous", False)),
             "grid": record.get("grid") if record.get("grid") in (2, 4, 8) else 0,
+            "grid_columns": record.get("grid_columns") if type(record.get("grid_columns")) is int and 1 <= record["grid_columns"] <= 64 else None,
+            "grid_rows": record.get("grid_rows") if type(record.get("grid_rows")) is int and 1 <= record["grid_rows"] <= 64 else None,
             "grid_source": str(record.get("grid_source") or "inconnu"),
+            "grid_review_status": str(record.get("grid_review_status") or ""),
+            "grid_review_note": str(record.get("grid_review_note") or ""),
             "image_path": image_path("image_path"),
             "preview_path": image_path("preview_path"),
             "image_status": str(record.get("image_status") or "inconnu"),
@@ -146,16 +150,17 @@ try{animateFlipbooks=localStorage.getItem(FLIPBOOKS_KEY)!=='false';}catch(e){}
 $('animate-flipbooks').checked=animateFlipbooks;
 function el(tag, cls, text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;}
 function source(r){return r.preview_path||r.image_path;}
-function canAnimate(r){return r&&r.kind==='flipbook'&&[2,4,8].includes(r.grid)&&!!r.image_path;}
+function flipbookLayout(r){if(r?.grid_review_status==='single_image')return null;const columns=Number(r?.grid_columns),rows=Number(r?.grid_rows);if([columns,rows].every(value=>Number.isInteger(value)&&value>=1&&value<=64)&&columns*rows>1)return {columns,rows};const grid=Number(r?.grid);return [2,4,8].includes(grid)?{columns:grid,rows:grid}:null;}
+function canAnimate(r){return r&&r.kind==='flipbook'&&!!flipbookLayout(r)&&!!r.image_path;}
 function stopThumbnails(){if(thumbnailAnimation!==null){clearInterval(thumbnailAnimation);thumbnailAnimation=null;}}
 function syncThumbnails(){
  stopThumbnails();if(!animateFlipbooks||document.hidden||$('detail').open||!thumbnails.length)return;
- thumbnailAnimation=setInterval(()=>{thumbnailFrame++;for(const {img,grid} of thumbnails){if(!img.complete||!img.naturalWidth)continue;const rect=img.parentElement.getBoundingClientRect();if(rect.bottom<=0||rect.top>=window.innerHeight||rect.right<=0||rect.left>=window.innerWidth)continue;const f=thumbnailFrame%(grid*grid);img.style.transform='translate('+(-(f%grid)*100/grid)+'%,'+(-Math.floor(f/grid)*100/grid)+'%)';}},1000/16);
+ thumbnailAnimation=setInterval(()=>{thumbnailFrame++;for(const {img,columns,rows} of thumbnails){if(!img.complete||!img.naturalWidth)continue;const rect=img.parentElement.getBoundingClientRect();if(rect.bottom<=0||rect.top>=window.innerHeight||rect.right<=0||rect.left>=window.innerWidth)continue;const f=thumbnailFrame%(columns*rows);img.style.transform='translate('+(-(f%columns)*100/columns)+'%,'+(-Math.floor(f/columns)*100/rows)+'%)';}},1000/16);
 }
 function kindHint(r){if(r.kind==='beam')return 'Référence issue de l’onglet Beams du plugin.';if(r.kind==='mesh')return 'Référence issue de l’onglet Meshes du plugin.';if(r.type_collection_ambiguous)return 'Type ambigu : cette entrée apparaît dans les filtres images fixes et flipbooks. Le classement affiché est déduit du cadrage observé, à vérifier.';if(r.kind_source==='type_collection')return 'Type enregistré depuis le filtre du plugin'+(r.kind_source_labels.length?' : '+r.kind_source_labels.join(', '):'')+'.';return 'Type déduit du cadrage observé dans le plugin, à vérifier.';}
 function statusHint(r){return 'État de récupération : '+r.image_status+' · '+kindHint(r)+(r.image_source?' · Aperçu : '+r.image_source:'');}
-function inferredGrid(r){return r.grid&&!['plugin','plugin_metadata','explicit','verified','rect_size'].includes(r.grid_source);}
-function gridHint(r){if(!r.grid)return 'Disposition inconnue';if(r.grid_source==='name')return 'Disposition déduite du nom, à vérifier';if(r.grid_source==='inferred_from_1024_sheet')return 'Disposition estimée à partir d’une feuille de 1024 px, à vérifier';return inferredGrid(r)?'Disposition estimée, à vérifier':'Disposition enregistrée dans le plugin';}
+function inferredGrid(r){return !!flipbookLayout(r)&&r.grid_review_status!=='confirmed'&&!['plugin','plugin_metadata','explicit','verified','rect_size'].includes(r.grid_source);}
+function gridHint(r){if(r.grid_review_status==='single_image')return 'Image unique observée, sans grille visible'+(r.grid_review_note?' · '+r.grid_review_note:'');if(!flipbookLayout(r))return 'Disposition inconnue'+(r.grid_review_note?' · '+r.grid_review_note:'');if(r.grid_source==='verified'||r.grid_review_status==='confirmed')return 'Disposition vérifiée visuellement'+(r.grid_review_note?' · '+r.grid_review_note:'');if(r.grid_source==='name')return 'Disposition déduite du nom, à vérifier';if(r.grid_source==='inferred_from_1024_sheet')return 'Disposition estimée à partir d’une feuille de 1024 px, à vérifier';return inferredGrid(r)?'Disposition estimée, à vérifier':'Disposition enregistrée dans le plugin';}
 function localUrl(path){return path.split('/').map(encodeURIComponent).join('/');}
 function notify(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,2200);}
 async function copy(text){
@@ -168,8 +173,9 @@ function makeTags(parent,items){parent.replaceChildren();for(const tag of items)
 function failedImage(img){const box=el('span','missing','Image locale indisponible');img.replaceWith(box);}
 function card(r){
  const article=el('article','card');const open=el('button','open visual');open.type='button';open.setAttribute('aria-label','Voir '+(r.name||r.asset_id));
- if(source(r)){const img=el('img','thumb'),animated=animateFlipbooks&&canAnimate(r);img.src=localUrl(animated?r.image_path:source(r));img.alt=r.name||('Asset '+r.asset_id);img.loading='lazy';img.decoding='async';img.onerror=()=>{thumbnails=thumbnails.filter(item=>item.img!==img);syncThumbnails();failedImage(img);};if(animated){const crop=el('span','flipbook-thumb');img.style.width=(r.grid*100)+'%';img.style.height=(r.grid*100)+'%';crop.append(img);open.append(crop);thumbnails.push({img,grid:r.grid});}else open.append(img);}else open.append(el('span','missing','Aperçu indisponible'));
- if(r.kind==='flipbook')open.append(el('span','kind','FLIPBOOK'+(r.grid?' '+r.grid+' × '+r.grid+(inferredGrid(r)?' estimé':''):'')));
+ const layout=flipbookLayout(r);
+ if(source(r)){const img=el('img','thumb'),animated=animateFlipbooks&&canAnimate(r);img.src=localUrl(animated?r.image_path:source(r));img.alt=r.name||('Asset '+r.asset_id);img.loading='lazy';img.decoding='async';img.onerror=()=>{thumbnails=thumbnails.filter(item=>item.img!==img);syncThumbnails();failedImage(img);};if(animated){const {columns,rows}=layout,crop=el('span','flipbook-thumb');img.style.width=(columns*100)+'%';img.style.height=(rows*100)+'%';crop.append(img);open.append(crop);thumbnails.push({img,columns,rows});}else open.append(img);}else open.append(el('span','missing','Aperçu indisponible'));
+ if(r.kind==='flipbook')open.append(el('span','kind','FLIPBOOK'+(layout?' '+layout.columns+' × '+layout.rows+(inferredGrid(r)?' estimé':''):'')));
  else if(r.kind==='beam'||r.kind==='mesh')open.append(el('span','kind',r.kind.toUpperCase()));
  open.addEventListener('click',()=>showDetail(r));article.append(open);
  const info=el('div','info');const name=el('h2','name',r.name||'Entrée sans nom');name.title=r.name||r.asset_id;info.append(name,el('div','id',r.asset_id||'ID indisponible'));const t=el('div','tags');makeTags(t,r.tags);info.append(t);
@@ -208,14 +214,14 @@ function animationLabel(){return selected&&inferredGrid(selected)?'Animer · dis
 function stopAnimation(){if(animation!==null){clearInterval(animation);animation=null;}frame=0;const img=$('detail-image');img.style.width='100%';img.style.height='100%';img.style.transform='';$('preview').classList.remove('animating');$('animate').textContent=animationLabel();}
 function animate(){
  if(animation!==null){stopAnimation();return;}if(!canAnimate(selected)||document.hidden)return;
- const g=selected.grid,img=$('detail-image');$('preview').classList.add('animating');img.style.width=(g*100)+'%';img.style.height=(g*100)+'%';$('animate').textContent='Arrêter l’animation';
- const next=()=>{const x=frame%g,y=Math.floor(frame/g);img.style.transform='translate('+(-x*100/g)+'%,'+(-y*100/g)+'%)';frame=(frame+1)%(g*g);};next();animation=setInterval(next,1000/Math.max(1,Math.min(60,Number($('fps').value)||16)));
+ const {columns,rows}=flipbookLayout(selected),img=$('detail-image');$('preview').classList.add('animating');img.style.width=(columns*100)+'%';img.style.height=(rows*100)+'%';$('animate').textContent='Arrêter l’animation';
+ const next=()=>{const x=frame%columns,y=Math.floor(frame/columns);img.style.transform='translate('+(-x*100/columns)+'%,'+(-y*100/rows)+'%)';frame=(frame+1)%(columns*rows);};next();animation=setInterval(next,1000/Math.max(1,Math.min(60,Number($('fps').value)||16)));
 }
 function showDetail(r){
  stopThumbnails();resumeDetail=false;
  stopAnimation();selected=r;$('animate').textContent=animationLabel();$('detail-name').textContent=r.name||('Asset '+r.asset_id);$('detail-id').textContent=r.asset_id||'ID indisponible';$('detail-uri').textContent=r.uri||'Référence indisponible';$('copy-id').disabled=!r.asset_id;$('copy-uri').disabled=!r.uri;$('detail-creator').textContent=r.creator;$('creator-wrap').hidden=!r.creator;
  const w=r.width||r.image_width,h=r.height||r.image_height;let dimensions=w&&h?(w+' × '+h+' px'):(Array.isArray(r.dimensions)?r.dimensions.join(' × '):r.dimensions||'Dimensions non renseignées');
- $('detail-meta').textContent=(r.kind==='flipbook'?'Flipbook'+(r.grid?' · '+r.grid+' × '+r.grid+' ('+(r.grid*r.grid)+' images'+(inferredGrid(r)?', estimé':'')+')':'')+' · '+gridHint(r):r.kind==='beam'?'Beam':r.kind==='mesh'?'Mesh':'Image fixe')+' · Aperçu : '+dimensions;
+ const layout=flipbookLayout(r);$('detail-meta').textContent=(r.kind==='flipbook'?'Flipbook'+(layout?' · '+layout.columns+' × '+layout.rows+' ('+(layout.columns*layout.rows)+' images'+(inferredGrid(r)?', estimé':'')+')':'')+' · '+gridHint(r):r.kind==='beam'?'Beam':r.kind==='mesh'?'Mesh':'Image fixe')+' · Aperçu : '+dimensions;
  $('detail-status').textContent=statusHint(r);
  makeTags($('detail-tags'),r.tags);
  $('detail-references').replaceChildren();$('references-wrap').hidden=r.references.length===0;

@@ -1042,7 +1042,7 @@
   {
     "key": "d109a8c7cb3eb64de68bae00",
     "asset_id": "116286167771416",
-    "name": "Texture",
+    "name": "Texte indisponible 71416",
     "tags": [
       "Other",
       "Text"
@@ -1054,7 +1054,7 @@
   {
     "key": "ab83d99c7af0b3a7115fd5de",
     "asset_id": "120563838014828",
-    "name": "Texture",
+    "name": "Tourbillon indisponible 14828",
     "tags": [
       "Swirl",
       "Text"
@@ -1066,7 +1066,7 @@
   {
     "key": "449fba9f99de6a408df1f9be",
     "asset_id": "124870454414784",
-    "name": "Texture",
+    "name": "Forme indisponible 14784",
     "tags": [
       "Other",
       "Text"
@@ -1078,7 +1078,7 @@
   {
     "key": "7529fe2bf10c74af78614848",
     "asset_id": "125368463849350",
-    "name": "Texture",
+    "name": "Tourbillon indisponible 49350",
     "tags": [
       "Swirl",
       "Text"
@@ -1090,7 +1090,7 @@
   {
     "key": "3535679531a5d202039d4be3",
     "asset_id": "128488005243516",
-    "name": "Texture",
+    "name": "Tourbillon indisponible 43516",
     "tags": [
       "Swirl",
       "Text"
@@ -1102,7 +1102,7 @@
   {
     "key": "32a51f97328ecf2cd7241be0",
     "asset_id": "132208062160512",
-    "name": "Texture",
+    "name": "Éclat indisponible 60512",
     "tags": [
       "Flare",
       "Text"
@@ -1114,7 +1114,7 @@
   {
     "key": "b92b4d06bc0c6e17056bb270",
     "asset_id": "133263366213660",
-    "name": "Texture",
+    "name": "Cercle indisponible 13660",
     "tags": [
       "Circle",
       "Text"
@@ -1126,7 +1126,7 @@
   {
     "key": "143779e6bb99da8b07bf6bdf",
     "asset_id": "134752236747615",
-    "name": "Texture",
+    "name": "Éclat indisponible 47615",
     "tags": [
       "Flare",
       "Text"
@@ -1138,7 +1138,7 @@
   {
     "key": "805fe71053ae35e07262f39f",
     "asset_id": "134908149077927",
-    "name": "Texture",
+    "name": "Cercle indisponible 77927",
     "tags": [
       "Circle",
       "Text"
@@ -1148,21 +1148,9 @@
     "image_error": "Roblox thumbnail state: Blocked"
   },
   {
-    "key": "541b085db8b3d31133955a15",
-    "asset_id": "18542389353",
-    "name": "Texture",
-    "tags": [
-      "Flare",
-      "Text"
-    ],
-    "id_status": "valid",
-    "image_status": "pending",
-    "image_error": "Roblox thumbnail state: Pending"
-  },
-  {
     "key": "8a57812003e5cd3c0be5feb9",
     "asset_id": "71582444177805",
-    "name": "Texture",
+    "name": "Éclat indisponible 77805",
     "tags": [
       "Flare",
       "Text"
@@ -1174,7 +1162,7 @@
   {
     "key": "1e08165780a15c7586a1429a",
     "asset_id": "74226308811002",
-    "name": "Texture",
+    "name": "Forme indisponible 11002",
     "tags": [
       "Other",
       "Text"
@@ -1186,7 +1174,7 @@
   {
     "key": "eec060a534bdc16910f20de4",
     "asset_id": "74965973703928",
-    "name": "Texture",
+    "name": "Forme indisponible 03928",
     "tags": [
       "Other",
       "Text"
@@ -1198,7 +1186,7 @@
   {
     "key": "9497956c799e91f70f54d30a",
     "asset_id": "79183785737654",
-    "name": "Texture",
+    "name": "Fumée indisponible 37654",
     "tags": [
       "Smoke",
       "Text"
@@ -1210,7 +1198,7 @@
   {
     "key": "8f2bf9a55faf1d775bbe9b4c",
     "asset_id": "87969166990827",
-    "name": "Texture",
+    "name": "Spirale indisponible 90827",
     "tags": [
       "Swirl",
       "Text"
@@ -1222,7 +1210,7 @@
   {
     "key": "f5f978fdd4211a7cd485ac5b",
     "asset_id": "88623426677656",
-    "name": "Texture",
+    "name": "Spirale indisponible 77656",
     "tags": [
       "Swirl",
       "Text"
@@ -1234,7 +1222,7 @@
   {
     "key": "2dd1d455c1f26978fa83f801",
     "asset_id": "93420871310879",
-    "name": "Texture",
+    "name": "Texte indisponible 10879",
     "tags": [
       "Text"
     ],
@@ -1243,21 +1231,9 @@
     "image_error": "Roblox thumbnail state: Blocked"
   },
   {
-    "key": "55e246586bc1fc1894a6492a",
-    "asset_id": "94698008981093",
-    "name": "Texture",
-    "tags": [
-      "Smoke",
-      "Text"
-    ],
-    "id_status": "valid",
-    "image_status": "error",
-    "image_error": "HTTP 408"
-  },
-  {
     "key": "2d2c534002eb340e8ad3318a",
     "asset_id": "95708459147473",
-    "name": "Texture",
+    "name": "Eau indisponible 47473",
     "tags": [
       "Water",
       "Text"
@@ -1269,7 +1245,7 @@
   {
     "key": "290caf9f6523ac507092421a",
     "asset_id": "96173677014929",
-    "name": "Texture",
+    "name": "Forme indisponible 14929",
     "tags": [
       "Other",
       "Text"
@@ -1281,7 +1257,7 @@
   {
     "key": "f83d9994c3f34f6975542e2e",
     "asset_id": "99690570529106",
-    "name": "Texture",
+    "name": "Spirale indisponible 29106",
     "tags": [
       "Swirl",
       "Text"

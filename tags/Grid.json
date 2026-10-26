@@ -19981,7 +19981,7 @@
   },
   {
     "key": "ace4322fba406dd123df6de1",
-    "name": "Texture",
+    "name": "Réseau de pistes électroniques",
     "asset_id": "100292678213508",
     "uri": "rbxassetid://100292678213508",
     "id_status": "valid",
@@ -19990,7 +19990,9 @@
     "raw_uris": [
       "rbxassetid://100292678213508"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20072,11 +20074,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad7e2c08e8b20582ca0d7028",
-    "name": "Texture",
+    "name": "Cadre carré à angles crénelés",
     "asset_id": "101492709860113",
     "uri": "rbxassetid://101492709860113",
     "id_status": "valid",
@@ -20085,7 +20090,9 @@
     "raw_uris": [
       "rbxassetid://101492709860113"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20167,11 +20174,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b0c253ffce36abb51cee4ff5",
-    "name": "Texture",
+    "name": "Cadre carré à coins évidés",
     "asset_id": "107364778243033",
     "uri": "rbxassetid://107364778243033",
     "id_status": "valid",
@@ -20180,7 +20190,9 @@
     "raw_uris": [
       "rbxassetid://107364778243033"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20262,11 +20274,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "82374b6a29c50c93a6a3f3a9",
-    "name": "Texture",
+    "name": "Contour carré épais",
     "asset_id": "109101326809142",
     "uri": "rbxassetid://109101326809142",
     "id_status": "valid",
@@ -20275,7 +20290,9 @@
     "raw_uris": [
       "rbxassetid://109101326809142"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20357,11 +20374,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "756085e0eb981eef88422691",
-    "name": "Texture",
+    "name": "Cadre carré aux coins ouverts",
     "asset_id": "113335881329222",
     "uri": "rbxassetid://113335881329222",
     "id_status": "valid",
@@ -20370,7 +20390,9 @@
     "raw_uris": [
       "rbxassetid://113335881329222"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20452,11 +20474,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f2e5dd3c03e4a1c1a1b20595",
-    "name": "Texture",
+    "name": "Grille de seize carrés métalliques",
     "asset_id": "114219919669051",
     "uri": "rbxassetid://114219919669051",
     "id_status": "valid",
@@ -20465,7 +20490,9 @@
     "raw_uris": [
       "rbxassetid://114219919669051"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20547,11 +20574,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "21f83b6163ef56a47089643b",
-    "name": "Texture",
+    "name": "Cadre carré aux coins superposés",
     "asset_id": "114249433161475",
     "uri": "rbxassetid://114249433161475",
     "id_status": "valid",
@@ -20560,7 +20590,9 @@
     "raw_uris": [
       "rbxassetid://114249433161475"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20642,11 +20674,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9d62c14258c82789e6fc9be8",
-    "name": "Texture",
+    "name": "Mosaïque de triangles gris",
     "asset_id": "117947776651356",
     "uri": "rbxassetid://117947776651356",
     "id_status": "valid",
@@ -20655,7 +20690,9 @@
     "raw_uris": [
       "rbxassetid://117947776651356"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20737,11 +20774,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5b4bd6e096a5844206d644bd",
-    "name": "Texture",
+    "name": "Cadre carré à lignes croisées",
     "asset_id": "119562992364054",
     "uri": "rbxassetid://119562992364054",
     "id_status": "valid",
@@ -20750,7 +20790,9 @@
     "raw_uris": [
       "rbxassetid://119562992364054"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20832,11 +20874,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "12b6aeb8fddc2ab6a0145081",
-    "name": "Texture",
+    "name": "Cadre carré crénelé",
     "asset_id": "120411683370060",
     "uri": "rbxassetid://120411683370060",
     "id_status": "valid",
@@ -20845,7 +20890,9 @@
     "raw_uris": [
       "rbxassetid://120411683370060"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -20927,11 +20974,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cf16605d1587d666c59afe8d",
-    "name": "Texture",
+    "name": "Damier sombre avec deux croix",
     "asset_id": "124385190480195",
     "uri": "rbxassetid://124385190480195",
     "id_status": "valid",
@@ -20940,7 +20990,9 @@
     "raw_uris": [
       "rbxassetid://124385190480195"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21022,11 +21074,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8506270610713192259f54db",
-    "name": "Texture",
+    "name": "Grille blanche fine sur noir",
     "asset_id": "127051371712598",
     "uri": "rbxassetid://127051371712598",
     "id_status": "valid",
@@ -21035,7 +21090,9 @@
     "raw_uris": [
       "rbxassetid://127051371712598"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21117,11 +21174,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0312fbc1d80c2883183d6271",
-    "name": "Texture",
+    "name": "Cadre fin aux coins ornés",
     "asset_id": "128685737560422",
     "uri": "rbxassetid://128685737560422",
     "id_status": "valid",
@@ -21130,7 +21190,9 @@
     "raw_uris": [
       "rbxassetid://128685737560422"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21212,11 +21274,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9b01bb0a919d40b496d1ef8b",
-    "name": "Texture",
+    "name": "Cadre carré à boucles angulaires",
     "asset_id": "129069612352293",
     "uri": "rbxassetid://129069612352293",
     "id_status": "valid",
@@ -21225,7 +21290,9 @@
     "raw_uris": [
       "rbxassetid://129069612352293"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21307,11 +21374,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c0033bfd4f16c44556a50fa7",
-    "name": "Texture",
+    "name": "Cadre carré aux angles croisés",
     "asset_id": "133886899272305",
     "uri": "rbxassetid://133886899272305",
     "id_status": "valid",
@@ -21320,7 +21390,9 @@
     "raw_uris": [
       "rbxassetid://133886899272305"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21402,11 +21474,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "44bad7c7940cca1ec1dee4f8",
-    "name": "Texture",
+    "name": "Planche de motifs noirs",
     "asset_id": "134493796774553",
     "uri": "rbxassetid://134493796774553",
     "id_status": "valid",
@@ -21415,7 +21490,9 @@
     "raw_uris": [
       "rbxassetid://134493796774553"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21497,11 +21574,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ce7e816d7061b1fa2cc2a655",
-    "name": "Texture",
+    "name": "Cadre carré à méandres",
     "asset_id": "137053185109345",
     "uri": "rbxassetid://137053185109345",
     "id_status": "valid",
@@ -21510,7 +21590,9 @@
     "raw_uris": [
       "rbxassetid://137053185109345"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21592,11 +21674,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "049ea0408935cf54c6f9d491",
-    "name": "Texture",
+    "name": "Cadre carré à coins géométriques",
     "asset_id": "18612733944",
     "uri": "rbxassetid://18612733944",
     "id_status": "valid",
@@ -21605,7 +21690,9 @@
     "raw_uris": [
       "rbxassetid://18612733944"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21687,11 +21774,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "da176f329a580636df3c139c",
-    "name": "Texture",
+    "name": "Cadre carré à coins ornés",
     "asset_id": "18614257863",
     "uri": "rbxassetid://18614257863",
     "id_status": "valid",
@@ -21700,7 +21790,9 @@
     "raw_uris": [
       "rbxassetid://18614257863"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21782,11 +21874,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 419
+    "height": 419,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b064a1c0cafe0826bcce84aa",
-    "name": "Texture",
+    "name": "Cadre carré à traits effilés",
     "asset_id": "18618625614",
     "uri": "rbxassetid://18618625614",
     "id_status": "valid",
@@ -21795,7 +21890,9 @@
     "raw_uris": [
       "rbxassetid://18618625614"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21877,11 +21974,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b5d454d31c1d254d7d89aeac",
-    "name": "Texture",
+    "name": "Cadre carré blanc fin",
     "asset_id": "18731751375",
     "uri": "rbxassetid://18731751375",
     "id_status": "valid",
@@ -21890,7 +21990,9 @@
     "raw_uris": [
       "rbxassetid://18731751375"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -21972,11 +22074,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 416,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ed0662f9ac36ca0c3c183214",
-    "name": "Texture",
+    "name": "Cadre carré à coins carrés · 394535",
     "asset_id": "72122555394535",
     "uri": "rbxassetid://72122555394535",
     "id_status": "valid",
@@ -21985,7 +22090,9 @@
     "raw_uris": [
       "rbxassetid://72122555394535"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22067,11 +22174,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "83195759d62a399dfff11a6a",
-    "name": "Texture",
+    "name": "Panneaux de caractères sombres",
     "asset_id": "75060532351029",
     "uri": "rbxassetid://75060532351029",
     "id_status": "valid",
@@ -22080,7 +22190,9 @@
     "raw_uris": [
       "rbxassetid://75060532351029"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22162,11 +22274,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cf52a1644d45c566f61af956",
-    "name": "Texture",
+    "name": "Champ étoilé bleuté",
     "asset_id": "76034450338735",
     "uri": "rbxassetid://76034450338735",
     "id_status": "valid",
@@ -22175,7 +22290,9 @@
     "raw_uris": [
       "rbxassetid://76034450338735"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22257,11 +22374,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d274b93afaf8797b288e456b",
-    "name": "Texture",
+    "name": "Cadre carré à doubles traits",
     "asset_id": "76381657719831",
     "uri": "rbxassetid://76381657719831",
     "id_status": "valid",
@@ -22270,7 +22390,9 @@
     "raw_uris": [
       "rbxassetid://76381657719831"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22352,11 +22474,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "60829d589336d8aa5e6e7ee2",
-    "name": "Texture",
+    "name": "Cadre blanc à cœur anguleux",
     "asset_id": "77439230355689",
     "uri": "rbxassetid://77439230355689",
     "id_status": "valid",
@@ -22365,7 +22490,9 @@
     "raw_uris": [
       "rbxassetid://77439230355689"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22447,11 +22574,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c3f33cf9e0109212fe4f597f",
-    "name": "Texture",
+    "name": "Cadre blanc à étoile centrale",
     "asset_id": "77585151542860",
     "uri": "rbxassetid://77585151542860",
     "id_status": "valid",
@@ -22460,7 +22590,9 @@
     "raw_uris": [
       "rbxassetid://77585151542860"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22542,11 +22674,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "da0ad645e2abd0898e083c17",
-    "name": "Texture",
+    "name": "Cadre noir à étoile centrale",
     "asset_id": "77703728828220",
     "uri": "rbxassetid://77703728828220",
     "id_status": "valid",
@@ -22555,7 +22690,9 @@
     "raw_uris": [
       "rbxassetid://77703728828220"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22637,11 +22774,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ff62dfbfe57c6ebbb8068632",
-    "name": "Texture",
+    "name": "Cadre carré à coins imbriqués",
     "asset_id": "78053671378970",
     "uri": "rbxassetid://78053671378970",
     "id_status": "valid",
@@ -22650,7 +22790,9 @@
     "raw_uris": [
       "rbxassetid://78053671378970"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22732,11 +22874,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3402db36ad5acf2da54d7c2f",
-    "name": "Texture",
+    "name": "Cadre carré à coins carrés · 805745",
     "asset_id": "81011789805745",
     "uri": "rbxassetid://81011789805745",
     "id_status": "valid",
@@ -22745,7 +22890,9 @@
     "raw_uris": [
       "rbxassetid://81011789805745"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22827,11 +22974,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5b15353f8f43b51403d38702",
-    "name": "Texture",
+    "name": "Cadre blanc à coins étagés",
     "asset_id": "82564121478119",
     "uri": "rbxassetid://82564121478119",
     "id_status": "valid",
@@ -22840,7 +22990,9 @@
     "raw_uris": [
       "rbxassetid://82564121478119"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -22922,11 +23074,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "55aa393a4cba8b02ceb54afd",
-    "name": "Texture",
+    "name": "Brume rouge à braises",
     "asset_id": "83085552562455",
     "uri": "rbxassetid://83085552562455",
     "id_status": "valid",
@@ -22935,7 +23090,9 @@
     "raw_uris": [
       "rbxassetid://83085552562455"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23017,11 +23174,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4efd1b02c7a25bd747934fe7",
-    "name": "Texture",
+    "name": "Cadre blanc à coins carrés",
     "asset_id": "83146405403725",
     "uri": "rbxassetid://83146405403725",
     "id_status": "valid",
@@ -23030,7 +23190,9 @@
     "raw_uris": [
       "rbxassetid://83146405403725"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23112,11 +23274,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cb94dda4b68f10b8685177e8",
-    "name": "Texture",
+    "name": "Cadre blanc à doubles contours",
     "asset_id": "85763883012941",
     "uri": "rbxassetid://85763883012941",
     "id_status": "valid",
@@ -23125,7 +23290,9 @@
     "raw_uris": [
       "rbxassetid://85763883012941"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23207,11 +23374,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a281ff0682877ee2b58c1f18",
-    "name": "Texture",
+    "name": "Cadre blanc à angles crénelés",
     "asset_id": "86717724738537",
     "uri": "rbxassetid://86717724738537",
     "id_status": "valid",
@@ -23220,7 +23390,9 @@
     "raw_uris": [
       "rbxassetid://86717724738537"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23302,11 +23474,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "571a110825fa35ed7521fd0c",
-    "name": "Texture",
+    "name": "Panneaux sombres à yin-yang",
     "asset_id": "89855118624271",
     "uri": "rbxassetid://89855118624271",
     "id_status": "valid",
@@ -23315,7 +23490,9 @@
     "raw_uris": [
       "rbxassetid://89855118624271"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23397,11 +23574,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f1962746ad72ee033fd8a173",
-    "name": "Texture",
+    "name": "Cadre blanc à coins imbriqués · 370975",
     "asset_id": "92040585370975",
     "uri": "rbxassetid://92040585370975",
     "id_status": "valid",
@@ -23410,7 +23590,9 @@
     "raw_uris": [
       "rbxassetid://92040585370975"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23492,11 +23674,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4c13069fae160bcc00be32c8",
-    "name": "Texture",
+    "name": "Cadre blanc à coins floraux",
     "asset_id": "95702226229531",
     "uri": "rbxassetid://95702226229531",
     "id_status": "valid",
@@ -23505,7 +23690,9 @@
     "raw_uris": [
       "rbxassetid://95702226229531"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23587,11 +23774,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bf333eae6e66b387d407e1f7",
-    "name": "Texture",
+    "name": "Cadre fin à flocon central",
     "asset_id": "96534526521853",
     "uri": "rbxassetid://96534526521853",
     "id_status": "valid",
@@ -23600,7 +23790,9 @@
     "raw_uris": [
       "rbxassetid://96534526521853"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23682,11 +23874,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "93a145393fa65f1fd89c522b",
-    "name": "Texture",
+    "name": "Cadre blanc à coins imbriqués · 148046",
     "asset_id": "97528188148046",
     "uri": "rbxassetid://97528188148046",
     "id_status": "valid",
@@ -23695,7 +23890,9 @@
     "raw_uris": [
       "rbxassetid://97528188148046"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23777,11 +23974,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "79b702c1449b67a0081da9d7",
-    "name": "Texture",
+    "name": "Champ étoilé violet",
     "asset_id": "98744093381090",
     "uri": "rbxassetid://98744093381090",
     "id_status": "valid",
@@ -23790,7 +23990,9 @@
     "raw_uris": [
       "rbxassetid://98744093381090"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Grid",
@@ -23872,7 +24074,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d78f153df13194e507e6f30a",

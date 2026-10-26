@@ -20,6 +20,7 @@ import unicodedata
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = {"textures": "textures.json", "beams": "beams/assets.json", "meshes": "meshes/assets.json"}
+ANNOTATIONS = "tool/catalog_annotations_data.py"
 MAX_SOURCE_BYTES = 64 * 1024 * 1024
 MAX_ROWS = 100_000
 MAX_LOCAL_ASSETS = 256
@@ -93,7 +94,7 @@ def _json(body, label):
 
 
 def _files(root):
-    names = [*SOURCES.values(), "tool/grid_overrides.json", "editor/artistry/assets.json", REGISTRY]
+    names = [*SOURCES.values(), "tool/grid_overrides.json", "editor/artistry/assets.json", REGISTRY, ANNOTATIONS]
     paths = {name: _path(root, name) for name in names}
     # A snapshot never mixes entries from a file changed while it was read.
     for _ in range(3):
@@ -177,6 +178,9 @@ def _asset(row, collection, overrides, annotations):
         grid = grid if type(grid) is int and 0 <= grid <= 64 else 0
         record["flipbook"] = {"grid": grid, "FlipbookLayout": LAYOUTS.get(grid),
                               "estimated": ident not in overrides and str(row.get("grid_source", "")).startswith("inferred")}
+        columns, lines = row.get("grid_columns"), row.get("grid_rows")
+        if ident not in overrides and columns and lines and columns * lines > 1 and not grid:
+            record["flipbook"].update(columns=columns, rows=lines, FlipbookLayout="Custom", FlipbookSizeX=columns, FlipbookSizeY=lines)
     if collection == "meshes":
         record["mesh_id"] = record["uri"]
         record["mesh_texture_id"] = _reference(row, "TextureId") or _reference(row, "TextureID") or ""
@@ -264,6 +268,11 @@ def snapshot(root=None):
         if not isinstance(rows, list) or len(rows) > MAX_ROWS:
             raise CatalogError(f"{name} : liste de {MAX_ROWS} assets maximum requise")
         raw_counts[collection] = len(rows)
+        if __package__:
+            from .catalog_annotations import apply_annotations
+        else:
+            from catalog_annotations import apply_annotations
+        rows = apply_annotations(rows, body=bodies[ANNOTATIONS] or b"", collection=collection)
         expanded = [item for row in rows for item in _mesh_variant_rows(row)] if collection == "meshes" else rows
         prepared = [_asset(row, collection, overrides, None) for row in expanded]
         mesh_bases = {}
@@ -558,6 +567,10 @@ def editor_catalog(root=None):
         rows = [] if bodies[name] is None else _json(bodies[name], name)
         if not isinstance(rows, list) or len(rows) > MAX_ROWS:
             raise CatalogError(f"{name} : liste de {MAX_ROWS} assets maximum requise")
-        result[collection] = rows
+        if __package__:
+            from .catalog_annotations import apply_annotations
+        else:
+            from catalog_annotations import apply_annotations
+        result[collection] = apply_annotations(rows, body=bodies[ANNOTATIONS] or b"", collection=collection)
     result["meshes"].extend(_editor_local_entries(_registry(bodies[REGISTRY])["assets"]))
     return result

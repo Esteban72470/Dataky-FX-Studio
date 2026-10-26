@@ -23974,7 +23974,7 @@
   },
   {
     "key": "c6e36144d345297a22200d8f",
-    "name": "Texture",
+    "name": "Éclaboussure blanche stylisée",
     "asset_id": "130668602240350",
     "uri": "rbxassetid://130668602240350",
     "id_status": "valid",
@@ -23983,7 +23983,9 @@
     "raw_uris": [
       "rbxassetid://130668602240350"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Water",
@@ -24067,11 +24069,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5bb4de9cb77354eb2ed0f31",
-    "name": "Texture",
+    "name": "Éclaboussure blanche arrondie · 746726",
     "asset_id": "136795493746726",
     "uri": "rbxassetid://136795493746726",
     "id_status": "valid",
@@ -24080,7 +24085,9 @@
     "raw_uris": [
       "rbxassetid://136795493746726"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Water",
@@ -24164,11 +24171,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3ab14b711cfe874b5660dfd6",
-    "name": "Texture",
+    "name": "Gouttes grises dispersées",
     "asset_id": "137148135318153",
     "uri": "rbxassetid://137148135318153",
     "id_status": "valid",
@@ -24177,7 +24187,9 @@
     "raw_uris": [
       "rbxassetid://137148135318153"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Water",
@@ -24261,11 +24273,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0e8c8703f8ae27d3d2395ec6",
-    "name": "Texture",
+    "name": "Éclaboussure blanche horizontale",
     "asset_id": "75910871752665",
     "uri": "rbxassetid://75910871752665",
     "id_status": "valid",
@@ -24274,7 +24289,9 @@
     "raw_uris": [
       "rbxassetid://75910871752665"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Water",
@@ -24358,11 +24375,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad99a4f230e64ed91dc5573c",
-    "name": "Texture",
+    "name": "Éclaboussure blanche arrondie · 955771",
     "asset_id": "82438454955771",
     "uri": "rbxassetid://82438454955771",
     "id_status": "valid",
@@ -24371,7 +24391,9 @@
     "raw_uris": [
       "rbxassetid://82438454955771"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Water",
@@ -24455,11 +24477,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2d2c534002eb340e8ad3318a",
-    "name": "Texture",
+    "name": "Eau indisponible 47473",
     "asset_id": "95708459147473",
     "uri": "rbxassetid://95708459147473",
     "id_status": "valid",
@@ -24468,7 +24493,9 @@
     "raw_uris": [
       "rbxassetid://95708459147473"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Water",
@@ -24552,7 +24579,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "1c24333ea729664feb31e57a",
@@ -28096,12 +28126,12 @@
       }
     ],
     "image_path": "images/137666963718741.png",
-    "preview_path": "images/137666963718741.png",
+    "preview_path": "previews/137666963718741-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -28127,7 +28157,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "7d52815c776eee558d8cbafd",
@@ -28512,12 +28547,12 @@
       }
     ],
     "image_path": "images/16865902191.png",
-    "preview_path": "images/16865902191.png",
+    "preview_path": "previews/16865902191-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -28543,7 +28578,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "6c8d7b9067dbdc03373daa84",
@@ -28931,12 +28971,12 @@
       }
     ],
     "image_path": "images/16865991773.png",
-    "preview_path": "images/16865991773.png",
+    "preview_path": "previews/16865991773-8x8.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 8,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -28962,7 +29002,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 8,
+    "grid_rows": 8,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 8 colonnes et 8 lignes vérifiée visuellement."
   },
   {
     "key": "c19fb88595bd10882064c764",
@@ -29455,12 +29500,12 @@
       }
     ],
     "image_path": "images/16865820080.png",
-    "preview_path": "images/16865820080.png",
+    "preview_path": "previews/16865820080-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -29486,7 +29531,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "7e6fabbf1824b3f6888f838e",
@@ -33129,12 +33179,12 @@
       }
     ],
     "image_path": "images/108525458012708.png",
-    "preview_path": "images/108525458012708.png",
+    "preview_path": "previews/108525458012708-2x2.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 2,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -33160,7 +33210,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 2,
+    "grid_rows": 2,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 2 colonnes et 2 lignes vérifiée visuellement."
   },
   {
     "key": "8eff14e46bf27dcc333dfb93",

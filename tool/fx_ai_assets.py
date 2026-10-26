@@ -150,14 +150,25 @@ def _texture_layer(piece, block, asset, warnings):
             # the former atlas settings. Unknown layouts are not guessed.
             flipbook = asset.get("flipbook") or {}
             grid = flipbook.get("grid", 0)
-            if type(grid) is int and grid in (2, 4, 8):
-                props["FlipbookLayout"] = f"Grid{grid}x{grid}"
+            square = type(grid) is int and grid in (2, 4, 8)
+            columns = flipbook.get("FlipbookSizeX", flipbook.get("columns"))
+            rows = flipbook.get("FlipbookSizeY", flipbook.get("rows"))
+            custom = (flipbook.get("FlipbookLayout") == "Custom"
+                      and all(type(value) is int and 1 <= value <= 64 for value in (columns, rows))
+                      and columns * rows > 1)
+            if square or custom:
+                if square:
+                    props["FlipbookLayout"] = f"Grid{grid}x{grid}"
+                    props.pop("FlipbookSizeX", None); props.pop("FlipbookSizeY", None)
+                else:
+                    props["FlipbookLayout"] = "Custom"
+                    props["FlipbookSizeX"], props["FlipbookSizeY"] = columns, rows
                 props["FlipbookMode"] = "OneShot"
                 props["FlipbookStartRandom"] = False
                 props["FlipbookBlendFrames"] = True
-                props.pop("FlipbookSizeX", None); props.pop("FlipbookSizeY", None)
                 if flipbook.get("estimated"):
-                    warnings.append(f"{asset.get('name') or asset.get('id')} : grille flipbook {grid}×{grid} estimée, à vérifier.")
+                    dimensions = f"{grid}×{grid}" if square else f"{columns}×{rows}"
+                    warnings.append(f"{asset.get('name') or asset.get('id')} : grille flipbook {dimensions} estimée, à vérifier.")
             else:
                 props["FlipbookLayout"] = "None"
                 for key in ("FlipbookMode", "FlipbookSizeX", "FlipbookSizeY", "FlipbookStartRandom", "FlipbookFramerate", "FlipbookBlendFrames"):

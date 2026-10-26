@@ -6550,7 +6550,7 @@
   },
   {
     "key": "7a453ad72cec58bcef584d53",
-    "name": "49",
+    "name": "Contour de carré",
     "asset_id": "12402879882",
     "uri": "rbxassetid://12402879882",
     "id_status": "valid",
@@ -6559,7 +6559,9 @@
     "raw_uris": [
       "rbxassetid://12402879882"
     ],
-    "aliases": [],
+    "aliases": [
+      "49"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec"
@@ -6633,11 +6635,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "49",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "792c117eb84d963081039869",
-    "name": "6",
+    "name": "Petit point lumineux",
     "asset_id": "12386378844",
     "uri": "rbxassetid://12386378844",
     "id_status": "valid",
@@ -6646,7 +6651,9 @@
     "raw_uris": [
       "rbxassetid://12386378844"
     ],
-    "aliases": [],
+    "aliases": [
+      "6"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec"
@@ -6720,11 +6727,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "6",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7eb4e5d69d8138f23fb5cf0e",
-    "name": "61",
+    "name": "Faisceau lumineux en éventail",
     "asset_id": "12402889473",
     "uri": "rbxassetid://12402889473",
     "id_status": "valid",
@@ -6733,7 +6743,9 @@
     "raw_uris": [
       "rbxassetid://12402889473"
     ],
-    "aliases": [],
+    "aliases": [
+      "61"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec"
@@ -6807,7 +6819,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 418,
-    "height": 420
+    "height": 420,
+    "original_name": "61",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "502c12d13d72f0b2ff0001b7",
@@ -19537,12 +19552,12 @@
       }
     ],
     "image_path": "images/130688031676681.png",
-    "preview_path": "images/130688031676681.png",
+    "preview_path": "previews/130688031676681-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -19568,7 +19583,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "5eba1708f8189d2c4242d12c",
@@ -21392,12 +21412,12 @@
       }
     ],
     "image_path": "images/106485759462050.png",
-    "preview_path": "images/106485759462050.png",
+    "preview_path": "previews/106485759462050-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -21423,7 +21443,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "6420af7a1143ffc93b90298e",
@@ -23976,12 +24001,12 @@
       }
     ],
     "image_path": "images/17612115784.png",
-    "preview_path": "images/17612115784.png",
+    "preview_path": "previews/17612115784-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -24007,7 +24032,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "c3fc10655d3b7dfa265aebcd",
@@ -26108,12 +26138,12 @@
       }
     ],
     "image_path": "images/137236768020095.png",
-    "preview_path": "images/137236768020095.png",
+    "preview_path": "previews/137236768020095-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -26140,7 +26170,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "7ee9d5f17066d29359cdeba7",
@@ -28920,12 +28955,12 @@
       }
     ],
     "image_path": "images/138061581256149.png",
-    "preview_path": "images/138061581256149.png",
+    "preview_path": "previews/138061581256149-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -28952,7 +28987,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "4c553e327667be692faac812",
@@ -29567,7 +29607,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "grid_review_status": "unavailable",
+    "grid_review_observer": "metadata",
+    "grid_review_note": "Aperçu indisponible : grille non déterminée."
   },
   {
     "key": "53be3e0487fa760a00648b8b",
@@ -30044,12 +30087,12 @@
       }
     ],
     "image_path": "images/116678584720245.png",
-    "preview_path": "images/116678584720245.png",
+    "preview_path": "previews/116678584720245-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -30075,7 +30118,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "c917a9e12ffad3d6f3fc152b",
@@ -30977,12 +31025,12 @@
       }
     ],
     "image_path": "images/72375049001796.png",
-    "preview_path": "images/72375049001796.png",
+    "preview_path": "previews/72375049001796-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -31009,7 +31057,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "2c3b68cb6b2c4059b10acc2c",
@@ -32184,12 +32237,12 @@
       }
     ],
     "image_path": "images/125902417361128.png",
-    "preview_path": "images/125902417361128.png",
+    "preview_path": "previews/125902417361128-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -32215,7 +32268,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "a2e19bb5d172dc015a8e574a",
@@ -42417,12 +42475,12 @@
       }
     ],
     "image_path": "images/70423572606491.png",
-    "preview_path": "images/70423572606491.png",
+    "preview_path": "previews/70423572606491-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -42448,7 +42506,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "7e9a7f18a82d3b5b17c03187",
@@ -42731,12 +42794,12 @@
       }
     ],
     "image_path": "images/114350247923895.png",
-    "preview_path": "images/114350247923895.png",
+    "preview_path": "previews/114350247923895-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -42762,7 +42825,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "d511c38e2f7fde63854a71cd",
@@ -88856,12 +88924,12 @@
       }
     ],
     "image_path": "images/14305019062.png",
-    "preview_path": "images/14305019062.png",
+    "preview_path": "previews/14305019062-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -88887,7 +88955,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "89bd4731397d23baa6b8ebae",
@@ -110911,12 +110984,12 @@
       }
     ],
     "image_path": "images/117694813375865.png",
-    "preview_path": "images/117694813375865.png",
+    "preview_path": "previews/117694813375865-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -110942,7 +111015,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "5d86f301f2f96026b36b7120",
@@ -117309,12 +117387,12 @@
       }
     ],
     "image_path": "images/16879583142.png",
-    "preview_path": "images/16879583142.png",
+    "preview_path": "previews/16879583142-8x8.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 8,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -117341,7 +117419,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 8,
+    "grid_rows": 8,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 8 colonnes et 8 lignes vérifiée visuellement."
   },
   {
     "key": "462aa5cc5467b0f39892299d",
@@ -118585,12 +118668,12 @@
       }
     ],
     "image_path": "images/13802408466.png",
-    "preview_path": "images/13802408466.png",
+    "preview_path": "previews/13802408466-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -118617,7 +118700,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "fa75c7e9348f32f60d6f9621",
@@ -121649,7 +121737,7 @@
   },
   {
     "key": "470c5f68d0b6ff5eebd13137",
-    "name": "Texture",
+    "name": "Fragments translucides dispersés",
     "asset_id": "100897071952410",
     "uri": "rbxassetid://100897071952410",
     "id_status": "valid",
@@ -121658,7 +121746,9 @@
     "raw_uris": [
       "rbxassetid://100897071952410"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -121740,11 +121830,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c019ee876e96ed67440ca1ab",
-    "name": "Texture",
+    "name": "Carré blanc en angle",
     "asset_id": "101230185095290",
     "uri": "rbxassetid://101230185095290",
     "id_status": "valid",
@@ -121753,7 +121846,9 @@
     "raw_uris": [
       "rbxassetid://101230185095290"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -121835,11 +121930,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c9901621fc5c88362b4d7c9e",
-    "name": "Texture",
+    "name": "Capsule noire à halo",
     "asset_id": "102560800245672",
     "uri": "rbxassetid://102560800245672",
     "id_status": "valid",
@@ -121848,7 +121946,9 @@
     "raw_uris": [
       "rbxassetid://102560800245672"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -121930,11 +122030,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d38bd8e95a80fef86b3df38a",
-    "name": "Texture",
+    "name": "Trait lumineux effilé",
     "asset_id": "102573560730368",
     "uri": "rbxassetid://102573560730368",
     "id_status": "valid",
@@ -121943,7 +122046,9 @@
     "raw_uris": [
       "rbxassetid://102573560730368"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122025,11 +122130,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 236
+    "height": 236,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e24f011e1faf827ba0ab9d29",
-    "name": "Texture",
+    "name": "Petite boucle de fumée",
     "asset_id": "102626215800069",
     "uri": "rbxassetid://102626215800069",
     "id_status": "valid",
@@ -122038,7 +122146,9 @@
     "raw_uris": [
       "rbxassetid://102626215800069"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122120,11 +122230,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6794aada6a128385aa1cbd4b",
-    "name": "Texture",
+    "name": "Parallélogramme noir à halo",
     "asset_id": "102704125206231",
     "uri": "rbxassetid://102704125206231",
     "id_status": "valid",
@@ -122133,7 +122246,9 @@
     "raw_uris": [
       "rbxassetid://102704125206231"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122215,11 +122330,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5a18cc6963df185a5e0c95d",
-    "name": "Texture",
+    "name": "Sphère lumineuse texturée",
     "asset_id": "102827806633925",
     "uri": "rbxassetid://102827806633925",
     "id_status": "valid",
@@ -122228,7 +122346,9 @@
     "raw_uris": [
       "rbxassetid://102827806633925"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122310,11 +122430,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "27e6c84b62b23c395e13a232",
-    "name": "Texture",
+    "name": "Éclats de roche sombres",
     "asset_id": "103448383088187",
     "uri": "rbxassetid://103448383088187",
     "id_status": "valid",
@@ -122323,7 +122446,9 @@
     "raw_uris": [
       "rbxassetid://103448383088187"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122405,11 +122530,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "854fecbbf984376e6f50e1e8",
-    "name": "Texture",
+    "name": "Éclat noir polygonal",
     "asset_id": "106947812777638",
     "uri": "rbxassetid://106947812777638",
     "id_status": "valid",
@@ -122418,7 +122546,9 @@
     "raw_uris": [
       "rbxassetid://106947812777638"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122503,11 +122633,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "44238259ac03470cb43e34ed",
-    "name": "Texture",
+    "name": "Brume de grains blancs",
     "asset_id": "109287072936450",
     "uri": "rbxassetid://109287072936450",
     "id_status": "valid",
@@ -122516,7 +122649,9 @@
     "raw_uris": [
       "rbxassetid://109287072936450"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122598,11 +122733,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "606d57680030c17183e3a1fc",
-    "name": "Texture",
+    "name": "Anneau sombre diffus",
     "asset_id": "111075679250834",
     "uri": "rbxassetid://111075679250834",
     "id_status": "valid",
@@ -122611,7 +122749,9 @@
     "raw_uris": [
       "rbxassetid://111075679250834"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122693,11 +122833,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c3bbc2aec13c0fdee0e82725",
-    "name": "Texture",
+    "name": "Tache blanche arrondie en angle",
     "asset_id": "114700867030323",
     "uri": "rbxassetid://114700867030323",
     "id_status": "valid",
@@ -122706,7 +122849,9 @@
     "raw_uris": [
       "rbxassetid://114700867030323"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122788,11 +122933,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4758d1c911f041a058730ae3",
-    "name": "Texture",
+    "name": "Pointe lumineuse effilée",
     "asset_id": "115573065091886",
     "uri": "rbxassetid://115573065091886",
     "id_status": "valid",
@@ -122801,7 +122949,9 @@
     "raw_uris": [
       "rbxassetid://115573065091886"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122883,11 +123033,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f0bc6f8344646686d345ac45",
-    "name": "Texture",
+    "name": "Fragment de cristal gris",
     "asset_id": "115802455144982",
     "uri": "rbxassetid://115802455144982",
     "id_status": "valid",
@@ -122896,7 +123049,9 @@
     "raw_uris": [
       "rbxassetid://115802455144982"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -122978,11 +123133,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "56c90a915efd785200895a50",
-    "name": "Texture",
+    "name": "Carré noir au contour lumineux",
     "asset_id": "118029949961594",
     "uri": "rbxassetid://118029949961594",
     "id_status": "valid",
@@ -122991,7 +123149,9 @@
     "raw_uris": [
       "rbxassetid://118029949961594"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123073,11 +123233,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "33743b97bb98cf28e4bf4780",
-    "name": "Texture",
+    "name": "Disque noir cerclé en angle",
     "asset_id": "118347285802482",
     "uri": "rbxassetid://118347285802482",
     "id_status": "valid",
@@ -123086,7 +123249,9 @@
     "raw_uris": [
       "rbxassetid://118347285802482"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123168,11 +123333,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "86440f879a2e60ae770bda67",
-    "name": "Texture",
+    "name": "Petite capsule noire à halo",
     "asset_id": "118873721031421",
     "uri": "rbxassetid://118873721031421",
     "id_status": "valid",
@@ -123181,7 +123349,9 @@
     "raw_uris": [
       "rbxassetid://118873721031421"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123263,11 +123433,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0360efda22416b9ebae82d29",
-    "name": "Texture",
+    "name": "Carré blanc à halo",
     "asset_id": "123505002672416",
     "uri": "rbxassetid://123505002672416",
     "id_status": "valid",
@@ -123276,7 +123449,9 @@
     "raw_uris": [
       "rbxassetid://123505002672416"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123360,11 +123535,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8b6fadeb41192d2bc3823163",
-    "name": "Texture",
+    "name": "Petit disque noir ombré",
     "asset_id": "126384695241316",
     "uri": "rbxassetid://126384695241316",
     "id_status": "valid",
@@ -123373,7 +123551,9 @@
     "raw_uris": [
       "rbxassetid://126384695241316"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123455,11 +123635,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d0bf3958da1703cdedec0762",
-    "name": "Texture",
+    "name": "Triangle blanc lumineux",
     "asset_id": "128190955929402",
     "uri": "rbxassetid://128190955929402",
     "id_status": "valid",
@@ -123468,7 +123651,9 @@
     "raw_uris": [
       "rbxassetid://128190955929402"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123550,11 +123735,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2aaf8af36b2d9b195d341c41",
-    "name": "Texture",
+    "name": "Petit point blanc en angle",
     "asset_id": "128623946973974",
     "uri": "rbxassetid://128623946973974",
     "id_status": "valid",
@@ -123563,7 +123751,9 @@
     "raw_uris": [
       "rbxassetid://128623946973974"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123645,11 +123835,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3d831657f7273b19aeee4eeb",
-    "name": "Texture",
+    "name": "Petite étoile blanche · 343765",
     "asset_id": "133432244343765",
     "uri": "rbxassetid://133432244343765",
     "id_status": "valid",
@@ -123658,7 +123851,9 @@
     "raw_uris": [
       "rbxassetid://133432244343765"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123740,11 +123935,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2d943aad04ac99b25d13e674",
-    "name": "Texture",
+    "name": "Bulle transparente brillante",
     "asset_id": "133509207135717",
     "uri": "rbxassetid://133509207135717",
     "id_status": "valid",
@@ -123753,7 +123951,9 @@
     "raw_uris": [
       "rbxassetid://133509207135717"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123835,11 +124035,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "412c84f1db9984198b302ea4",
-    "name": "Texture",
+    "name": "Nuage de points scintillants",
     "asset_id": "135345122142415",
     "uri": "rbxassetid://135345122142415",
     "id_status": "valid",
@@ -123848,7 +124051,9 @@
     "raw_uris": [
       "rbxassetid://135345122142415"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -123930,11 +124135,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fa356c232f88c802079e205c",
-    "name": "Texture",
+    "name": "Disque noir à croissant blanc",
     "asset_id": "138920716699109",
     "uri": "rbxassetid://138920716699109",
     "id_status": "valid",
@@ -123943,7 +124151,9 @@
     "raw_uris": [
       "rbxassetid://138920716699109"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124025,11 +124235,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "db31cf62fb76dd845856d8f2",
-    "name": "Texture",
+    "name": "Deux chevrons scintillants",
     "asset_id": "18542379333",
     "uri": "rbxassetid://18542379333",
     "id_status": "valid",
@@ -124038,7 +124251,9 @@
     "raw_uris": [
       "rbxassetid://18542379333"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124120,11 +124335,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9c28f10823ce93b91b97a624",
-    "name": "Texture",
+    "name": "Deux points en diagonale",
     "asset_id": "18870856433",
     "uri": "rbxassetid://18870856433",
     "id_status": "valid",
@@ -124133,7 +124351,9 @@
     "raw_uris": [
       "rbxassetid://18870856433"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124215,11 +124435,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "aa41613b1ac14d435d461631",
-    "name": "Texture",
+    "name": "Quatre points aux coins",
     "asset_id": "18870857123",
     "uri": "rbxassetid://18870857123",
     "id_status": "valid",
@@ -124228,7 +124451,9 @@
     "raw_uris": [
       "rbxassetid://18870857123"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124310,11 +124535,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "743541ce94582785d9bb6c27",
-    "name": "Texture",
+    "name": "Éclat de pierre gris",
     "asset_id": "70484228995684",
     "uri": "rbxassetid://70484228995684",
     "id_status": "valid",
@@ -124323,7 +124551,9 @@
     "raw_uris": [
       "rbxassetid://70484228995684"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124405,11 +124635,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "86725b16daca2870d8bf0010",
-    "name": "Texture",
+    "name": "Petit point blanc allongé",
     "asset_id": "71129773047704",
     "uri": "rbxassetid://71129773047704",
     "id_status": "valid",
@@ -124418,7 +124651,9 @@
     "raw_uris": [
       "rbxassetid://71129773047704"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124503,11 +124738,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4bebb2ce228a408c489e5dca",
-    "name": "Texture",
+    "name": "Trait blanc vertical effilé",
     "asset_id": "73437091136894",
     "uri": "rbxassetid://73437091136894",
     "id_status": "valid",
@@ -124516,7 +124754,9 @@
     "raw_uris": [
       "rbxassetid://73437091136894"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124598,11 +124838,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7d714863a1a42aad6446b165",
-    "name": "Texture",
+    "name": "Éclats de verre translucides",
     "asset_id": "80106822515383",
     "uri": "rbxassetid://80106822515383",
     "id_status": "valid",
@@ -124611,7 +124854,9 @@
     "raw_uris": [
       "rbxassetid://80106822515383"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124693,11 +124938,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a494aa6be3643bc121140224",
-    "name": "Texture",
+    "name": "Petite étoile blanche · 133790",
     "asset_id": "80187506133790",
     "uri": "rbxassetid://80187506133790",
     "id_status": "valid",
@@ -124706,7 +124954,9 @@
     "raw_uris": [
       "rbxassetid://80187506133790"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124788,11 +125038,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e308ffd7c15938949d8d659b",
-    "name": "Texture",
+    "name": "Disque noir à halo blanc",
     "asset_id": "81581743551242",
     "uri": "rbxassetid://81581743551242",
     "id_status": "valid",
@@ -124801,7 +125054,9 @@
     "raw_uris": [
       "rbxassetid://81581743551242"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124883,11 +125138,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "eb0b77dc20c77f70fa04b757",
-    "name": "Texture",
+    "name": "Points lumineux sur brume",
     "asset_id": "83642909333179",
     "uri": "rbxassetid://83642909333179",
     "id_status": "valid",
@@ -124896,7 +125154,9 @@
     "raw_uris": [
       "rbxassetid://83642909333179"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -124978,11 +125238,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5c9b4049b8d1a7b0db807330",
-    "name": "Texture",
+    "name": "Disque noir à couronne blanche",
     "asset_id": "83761275111410",
     "uri": "rbxassetid://83761275111410",
     "id_status": "valid",
@@ -124991,7 +125254,9 @@
     "raw_uris": [
       "rbxassetid://83761275111410"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125073,11 +125338,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f97300cdb63a0b9dcc1b7e3e",
-    "name": "Texture",
+    "name": "Pointe blanche verticale",
     "asset_id": "84233294164339",
     "uri": "rbxassetid://84233294164339",
     "id_status": "valid",
@@ -125086,7 +125354,9 @@
     "raw_uris": [
       "rbxassetid://84233294164339"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125168,11 +125438,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0264fa8c7a1a8429de0c1dc8",
-    "name": "Texture",
+    "name": "Éclat vertical irisé",
     "asset_id": "84313387680913",
     "uri": "rbxassetid://84313387680913",
     "id_status": "valid",
@@ -125181,7 +125454,9 @@
     "raw_uris": [
       "rbxassetid://84313387680913"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125263,11 +125538,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3483d7027654101bf00df144",
-    "name": "Texture",
+    "name": "Petit point blanc isolé",
     "asset_id": "88628997465619",
     "uri": "rbxassetid://88628997465619",
     "id_status": "valid",
@@ -125276,7 +125554,9 @@
     "raw_uris": [
       "rbxassetid://88628997465619"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125358,11 +125638,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "620efb7c0f6e3b6b43ad6b09",
-    "name": "Texture",
+    "name": "Petit carré blanc lumineux",
     "asset_id": "91959108073083",
     "uri": "rbxassetid://91959108073083",
     "id_status": "valid",
@@ -125371,7 +125654,9 @@
     "raw_uris": [
       "rbxassetid://91959108073083"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125453,11 +125738,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ca6214001859f46c67f63f41",
-    "name": "Texture",
+    "name": "Disque blanc vu de biais",
     "asset_id": "97302442702528",
     "uri": "rbxassetid://97302442702528",
     "id_status": "valid",
@@ -125466,7 +125754,9 @@
     "raw_uris": [
       "rbxassetid://97302442702528"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125548,11 +125838,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c6ea905394ed7ee412492542",
-    "name": "Texture",
+    "name": "Trait blanc vertical fuselé",
     "asset_id": "99150920546590",
     "uri": "rbxassetid://99150920546590",
     "id_status": "valid",
@@ -125561,7 +125854,9 @@
     "raw_uris": [
       "rbxassetid://99150920546590"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125643,11 +125938,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "468542013563fdec90983dd8",
-    "name": "Texture",
+    "name": "Faisceau blanc horizontal pointu",
     "asset_id": "99997366547166",
     "uri": "rbxassetid://99997366547166",
     "id_status": "valid",
@@ -125656,7 +125954,9 @@
     "raw_uris": [
       "rbxassetid://99997366547166"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Spec",
@@ -125738,7 +126038,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 417
+    "height": 417,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "13a41241cb3175aacbbf43d0",
@@ -129485,12 +129788,12 @@
       }
     ],
     "image_path": "images/84503798663729.png",
-    "preview_path": "images/84503798663729.png",
+    "preview_path": "previews/84503798663729-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -129516,7 +129819,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "db8e77f7fa44d060adbb265f",

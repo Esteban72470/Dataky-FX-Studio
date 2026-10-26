@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T13:12:27Z",
-  "phase": "indexed",
-  "elapsed_seconds": 9.64,
+  "generated_at": "2026-10-26T23:27:47Z",
+  "phase": "visually_reviewed",
+  "elapsed_seconds": 0.03,
   "limited_smokecheck": false,
   "capture_coverage": {
     "complete": true,
@@ -2730,16 +2730,14 @@
     "tag_identities_absent_from_all": 0,
     "static_identities": 8541,
     "flipbook_identities": 4741,
-    "unknown_flipbook_grid_identities": 98,
-    "unique_asset_ids_with_image": 13158,
-    "identities_with_image": 13158,
+    "unknown_flipbook_grid_identities": 4,
+    "unique_asset_ids_with_image": 13160,
+    "identities_with_image": 13160,
     "image_status_counts": {
       "blocked": 118,
       "cached": 6832,
-      "downloaded": 6326,
-      "error": 1,
-      "invalid_id": 4,
-      "pending": 1
+      "downloaded": 6328,
+      "invalid_id": 4
     },
     "per_tag": {
       "Circle": 1339,
@@ -2773,5 +2771,14 @@
     "Static/flipbook kind uses type-collection membership when available; raw rectangle observations remain in the evidence.",
     "Some flipbook grids are inferred from a 1024-pixel sheet; grid_source records this assumption.",
     "Asset IDs are stored as strings in JSON and SQLite."
-  ]
+  ],
+  "catalogue_review": {
+    "names": 1447,
+    "visually_named": 1428,
+    "metadata_named": 19,
+    "grids_confirmed": 94,
+    "single_images": 1,
+    "unavailable_grids": 3,
+    "recovered_images": 2
+  }
 }

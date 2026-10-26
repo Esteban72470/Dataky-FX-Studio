@@ -88,7 +88,7 @@
   },
   {
     "key": "e8aae2daf899ed8989b73812",
-    "name": "162",
+    "name": "Sceau triangulaire cerclé",
     "asset_id": "12403132387",
     "uri": "rbxassetid://12403132387",
     "id_status": "valid",
@@ -97,7 +97,9 @@
     "raw_uris": [
       "rbxassetid://12403132387"
     ],
-    "aliases": [],
+    "aliases": [
+      "162"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -171,11 +173,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "162",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5c7570bd363e6397d1204601",
-    "name": "168",
+    "name": "Triangles imbriqués dans cercle",
     "asset_id": "12403136226",
     "uri": "rbxassetid://12403136226",
     "id_status": "valid",
@@ -184,7 +189,9 @@
     "raw_uris": [
       "rbxassetid://12403136226"
     ],
-    "aliases": [],
+    "aliases": [
+      "168"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -258,7 +265,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "168",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b9cc2afc49b1a93c1dbb1c16",
@@ -349,7 +359,7 @@
   },
   {
     "key": "9d62bc527a59f44ac8770a94",
-    "name": "172",
+    "name": "Sceau carré avec croix ansée",
     "asset_id": "12403139465",
     "uri": "rbxassetid://12403139465",
     "id_status": "valid",
@@ -358,7 +368,9 @@
     "raw_uris": [
       "rbxassetid://12403139465"
     ],
-    "aliases": [],
+    "aliases": [
+      "172"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -432,11 +444,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "172",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5c7a995552a7561ee34044df",
-    "name": "177",
+    "name": "Triangle aux motifs imbriqués",
     "asset_id": "12403142931",
     "uri": "rbxassetid://12403142931",
     "id_status": "valid",
@@ -445,7 +460,9 @@
     "raw_uris": [
       "rbxassetid://12403142931"
     ],
-    "aliases": [],
+    "aliases": [
+      "177"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -519,11 +536,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "177",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e69eff0848d291ecc8521d94",
-    "name": "179",
+    "name": "Hexagones et fleur géométrique",
     "asset_id": "12403144779",
     "uri": "rbxassetid://12403144779",
     "id_status": "valid",
@@ -532,7 +552,9 @@
     "raw_uris": [
       "rbxassetid://12403144779"
     ],
-    "aliases": [],
+    "aliases": [
+      "179"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -606,7 +628,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "179",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9a54dd3fc1a091ed6aa5bee9",
@@ -1093,7 +1118,7 @@
   },
   {
     "key": "d415ffa7cd4545ad6dc7561f",
-    "name": "38",
+    "name": "Cible concentrique translucide",
     "asset_id": "12402870681",
     "uri": "rbxassetid://12402870681",
     "id_status": "valid",
@@ -1102,7 +1127,9 @@
     "raw_uris": [
       "rbxassetid://12402870681"
     ],
-    "aliases": [],
+    "aliases": [
+      "38"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -1176,7 +1203,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "38",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8a6b5720259f9bd99137e518",
@@ -11217,7 +11247,7 @@
   },
   {
     "key": "a5476e7f4864064ffb5d8cf7",
-    "name": "40",
+    "name": "Anneaux segmentés concentriques",
     "asset_id": "12402872168",
     "uri": "rbxassetid://12402872168",
     "id_status": "valid",
@@ -11226,7 +11256,9 @@
     "raw_uris": [
       "rbxassetid://12402872168"
     ],
-    "aliases": [],
+    "aliases": [
+      "40"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -11300,7 +11332,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "40",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "12c8737872b637e0e8526949",
@@ -30261,12 +30296,12 @@
       }
     ],
     "image_path": "images/140601772804997.png",
-    "preview_path": "images/140601772804997.png",
+    "preview_path": "previews/140601772804997-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -30293,7 +30328,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "a5144eac6808d383193a72e6",
@@ -137157,12 +137197,12 @@
       }
     ],
     "image_path": "images/128198691830416.png",
-    "preview_path": "images/128198691830416.png",
+    "preview_path": "previews/128198691830416-2x2.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 2,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -137189,7 +137229,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 2,
+    "grid_rows": 2,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 2 colonnes et 2 lignes vérifiée visuellement."
   },
   {
     "key": "8e68045118bf07302eadbf2c",
@@ -138664,7 +138709,7 @@
   },
   {
     "key": "5c4cb9c1042655f35df1dfce",
-    "name": "Texture",
+    "name": "Sceau circulaire sombre",
     "asset_id": "102148949350979",
     "uri": "rbxassetid://102148949350979",
     "id_status": "valid",
@@ -138673,7 +138718,9 @@
     "raw_uris": [
       "rbxassetid://102148949350979"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -138755,11 +138802,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6c4bffddc100a921a420cda3",
-    "name": "Texture",
+    "name": "Sceau circulaire à inscriptions",
     "asset_id": "103643526780671",
     "uri": "rbxassetid://103643526780671",
     "id_status": "valid",
@@ -138768,7 +138818,9 @@
     "raw_uris": [
       "rbxassetid://103643526780671"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -138850,11 +138902,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 351
+    "height": 351,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "46ef5e4523adeb12922c0c09",
-    "name": "Texture",
+    "name": "Petit contour polygonal",
     "asset_id": "103834431066860",
     "uri": "rbxassetid://103834431066860",
     "id_status": "valid",
@@ -138863,7 +138918,9 @@
     "raw_uris": [
       "rbxassetid://103834431066860"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -138947,11 +139004,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "097ac4c5e44beba721bb3b86",
-    "name": "Texture",
+    "name": "Mandala fin à pointes",
     "asset_id": "104630283512253",
     "uri": "rbxassetid://104630283512253",
     "id_status": "valid",
@@ -138960,7 +139020,9 @@
     "raw_uris": [
       "rbxassetid://104630283512253"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139042,11 +139104,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4276e0f1567e39c225ec3ffb",
-    "name": "Texture",
+    "name": "Anneau électrique à branches",
     "asset_id": "106183158726625",
     "uri": "rbxassetid://106183158726625",
     "id_status": "valid",
@@ -139055,7 +139120,9 @@
     "raw_uris": [
       "rbxassetid://106183158726625"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139137,11 +139204,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0eec07ca2364e421041e74e0",
-    "name": "Texture",
+    "name": "Petit anneau lumineux",
     "asset_id": "107608452898276",
     "uri": "rbxassetid://107608452898276",
     "id_status": "valid",
@@ -139150,7 +139220,9 @@
     "raw_uris": [
       "rbxassetid://107608452898276"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139234,11 +139306,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ec68bca999e44b000abe9e10",
-    "name": "Texture",
+    "name": "Petit losange blanc",
     "asset_id": "107744739107158",
     "uri": "rbxassetid://107744739107158",
     "id_status": "valid",
@@ -139247,7 +139322,9 @@
     "raw_uris": [
       "rbxassetid://107744739107158"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139331,11 +139408,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f1dfe9986a4dd41a0435dc34",
-    "name": "Texture",
+    "name": "Anneau lumineux à huit pointes",
     "asset_id": "108301390598016",
     "uri": "rbxassetid://108301390598016",
     "id_status": "valid",
@@ -139344,7 +139424,9 @@
     "raw_uris": [
       "rbxassetid://108301390598016"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139426,11 +139508,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ee8aa2ca1384a80a525ae033",
-    "name": "Texture",
+    "name": "Petit éclat blanc en chevron",
     "asset_id": "108355305543702",
     "uri": "rbxassetid://108355305543702",
     "id_status": "valid",
@@ -139439,7 +139524,9 @@
     "raw_uris": [
       "rbxassetid://108355305543702"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139523,11 +139610,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad680383ae41f6748356a842",
-    "name": "Texture",
+    "name": "Anneau aux quatre flammes",
     "asset_id": "109416220800089",
     "uri": "rbxassetid://109416220800089",
     "id_status": "valid",
@@ -139536,7 +139626,9 @@
     "raw_uris": [
       "rbxassetid://109416220800089"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139618,11 +139710,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "357dd66bf9b51552f0ff377a",
-    "name": "Texture",
+    "name": "Viseur circulaire technologique",
     "asset_id": "109710995022660",
     "uri": "rbxassetid://109710995022660",
     "id_status": "valid",
@@ -139631,7 +139726,9 @@
     "raw_uris": [
       "rbxassetid://109710995022660"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139713,11 +139810,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "34c9bd2271ea94e101c30456",
-    "name": "Texture",
+    "name": "Double losange argenté",
     "asset_id": "111809335663969",
     "uri": "rbxassetid://111809335663969",
     "id_status": "valid",
@@ -139726,7 +139826,9 @@
     "raw_uris": [
       "rbxassetid://111809335663969"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139810,11 +139912,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ee3eab1b258348d9beb03709",
-    "name": "Texture",
+    "name": "Anneau à trois volutes",
     "asset_id": "112536024116381",
     "uri": "rbxassetid://112536024116381",
     "id_status": "valid",
@@ -139823,7 +139928,9 @@
     "raw_uris": [
       "rbxassetid://112536024116381"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -139905,11 +140012,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bcdcef02c053f29080b7e571",
-    "name": "Texture",
+    "name": "Anneaux sombres à reflets irisés",
     "asset_id": "112736182622635",
     "uri": "rbxassetid://112736182622635",
     "id_status": "valid",
@@ -139918,7 +140028,9 @@
     "raw_uris": [
       "rbxassetid://112736182622635"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140000,11 +140112,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 418
+    "height": 418,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1a548bcdaa1b8408116d6c23",
-    "name": "Texture",
+    "name": "Couronne de huit étoiles",
     "asset_id": "113355988516708",
     "uri": "rbxassetid://113355988516708",
     "id_status": "valid",
@@ -140013,7 +140128,9 @@
     "raw_uris": [
       "rbxassetid://113355988516708"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140095,11 +140212,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4e232cb110816b1bf1b2f4ee",
-    "name": "Texture",
+    "name": "Anneau ornemental à pointes",
     "asset_id": "115985388934986",
     "uri": "rbxassetid://115985388934986",
     "id_status": "valid",
@@ -140108,7 +140228,9 @@
     "raw_uris": [
       "rbxassetid://115985388934986"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140190,11 +140312,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1a386a30e7e6a55262fe7ce8",
-    "name": "Texture",
+    "name": "Sceau circulaire aux symboles",
     "asset_id": "120197114002389",
     "uri": "rbxassetid://120197114002389",
     "id_status": "valid",
@@ -140203,7 +140328,9 @@
     "raw_uris": [
       "rbxassetid://120197114002389"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140285,11 +140412,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 396
+    "height": 396,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "757b895e84afa1525def11fa",
-    "name": "Texture",
+    "name": "Sphère de lignes striées",
     "asset_id": "121033963915141",
     "uri": "rbxassetid://121033963915141",
     "id_status": "valid",
@@ -140298,7 +140428,9 @@
     "raw_uris": [
       "rbxassetid://121033963915141"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140382,11 +140514,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1cbaf9e1acaab00d5dfa0eaa",
-    "name": "Texture",
+    "name": "Petit reflet blanc triangulaire",
     "asset_id": "122502270067259",
     "uri": "rbxassetid://122502270067259",
     "id_status": "valid",
@@ -140395,7 +140530,9 @@
     "raw_uris": [
       "rbxassetid://122502270067259"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140479,11 +140616,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f962aea1941dd0afd71a3893",
-    "name": "Texture",
+    "name": "Sceau étoilé à huit pointes",
     "asset_id": "122740788294183",
     "uri": "rbxassetid://122740788294183",
     "id_status": "valid",
@@ -140492,7 +140632,9 @@
     "raw_uris": [
       "rbxassetid://122740788294183"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140574,11 +140716,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ba43daf6e753e24f34411e85",
-    "name": "Texture",
+    "name": "Sceau circulaire aux fissures",
     "asset_id": "122808252444369",
     "uri": "rbxassetid://122808252444369",
     "id_status": "valid",
@@ -140587,7 +140732,9 @@
     "raw_uris": [
       "rbxassetid://122808252444369"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140669,11 +140816,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e8d63797a5eba28346e667c2",
-    "name": "Texture",
+    "name": "Petit reflet argenté",
     "asset_id": "124283109946757",
     "uri": "rbxassetid://124283109946757",
     "id_status": "valid",
@@ -140682,7 +140832,9 @@
     "raw_uris": [
       "rbxassetid://124283109946757"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140766,11 +140918,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e55054f67dc220d3cf135e86",
-    "name": "Texture",
+    "name": "Sceau ornemental sombre à pointes",
     "asset_id": "124287724788266",
     "uri": "rbxassetid://124287724788266",
     "id_status": "valid",
@@ -140779,7 +140934,9 @@
     "raw_uris": [
       "rbxassetid://124287724788266"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140861,11 +141018,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 419,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bbbe86b02bf2855588f7a4f4",
-    "name": "Texture",
+    "name": "Anneau clair à double bord",
     "asset_id": "124514021511565",
     "uri": "rbxassetid://124514021511565",
     "id_status": "valid",
@@ -140874,7 +141034,9 @@
     "raw_uris": [
       "rbxassetid://124514021511565"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -140956,11 +141118,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e0705cb38ccfcbd7b875bcfa",
-    "name": "Texture",
+    "name": "Anneau lumineux à lignes brisées",
     "asset_id": "125177827769037",
     "uri": "rbxassetid://125177827769037",
     "id_status": "valid",
@@ -140969,7 +141134,9 @@
     "raw_uris": [
       "rbxassetid://125177827769037"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141051,11 +141218,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f307946eb69bce3dff72781a",
-    "name": "Texture",
+    "name": "Anneau de flammes à spirales",
     "asset_id": "125703415237328",
     "uri": "rbxassetid://125703415237328",
     "id_status": "valid",
@@ -141064,7 +141234,9 @@
     "raw_uris": [
       "rbxassetid://125703415237328"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141146,11 +141318,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d85ac00cbacc311341c5b135",
-    "name": "Texture",
+    "name": "Petite étoile géométrique",
     "asset_id": "126323317694593",
     "uri": "rbxassetid://126323317694593",
     "id_status": "valid",
@@ -141159,7 +141334,9 @@
     "raw_uris": [
       "rbxassetid://126323317694593"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141243,11 +141420,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f058e0446553b8cc4fb1be5c",
-    "name": "Texture",
+    "name": "Petit amas blanc granuleux",
     "asset_id": "127228925638253",
     "uri": "rbxassetid://127228925638253",
     "id_status": "valid",
@@ -141256,7 +141436,9 @@
     "raw_uris": [
       "rbxassetid://127228925638253"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141340,11 +141522,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "296e20532455569826cb7aa6",
-    "name": "Texture",
+    "name": "Sceau circulaire à triangles",
     "asset_id": "128773079087704",
     "uri": "rbxassetid://128773079087704",
     "id_status": "valid",
@@ -141353,7 +141538,9 @@
     "raw_uris": [
       "rbxassetid://128773079087704"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141435,11 +141622,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6f3c2b4f23ca29319ba6b9d6",
-    "name": "Texture",
+    "name": "Anneau fin à pointes ornées",
     "asset_id": "129207567729658",
     "uri": "rbxassetid://129207567729658",
     "id_status": "valid",
@@ -141448,7 +141638,9 @@
     "raw_uris": [
       "rbxassetid://129207567729658"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141530,11 +141722,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7e48f0913287fd9725cf10f5",
-    "name": "Texture",
+    "name": "Sceau à trois cercles rayonnants",
     "asset_id": "131366030295010",
     "uri": "rbxassetid://131366030295010",
     "id_status": "valid",
@@ -141543,7 +141738,9 @@
     "raw_uris": [
       "rbxassetid://131366030295010"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141625,11 +141822,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ec5811efe98135871aea8471",
-    "name": "Texture",
+    "name": "Sceau lumineux à sept cercles",
     "asset_id": "132658508884954",
     "uri": "rbxassetid://132658508884954",
     "id_status": "valid",
@@ -141638,7 +141838,9 @@
     "raw_uris": [
       "rbxassetid://132658508884954"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141720,11 +141922,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b92b4d06bc0c6e17056bb270",
-    "name": "Texture",
+    "name": "Cercle indisponible 13660",
     "asset_id": "133263366213660",
     "uri": "rbxassetid://133263366213660",
     "id_status": "valid",
@@ -141733,7 +141938,9 @@
     "raw_uris": [
       "rbxassetid://133263366213660"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141817,11 +142024,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "74ee9f7a37c5f0757b21e86f",
-    "name": "Texture",
+    "name": "Couronne de huit étoiles blanches",
     "asset_id": "133531118281050",
     "uri": "rbxassetid://133531118281050",
     "id_status": "valid",
@@ -141830,7 +142040,9 @@
     "raw_uris": [
       "rbxassetid://133531118281050"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -141912,11 +142124,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1777b0512abcfe738d8cfbea",
-    "name": "Texture",
+    "name": "Sceau sombre à œil central",
     "asset_id": "134799394748226",
     "uri": "rbxassetid://134799394748226",
     "id_status": "valid",
@@ -141925,7 +142140,9 @@
     "raw_uris": [
       "rbxassetid://134799394748226"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142007,11 +142224,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 419,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "805fe71053ae35e07262f39f",
-    "name": "Texture",
+    "name": "Cercle indisponible 77927",
     "asset_id": "134908149077927",
     "uri": "rbxassetid://134908149077927",
     "id_status": "valid",
@@ -142020,7 +142240,9 @@
     "raw_uris": [
       "rbxassetid://134908149077927"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142104,11 +142326,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "bf454cba460dd6455e63ab95",
-    "name": "Texture",
+    "name": "Noyau blanc strié",
     "asset_id": "135150378292807",
     "uri": "rbxassetid://135150378292807",
     "id_status": "valid",
@@ -142117,7 +142342,9 @@
     "raw_uris": [
       "rbxassetid://135150378292807"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142201,11 +142428,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8a6d9e60ac53fcfebe812417",
-    "name": "Texture",
+    "name": "Goutte prismatique lumineuse",
     "asset_id": "135167377531565",
     "uri": "rbxassetid://135167377531565",
     "id_status": "valid",
@@ -142214,7 +142444,9 @@
     "raw_uris": [
       "rbxassetid://135167377531565"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142298,11 +142530,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a24dfde35391abbe7581564c",
-    "name": "Texture",
+    "name": "Anneau technologique segmenté",
     "asset_id": "137073597488305",
     "uri": "rbxassetid://137073597488305",
     "id_status": "valid",
@@ -142311,7 +142546,9 @@
     "raw_uris": [
       "rbxassetid://137073597488305"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142393,11 +142630,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "01fa87ce8f580e40d1d0a9f5",
-    "name": "Texture",
+    "name": "Sceau circulaire à quatre pointes",
     "asset_id": "138750090842439",
     "uri": "rbxassetid://138750090842439",
     "id_status": "valid",
@@ -142406,7 +142646,9 @@
     "raw_uris": [
       "rbxassetid://138750090842439"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142488,11 +142730,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad20d1f77c50af15a6a5a2e9",
-    "name": "Texture",
+    "name": "Sceau circulaire à flammes",
     "asset_id": "140163314223476",
     "uri": "rbxassetid://140163314223476",
     "id_status": "valid",
@@ -142501,7 +142746,9 @@
     "raw_uris": [
       "rbxassetid://140163314223476"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142583,11 +142830,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "871fa1c68a06f6c7f5c5dfb9",
-    "name": "Texture",
+    "name": "Sceau géométrique filaire",
     "asset_id": "140269041965636",
     "uri": "rbxassetid://140269041965636",
     "id_status": "valid",
@@ -142596,7 +142846,9 @@
     "raw_uris": [
       "rbxassetid://140269041965636"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142678,11 +142930,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2ce3cdbb55afcbb88d9ec76f",
-    "name": "Texture",
+    "name": "Anneau anguleux métallique",
     "asset_id": "18612931430",
     "uri": "rbxassetid://18612931430",
     "id_status": "valid",
@@ -142691,7 +142946,9 @@
     "raw_uris": [
       "rbxassetid://18612931430"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142775,11 +143032,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "df56cbc9a60d21ab1c7e8502",
-    "name": "Texture",
+    "name": "Disque de filaments emmêlés",
     "asset_id": "18612952437",
     "uri": "rbxassetid://18612952437",
     "id_status": "valid",
@@ -142788,7 +143048,9 @@
     "raw_uris": [
       "rbxassetid://18612952437"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142872,11 +143134,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b911e0c70c61d2eb96a67b17",
-    "name": "Texture",
+    "name": "Sceau octogonal à carré",
     "asset_id": "18731724655",
     "uri": "rbxassetid://18731724655",
     "id_status": "valid",
@@ -142885,7 +143150,9 @@
     "raw_uris": [
       "rbxassetid://18731724655"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -142967,11 +143234,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b3881ce011d0a73b846f1e70",
-    "name": "Texture",
+    "name": "Sceau circulaire à ancre",
     "asset_id": "18803010783",
     "uri": "rbxassetid://18803010783",
     "id_status": "valid",
@@ -142980,7 +143250,9 @@
     "raw_uris": [
       "rbxassetid://18803010783"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143062,11 +143334,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 419
+    "height": 419,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5c2edb2820ce1b8f1ec98e74",
-    "name": "Texture",
+    "name": "Sceau géométrique sombre",
     "asset_id": "71930220744957",
     "uri": "rbxassetid://71930220744957",
     "id_status": "valid",
@@ -143075,7 +143350,9 @@
     "raw_uris": [
       "rbxassetid://71930220744957"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143157,11 +143434,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "dc64365641f5aa9dbf6feb76",
-    "name": "Texture",
+    "name": "Petit anneau irisé",
     "asset_id": "71977911892456",
     "uri": "rbxassetid://71977911892456",
     "id_status": "valid",
@@ -143170,7 +143450,9 @@
     "raw_uris": [
       "rbxassetid://71977911892456"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143254,11 +143536,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "dfa3c85f9ae6d4d28a9978fa",
-    "name": "Texture",
+    "name": "Sceau pentagonal à symboles",
     "asset_id": "72543950388588",
     "uri": "rbxassetid://72543950388588",
     "id_status": "valid",
@@ -143267,7 +143552,9 @@
     "raw_uris": [
       "rbxassetid://72543950388588"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143349,11 +143636,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f1bae73680b1d8c1c4094d91",
-    "name": "Texture",
+    "name": "Sceau circulaire à satellites · 608885",
     "asset_id": "73574466608885",
     "uri": "rbxassetid://73574466608885",
     "id_status": "valid",
@@ -143362,7 +143652,9 @@
     "raw_uris": [
       "rbxassetid://73574466608885"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143444,11 +143736,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 409
+    "height": 409,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c53a47cb8f4045239935d4be",
-    "name": "Texture",
+    "name": "Huit éclats en cercle",
     "asset_id": "74699771091234",
     "uri": "rbxassetid://74699771091234",
     "id_status": "valid",
@@ -143457,7 +143752,9 @@
     "raw_uris": [
       "rbxassetid://74699771091234"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143539,11 +143836,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2ad66533381992cc9e64102b",
-    "name": "Texture",
+    "name": "Gorille en médaillon géométrique",
     "asset_id": "75759718124469",
     "uri": "rbxassetid://75759718124469",
     "id_status": "valid",
@@ -143552,7 +143852,9 @@
     "raw_uris": [
       "rbxassetid://75759718124469"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143634,11 +143936,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6af2442501a6daea209a671d",
-    "name": "Texture",
+    "name": "Sceau circulaire sombre orné",
     "asset_id": "75874239524186",
     "uri": "rbxassetid://75874239524186",
     "id_status": "valid",
@@ -143647,7 +143952,9 @@
     "raw_uris": [
       "rbxassetid://75874239524186"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143729,11 +144036,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 418
+    "height": 418,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c0f61c197143be3fd291cc54",
-    "name": "Texture",
+    "name": "Sceau blanc à étoile",
     "asset_id": "77825363667282",
     "uri": "rbxassetid://77825363667282",
     "id_status": "valid",
@@ -143742,7 +144052,9 @@
     "raw_uris": [
       "rbxassetid://77825363667282"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143824,11 +144136,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4eeaed707ce2bef1e6c4b202",
-    "name": "Texture",
+    "name": "Couronne blanche à pointes ornées",
     "asset_id": "77827477276874",
     "uri": "rbxassetid://77827477276874",
     "id_status": "valid",
@@ -143837,7 +144152,9 @@
     "raw_uris": [
       "rbxassetid://77827477276874"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -143919,11 +144236,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9751e71db5de67169b161b11",
-    "name": "Texture",
+    "name": "Sceau circulaire à flammes fines",
     "asset_id": "79011035244193",
     "uri": "rbxassetid://79011035244193",
     "id_status": "valid",
@@ -143932,7 +144252,9 @@
     "raw_uris": [
       "rbxassetid://79011035244193"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144014,11 +144336,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1b29c46f97337bc8006546f4",
-    "name": "Texture",
+    "name": "Sceau étoilé à cinq pointes",
     "asset_id": "79942350044433",
     "uri": "rbxassetid://79942350044433",
     "id_status": "valid",
@@ -144027,7 +144352,9 @@
     "raw_uris": [
       "rbxassetid://79942350044433"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144109,11 +144436,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0ec18988175ff4d1728ddc46",
-    "name": "Texture",
+    "name": "Doubles anneaux à symboles",
     "asset_id": "80150875212520",
     "uri": "rbxassetid://80150875212520",
     "id_status": "valid",
@@ -144122,7 +144452,9 @@
     "raw_uris": [
       "rbxassetid://80150875212520"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144204,11 +144536,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "98e37fe38897a2049bece647",
-    "name": "Texture",
+    "name": "Anneau blanc hérissé",
     "asset_id": "82704690851238",
     "uri": "rbxassetid://82704690851238",
     "id_status": "valid",
@@ -144217,7 +144552,9 @@
     "raw_uris": [
       "rbxassetid://82704690851238"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144299,11 +144636,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "eb3d88303ed395f5f096c206",
-    "name": "Texture",
+    "name": "Cercles et carrés entrelacés",
     "asset_id": "82806823662496",
     "uri": "rbxassetid://82806823662496",
     "id_status": "valid",
@@ -144312,7 +144652,9 @@
     "raw_uris": [
       "rbxassetid://82806823662496"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144394,11 +144736,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9d4c4ef918494c7aad4abbfd",
-    "name": "Texture",
+    "name": "Carré et losange lumineux",
     "asset_id": "83046386065550",
     "uri": "rbxassetid://83046386065550",
     "id_status": "valid",
@@ -144407,7 +144752,9 @@
     "raw_uris": [
       "rbxassetid://83046386065550"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144489,11 +144836,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c76204598239f20906377781",
-    "name": "Texture",
+    "name": "Sceau floral blanc complexe",
     "asset_id": "83106685014102",
     "uri": "rbxassetid://83106685014102",
     "id_status": "valid",
@@ -144502,7 +144852,9 @@
     "raw_uris": [
       "rbxassetid://83106685014102"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144584,11 +144936,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "11afd2a7ccf18a8fa99c8126",
-    "name": "Texture",
+    "name": "Huit étoiles blanches en cercle",
     "asset_id": "85321034330040",
     "uri": "rbxassetid://85321034330040",
     "id_status": "valid",
@@ -144597,7 +144952,9 @@
     "raw_uris": [
       "rbxassetid://85321034330040"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144679,11 +145036,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "657300a249e65c79ea3543cd",
-    "name": "Texture",
+    "name": "Sceau circulaire à satellites · 725095",
     "asset_id": "86680616725095",
     "uri": "rbxassetid://86680616725095",
     "id_status": "valid",
@@ -144692,7 +145052,9 @@
     "raw_uris": [
       "rbxassetid://86680616725095"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144774,11 +145136,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3b9fc6f2866a869059f2608e",
-    "name": "Texture",
+    "name": "Anneau blanc à pointes courbes",
     "asset_id": "87444313698910",
     "uri": "rbxassetid://87444313698910",
     "id_status": "valid",
@@ -144787,7 +145152,9 @@
     "raw_uris": [
       "rbxassetid://87444313698910"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144869,11 +145236,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9fe442b444cae55c5e77d85c",
-    "name": "Texture",
+    "name": "Sceau circulaire floral orné",
     "asset_id": "88185001751416",
     "uri": "rbxassetid://88185001751416",
     "id_status": "valid",
@@ -144882,7 +145252,9 @@
     "raw_uris": [
       "rbxassetid://88185001751416"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -144964,11 +145336,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "35e966137b6afb5bc1dfc4b4",
-    "name": "Texture",
+    "name": "Sceau blanc à trois branches",
     "asset_id": "88560666660119",
     "uri": "rbxassetid://88560666660119",
     "id_status": "valid",
@@ -144977,7 +145352,9 @@
     "raw_uris": [
       "rbxassetid://88560666660119"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145059,11 +145436,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "82c0cf7f1f4dd876297f4c14",
-    "name": "Texture",
+    "name": "Sceau circulaire à croissant",
     "asset_id": "89496121135821",
     "uri": "rbxassetid://89496121135821",
     "id_status": "valid",
@@ -145072,7 +145452,9 @@
     "raw_uris": [
       "rbxassetid://89496121135821"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145154,11 +145536,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6076d0143946e47329966eea",
-    "name": "Texture",
+    "name": "Sceau circulaire à trois gouttes",
     "asset_id": "90926749905177",
     "uri": "rbxassetid://90926749905177",
     "id_status": "valid",
@@ -145167,7 +145552,9 @@
     "raw_uris": [
       "rbxassetid://90926749905177"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145249,11 +145636,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "78ebc7e54d4400f5e6586625",
-    "name": "Texture",
+    "name": "Sceau blanc à volutes ornées",
     "asset_id": "91437119698672",
     "uri": "rbxassetid://91437119698672",
     "id_status": "valid",
@@ -145262,7 +145652,9 @@
     "raw_uris": [
       "rbxassetid://91437119698672"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145344,11 +145736,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a9643766b4b448d30289fec9",
-    "name": "Texture",
+    "name": "Grille blanche lumineuse diffuse",
     "asset_id": "91738483473469",
     "uri": "rbxassetid://91738483473469",
     "id_status": "valid",
@@ -145357,7 +145752,9 @@
     "raw_uris": [
       "rbxassetid://91738483473469"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145439,11 +145836,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "56ae6b054138e34118463980",
-    "name": "Texture",
+    "name": "Cercles reliés par des lignes",
     "asset_id": "94905972833658",
     "uri": "rbxassetid://94905972833658",
     "id_status": "valid",
@@ -145452,7 +145852,9 @@
     "raw_uris": [
       "rbxassetid://94905972833658"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145534,11 +145936,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "812a9be7ee0c4cc64e8c58cc",
-    "name": "Texture",
+    "name": "Huit étoiles noires bordées blanc",
     "asset_id": "96364057253020",
     "uri": "rbxassetid://96364057253020",
     "id_status": "valid",
@@ -145547,7 +145952,9 @@
     "raw_uris": [
       "rbxassetid://96364057253020"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145629,11 +146036,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e2e130c4674f8f66e204cb4c",
-    "name": "Texture",
+    "name": "Carrés concentriques ondulés",
     "asset_id": "97240055953130",
     "uri": "rbxassetid://97240055953130",
     "id_status": "valid",
@@ -145642,7 +146052,9 @@
     "raw_uris": [
       "rbxassetid://97240055953130"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145724,11 +146136,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7f76cd146a2a98fa3069cc76",
-    "name": "Texture",
+    "name": "Sceau circulaire à symboles radiaux",
     "asset_id": "97601800196735",
     "uri": "rbxassetid://97601800196735",
     "id_status": "valid",
@@ -145737,7 +146152,9 @@
     "raw_uris": [
       "rbxassetid://97601800196735"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145819,11 +146236,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 418,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b6fc9efc7a50bb229aeef2e1",
-    "name": "Texture",
+    "name": "Yin-yang noir et blanc brossé",
     "asset_id": "98156311028905",
     "uri": "rbxassetid://98156311028905",
     "id_status": "valid",
@@ -145832,7 +146252,9 @@
     "raw_uris": [
       "rbxassetid://98156311028905"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -145914,11 +146336,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 414
+    "height": 414,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9d2f3e476758a3068c10f806",
-    "name": "Texture",
+    "name": "Sceau circulaire géométrique blanc",
     "asset_id": "98660667961539",
     "uri": "rbxassetid://98660667961539",
     "id_status": "valid",
@@ -145927,7 +146352,9 @@
     "raw_uris": [
       "rbxassetid://98660667961539"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -146009,11 +146436,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "36d366bbc863a630a67b7fae",
-    "name": "Texture",
+    "name": "Sceau blanc à fleur étoilée",
     "asset_id": "99918413814218",
     "uri": "rbxassetid://99918413814218",
     "id_status": "valid",
@@ -146022,7 +146452,9 @@
     "raw_uris": [
       "rbxassetid://99918413814218"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle",
@@ -146104,7 +146536,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "eaeccc491ae817a028e444db",
@@ -151214,7 +151649,7 @@
   },
   {
     "key": "950f4ecc63ed528deffd0f72",
-    "name": "Untitled",
+    "name": "Diamant blanc filaire",
     "asset_id": "18144297985",
     "uri": "rbxassetid://18144297985",
     "id_status": "valid",
@@ -151223,7 +151658,9 @@
     "raw_uris": [
       "rbxassetid://18144297985"
     ],
-    "aliases": [],
+    "aliases": [
+      "Untitled"
+    ],
     "key_aliases": [],
     "tags": [
       "Circle"
@@ -151299,7 +151736,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Untitled",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cc45e85e1cd438480c4c3edb",
@@ -153600,12 +154040,12 @@
       }
     ],
     "image_path": "images/83627180154255.png",
-    "preview_path": "images/83627180154255.png",
+    "preview_path": "previews/83627180154255-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -153632,7 +154072,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "50c84527e30a37e0bbab3576",

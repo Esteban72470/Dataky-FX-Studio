@@ -175,7 +175,7 @@
   },
   {
     "key": "099442bd47d54583860f1849",
-    "name": "47",
+    "name": "Éclat étoilé cerclé",
     "asset_id": "11425477167",
     "uri": "rbxassetid://11425477167",
     "id_status": "valid",
@@ -184,7 +184,9 @@
     "raw_uris": [
       "rbxassetid://11425477167"
     ],
-    "aliases": [],
+    "aliases": [
+      "47"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare"
@@ -258,7 +260,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "47",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "33ad826d93c81b33a0ba6662",
@@ -121343,7 +121348,7 @@
   },
   {
     "key": "d9369b47eb24f7779b699908",
-    "name": "Texture",
+    "name": "Petit nuage de scintillements",
     "asset_id": "100351068414513",
     "uri": "rbxassetid://100351068414513",
     "id_status": "valid",
@@ -121352,7 +121357,9 @@
     "raw_uris": [
       "rbxassetid://100351068414513"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -121436,11 +121443,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e43c78bba9ea3c66106136fc",
-    "name": "Texture",
+    "name": "Nuage scintillant compact",
     "asset_id": "100725142821974",
     "uri": "rbxassetid://100725142821974",
     "id_status": "valid",
@@ -121449,7 +121459,9 @@
     "raw_uris": [
       "rbxassetid://100725142821974"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -121533,11 +121545,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2aeb8f67c9d2d57d579a6b09",
-    "name": "Texture",
+    "name": "Halo étoilé très diffus",
     "asset_id": "101015169279346",
     "uri": "rbxassetid://101015169279346",
     "id_status": "valid",
@@ -121546,7 +121561,9 @@
     "raw_uris": [
       "rbxassetid://101015169279346"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -121628,11 +121645,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b4863322566e39b1a58e75bc",
-    "name": "Texture",
+    "name": "Nuage de points blancs",
     "asset_id": "101364278347404",
     "uri": "rbxassetid://101364278347404",
     "id_status": "valid",
@@ -121641,7 +121661,9 @@
     "raw_uris": [
       "rbxassetid://101364278347404"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -121723,11 +121745,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c97ad5ceaef6eed750b629e7",
-    "name": "Texture",
+    "name": "Reflets prismatiques dispersés · 903583",
     "asset_id": "101530929903583",
     "uri": "rbxassetid://101530929903583",
     "id_status": "valid",
@@ -121736,7 +121761,9 @@
     "raw_uris": [
       "rbxassetid://101530929903583"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -121820,11 +121847,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7dc2e0efc6f44fc052558949",
-    "name": "Texture",
+    "name": "Petits éclats multicolores",
     "asset_id": "102182726187519",
     "uri": "rbxassetid://102182726187519",
     "id_status": "valid",
@@ -121833,7 +121863,9 @@
     "raw_uris": [
       "rbxassetid://102182726187519"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -121917,11 +121949,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "aeac71926a8be50dfa09ce7c",
-    "name": "Texture",
+    "name": "Éclat bleu horizontal",
     "asset_id": "102521370644959",
     "uri": "rbxassetid://102521370644959",
     "id_status": "valid",
@@ -121930,7 +121965,9 @@
     "raw_uris": [
       "rbxassetid://102521370644959"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122012,11 +122049,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b1d6e6fac36fa9f9829ce9d6",
-    "name": "Texture",
+    "name": "Éventail de reflets prismatiques",
     "asset_id": "102697831417964",
     "uri": "rbxassetid://102697831417964",
     "id_status": "valid",
@@ -122025,7 +122065,9 @@
     "raw_uris": [
       "rbxassetid://102697831417964"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122107,11 +122149,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e6a20f7936a767df4956fd60",
-    "name": "Texture",
+    "name": "Sphère granuleuse tourbillonnante",
     "asset_id": "102893627083991",
     "uri": "rbxassetid://102893627083991",
     "id_status": "valid",
@@ -122120,7 +122165,9 @@
     "raw_uris": [
       "rbxassetid://102893627083991"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122202,11 +122249,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c3be2e0b36e123a8b9ef62a6",
-    "name": "Texture",
+    "name": "Éclatement radial de facettes",
     "asset_id": "103009126313187",
     "uri": "rbxassetid://103009126313187",
     "id_status": "valid",
@@ -122215,7 +122265,9 @@
     "raw_uris": [
       "rbxassetid://103009126313187"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122297,11 +122349,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2edc10e6fa9868d949047217",
-    "name": "Texture",
+    "name": "Étoile fine irisée",
     "asset_id": "103170425627275",
     "uri": "rbxassetid://103170425627275",
     "id_status": "valid",
@@ -122310,7 +122365,9 @@
     "raw_uris": [
       "rbxassetid://103170425627275"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122394,11 +122451,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d8a6cac147546283091059cc",
-    "name": "Texture",
+    "name": "Petits reflets colorés dispersés",
     "asset_id": "103173876556126",
     "uri": "rbxassetid://103173876556126",
     "id_status": "valid",
@@ -122407,7 +122467,9 @@
     "raw_uris": [
       "rbxassetid://103173876556126"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122489,11 +122551,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9722b268fc33089efb87629c",
-    "name": "Texture",
+    "name": "Éclat symétrique irisé",
     "asset_id": "103748519584519",
     "uri": "rbxassetid://103748519584519",
     "id_status": "valid",
@@ -122502,7 +122567,9 @@
     "raw_uris": [
       "rbxassetid://103748519584519"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122584,11 +122651,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a5fa0e1f72361615ced98015",
-    "name": "Texture",
+    "name": "Bulle brillante transparente",
     "asset_id": "103978360092441",
     "uri": "rbxassetid://103978360092441",
     "id_status": "valid",
@@ -122597,7 +122667,9 @@
     "raw_uris": [
       "rbxassetid://103978360092441"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122679,11 +122751,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "aaa65e400633919fdfba288b",
-    "name": "Texture",
+    "name": "Étoile lumineuse horizontale",
     "asset_id": "104170295612099",
     "uri": "rbxassetid://104170295612099",
     "id_status": "valid",
@@ -122692,7 +122767,9 @@
     "raw_uris": [
       "rbxassetid://104170295612099"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122774,11 +122851,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b5ef4e2024143758c01063e3",
-    "name": "Texture",
+    "name": "Couronne lumineuse irrégulière",
     "asset_id": "104930631889153",
     "uri": "rbxassetid://104930631889153",
     "id_status": "valid",
@@ -122787,7 +122867,9 @@
     "raw_uris": [
       "rbxassetid://104930631889153"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122869,11 +122951,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "921748d64923c3086c5f1e6d",
-    "name": "Texture",
+    "name": "Étoile fine à quatre pointes",
     "asset_id": "105542632319158",
     "uri": "rbxassetid://105542632319158",
     "id_status": "valid",
@@ -122882,7 +122967,9 @@
     "raw_uris": [
       "rbxassetid://105542632319158"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -122964,11 +123051,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b323e29d947c68873b2a75f3",
-    "name": "Texture",
+    "name": "Éclat fin discret",
     "asset_id": "106602179911079",
     "uri": "rbxassetid://106602179911079",
     "id_status": "valid",
@@ -122977,7 +123067,9 @@
     "raw_uris": [
       "rbxassetid://106602179911079"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123059,11 +123151,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "852b5274aba5de14b6657870",
-    "name": "Texture",
+    "name": "Étoile lumineuse à rayons fins",
     "asset_id": "107364625846718",
     "uri": "rbxassetid://107364625846718",
     "id_status": "valid",
@@ -123072,7 +123167,9 @@
     "raw_uris": [
       "rbxassetid://107364625846718"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123154,11 +123251,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e52dbda52f774df718ca1199",
-    "name": "Texture",
+    "name": "Éclats argentés groupés",
     "asset_id": "107488654622974",
     "uri": "rbxassetid://107488654622974",
     "id_status": "valid",
@@ -123167,7 +123267,9 @@
     "raw_uris": [
       "rbxassetid://107488654622974"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123251,11 +123353,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d08e3eafadf5d91bc39fba2e",
-    "name": "Texture",
+    "name": "Couronne de reflets irisées",
     "asset_id": "107677502461031",
     "uri": "rbxassetid://107677502461031",
     "id_status": "valid",
@@ -123264,7 +123369,9 @@
     "raw_uris": [
       "rbxassetid://107677502461031"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123347,11 +123454,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7587b64e4c3524428a007a48",
-    "name": "Texture",
+    "name": "Étoile blanche à quatre pointes",
     "asset_id": "108999803716673",
     "uri": "rbxassetid://108999803716673",
     "id_status": "valid",
@@ -123360,7 +123470,9 @@
     "raw_uris": [
       "rbxassetid://108999803716673"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123442,11 +123554,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "620aace6205d592ac3752498",
-    "name": "Texture",
+    "name": "Nuage granuleux très pâle",
     "asset_id": "109076263668804",
     "uri": "rbxassetid://109076263668804",
     "id_status": "valid",
@@ -123455,7 +123570,9 @@
     "raw_uris": [
       "rbxassetid://109076263668804"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123537,11 +123654,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d773e032b2ffe6e0f14dbf67",
-    "name": "Texture",
+    "name": "Étoile lumineuse aux axes longs",
     "asset_id": "109113434055634",
     "uri": "rbxassetid://109113434055634",
     "id_status": "valid",
@@ -123550,7 +123670,9 @@
     "raw_uris": [
       "rbxassetid://109113434055634"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123632,11 +123754,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e759a4f128e65c4c2a91f7d1",
-    "name": "Texture",
+    "name": "Rayons droits aux bords irisés",
     "asset_id": "109225803292630",
     "uri": "rbxassetid://109225803292630",
     "id_status": "valid",
@@ -123645,7 +123770,9 @@
     "raw_uris": [
       "rbxassetid://109225803292630"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123728,11 +123855,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "801c4417ade6b082b39f16db",
-    "name": "Texture",
+    "name": "Éclat blanc aux rayons diffus",
     "asset_id": "109529876871258",
     "uri": "rbxassetid://109529876871258",
     "id_status": "valid",
@@ -123741,7 +123871,9 @@
     "raw_uris": [
       "rbxassetid://109529876871258"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123823,11 +123955,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5a22c3316202039208c78a45",
-    "name": "Texture",
+    "name": "Éclat blanc horizontal fin",
     "asset_id": "110131385380343",
     "uri": "rbxassetid://110131385380343",
     "id_status": "valid",
@@ -123836,7 +123971,9 @@
     "raw_uris": [
       "rbxassetid://110131385380343"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -123918,11 +124055,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9f6dd81a897adc628855aa45",
-    "name": "Texture",
+    "name": "Double point lumineux irisé",
     "asset_id": "110172028403181",
     "uri": "rbxassetid://110172028403181",
     "id_status": "valid",
@@ -123931,7 +124071,9 @@
     "raw_uris": [
       "rbxassetid://110172028403181"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124013,11 +124155,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4a431c77d623322ef2e1d4ba",
-    "name": "Texture",
+    "name": "Petits reflets blancs dispersés · 395894",
     "asset_id": "110310100395894",
     "uri": "rbxassetid://110310100395894",
     "id_status": "valid",
@@ -124026,7 +124171,9 @@
     "raw_uris": [
       "rbxassetid://110310100395894"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124110,11 +124257,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "60e5a5ff2a237604f6a5c26c",
-    "name": "Texture",
+    "name": "Couronne de petites flammes irisées",
     "asset_id": "110905992202779",
     "uri": "rbxassetid://110905992202779",
     "id_status": "valid",
@@ -124123,7 +124273,9 @@
     "raw_uris": [
       "rbxassetid://110905992202779"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124206,11 +124358,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7783ac9d478065cb56f1482f",
-    "name": "Texture",
+    "name": "Éclat croisé en diagonale",
     "asset_id": "111632736798303",
     "uri": "rbxassetid://111632736798303",
     "id_status": "valid",
@@ -124219,7 +124374,9 @@
     "raw_uris": [
       "rbxassetid://111632736798303"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124301,11 +124458,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f64713ce494c27d76fa2cb60",
-    "name": "Texture",
+    "name": "Pluie de fines lignes obliques",
     "asset_id": "111764157482487",
     "uri": "rbxassetid://111764157482487",
     "id_status": "valid",
@@ -124314,7 +124474,9 @@
     "raw_uris": [
       "rbxassetid://111764157482487"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124396,11 +124558,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2e206dea58153284a83a8b1b",
-    "name": "Texture",
+    "name": "Nuage lumineux arc-en-ciel",
     "asset_id": "111774283002709",
     "uri": "rbxassetid://111774283002709",
     "id_status": "valid",
@@ -124409,7 +124574,9 @@
     "raw_uris": [
       "rbxassetid://111774283002709"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124491,11 +124658,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b469967fd64181045db1b1d0",
-    "name": "Texture",
+    "name": "Étoile diffuse aux rayons irisés",
     "asset_id": "112093441833321",
     "uri": "rbxassetid://112093441833321",
     "id_status": "valid",
@@ -124504,7 +124674,9 @@
     "raw_uris": [
       "rbxassetid://112093441833321"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124586,11 +124758,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2f8946b7b670646015bb4cd6",
-    "name": "Texture",
+    "name": "Points brillants très espacés",
     "asset_id": "112699966570961",
     "uri": "rbxassetid://112699966570961",
     "id_status": "valid",
@@ -124599,7 +124774,9 @@
     "raw_uris": [
       "rbxassetid://112699966570961"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124681,11 +124858,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f8acd74800161275626c3a52",
-    "name": "Texture",
+    "name": "Scintillements épars rectangulaires",
     "asset_id": "112733431777632",
     "uri": "rbxassetid://112733431777632",
     "id_status": "valid",
@@ -124694,7 +124874,9 @@
     "raw_uris": [
       "rbxassetid://112733431777632"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124776,11 +124958,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "914e803cc0beb7c2e7432c3f",
-    "name": "Texture",
+    "name": "Étoile blanche à nombreux rayons",
     "asset_id": "113551859277042",
     "uri": "rbxassetid://113551859277042",
     "id_status": "valid",
@@ -124789,7 +124974,9 @@
     "raw_uris": [
       "rbxassetid://113551859277042"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124871,11 +125058,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "87d3af1e4db996aa40c36be1",
-    "name": "Texture",
+    "name": "Éclipse noire à rayons irisés",
     "asset_id": "113678477929743",
     "uri": "rbxassetid://113678477929743",
     "id_status": "valid",
@@ -124884,7 +125074,9 @@
     "raw_uris": [
       "rbxassetid://113678477929743"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -124969,11 +125161,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "260caba36aa85a715dca77c6",
-    "name": "Texture",
+    "name": "Croix lumineuse diagonale fine",
     "asset_id": "114546804194261",
     "uri": "rbxassetid://114546804194261",
     "id_status": "valid",
@@ -124982,7 +125177,9 @@
     "raw_uris": [
       "rbxassetid://114546804194261"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125064,11 +125261,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0133d1f50d5ec901c8747088",
-    "name": "Texture",
+    "name": "Étoile croisée aux longues pointes",
     "asset_id": "115275609351060",
     "uri": "rbxassetid://115275609351060",
     "id_status": "valid",
@@ -125077,7 +125277,9 @@
     "raw_uris": [
       "rbxassetid://115275609351060"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125159,11 +125361,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e90618d145b912d767e50ccb",
-    "name": "Texture",
+    "name": "Points lumineux sur fond noir",
     "asset_id": "115311681403123",
     "uri": "rbxassetid://115311681403123",
     "id_status": "valid",
@@ -125172,7 +125377,9 @@
     "raw_uris": [
       "rbxassetid://115311681403123"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125254,11 +125461,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1236f55a4d6126f254ead880",
-    "name": "Texture",
+    "name": "Arc fin de lignes croisées",
     "asset_id": "115362450516332",
     "uri": "rbxassetid://115362450516332",
     "id_status": "valid",
@@ -125267,7 +125477,9 @@
     "raw_uris": [
       "rbxassetid://115362450516332"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125349,11 +125561,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f6b271509077dd429768ad48",
-    "name": "Texture",
+    "name": "Reflets optiques bleu et vert",
     "asset_id": "115641361349144",
     "uri": "rbxassetid://115641361349144",
     "id_status": "valid",
@@ -125362,7 +125577,9 @@
     "raw_uris": [
       "rbxassetid://115641361349144"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125444,11 +125661,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3ee83f26bcbccd9a3287a3dd",
-    "name": "Texture",
+    "name": "Éclats blancs sur ligne oblique",
     "asset_id": "115711655488464",
     "uri": "rbxassetid://115711655488464",
     "id_status": "valid",
@@ -125457,7 +125677,9 @@
     "raw_uris": [
       "rbxassetid://115711655488464"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125540,11 +125762,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a207f0b81081eb8bdc9a2b85",
-    "name": "Texture",
+    "name": "Nuage de gros scintillements",
     "asset_id": "116960397641803",
     "uri": "rbxassetid://116960397641803",
     "id_status": "valid",
@@ -125553,7 +125778,9 @@
     "raw_uris": [
       "rbxassetid://116960397641803"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125635,11 +125862,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d246576e02148af745511a52",
-    "name": "Texture",
+    "name": "Croix lumineuse fine",
     "asset_id": "117539158384046",
     "uri": "rbxassetid://117539158384046",
     "id_status": "valid",
@@ -125648,7 +125878,9 @@
     "raw_uris": [
       "rbxassetid://117539158384046"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125730,11 +125962,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "feab83e44872134cd3bb01c5",
-    "name": "Texture",
+    "name": "Petits reflets blancs épars",
     "asset_id": "117812492416740",
     "uri": "rbxassetid://117812492416740",
     "id_status": "valid",
@@ -125743,7 +125978,9 @@
     "raw_uris": [
       "rbxassetid://117812492416740"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125825,11 +126062,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9c6bbec7edc12b2e40b49eb3",
-    "name": "Texture",
+    "name": "Trait horizontal blanc fin",
     "asset_id": "118399980590811",
     "uri": "rbxassetid://118399980590811",
     "id_status": "valid",
@@ -125838,7 +126078,9 @@
     "raw_uris": [
       "rbxassetid://118399980590811"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -125920,11 +126162,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f3b0621a00eb0ba2682700d0",
-    "name": "Texture",
+    "name": "Panache clair évasé",
     "asset_id": "118856570285139",
     "uri": "rbxassetid://118856570285139",
     "id_status": "valid",
@@ -125933,7 +126178,9 @@
     "raw_uris": [
       "rbxassetid://118856570285139"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126017,11 +126264,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bfb87174cde6b73dab5f2830",
-    "name": "Texture",
+    "name": "Nuage circulaire de scintillements",
     "asset_id": "119137465326577",
     "uri": "rbxassetid://119137465326577",
     "id_status": "valid",
@@ -126030,7 +126280,9 @@
     "raw_uris": [
       "rbxassetid://119137465326577"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126112,11 +126364,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "64c875b452acb6d27bebf080",
-    "name": "Texture",
+    "name": "Grille de petites particules",
     "asset_id": "119578487108713",
     "uri": "rbxassetid://119578487108713",
     "id_status": "valid",
@@ -126125,7 +126380,9 @@
     "raw_uris": [
       "rbxassetid://119578487108713"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126209,11 +126466,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2f1840a4b6bb1c37d33bba8f",
-    "name": "Texture",
+    "name": "Petit éclat angulaire argenté",
     "asset_id": "119707022018961",
     "uri": "rbxassetid://119707022018961",
     "id_status": "valid",
@@ -126222,7 +126482,9 @@
     "raw_uris": [
       "rbxassetid://119707022018961"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126306,11 +126568,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "343e06aa7488ef9ed1092d00",
-    "name": "Texture",
+    "name": "Petit reflet sur fond noir",
     "asset_id": "120003538191552",
     "uri": "rbxassetid://120003538191552",
     "id_status": "valid",
@@ -126319,7 +126584,9 @@
     "raw_uris": [
       "rbxassetid://120003538191552"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126401,11 +126668,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "506137a32835386176bdf425",
-    "name": "Texture",
+    "name": "Éclat blanc horizontal ovale",
     "asset_id": "120112731968125",
     "uri": "rbxassetid://120112731968125",
     "id_status": "valid",
@@ -126414,7 +126684,9 @@
     "raw_uris": [
       "rbxassetid://120112731968125"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126496,11 +126768,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0d32e2360db74ce579b5168b",
-    "name": "Texture",
+    "name": "Croix fine quadrillée",
     "asset_id": "120118439883797",
     "uri": "rbxassetid://120118439883797",
     "id_status": "valid",
@@ -126509,7 +126784,9 @@
     "raw_uris": [
       "rbxassetid://120118439883797"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126591,11 +126868,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7615b14a12ea14fec85058c6",
-    "name": "Texture",
+    "name": "Anneau de grains scintillants",
     "asset_id": "120294091769496",
     "uri": "rbxassetid://120294091769496",
     "id_status": "valid",
@@ -126604,7 +126884,9 @@
     "raw_uris": [
       "rbxassetid://120294091769496"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126686,11 +126968,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1adf8a2030ade851d9c2d1fe",
-    "name": "Texture",
+    "name": "Étoile blanche aux branches fines",
     "asset_id": "120355797403838",
     "uri": "rbxassetid://120355797403838",
     "id_status": "valid",
@@ -126699,7 +126984,9 @@
     "raw_uris": [
       "rbxassetid://120355797403838"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126781,11 +127068,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad236740281707ccccbc911e",
-    "name": "Texture",
+    "name": "Arc irisé avec étoile",
     "asset_id": "120367133657753",
     "uri": "rbxassetid://120367133657753",
     "id_status": "valid",
@@ -126794,7 +127084,9 @@
     "raw_uris": [
       "rbxassetid://120367133657753"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126876,11 +127168,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0fc91215eab33576852e4a9f",
-    "name": "Texture",
+    "name": "Triangle blanc en dégradé",
     "asset_id": "121499642206251",
     "uri": "rbxassetid://121499642206251",
     "id_status": "valid",
@@ -126889,7 +127184,9 @@
     "raw_uris": [
       "rbxassetid://121499642206251"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -126971,11 +127268,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "36b31dd9e89249bdd3510add",
-    "name": "Texture",
+    "name": "Gerbe de plumes sombres",
     "asset_id": "121520577207765",
     "uri": "rbxassetid://121520577207765",
     "id_status": "valid",
@@ -126984,7 +127284,9 @@
     "raw_uris": [
       "rbxassetid://121520577207765"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127066,11 +127368,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e03f2a8dcf20d6d64c79208a",
-    "name": "Texture",
+    "name": "Groupe de scintillements blancs",
     "asset_id": "121660220117138",
     "uri": "rbxassetid://121660220117138",
     "id_status": "valid",
@@ -127079,7 +127384,9 @@
     "raw_uris": [
       "rbxassetid://121660220117138"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127163,11 +127470,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7cbc83244ac8c8862ce3d2c1",
-    "name": "Texture",
+    "name": "Rosace de facettes irisées",
     "asset_id": "122257502905142",
     "uri": "rbxassetid://122257502905142",
     "id_status": "valid",
@@ -127176,7 +127486,9 @@
     "raw_uris": [
       "rbxassetid://122257502905142"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127258,11 +127570,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "50cfe1b9658695a48c96a3ac",
-    "name": "Texture",
+    "name": "Croix lumineuse segmentée",
     "asset_id": "122281421820875",
     "uri": "rbxassetid://122281421820875",
     "id_status": "valid",
@@ -127271,7 +127586,9 @@
     "raw_uris": [
       "rbxassetid://122281421820875"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127353,11 +127670,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f05cd0d1961b16e90acfe6e9",
-    "name": "Texture",
+    "name": "Petit halo arc-en-ciel",
     "asset_id": "122740462296059",
     "uri": "rbxassetid://122740462296059",
     "id_status": "valid",
@@ -127366,7 +127686,9 @@
     "raw_uris": [
       "rbxassetid://122740462296059"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127448,11 +127770,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4701af79ed49ff5eaf52efb7",
-    "name": "Texture",
+    "name": "Couronne étoilée aux bords irisés",
     "asset_id": "124224984356822",
     "uri": "rbxassetid://124224984356822",
     "id_status": "valid",
@@ -127461,7 +127786,9 @@
     "raw_uris": [
       "rbxassetid://124224984356822"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127543,11 +127870,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "33b4e48c0426008c7b0f2756",
-    "name": "Texture",
+    "name": "Nuage étiré de scintillements",
     "asset_id": "124589174068287",
     "uri": "rbxassetid://124589174068287",
     "id_status": "valid",
@@ -127556,7 +127886,9 @@
     "raw_uris": [
       "rbxassetid://124589174068287"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127638,11 +127970,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e07db4fc3d69c3b6de7dc938",
-    "name": "Texture",
+    "name": "Éclats blancs diffus",
     "asset_id": "124744903601692",
     "uri": "rbxassetid://124744903601692",
     "id_status": "valid",
@@ -127651,7 +127986,9 @@
     "raw_uris": [
       "rbxassetid://124744903601692"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127735,11 +128072,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "052a34e8fd5532f31fd2f3f4",
-    "name": "Texture",
+    "name": "Nuage dense de scintillements",
     "asset_id": "125040699215741",
     "uri": "rbxassetid://125040699215741",
     "id_status": "valid",
@@ -127748,7 +128088,9 @@
     "raw_uris": [
       "rbxassetid://125040699215741"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127830,11 +128172,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bd0b78ac3bef2ab7228020f2",
-    "name": "Texture",
+    "name": "Petite fleur lumineuse irisée",
     "asset_id": "125841678436535",
     "uri": "rbxassetid://125841678436535",
     "id_status": "valid",
@@ -127843,7 +128188,9 @@
     "raw_uris": [
       "rbxassetid://125841678436535"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -127927,11 +128274,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "53b03a6dadddc931458aae02",
-    "name": "Texture",
+    "name": "Bloc de traits horizontaux",
     "asset_id": "126001454175504",
     "uri": "rbxassetid://126001454175504",
     "id_status": "valid",
@@ -127940,7 +128290,9 @@
     "raw_uris": [
       "rbxassetid://126001454175504"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128022,11 +128374,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a2f24acdd5b3b598f6d11ceb",
-    "name": "Texture",
+    "name": "Petit trait blanc oblique",
     "asset_id": "126541832211876",
     "uri": "rbxassetid://126541832211876",
     "id_status": "valid",
@@ -128035,7 +128390,9 @@
     "raw_uris": [
       "rbxassetid://126541832211876"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128117,11 +128474,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "14a6732a9b523deb4432394c",
-    "name": "Texture",
+    "name": "Éclat diffus à rayons",
     "asset_id": "126971972668173",
     "uri": "rbxassetid://126971972668173",
     "id_status": "valid",
@@ -128130,7 +128490,9 @@
     "raw_uris": [
       "rbxassetid://126971972668173"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128214,11 +128576,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f801b1d1f2ee0fe16b4cfc20",
-    "name": "Texture",
+    "name": "Petits scintillements circulaires",
     "asset_id": "127719409149211",
     "uri": "rbxassetid://127719409149211",
     "id_status": "valid",
@@ -128227,7 +128592,9 @@
     "raw_uris": [
       "rbxassetid://127719409149211"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128309,11 +128676,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c6ae0c3894a0b842d0f7ff35",
-    "name": "Texture",
+    "name": "Éclat bleu à traîne oblique",
     "asset_id": "127849507263155",
     "uri": "rbxassetid://127849507263155",
     "id_status": "valid",
@@ -128322,7 +128692,9 @@
     "raw_uris": [
       "rbxassetid://127849507263155"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128404,11 +128776,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2ff33c5e44c407bf65771293",
-    "name": "Texture",
+    "name": "Étoile bleue sur arc",
     "asset_id": "128447332877945",
     "uri": "rbxassetid://128447332877945",
     "id_status": "valid",
@@ -128417,7 +128792,9 @@
     "raw_uris": [
       "rbxassetid://128447332877945"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128499,11 +128876,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "83f741967a288f0547919001",
-    "name": "Texture",
+    "name": "Éclatement de lignes et facettes",
     "asset_id": "128610518728265",
     "uri": "rbxassetid://128610518728265",
     "id_status": "valid",
@@ -128512,7 +128892,9 @@
     "raw_uris": [
       "rbxassetid://128610518728265"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128594,11 +128976,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9cc17f418255059de55965ab",
-    "name": "Texture",
+    "name": "Reflets alignés dans des anneaux",
     "asset_id": "128915165080991",
     "uri": "rbxassetid://128915165080991",
     "id_status": "valid",
@@ -128607,7 +128992,9 @@
     "raw_uris": [
       "rbxassetid://128915165080991"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128689,11 +129076,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b4741995a56e3637e848d1c1",
-    "name": "Texture",
+    "name": "Petits fragments en rayons",
     "asset_id": "128972414105772",
     "uri": "rbxassetid://128972414105772",
     "id_status": "valid",
@@ -128702,7 +129092,9 @@
     "raw_uris": [
       "rbxassetid://128972414105772"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128784,11 +129176,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "98333119990d65a5fad7e3e7",
-    "name": "Texture",
+    "name": "Nuage de grains scintillants",
     "asset_id": "129513786377190",
     "uri": "rbxassetid://129513786377190",
     "id_status": "valid",
@@ -128797,7 +129192,9 @@
     "raw_uris": [
       "rbxassetid://129513786377190"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128879,11 +129276,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e3f731708837dfc332cdcd98",
-    "name": "Texture",
+    "name": "Reflets prismatiques dispersés · 511843",
     "asset_id": "129718016511843",
     "uri": "rbxassetid://129718016511843",
     "id_status": "valid",
@@ -128892,7 +129292,9 @@
     "raw_uris": [
       "rbxassetid://129718016511843"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -128974,11 +129376,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a960116f7afe7f5551a3e16b",
-    "name": "Texture",
+    "name": "Petit anneau de scintillements",
     "asset_id": "129722699287220",
     "uri": "rbxassetid://129722699287220",
     "id_status": "valid",
@@ -128987,7 +129392,9 @@
     "raw_uris": [
       "rbxassetid://129722699287220"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129071,11 +129478,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f1e84c5e40821fce2f75a2dc",
-    "name": "Texture",
+    "name": "Anneaux de reflets arc-en-ciel",
     "asset_id": "130349753568504",
     "uri": "rbxassetid://130349753568504",
     "id_status": "valid",
@@ -129084,7 +129494,9 @@
     "raw_uris": [
       "rbxassetid://130349753568504"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129166,11 +129578,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a4425cc81132455a894f8295",
-    "name": "Texture",
+    "name": "Nuage fin de points pâles",
     "asset_id": "131197606107666",
     "uri": "rbxassetid://131197606107666",
     "id_status": "valid",
@@ -129179,7 +129594,9 @@
     "raw_uris": [
       "rbxassetid://131197606107666"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129261,11 +129678,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7903d6a9f52cc9a1ae788778",
-    "name": "Texture",
+    "name": "Reflets optiques bleus alignés",
     "asset_id": "131744029502341",
     "uri": "rbxassetid://131744029502341",
     "id_status": "valid",
@@ -129274,7 +129694,9 @@
     "raw_uris": [
       "rbxassetid://131744029502341"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129356,11 +129778,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1694de4020d774ce6f0d5c78",
-    "name": "Texture",
+    "name": "Étoile de facettes translucides",
     "asset_id": "131854669954629",
     "uri": "rbxassetid://131854669954629",
     "id_status": "valid",
@@ -129369,7 +129794,9 @@
     "raw_uris": [
       "rbxassetid://131854669954629"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129451,11 +129878,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "32a51f97328ecf2cd7241be0",
-    "name": "Texture",
+    "name": "Éclat indisponible 60512",
     "asset_id": "132208062160512",
     "uri": "rbxassetid://132208062160512",
     "id_status": "valid",
@@ -129464,7 +129894,9 @@
     "raw_uris": [
       "rbxassetid://132208062160512"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129548,11 +129980,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "a456792c6e38e98c603e8bf9",
-    "name": "Texture",
+    "name": "Croix lumineuse oblique fine",
     "asset_id": "132212162535954",
     "uri": "rbxassetid://132212162535954",
     "id_status": "valid",
@@ -129561,7 +129996,9 @@
     "raw_uris": [
       "rbxassetid://132212162535954"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129643,11 +130080,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cdef7051b992b9cbad28461b",
-    "name": "Texture",
+    "name": "Grille de disques granuleux blancs",
     "asset_id": "132617059865445",
     "uri": "rbxassetid://132617059865445",
     "id_status": "valid",
@@ -129656,7 +130096,9 @@
     "raw_uris": [
       "rbxassetid://132617059865445"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129740,11 +130182,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "066535ea42662d59424722ab",
-    "name": "Texture",
+    "name": "Petite rosace translucide",
     "asset_id": "132643947638294",
     "uri": "rbxassetid://132643947638294",
     "id_status": "valid",
@@ -129753,7 +130198,9 @@
     "raw_uris": [
       "rbxassetid://132643947638294"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129837,11 +130284,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "381ec839b085c77607da253e",
-    "name": "Texture",
+    "name": "Croix fine aux bords irisés",
     "asset_id": "132837915552375",
     "uri": "rbxassetid://132837915552375",
     "id_status": "valid",
@@ -129850,7 +130300,9 @@
     "raw_uris": [
       "rbxassetid://132837915552375"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -129932,11 +130384,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7256f604df26a2c1cbafbbec",
-    "name": "Texture",
+    "name": "Rangée de petits éclats",
     "asset_id": "133049850382651",
     "uri": "rbxassetid://133049850382651",
     "id_status": "valid",
@@ -129945,7 +130400,9 @@
     "raw_uris": [
       "rbxassetid://133049850382651"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130027,11 +130484,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d5c283bbcfc0f84dcf0d1e5c",
-    "name": "Texture",
+    "name": "Petits reflets blancs dispersés · 468545",
     "asset_id": "133566408468545",
     "uri": "rbxassetid://133566408468545",
     "id_status": "valid",
@@ -130040,7 +130500,9 @@
     "raw_uris": [
       "rbxassetid://133566408468545"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130122,11 +130584,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "195150eceb246190616c0bc9",
-    "name": "Texture",
+    "name": "Étoile blanche à huit rayons",
     "asset_id": "133701770127441",
     "uri": "rbxassetid://133701770127441",
     "id_status": "valid",
@@ -130135,7 +130600,9 @@
     "raw_uris": [
       "rbxassetid://133701770127441"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130217,11 +130684,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "86e8db08d87f803882377137",
-    "name": "Texture",
+    "name": "Scintillements blancs dispersés",
     "asset_id": "133979830017636",
     "uri": "rbxassetid://133979830017636",
     "id_status": "valid",
@@ -130230,7 +130700,9 @@
     "raw_uris": [
       "rbxassetid://133979830017636"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130312,11 +130784,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d024a62049b75ea97d357747",
-    "name": "Texture",
+    "name": "Petit éclat blanc ramifié",
     "asset_id": "134011190273375",
     "uri": "rbxassetid://134011190273375",
     "id_status": "valid",
@@ -130325,7 +130800,9 @@
     "raw_uris": [
       "rbxassetid://134011190273375"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130409,11 +130886,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a8b17871b6e5f48a12090798",
-    "name": "Texture",
+    "name": "Étoile lumineuse rose et bleue",
     "asset_id": "134060532562701",
     "uri": "rbxassetid://134060532562701",
     "id_status": "valid",
@@ -130422,7 +130902,9 @@
     "raw_uris": [
       "rbxassetid://134060532562701"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130504,11 +130986,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "79afd2c2000f959bd3669736",
-    "name": "Texture",
+    "name": "Nuage circulaire de grains",
     "asset_id": "134299351406955",
     "uri": "rbxassetid://134299351406955",
     "id_status": "valid",
@@ -130517,7 +131002,9 @@
     "raw_uris": [
       "rbxassetid://134299351406955"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130599,11 +131086,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2a3f4956796b29a6fe01a50f",
-    "name": "Texture",
+    "name": "Disque blanc aux bords découpés",
     "asset_id": "134359080224372",
     "uri": "rbxassetid://134359080224372",
     "id_status": "valid",
@@ -130612,7 +131102,9 @@
     "raw_uris": [
       "rbxassetid://134359080224372"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130694,11 +131186,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b363964c0283e72be6546e2a",
-    "name": "Texture",
+    "name": "Étoile à quatre rayons irisés",
     "asset_id": "134609290656759",
     "uri": "rbxassetid://134609290656759",
     "id_status": "valid",
@@ -130707,7 +131202,9 @@
     "raw_uris": [
       "rbxassetid://134609290656759"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130789,11 +131286,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3b1be6f4c46bcbfcd3bab330",
-    "name": "Texture",
+    "name": "Étoile fine à six branches",
     "asset_id": "134747059733311",
     "uri": "rbxassetid://134747059733311",
     "id_status": "valid",
@@ -130802,7 +131302,9 @@
     "raw_uris": [
       "rbxassetid://134747059733311"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130884,11 +131386,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "143779e6bb99da8b07bf6bdf",
-    "name": "Texture",
+    "name": "Éclat indisponible 47615",
     "asset_id": "134752236747615",
     "uri": "rbxassetid://134752236747615",
     "id_status": "valid",
@@ -130897,7 +131402,9 @@
     "raw_uris": [
       "rbxassetid://134752236747615"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -130981,11 +131488,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "49c9ed55447102b46bebe9a8",
-    "name": "Texture",
+    "name": "Étoile blanche à rayons",
     "asset_id": "134961245954695",
     "uri": "rbxassetid://134961245954695",
     "id_status": "valid",
@@ -130994,7 +131504,9 @@
     "raw_uris": [
       "rbxassetid://134961245954695"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131076,11 +131588,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "994a68b1592758a28fd0eea6",
-    "name": "Texture",
+    "name": "Rosace prismatique étoilée",
     "asset_id": "134984790608807",
     "uri": "rbxassetid://134984790608807",
     "id_status": "valid",
@@ -131089,7 +131604,9 @@
     "raw_uris": [
       "rbxassetid://134984790608807"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131171,11 +131688,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b2e49e311112a897a58330fb",
-    "name": "Texture",
+    "name": "Disque blanc à fentes rayonnantes",
     "asset_id": "135326978114122",
     "uri": "rbxassetid://135326978114122",
     "id_status": "valid",
@@ -131184,7 +131704,9 @@
     "raw_uris": [
       "rbxassetid://135326978114122"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131266,11 +131788,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6a66b7b7d68f0f1acac3d0de",
-    "name": "Texture",
+    "name": "Deux éclats diagonaux",
     "asset_id": "135500823012266",
     "uri": "rbxassetid://135500823012266",
     "id_status": "valid",
@@ -131279,7 +131804,9 @@
     "raw_uris": [
       "rbxassetid://135500823012266"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131361,11 +131888,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "07039a946468a98fca99485a",
-    "name": "Texture",
+    "name": "Cercle fin incomplet",
     "asset_id": "136828902991367",
     "uri": "rbxassetid://136828902991367",
     "id_status": "valid",
@@ -131374,7 +131904,9 @@
     "raw_uris": [
       "rbxassetid://136828902991367"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131456,11 +131988,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a2c8cd0f87c934fcb5b8f441",
-    "name": "Texture",
+    "name": "Étoile lumineuse rayonnante",
     "asset_id": "137121905714676",
     "uri": "rbxassetid://137121905714676",
     "id_status": "valid",
@@ -131469,7 +132004,9 @@
     "raw_uris": [
       "rbxassetid://137121905714676"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131551,11 +132088,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "55d703c5271e04ab4aa081d5",
-    "name": "Texture",
+    "name": "Nœud de filaments électriques",
     "asset_id": "137935561809479",
     "uri": "rbxassetid://137935561809479",
     "id_status": "valid",
@@ -131564,7 +132104,9 @@
     "raw_uris": [
       "rbxassetid://137935561809479"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131648,11 +132190,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4245e2e4f8e0b9feb85c9c54",
-    "name": "Texture",
+    "name": "Disque de petits grains blancs",
     "asset_id": "139575004020768",
     "uri": "rbxassetid://139575004020768",
     "id_status": "valid",
@@ -131661,7 +132206,9 @@
     "raw_uris": [
       "rbxassetid://139575004020768"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131745,11 +132292,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2a1570a614643cf299f47541",
-    "name": "Texture",
+    "name": "Étincelles blanches éparses",
     "asset_id": "140644184222689",
     "uri": "rbxassetid://140644184222689",
     "id_status": "valid",
@@ -131758,7 +132308,9 @@
     "raw_uris": [
       "rbxassetid://140644184222689"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131842,11 +132394,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3207850f2728bc116bc689bd",
-    "name": "Texture",
+    "name": "Quatre éclats cardinaux",
     "asset_id": "18542376422",
     "uri": "rbxassetid://18542376422",
     "id_status": "valid",
@@ -131855,7 +132410,9 @@
     "raw_uris": [
       "rbxassetid://18542376422"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -131937,11 +132494,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "18b2fb41012aeec905dae0de",
-    "name": "Texture",
+    "name": "Couronne de huit éclats",
     "asset_id": "18542382876",
     "uri": "rbxassetid://18542382876",
     "id_status": "valid",
@@ -131950,7 +132510,9 @@
     "raw_uris": [
       "rbxassetid://18542382876"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132032,11 +132594,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "541b085db8b3d31133955a15",
-    "name": "Texture",
+    "name": "Amas blanc à stries horizontales",
     "asset_id": "18542389353",
     "uri": "rbxassetid://18542389353",
     "id_status": "valid",
@@ -132045,7 +132610,9 @@
     "raw_uris": [
       "rbxassetid://18542389353"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132101,10 +132668,10 @@
     ],
     "in_all_inventory": true,
     "observation_count": 4,
-    "image_path": null,
-    "preview_path": null,
-    "image_status": "pending",
-    "image_error": "Roblox thumbnail state: Pending",
+    "image_path": "images/18542389353.png",
+    "preview_path": "images/18542389353.png",
+    "image_status": "downloaded",
+    "image_error": null,
     "plugins": [
       "VFX Studio"
     ],
@@ -132126,12 +132693,15 @@
       "Statics"
     ],
     "image_source": "Roblox thumbnail 420x420",
-    "width": null,
-    "height": null
+    "width": 420,
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a869167dd64bf2354657f0e6",
-    "name": "Texture",
+    "name": "Nuage de paillettes fines",
     "asset_id": "18542391412",
     "uri": "rbxassetid://18542391412",
     "id_status": "valid",
@@ -132140,7 +132710,9 @@
     "raw_uris": [
       "rbxassetid://18542391412"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132222,11 +132794,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d864bbf6a94f811a6d805354",
-    "name": "Texture",
+    "name": "Éclat radial à perles",
     "asset_id": "18836944836",
     "uri": "rbxassetid://18836944836",
     "id_status": "valid",
@@ -132235,7 +132810,9 @@
     "raw_uris": [
       "rbxassetid://18836944836"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132317,11 +132894,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f2f548874a8b2369adf2a5cb",
-    "name": "Texture",
+    "name": "Anneau pointillé multicolore",
     "asset_id": "70445747186506",
     "uri": "rbxassetid://70445747186506",
     "id_status": "valid",
@@ -132330,7 +132910,9 @@
     "raw_uris": [
       "rbxassetid://70445747186506"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132412,11 +132994,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8955079b9551e95e3d19bc41",
-    "name": "Texture",
+    "name": "Petits éclats prismatiques",
     "asset_id": "70506533024687",
     "uri": "rbxassetid://70506533024687",
     "id_status": "valid",
@@ -132425,7 +133010,9 @@
     "raw_uris": [
       "rbxassetid://70506533024687"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132509,11 +133096,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0d2eddf1ec5a63f12a03ec9d",
-    "name": "Texture",
+    "name": "Éclat anguleux irisé",
     "asset_id": "70639345091913",
     "uri": "rbxassetid://70639345091913",
     "id_status": "valid",
@@ -132522,7 +133112,9 @@
     "raw_uris": [
       "rbxassetid://70639345091913"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132606,11 +133198,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "384055f2b3dda75bd0c2ca3c",
-    "name": "Texture",
+    "name": "Petite lueur quadrillée",
     "asset_id": "70907207386845",
     "uri": "rbxassetid://70907207386845",
     "id_status": "valid",
@@ -132619,7 +133214,9 @@
     "raw_uris": [
       "rbxassetid://70907207386845"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132703,11 +133300,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "92f88a41804c5aebe533b9eb",
-    "name": "Texture",
+    "name": "Éclat horizontal effilé",
     "asset_id": "71194210917254",
     "uri": "rbxassetid://71194210917254",
     "id_status": "valid",
@@ -132716,7 +133316,9 @@
     "raw_uris": [
       "rbxassetid://71194210917254"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132798,11 +133400,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "086fd328ba2b81a0a111a5f5",
-    "name": "Texture",
+    "name": "Anneau de prismes colorés",
     "asset_id": "71502623444447",
     "uri": "rbxassetid://71502623444447",
     "id_status": "valid",
@@ -132811,7 +133416,9 @@
     "raw_uris": [
       "rbxassetid://71502623444447"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132895,11 +133502,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8a57812003e5cd3c0be5feb9",
-    "name": "Texture",
+    "name": "Éclat indisponible 77805",
     "asset_id": "71582444177805",
     "uri": "rbxassetid://71582444177805",
     "id_status": "valid",
@@ -132908,7 +133518,9 @@
     "raw_uris": [
       "rbxassetid://71582444177805"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -132990,11 +133602,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "fbd783ec2ce18a89822d8208",
-    "name": "Texture",
+    "name": "Ligne blanche horizontale granuleuse",
     "asset_id": "71802849504223",
     "uri": "rbxassetid://71802849504223",
     "id_status": "valid",
@@ -133003,7 +133618,9 @@
     "raw_uris": [
       "rbxassetid://71802849504223"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133085,11 +133702,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "522a7f24639e0a05d47f0eed",
-    "name": "Texture",
+    "name": "Éclat de filaments blancs",
     "asset_id": "72105230542920",
     "uri": "rbxassetid://72105230542920",
     "id_status": "valid",
@@ -133098,7 +133718,9 @@
     "raw_uris": [
       "rbxassetid://72105230542920"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133182,11 +133804,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a4593fdc33a2af0399f56a4c",
-    "name": "Texture",
+    "name": "Éclats prismatiques dispersés",
     "asset_id": "72785601936566",
     "uri": "rbxassetid://72785601936566",
     "id_status": "valid",
@@ -133195,7 +133820,9 @@
     "raw_uris": [
       "rbxassetid://72785601936566"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133277,11 +133904,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f9fcbdc80ab653cd533839f8",
-    "name": "Texture",
+    "name": "Bouffée blanche à bord effiloché",
     "asset_id": "73194081281431",
     "uri": "rbxassetid://73194081281431",
     "id_status": "valid",
@@ -133290,7 +133920,9 @@
     "raw_uris": [
       "rbxassetid://73194081281431"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133374,11 +134006,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6b4e54e3884605af8cb51487",
-    "name": "Texture",
+    "name": "Gerbe de rayons blancs",
     "asset_id": "73286134243598",
     "uri": "rbxassetid://73286134243598",
     "id_status": "valid",
@@ -133387,7 +134022,9 @@
     "raw_uris": [
       "rbxassetid://73286134243598"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133469,11 +134106,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "40f68cbe8f438fc1dc4b9ec8",
-    "name": "Texture",
+    "name": "Éclat blanc asymétrique",
     "asset_id": "73721881320744",
     "uri": "rbxassetid://73721881320744",
     "id_status": "valid",
@@ -133482,7 +134122,9 @@
     "raw_uris": [
       "rbxassetid://73721881320744"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133564,11 +134206,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5a9ce12eaa34cf1c45b702de",
-    "name": "Texture",
+    "name": "Éclat horizontal bleuté",
     "asset_id": "74004709475825",
     "uri": "rbxassetid://74004709475825",
     "id_status": "valid",
@@ -133577,7 +134222,9 @@
     "raw_uris": [
       "rbxassetid://74004709475825"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133659,11 +134306,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ffe98257b58c91e9a0ddb166",
-    "name": "Texture",
+    "name": "Anneau gris à rayons",
     "asset_id": "74633209088223",
     "uri": "rbxassetid://74633209088223",
     "id_status": "valid",
@@ -133672,7 +134322,9 @@
     "raw_uris": [
       "rbxassetid://74633209088223"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133754,11 +134406,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0e3a84f7504c03018e1cfccb",
-    "name": "Texture",
+    "name": "Éclats gris en couronne",
     "asset_id": "74836328997968",
     "uri": "rbxassetid://74836328997968",
     "id_status": "valid",
@@ -133767,7 +134422,9 @@
     "raw_uris": [
       "rbxassetid://74836328997968"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133849,11 +134506,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "aa4997044a24c8431c8f31cf",
-    "name": "Texture",
+    "name": "Deux éclats sombres fumants",
     "asset_id": "74847980941464",
     "uri": "rbxassetid://74847980941464",
     "id_status": "valid",
@@ -133862,7 +134522,9 @@
     "raw_uris": [
       "rbxassetid://74847980941464"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -133944,11 +134606,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "18d7d630906f374ae6a21c1a",
-    "name": "Texture",
+    "name": "Éclats radiaux prismatiques",
     "asset_id": "74958713060359",
     "uri": "rbxassetid://74958713060359",
     "id_status": "valid",
@@ -133957,7 +134622,9 @@
     "raw_uris": [
       "rbxassetid://74958713060359"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134039,11 +134706,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "07517a7ea53d9e0b5bb06961",
-    "name": "Texture",
+    "name": "Nuage de points multicolores",
     "asset_id": "75020846894106",
     "uri": "rbxassetid://75020846894106",
     "id_status": "valid",
@@ -134052,7 +134722,9 @@
     "raw_uris": [
       "rbxassetid://75020846894106"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134134,11 +134806,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5ff870dafd013251664a74ca",
-    "name": "Texture",
+    "name": "Pluie de points blancs",
     "asset_id": "75460826773982",
     "uri": "rbxassetid://75460826773982",
     "id_status": "valid",
@@ -134147,7 +134822,9 @@
     "raw_uris": [
       "rbxassetid://75460826773982"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134229,11 +134906,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e6e886d31488fcbc447e0a66",
-    "name": "Texture",
+    "name": "Croix lumineuse effilée",
     "asset_id": "75542841051997",
     "uri": "rbxassetid://75542841051997",
     "id_status": "valid",
@@ -134242,7 +134922,9 @@
     "raw_uris": [
       "rbxassetid://75542841051997"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134324,11 +135006,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4e1b824b430194c2786afbc7",
-    "name": "Texture",
+    "name": "Petites étincelles groupées",
     "asset_id": "75754571996419",
     "uri": "rbxassetid://75754571996419",
     "id_status": "valid",
@@ -134337,7 +135022,9 @@
     "raw_uris": [
       "rbxassetid://75754571996419"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134421,11 +135108,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3c62caa8b6775bed70529588",
-    "name": "Texture",
+    "name": "Rayons blancs en trident",
     "asset_id": "75955260877843",
     "uri": "rbxassetid://75955260877843",
     "id_status": "valid",
@@ -134434,7 +135124,9 @@
     "raw_uris": [
       "rbxassetid://75955260877843"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134516,11 +135208,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "36b61fbe58828b573c8aa6ea",
-    "name": "Texture",
+    "name": "Étoile blanche rayonnante",
     "asset_id": "75991548678781",
     "uri": "rbxassetid://75991548678781",
     "id_status": "valid",
@@ -134529,7 +135224,9 @@
     "raw_uris": [
       "rbxassetid://75991548678781"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134611,11 +135308,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e7de4d0a6de4f798ce527ea6",
-    "name": "Texture",
+    "name": "Croix blanche à traits granuleux",
     "asset_id": "76092395912426",
     "uri": "rbxassetid://76092395912426",
     "id_status": "valid",
@@ -134624,7 +135324,9 @@
     "raw_uris": [
       "rbxassetid://76092395912426"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134706,11 +135408,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2a9ce946bd78937dc8dba597",
-    "name": "Texture",
+    "name": "Arc prismatique vaporeux",
     "asset_id": "76929493196488",
     "uri": "rbxassetid://76929493196488",
     "id_status": "valid",
@@ -134719,7 +135424,9 @@
     "raw_uris": [
       "rbxassetid://76929493196488"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134801,11 +135508,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "03391943fee733f2610ca416",
-    "name": "Texture",
+    "name": "Colonne de points scintillants",
     "asset_id": "77321620360253",
     "uri": "rbxassetid://77321620360253",
     "id_status": "valid",
@@ -134814,7 +135524,9 @@
     "raw_uris": [
       "rbxassetid://77321620360253"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134898,11 +135610,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f2be877bcabbf71fd51ed182",
-    "name": "Texture",
+    "name": "Explosion blanche grattée",
     "asset_id": "77463634205686",
     "uri": "rbxassetid://77463634205686",
     "id_status": "valid",
@@ -134911,7 +135626,9 @@
     "raw_uris": [
       "rbxassetid://77463634205686"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -134995,11 +135712,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d129d08f6216b18ce335f646",
-    "name": "Texture",
+    "name": "Croix lumineuse irisée",
     "asset_id": "77466523484849",
     "uri": "rbxassetid://77466523484849",
     "id_status": "valid",
@@ -135008,7 +135728,9 @@
     "raw_uris": [
       "rbxassetid://77466523484849"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135090,11 +135812,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2823f7d2186341946515ed3a",
-    "name": "Texture",
+    "name": "Couronne de pointes irisées",
     "asset_id": "77811543431201",
     "uri": "rbxassetid://77811543431201",
     "id_status": "valid",
@@ -135103,7 +135828,9 @@
     "raw_uris": [
       "rbxassetid://77811543431201"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135186,11 +135913,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "911d426b787756b0d77e8fb2",
-    "name": "Texture",
+    "name": "Stries blanches superposées",
     "asset_id": "77961265948987",
     "uri": "rbxassetid://77961265948987",
     "id_status": "valid",
@@ -135199,7 +135929,9 @@
     "raw_uris": [
       "rbxassetid://77961265948987"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135283,11 +136015,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "05ee21381db26df52cfae4c5",
-    "name": "Texture",
+    "name": "Étoile filaire scintillante",
     "asset_id": "78575359019708",
     "uri": "rbxassetid://78575359019708",
     "id_status": "valid",
@@ -135296,7 +136031,9 @@
     "raw_uris": [
       "rbxassetid://78575359019708"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135378,11 +136115,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0c00224c912fa3903e1f0173",
-    "name": "Texture",
+    "name": "Éclat blanc griffonné",
     "asset_id": "78613443744923",
     "uri": "rbxassetid://78613443744923",
     "id_status": "valid",
@@ -135391,7 +136131,9 @@
     "raw_uris": [
       "rbxassetid://78613443744923"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135475,11 +136217,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9554e66afe380fb3d1cc673b",
-    "name": "Texture",
+    "name": "Quelques points scintillants",
     "asset_id": "78719212883680",
     "uri": "rbxassetid://78719212883680",
     "id_status": "valid",
@@ -135488,7 +136233,9 @@
     "raw_uris": [
       "rbxassetid://78719212883680"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135572,11 +136319,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bfbffb51ed21ab21e52cb6d4",
-    "name": "Texture",
+    "name": "Éclat diagonal à halos",
     "asset_id": "79430038052624",
     "uri": "rbxassetid://79430038052624",
     "id_status": "valid",
@@ -135585,7 +136335,9 @@
     "raw_uris": [
       "rbxassetid://79430038052624"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135667,11 +136419,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e7b0bc6f5b1deb4cfa16e9d1",
-    "name": "Texture",
+    "name": "Anneau arc-en-ciel diffus",
     "asset_id": "79593347850146",
     "uri": "rbxassetid://79593347850146",
     "id_status": "valid",
@@ -135680,7 +136435,9 @@
     "raw_uris": [
       "rbxassetid://79593347850146"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135762,11 +136519,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4e09d0f519516e09020cb322",
-    "name": "Texture",
+    "name": "Grille de petites étoiles",
     "asset_id": "79627024276240",
     "uri": "rbxassetid://79627024276240",
     "id_status": "valid",
@@ -135775,7 +136535,9 @@
     "raw_uris": [
       "rbxassetid://79627024276240"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135858,11 +136620,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a928f6926a11c52df325fa10",
-    "name": "Texture",
+    "name": "Trait diagonal multicolore",
     "asset_id": "80637645733858",
     "uri": "rbxassetid://80637645733858",
     "id_status": "valid",
@@ -135871,7 +136636,9 @@
     "raw_uris": [
       "rbxassetid://80637645733858"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -135953,11 +136720,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "260a0e3b86766d0372d70f29",
-    "name": "Texture",
+    "name": "Petit éclat prismatique",
     "asset_id": "80930694538442",
     "uri": "rbxassetid://80930694538442",
     "id_status": "valid",
@@ -135966,7 +136736,9 @@
     "raw_uris": [
       "rbxassetid://80930694538442"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136050,11 +136822,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3933fd3a7ac96f8ca5091f8d",
-    "name": "Texture",
+    "name": "Nuage de points blancs fins",
     "asset_id": "81080758719887",
     "uri": "rbxassetid://81080758719887",
     "id_status": "valid",
@@ -136063,7 +136838,9 @@
     "raw_uris": [
       "rbxassetid://81080758719887"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136145,11 +136922,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "548da84aca05da1364c5af3e",
-    "name": "Texture",
+    "name": "Petite croix lumineuse",
     "asset_id": "81320058026473",
     "uri": "rbxassetid://81320058026473",
     "id_status": "valid",
@@ -136158,7 +136938,9 @@
     "raw_uris": [
       "rbxassetid://81320058026473"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136242,11 +137024,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d579c220d55bb4aa983a8c3e",
-    "name": "Texture",
+    "name": "Éclat blanc à halos diagonaux",
     "asset_id": "81410615532722",
     "uri": "rbxassetid://81410615532722",
     "id_status": "valid",
@@ -136255,7 +137040,9 @@
     "raw_uris": [
       "rbxassetid://81410615532722"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136337,11 +137124,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "77acad5c9c9260ecb5b6849f",
-    "name": "Texture",
+    "name": "Anneau blanc à rayons",
     "asset_id": "81626129957449",
     "uri": "rbxassetid://81626129957449",
     "id_status": "valid",
@@ -136350,7 +137140,9 @@
     "raw_uris": [
       "rbxassetid://81626129957449"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136432,11 +137224,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "da5f8fe4c05918f35369c9cf",
-    "name": "Texture",
+    "name": "Amas de grains en couronne",
     "asset_id": "81792010724447",
     "uri": "rbxassetid://81792010724447",
     "id_status": "valid",
@@ -136445,7 +137240,9 @@
     "raw_uris": [
       "rbxassetid://81792010724447"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136529,11 +137326,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b9207cc05ec1d4adb2fea5a5",
-    "name": "Texture",
+    "name": "Éclat blanc diagonal",
     "asset_id": "82461777048598",
     "uri": "rbxassetid://82461777048598",
     "id_status": "valid",
@@ -136542,7 +137342,9 @@
     "raw_uris": [
       "rbxassetid://82461777048598"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136624,11 +137426,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6f199138d8e6d3a05f95db14",
-    "name": "Texture",
+    "name": "Filaments blancs rayonnants",
     "asset_id": "82556288879264",
     "uri": "rbxassetid://82556288879264",
     "id_status": "valid",
@@ -136637,7 +137442,9 @@
     "raw_uris": [
       "rbxassetid://82556288879264"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136721,11 +137528,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5adb0abfa432c9e32f3943e",
-    "name": "Texture",
+    "name": "Éclat filaire géométrique",
     "asset_id": "83169594805047",
     "uri": "rbxassetid://83169594805047",
     "id_status": "valid",
@@ -136734,7 +137544,9 @@
     "raw_uris": [
       "rbxassetid://83169594805047"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136818,11 +137630,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "26b55a88d1c6b35fb26b5562",
-    "name": "Texture",
+    "name": "Éclat orange à rayon horizontal",
     "asset_id": "83189684028875",
     "uri": "rbxassetid://83189684028875",
     "id_status": "valid",
@@ -136831,7 +137646,9 @@
     "raw_uris": [
       "rbxassetid://83189684028875"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -136913,11 +137730,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5849a0423de588451918af8f",
-    "name": "Texture",
+    "name": "Chapelet diagonal de halos",
     "asset_id": "83476618260676",
     "uri": "rbxassetid://83476618260676",
     "id_status": "valid",
@@ -136926,7 +137746,9 @@
     "raw_uris": [
       "rbxassetid://83476618260676"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137008,11 +137830,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c25516b8c9a55d05e95f9410",
-    "name": "Texture",
+    "name": "Anneau éclaté prismatique",
     "asset_id": "83513687965603",
     "uri": "rbxassetid://83513687965603",
     "id_status": "valid",
@@ -137021,7 +137846,9 @@
     "raw_uris": [
       "rbxassetid://83513687965603"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137103,11 +137930,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f37dc979b6b88f0615830d32",
-    "name": "Texture",
+    "name": "Pluie de traits lumineux",
     "asset_id": "84602675897225",
     "uri": "rbxassetid://84602675897225",
     "id_status": "valid",
@@ -137116,7 +137946,9 @@
     "raw_uris": [
       "rbxassetid://84602675897225"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137198,11 +138030,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "53693504686140c33e5a16c2",
-    "name": "Texture",
+    "name": "Éclats filaires prismatiques",
     "asset_id": "85224036722577",
     "uri": "rbxassetid://85224036722577",
     "id_status": "valid",
@@ -137211,7 +138046,9 @@
     "raw_uris": [
       "rbxassetid://85224036722577"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137293,11 +138130,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7b9ebcb59e68def98fcb7022",
-    "name": "Texture",
+    "name": "Éclat bleu à halos prismatiques",
     "asset_id": "85720538267271",
     "uri": "rbxassetid://85720538267271",
     "id_status": "valid",
@@ -137306,7 +138146,9 @@
     "raw_uris": [
       "rbxassetid://85720538267271"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137388,11 +138230,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7e093d0dcfee23cc14e4ce89",
-    "name": "Texture",
+    "name": "Goutte blanche et points noirs",
     "asset_id": "86401759915357",
     "uri": "rbxassetid://86401759915357",
     "id_status": "valid",
@@ -137401,7 +138246,9 @@
     "raw_uris": [
       "rbxassetid://86401759915357"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137486,11 +138333,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b412ebb2c96a1bc63b0ea3f2",
-    "name": "Texture",
+    "name": "Petits éclats prismatiques groupés",
     "asset_id": "87462567660779",
     "uri": "rbxassetid://87462567660779",
     "id_status": "valid",
@@ -137499,7 +138349,9 @@
     "raw_uris": [
       "rbxassetid://87462567660779"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137583,11 +138435,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f9ffa7d16ffc37e52ac4f8fc",
-    "name": "Texture",
+    "name": "Points et halos colorés",
     "asset_id": "87523041579344",
     "uri": "rbxassetid://87523041579344",
     "id_status": "valid",
@@ -137596,7 +138451,9 @@
     "raw_uris": [
       "rbxassetid://87523041579344"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137678,11 +138535,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1a08192c30d353a6117d7544",
-    "name": "Texture",
+    "name": "Nuage de points gris",
     "asset_id": "88604645840253",
     "uri": "rbxassetid://88604645840253",
     "id_status": "valid",
@@ -137691,7 +138551,9 @@
     "raw_uris": [
       "rbxassetid://88604645840253"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137773,11 +138635,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6c5c7479fb5f795e39f03b61",
-    "name": "Texture",
+    "name": "Petits traits scintillants groupés",
     "asset_id": "88642257547007",
     "uri": "rbxassetid://88642257547007",
     "id_status": "valid",
@@ -137786,7 +138651,9 @@
     "raw_uris": [
       "rbxassetid://88642257547007"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137870,11 +138737,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "da953d3b58b4b3b0f51751d6",
-    "name": "Texture",
+    "name": "Éclat blanc à rayons fins",
     "asset_id": "88963889701181",
     "uri": "rbxassetid://88963889701181",
     "id_status": "valid",
@@ -137883,7 +138753,9 @@
     "raw_uris": [
       "rbxassetid://88963889701181"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -137965,11 +138837,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0d98583cc7832f0fad1cca0a",
-    "name": "Texture",
+    "name": "Éclat diagonal à halos colorés",
     "asset_id": "89524652360930",
     "uri": "rbxassetid://89524652360930",
     "id_status": "valid",
@@ -137978,7 +138853,9 @@
     "raw_uris": [
       "rbxassetid://89524652360930"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138060,11 +138937,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1fda4ef470637283bfcb3365",
-    "name": "Texture",
+    "name": "Éclat blanc aux rayons obliques",
     "asset_id": "89732375614879",
     "uri": "rbxassetid://89732375614879",
     "id_status": "valid",
@@ -138073,7 +138953,9 @@
     "raw_uris": [
       "rbxassetid://89732375614879"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138155,11 +139037,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "98358693d1fd78e89d4d1100",
-    "name": "Texture",
+    "name": "Étoile vaporeuse à six branches",
     "asset_id": "89846609242537",
     "uri": "rbxassetid://89846609242537",
     "id_status": "valid",
@@ -138168,7 +139053,9 @@
     "raw_uris": [
       "rbxassetid://89846609242537"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138250,11 +139137,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "07b4103ccb6ec4cdd95b51e4",
-    "name": "Texture",
+    "name": "Bulle ronde irisée",
     "asset_id": "89864746896274",
     "uri": "rbxassetid://89864746896274",
     "id_status": "valid",
@@ -138263,7 +139153,9 @@
     "raw_uris": [
       "rbxassetid://89864746896274"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138345,11 +139237,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ae76cf07e906f13d715117eb",
-    "name": "Texture",
+    "name": "Éclat blanc à halos colorés",
     "asset_id": "90534026575157",
     "uri": "rbxassetid://90534026575157",
     "id_status": "valid",
@@ -138358,7 +139253,9 @@
     "raw_uris": [
       "rbxassetid://90534026575157"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138440,11 +139337,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad187076f36d57aff1fe7fee",
-    "name": "Texture",
+    "name": "Petits éclats irisés alignés",
     "asset_id": "91019664731862",
     "uri": "rbxassetid://91019664731862",
     "id_status": "valid",
@@ -138453,7 +139353,9 @@
     "raw_uris": [
       "rbxassetid://91019664731862"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138536,11 +139438,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "faedeea8049198ee60708b99",
-    "name": "Texture",
+    "name": "Éclat radial gris segmenté",
     "asset_id": "91166737800498",
     "uri": "rbxassetid://91166737800498",
     "id_status": "valid",
@@ -138549,7 +139454,9 @@
     "raw_uris": [
       "rbxassetid://91166737800498"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138631,11 +139538,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "890a00b4a27f8d6151d94973",
-    "name": "Texture",
+    "name": "Couronne de flammes blanches",
     "asset_id": "91382955914790",
     "uri": "rbxassetid://91382955914790",
     "id_status": "valid",
@@ -138644,7 +139554,9 @@
     "raw_uris": [
       "rbxassetid://91382955914790"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138726,11 +139638,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "02ade48e4ed4cd9c941901b0",
-    "name": "Texture",
+    "name": "Nuage de petits points brillants",
     "asset_id": "91770306645906",
     "uri": "rbxassetid://91770306645906",
     "id_status": "valid",
@@ -138739,7 +139654,9 @@
     "raw_uris": [
       "rbxassetid://91770306645906"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138821,11 +139738,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d2e373dfc03b33fcdbc49761",
-    "name": "Texture",
+    "name": "Amas blanc aux bords déchirés",
     "asset_id": "92040367770440",
     "uri": "rbxassetid://92040367770440",
     "id_status": "valid",
@@ -138834,7 +139754,9 @@
     "raw_uris": [
       "rbxassetid://92040367770440"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -138916,11 +139838,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "22b515b480cb3abc8bf80447",
-    "name": "Texture",
+    "name": "Gouttes blanches arrondies dispersées",
     "asset_id": "92103059798505",
     "uri": "rbxassetid://92103059798505",
     "id_status": "valid",
@@ -138929,7 +139854,9 @@
     "raw_uris": [
       "rbxassetid://92103059798505"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139011,11 +139938,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a7a88b9a15c939b4cebb429b",
-    "name": "Texture",
+    "name": "Petit amas de filaments argentés",
     "asset_id": "92199903126372",
     "uri": "rbxassetid://92199903126372",
     "id_status": "valid",
@@ -139024,7 +139954,9 @@
     "raw_uris": [
       "rbxassetid://92199903126372"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139108,11 +140040,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e12235472701336ec6de7c31",
-    "name": "Texture",
+    "name": "Croix blanche à pointes effilées",
     "asset_id": "92489502550990",
     "uri": "rbxassetid://92489502550990",
     "id_status": "valid",
@@ -139121,7 +140056,9 @@
     "raw_uris": [
       "rbxassetid://92489502550990"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139203,11 +140140,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fca5c35481aed2bba67e4217",
-    "name": "Texture",
+    "name": "Disque de points granuleux",
     "asset_id": "92786624826011",
     "uri": "rbxassetid://92786624826011",
     "id_status": "valid",
@@ -139216,7 +140156,9 @@
     "raw_uris": [
       "rbxassetid://92786624826011"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139300,11 +140242,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3c144715b0835fbd33a9140f",
-    "name": "Texture",
+    "name": "Croix blanche finement striée",
     "asset_id": "92837684547241",
     "uri": "rbxassetid://92837684547241",
     "id_status": "valid",
@@ -139313,7 +140258,9 @@
     "raw_uris": [
       "rbxassetid://92837684547241"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139395,11 +140342,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3320f886d9a3ee7bc8f150f2",
-    "name": "Texture",
+    "name": "Éclats prismatiques épars",
     "asset_id": "92958227075033",
     "uri": "rbxassetid://92958227075033",
     "id_status": "valid",
@@ -139408,7 +140358,9 @@
     "raw_uris": [
       "rbxassetid://92958227075033"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139492,11 +140444,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "af0dd180f1be861072985a11",
-    "name": "Texture",
+    "name": "Gerbe de rayons gris",
     "asset_id": "93400716207186",
     "uri": "rbxassetid://93400716207186",
     "id_status": "valid",
@@ -139505,7 +140460,9 @@
     "raw_uris": [
       "rbxassetid://93400716207186"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139587,11 +140544,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5fa1aac65e6f9bd9b1e4dff9",
-    "name": "Texture",
+    "name": "Nœud de filaments multicolores",
     "asset_id": "93487822444578",
     "uri": "rbxassetid://93487822444578",
     "id_status": "valid",
@@ -139600,7 +140560,9 @@
     "raw_uris": [
       "rbxassetid://93487822444578"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139682,11 +140644,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "000e50d9df282b310f6a7531",
-    "name": "Texture",
+    "name": "Étoile blanche à long rayon",
     "asset_id": "93503648600674",
     "uri": "rbxassetid://93503648600674",
     "id_status": "valid",
@@ -139695,7 +140660,9 @@
     "raw_uris": [
       "rbxassetid://93503648600674"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139777,11 +140744,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2e49405ca032dd3e23a78f43",
-    "name": "Texture",
+    "name": "Petit éclat blanc flou",
     "asset_id": "93876593554856",
     "uri": "rbxassetid://93876593554856",
     "id_status": "valid",
@@ -139790,7 +140760,9 @@
     "raw_uris": [
       "rbxassetid://93876593554856"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139874,11 +140846,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "26cd45183e7f5eab277e460b",
-    "name": "Texture",
+    "name": "Nuage granuleux sombre",
     "asset_id": "94034382066785",
     "uri": "rbxassetid://94034382066785",
     "id_status": "valid",
@@ -139887,7 +140862,9 @@
     "raw_uris": [
       "rbxassetid://94034382066785"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -139969,11 +140946,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ead9cc0e8541fe729cbbd938",
-    "name": "Texture",
+    "name": "Nuage blanc tramé",
     "asset_id": "94264770833251",
     "uri": "rbxassetid://94264770833251",
     "id_status": "valid",
@@ -139982,7 +140962,9 @@
     "raw_uris": [
       "rbxassetid://94264770833251"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140064,11 +141046,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "66682a840fd7a67106570033",
-    "name": "Texture",
+    "name": "Disque blanc moucheté",
     "asset_id": "94515887470894",
     "uri": "rbxassetid://94515887470894",
     "id_status": "valid",
@@ -140077,7 +141062,9 @@
     "raw_uris": [
       "rbxassetid://94515887470894"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140161,11 +141148,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e9814e4b29910901b595f3cf",
-    "name": "Texture",
+    "name": "Cône blanc lumineux",
     "asset_id": "94747167505865",
     "uri": "rbxassetid://94747167505865",
     "id_status": "valid",
@@ -140174,7 +141164,9 @@
     "raw_uris": [
       "rbxassetid://94747167505865"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140256,11 +141248,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d0d0689c82a75c7dbb93e9cc",
-    "name": "Texture",
+    "name": "Éclat doré à halos",
     "asset_id": "94843081956360",
     "uri": "rbxassetid://94843081956360",
     "id_status": "valid",
@@ -140269,7 +141264,9 @@
     "raw_uris": [
       "rbxassetid://94843081956360"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140351,11 +141348,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0bce6ef75e8cd156e064dc19",
-    "name": "Texture",
+    "name": "Petits traits blancs scintillants",
     "asset_id": "95099167379497",
     "uri": "rbxassetid://95099167379497",
     "id_status": "valid",
@@ -140364,7 +141364,9 @@
     "raw_uris": [
       "rbxassetid://95099167379497"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140448,11 +141450,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c276d9ad8420ea4d0ba38391",
-    "name": "Texture",
+    "name": "Couronne de pointes prismatiques",
     "asset_id": "95220207135648",
     "uri": "rbxassetid://95220207135648",
     "id_status": "valid",
@@ -140461,7 +141466,9 @@
     "raw_uris": [
       "rbxassetid://95220207135648"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140543,11 +141550,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "da515d90f5a2cf4028374183",
-    "name": "Texture",
+    "name": "Nuage de grains lumineux",
     "asset_id": "95413229504542",
     "uri": "rbxassetid://95413229504542",
     "id_status": "valid",
@@ -140556,7 +141566,9 @@
     "raw_uris": [
       "rbxassetid://95413229504542"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140638,11 +141650,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a7f59557a298e67b66d69145",
-    "name": "Texture",
+    "name": "Éclat blanc à rayons diagonaux",
     "asset_id": "96176138843134",
     "uri": "rbxassetid://96176138843134",
     "id_status": "valid",
@@ -140651,7 +141666,9 @@
     "raw_uris": [
       "rbxassetid://96176138843134"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140733,11 +141750,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "76d28bd81e39edaa7b1294a9",
-    "name": "Texture",
+    "name": "Couronne de lueurs prismatiques",
     "asset_id": "96362103039094",
     "uri": "rbxassetid://96362103039094",
     "id_status": "valid",
@@ -140746,7 +141766,9 @@
     "raw_uris": [
       "rbxassetid://96362103039094"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140828,11 +141850,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "efb477a6e04df10e6d11bf88",
-    "name": "Texture",
+    "name": "Anneau de rayons prismatiques",
     "asset_id": "96997049441699",
     "uri": "rbxassetid://96997049441699",
     "id_status": "valid",
@@ -140841,7 +141866,9 @@
     "raw_uris": [
       "rbxassetid://96997049441699"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -140923,11 +141950,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "857f452bb486804fe52094c0",
-    "name": "Texture",
+    "name": "Éclaboussure blanche granuleuse",
     "asset_id": "97692967950952",
     "uri": "rbxassetid://97692967950952",
     "id_status": "valid",
@@ -140936,7 +141966,9 @@
     "raw_uris": [
       "rbxassetid://97692967950952"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -141018,11 +142050,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "be37b342680612ec475bb14f",
-    "name": "Texture",
+    "name": "Éclat horizontal violet",
     "asset_id": "97770819665659",
     "uri": "rbxassetid://97770819665659",
     "id_status": "valid",
@@ -141031,7 +142066,9 @@
     "raw_uris": [
       "rbxassetid://97770819665659"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -141113,11 +142150,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "763799c69a8ce5c883fd2d91",
-    "name": "Texture",
+    "name": "Éclat blanc à rayons larges",
     "asset_id": "98511101471915",
     "uri": "rbxassetid://98511101471915",
     "id_status": "valid",
@@ -141126,7 +142166,9 @@
     "raw_uris": [
       "rbxassetid://98511101471915"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -141210,11 +142252,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "282e2d684e235348a511e272",
-    "name": "Texture",
+    "name": "Étoile lumineuse à rayons irisés",
     "asset_id": "98859125777365",
     "uri": "rbxassetid://98859125777365",
     "id_status": "valid",
@@ -141223,7 +142268,9 @@
     "raw_uris": [
       "rbxassetid://98859125777365"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -141305,11 +142352,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bb9b53e03d074ffef2cb9410",
-    "name": "Texture",
+    "name": "Nuage blanc de paillettes",
     "asset_id": "98972505760150",
     "uri": "rbxassetid://98972505760150",
     "id_status": "valid",
@@ -141318,7 +142368,9 @@
     "raw_uris": [
       "rbxassetid://98972505760150"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -141400,11 +142452,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4554b01ed4d1980bc7f7696c",
-    "name": "Texture",
+    "name": "Nuage de points scintillants fins",
     "asset_id": "99473272914302",
     "uri": "rbxassetid://99473272914302",
     "id_status": "valid",
@@ -141413,7 +142468,9 @@
     "raw_uris": [
       "rbxassetid://99473272914302"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -141495,11 +142552,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "506c25bd2a034818bc5ef565",
-    "name": "Texture",
+    "name": "Arc prismatique diffus",
     "asset_id": "99579135203245",
     "uri": "rbxassetid://99579135203245",
     "id_status": "valid",
@@ -141508,7 +142568,9 @@
     "raw_uris": [
       "rbxassetid://99579135203245"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare",
@@ -141590,7 +142652,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0561a92e51d9796057668ea5",
@@ -143962,7 +145027,7 @@
   },
   {
     "key": "83ff8275a465c29f9002457d",
-    "name": "Untitled56",
+    "name": "Croix fine en diagonale",
     "asset_id": "91889026308096",
     "uri": "rbxassetid://91889026308096",
     "id_status": "valid",
@@ -143971,7 +145036,9 @@
     "raw_uris": [
       "rbxassetid://91889026308096"
     ],
-    "aliases": [],
+    "aliases": [
+      "Untitled56"
+    ],
     "key_aliases": [],
     "tags": [
       "Flare"
@@ -144045,7 +145112,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Untitled56",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "82cd9c3e981ec45437e041a1",

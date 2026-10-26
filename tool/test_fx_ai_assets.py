@@ -84,6 +84,39 @@ class AssetCompilerTests(unittest.TestCase):
         root = ET.fromstring(export_rbxmx(result["project"]))
         self.assertIn(BEAM["uri"], ET.tostring(root).decode())
 
+    def test_custom_flipbook_dimensions_reach_compiled_emitter_and_native_export(self):
+        for dimensions in ({"FlipbookSizeX": 6, "FlipbookSizeY": 4}, {"columns": 6, "rows": 4},
+                           {"FlipbookSizeX": 1, "FlipbookSizeY": 64}):
+            with self.subTest(dimensions=dimensions):
+                custom = deepcopy(FLIPBOOK)
+                custom["flipbook"] = {"grid": 0, "estimated": False, "FlipbookLayout": "Custom", **dimensions}
+                result = compile_layers([layer("fire")], [custom], {"assets": [custom]})
+                emitter = next(node for node in result["project"]["nodes"] if node["class"] == "ParticleEmitter")
+                props = emitter["properties"]
+                columns, rows = dimensions.get("FlipbookSizeX", dimensions.get("columns")), dimensions.get("FlipbookSizeY", dimensions.get("rows"))
+                self.assertEqual((props["FlipbookLayout"], props["FlipbookSizeX"], props["FlipbookSizeY"]), ("Custom", columns, rows))
+                self.assertEqual(props["FlipbookMode"], "OneShot")
+                self.assertFalse(any("inconnue" in warning or "estimée" in warning for warning in result["warnings"]))
+                native = ET.fromstring(export_rbxmx(result["project"]))
+                exported = native.find(".//Item[@class='ParticleEmitter']/Properties")
+                self.assertEqual(exported.find("token[@name='FlipbookLayout']").text, "4")
+                self.assertEqual(int(exported.find("int[@name='FlipbookSizeX']").text), columns)
+                self.assertEqual(int(exported.find("int[@name='FlipbookSizeY']").text), rows)
+
+    def test_custom_flipbook_missing_or_invalid_sizes_keep_unknown_layout_warning(self):
+        for dimensions in ({}, {"FlipbookSizeX": 6}, {"FlipbookSizeX": 0, "FlipbookSizeY": 4},
+                           {"FlipbookSizeX": 6, "FlipbookSizeY": 65}, {"FlipbookSizeX": True, "FlipbookSizeY": 4},
+                           {"FlipbookSizeX": 6.0, "FlipbookSizeY": 4}, {"FlipbookSizeX": 1, "FlipbookSizeY": 1}):
+            with self.subTest(dimensions=dimensions):
+                custom = deepcopy(FLIPBOOK)
+                custom["flipbook"] = {"grid": 0, "FlipbookLayout": "Custom", **dimensions}
+                result = compile_layers([layer("fire")], [custom], {"assets": [custom]})
+                props = next(node for node in result["project"]["nodes"] if node["class"] == "ParticleEmitter")["properties"]
+                self.assertEqual(props["FlipbookLayout"], "None")
+                self.assertNotIn("FlipbookSizeX", props)
+                self.assertNotIn("FlipbookSizeY", props)
+                self.assertTrue(any("inconnue" in warning for warning in result["warnings"]))
+
     def test_selection_is_resolved_from_snapshot_not_model_supplied_paths_or_uris(self):
         tampered = {**TEXTURE, "uri": "https://evil.test", "geometry_path": "../../private.json"}
         result = compile_layers([layer("sparks")], [tampered])

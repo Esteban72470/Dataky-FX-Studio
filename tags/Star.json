@@ -1,7 +1,7 @@
 [
   {
     "key": "4ebbf943feb4641db17d527d",
-    "name": "################### - Copy",
+    "name": "Croissant lumineux",
     "asset_id": "15947089313",
     "uri": "rbxassetid://15947089313",
     "id_status": "valid",
@@ -10,7 +10,9 @@
     "raw_uris": [
       "rbxassetid://15947089313"
     ],
-    "aliases": [],
+    "aliases": [
+      "################### - Copy"
+    ],
     "key_aliases": [],
     "tags": [
       "Star"
@@ -86,7 +88,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "################### - Copy",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5f9f1c274eff833ad3023069",
@@ -544,7 +549,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "grid_review_status": "unavailable",
+    "grid_review_observer": "metadata",
+    "grid_review_note": "Aperçu indisponible : grille non déterminée."
   },
   {
     "key": "9d790b352b388597e489beb0",
@@ -28346,12 +28354,12 @@
       }
     ],
     "image_path": "images/91376672353710.png",
-    "preview_path": "images/91376672353710.png",
+    "preview_path": "previews/91376672353710-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -28377,7 +28385,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "7103a2950d6cd8d4201d466f",
@@ -28660,12 +28673,12 @@
       }
     ],
     "image_path": "images/128554242741742.png",
-    "preview_path": "images/128554242741742.png",
+    "preview_path": "previews/128554242741742-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -28691,7 +28704,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "a67d285d051a6a8b1d9e76ef",
@@ -33764,12 +33782,12 @@
       }
     ],
     "image_path": "images/79705556595545.png",
-    "preview_path": "images/79705556595545.png",
+    "preview_path": "previews/79705556595545-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -33795,7 +33813,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "d6773983c4aacad7fa5fdf35",
@@ -44302,7 +44325,7 @@
   },
   {
     "key": "e623ab5fef325c780ec125e5",
-    "name": "Texture",
+    "name": "Étoile blanche à huit pointes · 131008",
     "asset_id": "109202808131008",
     "uri": "rbxassetid://109202808131008",
     "id_status": "valid",
@@ -44311,7 +44334,9 @@
     "raw_uris": [
       "rbxassetid://109202808131008"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -44394,11 +44419,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6cd53e66640ae45e3fb63236",
-    "name": "Texture",
+    "name": "Étoile noire à cinq branches",
     "asset_id": "109998786341291",
     "uri": "rbxassetid://109998786341291",
     "id_status": "valid",
@@ -44407,7 +44435,9 @@
     "raw_uris": [
       "rbxassetid://109998786341291"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -44489,11 +44519,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1ec5b51a19b08107765ade3b",
-    "name": "Texture",
+    "name": "Étoile pointillée à quatre branches",
     "asset_id": "114044688738635",
     "uri": "rbxassetid://114044688738635",
     "id_status": "valid",
@@ -44502,7 +44535,9 @@
     "raw_uris": [
       "rbxassetid://114044688738635"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -44586,11 +44621,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c3a5b22018fdda9873e63767",
-    "name": "Texture",
+    "name": "Croix blanche effilée",
     "asset_id": "121068826782126",
     "uri": "rbxassetid://121068826782126",
     "id_status": "valid",
@@ -44599,7 +44637,9 @@
     "raw_uris": [
       "rbxassetid://121068826782126"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -44683,11 +44723,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c2623624bc5f06c45347d072",
-    "name": "Texture",
+    "name": "Petite croix blanche effilée",
     "asset_id": "121418884245542",
     "uri": "rbxassetid://121418884245542",
     "id_status": "valid",
@@ -44696,7 +44739,9 @@
     "raw_uris": [
       "rbxassetid://121418884245542"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -44780,11 +44825,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5dcf7319576412cd49d8920e",
-    "name": "Texture",
+    "name": "Étoile fine fragmentée",
     "asset_id": "123188447803428",
     "uri": "rbxassetid://123188447803428",
     "id_status": "valid",
@@ -44793,7 +44841,9 @@
     "raw_uris": [
       "rbxassetid://123188447803428"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -44877,11 +44927,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad9ea8ef809660d274879d65",
-    "name": "Texture",
+    "name": "Étoile noire à quatre branches",
     "asset_id": "137179668757569",
     "uri": "rbxassetid://137179668757569",
     "id_status": "valid",
@@ -44890,7 +44943,9 @@
     "raw_uris": [
       "rbxassetid://137179668757569"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -44972,11 +45027,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7c6e46b1ff99bea8fd4e33bc",
-    "name": "Texture",
+    "name": "Étoile blanche à cinq branches",
     "asset_id": "139100266217690",
     "uri": "rbxassetid://139100266217690",
     "id_status": "valid",
@@ -44985,7 +45043,9 @@
     "raw_uris": [
       "rbxassetid://139100266217690"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45069,11 +45129,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "32e47bba7e9c5841b86135f7",
-    "name": "Texture",
+    "name": "Étoile noire granuleuse · 571124",
     "asset_id": "18718571124",
     "uri": "rbxassetid://18718571124",
     "id_status": "valid",
@@ -45082,7 +45145,9 @@
     "raw_uris": [
       "rbxassetid://18718571124"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45166,11 +45231,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "2fc9ea919992e867fea212ae",
-    "name": "Texture",
+    "name": "Étoile blanche à huit pointes · 841655",
     "asset_id": "72104341841655",
     "uri": "rbxassetid://72104341841655",
     "id_status": "valid",
@@ -45179,7 +45247,9 @@
     "raw_uris": [
       "rbxassetid://72104341841655"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45263,11 +45333,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "062a16ab4b7b797b2b9a579f",
-    "name": "Texture",
+    "name": "Étoile noire granuleuse · 036693",
     "asset_id": "76104098036693",
     "uri": "rbxassetid://76104098036693",
     "id_status": "valid",
@@ -45276,7 +45349,9 @@
     "raw_uris": [
       "rbxassetid://76104098036693"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45361,11 +45436,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ebf06df33cdd38a640937103",
-    "name": "Texture",
+    "name": "Étoile translucide à cinq branches",
     "asset_id": "78306562410611",
     "uri": "rbxassetid://78306562410611",
     "id_status": "valid",
@@ -45374,7 +45452,9 @@
     "raw_uris": [
       "rbxassetid://78306562410611"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45456,11 +45536,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "07ee6ee44f1a6e170e06d393",
-    "name": "Texture",
+    "name": "Étoile argentée bordée",
     "asset_id": "79590934230807",
     "uri": "rbxassetid://79590934230807",
     "id_status": "valid",
@@ -45469,7 +45552,9 @@
     "raw_uris": [
       "rbxassetid://79590934230807"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45551,11 +45636,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "043599210ea7fe8098acc047",
-    "name": "Texture",
+    "name": "Étoile blanche pleine",
     "asset_id": "83726035995818",
     "uri": "rbxassetid://83726035995818",
     "id_status": "valid",
@@ -45564,7 +45652,9 @@
     "raw_uris": [
       "rbxassetid://83726035995818"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45648,11 +45738,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f17e474919df09f5da2d8fe5",
-    "name": "Texture",
+    "name": "Étoile noire bordée de grains",
     "asset_id": "98031837500417",
     "uri": "rbxassetid://98031837500417",
     "id_status": "valid",
@@ -45661,7 +45754,9 @@
     "raw_uris": [
       "rbxassetid://98031837500417"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Star",
@@ -45746,7 +45841,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0deb343d2f74026d39179eaf",

@@ -148,7 +148,7 @@
   },
   {
     "key": "2595b05f3eeee2e5dac06e56",
-    "name": "31",
+    "name": "Impact radial diffus",
     "asset_id": "12402865750",
     "uri": "rbxassetid://12402865750",
     "id_status": "valid",
@@ -157,7 +157,9 @@
     "raw_uris": [
       "rbxassetid://12402865750"
     ],
-    "aliases": [],
+    "aliases": [
+      "31"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact"
@@ -231,7 +233,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "31",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "08805dc5579f9b4b32065dd0",
@@ -538,7 +543,7 @@
   },
   {
     "key": "243c8c2eae1ef03dc01961b4",
-    "name": "69",
+    "name": "Impact en pointes rayonnantes",
     "asset_id": "12402897871",
     "uri": "rbxassetid://12402897871",
     "id_status": "valid",
@@ -547,7 +552,9 @@
     "raw_uris": [
       "rbxassetid://12402897871"
     ],
-    "aliases": [],
+    "aliases": [
+      "69"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact"
@@ -621,7 +628,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "69",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ddbfc64f26ced2927ac7af1c",
@@ -146083,7 +146093,7 @@
   },
   {
     "key": "18eae5f23b93b3a29c06108c",
-    "name": "Texture",
+    "name": "Impact oblique en pointes",
     "asset_id": "100410737902239",
     "uri": "rbxassetid://100410737902239",
     "id_status": "valid",
@@ -146092,7 +146102,9 @@
     "raw_uris": [
       "rbxassetid://100410737902239"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146177,11 +146189,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3d3720db777cfc88d53874db",
-    "name": "Texture",
+    "name": "Disque blanc sur carré noir",
     "asset_id": "101946038054926",
     "uri": "rbxassetid://101946038054926",
     "id_status": "valid",
@@ -146190,7 +146205,9 @@
     "raw_uris": [
       "rbxassetid://101946038054926"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146275,11 +146292,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7ba94e75e783e91fcc925b42",
-    "name": "Texture",
+    "name": "Dôme aux fines craquelures",
     "asset_id": "102954522710948",
     "uri": "rbxassetid://102954522710948",
     "id_status": "valid",
@@ -146288,7 +146308,9 @@
     "raw_uris": [
       "rbxassetid://102954522710948"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146370,11 +146392,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9903e1bc7d9a3307e6859cee",
-    "name": "Texture",
+    "name": "Impact lumineux central diffus",
     "asset_id": "103598334938615",
     "uri": "rbxassetid://103598334938615",
     "id_status": "valid",
@@ -146383,7 +146408,9 @@
     "raw_uris": [
       "rbxassetid://103598334938615"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146465,11 +146492,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5688fe3f3ab8d7dade56e5de",
-    "name": "Texture",
+    "name": "Petites craquelures circulaires",
     "asset_id": "105426826443008",
     "uri": "rbxassetid://105426826443008",
     "id_status": "valid",
@@ -146478,7 +146508,9 @@
     "raw_uris": [
       "rbxassetid://105426826443008"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146560,11 +146592,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9c7dd33bf6edcfba6cf5fb1f",
-    "name": "Texture",
+    "name": "Trait horizontal minuscule",
     "asset_id": "106043427866088",
     "uri": "rbxassetid://106043427866088",
     "id_status": "valid",
@@ -146573,7 +146608,9 @@
     "raw_uris": [
       "rbxassetid://106043427866088"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146655,11 +146692,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "95ea87fd23c023b2400c0b6b",
-    "name": "Texture",
+    "name": "Lueur horizontale bleutée",
     "asset_id": "107047762998179",
     "uri": "rbxassetid://107047762998179",
     "id_status": "valid",
@@ -146668,7 +146708,9 @@
     "raw_uris": [
       "rbxassetid://107047762998179"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146750,11 +146792,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c4b656ce105f7ddc25bd29b1",
-    "name": "Texture",
+    "name": "Petite couronne diffuse",
     "asset_id": "107219154075080",
     "uri": "rbxassetid://107219154075080",
     "id_status": "valid",
@@ -146763,7 +146808,9 @@
     "raw_uris": [
       "rbxassetid://107219154075080"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146847,11 +146894,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ddc3934a5c507a520eeab0a4",
-    "name": "Texture",
+    "name": "Double pointe esquissée",
     "asset_id": "107410685160755",
     "uri": "rbxassetid://107410685160755",
     "id_status": "valid",
@@ -146860,7 +146910,9 @@
     "raw_uris": [
       "rbxassetid://107410685160755"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -146944,11 +146996,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c368db335e6250be7233aa1c",
-    "name": "Texture",
+    "name": "Impact central très diffus",
     "asset_id": "107944601946951",
     "uri": "rbxassetid://107944601946951",
     "id_status": "valid",
@@ -146957,7 +147012,9 @@
     "raw_uris": [
       "rbxassetid://107944601946951"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147039,11 +147096,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4bd16b819c01eb462dd5506c",
-    "name": "Texture",
+    "name": "Disque blanc à bord irisé",
     "asset_id": "108033815115637",
     "uri": "rbxassetid://108033815115637",
     "id_status": "valid",
@@ -147052,7 +147112,9 @@
     "raw_uris": [
       "rbxassetid://108033815115637"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147137,11 +147199,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8d0d5a6f54fc8ee0af5b12d2",
-    "name": "Texture",
+    "name": "Halo ponctuel rosé",
     "asset_id": "108079274175065",
     "uri": "rbxassetid://108079274175065",
     "id_status": "valid",
@@ -147150,7 +147215,9 @@
     "raw_uris": [
       "rbxassetid://108079274175065"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147232,11 +147299,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "16f632753f08390d1309a868",
-    "name": "Texture",
+    "name": "Couronne de facettes argentées",
     "asset_id": "108246100231810",
     "uri": "rbxassetid://108246100231810",
     "id_status": "valid",
@@ -147245,7 +147315,9 @@
     "raw_uris": [
       "rbxassetid://108246100231810"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147327,11 +147399,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b81627e7e5dc8eaa7b52635d",
-    "name": "Texture",
+    "name": "Point lumineux à halo horizontal",
     "asset_id": "108579827651582",
     "uri": "rbxassetid://108579827651582",
     "id_status": "valid",
@@ -147340,7 +147415,9 @@
     "raw_uris": [
       "rbxassetid://108579827651582"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147422,11 +147499,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6f35f5b0597fc1132e8286b6",
-    "name": "Texture",
+    "name": "Triple pointe lumineuse",
     "asset_id": "110121952960814",
     "uri": "rbxassetid://110121952960814",
     "id_status": "valid",
@@ -147435,7 +147515,9 @@
     "raw_uris": [
       "rbxassetid://110121952960814"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147519,11 +147601,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c42bdb3dfe7ad1c172a91b25",
-    "name": "Texture",
+    "name": "Grand anneau très diffus",
     "asset_id": "112099679770009",
     "uri": "rbxassetid://112099679770009",
     "id_status": "valid",
@@ -147532,7 +147617,9 @@
     "raw_uris": [
       "rbxassetid://112099679770009"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147614,11 +147701,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "255020fdbb449c6dc78ebc53",
-    "name": "Texture",
+    "name": "Projection de traînées radiales",
     "asset_id": "114091455353512",
     "uri": "rbxassetid://114091455353512",
     "id_status": "valid",
@@ -147627,7 +147717,9 @@
     "raw_uris": [
       "rbxassetid://114091455353512"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147709,11 +147801,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c90bf8f4c99a9d5380a99c12",
-    "name": "Texture",
+    "name": "Arc de flammes fines",
     "asset_id": "115168035674039",
     "uri": "rbxassetid://115168035674039",
     "id_status": "valid",
@@ -147722,7 +147817,9 @@
     "raw_uris": [
       "rbxassetid://115168035674039"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147806,11 +147903,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "895628c7dd977bac956b6547",
-    "name": "Texture",
+    "name": "Lueur diagonale diffuse",
     "asset_id": "116087476489482",
     "uri": "rbxassetid://116087476489482",
     "id_status": "valid",
@@ -147819,7 +147919,9 @@
     "raw_uris": [
       "rbxassetid://116087476489482"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147901,11 +148003,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b5916c28196bc191b846dbc6",
-    "name": "Texture",
+    "name": "Tache métallique aux bords déchirés",
     "asset_id": "116183947326812",
     "uri": "rbxassetid://116183947326812",
     "id_status": "valid",
@@ -147914,7 +148019,9 @@
     "raw_uris": [
       "rbxassetid://116183947326812"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -147999,11 +148106,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b22f948279499a98bd9015ef",
-    "name": "Texture",
+    "name": "Anneau blanc déchiré",
     "asset_id": "117149902699043",
     "uri": "rbxassetid://117149902699043",
     "id_status": "valid",
@@ -148012,7 +148122,9 @@
     "raw_uris": [
       "rbxassetid://117149902699043"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148094,11 +148206,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ae0efca4207f14b4cb46cee3",
-    "name": "Texture",
+    "name": "Halo blanc ponctuel",
     "asset_id": "117971510385680",
     "uri": "rbxassetid://117971510385680",
     "id_status": "valid",
@@ -148107,7 +148222,9 @@
     "raw_uris": [
       "rbxassetid://117971510385680"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148189,11 +148306,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e0d683b85c174114f022733b",
-    "name": "Texture",
+    "name": "Anneau clair aux bords irréguliers",
     "asset_id": "118787611633375",
     "uri": "rbxassetid://118787611633375",
     "id_status": "valid",
@@ -148202,7 +148322,9 @@
     "raw_uris": [
       "rbxassetid://118787611633375"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148286,11 +148408,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9da65878f05205009d553f11",
-    "name": "Texture",
+    "name": "Disque blanc au centre ombré",
     "asset_id": "119949375405766",
     "uri": "rbxassetid://119949375405766",
     "id_status": "valid",
@@ -148299,7 +148424,9 @@
     "raw_uris": [
       "rbxassetid://119949375405766"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148383,11 +148510,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "aea957dba57ee00d34851f66",
-    "name": "Texture",
+    "name": "Grand contour circulaire fin",
     "asset_id": "121275054463052",
     "uri": "rbxassetid://121275054463052",
     "id_status": "valid",
@@ -148396,7 +148526,9 @@
     "raw_uris": [
       "rbxassetid://121275054463052"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148478,11 +148610,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1dcae2775df088d78b46b525",
-    "name": "Texture",
+    "name": "Éclairs noirs obliques",
     "asset_id": "122811453885667",
     "uri": "rbxassetid://122811453885667",
     "id_status": "valid",
@@ -148491,7 +148626,9 @@
     "raw_uris": [
       "rbxassetid://122811453885667"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148575,11 +148712,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b7c4e6620e00d6b1b7e7708b",
-    "name": "Texture",
+    "name": "Disque blanc sur fond noir",
     "asset_id": "123507011285553",
     "uri": "rbxassetid://123507011285553",
     "id_status": "valid",
@@ -148588,7 +148728,9 @@
     "raw_uris": [
       "rbxassetid://123507011285553"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148673,11 +148815,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b30b40e1b9e48f8da0e2ba6f",
-    "name": "Texture",
+    "name": "Arc fin de filaments",
     "asset_id": "123944171771230",
     "uri": "rbxassetid://123944171771230",
     "id_status": "valid",
@@ -148686,7 +148831,9 @@
     "raw_uris": [
       "rbxassetid://123944171771230"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148768,11 +148915,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "58097f6bb18a7ccdea49b4b0",
-    "name": "Texture",
+    "name": "Petite gerbe de traits blancs",
     "asset_id": "125609687138887",
     "uri": "rbxassetid://125609687138887",
     "id_status": "valid",
@@ -148781,7 +148931,9 @@
     "raw_uris": [
       "rbxassetid://125609687138887"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148865,11 +149017,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7950dd6551782dffdd51fd93",
-    "name": "Texture",
+    "name": "Impact blanc aux pointes courbes",
     "asset_id": "125890730677854",
     "uri": "rbxassetid://125890730677854",
     "id_status": "valid",
@@ -148878,7 +149033,9 @@
     "raw_uris": [
       "rbxassetid://125890730677854"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -148962,11 +149119,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "468234ea82631b23242417f4",
-    "name": "Texture",
+    "name": "Anneau lumineux filamenteux",
     "asset_id": "127225661352580",
     "uri": "rbxassetid://127225661352580",
     "id_status": "valid",
@@ -148975,7 +149135,9 @@
     "raw_uris": [
       "rbxassetid://127225661352580"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149057,11 +149219,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4adc8d9a68b83039559736e9",
-    "name": "Texture",
+    "name": "Disque blanc aux bords striés",
     "asset_id": "127278817608087",
     "uri": "rbxassetid://127278817608087",
     "id_status": "valid",
@@ -149070,7 +149235,9 @@
     "raw_uris": [
       "rbxassetid://127278817608087"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149152,11 +149319,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "621860d9763639855c1f9e27",
-    "name": "Texture",
+    "name": "Losange arc-en-ciel quadrillé",
     "asset_id": "128184800317091",
     "uri": "rbxassetid://128184800317091",
     "id_status": "valid",
@@ -149165,7 +149335,9 @@
     "raw_uris": [
       "rbxassetid://128184800317091"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149247,11 +149419,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5c8f1922af62fa63b2fa33c6",
-    "name": "Texture",
+    "name": "Lueur horizontale diffuse",
     "asset_id": "130717474326374",
     "uri": "rbxassetid://130717474326374",
     "id_status": "valid",
@@ -149260,7 +149435,9 @@
     "raw_uris": [
       "rbxassetid://130717474326374"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149342,11 +149519,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c9ddc17f4c52ae44d21514ac",
-    "name": "Texture",
+    "name": "Grand cercle blanc fin · 273513",
     "asset_id": "131729251273513",
     "uri": "rbxassetid://131729251273513",
     "id_status": "valid",
@@ -149355,7 +149535,9 @@
     "raw_uris": [
       "rbxassetid://131729251273513"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149437,11 +149619,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "56f1d42a56b51d957dc44edb",
-    "name": "Texture",
+    "name": "Disque de traits verticaux",
     "asset_id": "132457330672295",
     "uri": "rbxassetid://132457330672295",
     "id_status": "valid",
@@ -149450,7 +149635,9 @@
     "raw_uris": [
       "rbxassetid://132457330672295"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149532,11 +149719,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9785be673894aee57cf80e9d",
-    "name": "Texture",
+    "name": "Impact blanc dentelé",
     "asset_id": "136212893871378",
     "uri": "rbxassetid://136212893871378",
     "id_status": "valid",
@@ -149545,7 +149735,9 @@
     "raw_uris": [
       "rbxassetid://136212893871378"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149629,11 +149821,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "12ee11d5613de4ec1e11d88e",
-    "name": "Texture",
+    "name": "Anneau blanc irrégulier",
     "asset_id": "136223336647905",
     "uri": "rbxassetid://136223336647905",
     "id_status": "valid",
@@ -149642,7 +149837,9 @@
     "raw_uris": [
       "rbxassetid://136223336647905"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149724,11 +149921,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a33dca5bf13235e3cf735607",
-    "name": "Texture",
+    "name": "Petit anneau estompé",
     "asset_id": "136469351030133",
     "uri": "rbxassetid://136469351030133",
     "id_status": "valid",
@@ -149737,7 +149937,9 @@
     "raw_uris": [
       "rbxassetid://136469351030133"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149821,11 +150023,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3321368d233ecf4dec43f0d0",
-    "name": "Texture",
+    "name": "Anneau fin à rayons",
     "asset_id": "138491107245490",
     "uri": "rbxassetid://138491107245490",
     "id_status": "valid",
@@ -149834,7 +150039,9 @@
     "raw_uris": [
       "rbxassetid://138491107245490"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -149918,11 +150125,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e08e17ad712ba86941e5e890",
-    "name": "Texture",
+    "name": "Rayons blancs convergents",
     "asset_id": "138536266102565",
     "uri": "rbxassetid://138536266102565",
     "id_status": "valid",
@@ -149931,7 +150141,9 @@
     "raw_uris": [
       "rbxassetid://138536266102565"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150013,11 +150225,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "eba66db8ac356ad12990c7ee",
-    "name": "Texture",
+    "name": "Anneaux blancs incomplets",
     "asset_id": "139265454603645",
     "uri": "rbxassetid://139265454603645",
     "id_status": "valid",
@@ -150026,7 +150241,9 @@
     "raw_uris": [
       "rbxassetid://139265454603645"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150108,11 +150325,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5f33420c8c8e7234741ac328",
-    "name": "Texture",
+    "name": "Couronne de pointes blanches",
     "asset_id": "18707464177",
     "uri": "rbxassetid://18707464177",
     "id_status": "valid",
@@ -150121,7 +150341,9 @@
     "raw_uris": [
       "rbxassetid://18707464177"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150205,11 +150427,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d7c4337adca0d57c6b08247f",
-    "name": "Texture",
+    "name": "Couronne de flammes floues",
     "asset_id": "18887369317",
     "uri": "rbxassetid://18887369317",
     "id_status": "valid",
@@ -150218,7 +150443,9 @@
     "raw_uris": [
       "rbxassetid://18887369317"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150300,11 +150527,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c0368a95c824ad116764deab",
-    "name": "Texture",
+    "name": "Anneau de rayures radiales",
     "asset_id": "71427717622689",
     "uri": "rbxassetid://71427717622689",
     "id_status": "valid",
@@ -150313,7 +150543,9 @@
     "raw_uris": [
       "rbxassetid://71427717622689"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150397,11 +150629,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a32a03840d91bff830d19686",
-    "name": "Texture",
+    "name": "Anneau blanc brossé",
     "asset_id": "71676965703557",
     "uri": "rbxassetid://71676965703557",
     "id_status": "valid",
@@ -150410,7 +150645,9 @@
     "raw_uris": [
       "rbxassetid://71676965703557"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150492,11 +150729,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "332175944a46bae78745a2e9",
-    "name": "Texture",
+    "name": "Anneau blanc brossé ouvert",
     "asset_id": "73219368480035",
     "uri": "rbxassetid://73219368480035",
     "id_status": "valid",
@@ -150505,7 +150745,9 @@
     "raw_uris": [
       "rbxassetid://73219368480035"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150589,11 +150831,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "294de6832ef7a23c49b27fa2",
-    "name": "Texture",
+    "name": "Rayons gris très fins",
     "asset_id": "73406723636024",
     "uri": "rbxassetid://73406723636024",
     "id_status": "valid",
@@ -150602,7 +150847,9 @@
     "raw_uris": [
       "rbxassetid://73406723636024"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150684,11 +150931,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "89d9b5b815c0d4863b0b98a1",
-    "name": "Texture",
+    "name": "Halo blanc rayonnant",
     "asset_id": "73766396846895",
     "uri": "rbxassetid://73766396846895",
     "id_status": "valid",
@@ -150697,7 +150947,9 @@
     "raw_uris": [
       "rbxassetid://73766396846895"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150779,11 +151031,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "56c4bf4b3d21487ffb9c31a4",
-    "name": "Texture",
+    "name": "Anneau blanc rayonnant",
     "asset_id": "74769506375846",
     "uri": "rbxassetid://74769506375846",
     "id_status": "valid",
@@ -150792,7 +151047,9 @@
     "raw_uris": [
       "rbxassetid://74769506375846"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150874,11 +151131,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7cc12d6a9889a4ea3ca786fa",
-    "name": "Texture",
+    "name": "Point blanc rayonnant",
     "asset_id": "75071588429071",
     "uri": "rbxassetid://75071588429071",
     "id_status": "valid",
@@ -150887,7 +151147,9 @@
     "raw_uris": [
       "rbxassetid://75071588429071"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -150969,11 +151231,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "dde7d13f8854fe4ad886e972",
-    "name": "Texture",
+    "name": "Disque blanc ovale",
     "asset_id": "75178990151555",
     "uri": "rbxassetid://75178990151555",
     "id_status": "valid",
@@ -150982,7 +151247,9 @@
     "raw_uris": [
       "rbxassetid://75178990151555"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151064,11 +151331,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9487e1ac7647f144ce5bf8c8",
-    "name": "Texture",
+    "name": "Point blanc à halo",
     "asset_id": "75621905123096",
     "uri": "rbxassetid://75621905123096",
     "id_status": "valid",
@@ -151077,7 +151347,9 @@
     "raw_uris": [
       "rbxassetid://75621905123096"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151159,11 +151431,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e3e0ab77c70c0addacb58454",
-    "name": "Texture",
+    "name": "Bouffées blanches dispersées",
     "asset_id": "75741559617866",
     "uri": "rbxassetid://75741559617866",
     "id_status": "valid",
@@ -151172,7 +151447,9 @@
     "raw_uris": [
       "rbxassetid://75741559617866"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151256,11 +151533,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6d2f4d882dd3d13f48775f13",
-    "name": "Texture",
+    "name": "Anneau de traits blancs",
     "asset_id": "78451246308177",
     "uri": "rbxassetid://78451246308177",
     "id_status": "valid",
@@ -151269,7 +151549,9 @@
     "raw_uris": [
       "rbxassetid://78451246308177"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151351,11 +151633,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "892f94d3e2ff1affd24d617a",
-    "name": "Texture",
+    "name": "Grand cercle blanc fin · 082780",
     "asset_id": "80214928082780",
     "uri": "rbxassetid://80214928082780",
     "id_status": "valid",
@@ -151364,7 +151649,9 @@
     "raw_uris": [
       "rbxassetid://80214928082780"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151446,11 +151733,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d0441f97b3d18f8b98713144",
-    "name": "Texture",
+    "name": "Petits éclats verts et jaunes",
     "asset_id": "82417719283664",
     "uri": "rbxassetid://82417719283664",
     "id_status": "valid",
@@ -151459,7 +151749,9 @@
     "raw_uris": [
       "rbxassetid://82417719283664"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151541,11 +151833,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9489a51df9aa2413a6d2cb90",
-    "name": "Texture",
+    "name": "Anneau de stries radiales",
     "asset_id": "85031497260497",
     "uri": "rbxassetid://85031497260497",
     "id_status": "valid",
@@ -151554,7 +151849,9 @@
     "raw_uris": [
       "rbxassetid://85031497260497"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151638,11 +151935,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "87a9df0a2cfb8588be857405",
-    "name": "Texture",
+    "name": "Pluie de petits points blancs",
     "asset_id": "85232887642866",
     "uri": "rbxassetid://85232887642866",
     "id_status": "valid",
@@ -151651,7 +151951,9 @@
     "raw_uris": [
       "rbxassetid://85232887642866"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151733,11 +152035,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c098d409c444496914db25d9",
-    "name": "Texture",
+    "name": "Cercle blanc granuleux fin",
     "asset_id": "86104016672685",
     "uri": "rbxassetid://86104016672685",
     "id_status": "valid",
@@ -151746,7 +152051,9 @@
     "raw_uris": [
       "rbxassetid://86104016672685"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151830,11 +152137,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f54730683a7d45a579fb32c3",
-    "name": "Texture",
+    "name": "Éclat horizontal blanc diffus",
     "asset_id": "86243483933160",
     "uri": "rbxassetid://86243483933160",
     "id_status": "valid",
@@ -151843,7 +152153,9 @@
     "raw_uris": [
       "rbxassetid://86243483933160"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -151925,11 +152237,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "13cd4fc8d9046155b9edc408",
-    "name": "Texture",
+    "name": "Impact blanc en trame",
     "asset_id": "87870678274772",
     "uri": "rbxassetid://87870678274772",
     "id_status": "valid",
@@ -151938,7 +152253,9 @@
     "raw_uris": [
       "rbxassetid://87870678274772"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152022,11 +152339,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3987db3454d279f4b42d21ea",
-    "name": "Texture",
+    "name": "Disque blanc à trou central",
     "asset_id": "90839635106919",
     "uri": "rbxassetid://90839635106919",
     "id_status": "valid",
@@ -152035,7 +152355,9 @@
     "raw_uris": [
       "rbxassetid://90839635106919"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152117,11 +152439,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9da7020419435409877e2403",
-    "name": "Texture",
+    "name": "Rayons blancs fins convergents",
     "asset_id": "90970720514150",
     "uri": "rbxassetid://90970720514150",
     "id_status": "valid",
@@ -152130,7 +152455,9 @@
     "raw_uris": [
       "rbxassetid://90970720514150"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152212,11 +152539,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f6891972a1abbf9179e6f9e7",
-    "name": "Texture",
+    "name": "Fragments blancs épars",
     "asset_id": "91167564374329",
     "uri": "rbxassetid://91167564374329",
     "id_status": "valid",
@@ -152225,7 +152555,9 @@
     "raw_uris": [
       "rbxassetid://91167564374329"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152307,11 +152639,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "53c683f8b97275e27f37f5e7",
-    "name": "Texture",
+    "name": "Éclats blancs en couronne ouverte",
     "asset_id": "92306483134081",
     "uri": "rbxassetid://92306483134081",
     "id_status": "valid",
@@ -152320,7 +152655,9 @@
     "raw_uris": [
       "rbxassetid://92306483134081"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152403,11 +152740,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f2520031ffea42c9ffb939df",
-    "name": "Texture",
+    "name": "Pluie de traits et losanges",
     "asset_id": "95253359638072",
     "uri": "rbxassetid://95253359638072",
     "id_status": "valid",
@@ -152416,7 +152756,9 @@
     "raw_uris": [
       "rbxassetid://95253359638072"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152498,11 +152840,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fcfebceb38b1a4906372c995",
-    "name": "Texture",
+    "name": "Traînée grise granuleuse",
     "asset_id": "95771013563283",
     "uri": "rbxassetid://95771013563283",
     "id_status": "valid",
@@ -152511,7 +152856,9 @@
     "raw_uris": [
       "rbxassetid://95771013563283"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152593,11 +152940,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "59962ee5fd7bfc549a16bfe3",
-    "name": "Texture",
+    "name": "Tourbillon prismatique diffus",
     "asset_id": "98695080779648",
     "uri": "rbxassetid://98695080779648",
     "id_status": "valid",
@@ -152606,7 +152956,9 @@
     "raw_uris": [
       "rbxassetid://98695080779648"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152688,11 +153040,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b1cdbd6190246f5607428981",
-    "name": "Texture",
+    "name": "Petit anneau blanc flou",
     "asset_id": "99341922037026",
     "uri": "rbxassetid://99341922037026",
     "id_status": "valid",
@@ -152701,7 +153056,9 @@
     "raw_uris": [
       "rbxassetid://99341922037026"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152785,11 +153142,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fd866647e4dc4c3af29e3168",
-    "name": "Texture1",
+    "name": "Petit anneau de perles",
     "asset_id": "14709236536",
     "uri": "rbxassetid://14709236536",
     "id_status": "valid",
@@ -152798,7 +153158,9 @@
     "raw_uris": [
       "rbxassetid://14709236536"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture1"
+    ],
     "key_aliases": [],
     "tags": [
       "Impact",
@@ -152882,7 +153244,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture1",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "103a67f43ff66dbbb7cb2d71",

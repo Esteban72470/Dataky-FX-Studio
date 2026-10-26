@@ -1,7 +1,7 @@
 [
   {
     "key": "0e26d56c1b4b2c49f399268b",
-    "name": "29",
+    "name": "Tourbillon de particules",
     "asset_id": "12402864591",
     "uri": "rbxassetid://12402864591",
     "id_status": "valid",
@@ -10,7 +10,9 @@
     "raw_uris": [
       "rbxassetid://12402864591"
     ],
-    "aliases": [],
+    "aliases": [
+      "29"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl"
@@ -84,7 +86,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "29",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fb955899b4979cd99072c877",
@@ -43915,7 +43920,7 @@
   },
   {
     "key": "3839c28b8db7a9d4288d409d",
-    "name": "Texture",
+    "name": "Anneau fin de lignes croisées",
     "asset_id": "101803873204868",
     "uri": "rbxassetid://101803873204868",
     "id_status": "valid",
@@ -43924,7 +43929,9 @@
     "raw_uris": [
       "rbxassetid://101803873204868"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44008,11 +44015,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "45abcd5fe5a81115b8f33e3d",
-    "name": "Texture",
+    "name": "Anneaux fins entrelacés",
     "asset_id": "104600863989433",
     "uri": "rbxassetid://104600863989433",
     "id_status": "valid",
@@ -44021,7 +44031,9 @@
     "raw_uris": [
       "rbxassetid://104600863989433"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44103,11 +44115,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7205f3f56f7b26287a5766c1",
-    "name": "Texture",
+    "name": "Tourbillon vaporeux clair",
     "asset_id": "106122634495444",
     "uri": "rbxassetid://106122634495444",
     "id_status": "valid",
@@ -44116,7 +44131,9 @@
     "raw_uris": [
       "rbxassetid://106122634495444"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44198,11 +44215,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f22adb87f49c6763f21f5718",
-    "name": "Texture",
+    "name": "Spirale de bandes métalliques",
     "asset_id": "109414084375440",
     "uri": "rbxassetid://109414084375440",
     "id_status": "valid",
@@ -44211,7 +44231,9 @@
     "raw_uris": [
       "rbxassetid://109414084375440"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44293,11 +44315,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "820e10ff3a1285e0cb789114",
-    "name": "Texture",
+    "name": "Double anneau fin tournoyant",
     "asset_id": "109574326366882",
     "uri": "rbxassetid://109574326366882",
     "id_status": "valid",
@@ -44306,7 +44331,9 @@
     "raw_uris": [
       "rbxassetid://109574326366882"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44388,11 +44415,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3f06d87f6d841280472235ac",
-    "name": "Texture",
+    "name": "Spirale lumineuse concentrique",
     "asset_id": "110614332517085",
     "uri": "rbxassetid://110614332517085",
     "id_status": "valid",
@@ -44401,7 +44431,9 @@
     "raw_uris": [
       "rbxassetid://110614332517085"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44483,11 +44515,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "afcbbc08e1db97de1290a557",
-    "name": "Texture",
+    "name": "Spirale sombre mouchetée",
     "asset_id": "112175595505809",
     "uri": "rbxassetid://112175595505809",
     "id_status": "valid",
@@ -44496,7 +44531,9 @@
     "raw_uris": [
       "rbxassetid://112175595505809"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44580,11 +44617,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ef21f5c796c1b468a93f2dbe",
-    "name": "Texture",
+    "name": "Anneau de fumée très pâle",
     "asset_id": "112873367340438",
     "uri": "rbxassetid://112873367340438",
     "id_status": "valid",
@@ -44593,7 +44633,9 @@
     "raw_uris": [
       "rbxassetid://112873367340438"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44675,11 +44717,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "22ae3d9539db3e894376329f",
-    "name": "Texture",
+    "name": "Spirale blanche régulière",
     "asset_id": "114901131740078",
     "uri": "rbxassetid://114901131740078",
     "id_status": "valid",
@@ -44688,7 +44733,9 @@
     "raw_uris": [
       "rbxassetid://114901131740078"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44770,11 +44817,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4099bde2403f4246c38fe212",
-    "name": "Texture",
+    "name": "Anneaux de lignes polygonales",
     "asset_id": "115412149133855",
     "uri": "rbxassetid://115412149133855",
     "id_status": "valid",
@@ -44783,7 +44833,9 @@
     "raw_uris": [
       "rbxassetid://115412149133855"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44865,11 +44917,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f0c299197a4e3e6913c15b47",
-    "name": "Texture",
+    "name": "Tourbillon clair à trois bras",
     "asset_id": "120050565860854",
     "uri": "rbxassetid://120050565860854",
     "id_status": "valid",
@@ -44878,7 +44933,9 @@
     "raw_uris": [
       "rbxassetid://120050565860854"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -44960,11 +45017,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ab83d99c7af0b3a7115fd5de",
-    "name": "Texture",
+    "name": "Tourbillon indisponible 14828",
     "asset_id": "120563838014828",
     "uri": "rbxassetid://120563838014828",
     "id_status": "valid",
@@ -44973,7 +45033,9 @@
     "raw_uris": [
       "rbxassetid://120563838014828"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45058,11 +45120,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "a85152041d59fc9f6162f09f",
-    "name": "Texture",
+    "name": "Petit tourbillon lumineux",
     "asset_id": "120980577914101",
     "uri": "rbxassetid://120980577914101",
     "id_status": "valid",
@@ -45071,7 +45136,9 @@
     "raw_uris": [
       "rbxassetid://120980577914101"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45156,11 +45223,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1945ecd818204b05df7e3004",
-    "name": "Texture",
+    "name": "Tourbillon noir cerclé",
     "asset_id": "124749291708895",
     "uri": "rbxassetid://124749291708895",
     "id_status": "valid",
@@ -45169,7 +45239,9 @@
     "raw_uris": [
       "rbxassetid://124749291708895"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45253,11 +45325,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7529fe2bf10c74af78614848",
-    "name": "Texture",
+    "name": "Tourbillon indisponible 49350",
     "asset_id": "125368463849350",
     "uri": "rbxassetid://125368463849350",
     "id_status": "valid",
@@ -45266,7 +45341,9 @@
     "raw_uris": [
       "rbxassetid://125368463849350"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45351,11 +45428,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "3535679531a5d202039d4be3",
-    "name": "Texture",
+    "name": "Tourbillon indisponible 43516",
     "asset_id": "128488005243516",
     "uri": "rbxassetid://128488005243516",
     "id_status": "valid",
@@ -45364,7 +45444,9 @@
     "raw_uris": [
       "rbxassetid://128488005243516"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45448,11 +45530,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "d94f513c5ac1ee126f9ce82b",
-    "name": "Texture",
+    "name": "Double spirale métallique",
     "asset_id": "129749938018855",
     "uri": "rbxassetid://129749938018855",
     "id_status": "valid",
@@ -45461,7 +45546,9 @@
     "raw_uris": [
       "rbxassetid://129749938018855"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45545,11 +45632,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c2822fc3c8707ca5af06c814",
-    "name": "Texture",
+    "name": "Anneau de filaments lumineux",
     "asset_id": "133369507558233",
     "uri": "rbxassetid://133369507558233",
     "id_status": "valid",
@@ -45558,7 +45648,9 @@
     "raw_uris": [
       "rbxassetid://133369507558233"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45640,11 +45732,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5b560ecf4f39cd25407d25e",
-    "name": "Texture",
+    "name": "Anneau noir griffonné",
     "asset_id": "135971617705259",
     "uri": "rbxassetid://135971617705259",
     "id_status": "valid",
@@ -45653,7 +45748,9 @@
     "raw_uris": [
       "rbxassetid://135971617705259"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45737,11 +45834,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "69be9ad7725dab03b623b01d",
-    "name": "Texture",
+    "name": "Spirale noire et blanche",
     "asset_id": "137168315504594",
     "uri": "rbxassetid://137168315504594",
     "id_status": "valid",
@@ -45750,7 +45850,9 @@
     "raw_uris": [
       "rbxassetid://137168315504594"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45834,11 +45936,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "efb8605c0dc19e84d797c290",
-    "name": "Texture",
+    "name": "Spirale blanche fragmentée",
     "asset_id": "137377204541323",
     "uri": "rbxassetid://137377204541323",
     "id_status": "valid",
@@ -45847,7 +45952,9 @@
     "raw_uris": [
       "rbxassetid://137377204541323"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -45929,11 +46036,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b947e08df555d984defb59f9",
-    "name": "Texture",
+    "name": "Tourbillon blanc vaporeux",
     "asset_id": "138314368682159",
     "uri": "rbxassetid://138314368682159",
     "id_status": "valid",
@@ -45942,7 +46052,9 @@
     "raw_uris": [
       "rbxassetid://138314368682159"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46027,11 +46139,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f924a817e047962beb162224",
-    "name": "Texture",
+    "name": "Petite spirale argentée",
     "asset_id": "139900972017458",
     "uri": "rbxassetid://139900972017458",
     "id_status": "valid",
@@ -46040,7 +46155,9 @@
     "raw_uris": [
       "rbxassetid://139900972017458"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46125,11 +46242,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ef2e6a0e4d40b072fefa3687",
-    "name": "Texture",
+    "name": "Anneaux concentriques filaires",
     "asset_id": "18542384063",
     "uri": "rbxassetid://18542384063",
     "id_status": "valid",
@@ -46138,7 +46258,9 @@
     "raw_uris": [
       "rbxassetid://18542384063"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46220,11 +46342,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c8cbd6009cb056ea2058bdcd",
-    "name": "Texture",
+    "name": "Anneau blanc vaporeux",
     "asset_id": "18542385559",
     "uri": "rbxassetid://18542385559",
     "id_status": "valid",
@@ -46233,7 +46358,9 @@
     "raw_uris": [
       "rbxassetid://18542385559"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46315,11 +46442,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d583c6b387cbd80075283e9f",
-    "name": "Texture",
+    "name": "Petite spirale filaire",
     "asset_id": "70601179204012",
     "uri": "rbxassetid://70601179204012",
     "id_status": "valid",
@@ -46328,7 +46458,9 @@
     "raw_uris": [
       "rbxassetid://70601179204012"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46410,11 +46542,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3cafcaf2807be43ee6de5bef",
-    "name": "Texture",
+    "name": "Anneau blanc à noyau spiralé",
     "asset_id": "71289254736031",
     "uri": "rbxassetid://71289254736031",
     "id_status": "valid",
@@ -46423,7 +46558,9 @@
     "raw_uris": [
       "rbxassetid://71289254736031"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46505,11 +46642,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 409,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fd483ddd5769e7cbc7b0c5b1",
-    "name": "Texture",
+    "name": "Anneau vaporeux fragmenté",
     "asset_id": "73487634359459",
     "uri": "rbxassetid://73487634359459",
     "id_status": "valid",
@@ -46518,7 +46658,9 @@
     "raw_uris": [
       "rbxassetid://73487634359459"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46600,11 +46742,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c3b5c011b92c4fbf6f4422d9",
-    "name": "Texture",
+    "name": "Tourbillon gris concentrique",
     "asset_id": "73497111942924",
     "uri": "rbxassetid://73497111942924",
     "id_status": "valid",
@@ -46613,7 +46758,9 @@
     "raw_uris": [
       "rbxassetid://73497111942924"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46695,11 +46842,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7b4142e8d107d92206cf2cad",
-    "name": "Texture",
+    "name": "Tourbillon noir et blanc",
     "asset_id": "76562233925062",
     "uri": "rbxassetid://76562233925062",
     "id_status": "valid",
@@ -46708,7 +46858,9 @@
     "raw_uris": [
       "rbxassetid://76562233925062"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46792,11 +46944,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f782c0bb5cd19e49e9eb21c9",
-    "name": "Texture",
+    "name": "Tourbillon granuleux sombre",
     "asset_id": "79837411291722",
     "uri": "rbxassetid://79837411291722",
     "id_status": "valid",
@@ -46805,7 +46960,9 @@
     "raw_uris": [
       "rbxassetid://79837411291722"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46887,11 +47044,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "81189a62fd7c806666e85a81",
-    "name": "Texture",
+    "name": "Spirale blanche à noyau lumineux",
     "asset_id": "81684806845935",
     "uri": "rbxassetid://81684806845935",
     "id_status": "valid",
@@ -46900,7 +47060,9 @@
     "raw_uris": [
       "rbxassetid://81684806845935"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -46984,11 +47146,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b4c260748ae3a45308e1b1ae",
-    "name": "Texture",
+    "name": "Tourbillon noir circulaire",
     "asset_id": "86293310836408",
     "uri": "rbxassetid://86293310836408",
     "id_status": "valid",
@@ -46997,7 +47162,9 @@
     "raw_uris": [
       "rbxassetid://86293310836408"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47081,11 +47248,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8f2bf9a55faf1d775bbe9b4c",
-    "name": "Texture",
+    "name": "Spirale indisponible 90827",
     "asset_id": "87969166990827",
     "uri": "rbxassetid://87969166990827",
     "id_status": "valid",
@@ -47094,7 +47264,9 @@
     "raw_uris": [
       "rbxassetid://87969166990827"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47179,11 +47351,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "fd687eed1b2be23a7a6c1c14",
-    "name": "Texture",
+    "name": "Tourbillon gris dense",
     "asset_id": "88329730624767",
     "uri": "rbxassetid://88329730624767",
     "id_status": "valid",
@@ -47192,7 +47367,9 @@
     "raw_uris": [
       "rbxassetid://88329730624767"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47274,11 +47451,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f5f978fdd4211a7cd485ac5b",
-    "name": "Texture",
+    "name": "Spirale indisponible 77656",
     "asset_id": "88623426677656",
     "uri": "rbxassetid://88623426677656",
     "id_status": "valid",
@@ -47287,7 +47467,9 @@
     "raw_uris": [
       "rbxassetid://88623426677656"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47372,11 +47554,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "a70ae65bacccfb7533389fd7",
-    "name": "Texture",
+    "name": "Anneau gris à lignes multiples",
     "asset_id": "89551811281142",
     "uri": "rbxassetid://89551811281142",
     "id_status": "valid",
@@ -47385,7 +47570,9 @@
     "raw_uris": [
       "rbxassetid://89551811281142"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47470,11 +47657,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ae70975ed191c489bd4acdea",
-    "name": "Texture",
+    "name": "Spirale blanche à deux branches",
     "asset_id": "90354350459545",
     "uri": "rbxassetid://90354350459545",
     "id_status": "valid",
@@ -47483,7 +47673,9 @@
     "raw_uris": [
       "rbxassetid://90354350459545"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47565,11 +47757,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "646ea1ae79017898ca0ead26",
-    "name": "Texture",
+    "name": "Spirale de filaments clairs",
     "asset_id": "91236629734286",
     "uri": "rbxassetid://91236629734286",
     "id_status": "valid",
@@ -47578,7 +47773,9 @@
     "raw_uris": [
       "rbxassetid://91236629734286"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47660,11 +47857,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fb6b2488189283b9f257890e",
-    "name": "Texture",
+    "name": "Trou noir à anneau gris",
     "asset_id": "91696463049195",
     "uri": "rbxassetid://91696463049195",
     "id_status": "valid",
@@ -47673,7 +47873,9 @@
     "raw_uris": [
       "rbxassetid://91696463049195"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47757,11 +47959,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1ad055008c57a6477b1be0af",
-    "name": "Texture",
+    "name": "Petite spirale grise vaporeuse",
     "asset_id": "92945004640764",
     "uri": "rbxassetid://92945004640764",
     "id_status": "valid",
@@ -47770,7 +47975,9 @@
     "raw_uris": [
       "rbxassetid://92945004640764"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47854,11 +48061,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6a466bfea90499279bd1bdfe",
-    "name": "Texture",
+    "name": "Cercle fin à doubles traits",
     "asset_id": "98435109882889",
     "uri": "rbxassetid://98435109882889",
     "id_status": "valid",
@@ -47867,7 +48077,9 @@
     "raw_uris": [
       "rbxassetid://98435109882889"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -47951,11 +48163,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f06334620224634099116edb",
-    "name": "Texture",
+    "name": "Tourbillon de cercles pâles",
     "asset_id": "98842854910901",
     "uri": "rbxassetid://98842854910901",
     "id_status": "valid",
@@ -47964,7 +48179,9 @@
     "raw_uris": [
       "rbxassetid://98842854910901"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -48046,11 +48263,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f7b45e051632ec8dc3feb7b3",
-    "name": "Texture",
+    "name": "Anneau de filaments tourbillonnants",
     "asset_id": "99163497621266",
     "uri": "rbxassetid://99163497621266",
     "id_status": "valid",
@@ -48059,7 +48279,9 @@
     "raw_uris": [
       "rbxassetid://99163497621266"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -48141,11 +48363,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f83d9994c3f34f6975542e2e",
-    "name": "Texture",
+    "name": "Spirale indisponible 29106",
     "asset_id": "99690570529106",
     "uri": "rbxassetid://99690570529106",
     "id_status": "valid",
@@ -48154,7 +48379,9 @@
     "raw_uris": [
       "rbxassetid://99690570529106"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Swirl",
@@ -48239,7 +48466,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": null,
-    "height": null
+    "height": null,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "metadata"
   },
   {
     "key": "1970e0efa8ee4d379805026c",

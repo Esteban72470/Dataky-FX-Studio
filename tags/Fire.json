@@ -6972,12 +6972,12 @@
       }
     ],
     "image_path": "images/105110270399529.png",
-    "preview_path": "images/105110270399529.png",
+    "preview_path": "previews/105110270399529-2x2.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 2,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -7004,7 +7004,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 2,
+    "grid_rows": 2,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 2 colonnes et 2 lignes vérifiée visuellement."
   },
   {
     "key": "a39c1b67d185fea30178125f",
@@ -11325,12 +11330,12 @@
       }
     ],
     "image_path": "images/16860377662.png",
-    "preview_path": "images/16860377662.png",
+    "preview_path": "previews/16860377662-8x8.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 8,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -11356,7 +11361,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 8,
+    "grid_rows": 8,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 8 colonnes et 8 lignes vérifiée visuellement."
   },
   {
     "key": "e5d390d0bede82af80edbdfc",
@@ -40244,12 +40254,12 @@
       }
     ],
     "image_path": "images/121001088865254.png",
-    "preview_path": "images/121001088865254.png",
+    "preview_path": "previews/121001088865254-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -40276,7 +40286,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "7734e574ee710469c06c60d8",
@@ -41127,12 +41142,12 @@
       }
     ],
     "image_path": "images/86179193620071.png",
-    "preview_path": "images/86179193620071.png",
+    "preview_path": "previews/86179193620071-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -41158,7 +41173,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "c62898fd084a2ace52a2babf",
@@ -42143,12 +42163,12 @@
       }
     ],
     "image_path": "images/115177254017876.png",
-    "preview_path": "images/115177254017876.png",
+    "preview_path": "previews/115177254017876-4x4.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 4,
+    "grid_source": "verified",
     "classification_conflicts": [
       "rect_kind_differs_from_type_collection"
     ],
@@ -42174,7 +42194,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 4,
+    "grid_rows": 4,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
   },
   {
     "key": "820b85050e5cedf256442f9f",
@@ -50284,12 +50309,12 @@
       }
     ],
     "image_path": "images/70371037304563.png",
-    "preview_path": "images/70371037304563.png",
+    "preview_path": "previews/70371037304563-2x2.png",
     "image_status": "cached",
     "image_error": null,
     "kind": "flipbook",
-    "grid": 0,
-    "grid_source": "unknown",
+    "grid": 2,
+    "grid_source": "verified",
     "classification_conflicts": [
       "static_and_flipbook_rect_observations"
     ],
@@ -50316,7 +50341,12 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "grid_columns": 2,
+    "grid_rows": 2,
+    "grid_review_status": "confirmed",
+    "grid_review_observer": "vision",
+    "grid_review_note": "Grille de 2 colonnes et 2 lignes vérifiée visuellement."
   },
   {
     "key": "dfce0097b84e787aa7b343eb",
@@ -52264,7 +52294,7 @@
   },
   {
     "key": "524c76ca8277c248e1087284",
-    "name": "Texture",
+    "name": "Petite flamme diffuse",
     "asset_id": "102245178027350",
     "uri": "rbxassetid://102245178027350",
     "id_status": "valid",
@@ -52273,7 +52303,9 @@
     "raw_uris": [
       "rbxassetid://102245178027350"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Fire",
@@ -52357,11 +52389,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "d471da31c9034129c38e7caf",
-    "name": "Texture",
+    "name": "Flamme grise bordée de noir · 098833",
     "asset_id": "106564281098833",
     "uri": "rbxassetid://106564281098833",
     "id_status": "valid",
@@ -52370,7 +52405,9 @@
     "raw_uris": [
       "rbxassetid://106564281098833"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Fire",
@@ -52455,11 +52492,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a61d091c66221a7b3326f81b",
-    "name": "Texture",
+    "name": "Flamme grise bordée de noir · 492280",
     "asset_id": "119950039492280",
     "uri": "rbxassetid://119950039492280",
     "id_status": "valid",
@@ -52468,7 +52508,9 @@
     "raw_uris": [
       "rbxassetid://119950039492280"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Fire",
@@ -52553,11 +52595,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fa3091d51164b381d292a035",
-    "name": "Texture",
+    "name": "Flamme étoilée pointillée",
     "asset_id": "126849159366002",
     "uri": "rbxassetid://126849159366002",
     "id_status": "valid",
@@ -52566,7 +52611,9 @@
     "raw_uris": [
       "rbxassetid://126849159366002"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Fire",
@@ -52650,11 +52697,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4740ca224c622c53f140fe49",
-    "name": "Texture",
+    "name": "Petite flamme blanche courbe",
     "asset_id": "71351942052227",
     "uri": "rbxassetid://71351942052227",
     "id_status": "valid",
@@ -52663,7 +52713,9 @@
     "raw_uris": [
       "rbxassetid://71351942052227"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Fire",
@@ -52747,7 +52799,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "06054cc87dee4459bbbf1654",

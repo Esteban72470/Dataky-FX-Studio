@@ -66,7 +66,9 @@ def catalog(collection: str) -> list[dict[str, Any]]:
             raise ToolError(f"Catalogue {collection} illisible : {exc}") from exc
         if len(content) > MAX_CATALOG_BYTES:
             raise ToolError(f"Catalogue {collection} limité à 64 Mio")
-        fingerprint = (str(path), hashlib.sha256(content).hexdigest())
+        reviewed = _sibling("catalog_annotations")
+        annotations = reviewed.annotation_bytes(ROOT) if collection == "textures" else b""
+        fingerprint = (str(path), hashlib.sha256(content + annotations).hexdigest())
         if collection in _catalogs and _catalog_fingerprints.get(collection) == fingerprint:
             return _catalogs[collection]
         try:
@@ -75,6 +77,7 @@ def catalog(collection: str) -> list[dict[str, Any]]:
             raise ToolError(f"Catalogue {collection} JSON invalide : {exc}") from exc
         if not isinstance(rows, list) or any(not isinstance(row, dict) for row in rows):
             raise ToolError(f"Catalogue {collection} : liste d'assets JSON requise")
+        rows = reviewed.apply_annotations(rows, body=annotations, collection=collection)
         _catalogs[collection] = rows
         _catalog_fingerprints[collection] = fingerprint
         return rows
@@ -100,6 +103,9 @@ def describe_asset(item: dict[str, Any], collection: str) -> dict[str, Any]:
             grid = confirmed
         out["flipbook"] = {"grid": grid, "FlipbookLayout": LAYOUTS.get(grid, "Custom" if grid else None),
                            "estimated": confirmed is None and str(item.get("grid_source", "")).startswith("inferred")}
+        columns, rows = item.get("grid_columns"), item.get("grid_rows")
+        if confirmed is None and columns and rows and columns * rows > 1 and not grid:
+            out["flipbook"].update(columns=columns, rows=rows, FlipbookLayout="Custom", FlipbookSizeX=columns, FlipbookSizeY=rows)
     if collection == "meshes":
         for reference in item.get("references", []):
             out[reference.get("label", "MeshId")] = reference.get("uri")
@@ -151,6 +157,8 @@ def compact_assets(result: dict[str, Any]) -> str:
         kind = item.get("kind") or "?"
         if grid:
             kind += f"/{grid}x{grid}" + (" estimated" if flipbook.get("estimated") else "")
+        elif flipbook.get("columns") and flipbook.get("rows"):
+            kind += f"/{flipbook['columns']}x{flipbook['rows']}"
         width, height = item.get("size") or [None, None]
         size = f"{width}x{height}" if width and height else "?"
         lines.append(" | ".join([("USED " if item.get("used") else "") + item["id"], clean(item.get("name")) or "—", kind, size]))

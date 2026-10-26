@@ -55700,7 +55700,7 @@
   },
   {
     "key": "9c94d4efcdca27173ebb13c8",
-    "name": "Texture",
+    "name": "Double arc gris",
     "asset_id": "101251011883847",
     "uri": "rbxassetid://101251011883847",
     "id_status": "valid",
@@ -55709,7 +55709,9 @@
     "raw_uris": [
       "rbxassetid://101251011883847"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -55793,11 +55795,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c7a5e385c86fe6dc8dd021a0",
-    "name": "Texture",
+    "name": "Croissant fin irisé · 499837",
     "asset_id": "102392221499837",
     "uri": "rbxassetid://102392221499837",
     "id_status": "valid",
@@ -55806,7 +55811,9 @@
     "raw_uris": [
       "rbxassetid://102392221499837"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -55890,11 +55897,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "944aadd0fc4b38b72c332763",
-    "name": "Texture",
+    "name": "Arc fin aux pointes sombres",
     "asset_id": "103763971558467",
     "uri": "rbxassetid://103763971558467",
     "id_status": "valid",
@@ -55903,7 +55913,9 @@
     "raw_uris": [
       "rbxassetid://103763971558467"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -55985,11 +55997,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "06d03b0e9dad2f8cb0007863",
-    "name": "Texture",
+    "name": "Arc fin noir",
     "asset_id": "106959377331147",
     "uri": "rbxassetid://106959377331147",
     "id_status": "valid",
@@ -55998,7 +56013,9 @@
     "raw_uris": [
       "rbxassetid://106959377331147"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56082,11 +56099,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c8f98e6fe185b0e59d3e54d7",
-    "name": "Texture",
+    "name": "Croissant de flamme orange",
     "asset_id": "107706116245131",
     "uri": "rbxassetid://107706116245131",
     "id_status": "valid",
@@ -56095,7 +56115,9 @@
     "raw_uris": [
       "rbxassetid://107706116245131"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56179,11 +56201,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ab2b4c9d32d0494ab865ab4a",
-    "name": "Texture",
+    "name": "Arc fin multicolore",
     "asset_id": "107882003589119",
     "uri": "rbxassetid://107882003589119",
     "id_status": "valid",
@@ -56192,7 +56217,9 @@
     "raw_uris": [
       "rbxassetid://107882003589119"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56276,11 +56303,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7a5e6108738a756abfeb2ff3",
-    "name": "Texture",
+    "name": "Croissant sombre à bord irisé",
     "asset_id": "109506923242606",
     "uri": "rbxassetid://109506923242606",
     "id_status": "valid",
@@ -56289,7 +56319,9 @@
     "raw_uris": [
       "rbxassetid://109506923242606"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56373,11 +56405,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bd6a617d3490f1cc3f950686",
-    "name": "Texture",
+    "name": "Croissant blanc à revers sombre",
     "asset_id": "109873341088705",
     "uri": "rbxassetid://109873341088705",
     "id_status": "valid",
@@ -56386,7 +56421,9 @@
     "raw_uris": [
       "rbxassetid://109873341088705"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56470,11 +56507,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "468d9b5e4ad9f8c9702d1d5b",
-    "name": "Texture",
+    "name": "Croissant moucheté noir et blanc",
     "asset_id": "110355478533563",
     "uri": "rbxassetid://110355478533563",
     "id_status": "valid",
@@ -56483,7 +56523,9 @@
     "raw_uris": [
       "rbxassetid://110355478533563"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56567,11 +56609,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "e714f8962632cfd2b76957f6",
-    "name": "Texture",
+    "name": "Arc blanc pixelisé",
     "asset_id": "111112288200038",
     "uri": "rbxassetid://111112288200038",
     "id_status": "valid",
@@ -56580,7 +56625,9 @@
     "raw_uris": [
       "rbxassetid://111112288200038"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56664,11 +56711,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "51e34cdd89ef102cc39a1ac6",
-    "name": "Texture",
+    "name": "Arc métallique noir",
     "asset_id": "111245814552168",
     "uri": "rbxassetid://111245814552168",
     "id_status": "valid",
@@ -56677,7 +56727,9 @@
     "raw_uris": [
       "rbxassetid://111245814552168"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56761,11 +56813,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1924c88cd2937cb05e9455cd",
-    "name": "Texture",
+    "name": "Croissant blanc bordé de noir",
     "asset_id": "111859805682557",
     "uri": "rbxassetid://111859805682557",
     "id_status": "valid",
@@ -56774,7 +56829,9 @@
     "raw_uris": [
       "rbxassetid://111859805682557"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56858,11 +56915,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c62b0e0e673327202743bc5e",
-    "name": "Texture",
+    "name": "Arc de poudre scintillante",
     "asset_id": "111950635943445",
     "uri": "rbxassetid://111950635943445",
     "id_status": "valid",
@@ -56871,7 +56931,9 @@
     "raw_uris": [
       "rbxassetid://111950635943445"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -56953,11 +57015,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b7fd60cc9f6c12a7c1894407",
-    "name": "Texture",
+    "name": "Arc de flammes blanches",
     "asset_id": "112850139166862",
     "uri": "rbxassetid://112850139166862",
     "id_status": "valid",
@@ -56966,7 +57031,9 @@
     "raw_uris": [
       "rbxassetid://112850139166862"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57050,11 +57117,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f7ef4bb46dc91aefdd93481c",
-    "name": "Texture",
+    "name": "Arc métallique strié",
     "asset_id": "113717184205214",
     "uri": "rbxassetid://113717184205214",
     "id_status": "valid",
@@ -57063,7 +57133,9 @@
     "raw_uris": [
       "rbxassetid://113717184205214"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57147,11 +57219,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "a349d4e9758f2b75da4b825c",
-    "name": "Texture",
+    "name": "Croissant noir ombré",
     "asset_id": "116638834515295",
     "uri": "rbxassetid://116638834515295",
     "id_status": "valid",
@@ -57160,7 +57235,9 @@
     "raw_uris": [
       "rbxassetid://116638834515295"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57244,11 +57321,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7e07a104b0093cf071f2a527",
-    "name": "Texture",
+    "name": "Arc clair très fin",
     "asset_id": "116952126710178",
     "uri": "rbxassetid://116952126710178",
     "id_status": "valid",
@@ -57257,7 +57337,9 @@
     "raw_uris": [
       "rbxassetid://116952126710178"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57339,11 +57421,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b02e9fbe0aefa4a012c95666",
-    "name": "Texture",
+    "name": "Croissant blanc esquissé",
     "asset_id": "116960603486124",
     "uri": "rbxassetid://116960603486124",
     "id_status": "valid",
@@ -57352,7 +57437,9 @@
     "raw_uris": [
       "rbxassetid://116960603486124"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57436,11 +57523,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f52f0e8c40b72dc08b40595a",
-    "name": "Texture",
+    "name": "Croissant noir brossé",
     "asset_id": "117614230644759",
     "uri": "rbxassetid://117614230644759",
     "id_status": "valid",
@@ -57449,7 +57539,9 @@
     "raw_uris": [
       "rbxassetid://117614230644759"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57534,11 +57626,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "0d6e2e1fcf57cf9077d887a4",
-    "name": "Texture",
+    "name": "Arc clair en demi-cercle",
     "asset_id": "118785965813184",
     "uri": "rbxassetid://118785965813184",
     "id_status": "valid",
@@ -57547,7 +57642,9 @@
     "raw_uris": [
       "rbxassetid://118785965813184"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57631,11 +57728,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ce143e006708b494c39d9ba6",
-    "name": "Texture",
+    "name": "Arc lumineux brossé",
     "asset_id": "119181977767268",
     "uri": "rbxassetid://119181977767268",
     "id_status": "valid",
@@ -57644,7 +57744,9 @@
     "raw_uris": [
       "rbxassetid://119181977767268"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57728,11 +57830,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1b5bf017fe2522ed86207231",
-    "name": "Texture",
+    "name": "Arc blanc fin pointillé",
     "asset_id": "120310514023325",
     "uri": "rbxassetid://120310514023325",
     "id_status": "valid",
@@ -57741,7 +57846,9 @@
     "raw_uris": [
       "rbxassetid://120310514023325"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57825,11 +57932,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "684229500caa9638e444eb8d",
-    "name": "Texture",
+    "name": "Croissant blanc brossé · 108590",
     "asset_id": "120697701108590",
     "uri": "rbxassetid://120697701108590",
     "id_status": "valid",
@@ -57838,7 +57948,9 @@
     "raw_uris": [
       "rbxassetid://120697701108590"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -57922,11 +58034,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ad1dd0398f01a37d08f575f6",
-    "name": "Texture",
+    "name": "Croissant noir fin",
     "asset_id": "120857540903199",
     "uri": "rbxassetid://120857540903199",
     "id_status": "valid",
@@ -57935,7 +58050,9 @@
     "raw_uris": [
       "rbxassetid://120857540903199"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58019,11 +58136,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "717e00374c3352df69e6bc8b",
-    "name": "Texture",
+    "name": "Croissant blanc effilé · 144744",
     "asset_id": "122062567144744",
     "uri": "rbxassetid://122062567144744",
     "id_status": "valid",
@@ -58032,7 +58152,9 @@
     "raw_uris": [
       "rbxassetid://122062567144744"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58116,11 +58238,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3184f5053f724e454389c271",
-    "name": "Texture",
+    "name": "Triple arc argenté",
     "asset_id": "122734776383571",
     "uri": "rbxassetid://122734776383571",
     "id_status": "valid",
@@ -58129,7 +58254,9 @@
     "raw_uris": [
       "rbxassetid://122734776383571"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58213,11 +58340,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b2ad29a52bcc1c515c52367b",
-    "name": "Texture",
+    "name": "Arc noir en demi-cercle",
     "asset_id": "123505155643599",
     "uri": "rbxassetid://123505155643599",
     "id_status": "valid",
@@ -58226,7 +58356,9 @@
     "raw_uris": [
       "rbxassetid://123505155643599"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58310,11 +58442,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1590b8ead52cd1c6a931b703",
-    "name": "Texture",
+    "name": "Arc épais de lumière",
     "asset_id": "124559810928698",
     "uri": "rbxassetid://124559810928698",
     "id_status": "valid",
@@ -58323,7 +58458,9 @@
     "raw_uris": [
       "rbxassetid://124559810928698"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58405,11 +58542,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "411d72fffa65cf3e91882f87",
-    "name": "Texture",
+    "name": "Arc de flammes irisées",
     "asset_id": "125088414043770",
     "uri": "rbxassetid://125088414043770",
     "id_status": "valid",
@@ -58418,7 +58558,9 @@
     "raw_uris": [
       "rbxassetid://125088414043770"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58502,11 +58644,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "add2fb58193688a5f0d0bef3",
-    "name": "Texture",
+    "name": "Croissant noir aux reflets irisés",
     "asset_id": "126275764447386",
     "uri": "rbxassetid://126275764447386",
     "id_status": "valid",
@@ -58515,7 +58660,9 @@
     "raw_uris": [
       "rbxassetid://126275764447386"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58600,11 +58747,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "65eeab9e3114782948e25289",
-    "name": "Texture",
+    "name": "Croissant blanc à bord brossé",
     "asset_id": "129502289456451",
     "uri": "rbxassetid://129502289456451",
     "id_status": "valid",
@@ -58613,7 +58763,9 @@
     "raw_uris": [
       "rbxassetid://129502289456451"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58697,11 +58849,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "776eed011175e0df2333d3f1",
-    "name": "Texture",
+    "name": "Croissant noir granuleux",
     "asset_id": "130377719196172",
     "uri": "rbxassetid://130377719196172",
     "id_status": "valid",
@@ -58710,7 +58865,9 @@
     "raw_uris": [
       "rbxassetid://130377719196172"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58795,11 +58952,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3d03d3a615d3d702880e3f01",
-    "name": "Texture",
+    "name": "Croissant lumineux irisé",
     "asset_id": "132583522974977",
     "uri": "rbxassetid://132583522974977",
     "id_status": "valid",
@@ -58808,7 +58968,9 @@
     "raw_uris": [
       "rbxassetid://132583522974977"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58892,11 +59054,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c7a90ea0e4a922d0ae4525f1",
-    "name": "Texture",
+    "name": "Petit éclat noir et blanc",
     "asset_id": "133741088322222",
     "uri": "rbxassetid://133741088322222",
     "id_status": "valid",
@@ -58905,7 +59070,9 @@
     "raw_uris": [
       "rbxassetid://133741088322222"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -58989,11 +59156,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "661b9f5d19c9eaa9ed6838c5",
-    "name": "Texture",
+    "name": "Grand arc blanc effilé",
     "asset_id": "134552653198051",
     "uri": "rbxassetid://134552653198051",
     "id_status": "valid",
@@ -59002,7 +59172,9 @@
     "raw_uris": [
       "rbxassetid://134552653198051"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59084,11 +59256,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4967471d91382525f0671dca",
-    "name": "Texture",
+    "name": "Arc blanc aux traits superposés",
     "asset_id": "134661103131351",
     "uri": "rbxassetid://134661103131351",
     "id_status": "valid",
@@ -59097,7 +59272,9 @@
     "raw_uris": [
       "rbxassetid://134661103131351"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59181,11 +59358,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "16351b86e30f8273452ae289",
-    "name": "Texture",
+    "name": "Petit arc blanc strié",
     "asset_id": "134736132144954",
     "uri": "rbxassetid://134736132144954",
     "id_status": "valid",
@@ -59194,7 +59374,9 @@
     "raw_uris": [
       "rbxassetid://134736132144954"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59278,11 +59460,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "22d25c1d016319607a2c5bc8",
-    "name": "Texture",
+    "name": "Croissant lumineux aux bords irisés",
     "asset_id": "134851820232367",
     "uri": "rbxassetid://134851820232367",
     "id_status": "valid",
@@ -59291,7 +59476,9 @@
     "raw_uris": [
       "rbxassetid://134851820232367"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59375,11 +59562,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7c20248c91546e0d6a730f5c",
-    "name": "Texture",
+    "name": "Croissant blanc moucheté",
     "asset_id": "135251293057527",
     "uri": "rbxassetid://135251293057527",
     "id_status": "valid",
@@ -59388,7 +59578,9 @@
     "raw_uris": [
       "rbxassetid://135251293057527"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59472,11 +59664,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f3fd8ba67388df3250ffc49e",
-    "name": "Texture",
+    "name": "Arc de flammes rouges",
     "asset_id": "135612611919580",
     "uri": "rbxassetid://135612611919580",
     "id_status": "valid",
@@ -59485,7 +59680,9 @@
     "raw_uris": [
       "rbxassetid://135612611919580"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59569,11 +59766,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ac2c69c9844e8d74669b0836",
-    "name": "Texture",
+    "name": "Croissant irisé effilé",
     "asset_id": "135787887548798",
     "uri": "rbxassetid://135787887548798",
     "id_status": "valid",
@@ -59582,7 +59782,9 @@
     "raw_uris": [
       "rbxassetid://135787887548798"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59666,11 +59868,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "cc973a117706453dc3a37512",
-    "name": "Texture",
+    "name": "Croissant de feu ardent",
     "asset_id": "135844245260815",
     "uri": "rbxassetid://135844245260815",
     "id_status": "valid",
@@ -59679,7 +59884,9 @@
     "raw_uris": [
       "rbxassetid://135844245260815"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59763,11 +59970,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6fffc0302dbf668f50e6c1ce",
-    "name": "Texture",
+    "name": "Entaille blanche mouchetée",
     "asset_id": "136113534643446",
     "uri": "rbxassetid://136113534643446",
     "id_status": "valid",
@@ -59776,7 +59986,9 @@
     "raw_uris": [
       "rbxassetid://136113534643446"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59860,11 +60072,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4151faaea14ef53b039a3f33",
-    "name": "Texture",
+    "name": "Petite entaille sombre",
     "asset_id": "136455928902452",
     "uri": "rbxassetid://136455928902452",
     "id_status": "valid",
@@ -59873,7 +60088,9 @@
     "raw_uris": [
       "rbxassetid://136455928902452"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -59957,11 +60174,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4cbc7fe717dc37f983065ecf",
-    "name": "Texture",
+    "name": "Croissant blanc effilé · 361112",
     "asset_id": "136475122361112",
     "uri": "rbxassetid://136475122361112",
     "id_status": "valid",
@@ -59970,7 +60190,9 @@
     "raw_uris": [
       "rbxassetid://136475122361112"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60054,11 +60276,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "40060e90dde038607d141b72",
-    "name": "Texture",
+    "name": "Anneau irrégulier fragmenté",
     "asset_id": "136944165040415",
     "uri": "rbxassetid://136944165040415",
     "id_status": "valid",
@@ -60067,7 +60292,9 @@
     "raw_uris": [
       "rbxassetid://136944165040415"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60151,11 +60378,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3dfaa0a58d03c04371ea0c20",
-    "name": "Texture",
+    "name": "Arc tranchant rouge orangé",
     "asset_id": "137460338697124",
     "uri": "rbxassetid://137460338697124",
     "id_status": "valid",
@@ -60164,7 +60394,9 @@
     "raw_uris": [
       "rbxassetid://137460338697124"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60248,11 +60480,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "648cdcae7b82fe2fb0934d8f",
-    "name": "Texture",
+    "name": "Croissant blanc brossé · 568160",
     "asset_id": "138033542568160",
     "uri": "rbxassetid://138033542568160",
     "id_status": "valid",
@@ -60261,7 +60496,9 @@
     "raw_uris": [
       "rbxassetid://138033542568160"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60345,11 +60582,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1283a9693e19f55fba38fc79",
-    "name": "Texture",
+    "name": "Croissant noir à frange irisée",
     "asset_id": "138935340580951",
     "uri": "rbxassetid://138935340580951",
     "id_status": "valid",
@@ -60358,7 +60598,9 @@
     "raw_uris": [
       "rbxassetid://138935340580951"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60443,11 +60685,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "9544d33d23c6e23d8489a8a1",
-    "name": "Texture",
+    "name": "Croissant noir à lueur blanche",
     "asset_id": "139086188465296",
     "uri": "rbxassetid://139086188465296",
     "id_status": "valid",
@@ -60456,7 +60701,9 @@
     "raw_uris": [
       "rbxassetid://139086188465296"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60540,11 +60787,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6da41a09ceb715efb2b17288",
-    "name": "Texture",
+    "name": "Petit croissant sombre",
     "asset_id": "139419034958331",
     "uri": "rbxassetid://139419034958331",
     "id_status": "valid",
@@ -60553,7 +60803,9 @@
     "raw_uris": [
       "rbxassetid://139419034958331"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60637,11 +60889,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4ceacb5e2982730ecb2c06e3",
-    "name": "Texture",
+    "name": "Griffe courbe brune",
     "asset_id": "140228997316343",
     "uri": "rbxassetid://140228997316343",
     "id_status": "valid",
@@ -60650,7 +60905,9 @@
     "raw_uris": [
       "rbxassetid://140228997316343"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60734,11 +60991,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b312de37f73b454260ae801d",
-    "name": "Texture",
+    "name": "Arc de cercle fin",
     "asset_id": "71129968102374",
     "uri": "rbxassetid://71129968102374",
     "id_status": "valid",
@@ -60747,7 +61007,9 @@
     "raw_uris": [
       "rbxassetid://71129968102374"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60829,11 +61091,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "24a429d59cdfcabf60d7fca2",
-    "name": "Texture",
+    "name": "Croissant jaune brossé",
     "asset_id": "71218964954816",
     "uri": "rbxassetid://71218964954816",
     "id_status": "valid",
@@ -60842,7 +61107,9 @@
     "raw_uris": [
       "rbxassetid://71218964954816"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -60926,11 +61193,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "bdf995a73829a49d453508eb",
-    "name": "Texture",
+    "name": "Entaille sombre effilée",
     "asset_id": "71220920221942",
     "uri": "rbxassetid://71220920221942",
     "id_status": "valid",
@@ -60939,7 +61209,9 @@
     "raw_uris": [
       "rbxassetid://71220920221942"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61023,11 +61295,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "089d878348e9341a05384a23",
-    "name": "Texture",
+    "name": "Anneaux blancs concentriques",
     "asset_id": "71676569644693",
     "uri": "rbxassetid://71676569644693",
     "id_status": "valid",
@@ -61036,7 +61311,9 @@
     "raw_uris": [
       "rbxassetid://71676569644693"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61120,11 +61397,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6bc9b2f879849a63236e36dc",
-    "name": "Texture",
+    "name": "Croissant blanc fin",
     "asset_id": "72144926293614",
     "uri": "rbxassetid://72144926293614",
     "id_status": "valid",
@@ -61133,7 +61413,9 @@
     "raw_uris": [
       "rbxassetid://72144926293614"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61215,11 +61497,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "52f19af6c20779588376e487",
-    "name": "Texture",
+    "name": "Petit arc noir et blanc",
     "asset_id": "72159970935189",
     "uri": "rbxassetid://72159970935189",
     "id_status": "valid",
@@ -61228,7 +61513,9 @@
     "raw_uris": [
       "rbxassetid://72159970935189"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61312,11 +61599,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "5c56bdcb8bc5562e8bdba247",
-    "name": "Texture",
+    "name": "Petit croissant blanc",
     "asset_id": "72741684163548",
     "uri": "rbxassetid://72741684163548",
     "id_status": "valid",
@@ -61325,7 +61615,9 @@
     "raw_uris": [
       "rbxassetid://72741684163548"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61409,11 +61701,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3ce70d1a52b8d8e07225478b",
-    "name": "Texture",
+    "name": "Croissant noir à contour blanc",
     "asset_id": "73173120966084",
     "uri": "rbxassetid://73173120966084",
     "id_status": "valid",
@@ -61422,7 +61717,9 @@
     "raw_uris": [
       "rbxassetid://73173120966084"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61506,11 +61803,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "4cd9290c146c2c912d1d560a",
-    "name": "Texture",
+    "name": "Croissant irisé dentelé",
     "asset_id": "73235388463353",
     "uri": "rbxassetid://73235388463353",
     "id_status": "valid",
@@ -61519,7 +61819,9 @@
     "raw_uris": [
       "rbxassetid://73235388463353"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61603,11 +61905,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "93fbad38fa4af3bc3b5bc5a6",
-    "name": "Texture",
+    "name": "Croissant fin irisé · 763847",
     "asset_id": "73776271763847",
     "uri": "rbxassetid://73776271763847",
     "id_status": "valid",
@@ -61616,7 +61921,9 @@
     "raw_uris": [
       "rbxassetid://73776271763847"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61700,11 +62007,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "3fbc13ce1939aeed48d5eebc",
-    "name": "Texture",
+    "name": "Arc de flammes orange",
     "asset_id": "73839751993668",
     "uri": "rbxassetid://73839751993668",
     "id_status": "valid",
@@ -61713,7 +62023,9 @@
     "raw_uris": [
       "rbxassetid://73839751993668"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61797,11 +62109,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "b8180de28fd7243798b93492",
-    "name": "Texture",
+    "name": "Demi-anneau blanc gratté",
     "asset_id": "74254557083043",
     "uri": "rbxassetid://74254557083043",
     "id_status": "valid",
@@ -61810,7 +62125,9 @@
     "raw_uris": [
       "rbxassetid://74254557083043"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61894,11 +62211,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "c2d56b032a7bc3fade6e7f2d",
-    "name": "Texture",
+    "name": "Croissant noir bordé blanc",
     "asset_id": "74708732229945",
     "uri": "rbxassetid://74708732229945",
     "id_status": "valid",
@@ -61907,7 +62227,9 @@
     "raw_uris": [
       "rbxassetid://74708732229945"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -61991,11 +62313,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "8ef899dfc1d5412a9bf2e0a1",
-    "name": "Texture",
+    "name": "Croissant blanc strié",
     "asset_id": "75044266818452",
     "uri": "rbxassetid://75044266818452",
     "id_status": "valid",
@@ -62004,7 +62329,9 @@
     "raw_uris": [
       "rbxassetid://75044266818452"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62088,11 +62415,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "629729907683dac45817ed5d",
-    "name": "Texture",
+    "name": "Demi-cercle blanc fin",
     "asset_id": "75514145893806",
     "uri": "rbxassetid://75514145893806",
     "id_status": "valid",
@@ -62101,7 +62431,9 @@
     "raw_uris": [
       "rbxassetid://75514145893806"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62185,11 +62517,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "302b28ef54c220fdb23c74c7",
-    "name": "Texture",
+    "name": "Arc très fin irisé",
     "asset_id": "77840970952008",
     "uri": "rbxassetid://77840970952008",
     "id_status": "valid",
@@ -62198,7 +62533,9 @@
     "raw_uris": [
       "rbxassetid://77840970952008"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62280,11 +62617,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7f27341360897bfdf1a4ceae",
-    "name": "Texture",
+    "name": "Triple griffe blanche",
     "asset_id": "79054719558817",
     "uri": "rbxassetid://79054719558817",
     "id_status": "valid",
@@ -62293,7 +62633,9 @@
     "raw_uris": [
       "rbxassetid://79054719558817"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62377,11 +62719,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ec199638aac04c9c017ed21f",
-    "name": "Texture",
+    "name": "Croissant de flammes irisées",
     "asset_id": "81795732311532",
     "uri": "rbxassetid://81795732311532",
     "id_status": "valid",
@@ -62390,7 +62735,9 @@
     "raw_uris": [
       "rbxassetid://81795732311532"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62474,11 +62821,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "6b06124d0954d9064f82cc75",
-    "name": "Texture",
+    "name": "Anneau de fragments gris",
     "asset_id": "84018475156366",
     "uri": "rbxassetid://84018475156366",
     "id_status": "valid",
@@ -62487,7 +62837,9 @@
     "raw_uris": [
       "rbxassetid://84018475156366"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62571,11 +62923,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "949fcf37a5403133d131363f",
-    "name": "Texture",
+    "name": "Petit croissant gris",
     "asset_id": "85655100723471",
     "uri": "rbxassetid://85655100723471",
     "id_status": "valid",
@@ -62584,7 +62939,9 @@
     "raw_uris": [
       "rbxassetid://85655100723471"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62668,11 +63025,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f74c7583315b0f54a34071e7",
-    "name": "Texture",
+    "name": "Arc blanc granuleux",
     "asset_id": "86433013548039",
     "uri": "rbxassetid://86433013548039",
     "id_status": "valid",
@@ -62681,7 +63041,9 @@
     "raw_uris": [
       "rbxassetid://86433013548039"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62765,11 +63127,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "42c69e0ad6e5642393d63bcd",
-    "name": "Texture",
+    "name": "Croissant blanc à pointe large",
     "asset_id": "87229613961377",
     "uri": "rbxassetid://87229613961377",
     "id_status": "valid",
@@ -62778,7 +63143,9 @@
     "raw_uris": [
       "rbxassetid://87229613961377"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62862,11 +63229,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "ebe7ce77aba5ee8dc9df1a98",
-    "name": "Texture",
+    "name": "Croissant blanc bordé irisé",
     "asset_id": "87569749638029",
     "uri": "rbxassetid://87569749638029",
     "id_status": "valid",
@@ -62875,7 +63245,9 @@
     "raw_uris": [
       "rbxassetid://87569749638029"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -62959,11 +63331,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "83c0d693f8e76e311981d92f",
-    "name": "Texture",
+    "name": "Entaille blanche filaire courbe",
     "asset_id": "88964718184904",
     "uri": "rbxassetid://88964718184904",
     "id_status": "valid",
@@ -62972,7 +63347,9 @@
     "raw_uris": [
       "rbxassetid://88964718184904"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63054,11 +63431,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "1c80b7f97a9195ef7fc6bb49",
-    "name": "Texture",
+    "name": "Petit croissant irisé vif",
     "asset_id": "89324172759209",
     "uri": "rbxassetid://89324172759209",
     "id_status": "valid",
@@ -63067,7 +63447,9 @@
     "raw_uris": [
       "rbxassetid://89324172759209"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63151,11 +63533,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7c5ba4f3fb1612d0310c37d6",
-    "name": "Texture",
+    "name": "Petit arc noir fin",
     "asset_id": "90101426012733",
     "uri": "rbxassetid://90101426012733",
     "id_status": "valid",
@@ -63164,7 +63549,9 @@
     "raw_uris": [
       "rbxassetid://90101426012733"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63248,11 +63635,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "07ab0fe982875f5c0541df1e",
-    "name": "Texture",
+    "name": "Croissant de flammes violettes",
     "asset_id": "90197741122219",
     "uri": "rbxassetid://90197741122219",
     "id_status": "valid",
@@ -63261,7 +63651,9 @@
     "raw_uris": [
       "rbxassetid://90197741122219"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63345,11 +63737,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "55901c2c132917cd5126654f",
-    "name": "Texture",
+    "name": "Croissant blanc à traits multiples",
     "asset_id": "90554077081985",
     "uri": "rbxassetid://90554077081985",
     "id_status": "valid",
@@ -63358,7 +63753,9 @@
     "raw_uris": [
       "rbxassetid://90554077081985"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63440,11 +63837,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "06e082b431b024a33e581a24",
-    "name": "Texture",
+    "name": "Petit croissant blanc lumineux",
     "asset_id": "90924545131261",
     "uri": "rbxassetid://90924545131261",
     "id_status": "valid",
@@ -63453,7 +63853,9 @@
     "raw_uris": [
       "rbxassetid://90924545131261"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63537,11 +63939,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "7768107f4a32957a05c10222",
-    "name": "Texture",
+    "name": "Deux formes blanches évasées",
     "asset_id": "91194527640599",
     "uri": "rbxassetid://91194527640599",
     "id_status": "valid",
@@ -63550,7 +63955,9 @@
     "raw_uris": [
       "rbxassetid://91194527640599"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63632,11 +64039,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "f99574645440db2da511c7f1",
-    "name": "Texture",
+    "name": "Croissant métallique irisé",
     "asset_id": "91288292677400",
     "uri": "rbxassetid://91288292677400",
     "id_status": "valid",
@@ -63645,7 +64055,9 @@
     "raw_uris": [
       "rbxassetid://91288292677400"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63729,11 +64141,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "fd73745bc5d677aac9c32749",
-    "name": "Texture",
+    "name": "Croissant turquoise lumineux",
     "asset_id": "93715846257030",
     "uri": "rbxassetid://93715846257030",
     "id_status": "valid",
@@ -63742,7 +64157,9 @@
     "raw_uris": [
       "rbxassetid://93715846257030"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63826,11 +64243,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "838232b88512b475ee543843",
-    "name": "Texture",
+    "name": "Croissant gris brossé",
     "asset_id": "96784879550395",
     "uri": "rbxassetid://96784879550395",
     "id_status": "valid",
@@ -63839,7 +64259,9 @@
     "raw_uris": [
       "rbxassetid://96784879550395"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -63923,11 +64345,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "25fabc1cf9e07f67e515f02f",
-    "name": "Texture",
+    "name": "Croissant fin à bord irisé",
     "asset_id": "96963470389931",
     "uri": "rbxassetid://96963470389931",
     "id_status": "valid",
@@ -63936,7 +64361,9 @@
     "raw_uris": [
       "rbxassetid://96963470389931"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -64020,11 +64447,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "17ea2668dfdf85e8097ec398",
-    "name": "Texture",
+    "name": "Croissant blanc à filaments",
     "asset_id": "97327104537804",
     "uri": "rbxassetid://97327104537804",
     "id_status": "valid",
@@ -64033,7 +64463,9 @@
     "raw_uris": [
       "rbxassetid://97327104537804"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -64117,11 +64549,14 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "503ed52279221eb202ac7473",
-    "name": "Texture",
+    "name": "Croissant blanc fibreux",
     "asset_id": "98671212071879",
     "uri": "rbxassetid://98671212071879",
     "id_status": "valid",
@@ -64130,7 +64565,9 @@
     "raw_uris": [
       "rbxassetid://98671212071879"
     ],
-    "aliases": [],
+    "aliases": [
+      "Texture"
+    ],
     "key_aliases": [],
     "tags": [
       "Slashes",
@@ -64214,7 +64651,10 @@
     ],
     "image_source": "Roblox thumbnail 420x420",
     "width": 420,
-    "height": 420
+    "height": 420,
+    "original_name": "Texture",
+    "name_source": "catalogue_review",
+    "name_observer": "vision"
   },
   {
     "key": "da2111c65de36d7a9ac18184",

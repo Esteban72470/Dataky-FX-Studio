@@ -446,6 +446,8 @@ def rebuild_root_gallery(root):
     from gallery import build_gallery
     root = Path(root).resolve()
     textures = json.loads((root / "textures.json").read_text(encoding="utf-8")) if (root / "textures.json").is_file() else []
+    from catalog_annotations import apply_annotations
+    textures = apply_annotations(textures, root)
     summary = json.loads((root / "summary.json").read_text(encoding="utf-8")) if (root / "summary.json").is_file() else {}
     with tempfile.TemporaryDirectory(prefix=".gallery-assets-", dir=root) as temporary:
         generated = build_gallery(textures, Path(temporary), summary, extra_collections=load_extra_collections(root))
