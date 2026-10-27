@@ -12,7 +12,7 @@ const STORE = 'dataky-fx-studio.catalog-flipbooks.v1';
 const asset = (name, fields = {}) => ({asset_id:name, name, kind:'static', tags:[], image_path:'images/still.svg', preview_path:'previews/still.svg', ...fields});
 const records = [
   ...[2,4,8].map(grid => asset('Flipbook '+grid, {kind:'flipbook', grid, image_path:'images/sheet-'+grid+'.svg'})),
-  asset('Custom 6x4', {asset_id:'79593708822934', aliases:['Old custom name'], kind:'flipbook', grid:0, grid_columns:6, grid_rows:4, grid_source:'verified', grid_review_status:'confirmed', grid_review_note:'Six columns and four rows observed.', image_path:'images/sheet-6x4.svg'}),
+  asset('Custom 6x4', {asset_id:'79593708822934', aliases:['Old custom name'], kind:'flipbook', grid:0, grid_columns:6, grid_rows:4, grid_preview_frame:7, grid_source:'verified', grid_review_status:'confirmed', grid_review_note:'Six columns and four rows observed.', image_path:'images/sheet-6x4.svg'}),
   asset('Static'), asset('Unknown', {kind:'flipbook', grid:0, grid_review_status:'unresolved', grid_review_note:'Source image unavailable.'}),
   asset('Single image', {kind:'flipbook', grid:0, grid_columns:1, grid_rows:1, grid_review_status:'single_image', grid_review_note:'Scattered bats without repeated cells.'}),
   asset('Preview only', {kind:'flipbook', grid:4, image_path:null}),
@@ -115,6 +115,8 @@ for(const standalone of [false,true]) test((standalone ? 'offline' : 'editor')+'
   assert.equal(await timers(),0);
   assert.equal(await image('Flipbook 2').evaluate(img => img.style.transform),'');
   assert.match(await image('Flipbook 2').getAttribute('src'),/previews\/still\.svg$/);
+  assert.match(await image('Custom 6x4').getAttribute('src'),/images\/sheet-6x4\.svg$/,'reviewed atlas remains correctly cropped when animation is disabled');
+  assert.deepEqual(await image('Custom 6x4').evaluate(img => [img.style.width,img.style.height,img.style.transform]),['600%','400%','translate(-16.6667%, -25%)']);
   await page.reload();
   await image('Flipbook 2').waitFor();
   assert.equal(await toggle.isChecked(),false,'opt-out survives reload');

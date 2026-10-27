@@ -364,11 +364,11 @@
     if(!rows.length){grid.innerHTML=`<div class="empty-message">${catalogLoaded?'Aucune ressource pour ce filtre.':catalogFailed?'La bibliothèque est indisponible. Les modèles intégrés restent utilisables.':'Chargement de votre bibliothèque…'}</div>`;return;}
     for(const record of rows){
       const button=document.createElement('button');button.className='catalog-card'+(assetSelection?.record===record?' selected':'');button.title=`${record.name||'Ressource'}\n${record.asset_id||assetUri(record)}`;button.draggable=true;
-      const layout=flipbookLayout(record),flipbook=animateCatalogFlipbooks&&record.kind==='flipbook'&&layout&&record.image_path;
+      const layout=flipbookLayout(record),flipbook=(animateCatalogFlipbooks||Number.isInteger(record.grid_preview_frame))&&record.kind==='flipbook'&&layout&&record.image_path;
       const path=catalogPath(record,collection,Boolean(flipbook));
       if(path){
         const image=document.createElement('img');image.loading='lazy';image.alt=record.name||'Aperçu';image.src=path;
-        if(flipbook){const {columns,rows}=layout;image.className='flipbook-preview';image.style.width=(columns*100)+'%';image.style.height=(rows*100)+'%';catalogPreviews.push({image,button,columns,rows});}
+        if(flipbook){const {columns,rows}=layout;image.className='flipbook-preview';image.style.width=(columns*100)+'%';image.style.height=(rows*100)+'%';if(animateCatalogFlipbooks)catalogPreviews.push({image,button,columns,rows});else{const f=record.grid_preview_frame;image.style.transform=`translate(${-(f%columns)*100/columns}%,${-Math.floor(f/columns)*100/rows}%)`;}}
         image.onerror=()=>{catalogPreviews=catalogPreviews.filter(preview=>preview.image!==image);syncCatalogAnimation();image.remove();const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.prepend(missing);};button.append(image);
       }else{const missing=document.createElement('span');missing.className='missing-image';missing.textContent='◇';button.append(missing);}
       const name=document.createElement('span');name.textContent=record.name||record.asset_id||'Ressource';button.append(name);button.onclick=()=>{assetSelection={record,kind:collection};renderCatalog();renderResourceDetail();};button.ondblclick=()=>applyAsset(record,collection);button.ondragstart=e=>{assetSelection={record,kind:collection};e.dataTransfer.setData('application/x-dataky-asset',JSON.stringify({kind:collection,record}));e.dataTransfer.setData('text/plain',assetUri(record));e.dataTransfer.effectAllowed='copy';renderResourceDetail();};grid.append(button);

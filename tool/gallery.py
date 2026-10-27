@@ -66,6 +66,7 @@ def _clean_records(records: list[dict], collection: str = "textures") -> list[di
             "grid": record.get("grid") if record.get("grid") in (2, 4, 8) else 0,
             "grid_columns": record.get("grid_columns") if type(record.get("grid_columns")) is int and 1 <= record["grid_columns"] <= 64 else None,
             "grid_rows": record.get("grid_rows") if type(record.get("grid_rows")) is int and 1 <= record["grid_rows"] <= 64 else None,
+            "grid_preview_frame": record.get("grid_preview_frame") if type(record.get("grid_preview_frame")) is int and 0 <= record["grid_preview_frame"] < (record.get("grid_columns") or 0) * (record.get("grid_rows") or 0) else None,
             "grid_source": str(record.get("grid_source") or "inconnu"),
             "grid_review_status": str(record.get("grid_review_status") or ""),
             "grid_review_note": str(record.get("grid_review_note") or ""),
@@ -174,7 +175,7 @@ function failedImage(img){const box=el('span','missing','Image locale indisponib
 function card(r){
  const article=el('article','card');const open=el('button','open visual');open.type='button';open.setAttribute('aria-label','Voir '+(r.name||r.asset_id));
  const layout=flipbookLayout(r);
- if(source(r)){const img=el('img','thumb'),animated=animateFlipbooks&&canAnimate(r);img.src=localUrl(animated?r.image_path:source(r));img.alt=r.name||('Asset '+r.asset_id);img.loading='lazy';img.decoding='async';img.onerror=()=>{thumbnails=thumbnails.filter(item=>item.img!==img);syncThumbnails();failedImage(img);};if(animated){const {columns,rows}=layout,crop=el('span','flipbook-thumb');img.style.width=(columns*100)+'%';img.style.height=(rows*100)+'%';crop.append(img);open.append(crop);thumbnails.push({img,columns,rows});}else open.append(img);}else open.append(el('span','missing','Aperçu indisponible'));
+ if(source(r)){const img=el('img','thumb'),cropped=canAnimate(r)&&(animateFlipbooks||Number.isInteger(r.grid_preview_frame));img.src=localUrl(cropped?r.image_path:source(r));img.alt=r.name||('Asset '+r.asset_id);img.loading='lazy';img.decoding='async';img.onerror=()=>{thumbnails=thumbnails.filter(item=>item.img!==img);syncThumbnails();failedImage(img);};if(cropped){const {columns,rows}=layout,crop=el('span','flipbook-thumb');img.style.width=(columns*100)+'%';img.style.height=(rows*100)+'%';if(!animateFlipbooks){const f=r.grid_preview_frame;img.style.transform='translate('+(-(f%columns)*100/columns)+'%,'+(-Math.floor(f/columns)*100/rows)+'%)';}crop.append(img);open.append(crop);if(animateFlipbooks)thumbnails.push({img,columns,rows});}else open.append(img);}else open.append(el('span','missing','Aperçu indisponible'));
  if(r.kind==='flipbook')open.append(el('span','kind','FLIPBOOK'+(layout?' '+layout.columns+' × '+layout.rows+(inferredGrid(r)?' estimé':''):'')));
  else if(r.kind==='beam'||r.kind==='mesh')open.append(el('span','kind',r.kind.toUpperCase()));
  open.addEventListener('click',()=>showDetail(r));article.append(open);

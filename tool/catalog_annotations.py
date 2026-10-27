@@ -41,6 +41,8 @@ def parse_annotations(body):
                 raise ValueError("Invalid reviewed layout")
         if ("grid_columns" in entry) != ("grid_rows" in entry):
             raise ValueError("A reviewed layout requires columns and rows")
+        if "grid_preview_frame" in entry and (type(entry["grid_preview_frame"]) is not int or not 0 <= entry["grid_preview_frame"] < entry.get("grid_columns", 0) * entry.get("grid_rows", 0)):
+            raise ValueError("Invalid reviewed preview frame")
     return data["textures"]
 
 
@@ -68,6 +70,8 @@ def apply_annotations(rows, root=None, *, body=None, collection="textures"):
             row.update(grid=columns if columns == lines and columns in (2, 4, 8) else 0,
                        grid_columns=columns, grid_rows=lines, grid_source="verified",
                        grid_review_status="confirmed", grid_review_observer=entry.get("grid_observer", "vision"))
+            if "grid_preview_frame" in entry:
+                row["grid_preview_frame"] = entry["grid_preview_frame"]
         elif entry.get("grid_review_status"):
             row["grid_review_status"] = entry["grid_review_status"]
             row["grid_review_observer"] = entry.get("grid_observer", "metadata")

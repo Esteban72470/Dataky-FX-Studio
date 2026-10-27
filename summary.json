@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T23:27:47Z",
+  "generated_at": "2026-10-27T09:09:04Z",
   "phase": "visually_reviewed",
-  "elapsed_seconds": 0.03,
+  "elapsed_seconds": 0.02,
   "limited_smokecheck": false,
   "capture_coverage": {
     "complete": true,
@@ -2780,5 +2780,10 @@
     "single_images": 1,
     "unavailable_grids": 3,
     "recovered_images": 2
+  },
+  "grid_audit": {
+    "images_analyzed": 4633,
+    "unavailable_images": 106,
+    "visually_corrected": 112
   }
 }
