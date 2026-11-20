@@ -224,8 +224,8 @@ class CommandLineTests(unittest.TestCase):
             self.assertEqual(code, 0, error)
             self.assertIn("DatakyFXKit.lua", output)
             self.assertTrue(target.with_name("DatakyFXKit.lua").is_file())
-            self.assertIn('["A1_Muzzle"]=', target.read_text(encoding="utf-8"))
-            self.assertIn('["A2_Impact"]=', target.read_text(encoding="utf-8"))
+            self.assertIn('A1_Muzzle=', target.read_text(encoding="utf-8"))
+            self.assertIn('A2_Impact=', target.read_text(encoding="utf-8"))
             self.assertEqual(self.run_cli("export", str(files[0]), str(files[0]), "--format", "library", "--out", str(target))[0], 1)
             self.assertEqual(self.run_cli("export", *(str(file) for file in files), "--format", "lua")[0], 1)
 

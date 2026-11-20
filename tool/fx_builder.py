@@ -62,6 +62,21 @@ def _vec(value, name):
     return [_finite(x, name) for x in value]
 
 
+def _clean_float(value: float) -> float:
+    return 0.0 if abs(value) < 1e-12 else float(value)
+
+
+def _clean_vec(vec):
+    return [_clean_float(v) for v in vec]
+
+
+def _normalize(vec, fallback=(1.0, 0.0, 0.0)):
+    length = math.sqrt(vec[0] * vec[0] + vec[1] * vec[1] + vec[2] * vec[2])
+    if length < 1e-9:
+        return list(fallback)
+    return [_clean_float(v / length) for v in vec]
+
+
 def _matmul(a, b):
     return [[sum(a[r][k] * b[k][c] for k in range(3)) for c in range(3)] for r in range(3)]
 
@@ -249,6 +264,8 @@ def merge_recipes(base, other, prefix, *, position=(0, 0, 0), at=0, orientation=
         meshes = result.setdefault("editor", {"version": 1, "curves": {}}).setdefault("meshes", {})
         for source_id, geometry in source["editor"]["meshes"].items():
             meshes[node_ids[source_id]] = deepcopy(geometry)
+    if source.get("local_textures"):
+        result.setdefault("local_textures", {}).update(deepcopy(source["local_textures"]))
     return validate_project(result)
 
 
@@ -331,6 +348,154 @@ class Recipe:
         if timing is not None:
             node["timing"] = timing
         return self._add(node)
+
+    def beam(self, bid, parent, a0, a1, **props):
+        """Add a Beam node linking attachments a0 and a1."""
+        name = props.pop("name", None)
+        timing = props.pop("_timing", None)
+        if "timing" in props:
+            timing = props.pop("timing")
+        properties = {"Attachment0": a0, "Attachment1": a1, "LightInfluence": 0, "Enabled": True, **props}
+        node = {"id": bid, "class": "Beam", "name": name or bid, "parent": parent, "properties": properties}
+        if timing is not None:
+            node["timing"] = deepcopy(timing)
+        return self._add(node)
+
+    def circle_beam(self, prefix, parent, radius, y, width, color_seq, trans_seq, tex, *,
+                    segments=8, beam_segments=12, light_emission=0.85, brightness=2.2,
+                    tex_len=2.6, tex_speed=0.5, z_offset=0.05, face_camera=False,
+                    standing=False, tex_mode="Wrap", start=0.0, dur=None, **extra):
+        """Create a closed circular Beam ring using exact cubic Bezier handles.
+
+        When face_camera=False:
+          - standing=False (default): flat horizontal ring (SecondaryAxis=radialOut, Z=+up).
+          - standing=True: standing vertical curtain (SecondaryAxis=-up, Z=radialOut; U=0 bottom, U=1 top).
+        """
+        radius = _finite(radius, "radius")
+        y = _finite(y, "y")
+        width = _finite(width, "width")
+        if radius <= 0:
+            raise ValidationError("circle_beam : radius > 0 requis")
+        if not isinstance(segments, int) or segments < 3:
+            raise ValidationError("circle_beam : segments >= 3 requis")
+        dtheta = 2.0 * math.pi / segments
+        handle = (4.0 / 3.0) * radius * math.tan(dtheta / 4.0)
+        timing = extra.pop("timing", None)
+        if timing is None:
+            span = self.d["duration"] - start if dur is None else dur
+            timing = {"start": start, "duration": span, "mode": "continuous", "count": 1}
+        att_ids = []
+        for i in range(segments):
+            theta = i * dtheta
+            c, s = math.cos(theta), math.sin(theta)
+            pos = _clean_vec((radius * c, y, radius * s))
+            axis = _clean_vec((-s, 0.0, c))
+            sec = [0.0, -1.0, 0.0] if standing else _clean_vec((c, 0.0, s))
+            att_ids.append(self.att(f"{prefix}_p{i}", parent, pos, Axis=axis, SecondaryAxis=sec))
+        beam_ids = []
+        for i in range(segments):
+            a0, a1 = att_ids[i], att_ids[(i + 1) % segments]
+            beam_ids.append(self.beam(
+                f"{prefix}_b{i}", parent, a0, a1,
+                Texture=tex, TextureMode=tex_mode, TextureLength=tex_len, TextureSpeed=tex_speed,
+                Width0=width, Width1=width, CurveSize0=handle, CurveSize1=handle,
+                Segments=beam_segments, FaceCamera=face_camera,
+                Color=deepcopy(color_seq), Transparency=deepcopy(trans_seq),
+                LightEmission=light_emission, Brightness=brightness, ZOffset=z_offset,
+                timing=timing, **extra,
+            ))
+        return beam_ids
+
+    def spline_ribbon(self, prefix, parent, points, widths, color_seq, trans_seq, tex, *,
+                      closed=False, tension=0.34, beam_segments=16, light_emission=0.72,
+                      brightness=2.0, tex_len=3.2, tex_speed=0.85, face_camera=True,
+                      z_offset=0.0, tilt_vec=(0, 1, 0), tex_mode="Wrap", start=0.0, dur=None, **extra):
+        """Build a smooth multi-segment Beam ribbon along 3D spline control points."""
+        pts = [_vec(pt, "points") for pt in points]
+        n = len(pts)
+        if n < (3 if closed else 2):
+            raise ValidationError("spline_ribbon : au moins " + ("3" if closed else "2") + " points requis")
+        if isinstance(widths, (int, float)) and not isinstance(widths, bool):
+            w_list = [_finite(widths, "widths")] * n
+        else:
+            w_list = [_finite(w, "widths") for w in widths]
+            if len(w_list) != n:
+                raise ValidationError("spline_ribbon : widths doit avoir la même longueur que points")
+        tilt = _vec(tilt_vec, "tilt_vec")
+        tension = _finite(tension, "tension")
+        timing = extra.pop("timing", None)
+        if timing is None:
+            span = self.d["duration"] - start if dur is None else dur
+            timing = {"start": start, "duration": span, "mode": "continuous", "count": 1}
+        att_ids = []
+        for i in range(n):
+            if closed:
+                prev_p, next_p = pts[(i - 1) % n], pts[(i + 1) % n]
+            elif i == 0:
+                prev_p, next_p = pts[0], pts[1]
+            elif i == n - 1:
+                prev_p, next_p = pts[n - 2], pts[n - 1]
+            else:
+                prev_p, next_p = pts[i - 1], pts[i + 1]
+            tan = _normalize([next_p[k] - prev_p[k] for k in range(3)], (1.0, 0.0, 0.0))
+            proj = tan[0] * tilt[0] + tan[1] * tilt[1] + tan[2] * tilt[2]
+            sec_raw = [tilt[k] - proj * tan[k] for k in range(3)]
+            if math.sqrt(sum(v * v for v in sec_raw)) < 1e-6:
+                alt = (1.0, 0.0, 0.0) if abs(tan[0]) < 0.9 else (0.0, 0.0, 1.0)
+                proj = tan[0] * alt[0] + tan[1] * alt[1] + tan[2] * alt[2]
+                sec_raw = [alt[k] - proj * tan[k] for k in range(3)]
+            sec = _normalize(sec_raw, (0.0, 1.0, 0.0))
+            att_ids.append(self.att(f"{prefix}_p{i}", parent, _clean_vec(pts[i]), Axis=tan, SecondaryAxis=sec))
+        seg_count = n if closed else n - 1
+        beam_ids = []
+        for i in range(seg_count):
+            j = (i + 1) % n
+            dist = math.sqrt(sum((pts[j][k] - pts[i][k]) ** 2 for k in range(3)))
+            curve = dist * tension
+            beam_ids.append(self.beam(
+                f"{prefix}_b{i}", parent, att_ids[i], att_ids[j],
+                Texture=tex, TextureMode=tex_mode, TextureLength=tex_len, TextureSpeed=tex_speed,
+                Width0=w_list[i], Width1=w_list[j], CurveSize0=curve, CurveSize1=curve,
+                Segments=beam_segments, FaceCamera=face_camera,
+                Color=deepcopy(color_seq), Transparency=deepcopy(trans_seq),
+                LightEmission=light_emission, Brightness=brightness, ZOffset=z_offset,
+                timing=timing, **extra,
+            ))
+        return beam_ids
+
+    def helix_ribbon(self, prefix, parent, *, radius_start, radius_end, y_start, y_end,
+                     turns=1.5, start_angle=0.0, steps=14, width_min=0.2, width_max=1.0,
+                     color_seq, trans_seq, tex, tension=0.34, beam_segments=14,
+                     light_emission=0.72, brightness=2.0, tex_len=3.2, tex_speed=0.85,
+                     face_camera=True, z_offset=0.0, tilt_vec=(0, 1, 0),
+                     tex_mode="Wrap", start=0.0, dur=None, **extra):
+        """Build a rising/tapering helical Beam ribbon (wind updrafts, auras, spirals)."""
+        radius_start = _finite(radius_start, "radius_start")
+        radius_end = _finite(radius_end, "radius_end")
+        y_start = _finite(y_start, "y_start")
+        y_end = _finite(y_end, "y_end")
+        turns = _finite(turns, "turns")
+        start_angle = _finite(start_angle, "start_angle")
+        width_min = _finite(width_min, "width_min")
+        width_max = _finite(width_max, "width_max")
+        if not isinstance(steps, int) or steps < 2:
+            raise ValidationError("helix_ribbon : steps >= 2 requis")
+        pts, widths = [], []
+        for i in range(steps + 1):
+            u = i / steps
+            angle = start_angle + turns * 2.0 * math.pi * u
+            r = radius_start + (radius_end - radius_start) * u
+            y = y_start + (y_end - y_start) * u
+            pts.append((r * math.cos(angle), y, r * math.sin(angle)))
+            widths.append(width_min + (width_max - width_min) * math.sin(math.pi * u))
+        return self.spline_ribbon(
+            prefix, parent, pts, widths, color_seq, trans_seq, tex,
+            closed=False, tension=tension, beam_segments=beam_segments,
+            light_emission=light_emission, brightness=brightness,
+            tex_len=tex_len, tex_speed=tex_speed, face_camera=face_camera,
+            z_offset=z_offset, tilt_vec=tilt_vec, tex_mode=tex_mode,
+            start=start, dur=dur, **extra,
+        )
 
     def light(self, id, parent, start, dur, color, rng, peak, name=None, fall=None):
         ident = self._add({"id": id, "class": "PointLight", "name": name or id, "parent": parent,

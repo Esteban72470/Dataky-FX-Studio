@@ -565,7 +565,10 @@
         // Mesuré dans Roblox : en VelocityParallel, un Squash négatif étire le long
         // de la vitesse. Les autres orientations gardent leur approximation existante.
         const quadSquash = orientation === 'VelocityParallel' ? -squash : squash;
-        const width = size * (quadSquash > 0 ? 1 / (1 + quadSquash) : 1 - quadSquash), height = size * (quadSquash > 0 ? 1 + quadSquash : 1 / (1 - quadSquash));
+        // Roblox Studio ParticleEmitter.Size is half-extent (radius): Size = S renders a 2S x 2S stud quad,
+        // matching Beam circle radii (e.g. Size = 5.3 aligns with a Beam ring of radius 5.3 / diameter 10.6).
+        const fullSize = size * 2;
+        const width = fullSize * (quadSquash > 0 ? 1 / (1 + quadSquash) : 1 - quadSquash), height = fullSize * (quadSquash > 0 ? 1 + quadSquash : 1 / (1 - quadSquash));
         const velocity = particle.locked ? apply(frame.m, add(particle.v0, particle.va)) : add(particle.v0, particle.va);
         const toCamera = normalize(sub(camera.position, world), scale(camera.forward, -1));
         let right = camera.right, up = camera.up;
@@ -804,7 +807,8 @@
           const age = clamp(particle.age / particle.life, 0, 1);
           const size = Math.max(0, sampleNumber(sizeSeq, age, particle.size));
           const squash = clamp(sampleNumber(squashSeq, age, particle.squash), -3, 3);
-          particles.push({p: particle.locked ? add(frame.p, apply(frame.m, particle.p)) : particle.p.slice(), halfSize: size * (1 + Math.abs(squash)) / 2});
+          // ParticleEmitter.Size = S has half-extent S (full width 2S).
+          particles.push({p: particle.locked ? add(frame.p, apply(frame.m, particle.p)) : particle.p.slice(), halfSize: size * (1 + Math.abs(squash))});
         }
       }
     }
@@ -1195,8 +1199,16 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     }
     const builtins = {};
     const builtin = kind => builtins[kind] || (builtins[kind] = upload(proceduralTexture(kind)));
+    const customTextures = options.customTextures || {};
+    const customUrlFor = uri => {
+      const s = String(uri || '');
+      if (customTextures[s]) return customTextures[s];
+      const id = assetId(s);
+      return id ? (customTextures[id] || customTextures['rbxassetid://' + id] || null) : null;
+    };
     function texture(uri) {
-      const kind = builtinKind(uri);
+      const customUrl = customUrlFor(uri);
+      const kind = customUrl ? null : builtinKind(uri);
       if (kind) return builtin(kind);
       const key = String(uri);
       let entry = textures.get(key);
@@ -1205,7 +1217,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
         textures.set(key, entry);
         const id = assetId(uri), localPath = localTexturePath(uri);
         // resolveTexture(id) peut donner l’adresse exacte connue du catalogue ; sinon les trois collections sont essayées.
-        const candidates = localPath ? [`${base}/library/${localPath}`] : !id ? [] : options.resolveTexture?.(id) || ['images', 'beams/images', 'meshes/images'].map(folder => `${base}/library/${folder}/${id}.png`);
+        const candidates = customUrl ? [`${base}${customUrl}`] : localPath ? [`${base}/library/${localPath}`] : !id ? [] : options.resolveTexture?.(id) || ['images', 'beams/images', 'meshes/images'].map(folder => `${base}/library/${folder}/${id}.png`);
         entry.promise = (async () => {
           for (const url of candidates) {
             try {
@@ -1228,7 +1240,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       const pending = [];
       for (const node of project?.nodes || []) {
         const uri = node.properties?.Texture ?? node.properties?.TextureID ?? node.properties?.TextureId ?? (['ParticleEmitter'].includes(node.class) ? NATIVE.ParticleEmitter.Texture : undefined);
-        if (uri === undefined || builtinKind(uri)) continue;
+        if (uri === undefined || (!customUrlFor(uri) && builtinKind(uri))) continue;
         texture(uri);
         const promise = textures.get(String(uri))?.promise;
         if (promise) pending.push(promise);
@@ -1458,7 +1470,7 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
     const rows = Math.ceil(cells.length / columns);
     const canvas = document.createElement('canvas');
     canvas.width = width; canvas.height = height;
-    const renderer = createRenderer(canvas, {assetBase: options.assetBase, resolveTexture: options.resolveTexture, preserveDrawingBuffer: true});
+    const renderer = createRenderer(canvas, {assetBase: options.assetBase, resolveTexture: options.resolveTexture, customTextures: options.customTextures, preserveDrawingBuffer: true});
     await Promise.all(projects.map(p => renderer.preload(p)));
     const reference = options.camera || projects[0]?.camera;
     let bounds = null;
@@ -1523,12 +1535,15 @@ vec3 sun=normalize(vec3(0.45,1.0,0.3));float diffuse=max(dot(n,sun),0.0);vec3 c=
       .filter(node => node.class === 'ParticleEmitter').map(node => node.properties?.Texture ?? NATIVE.ParticleEmitter.Texture)));
     if (typeof Image !== 'undefined') await Promise.all([...uris].map(async uri => {
       try {
-        const kind = builtinKind(uri);
+        const customTextures = options.customTextures || {};
+        const s = String(uri || ''), cid = assetId(s);
+        const customUrl = customTextures[s] || (cid && (customTextures[cid] || customTextures['rbxassetid://' + cid])) || null;
+        const kind = customUrl ? null : builtinKind(uri);
         let source;
         if (kind) source = proceduralTexture(kind);
         else {
           const id = assetId(uri), localPath = localTexturePath(uri), resolved = id && options.resolveTexture?.(id);
-          const candidates = localPath ? [`${base}/library/${localPath}`] : resolved == null
+          const candidates = customUrl ? [`${base}${customUrl}`] : localPath ? [`${base}/library/${localPath}`] : resolved == null
             ? (id ? ['images', 'beams/images', 'meshes/images'].map(folder => `${base}/library/${folder}/${id}.png`) : [])
             : (Array.isArray(resolved) ? resolved : [resolved]);
           for (const url of candidates) {

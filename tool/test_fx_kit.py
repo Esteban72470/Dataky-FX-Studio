@@ -47,7 +47,7 @@ class LibraryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             path, kit = write_library({"Muzzle": RECIPE, "Nom à espace": RECIPE}, Path(folder) / "MesEffets.lua")
             source = path.read_text(encoding="utf-8")
-            self.assertIn('["Muzzle"]=', source)
+            self.assertIn('Muzzle=', source)
             self.assertIn('["Nom à espace"]=', source)
             self.assertEqual(kit.name, "DatakyFXKit.lua")
             self.assertIn("function FX.play", kit.read_text(encoding="utf-8"))
@@ -65,7 +65,7 @@ class LibraryTests(unittest.TestCase):
         recipe = deepcopy(RECIPE)
         recipe["animations"].append({"node": "part", "property": "Position", "runtime": True,
                                      "keyframes": [{"time": 0, "value": [2, 0, 0]}]})
-        self.assertIn('["runtime"]=true', export_library({"Motion": recipe}))
+        self.assertIn('runtime=true', export_library({"Motion": recipe}))
 
 
 @unittest.skipUnless(LUAU, "Luau CLI absent (DATAKY_LUAU)")

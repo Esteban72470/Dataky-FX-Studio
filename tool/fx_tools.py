@@ -8,6 +8,7 @@ seulement ; le rendu appelle Node.js et Playwright (tool/fx_render.cjs).
 from __future__ import annotations
 
 from copy import deepcopy
+import colorsys
 import hashlib
 import json
 import math
@@ -263,11 +264,86 @@ def texture_sheet(items: list[dict[str, Any]], out: str | Path | None = None, co
     return path
 
 
+def _apply_bloom_tile(tile, strength: float):
+    """Apply a fast Pillow bright-pass dual-radius Gaussian glow composite onto an RGB image."""
+    from PIL import Image, ImageChops, ImageFilter
+
+    rgb = tile.convert("RGB")
+    w, h = rgb.size
+    threshold = 172
+    span = float(255 - threshold)
+    bright_lut = [0 if v <= threshold else min(255, int(((v - threshold) / span) ** 1.3 * 255)) for v in range(256)]
+    bright = rgb.point(bright_lut * 3)
+
+    r_tight = max(2.0, min(w, h) * 0.014)
+    glow_tight = bright.filter(ImageFilter.GaussianBlur(radius=r_tight))
+
+    half_w, half_h = max(1, w // 2), max(1, h // 2)
+    r_wide = max(4.0, min(half_w, half_h) * 0.048)
+    glow_wide = bright.resize((half_w, half_h), Image.Resampling.BILINEAR).filter(
+        ImageFilter.GaussianBlur(radius=r_wide)
+    ).resize((w, h), Image.Resampling.BILINEAR)
+
+    combined = ImageChops.add(
+        glow_tight.point([min(255, int(v * strength * 0.7)) for v in range(256)] * 3),
+        glow_wide.point([min(255, int(v * strength * 0.65)) for v in range(256)] * 3),
+    )
+    return ImageChops.add(rgb, combined)
+
+
+def _apply_bloom_to_result(sheet_path: Path, result: dict[str, Any], strength: float) -> None:
+    """Apply bloom to each rendered viewport tile (keeping the 22px caption bars sharp) and any individual frames."""
+    from PIL import Image
+
+    label_h = 22
+    sheet_info = result.get("sheet") or {}
+    rows = int(sheet_info.get("rows") or 1)
+    cols = int(sheet_info.get("columns") or 1)
+    with Image.open(sheet_path) as src:
+        out_img = src.convert("RGB")
+    sw, sh = out_img.size
+    cell_w = sw // max(1, cols)
+    cell_total_h = sh // max(1, rows)
+    if cell_total_h > label_h and cell_w > 0:
+        for r in range(rows):
+            for c in range(cols):
+                x0, y0 = c * cell_w, r * cell_total_h + label_h
+                x1, y1 = min(sw, x0 + cell_w), min(sh, (r + 1) * cell_total_h)
+                if x1 > x0 and y1 > y0:
+                    tile = out_img.crop((x0, y0, x1, y1))
+                    out_img.paste(_apply_bloom_tile(tile, strength), (x0, y0))
+    else:
+        out_img = _apply_bloom_tile(out_img, strength)
+    out_img.save(sheet_path)
+    for extra_file in (result.get("files") or [])[1:]:
+        extra_path = Path(extra_file)
+        if extra_path.is_file():
+            with Image.open(extra_path) as fsrc:
+                bloomed = _apply_bloom_tile(fsrc, strength)
+            bloomed.save(extra_path)
+
+
+def _format_tex_map_arg(tex_map: str | dict[str, str] | None) -> str | None:
+    if tex_map is None:
+        return None
+    if isinstance(tex_map, str):
+        return tex_map.strip() or None
+    if isinstance(tex_map, dict):
+        parts = []
+        for uri, filepath in tex_map.items():
+            if not isinstance(uri, str) or not uri.strip() or not isinstance(filepath, (str, Path)):
+                raise ToolError("tex_map : dictionnaire {URI: chemin} requis")
+            parts.append(f"{uri.strip()}={filepath}")
+        return ",".join(parts) if parts else None
+    raise ToolError("tex_map : texte 'URI=chemin,...' ou dictionnaire requis")
+
+
 def render(projects: dict[str, Any] | list[dict[str, Any]], out: str | Path | None = None, times: list[float] | None = None,
            frames: int = 8, size: str = "480x270", auto_camera: bool = False, dummy: bool = True, background: str | None = None,
            ground: bool = True, seed: int = 1, camera: list[float] | None = None, columns: int = 4,
            fit: str | None = None, focus: list[float] | None = None, radius: float | None = None,
-           fit_percentile: float = 90, fit_all: bool = False, backgrounds: str | list[str] | None = None) -> dict[str, Any]:
+           fit_percentile: float = 90, fit_all: bool = False, backgrounds: str | list[str] | None = None,
+           bloom: float = 0.0, tex_map: str | dict[str, str] | None = None) -> dict[str, Any]:
     """Planche PNG d’un projet, ou d’une ligne par projet pour comparer des variantes."""
     projects = projects if isinstance(projects, list) else [projects]
     if not projects or len(projects) > 8:
@@ -276,6 +352,8 @@ def render(projects: dict[str, Any] | list[dict[str, Any]], out: str | Path | No
         raise ToolError("fit_percentile doit être un nombre > 0 et <= 100")
     if not isinstance(fit_all, bool):
         raise ToolError("fit_all doit être un booléen")
+    if isinstance(bloom, bool) or not isinstance(bloom, (int, float)) or not math.isfinite(bloom) or bloom < 0 or bloom > 4:
+        raise ToolError("bloom doit être un nombre entre 0 et 4")
     if backgrounds is not None:
         if background is not None:
             raise ToolError("background et backgrounds sont exclusifs")
@@ -283,6 +361,7 @@ def render(projects: dict[str, Any] | list[dict[str, Any]], out: str | Path | No
         if not isinstance(values, list) or not 1 <= len(values) <= 8 or any(not isinstance(value, str) or not re.fullmatch(r"(?:sombre|gris|ciel|noir|roblox|dark|#[\da-fA-F]{6})", value.strip()) for value in values):
             raise ToolError("backgrounds : 1 à 8 presets ou couleurs #RRGGBB requis")
         backgrounds = [value.strip() for value in values]
+    tex_map_str = _format_tex_map_arg(tex_map)
     validated = [validate_project(project) for project in projects]
     name = "comparaison" if len(validated) > 1 else _slug(validated[0].get("id") or validated[0]["name"])
     path = _out(out, f"{name}.png")
@@ -316,10 +395,15 @@ def render(projects: dict[str, Any] | list[dict[str, Any]], out: str | Path | No
             args += ["--focus", ",".join(str(float(v)) for v in focus)]
         if radius is not None:
             args += ["--radius", str(float(radius))]
+        if tex_map_str:
+            args += ["--tex-map", tex_map_str]
         result = _run_renderer(args)
     finally:
         for file in files:
             os.unlink(file)
+    if bloom > 0:
+        _apply_bloom_to_result(path, result, float(bloom))
+        result["bloom"] = float(bloom)
     result["image"] = str(path)
     return result
 
@@ -348,15 +432,23 @@ def render_batch(jobs: list[dict[str, Any]], *, base_dir: str | Path | None = No
                 raise ToolError(f"jobs[{index}] : recette ou fichier/ID requis")
             recipes.append(validate_project(recipe))
         config = {"autoCamera": False, "dummy": True, **deepcopy(job), "projects": recipes}
+        bloom_strength = config.pop("bloom", 0.0)
+        if isinstance(bloom_strength, bool) or not isinstance(bloom_strength, (int, float)) or not math.isfinite(bloom_strength) or bloom_strength < 0 or bloom_strength > 4:
+            raise ToolError(f"jobs[{index}].bloom doit être un nombre entre 0 et 4")
         if "out" not in config:
             config["out"] = str(RENDERS / f"batch-{index + 1}.png")
-        manifest.append(config)
+        manifest.append((config, float(bloom_strength)))
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
-        json.dump({"jobs": manifest}, handle, ensure_ascii=False, allow_nan=False)
+        json.dump({"jobs": [cfg for cfg, _ in manifest]}, handle, ensure_ascii=False, allow_nan=False)
     try:
-        return _run_renderer(["--batch", handle.name], timeout=max(240, len(jobs) * 120))
+        batch_result = _run_renderer(["--batch", handle.name], timeout=max(240, len(jobs) * 120))
     finally:
         os.unlink(handle.name)
+    for job_res, (_, bloom_strength) in zip(batch_result.get("jobs") or [], manifest):
+        if bloom_strength > 0 and job_res.get("files"):
+            _apply_bloom_to_result(Path(job_res["files"][0]), job_res, bloom_strength)
+            job_res["bloom"] = bloom_strength
+    return batch_result
 
 
 # ---- Projets ----
@@ -456,5 +548,126 @@ def export_library(recipes: dict[str, dict[str, Any]], out: str | Path | None = 
     return _sibling("fx_export").write_library(recipes, path)
 
 
+def _parse_hex_rgb(text: str) -> tuple[float, float, float]:
+    s = str(text).strip().lstrip("#")
+    if re.fullmatch(r"[0-9a-fA-F]{3}", s):
+        s = "".join(c * 2 for c in s)
+    if not re.fullmatch(r"[0-9a-fA-F]{6}", s):
+        raise ToolError(f"couleur hexadécimale invalide : {text}")
+    return (int(s[0:2], 16) / 255.0, int(s[2:4], 16) / 255.0, int(s[4:6], 16) / 255.0)
+
+
+def _parse_color_map(color_map: str | dict[str, str] | list[tuple[str, str]] | None) -> list[tuple[tuple[float, float, float], tuple[float, float, float]]]:
+    if not color_map:
+        return []
+    pairs = []
+    if isinstance(color_map, str):
+        for token in color_map.split(","):
+            token = token.strip()
+            if not token:
+                continue
+            if "=" not in token:
+                raise ToolError(f"--map entrée invalide (attendu #ancien=#nouveau) : {token}")
+            src_hex, dst_hex = token.split("=", 1)
+            pairs.append((_parse_hex_rgb(src_hex), _parse_hex_rgb(dst_hex)))
+    elif isinstance(color_map, dict):
+        for src_hex, dst_hex in color_map.items():
+            pairs.append((_parse_hex_rgb(src_hex), _parse_hex_rgb(dst_hex)))
+    elif isinstance(color_map, (list, tuple)):
+        for src_hex, dst_hex in color_map:
+            pairs.append((_parse_hex_rgb(src_hex), _parse_hex_rgb(dst_hex)))
+    else:
+        raise ToolError("color_map : texte '#old=#new,...' ou dictionnaire requis")
+    return pairs
+
+
+def _remap_rgb(rgb: list[float], pairs: list[tuple[tuple[float, float, float], tuple[float, float, float]]],
+               hue_shift_deg: float, threshold: float) -> tuple[list[float], bool]:
+    r, g, b = float(rgb[0]), float(rgb[1]), float(rgb[2])
+    changed = False
+    if pairs:
+        best_dist = float("inf")
+        best_pair = None
+        for src, dst in pairs:
+            dist = math.sqrt((r - src[0]) ** 2 + (g - src[1]) ** 2 + (b - src[2]) ** 2)
+            if dist < best_dist:
+                best_dist = dist
+                best_pair = (src, dst)
+        if best_pair is not None and best_dist <= threshold:
+            src, dst = best_pair
+            if best_dist < 0.02:
+                r, g, b = dst
+            else:
+                sh, ss, sv = colorsys.rgb_to_hsv(*src)
+                dh, ds, dv = colorsys.rgb_to_hsv(*dst)
+                ch, cs, cv = colorsys.rgb_to_hsv(r, g, b)
+                nh = (dh + (ch - sh)) % 1.0
+                ns = max(0.0, min(1.0, ds + (cs - ss)))
+                nv = max(0.0, min(1.0, dv * (cv / sv) if sv > 1e-4 else cv))
+                r, g, b = colorsys.hsv_to_rgb(nh, ns, nv)
+            changed = True
+    if abs(hue_shift_deg) > 1e-9:
+        h, s, v = colorsys.rgb_to_hsv(r, g, b)
+        if s > 1e-4:
+            r, g, b = colorsys.hsv_to_rgb((h + hue_shift_deg / 360.0) % 1.0, s, v)
+            changed = True
+    out = [round(max(0.0, min(1.0, c)), 4) for c in (r, g, b)]
+    return out, changed
+
+
+def recolor_project(project: dict[str, Any], *, color_map: str | dict[str, str] | list[tuple[str, str]] | None = None,
+                    hue_shift: float = 0.0, threshold: float = 0.45, name: str | None = None,
+                    ident: str | None = None) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Remap Color keypoints across ParticleEmitters, Beams, Trails, and Lights, returning (recipe, stats)."""
+    pairs = _parse_color_map(color_map)
+    if isinstance(hue_shift, bool) or not isinstance(hue_shift, (int, float)) or not math.isfinite(hue_shift):
+        raise ToolError("hue_shift doit être un angle fini en degrés")
+    if isinstance(threshold, bool) or not isinstance(threshold, (int, float)) or not math.isfinite(threshold) or threshold < 0:
+        raise ToolError("threshold doit être un nombre >= 0")
+    if not pairs and abs(hue_shift) <= 1e-9:
+        raise ToolError("recolor exige --map et/ou --hue-shift")
+    result = validate_project(project)
+    seq_classes = {"ParticleEmitter", "Beam", "Trail"}
+    light_classes = {"PointLight", "SpotLight", "SurfaceLight"}
+    light_ids = set()
+    remapped_nodes = 0
+    remapped_colors = 0
+    for node in result["nodes"]:
+        cls = node["class"]
+        props = node.get("properties") or {}
+        if cls in seq_classes and "Color" in props:
+            node_changed = False
+            for kp in props["Color"]:
+                new_val, did = _remap_rgb(kp["value"], pairs, float(hue_shift), float(threshold))
+                kp["value"] = new_val
+                if did:
+                    remapped_colors += 1
+                    node_changed = True
+            if node_changed:
+                remapped_nodes += 1
+        elif cls in light_classes:
+            light_ids.add(node["id"])
+            if "Color" in props:
+                new_val, did = _remap_rgb(props["Color"], pairs, float(hue_shift), float(threshold))
+                props["Color"] = new_val
+                if did:
+                    remapped_colors += 1
+                    remapped_nodes += 1
+    for track in result.get("animations", []):
+        if track.get("property") == "Color" and track.get("node") in light_ids:
+            for kf in track.get("keyframes", []):
+                new_val, did = _remap_rgb(kf["value"], pairs, float(hue_shift), float(threshold))
+                kf["value"] = new_val
+                if did:
+                    remapped_colors += 1
+    if name is not None:
+        result["name"] = name
+    if ident is not None:
+        result["id"] = ident
+    validated = validate_project(result)
+    return validated, {"nodes_remapped": remapped_nodes, "colors_remapped": remapped_colors,
+                       "pairs": len(pairs), "hue_shift": float(hue_shift), "threshold": float(threshold)}
+
+
 __all__ = ["ToolError", "ValidationError", "search_assets", "compact_assets", "excluded_ids", "assets_by_ids", "tags", "texture_sheet", "render", "validate", "load", "save",
-           "list_projects", "export", "export_library", "export_manifest", "describe_asset", "warnings", "diagnostic_counts", "grid_confirm", "render_batch"]
+           "list_projects", "export", "export_library", "export_manifest", "describe_asset", "warnings", "diagnostic_counts", "grid_confirm", "render_batch", "recolor_project"]

@@ -38,7 +38,8 @@ const USAGE = `Utilisation : node tool/fx_render.cjs <projet.json | ID> [autres 
   --backgrounds roblox,dark une ligne par recette et par fond, même caméra
   --no-ground              sans sol ni grille
   --seed 1                 graine de l’aléatoire (même graine = mêmes images)
-  --frames-dir DOSSIER     enregistre aussi chaque image séparément`;
+  --frames-dir DOSSIER     enregistre aussi chaque image séparément
+  --tex-map URI=CHEMIN,... remplace des textures par des fichiers PNG locaux`;
 
 const DEFAULTS = {frames: 8, columns: 4, size: '480x270', seed: 1, ground: true, autoCamera: false, dummy: false};
 
@@ -73,7 +74,7 @@ function loadPlaywright() {
   for (const name of ['playwright', 'playwright-core']) {
     try { return require(name); } catch (_) {}
   }
-  const candidates = [];
+  const candidates = [path.join(ROOT, '_runtime', 'node_modules', 'playwright')];
   try {
     const globalRoot = execSync('npm root -g', {encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore']}).trim();
     candidates.push(path.join(globalRoot, 'playwright'));
@@ -145,6 +146,61 @@ function settingsFor(options, project = {}) {
   return settings;
 }
 
+function parseTexMap(value) {
+  const entries = [];
+  if (!value) return entries;
+  if (typeof value === 'string') {
+    for (const part of value.split(',')) {
+      const trimmed = part.trim();
+      if (!trimmed) continue;
+      const eq = trimmed.indexOf('=');
+      if (eq <= 0 || eq === trimmed.length - 1) throw new Error(`--tex-map entrée invalide (attendu URI=CHEMIN) : ${trimmed}`);
+      entries.push([trimmed.slice(0, eq).trim(), trimmed.slice(eq + 1).trim()]);
+    }
+    return entries;
+  }
+  if (typeof value === 'object' && !Array.isArray(value)) {
+    for (const [k, v] of Object.entries(value)) {
+      if (typeof k !== 'string' || !k.trim() || typeof v !== 'string' || !v.trim()) throw new Error('texMap : paires URI=CHEMIN requises');
+      entries.push([k.trim(), v.trim()]);
+    }
+    return entries;
+  }
+  throw new Error('--tex-map attend URI=CHEMIN,... ou un objet JSON');
+}
+
+function buildCustomTextures(projects, texMapOption) {
+  const merged = new Map();
+  for (const project of projects) {
+    if (project && typeof project.local_textures === 'object' && project.local_textures) {
+      for (const [uri, filepath] of parseTexMap(project.local_textures)) {
+        const resolved = path.isAbsolute(filepath) ? filepath : path.resolve(ROOT, filepath);
+        merged.set(uri, resolved);
+      }
+    }
+  }
+  for (const [uri, filepath] of parseTexMap(texMapOption)) {
+    const resolved = path.isAbsolute(filepath) ? filepath : path.resolve(filepath);
+    merged.set(uri, resolved);
+  }
+  const customTextures = {};
+  const routes = new Map();
+  let index = 0;
+  for (const [uri, filePath] of merged.entries()) {
+    const ext = (path.extname(filePath) || '.png').toLowerCase();
+    const safeExt = ['.png', '.jpg', '.jpeg', '.webp'].includes(ext) ? ext : '.png';
+    const routePath = `/custom-tex/${index++}${safeExt}`;
+    routes.set(routePath, filePath);
+    customTextures[uri] = routePath;
+    const m = uri.match(/^(?:rbxassetid:\/\/)?(\d+)$/) || uri.match(/[?&]id=(\d+)$/);
+    if (m) {
+      customTextures[m[1]] = routePath;
+      customTextures['rbxassetid://' + m[1]] = routePath;
+    }
+  }
+  return {customTextures, routes};
+}
+
 function prepareJob(value, index = 0, defaults = DEFAULTS) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error(`Job ${index + 1} : objet attendu`);
   const options = {...defaults, ...value};
@@ -154,11 +210,13 @@ function prepareJob(value, index = 0, defaults = DEFAULTS) {
   if (projects.some(p => !p || typeof p !== 'object' || !Array.isArray(p.nodes))) throw new Error(`Job ${index + 1} : recette JSON attendue`);
   const project = projects[0] || {};
   const settings = settingsFor(options, project);
+  const {customTextures, routes: customTextureRoutes} = buildCustomTextures(projects, options.texMap);
+  if (Object.keys(customTextures).length) settings.customTextures = customTextures;
   if (settings.fit) for (const recipe of projects) {
     if (!recipe.nodes.some(node => node.id === settings.fit)) throw new Error(`--fit : objet introuvable ${settings.fit} dans ${recipe.name || 'la recette'}`);
   }
   const out = path.resolve(options.out || (options.textures ? 'textures.png' : `rendu-${project.id || 'effet'}${index ? '-' + (index + 1) : ''}.png`));
-  return {projects, options, settings, out};
+  return {projects, options, settings, out, customTextureRoutes};
 }
 
 function readJobs(sources, options) {
@@ -286,7 +344,16 @@ async function runJobs(jobs, chromium = loadPlaywright().chromium) {
         const errors = [];
         page.on('pageerror', error => errors.push(error.message));
         await page.route('**/*', route => {
-          const file = routeFile(route.request().url());
+          const url = route.request().url();
+          const pathname = decodeURIComponent(new URL(url).pathname);
+          if (job.customTextureRoutes && job.customTextureRoutes.has(pathname)) {
+            const customFile = job.customTextureRoutes.get(pathname);
+            if (!customFile || !fs.existsSync(customFile)) return route.fulfill({status: 404, body: ''});
+            const ext = path.extname(customFile).toLowerCase();
+            const type = ext === '.jpg' || ext === '.jpeg' ? 'image/jpeg' : ext === '.webp' ? 'image/webp' : 'image/png';
+            return route.fulfill({status: 200, contentType: type, body: fs.readFileSync(customFile)});
+          }
+          const file = routeFile(url);
           if (!file || !fs.existsSync(file)) return route.fulfill({status: 404, body: ''});
           const type = file.endsWith('.js') ? 'text/javascript' : file.endsWith('.html') ? 'text/html' : 'image/png';
           return route.fulfill({status: 200, contentType: type, body: fs.readFileSync(file)});
@@ -313,5 +380,5 @@ async function main(argv = process.argv.slice(2)) {
   console.log(JSON.stringify(options.batch ? {jobs: results, files: results.flatMap(r => r.files), browser_launches: 1} : results[0], null, 2));
 }
 
-module.exports = {parse, loadProject, loadPlaywright, routeFile, settingsFor, prepareJob, readJobs, renderInPage, runJobs};
+module.exports = {parse, loadProject, loadPlaywright, routeFile, settingsFor, parseTexMap, buildCustomTextures, prepareJob, readJobs, renderInPage, runJobs};
 if (require.main === module) main().catch(error => { console.error(error.message); process.exit(1); });

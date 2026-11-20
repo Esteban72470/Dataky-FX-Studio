@@ -94,7 +94,7 @@ def _validated_mesh_export_manifest(project: dict[str, Any]) -> dict[str, Any]:
 
 
 def prepare_native_project(project: dict[str, Any]) -> dict[str, Any]:
-    """Validate mappings and remove renderer-only mesh buffers from native data."""
+    """Validate mappings and remove renderer-only mesh buffers and local texture paths from native data."""
     if __package__:
         from .fx_schema import validate_project
     else:
@@ -105,7 +105,153 @@ def prepare_native_project(project: dict[str, Any]) -> dict[str, Any]:
         raise MeshExportError(manifest)
     if "editor" in project:
         project["editor"].pop("meshes", None)
+    project.pop("local_textures", None)
     return project
+
+
+_LUA_IDENT = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
+_LUA_KEYWORDS = frozenset({
+    "and", "break", "do", "else", "elseif", "end", "false", "for",
+    "function", "if", "in", "local", "nil", "not", "or", "repeat",
+    "return", "then", "true", "until", "while",
+})
+
+# Property defaults guaranteed identical between fx_kit.lua and Roblox Instance.new.
+# ParticleEmitter.LightInfluence is intentionally NOT omitted (Roblox native default is 1).
+_BASE_PART_DEFAULTS = {
+    "Anchored": True, "CanCollide": False, "CanTouch": False, "CanQuery": False,
+    "Transparency": 1, "CastShadow": False, "Massless": True,
+    "Position": [0, 0, 0], "Orientation": [0, 0, 0],
+}
+_LIGHT_DEFAULTS = {"Enabled": True, "Shadows": False, "Brightness": 1, "Range": 8, "Color": [1, 1, 1]}
+_KIT_DEFAULTS: dict[str, dict[str, Any]] = {
+    "Part": _BASE_PART_DEFAULTS,
+    "MeshPart": _BASE_PART_DEFAULTS,
+    "Attachment": {"Position": [0, 0, 0], "Visible": False},
+    "ParticleEmitter": {
+        "Enabled": True, "SpreadAngle": [0, 0], "Acceleration": [0, 0, 0], "Drag": 0,
+        "Rotation": [0, 0], "RotSpeed": [0, 0], "ZOffset": 0, "VelocityInheritance": 0,
+        "LockedToPart": False, "TimeScale": 1, "WindAffectsDrag": False,
+        "LightEmission": 0, "Brightness": 1, "EmissionDirection": "Top",
+        "Orientation": "FacingCamera", "FlipbookLayout": "None",
+        "Shape": "Box", "ShapeStyle": "Volume", "ShapeInOut": "Outward", "ShapePartial": 1,
+    },
+    "Beam": {
+        "Enabled": True, "CurveSize0": 0, "CurveSize1": 0, "FaceCamera": False,
+        "LightEmission": 0, "LightInfluence": 0, "Brightness": 1, "Segments": 10,
+        "TextureMode": "Stretch", "TextureLength": 1, "TextureSpeed": 1,
+        "Width0": 1, "Width1": 1, "ZOffset": 0,
+    },
+    "Trail": {
+        "Enabled": True, "FaceCamera": False, "LightEmission": 0, "LightInfluence": 0,
+        "Brightness": 1, "MaxLength": 0, "MinLength": 0.1, "TextureLength": 1,
+        "TextureMode": "Stretch", "Lifetime": 2,
+    },
+    "PointLight": _LIGHT_DEFAULTS,
+    "SpotLight": _LIGHT_DEFAULTS,
+    "SurfaceLight": _LIGHT_DEFAULTS,
+}
+
+
+def _same_default(value: Any, default: Any) -> bool:
+    if isinstance(value, bool) or isinstance(default, bool):
+        return type(value) is type(default) and value == default
+    if isinstance(value, (int, float)) and isinstance(default, (int, float)):
+        return abs(float(value) - float(default)) < 1e-6
+    if isinstance(value, list) and isinstance(default, list) and len(value) == len(default):
+        return all(_same_default(a, b) for a, b in zip(value, default))
+    return value == default
+
+
+def _compact_for_kit(project: dict[str, Any]) -> dict[str, Any]:
+    """Prune redundant defaults and editor-only fields for DatakyFXKit library output."""
+    if __package__:
+        from .fx_schema import CLASSES
+    else:
+        from fx_schema import CLASSES
+    duration = float(project.get("duration", 3))
+    animated_props = {(t["node"], t["property"]) for t in project.get("animations", [])}
+    out: dict[str, Any] = {
+        "version": project["version"],
+        "name": project["name"],
+        "duration": project["duration"],
+    }
+    if project.get("loop"):
+        out["loop"] = True
+    if project.get("params"):
+        out["params"] = project["params"]
+    compact_nodes = []
+    for node in project.get("nodes", []):
+        cls = node["class"]
+        scale_with = node.get("scaleWith") or {}
+        defaults = _KIT_DEFAULTS.get(cls, {})
+        specs = CLASSES[cls]["properties"]
+        raw_props = node.get("properties") or {}
+        props: dict[str, Any] = {}
+        for key, value in raw_props.items():
+            if key not in scale_with and (node["id"], key) not in animated_props:
+                if key in defaults and _same_default(value, defaults[key]):
+                    continue
+                if cls == "Attachment" and key == "Orientation" and "Axis" not in raw_props and "SecondaryAxis" not in raw_props and _same_default(value, [0, 0, 0]):
+                    continue
+            prop_type = specs[key]["type"]
+            if prop_type == "NumberSequence" and isinstance(value, list):
+                seq = []
+                for pt in value:
+                    t = pt["time"] if isinstance(pt, dict) else pt[0]
+                    v = pt["value"] if isinstance(pt, dict) else pt[1]
+                    env = (pt.get("envelope", 0) if isinstance(pt, dict) else (pt[2] if len(pt) > 2 else 0)) or 0
+                    seq.append([t, v] if abs(float(env)) < 1e-6 else [t, v, env])
+                props[key] = seq
+            elif prop_type == "ColorSequence" and isinstance(value, list):
+                props[key] = [
+                    [pt["time"] if isinstance(pt, dict) else pt[0], pt["value"] if isinstance(pt, dict) else pt[1]]
+                    for pt in value
+                ]
+            else:
+                props[key] = value
+        compact_node: dict[str, Any] = {"id": node["id"], "class": cls}
+        if node.get("name") and node["name"] != cls:
+            compact_node["name"] = node["name"]
+        if node.get("parent") is not None:
+            compact_node["parent"] = node["parent"]
+        if props:
+            compact_node["properties"] = props
+        if scale_with:
+            compact_node["scaleWith"] = scale_with
+        timing = node.get("timing")
+        if timing is not None:
+            mode = timing.get("mode", "continuous")
+            start = float(timing.get("start", 0))
+            span = float(timing.get("duration", duration))
+            # A full-duration continuous timing starting at 0 is fx_kit.lua's default when timing is omitted.
+            if not (mode == "continuous" and abs(start) < 1e-6 and abs(span - duration) < 1e-6):
+                t_out: dict[str, Any] = {"mode": mode}
+                if abs(start) >= 1e-6:
+                    t_out["start"] = timing["start"]
+                if abs(span - duration) >= 1e-6:
+                    t_out["duration"] = timing["duration"]
+                if mode == "burst" and timing.get("count", 30) != 30:
+                    t_out["count"] = timing["count"]
+                compact_node["timing"] = t_out
+        compact_nodes.append(compact_node)
+    out["nodes"] = compact_nodes
+    if project.get("animations"):
+        out["animations"] = project["animations"]
+    return out
+
+
+def _lua_num(value: int | float) -> str:
+    if isinstance(value, float):
+        if not math.isfinite(value):
+            raise ValueError("Non-finite numbers cannot be exported")
+        if abs(value) < 1e-6:
+            return "0"
+        rounded = round(value, 4)
+        if rounded == int(rounded):
+            return str(int(rounded))
+        return f"{rounded:.4f}".rstrip("0").rstrip(".")
+    return str(value)
 
 
 def _lua(value: Any) -> str:
@@ -117,9 +263,7 @@ def _lua(value: Any) -> str:
     if value is False:
         return "false"
     if isinstance(value, (int, float)):
-        if not math.isfinite(value):
-            raise ValueError("Non-finite numbers cannot be exported")
-        return str(value)
+        return _lua_num(value)
     if isinstance(value, str):
         # JSON's \uXXXX is not Lua syntax; utf-8 text is valid in quoted Luau.
         # Escape controls with unambiguous three-digit decimal escapes.
@@ -140,7 +284,13 @@ def _lua(value: Any) -> str:
     if isinstance(value, dict):
         if not all(isinstance(key, str) for key in value):
             raise ValueError("Project dictionary keys must be strings")
-        return "{" + ",".join("[" + _lua(key) + "]=" + _lua(item) for key, item in value.items() if item is not None) + "}"
+        pairs = []
+        for key, item in value.items():
+            if item is None:
+                continue
+            k = key if (_LUA_IDENT.match(key) and key not in _LUA_KEYWORDS) else "[" + _lua(key) + "]"
+            pairs.append(k + "=" + _lua(item))
+        return "{" + ",".join(pairs) + "}"
     raise ValueError(f"Unsupported project value: {type(value).__name__}")
 
 
@@ -191,10 +341,13 @@ def export_library(recipes: dict[str, dict[str, Any]]) -> str:
     if not isinstance(recipes, dict) or not recipes:
         raise ValueError("Une bibliothèque doit contenir au moins une recette")
     validated = {}
+    compacted = {}
     for name, recipe in recipes.items():
         if not isinstance(name, str) or not name.strip():
             raise ValueError("Chaque recette doit avoir un nom court non vide")
-        validated[name] = prepare_native_project(recipe)
+        native = prepare_native_project(recipe)
+        validated[name] = native
+        compacted[name] = _compact_for_kit(native)
     return (
         "-- Dataky FX Studio — recipe library (data only)\n"
         "-- Install DatakyFXKit.lua as a sibling ModuleScript.\n"
@@ -202,7 +355,7 @@ def export_library(recipes: dict[str, dict[str, Any]]) -> str:
         "-- local Recipes = require(script.Parent.MesEffets)\n"
         "-- local h = FX.play(Recipes[\"NomCourt\"], CFrame.new(), {scale=1})\n"
         "-- Recipes:listTextures() returns sorted, unique texture content URIs.\n"
-        "local Recipes = " + _lua(validated) + "\n"
+        "local Recipes = " + _lua(compacted) + "\n"
         "local Textures = " + _lua(library_textures(validated)) + "\n"
         "local function listTextures()\n"
         "    return table.clone(Textures)\n"

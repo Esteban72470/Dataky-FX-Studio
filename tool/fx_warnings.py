@@ -12,9 +12,12 @@ These estimates describe one particle, not aggregate emitter brightness.
 """
 from __future__ import annotations
 
+from pathlib import Path
 import re
 import struct
 import zlib
+
+ROOT = Path(__file__).resolve().parent.parent
 
 if __package__:
     from .fx_grid_overrides import read_grid_overrides
@@ -48,7 +51,57 @@ THRESHOLDS = {
     "contrast_min_opacity": .05,
     "contrast_min_size_studs": .05,
     "timing_epsilon_seconds": 1e-6,
+    "beam_horizontal_aspect_ratio": 1.15,
 }
+
+
+def _image_dimensions(path: Path) -> tuple[int, int] | None:
+    """Read (width, height) from a PNG header (or Pillow fallback), returning None if unreadable."""
+    try:
+        if not path.is_file():
+            return None
+        with path.open("rb") as handle:
+            header = handle.read(24)
+        if len(header) >= 24 and header[:8] == b"\x89PNG\r\n\x1a\n":
+            w, h = struct.unpack(">II", header[16:24])
+            if w > 0 and h > 0:
+                return w, h
+        from PIL import Image
+        with Image.open(path) as img:
+            w, h = img.size
+            return (w, h) if w > 0 and h > 0 else None
+    except Exception:
+        return None
+
+
+def _beam_texture_dimensions(tex_uri: str, project: dict, assets: dict, beam_assets: dict) -> tuple[int, int] | None:
+    if not tex_uri:
+        return None
+    local_textures = project.get("local_textures") or {}
+    match = re.search(r"(?:^|rbxassetid://)(\d+)$|[?&]id=(\d+)$", str(tex_uri))
+    asset_id = next((g for g in match.groups() if g), None) if match else None
+    for key in filter(None, (tex_uri, asset_id, f"rbxassetid://{asset_id}" if asset_id else None)):
+        if key in local_textures:
+            dims = _image_dimensions(Path(local_textures[key]))
+            if dims:
+                return dims
+    local_match = re.fullmatch(r"rbxasset://textures/dataky-local/([a-z0-9_-]+)/([a-z0-9_-]+\.png)", str(tex_uri))
+    if local_match:
+        dims = _image_dimensions(ROOT / "source" / "vfx" / local_match.group(1) / "textures" / local_match.group(2))
+        if dims:
+            return dims
+    if asset_id:
+        for lookup in (beam_assets, assets):
+            item = lookup.get(asset_id)
+            if isinstance(item, dict):
+                w, h = item.get("width"), item.get("height")
+                if isinstance(w, int) and isinstance(h, int) and w > 0 and h > 0:
+                    return w, h
+        for folder in ("beams/images", "images"):
+            dims = _image_dimensions(ROOT / folder / f"{asset_id}.png")
+            if dims:
+                return dims
+    return None
 
 
 def points(value):
@@ -169,7 +222,36 @@ def validation_warnings(project, *, assets=None, stats_loader=texture_stats, inc
         get = lambda key: candidate["properties"].get(key, defaults[key]["default"])
         if get("LightEmission") >= THRESHOLDS["contrast_light_min_emission"] and max(luminance(c) for _, c in points(get("Color"))) >= THRESHOLDS["contrast_light_min_luminance"]:
             light_layers.extend(active_intervals(project, candidate))
+    beam_assets = None
     for node in project["nodes"]:
+        if node["class"] == "Beam":
+            tex_uri = str(node["properties"].get("Texture", "") or "")
+            if tex_uri:
+                if beam_assets is None:
+                    try:
+                        if __package__:
+                            from .fx_tools import catalog
+                        else:
+                            from fx_tools import catalog
+                        beam_assets = {str(item.get("asset_id")): item for item in catalog("beams")}
+                    except Exception:
+                        beam_assets = {}
+                dims = _beam_texture_dimensions(tex_uri, project, assets, beam_assets)
+                if dims is not None:
+                    w, h = dims
+                    if w > h * THRESHOLDS["beam_horizontal_aspect_ratio"]:
+                        m = re.search(r"(?:^|rbxassetid://)(\d+)$|[?&]id=(\d+)$", tex_uri)
+                        tid = next((g for g in m.groups() if g), tex_uri) if m else tex_uri
+                        warnings.append({
+                            "node": node["id"],
+                            "code": "horizontal_beam_texture",
+                            "level": "warning",
+                            "message": f"Texture de Beam horizontale ({w}x{h}) : dans Roblox, les Beams font défiler la texture verticalement de haut en bas. Pivotez l’image de 90° ou choisissez une texture verticale.",
+                            "texture": tid,
+                            "width": w,
+                            "height": h,
+                        })
+            continue
         if node["class"] != "ParticleEmitter":
             continue
         props = node["properties"]

@@ -13243,6 +13243,34 @@
         }
       ],
       "sha256": "575bb01fd4449c78519313b09da370dcb0a9196c553f1e6e24584cffc5a0f45b"
+    },
+    "81729442315187:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.10819825708061002,
+          "coverage": 0.11058390022675738,
+          "luma_alpha_mean": 0.10819825708061
+        }
+      ],
+      "sha256": "e54e9ed32566eb40187a5e348abe567e07f34b78f8ea96b1e61a28df576e96b0"
+    },
+    "118962778719886:1x1": {
+      "width": 420,
+      "height": 420,
+      "columns": 1,
+      "rows": 1,
+      "frames": [
+        {
+          "alpha_mean": 0.03309228135698724,
+          "coverage": 0.08016439909297052,
+          "luma_alpha_mean": 0.022548086328405
+        }
+      ],
+      "sha256": "f7df939d9aa4d20e9fd33e33a7a0520f0f1a4da3b590478345756b4931fd196e"
     }
   }
 }

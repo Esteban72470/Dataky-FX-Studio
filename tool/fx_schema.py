@@ -261,7 +261,7 @@ def validate_value(value, spec, path):
 
 def validate_project(project):
     """Validate and copy a complete project; never mutate the caller's object."""
-    keys(project, {"version", "id", "name", "duration", "loop", "nodes", "animations", "camera", "environment", "editor", "params"}, "project")
+    keys(project, {"version", "id", "name", "duration", "loop", "nodes", "animations", "camera", "environment", "editor", "params", "local_textures"}, "project")
     if project.get("version", 1) != 1 or isinstance(project.get("version"), bool):
         fail("version", "seule la version 1 est prise en charge")
     out = {"version": 1, "name": text(project.get("name", "Effet sans titre"), "name", 160, False)}
@@ -491,4 +491,16 @@ def validate_project(project):
                 fail("editor.meshes", "géométrie totale limitée à 16 Mio")
             cleaned_editor["meshes"] = deepcopy(meshes)
         out["editor"] = cleaned_editor
+    if "local_textures" in project:
+        local_textures = project["local_textures"]
+        if not isinstance(local_textures, dict) or len(local_textures) > 256:
+            fail("local_textures", "objet de 256 textures locales maximum requis")
+        cleaned_local = {}
+        for uri, filepath in local_textures.items():
+            clean_uri = text(uri, "local_textures.key", 256, False)
+            if clean_uri in {"__proto__", "constructor", "prototype"}:
+                fail("local_textures", "clé interdite")
+            clean_path = text(filepath, f"local_textures[{clean_uri}]", 1024, False)
+            cleaned_local[clean_uri] = clean_path
+        out["local_textures"] = cleaned_local
     return out

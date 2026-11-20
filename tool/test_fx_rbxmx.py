@@ -119,7 +119,7 @@ class RbxmxTests(unittest.TestCase):
         project["animations"][0]["runtime"] = True
         root = ET.fromstring(export_rbxmx(project))
         source = root.find(".//ProtectedString[@name='Source']").text
-        self.assertIn('["runtime"]=true', source)
+        self.assertIn('runtime=true', source)
         self.assertIn('animation.runtime doit être un booléen', source)
 
     @unittest.skipUnless(os.environ.get("DATAKY_LUAU") or shutil.which("luau"), "Luau CLI absent (DATAKY_LUAU)")

@@ -112,6 +112,18 @@ def main(argv: list[str] | None = None) -> int:
     render.add_argument("--fit-all", action="store_true", help="ancien cadrage : toute l’étendue simulée, y compris hors des instants rendus")
     render.add_argument("--focus", help="centre x,y,z (avec --radius)")
     render.add_argument("--radius", type=float)
+    render.add_argument("--bloom", nargs="?", const=0.65, default=0.0, type=float,
+                        help="bloom post-traitement Pillow (défaut : 0 = désactivé ; --bloom seul = 0.65)")
+    render.add_argument("--tex-map", help="remplacements de textures locaux : rbxassetid://123=C:/chemin.png,...")
+
+    recolor = commands.add_parser("recolor", help="recolorer une recette (variante Shiny / palette)")
+    recolor.add_argument("project", help="recette JSON ou ID")
+    recolor.add_argument("--out", help="fichier JSON de sortie (défaut : affiché)")
+    recolor.add_argument("--map", dest="color_map", help="correspondances hex : #ancien=#nouveau,...")
+    recolor.add_argument("--hue-shift", type=float, default=0.0, help="décalage de teinte en degrés (ex. 120)")
+    recolor.add_argument("--threshold", type=float, default=0.45, help="distance RGB maximale pour --map (défaut : 0.45)")
+    recolor.add_argument("--name", help="nouveau nom de recette")
+    recolor.add_argument("--id", dest="ident", help="nouvel identifiant de recette")
 
     batch = commands.add_parser("render-batch", help="plusieurs recettes × instants × caméras, un seul Chromium")
     batch.add_argument("manifest", help='JSON {"jobs":[{"projects":["a.json"],"out":"rendus/a.png","times":[0,.1],"camera":[10,6,12,0,1,0]}]}')
@@ -178,7 +190,24 @@ def main(argv: list[str] | None = None) -> int:
                                  auto_camera=args.auto_camera and not args.no_auto_camera, dummy=not args.no_dummy, background=args.background,
                                  ground=not args.no_ground, seed=args.seed, camera=camera, columns=args.columns,
                                  fit=args.fit, focus=focus, radius=args.radius,
-                                 fit_percentile=args.fit_percentile, fit_all=args.fit_all, backgrounds=args.backgrounds))
+                                 fit_percentile=args.fit_percentile, fit_all=args.fit_all, backgrounds=args.backgrounds,
+                                 bloom=args.bloom, tex_map=args.tex_map))
+        elif args.command == "recolor":
+            recolored, stats = fx_tools.recolor_project(
+                read_project(args.project),
+                color_map=args.color_map,
+                hue_shift=args.hue_shift,
+                threshold=args.threshold,
+                name=args.name,
+                ident=args.ident,
+            )
+            if args.out:
+                out_path = Path(args.out)
+                out_path.parent.mkdir(parents=True, exist_ok=True)
+                out_path.write_text(json.dumps(recolored, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                show({"out": str(out_path), **stats})
+            else:
+                show(recolored)
         elif args.command == "render-batch":
             manifest_path = Path(args.manifest).resolve()
             manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))

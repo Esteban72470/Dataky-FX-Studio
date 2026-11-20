@@ -638,6 +638,9 @@ function FX.play(data, cf, opts)
     local ratios, q = factors(entry, opts), lowQuality(opts.quality) and 0.6 or 1
     if opts.parent ~= nil and typeof(opts.parent) ~= "Instance" then fail("options.parent doit être une Instance") end
     if opts.onFinished ~= nil and type(opts.onFinished) ~= "function" then fail("options.onFinished doit être une fonction") end
+    if opts.prewarm ~= nil and type(opts.prewarm) ~= "boolean" and type(opts.prewarm) ~= "table" then
+        fail("options.prewarm doit être un booléen ou une table")
+    end
     local handle = {objects={}, specs=entry.specs, parts={}, partById={}, accelerations={}, accelerationById={}, tracks=entry.tracks, fired={},
         duration=entry.duration, age=0, time=0, expires=0, speed=speed, cf=cf, quality=q, hold=false, follow=opts.follow, onFinished=opts.onFinished}
     function handle.factor(id, property)
@@ -712,6 +715,36 @@ function FX.play(data, cf, opts)
         handle.root.Parent = handle.parent
         active[handle] = true
         update(handle, 0)
+        if opts.prewarm and not handle.stopped and not handle.released then
+            for _, node in ipairs(entry.nodes) do
+                if node.class == "ParticleEmitter" then
+                    local object = handle.objects[node.id]
+                    local emitCount = 0
+                    if opts.prewarm == true then
+                        if (not node.timing or node.timing.mode ~= "burst") and object.Enabled then
+                            local rate = object.Rate or 0
+                            if rate > 0 then
+                                emitCount = rate <= 2.0 and 1 or math.min(4, math.ceil(rate * 0.35))
+                            end
+                        end
+                    elseif type(opts.prewarm) == "table" then
+                        local override = opts.prewarm[node.id]
+                        if override == nil then override = opts.prewarm[node.name] end
+                        if override ~= nil then
+                            local n = finite(override, "options.prewarm." .. node.id)
+                            if n < 0 then fail("options.prewarm." .. node.id .. " doit être positif ou nul") end
+                            if node.properties.Enabled ~= false then
+                                emitCount = math.floor(n)
+                            end
+                        end
+                    end
+                    if emitCount > 0 then
+                        object:Emit(emitCount)
+                        handle.expires = math.max(handle.expires, handle.age + remainingLife(handle, node.id))
+                    end
+                end
+            end
+        end
     end)
     if not started then finish(handle); fail(tostring(startError)) end
     if frozen then
