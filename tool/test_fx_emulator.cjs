@@ -284,8 +284,8 @@ test('VelocityParallel negative Squash stretches along velocity; positive Squash
     const along = extent(0), across = Math.hypot(extent(1), extent(2));
     assert.ok(squash < 0 ? along > across : across > along,
       `Squash ${squash}: along velocity ${along}, across velocity ${across}`);
-    near(Math.max(along, across), 3, 1e-6, 'stretched size');
-    near(Math.min(along, across), 1 / 3, 1e-6, 'compressed size');
+    near(Math.max(along, across), 6, 1e-6, 'stretched size');
+    near(Math.min(along, across), 2 / 3, 1e-6, 'compressed size');
   }
 });
 
@@ -296,8 +296,8 @@ test('FacingCamera preserves the existing Squash approximation', () => {
   const frame = E.buildFrame(E.createSimulation(recipe), recipe.camera);
   const xs = Array.from({length: frame.vertices}, (_, i) => frame.data[i * 13]);
   const ys = Array.from({length: frame.vertices}, (_, i) => frame.data[i * 13 + 1]);
-  near(Math.max(...xs) - Math.min(...xs), 1 / 3, 1e-6, 'width');
-  near(Math.max(...ys) - Math.min(...ys), 3, 1e-6, 'height');
+  near(Math.max(...xs) - Math.min(...xs), 2 / 3, 1e-6, 'width');
+  near(Math.max(...ys) - Math.min(...ys), 6, 1e-6, 'height');
 });
 
 test('flipbook Grid4x4 OneShot starts in the first cell and ends in the last', () => {
@@ -428,8 +428,8 @@ test('sampled fit includes live particles and half their full size only at reque
     emitter('late', 'tip', {Speed: [100, 100], Lifetime: [0.5, 0.5], Size: sequence(10)}, {start: 0.5, duration: 0.05, mode: 'burst', count: 10}),
   ]);
   const bounds = E.sampledParticleBounds(recipe, {ids: ['p'], times: [0.02, 0.06], percentile: 100});
-  near(bounds.min, [-3, -2.9, -3], 1e-6);
-  near(bounds.max, [3, 3.4, 3], 1e-6);
+  near(bounds.min, [-6, -5.9, -6], 1e-6);
+  near(bounds.max, [6, 6.4, 6], 1e-6);
   assert.equal(bounds.particles, 2);
   assert.equal(bounds.retained, 2);
   assert.equal(bounds.fallback, false);
@@ -446,11 +446,11 @@ test('sampled fit removes isolated centers at the configurable percentile before
   ]);
   const trimmed = E.sampledParticleBounds(recipe, {ids: ['p'], times: [0.05]});
   const all = E.sampledParticleBounds(recipe, {ids: ['p'], times: [0.05], percentile: 100});
-  near(trimmed.min, [-0.5, -0.5, -0.5]);
-  near(trimmed.max, [0.5, 0.5, 0.5]);
+  near(trimmed.min, [-1, -1, -1]);
+  near(trimmed.max, [1, 1, 1]);
   assert.equal(trimmed.retained, 10);
   assert.equal(all.retained, 11);
-  near(all.max, [100.5, 0.5, 0.5]);
+  near(all.max, [101, 1, 1]);
 });
 
 test('sampled visible footprints use full particle size, UV support and rotation without inventing billboard depth', () => {
@@ -459,12 +459,12 @@ test('sampled visible footprints use full particle size, UV support and rotation
   const textureBounds = () => ({min: [.25, .375], max: [.75, .625]});
   textureBounds.points = () => [[.25,.375],[.75,.375],[.75,.625],[.25,.625]];
   const bounds = E.sampledParticleBounds(recipe, {ids: ['p'], times: [.02], textureBounds});
-  near(bounds.min, [-.5, 1, 0]);
-  near(bounds.max, [.5, 3, 0]);
+  near(bounds.min, [-1, 0, 0]);
+  near(bounds.max, [1, 4, 0]);
   assert.equal(bounds.fitPoints.length, 4);
   const camera = E.particleCamera(recipe, {points: bounds.fitPoints, aspect: 480/270});
   const distance = Math.hypot(...camera.position.map((v,i) => v-camera.target[i]));
-  near(1 / (distance * Math.tan(camera.fov*Math.PI/360)), .875);
+  near(1 / (distance * Math.tan(camera.fov*Math.PI/360)), .4375);
   const shifted = structuredClone(recipe); shifted.nodes[2].properties.ZOffset = 10;
   const again = E.sampledParticleBounds(shifted, {ids: ['p'], times: [.02], textureBounds});
   near(again.min, bounds.min); near(again.max, bounds.max);

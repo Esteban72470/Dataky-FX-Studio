@@ -1,5 +1,7 @@
 # Dataky FX Studio · guide pour Claude
 
+> **Skill Auras & Blessings** : pour créer des auras de personnage, Blessings, variantes Shiny ou cercles d’interaction NPC/zones en `Beam`, suivre [`skills/datakyfx-auras/SKILL.md`](./skills/datakyfx-auras/SKILL.md) (architecture 4 couches, maths `Beam` vérifiées en Studio, génération de textures verticales Python, `--bloom`, `--tex-map`, `recolor`, `prewarm`).
+
 ## Moteur artistique de cette copie locale
 
 Lire `PREMIERE_ETAPE.md`. Commencer par `artistry_schema` et planifier les

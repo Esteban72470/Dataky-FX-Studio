@@ -210,7 +210,10 @@ def merge_recipes(base, other, prefix, *, position=(0, 0, 0), at=0, orientation=
         clone["id"] = node_ids[node["id"]]
         clone["parent"] = node_ids.get(node.get("parent"))
         for key, value in list(props.items()):
-            props[key] = node_ids.get(value, value) if CLASSES[cls]["properties"][key]["type"] == "reference" else transform(cls, key, value)
+            if cls == "Beam" and key == "TextureLength" and props.get("TextureMode") == "Stretch":
+                props[key] = deepcopy(value)
+            else:
+                props[key] = node_ids.get(value, value) if CLASSES[cls]["properties"][key]["type"] == "reference" else transform(cls, key, value)
         # Explicitly materialize transformed native defaults when the scale changes.
         if factor != 1:
             for key in DIMENSIONS.get(cls, set()) - props.keys():
@@ -362,11 +365,13 @@ class Recipe:
         return self._add(node)
 
     def circle_beam(self, prefix, parent, radius, y, width, color_seq, trans_seq, tex, *,
-                    segments=8, beam_segments=12, light_emission=0.85, brightness=2.2,
-                    tex_len=2.6, tex_speed=0.5, z_offset=0.05, face_camera=False,
-                    standing=False, tex_mode="Wrap", start=0.0, dur=None, **extra):
-        """Create a closed circular Beam ring using exact cubic Bezier handles.
+                    segments=4, beam_segments=28, light_emission=0.85, brightness=2.2,
+                    tex_len=1, tex_speed=0.5, z_offset=0.05, face_camera=False,
+                    standing=False, tex_mode="Stretch", start=0.0, dur=None, **extra):
+        """Create a closed, seamless circular Beam ring using exact cubic Bezier handles.
 
+        Defaults to TextureMode='Stretch' with integer TextureLength=1 per arc so UV V
+        lands on an exact integer at every attachment joint (zero visible seam).
         When face_camera=False:
           - standing=False (default): flat horizontal ring (SecondaryAxis=radialOut, Z=+up).
           - standing=True: standing vertical curtain (SecondaryAxis=-up, Z=radialOut; U=0 bottom, U=1 top).
@@ -408,9 +413,77 @@ class Recipe:
 
     def spline_ribbon(self, prefix, parent, points, widths, color_seq, trans_seq, tex, *,
                       closed=False, tension=0.34, beam_segments=16, light_emission=0.72,
-                      brightness=2.0, tex_len=3.2, tex_speed=0.85, face_camera=True,
-                      z_offset=0.0, tilt_vec=(0, 1, 0), tex_mode="Wrap", start=0.0, dur=None, **extra):
-        """Build a smooth multi-segment Beam ribbon along 3D spline control points."""
+                      brightness=2.0, tex_len=1, tex_speed=0.85, face_camera=True,
+                      z_offset=0.0, tilt_vec=(0, 1, 0), tex_mode="Stretch",
+                      slice_sequences=True, start=0.0, dur=None, **extra):
+        """Build a smooth, seamless multi-segment Beam ribbon along 3D spline control points.
+
+        Defaults to TextureMode='Stretch' with integer TextureLength=1 per segment (zero UV seam)
+        and slices trans_seq/color_seq continuously across the full ribbon length (slice_sequences=True)
+        so fade-in/fade-out endpoints never create transparent gaps between interior segments.
+        """
+        def _eval_num_seq(seq, t):
+            if not isinstance(seq, list) or not seq:
+                return 0.0
+            if t <= seq[0]["time"]:
+                return float(seq[0]["value"])
+            if t >= seq[-1]["time"]:
+                return float(seq[-1]["value"])
+            for a, b in zip(seq, seq[1:]):
+                if t <= b["time"]:
+                    span = max(b["time"] - a["time"], 1e-9)
+                    f = (t - a["time"]) / span
+                    return float(a["value"]) + (float(b["value"]) - float(a["value"])) * f
+            return float(seq[-1]["value"])
+
+        def _slice_num_seq(seq, u0, u1):
+            if not slice_sequences or not isinstance(seq, list) or len(seq) < 2:
+                return deepcopy(seq)
+            span = max(u1 - u0, 1e-9)
+            pts_t = [u0] + [k["time"] for k in seq if u0 < k["time"] < u1] + [u1]
+            out = []
+            for gt in pts_t:
+                lt = round(max(0.0, min(1.0, (gt - u0) / span)), 4)
+                val = round(_eval_num_seq(seq, gt), 4)
+                if not out or abs(out[-1]["time"] - lt) > 1e-5:
+                    out.append({"time": lt, "value": val, "envelope": 0})
+            if len(out) == 1:
+                out.append({"time": 1.0, "value": out[0]["value"], "envelope": 0})
+            out[0]["time"] = 0.0
+            out[-1]["time"] = 1.0
+            return out
+
+        def _eval_col_seq(seq, t):
+            if not isinstance(seq, list) or not seq:
+                return [1.0, 1.0, 1.0]
+            if t <= seq[0]["time"]:
+                return list(seq[0]["value"])
+            if t >= seq[-1]["time"]:
+                return list(seq[-1]["value"])
+            for a, b in zip(seq, seq[1:]):
+                if t <= b["time"]:
+                    span = max(b["time"] - a["time"], 1e-9)
+                    f = (t - a["time"]) / span
+                    return [a["value"][c] + (b["value"][c] - a["value"][c]) * f for c in range(3)]
+            return list(seq[-1]["value"])
+
+        def _slice_col_seq(seq, u0, u1):
+            if not slice_sequences or not isinstance(seq, list) or len(seq) < 2:
+                return deepcopy(seq)
+            span = max(u1 - u0, 1e-9)
+            pts_t = [u0] + [k["time"] for k in seq if u0 < k["time"] < u1] + [u1]
+            out = []
+            for gt in pts_t:
+                lt = round(max(0.0, min(1.0, (gt - u0) / span)), 4)
+                val = [round(c, 4) for c in _eval_col_seq(seq, gt)]
+                if not out or abs(out[-1]["time"] - lt) > 1e-5:
+                    out.append({"time": lt, "value": val})
+            if len(out) == 1:
+                out.append({"time": 1.0, "value": list(out[0]["value"])})
+            out[0]["time"] = 0.0
+            out[-1]["time"] = 1.0
+            return out
+
         pts = [_vec(pt, "points") for pt in points]
         n = len(pts)
         if n < (3 if closed else 2):
@@ -452,12 +525,14 @@ class Recipe:
             j = (i + 1) % n
             dist = math.sqrt(sum((pts[j][k] - pts[i][k]) ** 2 for k in range(3)))
             curve = dist * tension
+            u0, u1 = i / seg_count, (i + 1) / seg_count
             beam_ids.append(self.beam(
                 f"{prefix}_b{i}", parent, att_ids[i], att_ids[j],
                 Texture=tex, TextureMode=tex_mode, TextureLength=tex_len, TextureSpeed=tex_speed,
                 Width0=w_list[i], Width1=w_list[j], CurveSize0=curve, CurveSize1=curve,
                 Segments=beam_segments, FaceCamera=face_camera,
-                Color=deepcopy(color_seq), Transparency=deepcopy(trans_seq),
+                Color=_slice_col_seq(color_seq, u0, u1),
+                Transparency=_slice_num_seq(trans_seq, u0, u1),
                 LightEmission=light_emission, Brightness=brightness, ZOffset=z_offset,
                 timing=timing, **extra,
             ))
@@ -466,9 +541,9 @@ class Recipe:
     def helix_ribbon(self, prefix, parent, *, radius_start, radius_end, y_start, y_end,
                      turns=1.5, start_angle=0.0, steps=14, width_min=0.2, width_max=1.0,
                      color_seq, trans_seq, tex, tension=0.34, beam_segments=14,
-                     light_emission=0.72, brightness=2.0, tex_len=3.2, tex_speed=0.85,
+                     light_emission=0.72, brightness=2.0, tex_len=1, tex_speed=0.85,
                      face_camera=True, z_offset=0.0, tilt_vec=(0, 1, 0),
-                     tex_mode="Wrap", start=0.0, dur=None, **extra):
+                     tex_mode="Stretch", slice_sequences=True, start=0.0, dur=None, **extra):
         """Build a rising/tapering helical Beam ribbon (wind updrafts, auras, spirals)."""
         radius_start = _finite(radius_start, "radius_start")
         radius_end = _finite(radius_end, "radius_end")
@@ -494,7 +569,7 @@ class Recipe:
             light_emission=light_emission, brightness=brightness,
             tex_len=tex_len, tex_speed=tex_speed, face_camera=face_camera,
             z_offset=z_offset, tilt_vec=tilt_vec, tex_mode=tex_mode,
-            start=start, dur=dur, **extra,
+            slice_sequences=slice_sequences, start=start, dur=dur, **extra,
         )
 
     def light(self, id, parent, start, dur, color, rng, peak, name=None, fall=None):
