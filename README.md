@@ -8,8 +8,6 @@ Cette version comprend le catalogue dynamique Textures/Beams/Meshes, la géomét
 
 Lisez [le guide de l'atelier](DATAKY_FX_STUDIO.md) pour la connexion à Roblox Studio et les exports. Les outils MCP restent disponibles pour un assistant externe via [CLAUDE.md](CLAUDE.md) ; ils ne nécessitent aucun modèle installé avec cette application.
 
-L'exemple [Enuma Elish](source/vfx/enuma-elish/README.md) fournit une recette de 29,4 secondes, ses générateurs, huit textures originales et les exports Roblox. Les textures originales utilisent des URI locales pour l'aperçu Studio ; leur publication dans un jeu nécessite leur import comme assets Roblox.
-
 Les nouvelles entrées du catalogue sont relues sans redémarrer le serveur. Les miniatures de meshes ne contiennent pas leur géométrie : [limites des meshes](docs/MESH_PREVIEW.md) et [compatibilité des exports](docs/EXPORT_COMPATIBILITY.md).
 
 Le catalogue réunit les captures **ZonitoVisuals** et **VFX Studio**. Les assets valides sont regroupés par ID Roblox ; leurs anciens noms et clés restent des alias recherchables. Les variantes de textures d'un même mesh sont conservées dans les données. Les noms plus descriptifs proviennent des métadonnées des plugins. Voir [la fusion et sa provenance](docs/IMPORT_VFX_STUDIO.md).

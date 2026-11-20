@@ -8948,14 +8948,14 @@
         "plugin": "ZonitoVisuals"
       }
     ],
-    "image_source": "Roblox thumbnail 420x420",
-    "width": 420,
-    "height": 420,
     "grid_columns": 4,
     "grid_rows": 4,
     "grid_review_status": "confirmed",
     "grid_review_observer": "vision",
-    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement."
+    "grid_review_note": "Grille de 4 colonnes et 4 lignes vérifiée visuellement.",
+    "image_source": "Roblox thumbnail 420x420",
+    "width": 420,
+    "height": 420
   },
   {
     "key": "25550c52a4da63ed8a9c2f50",

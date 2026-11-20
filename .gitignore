@@ -24,11 +24,5 @@ editor/artistry/
 editor/snapshots/
 editor/desktoplogs/
 editor/projects/*.json
-!editor/projects/enuma-elish-rupture.json
 reports-*.txt
 
-# Authored example exports are part of the distribution
-!source/vfx/enuma-elish/exports/
-!source/vfx/enuma-elish/exports/Enuma-Elish.json
-!source/vfx/enuma-elish/exports/Enuma-Elish.lua
-!source/vfx/enuma-elish/exports/Enuma-Elish.rbxmx

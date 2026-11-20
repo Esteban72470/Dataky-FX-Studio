@@ -22,7 +22,7 @@ MAGIC = b"DATAKYFXBUNDLE01"
 FOOTER = struct.Struct("<16sQQ32s")
 PRIVATE_DIRS = ("editor/projects", "editor/artistry", "editor/snapshots", "editor/local_ai", "exports")
 PRIVATE_FILES = {"tool/grid_overrides.json", "tool/texture_frames.json"}
-PUBLIC_EXAMPLES = {"editor/projects/enuma-elish-rupture.json"}
+PUBLIC_EXAMPLES: set[str] = set()
 SKIP_PARTS = {".git", "__pycache__", ".pytest_cache", ".local-ai", ".venv", "backups", "desktoplogs"}
 MODEL_SUFFIXES = {".gguf", ".safetensors", ".ckpt", ".pt", ".pth"}
 
