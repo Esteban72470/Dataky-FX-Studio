@@ -1,3 +1,16 @@
+# Development delivery report, 22 October 2026
+
+The first delivery covers Squash orientation, recipe backgrounds, Edit-only plugin messaging, Free mode, live Enabled controls, shortcuts, the gameplay kit, library export, configurable parameters, Python tooling, composition, validation, texture search, and focused rendering. The original report lists changed files, test outputs, manual checks, and behaviours that still required native verification.
+
+## Batch 2 delivery
+
+Batch 2 separates estimated-grid information from warnings, uses equivalent opaque area for visibility diagnostics, and refines camera fitting to use particles alive at the requested times. The original report includes before-and-after measurements, the files involved, and the verification steps.
+
+[Batch 1 requests](DEMANDES_CLAUDE.md) · [Batch 2 requests](DEMANDES_CLAUDE_2.md).
+
+<details>
+<summary>Original French record</summary>
+
 # Rapport des demandes Claude — 22 octobre 2026
 
 Les lots ont été livrés et vérifiés dans l’ordre **P0 → P1 → P2**. Aucune commande git n’a été utilisée. Le catalogue (`images/`, `previews/`, `source/`, `beams/`, `meshes/`, `tags/`, `textures.*`, `catalogue.html`) et les références dans Documents n’ont pas été modifiés. Le cache alpha est un nouveau fichier séparé. Les 21 projets existants passent toujours la validation version 1.
@@ -250,3 +263,5 @@ python tool/fx.py render tool/fixtures/bulbito/A1_Muzzle.json --focus 0,0,-1.5 -
 ```
 
 Les rendus ciblés retirent automatiquement le mannequin ; les mesures pixel ci-dessus utilisent aussi `ground: false` dans le manifeste. Après contrôle visuel d’une planche, `python tool/fx.py grid-confirm ID 4` (ou 2/8) confirme uniquement la grille choisie dans le fichier de surcharges.
+
+</details>

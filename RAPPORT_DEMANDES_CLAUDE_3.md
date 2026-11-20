@@ -1,3 +1,17 @@
+# Development delivery report, batch 3
+
+The report dated 22 October 2026 documents 10 implemented and tested changes and a partial bonus for texture export.
+
+- **Rendering and Studio connection.** Batch rendering now honours an exact requested camera. The plugin’s Edit-only message was checked in mocked client and server DataModels. The report records the limit of that verification in a running Studio instance.
+- **Gameplay kit.** The kit caches and prepares recipes, supports `hideParts` on Release, allows follow target changes, calls completion callbacks after cleanup, and offers texture inventory and preloading.
+- **Validation and contrast.** Diagnostics cover residual size and opacity, negative depth offsets for flat ground layers, and dark effects without enough contrast. Render sheets can compare light and dark backgrounds with matching cameras and times.
+- **Texture export.** The scanner covers native objects and literal module recipes. Calculated references and inaccessible sources are reported as incomplete.
+
+The original report includes before-and-after results, file-by-file changes, fixture checks, final test output, and manual Studio verification steps. [Batch 3 requests](DEMANDES_CLAUDE_3.md).
+
+<details>
+<summary>Original French record</summary>
+
 # Dataky FX Studio · rapport du lot 3
 
 Livraison du 22 octobre 2026, dans `C:\Users\esteb_9qwvhb8\Downloads\Dataky-FX-Studio-main`.
@@ -206,3 +220,5 @@ h:Release({hideParts=true})
 ```
 
 Vérifier les trois Parts du projectile masquées et les gouttes encore présentes, fin du suivi au Release, callback unique après drainage, performance sur le rig et le pic Maelstrom à 11 pièces. En Edit connecté : exporter les textures utilisées puis lancer une recherche avec le fichier `--exclude-file`. Ces observations et les mesures mobile restent **à vérifier dans Studio par Claude**.
+
+</details>

@@ -1,35 +1,23 @@
-# Export Roblox et géométrie locale — 25 octobre 2026
+# Roblox exports and local geometry
 
-La géométrie importée dans l'aperçu local ne constitue pas un asset Roblox.
-Un fichier OBJ visible dans l'éditeur nécessite un import autorisé dans Studio
-et un **MeshId permanent** avant tout export natif. Aucun fichier ni asset n'est
-publié ou envoyé automatiquement.
+This document records the export contract and verification from 25 October 2026.
 
-## Contrat des nouveaux meshes
+Local OBJ geometry needs an authorised import in Roblox Studio and a **permanent MeshId** before native export. Publishing and uploading are manual.
 
-`editor.meshes[nodeId]` conserve les triangles, normales, UV, indices et une
-provenance locale : nom du fichier, format OBJ, SHA-256 et dimensions. Les
-positions sont centrées et normalisées ; `MeshPart.Size` conserve les dimensions
-de l'objet. L'export JSON préserve ces données pour reprendre l'édition.
+## Local mesh data
 
-Les exports `.lua`, `.rbxmx` et bibliothèque + kit vérifient chaque entrée :
+`editor.meshes[nodeId]` stores triangles, normals, UVs, indices, and source metadata including the filename, OBJ format, SHA-256, and dimensions. Positions are centred and normalised. `MeshPart.Size` retains the object dimensions. JSON export preserves these fields so you can keep editing the effect.
 
-* Sans `MeshPart.properties.MeshId` positif, l'export est bloqué avec un message
-  explicite et un manifeste structuré des assets manquants.
-* Un ID décimal positif, `rbxassetid://ID` ou URL officielle Roblox est accepté
-  comme association explicite. Un chemin local `rbxasset://...` et l'ID 0 ne
-  constituent pas un asset permanent pour un mesh importé.
-* Avec une association, les exports conservent les propriétés natives et les
-  pistes d'animation, puis retirent `editor.meshes` du payload Luau. Les buffers
-  de preview ne sont ni une géométrie Roblox embarquée ni un upload implicite.
-* L'existence d'un ID ne prouve pas les permissions, l'identité de la géométrie,
-  les normales ou les UV. Leur comparaison dans l'expérience cible reste requise.
+The `.lua`, `.rbxmx`, and library exports validate each mesh.
 
-La composition par `merge_recipes` ou inclusion conserve ces métadonnées avec
-les nouveaux IDs de nœuds. La copie est indépendante de sa source ; une inclusion
-ne peut pas supprimer le besoin d'importer son mesh dans Roblox.
+- Missing or invalid `MeshPart.properties.MeshId` blocks export and returns an error with a structured manifest of missing assets.
+- An explicit mapping may be a positive decimal ID, `rbxassetid://ID`, or an official Roblox URL. Local `rbxasset://...` paths and ID 0 cannot identify a permanent asset for an imported mesh.
+- With a mapping, exports keep the native properties and animation tracks and remove `editor.meshes` from the Luau payload. Preview buffers stay in the editor.
+- Check the permissions, geometry, normals, and UVs in the target experience. The ID alone does not verify those details.
 
-Pour consulter le manifeste en Python :
+Composing through `merge_recipes` or inclusion preserves the metadata with the new node IDs. Each copy is independent of its source. Every included local mesh still needs an import in Roblox.
+
+Use the Python API to inspect the manifest.
 
 ```python
 from tool.fx_tools import export_manifest, export
@@ -37,100 +25,39 @@ manifest = export_manifest(recipe)
 export(recipe, "manifest", "exports/MonEffet.assets.json")
 ```
 
-`MeshExportError.manifest` fournit les mêmes données aux clients HTTP/MCP.
-`missing_assets` et `mapped_assets` contiennent les IDs des nœuds et la provenance
-sans recopier leurs buffers. Aucune écriture d'export natif n'a lieu si la
-validation échoue ; les projets existants restent inchangés.
+`MeshExportError.manifest` returns the same data to HTTP and MCP clients. `missing_assets` and `mapped_assets` include the node IDs and provenance and omit the buffers. If validation fails, no native export is written and existing projects stay intact.
 
-## Conversion manuelle vérifiable
+## Map a local mesh to Roblox
 
-1. Conserver le fichier OBJ original ; le JSON sauvegarde les données de preview.
-2. Importer ce fichier avec l'importeur 3D de Studio dans votre compte autorisé.
-3. Vérifier axes, unité en studs, pivot, taille, normales, double face et UV.
-4. Vérifier les droits du mesh et de toute texture dans l'expérience cible.
-5. Renseigner le MeshId obtenu dans le MeshPart de l'éditeur, puis exporter.
-6. Comparer la scène native et l'aperçu aux mêmes instants et sous plusieurs vues.
+1. Keep the original OBJ. The JSON saves the preview data.
+2. Import the OBJ with Studio's 3D importer from your authorised account.
+3. Check the axes, units in studs, pivot, size, normals, double-sided rendering, and UVs.
+4. Verify permissions for the mesh and its textures in the target experience.
+5. Enter the returned MeshId on the MeshPart in the editor and export.
+6. Compare the native scene and preview at matching times from several angles.
 
-OBJ est le premier format de ce jalon. FBX, glTF/GLB, matériaux PBR,
-SurfaceAppearance, rigs, Bones, skinning et AnimationController nécessitent un
-pipeline distinct. Le support d'un format générique ne garantit jamais la
-compatibilité du pipeline d'importation Roblox.
+This workflow currently covers OBJ. FBX, glTF, GLB, PBR materials, SurfaceAppearance, rigs, Bones, skinning, and AnimationController require their own pipeline. Support for a general format does not guarantee it can use Roblox's import pipeline.
 
-## Runtime et limites conservées
+## Runtime behaviour and limits
 
-Le runtime Roblox charge les meshes par
-`AssetService:CreateMeshPartAsync(Content.fromUri(...))`. Le kit multi-instance
-précharge explicitement avec `FX.preload(recipe)` ; `FX.play` clone ensuite le
-gabarit et reste sans yield. Les propriétés `MeshId` ne sont pas réassignées à
-un MeshPart construit vide.
+The Roblox runtime loads meshes through `AssetService:CreateMeshPartAsync(Content.fromUri(...))`. The multi-instance kit preloads explicitly with `FX.preload(recipe)`. `FX.play` then clones the template without yielding. The runtime does not reassign MeshId on an empty MeshPart.
 
-Les pistes `Position` et `Transparency` de Part/MeshPart exigent `runtime:true`
-dans le kit. Les mouvements compilés ajoutent déjà ce marqueur. `Orientation`,
-`Size` et autres pistes numériques restent conservées. Les anciens projets
-gardent leur comportement. Les Attachments restent locaux à leur parent ; les
-Parts utilisent les positions du repère de la recette. Folder/Model n'ajoutent
-pas un nouveau repère hiérarchique animé.
+The kit requires `runtime:true` on Part and MeshPart `Position` and `Transparency` tracks. Compiled motion already sets this flag. `Orientation`, `Size`, and other numeric tracks are preserved. Existing projects keep their behaviour. Attachments use local coordinates relative to their parent. Parts use recipe coordinates. Folders and Models do not introduce a separate animated coordinate frame.
 
-Le module historique et le lecteur `.rbxmx` suivent la translation du pivot,
-sans composition complète de sa rotation pendant les pistes de position. Le kit
-`FX.play(recipe, CFrame, ...)`, `Move` et `follow` compose la rotation et l'échelle.
-Une courbe d'easing est compilée en clés linéaires : l'échantillonnage introduit
-une approximation temporelle. Un Trail natif ne conserve pas son historique
-pendant une pause complète du moteur.
+The legacy Lua module and `.rbxmx` player apply pivot translation to position tracks. Use `FX.play(recipe, CFrame, ...)`, `Move`, and `follow` in the kit to compose rotation and scale. Easing curves are sampled into linearly interpolated keys, which approximates their timing. A native Trail loses its history during a complete engine pause.
 
-## Vérifications et référence Studio
+## Verification in the simulator and Studio
 
-Avant les modifications : 50 tests d'export/kit/motion exécutés avec succès,
-dont le véritable CLI Luau et un mock de l'API Roblox. Ils couvrent MeshPart,
-préchargement, clés runtime, rotation, échelle, suivi, références Beam/Trail,
-multi-instances et nettoyage. Les nouveaux tests `test_fx_mesh_export.py`
-couvrent le blocage des meshes non associés, l'absence de fichiers partiels,
-le manifeste, le JSON éditable et la conservation des pistes. Une bibliothèque
-issue d'un mesh local associé est réellement jouée sous Luau/mock : position
-interpolée, rotation d'origine, échelle, transparence et destruction sont
-contrôlées. Résultat après modifications : **85 tests réussis**, dont 7 nouveaux,
-avec `test_fx_mesh_export`, `test_fx_rbxmx`, `test_fx_kit`, `test_fx_motion` et
-`test_fx_tools` (commande lancée depuis `tool`, aucun test ignoré).
+Before the changes, 50 export, kit, and motion tests passed using the Luau CLI and a mock of the Roblox API. They cover MeshPart, preloading, runtime keys, rotation, scale, following, Beam and Trail references, multiple instances, and cleanup. The new `test_fx_mesh_export.py` tests cover missing mappings, partial output prevention, the manifest, editable JSON, and preserved tracks. A library from a mapped local mesh was played in Luau with the mock to verify interpolation, origin rotation, scale, transparency, and cleanup. After the changes, **85 tests passed**, including seven new tests, across `test_fx_mesh_export`, `test_fx_rbxmx`, `test_fx_kit`, `test_fx_motion`, and `test_fx_tools`. The command was run from `tool` with every test enabled.
 
-Les contrôles d'intégration supplémentaires vérifient qu'un OBJ de 17 000
-triangles (~1,8 Mo de texte, ~7 Mo de JSON après calcul) peut être importé,
-sauvegardé, rechargé, inspecté par manifeste et recevoir un second import.
-Une tentative d'aperçu natif avec mesh non associé est refusée avant de mettre
-une commande Studio en attente. La suite ciblée composition, export et workflow
-HTTP/Chromium contient 27 tests réussis, sans test ignoré.
+Integration checks verified that a 17,000-triangle OBJ, about 1.8 MB of text and 7 MB of generated JSON, could be imported, saved, reloaded, inspected through a manifest, and followed by another import. The server rejected native preview for an unmapped mesh before queuing a Studio command. The targeted composition, export, and HTTP/Chromium workflow suite passed all 27 tests.
 
-La commande Studio MCP `list_roblox_studios` a retourné `{"studios":[]}`
-pendant cette session. Aucun jeu n'a été modifié, aucun asset téléversé, aucune
-capture Studio réalisée. Ces tests ne prouvent donc pas la parité graphique
-native. Restent à capturer : Part/MeshPart, UV et transparence/occlusion,
-ParticleEmitter/flipbooks, courbure Beam, historique Trail, lumières, projection
-caméra et timing aux mêmes paramètres.
+Studio MCP returned `{"studios":[]}` from `list_roblox_studios` during that session. No place was modified, no asset was uploaded, and no Studio capture was taken. Native comparisons still need to cover Parts and MeshParts, UVs, transparency and occlusion, emitters and flipbooks, Beam curves, Trail history, lighting, camera projection, and timing with matching parameters.
 
-## Acquisition d'assets : APIs officielles inspectées
+## Official asset APIs reviewed in October 2026
 
-La référence actuelle recommande `POST /toolbox-service/v2/assets:search` ;
-l'ancien GET de même chemin figure dans « Not Recommended ». Les détails d'un
-asset utilisent `GET /toolbox-service/v2/assets/{id}`. Ces opérations Beta
-doivent être relues au moment d'intégrer leurs contrats et scopes ; l'ancienne
-spec GitHub du GET ne doit pas devenir un scraper figé.
-[Référence Creator Store](https://create.roblox.com/docs/cloud/reference/features/creator-store).
+At the time of the review, the Creator Store reference recommended `POST /toolbox-service/v2/assets:search` and listed the legacy GET at the same path as not recommended. Asset details use `GET /toolbox-service/v2/assets/{id}`. Review the contracts and scopes for those beta operations before integration. [Creator Store reference](https://create.roblox.com/docs/cloud/reference/features/creator-store).
 
-Pour les actifs accessibles, les métadonnées passent par
-`GET /assets/v1/assets/{assetId}` avec `readMask` ; Asset Delivery expose
-`GET /asset-delivery-api/v1/assetId/{assetId}` avec autorisation Open Cloud.
-Les aperçus sont séparés du contenu : `/v1/assets` pour les miniatures et
-`/v1/assets-thumbnail-3d` pour les aperçus 3D. L'authentification nécessaire
-dépend de l'opération et des permissions de l'asset.
-[Référence Assets](https://create.roblox.com/docs/cloud/reference/features/assets),
-[guide Assets](https://create.roblox.com/docs/cloud/guides/usage-assets).
+For assets you can access, `GET /assets/v1/assets/{assetId}` accepts a `readMask` for metadata. Asset Delivery uses `GET /asset-delivery-api/v1/assetId/{assetId}` with Open Cloud authorisation. Previews are separate from asset contents. `/v1/assets` serves thumbnails and `/v1/assets-thumbnail-3d` serves 3D previews. Authentication depends on the operation and asset permissions. [Assets reference](https://create.roblox.com/docs/cloud/reference/features/assets) · [Assets guide](https://create.roblox.com/docs/cloud/guides/usage-assets).
 
-L'acquisition prévue commence par candidats et métadonnées, puis revue des
-permissions avant inspection de contenu. Stocker auteur, URL, dates, licence et
-autorisations distinctes pour usage Roblox, inspection, redistribution et
-entraînement ; garder « inconnu / à vérifier » quand la preuve manque. Une
-ressource utilisable dans Roblox ne devient pas automatiquement redistribuable
-ou admissible à un jeu d'entraînement. Aucun script tiers ne doit être exécuté
-pour indexer un modèle. Utiliser pagination, cache et traitement des réponses
-429, et respecter les règles et quotas des opérations utilisées.
-[Creator Store et restrictions](https://create.roblox.com/docs/production/creator-store),
-[assets et permissions](https://create.roblox.com/docs/projects/assets).
+The proposed acquisition workflow starts with candidate assets and metadata, then checks permissions before inspecting the content. Record creator, URL, dates, licence, and separate permissions for Roblox use, inspection, redistribution, and training. Mark unsupported claims as unknown or pending verification. Permission to use an asset in Roblox does not establish redistribution or training rights. Indexing should not execute third-party scripts. Use pagination and caching, handle HTTP 429 responses, and respect the relevant rules and quotas. [Creator Store restrictions](https://create.roblox.com/docs/production/creator-store) · [Assets and permissions](https://create.roblox.com/docs/projects/assets).

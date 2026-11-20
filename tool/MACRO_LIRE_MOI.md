@@ -1,36 +1,36 @@
-# Refaire les catalogues Textures, Beams et Meshes
+# Rebuild the texture, beam, and mesh catalogues
 
-Double-cliquer **`tool/macro.bat`** pour relancer la capture sous Windows. Le parcours par défaut couvre les trois collections **Textures, Beams et Meshes**, avec les tags propres à chaque onglet et la vue **All**. Pour Textures, il capture aussi les vues **Statics** et **Flipbooks**.
+Double-click **`tool/macro.bat`** to run the Windows capture again. The default run covers all three collections, **Textures**, **Beams**, and **Meshes**, including each tab’s tags and **All** view. It also captures **Statics** and **Flipbooks** for Textures.
 
-La macro conserve les noms et les IDs Roblox ; pour les meshes, le helper lit les références MeshId et TextureId du panneau. Les captures brutes vont dans `source/`, `beams/source/` et `meshes/source/`. Elle lance ensuite `catalog.py` pour les textures et `asset_catalog.py` pour les autres collections afin de reconstruire les catalogues.
+The macro preserves Roblox names and IDs. For meshes, the helper reads MeshId and TextureId from the panel. Raw captures go into `source/`, `beams/source/`, and `meshes/source/`. The macro then runs `catalog.py` for textures and `asset_catalog.py` for beams and meshes to rebuild the catalogues.
 
-Le téléchargement des aperçus se fait en parallèle et réutilise les images valides du cache local. Relancer une génération après une interruption reprend les aperçus manquants. Une nouvelle exécution de la macro recommence le parcours des listes et réutilise le même cache d’images.
+Preview downloads run in parallel and reuse valid images in the local cache. Restarting a build after an interruption fetches the missing previews. Running the macro again starts the capture sequence over and reuses the same image cache.
 
-1. Ouvrir `vfx.rbxl` dans Roblox Studio, en mode édition, et afficher ZonitoVisuals sur Textures, Beams ou Meshes. Effacer la recherche et désélectionner les tags : l’en-tête doit afficher **Tags**.
-2. Double-cliquer **`tool/macro.bat`**. Copier la ligne `loadstring(...)` imprimée dans sa fenêtre, puis la coller dans la barre de commande de Studio et l’exécuter. Autoriser l’accès HTTP local si Studio le demande.
-3. Placer le pointeur exactement au centre de l’en-tête **Tags**, puis appuyer sur **F8** pour calibrer les coordonnées du panneau.
-4. Garder cette fenêtre Studio au premier plan, sans déplacer ni redimensionner ses panneaux. Laisser la macro parcourir les listes. **Échap** ou Ctrl+C arrête la capture.
+1. Open `vfx.rbxl` in Roblox Studio’s Edit mode and open ZonitoVisuals on Textures, Beams, or Meshes. Clear the search and deselect all tags so the header reads **Tags**.
+2. Double-click **`tool/macro.bat`**. Copy the `loadstring(...)` line it prints, paste it into the Studio Command Bar, and run it. Allow local HTTP access if Studio asks.
+3. Place the pointer exactly in the centre of the **Tags** header, then press **F8** to calibrate the panel coordinates.
+4. Keep that Studio window in the foreground and leave its panels where they are while the macro captures each list. Press **Esc** or **Ctrl+C** to stop.
 
-La sélection des tags est vérifiée avant chaque capture. Les types Statics/Flipbooks exigent une sélection exclusive et aucun tag. Beams et Meshes n’utilisent pas ces types. Une capture d’assets ou de type incomplète est rejetée avant de remplacer un fichier complet. Après un parcours réussi, la macro revient à l’onglet initial.
+The macro checks the active tag before each capture. The **Statics** and **Flipbooks** views each require an exclusive selection with no tags. Beams and Meshes do not use those views. Incomplete asset or type captures are rejected before they can replace a complete file. After a successful run, the macro returns to the starting tab.
 
-Pour sélectionner les collections à refaire, ouvrir un terminal dans `tool/` et utiliser, par exemple :
+To choose which collections to capture, open a terminal in `tool/` and run either command.
 
 ```powershell
 py -3 macro.py --collections beams meshes
 py -3 macro.py --collections textures
 ```
 
-Les vues **Personal** et **Recently Used** sont exclues par défaut ; `--include-personal` les inclut pour chaque collection choisie. Pour un fichier Studio portant un autre nom, ajouter `--window-title "MonJeu.rbxl"`.
+The **Personal** and **Recently Used** views are excluded by default. Pass `--include-personal` to include them for each selected collection. If the Studio place has another name, add `--window-title "MyGame.rbxl"`.
 
-Pour régénérer seulement les aperçus et les exports à partir des captures présentes, sans refaire les clics :
+To regenerate previews and exports from existing captures without repeating the click sequence, run the following commands.
 
 ```powershell
 py -3 catalog.py --workers 12
 py -3 asset_catalog.py --collections beams meshes --workers 12
 ```
 
-Le serveur est limité à `127.0.0.1:48754` et protégé par un jeton aléatoire à chaque lancement. La macro s’arrête si la fenêtre Studio attendue perd le premier plan, si le panneau bouge ou change de taille, ou si la collection, le tag ou le type actif ne correspond plus à la capture attendue. Elle ne crée aucun objet dans le jeu.
+The server listens only on `127.0.0.1:48754` and uses a random token on each launch. The macro stops if the expected Studio window loses focus, if the panel moves or changes size, or if the active collection, tag, or type no longer matches the expected capture. It creates no objects in the game.
 
-En cas d’arrêt, les captures complètes restent sur disque. Les fragments incomplets restent dans le dossier `.capture_parts/` de leur collection et ne remplacent jamais une capture complète. Effacer les tags actifs avant de recommencer. Les noms de tags incompatibles avec un nom de fichier Windows sont enregistrés sous un nom sécurisé ; leur nom exact reste dans le JSON. Le défilement et la visibilité du menu sont restaurés tant que la connexion locale est encore disponible.
+Completed captures stay on disk if you stop the macro. Incomplete fragments remain in the collection’s `.capture_parts/` folder and never replace a complete capture. Clear active tags before restarting. Tags whose names are invalid filenames on Windows are saved under safe filenames, with the original tag names preserved in JSON. The macro restores the scroll position and menu visibility while the local connection remains available.
 
-**Limite de validation : nous n’avons pas exécuté le parcours par clics natifs Windows de cette macro.** Son premier lancement interactif doit être surveillé, notamment le premier changement d’onglet et de tag. Les tests hors interface couvrent les coordonnées, la file de commandes, les captures découpées, les trois collections et leurs tags, les types de textures, la sélection d’une seule collection et les contrôles contre les captures contaminées.
+Automated tests cover coordinates, the command queue, split captures, the three collections and their tags, texture types, single-collection selection, and protection against mixed captures. The native Windows click sequence still needs an interactive run. Watch the first run, especially the first tab and tag changes.

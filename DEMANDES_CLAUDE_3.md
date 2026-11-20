@@ -1,3 +1,17 @@
+# Development requests, batch 3
+
+This brief records follow-up work from building and previewing the Blueberrinni Octopusini tower-defense unit, including observations on dark flooring, ground-layer depth, camera framing, and playback performance.
+
+- **Fixes.** Honour exact camera options in batch renders and keep plugin connection messages confined to Studio Edit mode.
+- **Gameplay kit.** Cache and prepare recipes, let Release hide Parts while particles expire, support follow changes and completion callbacks, and expose texture inventory and preloading.
+- **Validation and rendering.** Refine warnings for abrupt endings, negative ground-layer offsets, and dark contrast. Add a dark preset and render comparisons across backgrounds.
+- **Texture inventory.** Export used texture references from Studio objects and literal recipe data, and report incomplete scans.
+
+[Batch 3 delivery report](RAPPORT_DEMANDES_CLAUDE_3.md).
+
+<details>
+<summary>Original French record</summary>
+
 Tu travailles sur **Dataky FX Studio** (`C:\Users\esteb_9qwvhb8\Downloads\Dataky-FX-Studio-main`). Lis d'abord ces fichiers :
 - `CLAUDE.md` et `DATAKY_FX_STUDIO.md` ;
 - les lots précédents : `DEMANDES_CLAUDE.md`, `DEMANDES_CLAUDE_2.md` et `RAPPORT_DEMANDES_CLAUDE.md`.
@@ -113,3 +127,5 @@ Ce que seul un vrai Studio peut prouver, marque-le « à vérifier dans Studio p
 - Aujourd'hui, Claude doit scanner la place à la main à chaque unité.
 
 **Livrable :** le code, les tests et `RAPPORT_DEMANDES_CLAUDE_3.md`. Ne commence pas P2 tant que P0 et P1 ne passent pas tous leurs tests.
+
+</details>

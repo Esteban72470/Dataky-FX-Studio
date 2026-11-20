@@ -1,8 +1,6 @@
-# Animations de mouvement dans les exports Roblox
+# Motion tracks in Roblox exports
 
-Les pistes `Part` et `MeshPart` portant sur `Position` ou `Transparency` peuvent
-participer à l'effet joué par `DatakyFXKit` avec le booléen optionnel
-`animations[].runtime: true`.
+`DatakyFXKit` plays `Position` and `Transparency` tracks on `Part` and `MeshPart` nodes when the optional Boolean `animations[].runtime` is set to `true`.
 
 ```json
 {
@@ -17,48 +15,22 @@ participer à l'effet joué par `DatakyFXKit` avec le booléen optionnel
 }
 ```
 
-La valeur de `Position` est la position absolue dans les coordonnées de la
-recette, comme `nodes[].properties.Position`. Le kit applique `options.scale`,
-puis la translation et la rotation de la `CFrame` passée à `FX.play`. Une
-`Orientation` animée sur le même objet compose sa rotation avec cette `CFrame`.
-`h:Move(cf)` et `follow` utilisent le mouvement local déjà calculé : le mouvement
-artistique suit donc le point d'attache du gameplay. Chaque handle possède son
-état de position et de rotation ; les recettes et les gabarits préparés restent
-inchangés.
+`Position` is absolute in recipe coordinates, like `nodes[].properties.Position`. The kit applies `options.scale`, then the translation and rotation of the `CFrame` passed to `FX.play`. An animated `Orientation` on the same object is composed with that `CFrame`. `h:Move(cf)` and `follow` use the calculated local motion, so the animated effect follows its gameplay attachment point. Each handle maintains its own position and rotation state. Recipes and prepared templates stay immutable.
 
-Une piste `Transparency` marquée `runtime: true` joue normalement dans le kit.
-Après `h:Release()`, les pistes de propriétés cessent d'évoluer ;
-`h:Release({hideParts=true})` conserve ainsi les Parts invisibles pendant que les
-dernières particules finissent de vivre.
+A `Transparency` track with `runtime: true` plays normally in the kit. Property tracks stop updating after `h:Release()`. Calling `h:Release({hideParts=true})` keeps Parts invisible while the remaining particles expire.
 
-## Compatibilité
+## Compatibility
 
-- Avec `runtime` absent ou `false`, les pistes `Position` et `Transparency` des
-  Parts/MeshParts conservent leur comportement historique : le kit les ignore.
-- Les autres pistes, notamment `Attachment.Position`, `Part.Size` et
-  `Part.Orientation`, continuent de jouer sans marqueur supplémentaire. `runtime`
-  n'est pas un interrupteur général : `false` ne les désactive pas.
-- Le validateur accepte uniquement un booléen et préserve sa présence, y compris
-  `false`. Les exports JSON, bibliothèque Lua et `.rbxmx`, ainsi que
-  `merge_recipes`, le conservent.
-- Les lecteurs historiques Lua et `.rbxmx` jouent déjà toutes les pistes. Leur
-  comportement reste identique, y compris le placement suivant uniquement la
-  translation de leur origine. Utiliser bibliothèque + kit pour composer une
-  rotation et un suivi de gameplay.
-- Les `MeshPart` demandent toujours `FX.preload(recipe)` avant `FX.play`.
-- Les limites existantes restent applicables : 1 000 clés par piste, une piste
-  par couple objet/propriété et interpolation linéaire des vecteurs. Un
-  générateur procédural doit précalculer ses clés dans ces limites.
+- When `runtime` is omitted or `false`, the kit keeps its original behaviour and ignores `Position` and `Transparency` tracks on Parts and MeshParts.
+- Other tracks, including `Attachment.Position`, `Part.Size`, and `Part.Orientation`, continue to play without a flag. Setting `runtime: false` does not disable them.
+- The validator accepts only Boolean values for `runtime` and preserves an explicit `false`. JSON, Lua library, and `.rbxmx` exports and `merge_recipes` all preserve the field.
+- The legacy Lua and `.rbxmx` players already play every track and place the effect using the translation of the origin. Use the library export and kit to compose rotations and follow gameplay objects.
+- `MeshPart` nodes still require `FX.preload(recipe)` before `FX.play`.
+- The existing limits still apply: 1,000 keyframes per track, one track per object and property pair, and linear interpolation for vectors. Procedural generators must bake their keyframes within those limits.
 
-## Vérification
+## Verification
 
-`tool/test_fx_kit.py` exécute le véritable code Luau avec le mock Roblox partagé :
-comportement historique, `runtime: false`, rejet des valeurs invalides, mouvement
-Part et MeshPart, échelle, translation, rotation, suivi, `Move`, deux handles et
-ordre des pistes Position/Orientation. Les tests schéma, fusion, bibliothèque et
-`.rbxmx` vérifient la conservation du marqueur. Le lecteur embarqué dans le
-`.rbxmx` est aussi exécuté par Luau sur des instances reconstruites depuis le
-fichier exporté.
+`tool/test_fx_kit.py` runs the Luau code with the shared Roblox mock. It checks legacy behaviour, `runtime: false`, invalid values, Part and MeshPart movement, scaling, translation, rotation, following, `Move`, independent handles, and Position and Orientation track order. The schema, merge, Lua library, and `.rbxmx` tests verify that the flag is preserved. Luau also runs the embedded `.rbxmx` player on instances rebuilt from the exported file.
 
 ```powershell
 $env:DATAKY_LUAU = 'C:\chemin\vers\luau.exe'

@@ -1,23 +1,29 @@
-# Application Windows
+# Windows application
 
-Double-cliquez sur **Dataky FX Studio.exe**, à la racine du projet. L’atelier s’ouvre dans une fenêtre dédiée, sans terminal. Une icône près de l’horloge permet de rouvrir l’atelier ou de quitter son serveur local. Fermer la fenêtre de l’atelier laisse le serveur disponible ; choisissez **Quitter Dataky FX Studio** pour l’arrêter.
+Double-click **Dataky FX Studio.exe** in the project root. The editor opens in a dedicated window without a terminal. Use the system tray icon to reopen the editor or stop its local server. Closing the editor window leaves the server running. Choose **Quitter Dataky FX Studio** (Quit Dataky FX Studio) to stop it.
 
-Le lanceur utilise Python 3 déjà installé, .NET Framework et Edge, Chrome ou Brave. Sans navigateur compatible, il ouvre le navigateur par défaut. Il ne contient aucun modèle d’IA. Conservez l’exécutable avec les dossiers `tool`, `editor` et le catalogue. Il réutilise uniquement le serveur correspondant à cette copie du projet et n’arrête que le serveur qu’il a démarré.
+The launcher uses your installed Python 3, .NET Framework, and Edge, Chrome, or Brave. If it cannot find a compatible browser, it opens your default browser. It does not bundle an AI model. Keep the executable with the `tool` and `editor` folders and the catalogue. The launcher reuses a server only if it belongs to this copy of the project, and stops it only if this launcher started it.
 
-Pour reconstruire le lanceur depuis ses sources sur Windows : `powershell -File desktop/build.ps1`. La compilation utilise le compilateur .NET Framework présent dans Windows. Le catalogue et les projets restent dans le dossier de l’application.
+To rebuild the Windows launcher, run `powershell -File desktop/build.ps1`. This uses the .NET Framework compiler included with Windows. The catalogue and projects remain in the application folder.
 
-## Fichier complet autonome
+## Standalone executable
 
-Le paquet **DatakyFX-Studio-Complet.exe** intègre l’atelier, son catalogue et ses ressources, Python, les dépendances vidéo et images, Node et Chromium. Double-cliquez sur ce seul fichier : la préparation se fait automatiquement au premier lancement. Les lancements suivants réutilisent les ressources préparées et conservent les projets enregistrés.
+**DatakyFX-Studio-Complet.exe** bundles the editor, its catalogue and assets, Python, image and video dependencies, Node, and Chromium. Double-click it to set up the application automatically on the first launch. Later launches reuse the prepared files and keep your saved projects.
 
-Le fichier complet est construit localement depuis `desktop/build_portable.py`, avec un runtime préparé hors du dépôt. Exemple : `python desktop/build_portable.py --root . --runtime CHEMIN_RUNTIME --out CHEMIN_SORTIE.exe --payload-zip CHEMIN_TEMPORAIRE.zip`. Le runtime comprend les sous-dossiers `python`, `node`, `node_modules` et `browsers`. Le lanceur choisit ces composants embarqués en priorité.
+Build the standalone executable locally with `desktop/build_portable.py` and a runtime staged outside the checkout.
 
-## Mises à jour automatiques
+```powershell
+python desktop/build_portable.py --root . --runtime RUNTIME_PATH --out OUTPUT_PATH.exe --payload-zip TEMP_PAYLOAD_PATH.zip
+```
 
-Le fichier complet vérifie les versions stables publiées sur [GitHub Releases](https://github.com/Esteban72470/Dataky-FX-Studio/releases) à chaque démarrage. Il installe les mises à jour du programme avant d’ouvrir l’atelier, après vérification de leurs empreintes SHA-256. Le catalogue, les projets, les médias personnels et les runtimes restent dans leurs dossiers. Les mises à jour du programme utilisent une petite archive séparée du téléchargement complet.
+The runtime includes the `python`, `node`, `node_modules`, and `browsers` subfolders. The launcher uses these bundled components first.
 
-Si l’atelier est déjà ouvert pour cette copie, la mise à jour attend le prochain démarrage après fermeture. Sans réseau ou si une vérification échoue, la version installée reste disponible. Les résultats sont enregistrés dans `editor/desktoplogs/update-status.json`. Le menu de l’icône près de l’horloge permet aussi de vérifier les mises à jour et d’ouvrir la page de téléchargement. Le petit lanceur ouvert directement vérifie les versions ; relancez le fichier complet pour installer automatiquement une nouvelle version.
+## Automatic updates
 
-Lors du premier lancement d’un nouveau fichier complet, les fichiers personnels absents sont recopiés depuis la précédente copie préparée, en privilégiant celle qui est ouverte. Aucun fichier existant ni original n’est remplacé. Cette recopie n’est pas exécutée pendant `--self-test`.
+The standalone executable checks for stable versions at every startup. It verifies the SHA-256 hashes before installing an application update and opening the editor. The catalogue, projects, personal media, and runtimes stay in place. Application updates use a small archive separate from the full download. [GitHub Releases](https://github.com/Esteban72470/Dataky-FX-Studio/releases).
 
-L’option `--include-user-data` ajoute les projets et médias personnels présents dans cette copie au fichier complet. Le paquet personnel préparé pour le propriétaire reste local ; seuls les sources du constructeur et le petit lanceur sont versionnés dans le dépôt.
+If the editor is already open for this copy, the update waits until you close it and start it again. The installed version remains available if the network or an update check fails. Results appear in `editor/desktoplogs/update-status.json`. The tray menu can check for updates and open the download page. The smaller launcher can also check for updates. Start the standalone executable to install them automatically.
+
+The first launch of a new standalone executable copies missing personal files from a previous prepared installation, preferring the one currently open. Existing files and originals are preserved. The `--self-test` option skips this copy.
+
+Pass `--include-user-data` to include the current installation’s personal projects and media in a private build. That private build stays local. The repository tracks the build sources and the small launcher.

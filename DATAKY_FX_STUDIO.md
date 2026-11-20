@@ -1,88 +1,95 @@
 # Dataky FX Studio
 
-Un atelier local pour composer des effets Roblox à la main ou depuis une recette JSON. Le navigateur émule lui-même les ParticleEmitter, Beam, Trail, lumières et Parts : l’effet se lit, se met en pause et se rembobine à n’importe quel instant sans ouvrir Roblox Studio. Studio reste disponible pour la vérification finale avec les vrais objets, puis l’export Luau met l’effet dans votre jeu.
+Dataky FX Studio is a local editor for making Roblox effects by hand or from a JSON recipe. The browser emulates ParticleEmitters, Beams, Trails, lights, and Parts, so you can play, pause, and scrub an effect without opening Roblox Studio. Check the result with native objects in Studio, then export it to your game.
 
-## Ouvrir l’atelier
+## Open the editor
 
-1. Double-cliquez sur **DATAKY_FX_STUDIO.bat**. Python 3 suffit ; aucun service d’IA ni clé API ne sont nécessaires.
-2. L’application utilise **http://127.0.0.1:48754/** ou le prochain port libre ; le lanceur affiche l’adresse choisie. Gardez sa fenêtre de serveur ouverte pendant votre travail.
-3. Créez votre effet : la vue **✦ Émulation** le joue directement dans l’atelier. Roblox Studio n’est pas nécessaire à cette étape.
-4. Facultatif, pour la vérification finale : ouvrez votre projet dans Roblox Studio en mode édition, cliquez sur **Studio déconnecté** dans l’atelier, copiez la commande proposée et exécutez-la dans la barre de commande Studio. La connexion est valable pour cette session.
+1. Double-click **DATAKY_FX_STUDIO.bat**. Python 3 is sufficient. The editor requires no AI service or API key.
+2. Open **http://127.0.0.1:48754/** or the next free address printed by the launcher. Keep its server window open while you work.
+3. Create an effect and play it in **✦ Émulation** (Emulation) directly in the editor.
+4. To check the effect in-engine, open your place in Roblox Studio in Edit mode. Click **Studio déconnecté** (Studio disconnected) in the editor, then copy the displayed command to the Studio Command Bar and run it. The connection lasts for that session.
 
-Pour installer le pont comme plugin local et utiliser l’aperçu intégré, utilisez **INSTALLER_LE_PONT.bat**, puis redémarrez Studio. Dans l’onglet Plugins, la barre **Dataky FX** propose **Connexion** et **Aperçu**. Cliquez sur Connexion dans la fenêtre Studio voulue. Le plugin démarre déconnecté pour vous laisser choisir la bonne fenêtre. La connexion par barre de commande permet toujours d’éditer et de lire les effets ; la permission de capture du nouvel aperçu exige le plugin installé.
+To install the bridge as a local plugin and use the integrated preview, run **INSTALLER_LE_PONT.bat** and restart Studio. On Studio's Plugins tab, the **Dataky FX** toolbar offers **Connexion** (Connect) and **Aperçu** (Preview). Click **Connexion** in the Studio window you want to use. The plugin starts disconnected so you can choose the right window. A Command Bar connection can still edit and play effects. Viewport capture permission requires the installed plugin.
 
-## Créer à la main
+## Create an effect by hand
 
-Commencez par un modèle **Impact**, **Fumée**, **Beam** ou **Trail**, ou par un projet vide.
+Start with an **Impact**, **Fumée** (Smoke), **Beam**, or **Trail** template, or with an empty project.
 
-- **Hiérarchie → Ajouter → Briques** ajoute un bloc prêt à l’emploi à l’instant de la tête de lecture : Flash, Étincelles, Onde de choc, Fumée, Slash, Arc, Traînée, Feu, Concentration ou Orbe. Ses objets sont ordinaires et restent modifiables comme les autres.
-- Ajoutez les objets depuis **Hiérarchie → Ajouter**. Un ParticleEmitter peut être placé directement dans un Part ou dans un Attachment. Roblox applique alors nativement sa logique de volume ou de point d’émission.
-- Un Part transparent reste sélectionnable : son contour apparaît dans la vue 3D lorsqu’il est sélectionné, sans modifier sa transparence exportée.
-- Sélectionnez un objet pour modifier ses propriétés. Les valeurs et les noms suivent les classes Roblox ; les courbes permettent de modifier taille, couleur ou transparence au cours de la vie des particules.
-- Cliquez sur une courbe pour ouvrir l’éditeur graphique : glissez ses points et ses poignées Bézier, ajoutez un point par double-clic et choisissez un profil linéaire, accéléré, ralenti, impact ou fondu. Les points de début et de fin gardent leur temps. Les dégradés de couleur ont des repères glissables et un sélecteur de couleur. Les animations numériques et XYZ proposent aussi **Éditeur graphique**.
-- La ligne lisse sert à dessiner la courbe. La ligne en pointillés montre son approximation réellement exportée en points Roblox, avec une limite de 20 points. Les poignées sont enregistrées dans `editor.curves` pour retrouver la courbe à la réouverture ; le moteur utilise les valeurs échantillonnées. Modifier le JSON des valeurs invalide automatiquement les anciennes poignées.
-- Choisissez une texture, un beam ou un mesh dans la bibliothèque pour appliquer son ID. Les miniatures servent à choisir ; Studio charge la ressource native par son ID et applique ses permissions habituelles.
-- Pour un Beam ou un Trail, reliez **Attachment0** et **Attachment1** à deux points de votre effet. Une ressource de la collection Beams est une texture pour ce ruban ; elle ne définit pas à elle seule ses réglages.
-- Réglez le début, la durée et le nombre de particules dans la timeline. Les animations de propriétés utilisent des points clés en secondes.
-- **Appliquer à Studio** construit la composition. **Lire** déclenche la lecture native. **Arrêter** coupe l’émission et efface les particules en cours. **Fermer l’aperçu** retire le conteneur temporaire et rend la caméra à la scène initiale.
+- **Hiérarchie → Ajouter → Briques** (Hierarchy → Add → Blocks) inserts a ready-to-use block at the playhead. Blocks include flash, sparks, shockwave, smoke, slash, arc, trail, fire, charge, and orb. Their objects can be edited like any others.
+- Add individual objects with **Hiérarchie → Ajouter**. A ParticleEmitter can go under a Part or an Attachment. Roblox applies volume or point emission accordingly.
+- Transparent Parts remain selectable. The viewport shows their outline when selected without changing their exported transparency.
+- Select an object to edit its properties. Names and values follow Roblox classes. Curves change size, colour, or transparency over a particle's lifetime.
+- Click a curve to open the graph editor. Drag points and Bézier handles, double-click to add a point, and choose linear, ease-in, ease-out, impact, or fade. The start and end points retain their times. Colour gradients have draggable stops and a colour picker. Numeric and XYZ animations also offer **Éditeur graphique** (Graph editor).
+- The smooth line is the editable curve. The dotted line shows the sampled approximation exported to Roblox, with up to 20 points. Handles are stored in `editor.curves` so the graph opens as before. Playback uses the samples. Editing the JSON values invalidates the previous handles.
+- Apply a texture, beam texture, or mesh by choosing it in the library. The thumbnails help you choose. Studio loads the native asset by ID and applies its usual permissions.
+- For a Beam or Trail, set **Attachment0** and **Attachment1** to two points in the effect. A resource from the Beams collection supplies the texture for the ribbon. The Beam or Trail properties control its other settings.
+- Set start time, duration, and particle count in the timeline. Property animation keyframe times are in seconds.
+- **Appliquer à Studio** (Apply to Studio) builds the composition. **Lire** (Play) starts native playback. **Arrêter** (Stop) cuts emission and clears existing particles. **Fermer l’aperçu** (Close preview) removes the temporary container and restores the scene camera.
 
-Les effets de prévisualisation sont placés dans `Workspace.__DatakyFXPreview`, sur une station à distance du contenu de votre place. Le pont travaille uniquement dans son conteneur. Ne publiez pas une place contenant un aperçu dont vous n’avez plus besoin ; fermez l’aperçu après utilisation.
+Preview effects live on a station away from your place content under `Workspace.__DatakyFXPreview`. The bridge operates within that container. Close the preview before publishing the place.
 
-## Émulation dans le navigateur
+## Browser emulation
 
-La vue **✦ Émulation** est la vue par défaut. Elle rejoue la recette avec les mêmes règles que le pont Studio : timing des pistes, bursts (`Emit`), émission continue au `Rate`, animations par points clés, boucle qui efface les particules, fin d’effet qui laisse les particules existantes s’éteindre.
+**✦ Émulation** is the default view. It follows the Studio bridge's timing rules for tracks, bursts (`Emit`), continuous emission at `Rate`, and keyframes. Looping clears particles. At the end of an effect, existing particles finish their lifetimes.
 
-Le sélecteur **Timeline / Libre** (Tab) ouvre un bac à sable. En Libre, l’horloge tourne sans limite ; les continus émettent au Rate et les bursts attendent Emit. Le ParticleEmitter sélectionné possède un champ quantité et un bouton Emit. **Emit sélection** inclut ses descendants, **Emit tout** joue les bursts, **Vider** efface les particules sans changer les interrupteurs. Les Enabled de l’arbre et des propriétés sont temporaires en Libre ; en Timeline ils sont enregistrés dans la recette et grisent les barres désactivées. Modifier les propriétés en Libre met à jour l’aperçu directement. Ce mode fonctionne aussi dans l’aperçu natif après réinstallation du pont généré.
+Press **Tab** or use **Timeline / Libre** (Free) to switch to the sandbox. In **Libre**, time keeps running, continuous emitters emit at `Rate`, and bursts wait for Emit. The selected ParticleEmitter has a quantity field and an **Emit** button. **Emit sélection** includes descendants, **Emit tout** plays all bursts, and **Vider** clears particles while keeping toggles in place. Changes to Enabled are temporary in **Libre**. In **Timeline**, they are saved to the recipe and disabled bars appear grey. Property edits update the live preview. Reinstall the generated bridge to use this mode in the native preview.
 
-Le bouton **?** affiche tous les raccourcis : Espace/Maj+Espace lecture-pause/stop, E/Maj+E Emit sélection/tout, T Enabled, Tab mode, C vider, flèches et Début/Fin pour la tête, [/ ] pour les débuts de timing, L boucle, F/Maj+F cadrage, G sol, M mannequin, 1–5 fonds, ↑/↓ arbre, Alt+↑ parent, Ctrl+C/V copie JSON avec descendants entre projets, Ctrl+E/Ctrl+Maj+E exports. Ils restent inactifs dans un champ ou un dialogue. Les raccourcis de sauvegarde, historique, duplication, suppression, recherche et Échap restent disponibles. La tête arbitraire s’applique à l’émulateur ; l’aperçu natif doit être relancé depuis 0.
+Click **?** for the full shortcut list. **Space / Shift+Space** plays or pauses / stops. **E / Shift+E** emits from the selection / all bursts. **T** toggles Enabled, **Tab** switches modes, and **C** clears. Use the arrow keys and **Home / End** to move the playhead, **[ / ]** to jump between timing starts, **L** for loop, **F / Shift+F** to frame, **G** for ground, **M** for the scale dummy, and **1–5** for backgrounds. Use **↑ / ↓** for the hierarchy and **Alt+↑** for the parent. **Ctrl+C / Ctrl+V** copies JSON with descendants between projects. **Ctrl+E / Ctrl+Shift+E** exports. Keyboard shortcuts are inactive in an input or dialog. Save, history, duplicate, delete, search, and Esc shortcuts remain available. Scrubbing to any time works in the emulator. Restart native playback from zero.
 
-Les recettes comportant `params` affichent un curseur par paramètre. Par exemple, `params.radius.default=16` et `scaleWith: {"Size":"radius"}` sur un anneau font varier son rayon sans grossir les autres émetteurs. Ces curseurs changent l’aperçu seulement.
+Recipes with `params` show one slider per parameter. For example, `params.radius.default=16` with `scaleWith: {"Size":"radius"}` on a ring lets you resize the ring independently of the other emitters. Sliders only affect the preview.
 
-Emit conserve une pause explicite ; après Stop, Emit remet le bac à sable en marche. Changer de projet remet à zéro les particules, l’horloge et les Enabled d’aperçu. Les modifications simples de propriétés conservent l’historique en Libre. Une modification de structure ou suppression de propriété peut reconstruire l’aperçu natif.
+Emit preserves an explicit pause. After Stop, Emit starts the sandbox again. Switching projects resets particles, the clock, and preview Enabled states. Simple property edits preserve sandbox history. Structural changes and property removal can rebuild the native preview.
 
-- **Lire**, **Pause**, **Arrêter** et la timeline pilotent l’émulation. Cliquer dans la timeline affiche l’effet **exactement** à cet instant : la simulation est déterministe (pas de 1/60 s et graine fixe), elle rejoue l’historique des particules et des trails jusqu’au temps demandé.
-- **Rejouer les changements** relance l’effet après chaque modification.
-- Glissez dans la vue pour tourner autour de l’effet, **Maj + glisser** (ou clic droit) pour déplacer, molette pour zoomer. **Caméra du projet** revient au cadrage enregistré ; **Garder ce cadrage** l’enregistre dans le projet, pour les rendus et pour Studio.
-- **Fond** utilise la couleur `environment.background` de la recette tant qu’aucun preset n’est forcé. Les presets sombre, gris, ciel clair, noir et **roblox** (ciel bleu clair, sol gris clair) et **Sol** aident à juger un effet sur différents décors. Le sol reçoit la lumière des PointLight, SpotLight et SurfaceLight. Testez aussi sur fond clair : les couleurs additives peuvent saturer en blanc.
-- **Mannequin** place un personnage Roblox de 5 studs à côté de l’effet pour juger son échelle. **Cadrer** recule la caméra jusqu’à voir toute l’étendue de l’effet, depuis l’angle actuel.
-- **Capturer** enregistre l’image affichée avec son instant (`capture_source: browser-emulator`).
+- **Lire**, **Pause**, **Arrêter**, and the timeline control emulation. Click the timeline to preview the effect at that instant. The deterministic simulation uses a fixed seed and a 1/60-second time step to replay particle and Trail history up to the selected time.
+- **Rejouer les changements** (Replay on change) restarts the effect after each edit.
+- Drag the view to orbit. Shift-drag or right-drag to pan, and scroll to zoom. **Caméra du projet** (Project camera) restores the saved camera. **Garder ce cadrage** (Save framing) stores the current camera for renders and Studio.
+- **Fond** (Background) uses `environment.background` from the recipe until you choose a preset. Try dark, grey, clear sky, black, or **roblox** (light blue sky and light grey ground), and toggle **Sol** (Ground). PointLights, SpotLights, and SurfaceLights illuminate the ground. Check light backgrounds too, since additive colours can clip to white.
+- **Mannequin** (Dummy) adds a five-stud Roblox character for scale. **Cadrer** (Frame) backs the camera away until the whole effect fits from the current angle.
+- **Capturer** (Capture) saves the displayed frame and its time as `capture_source: browser-emulator`.
 
-Ce qui est émulé : formes d’émission Box, Sphere, Cylinder et Disc avec ShapeStyle, ShapeInOut et ShapePartial ; EmissionDirection, SpreadAngle, Speed, Lifetime, Acceleration, Drag, Rotation, RotSpeed, TimeScale, LockedToPart ; Size, Transparency, Squash et Color au cours de la vie, enveloppes comprises ; orientations FacingCamera, FacingCameraWorldUp, VelocityParallel et VelocityPerpendicular ; flipbooks Grid2x2 à 8x8 et Custom en Loop, OneShot, PingPong et Random avec fondu ; LightEmission, LightInfluence, Brightness et ZOffset ; Beams (courbe de Bézier, CurveSize, largeurs, Segments, FaceCamera, TextureMode, TextureLength, TextureSpeed) ; Trails (Lifetime, MinLength, MaxLength, WidthScale, FaceCamera, TextureMode) ; Parts Block, Ball et Cylinder, SpecialMesh Sphere, Cylinder et Brick, matériau Neon ; lumières.
+### Emulated features
 
-Limites à connaître :
+- Box, Sphere, Cylinder, and Disc emitter shapes with ShapeStyle, ShapeInOut, and ShapePartial.
+- EmissionDirection, SpreadAngle, Speed, Lifetime, Acceleration, Drag, Rotation, RotSpeed, TimeScale, and LockedToPart.
+- Size, Transparency, Squash, and Color over a particle's lifetime, including envelopes.
+- FacingCamera, FacingCameraWorldUp, VelocityParallel, and VelocityPerpendicular.
+- Grid2x2 through 8x8 and Custom flipbooks in Loop, OneShot, PingPong, and Random modes with blending.
+- LightEmission, LightInfluence, Brightness, and ZOffset.
+- Beams with Bézier curves, CurveSize, widths, Segments, FaceCamera, TextureMode, TextureLength, and TextureSpeed.
+- Trails with Lifetime, MinLength, MaxLength, WidthScale, FaceCamera, and TextureMode.
+- Block, Ball, and Cylinder Parts, Sphere, Cylinder, and Brick SpecialMeshes, Neon material, and lights.
 
-- En `VelocityParallel` avec `Rotation: 0`, un Squash négatif étire le long de la vitesse et un Squash positif en travers (mesuré en Play). Pour une texture de trait vertical, utilisez `Rotation: 90` et un Squash positif. FacingCamera reste une approximation non mesurée.
-- Le message de connexion du plugin apparaît une seule fois en édition, sans polluer les sorties client et serveur de Play.
+### Emulation limits
 
-- Les textures du catalogue sont principalement les **miniatures 420 × 420** de la bibliothèque locale. Un ID Roblox sans aperçu local utilise un halo de remplacement signalé dans la barre d’état. Les textures originales `rbxasset://textures/dataky-local/...` utilisent leurs PNG ; une image originale absente devient transparente et produit un avertissement. Les autres textures intégrées `rbxasset://` sont approchées par des formes générées.
-- Une géométrie OBJ importée localement est rendue en 3D dans l’émulation. Sans géométrie locale, les **MeshPart** et SpecialMesh FileMesh restent des boîtes filaires : une miniature de catalogue ne contient pas le maillage. Voir [le format OBJ local](docs/MESH_PREVIEW.md).
-- Sur un Beam ou un Trail, l’émulation fait courir l’**axe vertical de l’image le long du ruban**. La documentation ne le précise pas ; c’est l’orientation de la grande majorité des 447 textures de la collection Beams.
-- Le moteur Roblox n’est pas public. La forme exacte de Squash, la répartition de SpreadAngle, l’éclairage, le bloom, la qualité graphique et le tri fin des particules sont des approximations fondées sur la documentation officielle. VelocityInheritance n’a pas d’effet, comme dans le pont Studio où les Parts sont ancrées et déplacées par propriété.
-- L’émulation sert à créer et itérer vite. Avant de publier, vérifiez une fois l’effet dans **◉ Roblox Studio**.
+- In Play testing with `VelocityParallel` and `Rotation: 0`, negative Squash stretched along the velocity and positive Squash stretched across it. Use `Rotation: 90` with positive Squash for vertical streak textures. FacingCamera remains an unmeasured approximation.
+- The plugin connection message appears once in Edit mode and stays out of the client and server Play logs.
+- The library uses mostly **420 × 420** Roblox thumbnails. A Roblox ID without a local preview gets a fallback halo and a status message. Original textures under `rbxasset://textures/dataky-local/...` use their PNG files. A missing original is transparent and generates a warning. Other built-in `rbxasset://` textures are approximated with generated shapes.
+- Imported OBJ geometry is rendered in 3D. Without local geometry, MeshParts and FileMesh SpecialMeshes appear as wireframe boxes. [Local OBJ format](docs/MESH_PREVIEW.md).
+- On Beams and Trails, the emulator maps the **vertical image axis along the ribbon**. This matches most of the 447 textures in the Beams collection.
+- Squash, SpreadAngle distribution, lighting, bloom, graphics quality, and particle sorting are approximated from the official documentation. VelocityInheritance has no effect here or in the bridge, where Parts are anchored and moved by property.
+- Use **◉ Roblox Studio** to check the result before publishing.
 
-## Vérifier dans Roblox Studio
+## Verify in Roblox Studio
 
-Dans **◉ Roblox Studio**, cliquez sur **Activer l’aperçu intégré**. Le pont construit l’effet et demande à Studio l’autorisation de capturer son viewport au premier usage. Acceptez cette demande vous-même dans Studio. Les images du rendu 3D arrivent ensuite directement dans l’atelier ; il n’est plus nécessaire d’observer une deuxième fenêtre pour juger l’effet. Studio doit rester ouvert et son document de prévisualisation actif. Une fenêtre minimisée ou un document non capturable peut suspendre le flux ; le pont réessaie sans redemander la permission.
+In **◉ Roblox Studio**, click **Activer l’aperçu intégré** (Enable integrated preview). On first use, the bridge builds the effect and asks for permission to capture the Studio viewport. Accept in Studio. The editor then displays the captured frames. Keep Studio open with the preview document active. Minimising the window or switching to a document that cannot be captured can pause the stream. The bridge retries without asking for permission again.
 
-Le pont de capture doit être chargé après un redémarrage de Studio lors de cette mise à jour. Les tests automatisés du transport, des courbes et de leur intégration passent ; le premier flux réel demande encore votre autorisation dans Studio.
+Restart Studio after updating the capture bridge. Automated checks cover transport, curves, and integration. The first real stream still requires permission in Studio.
 
-Le flux natif utilise `StudioCaptureService`, avec environ **4 images par seconde**, une résolution maximale de 1280 × 720 et un débit adapté aux limites HTTP. Il convient au réglage visuel ; ce n’est pas une vidéo à 30 ou 60 images par seconde. **Utiliser le partage de fenêtre en secours** affiche une vidéo plus fluide dans le même panneau après avoir sélectionné la fenêtre Studio dans le navigateur.
+The native stream uses `StudioCaptureService` at about **4 frames per second** and up to 1280 × 720, with bandwidth adjusted to the HTTP limits. For smoother playback, use **Utiliser le partage de fenêtre en secours** (Use window sharing as a fallback), then select the Studio window in your browser.
 
-**Rejouer les changements** relance automatiquement la composition après une modification. Décochez cette option pour ne rejouer qu’avec le bouton de lecture. **Capturer l’aperçu** archive une image PNG locale avec le véritable projet et l’instant rendu, pour comparer des variantes ou la fournir à une IA. Les images courantes du flux restent uniquement en mémoire ; les anciennes images sont écartées quand le projet change ou que l’aperçu s’arrête.
+**Rejouer les changements** restarts the composition after edits. Clear it to restart only when you click Play. **Capturer l’aperçu** (Capture preview) saves a local PNG with the actual project and render time for comparison or review by an assistant. Live frames stay in memory. The editor drops old frames when you change the project or stop the preview.
 
-Le **plan de scène** est une aide de placement. La timeline sert à écrire les réglages et les animations ; déplacer sa tête de lecture ne recrée pas un historique de particules ou de trails à un instant arbitraire. Relancez la lecture native pour juger l’effet. La pause est prise en charge pour les particules et beams ; un effet contenant un Trail signale qu’une pause fidèle de son historique n’est pas disponible.
+Use the **plan de scène** (Scene plan) for placement and the timeline to edit settings and animations. Scrubbing in the native preview cannot reconstruct arbitrary particle or Trail history. Restart native playback to review an effect. Particles and Beams support pausing. Effects with Trails report that their history cannot be paused faithfully.
 
-Studio en arrière-plan peut ralentir la simulation des particules (mesuré en Play). Le pont relaie conditionnellement les événements de focus du viewport principal et l’atelier affiche un avertissement lorsqu’il reçoit explicitement une perte de focus pendant la lecture. Un état inconnu ne déclenche rien. La livraison de ces signaux dans ce plugin Edit reste à vérifier dans Studio ; ce n’est pas une détection garantie du focus de toute l’application ([API documentée](https://create.roblox.com/docs/reference/engine/classes/UserInputService#WindowFocusReleased)). Un Trail natif continue de perdre son historique dans une capture figée.
+Backgrounding Studio can slow particle simulation, as measured in Play mode. The bridge may relay main viewport focus events. The editor warns during playback only when it receives an explicit focus loss. An unknown state produces no warning. Delivery of these events in Edit mode still needs Studio verification. A native Trail continues losing its history during a frozen capture. [Documented viewport focus API](https://create.roblox.com/docs/reference/engine/classes/UserInputService#WindowFocusReleased).
 
-La caméra, l’éclairage, la qualité graphique, l’aléatoire et les permissions d’assets influencent l’apparence. L’éditeur utilise les comportements natifs ; il ne promet pas deux lectures identiques pixel par pixel.
+Camera, lighting, graphics settings, randomness, and asset permissions affect appearance. Native playback can vary between runs.
 
-## Sauvegarder et réutiliser
+## Save and reuse an effect
 
-**Enregistrer** sauvegarde le projet dans `editor/projects/`. Le brouillon du navigateur et l’historique annuler/rétablir facilitent le travail manuel ; utilisez Enregistrer pour conserver un fichier de projet.
+**Enregistrer** (Save) writes the project to `editor/projects/`. The browser draft and undo/redo history help while editing. Use Save to keep a project file. **Recette JSON** (JSON recipe) lets you inspect, copy, import, and edit the whole composition.
 
-**Recette JSON** permet de lire, copier, importer et modifier toute la composition.
-
-**Exporter → Modèle Roblox .rbxmx** est le chemin le plus simple vers Roblox : glissez le fichier dans Studio. Le modèle contient les vrais objets de l’effet (Parts, Attachments, émetteurs, beams, lumières), visibles et modifiables à la main, et un ModuleScript `DatakyFX` qui joue la timeline sur ces objets :
+For Roblox, use **Exporter → Modèle Roblox .rbxmx** (Export → Roblox model), then drag the file into Studio. The model contains editable Parts, Attachments, emitters, Beams, and lights, plus a `DatakyFX` ModuleScript that plays the timeline on those objects.
 
 ```lua
 local fx = require(workspace.MonEffet.DatakyFX)
@@ -90,9 +97,9 @@ fx.play()
 -- fx.stop(), fx.pause(), fx.resume(), fx.status()
 ```
 
-Chaque objet porte un attribut `DatakyFXNodeId` : vous pouvez le renommer ou retoucher ses propriétés, la timeline le retrouve. Déplacez le modèle par son pivot : les animations de position suivent ce déplacement (pas la rotation). Les émetteurs qui ont un timing sont éteints dans le fichier ; le lecteur les allume au bon instant. Une MeshPart importée ainsi garde son MeshId ; vérifiez sa taille dans Studio.
+Each object has a `DatakyFXNodeId` attribute so the timeline can find it even after you rename it or change its properties. Move the model with its pivot. Position tracks follow the translation but do not apply pivot rotation. Emitters with timing are disabled in the file and enabled by the player at the right moment. Imported MeshParts retain their MeshId. Check their size in Studio.
 
-**Exporter** fournit aussi le projet JSON et un ModuleScript Luau autonome, qui construit lui-même l’effet. Le module exporté fonctionne sans l’atelier, sans connexion locale et sans IA :
+**Exporter** also offers the project JSON and a standalone Luau ModuleScript that builds and plays the effect independently of the editor, bridge, and AI.
 
 ```lua
 local fx = require(game.ReplicatedStorage.MonEffet)
@@ -101,15 +108,15 @@ fx.play()
 -- fx.stop(), fx.clear(), fx.pause(), fx.resume(), fx.status()
 ```
 
-Le déplacement d’origine est appliqué aux Parts du projet ; les Attachments gardent leurs positions locales. Pour un effet attaché à un personnage mobile, le code du jeu doit gérer le support ou la liaison au personnage. L’export ne crée pas automatiquement une logique de combat ou une réplication réseau.
+The origin offset applies to Parts. Attachments keep their local positions. For an effect on a moving character, the game code must manage the attachment. Game logic and network replication are handled by your game.
 
-L’export `.lua` historique joue **un seul effet à la fois, aligné sur le monde**. Pour un vrai jeu avec plusieurs unités, exportez une bibliothèque :
+The legacy `.lua` export plays one world-aligned effect at a time. Use a library to play multiple instances.
 
 ```powershell
 python tool/fx.py export A1_Muzzle.json A2_Impact.json --format library --out exports/MesEffets.lua
 ```
 
-La commande produit `MesEffets.lua` (recettes indexées par nom de fichier) et `DatakyFXKit.lua`. Placez les deux dans des ModuleScripts voisins :
+This produces `MesEffets.lua` with recipes indexed by filename and a separate `DatakyFXKit.lua`. Put them in sibling ModuleScripts.
 
 ```lua
 local FX = require(script.Parent.DatakyFXKit)
@@ -121,55 +128,55 @@ local h = FX.play(Recipes.A1_Muzzle, muzzle.WorldCFrame, {
 -- FX.freeze(), FX.unfreeze()
 ```
 
-Le kit respecte la rotation, suit Attachment/Bone/BasePart ou une fonction renvoyant une CFrame et nettoie chaque instance indépendamment. Release coupe les continus et attend leur durée de vie ; Stop détruit tout de suite. `params={radius=24}` règle les propriétés marquées par scaleWith. Les animations de propriétés sont jouées, sauf Position et Transparency des Parts qui servent à la prévisualisation. `Low` réduit les bursts à 60 % ; Auto lit la qualité disponible. Pour des MeshParts, appelez `FX.preload(recipe)` avant `play` ; ce préchargement peut attendre, mais `play` ne yield jamais. L’historique natif des Trails ne peut pas être figé.
+The kit respects rotation, follows an Attachment, Bone, or BasePart or a function returning a CFrame, and cleans up each instance independently. `Release` stops continuous emission and lets particles expire. `Stop` destroys everything immediately. Set `params={radius=24}` to override properties marked with `scaleWith`. Property tracks play except preview-only Part position and transparency tracks. `Low` reduces bursts to 60% and `Auto` reads the available quality setting. Call `FX.preload(recipe)` before playing MeshParts. Preloading may yield. `FX.play` never yields. Native Trail history cannot be frozen.
 
-Le kit mémorise validation et décodage par table de recette (clés faibles) et clone un gabarit d’instances. `FX.prepare(recipe)` construit ce gabarit à l’avance sans attendre ; pour les MeshParts, `FX.preload(recipe)` doit le précéder. Dès le premier accès par le kit, gardez la recette immuable : créez une copie profonde pour modifier une variante. Une copie superficielle `table.clone` ne suffit pas.
+The kit caches validation and decoding per recipe table with weak keys and clones a template. `FX.prepare(recipe)` builds that template in advance without yielding. For MeshParts, call `FX.preload(recipe)` first. Keep recipes immutable after the kit first reads them. Use a deep copy to edit a variant. `table.clone` creates a shallow copy.
 
-`h:Release({hideParts=true})` masque immédiatement toutes les Parts/MeshParts et laisse les particules finir. Release arrête définitivement le suivi. `h:SetFollow(fnOrInstance)` change la cible ; `nil` arrête le suivi ; après Release/Stop cette méthode ne fait rien. L’option `onFinished=function(h) ... end` est appelée une seule fois après le nettoyage, y compris après Stop. Elle est différée avec `task.defer` et protégée : une erreur ou une attente du callback ne bloque pas `play`.
+`h:Release({hideParts=true})` hides all Parts and MeshParts immediately and lets particles finish. Release stops following for good. `h:SetFollow(fnOrInstance)` changes the target. Pass `nil` to stop following. It has no effect after Release or Stop. The `onFinished=function(h) ... end` callback runs once after cleanup, including for Stop. The kit defers and protects it with `task.defer`, so callback errors or yields do not block `play`.
 
-Au démarrage, `FX.preloadTextures(Recipes)` ou `FX.preloadTextures(Recipes.A1_Muzzle)` peut attendre `ContentProvider:PreloadAsync`. `FX.listTextures(Recipes)` liste les URI uniques sans précharger. Une nouvelle bibliothèque exportée permet aussi `Recipes:listTextures()` ; ses recettes restent les seules clés parcourues par `pairs`. Si une recette porte ce nom, utilisez `FX.listTextures`. Les anciens modules de bibliothèque fonctionnent avec le nouveau kit.
+At startup, `FX.preloadTextures(Recipes)` or `FX.preloadTextures(Recipes.A1_Muzzle)` may wait on `ContentProvider:PreloadAsync`. `FX.listTextures(Recipes)` lists unique URIs without preloading. A newly exported library also supports `Recipes:listTextures()`. Only recipes are enumerated by `pairs`. If a recipe has that name, use `FX.listTextures`. Earlier library modules work with the new kit.
 
-Dans le plugin connecté en Edit, **Dataky FX → Exporter les textures utilisées** scanne les ParticleEmitter, Beam et Trail de la place ainsi que les champs de textures littéraux des ModuleScripts de recettes. Le résultat est `tool/used_textures/<nom de la place>.txt`, directement utilisable avec `--exclude-file`. Les modules ne sont pas exécutés ; les sources inaccessibles et les expressions de textures calculées sont signalées comme scan partiel.
+In the connected Edit-mode plugin, **Dataky FX → Exporter les textures utilisées** (Export used textures) scans ParticleEmitter, Beam, and Trail instances in the place as well as literal texture fields in recipe ModuleScripts. It writes `tool/used_textures/<place name>.txt` for use with `--exclude-file`. Modules are read without execution. Inaccessible sources and calculated texture expressions are reported as partial coverage.
 
-## Écrire, chercher et vérifier depuis Python
+## Write, search, and verify from Python
 
-Le module `tool/fx_builder.py` fournit `Recipe`, `NS`, `CS`, `NR` et les méthodes part/att/em/trail/light/anim/flip/merge/save. Exemple complet et signatures dans le module et dans `CLAUDE.md`.
+`tool/fx_builder.py` provides `Recipe`, `NS`, `CS`, `NR`, and the part, att, em, trail, light, anim, flip, merge, and save methods. See that module and [the Claude guide](CLAUDE.md) for signatures and examples.
 
-Dans un plan compose, `{"include":"A1_Muzzle.json","at":0.44,"position":[0,1,-4],"orientation":[0,90,0],"scale":1}` inclut une recette tournée et décalée. Les chemins se résolvent depuis le plan. `positionKeys` ajoute une translation animée locale ; les références, animations et paramètres sont remappés. Les orientations sont exactes aux points clés, avec une limite d’interpolation Euler entre les clés après composition.
+A compose plan can include a rotated and offset recipe with `{"include":"A1_Muzzle.json","at":0.44,"position":[0,1,-4],"orientation":[0,90,0],"scale":1}`. Paths resolve relative to the plan. `positionKeys` adds animated local translation. References, animations, and parameters are remapped. Orientation is exact at the keyframes, with Euler interpolation between composed keys.
 
-- `python tool/fx.py textures --query star --compact --no-sheet --exclude-file used.txt` affiche un tableau court et ignore les textures déjà utilisées. `--exclude-ids 123 456` est une alternative.
-- `python tool/fx.py sheet 123 456 --exclude-file used.txt --out rendus/choix.png` affiche les IDs choisis, leur grille et le badge USED.
-- `python tool/fx.py validate recette.json` affiche un résumé par code, puis les avertissements détaillés. Les infos de grille estimated sont séparées et masquées par défaut : utiliser `--infos` ou `--verbose`. Une même texture n’apparaît qu’une fois dans les infos d’une recette. La recette reste valide et les avertissements ne changent pas le code de sortie.
-- `python tool/fx.py grid-confirm 11844402871 4` confirme une grille contrôlée visuellement. La confirmation est stockée dans `tool/grid_overrides.json` et retire l’info correspondante ; le catalogue reste intact. Le fichier accepte les grilles carrées 2, 4 ou 8 et la recherche utilise aussi ces surcharges.
-- Une fin Size proche de zéro ou une Transparency finale ≥ **0,95** ne déclenche pas `abrupt_transparency`. Ce diagnostic exige les deux résidus : Transparency < 0,95 et Size > `max(0,05 stud, 5 % du pic de Size)`.
-- `flat_layer_negative_zoffset` avertit sur les couches plates `VelocityPerpendicular` + `Top` avec `ZOffset < 0`, qui peuvent passer sous le sol. `dark_ground_contrast` avertit sur les couches presque noires (luminance maximale < 0,15, LightEmission < 0,2) sans couche claire couvrant leur présence. Le soutien clair exige luminance ≥ 0,45, LightEmission ≥ 0,2 et une taille/opacité visibles. Les fenêtres incluent timing, Enabled, Count/Rate, Lifetime et TimeScale ; tous les seuils sont dans `THRESHOLDS`. Ce sont des heuristiques : positions, textures, éclairage natif et propriétés animées autres qu’Enabled ne sont pas simulés par cet avertissement.
-- Les diagnostics de visibilité mesurent une **surface opaque équivalente en studs²**, au lieu du seul pourcentage d’alpha : moyenne sur la vie de `alpha × Size² × (1 - Transparency)`. Le seuil est **0,01 stud²** ; les pixels durs opaques contribuent pleinement. La règle garde ainsi les poussières et étoiles pixel observées visibles en Play. Les seuils sont centralisés dans `tool/fx_warnings.py::THRESHOLDS` ; couleur, fond, enveloppes et cumul d’émetteurs restent des limites de cette estimation.
-- Les flipbooks OneShot dont les premières cases sont presque vides peuvent être invisibles avec une Lifetime courte : c’est le cas mesuré de `70418763522849` à 0,2–0,45 s. Le cache alpha séparé `tool/texture_frames.json` est calculé au besoin ; `python tool/fx_texture_cache.py` le préremplit. Ses diagnostics utilisent les miniatures et des seuils heuristiques, à confirmer en Play.
-- `python tool/fx.py render recette.json --fit NODE_ID --times 0.02,0.06` cadre seulement les particules vivantes aux instants choisis, demi-taille incluse. Un émetteur cadre ses propres particules ; une Part inclut celles de tous ses émetteurs descendants. Le 90e centile des distances au centroïde écarte les particules isolées : réglable avec `--fit-percentile` (> 0 à 100). Sans particules, repli annoncé sur la Part et ses Attachments. `--fit-all` conserve l’ancien cadrage de toute l’étendue simulée sur toute la durée.
-- Le contour des cases de texture affichées est transformé avec la taille, la rotation et le Squash des particules. Le cadrage conserve 90 % de l’énergie alpha² par case ; cette mesure relative préserve les textures pâles et écarte les halos isolés. `--fit-percentile 100` conserve tout l’alpha et toutes les particules. Sans miniature accessible, le quad entier contribue. La caméra cadre ces points directement ; aucun cube artificiel n’ajoute de profondeur aux billboards. Le rendu et les diagnostics de visibilité ne sont pas modifiés par ce choix de caméra.
-- `--focus 0,1,-4 --radius 3` cadre une **sphère** de rayon 3, visant 87,5 % de la plus petite dimension de l’image. La direction de la caméra est conservée.
-- `python tool/fx.py render-batch jobs.json` traite plusieurs recettes/instants/caméras avec un seul Chromium. Le manifeste `{"jobs":[{"projects":["recette.json"],"out":"rendus/vue.png","times":[0,0.1],"camera":[10,6,12,0,1,0]}]}` peut contenir plusieurs vues. Options de jobs en camelCase, dont `fitPercentile` et `fitAll` ; chemins de recettes depuis le manifeste, sorties depuis le dépôt. Playwright est requis. Si le bac à sable interdit l’accès au Playwright installé, le diagnostic l’indique et les captures réelles doivent être relancées hors du bac à sable.
+- `python tool/fx.py textures --query star --compact --no-sheet --exclude-file used.txt` prints a compact table and skips used textures. `--exclude-ids 123 456` accepts IDs directly.
+- `python tool/fx.py sheet 123 456 --exclude-file used.txt --out rendus/choix.png` displays the chosen IDs, flipbook grids, and a USED badge where applicable.
+- `python tool/fx.py validate recette.json` shows a summary by code followed by detailed warnings. Estimated-grid information is separate and hidden by default. Show it with `--infos` or `--verbose`. Each texture appears once in the informational results. Warnings do not make a valid recipe invalid or change its exit code.
+- `python tool/fx.py grid-confirm 11844402871 4` records a visually confirmed grid in `tool/grid_overrides.json` and clears the corresponding informational entry. The catalogue data stays intact. The file supports square 2, 4, or 8 grids. Search also honours these overrides.
+- A final Size near zero or Transparency of at least **0.95** does not trigger `abrupt_transparency`. The warning requires both Transparency below 0.95 and Size above the larger of 0.05 studs or 5% of peak Size.
+- `flat_layer_negative_zoffset` warns about flat `VelocityPerpendicular` and `Top` layers with `ZOffset < 0`, which may render below the ground. `dark_ground_contrast` warns about almost-black layers with peak luminance below 0.15 and LightEmission below 0.2 when no bright layer covers their lifetime. Supporting layers need luminance of at least 0.45, LightEmission of at least 0.2, and visible size and opacity. The windows account for timing, Enabled, Count or Rate, Lifetime, and TimeScale. `THRESHOLDS` defines the cutoffs. These heuristics do not simulate positions, textures, engine lighting, or animated properties other than Enabled.
+- Visibility diagnostics estimate **equivalent opaque area in studs²** from the lifetime average of `alpha × Size² × (1 - Transparency)`. The threshold is **0.01 stud²**. Fully opaque pixels count at full weight, preserving the small dust and pixel stars observed in Play. `tool/fx_warnings.py::THRESHOLDS` defines the thresholds. Colour, background, envelopes, and combined emitters affect the accuracy of the estimate.
+- OneShot flipbooks with nearly empty first frames can disappear with a short Lifetime. This was observed with `70418763522849` at 0.2–0.45 seconds. Alpha information is cached on demand in `tool/texture_frames.json`. Run `python tool/fx_texture_cache.py` to prefill it. The diagnostics use thumbnails and heuristics. Verify in Play.
+- `python tool/fx.py render recette.json --fit NODE_ID --times 0.02,0.06` frames live particles at the requested times, including their half-size. An emitter includes its own particles and a Part includes particles from descendant emitters. The 90th percentile of distances from the centroid excludes outliers. Tune it with `--fit-percentile` (greater than 0 and up to 100). With no particles, the renderer reports that it framed the Part and its Attachments. Use `--fit-all` for the legacy framing of the full simulated extent and duration.
+- The renderer transforms the visible frame outline by particle size, rotation, and Squash. It keeps 90% of the alpha-squared energy per cell by default, preserving faint textures while excluding isolated halos. `--fit-percentile 100` keeps all alpha and particles. If a thumbnail is unavailable, the full quad counts. The camera uses those points directly without adding artificial billboard depth. Rendering and visibility diagnostics themselves are unaffected.
+- `--focus 0,1,-4 --radius 3` frames a sphere of radius 3 at 87.5% of the smaller image dimension and keeps the camera direction.
+- `python tool/fx.py render-batch jobs.json` uses one Chromium process to render multiple recipes, times, and cameras. A manifest such as `{"jobs":[{"projects":["recette.json"],"out":"rendus/vue.png","times":[0,0.1],"camera":[10,6,12,0,1,0]}]}` can specify multiple views. Job options use camelCase, including `fitPercentile` and `fitAll`. Recipe paths are relative to the manifest and output paths are relative to the repository. Playwright is required. If the installed Playwright cannot be accessed, the renderer reports that the real captures could not run.
 
-Les outils MCP proposent les mêmes filtres/exclusions, `texture_sheet`, le cadrage `fit`/`fit_percentile`/`fit_all` ou `focus/radius`, `render_batch`, les avertissements et résumés de `validate_effect` (`include_infos` pour les infos), `grid_confirm` et l’export library.
+MCP offers the same filters and exclusions, `texture_sheet`, `fit`, `fit_percentile`, `fit_all`, `focus`, `radius`, `render_batch`, validation warnings and summaries through `validate_effect` with optional `include_infos`, `grid_confirm`, and library export.
 
-## Pour une IA ou un autre outil
+## Use from an assistant or another tool
 
-Claude (ou une autre IA) dispose de trois portes d’entrée vers les mêmes outils : choisir des textures en les voyant, assembler des briques, rendre l’effet en images, comparer des variantes, valider, enregistrer et exporter.
+Claude or another assistant can inspect texture contact sheets, compose blocks, render and compare versions, validate, save, and export through the same tools.
 
-- **Claude Desktop** : double-cliquez sur **INSTALLER_CLAUDE_DESKTOP.bat**, puis relancez Claude Desktop. Le serveur MCP `tool/fx_mcp.py` ajoute les outils Dataky FX à la conversation ; il suffit de demander « fais-moi une explosion de glace ». Une sauvegarde `.bak` de la configuration est faite avant modification.
-- **Claude Code** dans ce dossier : `CLAUDE.md` décrit la méthode et les pièges Roblox, et `.mcp.json` déclare le même serveur MCP (commande `python` ; remplacez-la par `py` si nécessaire). La ligne de commande suffit aussi :
+- For **Claude Desktop**, run **INSTALLER_CLAUDE_DESKTOP.bat**, then restart Claude Desktop. The MCP server `tool/fx_mcp.py` adds Dataky FX tools to the conversation so you can ask for an effect such as an ice explosion. The installer backs up the configuration to a `.bak` file.
+- For **Claude Code**, open this folder. [CLAUDE.md](CLAUDE.md) documents the workflow and Roblox details. `.mcp.json` registers the same MCP server with `python`. Change it to `py` if your setup requires that command. The CLI is also available.
 
 ```powershell
-python tool/fx.py textures --tag Slash --kind flipbook   # planche des textures avec leurs IDs
-python tool/fx.py blocks                                 # briques disponibles
-python tool/fx.py compose plan.json --out recette.json   # briques → recette
-python tool/fx.py render recette.json variante.json      # planche ; une ligne par variante
-python tool/fx.py export recette.json --format rbxmx     # modèle à glisser dans Studio
+python tool/fx.py textures --tag Slash --kind flipbook   # Texture sheet with IDs
+python tool/fx.py blocks                                 # Available blocks
+python tool/fx.py compose plan.json --out recette.json   # Turn the plan into a recipe
+python tool/fx.py render recette.json variante.json      # One sheet row per variant
+python tool/fx.py export recette.json --format rbxmx     # Import the model into Studio
 ```
 
-Les rendus se font avec cadrage automatique et mannequin d’échelle (`--no-auto-camera`, `--no-dummy` pour les retirer). Les planches vont dans `rendus/` et les exports dans `exports/`. Ces outils n’ajoutent pas de savoir-faire artistique : votre skill VFX garde ce rôle, et ces outils lui donnent des yeux et des mains.
+Renders use automatic framing and a scale dummy. Use `--no-auto-camera` and `--no-dummy` to turn them off. Contact sheets go to `rendus/` and exports to `exports/`. An assistant uses these tools to inspect and edit its work. Artistic choices come from the requested direction and VFX guidance.
 
-Les rendus utilisent Node.js et Playwright. La commande de bas niveau produit une planche PNG de l’effet à des instants précis :
+Node.js and Playwright handle rendering. The lower-level command creates a PNG contact sheet at specific times.
 
 ```powershell
 node tool/fx_render.cjs editor/projects/dataky-impact.json --out rendu.png --times 0,0.1,0.25,0.5
@@ -177,41 +184,43 @@ node tool/fx_render.cjs dataky-impact --frames 8 --size 640x360 --camera 8,4,10,
 node tool/fx_render.cjs variante-a.json variante-b.json --times 0.1,0.3 --auto-camera --dummy
 ```
 
-Elle utilise Chromium par Playwright (`npm install -g playwright` puis `npx playwright install chromium`) et n’a besoin ni du serveur, ni de Studio. La même recette, la même graine (`--seed`) et le même instant donnent toujours la même image : l’IA peut modifier un réglage, refaire la planche et comparer. `--frames-dir` enregistre aussi chaque image séparément ; `--background`, `--no-ground` et `--fov` reprennent les options de la vue. Le résultat JSON liste les fichiers, les instants réellement rendus (arrondis au pas de 1/60 s) et les avertissements (textures absentes, maillages non émulés).
+Install Chromium for Playwright with `npm install -g playwright` followed by `npx playwright install chromium`. Rendering needs neither the editor server nor Studio. The same recipe, seed (`--seed`), and time produce the same frame. Change one setting and rerender to compare. `--frames-dir` saves individual frames. `--background`, `--no-ground`, and `--fov` mirror the editor's options. The JSON result lists files, rendered times rounded to a 1/60-second step, and warnings such as missing textures or unsupported meshes.
 
-Rendu unique, `render-batch` et MCP partagent les priorités de caméra : `--camera px,py,pz,tx,ty,tz` est exact ; `--fit` ou `--focus` demandent un cadrage ; sinon la caméra de la recette est conservée. `--auto-camera` / `autoCamera: true` demande le cadrage global, avec priorité conservée à une caméra explicite. L’ancien `--no-auto-camera` reste disponible.
+Single renders, `render-batch`, and MCP share camera precedence. `--camera px,py,pz,tx,ty,tz` sets an exact camera. `--fit` or `--focus` requests framing. Otherwise the renderer keeps the recipe camera. `--auto-camera` or `autoCamera: true` requests global framing while preserving an explicit camera's precedence. The legacy `--no-auto-camera` remains available.
 
-`--background dark` force un ciel de nuit et un sol gris sombre ; ce décor est une approximation de vfx.rbxl, pas une capture de son éclairage. `--backgrounds roblox,dark` génère une ligne par recette et par fond pour comparer le contraste avec les mêmes caméra, instants et graine. Python/MCP et les jobs batch acceptent `background="dark"` ou `backgrounds=["roblox","dark"]` (chaîne à virgules également acceptée). Les deux options sont exclusives. Le rapport JSON liste les lignes et la taille de la planche ; les images individuelles ont un nom distinct par ligne.
+`--background dark` uses a night sky and dark grey ground inspired by `vfx.rbxl`. It approximates that place's lighting. Use `--backgrounds roblox,dark` for one row per recipe and background with identical camera, times, and seed. Python, MCP, and batch jobs accept either `background="dark"` or `backgrounds=["roblox","dark"]`. The latter also accepts a comma-separated string. The choices are mutually exclusive. The JSON report lists the rows and sheet dimensions, and individual frame names distinguish the rows.
 
-Sans Node, la page **http://127.0.0.1:48754/render.html?project=ID&frames=8** affiche la même planche pour un projet enregistré (paramètres `times`, `size`, `columns`, `background`, `ground=0`, `seed`). Dans l’atelier ouvert, `window.DatakyFX.emulator` propose `play()`, `stop()`, `seek(t)`, `frame(t)` (image PNG en data URL) et `sheet(options)`.
+Without Node, open **http://127.0.0.1:48754/render.html?project=ID&frames=8** to view a sheet for a saved project. It accepts `times`, `size`, `columns`, `background`, `ground=0`, and `seed`. In the editor, `window.DatakyFX.emulator` exposes `play()`, `stop()`, `seek(t)`, `frame(t)` (a PNG data URL), and `sheet(options)`.
 
-Boucle conseillée pour une IA : choisir les textures sur leurs planches, composer ou écrire la recette, la valider, rendre la planche, regarder les images, corriger, recommencer ; puis enregistrer et exporter le modèle `.rbxmx`.
+For assistant-driven work, choose textures from their contact sheets, compose or write the recipe, validate it, render it, inspect the result, and iterate. Save and export the final `.rbxmx` model.
 
-L’API locale sert la même recette que l’interface :
+### Local API
 
-| Route | Usage |
+The API serves the same recipe used by the editor.
+
+| Route | Use |
 | --- | --- |
-| `GET /api/schema` | Classes, propriétés, types, valeurs et limites acceptées. |
-| `GET /api/catalog` | Assets et tags des trois collections. |
-| `GET /api/projects` | Projets sauvegardés. |
-| `GET /api/project/ID` | Lire une recette. |
-| `POST /api/project` | Valider et sauvegarder une recette JSON. |
-| `POST /api/preview` | `{ "action": "play", "project": { ... } }` ; actions apply, play, stop, clear, pause, resume. |
-| `GET /api/status` | Connexion Studio, erreurs et résultats natifs. |
-| `GET /api/preview/frame` | État du flux intégré et métadonnées de la dernière image récente. |
-| `GET /api/preview/frame.png` | Dernière image native, sans cache ; erreur si aucune image récente. |
-| `POST /api/snapshot` | `{ "native": true }` archive l’image native récente avec son véritable instant et projet. |
-| `GET /api/export/ID.json` | Télécharger le projet. |
-| `GET /api/export/ID.lua` | Télécharger le ModuleScript autonome. |
-| `GET /api/export/ID.rbxmx` | Télécharger le modèle Roblox à glisser dans Studio, lecteur inclus. |
-| `GET /api/blocks` | Briques disponibles et leurs réglages. |
-| `POST /api/compose` | `{ "project": {…}, "blocks": [{ "block": "flash", "at": 0 }] }` ajoute des briques et renvoie la recette, sans l’enregistrer. |
-| `GET /api/snapshots` | Retrouver les captures enregistrées manuellement depuis la vue Studio. |
+| `GET /api/schema` | List supported classes, properties, types, values, and limits. |
+| `GET /api/catalog` | Get assets and tags for all three collections. |
+| `GET /api/projects` | List saved projects. |
+| `GET /api/project/ID` | Read a recipe. |
+| `POST /api/project` | Validate and save a JSON recipe. |
+| `POST /api/preview` | Accepts `{ "action": "play", "project": { ... } }` and supports apply, play, stop, clear, pause, and resume. |
+| `GET /api/status` | Get Studio connection status, errors, and native results. |
+| `GET /api/preview/frame` | Get integrated stream status and metadata for the latest recent frame. |
+| `GET /api/preview/frame.png` | Get the latest native frame without caching. Returns an error when no recent frame exists. |
+| `POST /api/snapshot` | `{ "native": true }` saves the recent native frame with its real time and project. |
+| `GET /api/export/ID.json` | Download a project. |
+| `GET /api/export/ID.lua` | Download the standalone ModuleScript. |
+| `GET /api/export/ID.rbxmx` | Download the Roblox model with a player for import into Studio. |
+| `GET /api/blocks` | Get available blocks and settings. |
+| `POST /api/compose` | `{ "project": {…}, "blocks": [{ "block": "flash", "at": 0 }] }` adds blocks and returns the unsaved recipe. |
+| `GET /api/snapshots` | List manually saved captures from the Studio view. |
 
-L’IA doit pouvoir appeler cette API ou lire les fichiers et les planches de rendu. Le site ne lui donne pas automatiquement accès à votre écran. Aucun texte de projet n’est exécuté comme code. Les propriétés inconnues, références invalides et cycles de parents sont signalés ; corrigez-les avant la sauvegarde ou la lecture.
+An assistant needs access to the API or to the files and contact sheets. The editor does not grant automatic screen access. Project text is never executed as code. Fix unknown properties, invalid references, and parent cycles before saving or playing the recipe.
 
-## Bibliothèque et maintenance
+## Catalogue and maintenance
 
-La bibliothèque existante reste utilisable hors ligne dans **catalogue.html**. **METTRE_A_JOUR.bat** régénère les exports et miniatures depuis les captures enregistrées. **tool/macro.bat** relit les listes du plugin. Ces deux opérations sont indépendantes de la création d’un effet dans l’atelier.
+The offline library remains available in **catalogue.html**. Run **METTRE_A_JOUR.bat** to rebuild exports and thumbnails from saved captures, or **tool/macro.bat** to recapture the plugin lists. Both work independently of effect creation.
 
-Les projets, les aperçus et les scripts restent locaux. Aucun appel à ChatGPT n’est nécessaire pour utiliser l’éditeur à la main ou pour rejouer un effet exporté.
+Projects, previews, and scripts stay local. Manual editing and effect playback require no ChatGPT calls.

@@ -1,3 +1,15 @@
+# Development requests, batch 2
+
+This brief follows hands-on use of the first gameplay kit and records two editor problems.
+
+- **Validation noise.** Avoid warnings about harmless particle endings, keep estimated grids separate from warnings, and measure visibility in relation to texture coverage and particle size. Retain useful warnings about short OneShot flipbooks and show a compact summary.
+- **Camera framing.** Frame living particles at selected times and support an explicit sphere around a focus point. Cover sparse particles, transparent texture margins, and fallback framing in tests.
+
+[Batch 2 delivery and measurements](RAPPORT_DEMANDES_CLAUDE.md#batch-2-delivery).
+
+<details>
+<summary>Original French record</summary>
+
 # Dataky FX Studio · demandes de Claude, lot 2 (2026-10-22)
 
 Suite de `DEMANDES_CLAUDE.md` et de `RAPPORT_DEMANDES_CLAUDE.md`. Claude a vérifié le lot 1 :
@@ -97,3 +109,5 @@ Mets à jour `RAPPORT_DEMANDES_CLAUDE.md` avec une section « Lot 2 » :
 - les résultats des critères ci-dessus ;
 - les fichiers modifiés ;
 - les sorties réelles des tests.
+
+</details>

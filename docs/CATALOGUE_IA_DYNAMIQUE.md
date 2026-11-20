@@ -1,105 +1,53 @@
-# Catalogue dynamique de l’atelier
+# Live editor catalogue
 
-`tool/fx_ai_catalog.py` lit les collections existantes **Textures, Beams et
-Meshes**, ainsi que les meshes OBJ réutilisables importés localement.
-Chaque nouvelle recherche relit les sources actuelles. Une
-modification de nom, tags, ID, grille ou observation, un ajout et une suppression
-sont donc visibles sans redémarrer le serveur. Le nom historique du module
-`fx_ai_catalog.py` ne signifie pas qu’un modèle est installé ou utilisé.
+`tool/fx_ai_catalog.py` reads the existing **Textures**, **Beams**, and **Meshes** collections and reusable OBJ meshes imported locally. Each search rereads the current sources. Changes to names, tags, IDs, grids, and observations, as well as additions and deletions, become visible without a server restart. The module's historical name does not imply that it uses an AI model.
 
-## Accès complet et recherche paginée
+## Full catalogue and paginated search
 
-Tous les IDs valides sont recherchables, avec pagination. L'index parcourt noms,
-tags, alias, IDs et observations explicitement fournies. Des synonymes français
-et anglais couvrent les formes VFX courantes ; un ID explicitement demandé passe
-en priorité. Le classement est textuel : il ne prétend pas analyser les images
-ou attribuer une forme observée à partir d'un nom.
+Every valid ID is searchable through paginated results. The index checks names, tags, aliases, IDs, and explicit observations. French and English synonyms cover common VFX shapes. An explicitly requested ID takes priority. Ranking comes from text and does not analyse images or infer observed shapes from names.
 
-Les outils de recherche renvoient une sélection paginée du catalogue complet.
-Un candidat conserve sa collection, son ID permanent et sa provenance ; les
-buffers d’une géométrie locale ne sont chargés qu’après sa sélection.
+Search returns a page of candidates from the full catalogue. Each candidate retains its collection, permanent ID, and provenance. Local geometry buffers load only after selection.
 
-Les doublons d'un même ID dans une même collection sont regroupés ; leurs noms
-alternatifs et tags restent recherchables. Pour les meshes, le couple MeshId et
-TextureId définit une variante distincte : un mesh non texturé n'est jamais
-fusionné avec sa version texturée. La clé `meshes:ID` désigne la version sans
-texture lorsqu'elle existe, sinon la variante au TextureId numériquement le plus
-petit. Les autres variantes utilisent `meshes:ID@TEXTUREID`. Ce choix est calculé
-avant la lecture des lignes pour rester indépendant de leur ordre. Un ID seul
-devenu ambigu exige sa clé complète. Par exemple, le catalogue conserve séparément
-`meshes:1051557` (Simple Thick Spring sans texture) et
-`meshes:1051557@98468789881853` (Spiral texturé).
-Les références MeshId et TextureId explicites sont conservées. Les entrées avec un ID invalide sont
-exclues et comptées. Une miniature manquante ne supprime jamais un asset de la
-recherche. Auteur, licence et droits inconnus restent inconnus.
+Duplicates with the same ID in the same collection are grouped. Alternative names and tags remain searchable. For meshes, each MeshId and TextureId pair represents a distinct variant. An untextured mesh stays separate from its textured variants. The key `meshes:ID` refers to the untextured version when available, or to the variant with the lowest numeric TextureId. Other variants use `meshes:ID@TEXTUREID`. The catalogue chooses these keys independently of row order. A bare ID that maps to multiple assets requires a full key. For example, `meshes:1051557` (Simple Thick Spring, untextured) and `meshes:1051557@98468789881853` (Spiral, textured) are separate entries.
 
-## Sources relues
+Explicit MeshId and TextureId references are preserved. Invalid IDs are excluded from results and counted. Missing thumbnails do not remove assets from search. Unknown creators, licences, and rights stay unknown.
 
-* `textures.json` ;
-* `beams/assets.json` ;
-* `meshes/assets.json` ;
-* `tool/grid_overrides.json` pour les grilles confirmées ;
-* `editor/artistry/assets.json` pour les observations humaines/vision ;
-* `editor/local_ai/catalog.json` pour les meshes locaux réutilisables.
+## Source files
 
-La révision SHA-256 porte sur le contenu des sources, même si leur taille et leur
-date de modification sont inchangées. Une modification pendant la lecture
-provoque une nouvelle lecture ; un fichier JSON invalide donne une erreur
-visible. Aucune ancienne version en cache ne remplace silencieusement les données
-actuelles. Les trois catalogues de départ ne sont jamais écrits par ce module.
+- `textures.json`
+- `beams/assets.json`
+- `meshes/assets.json`
+- `tool/grid_overrides.json` for confirmed grids
+- `editor/artistry/assets.json` for human and vision observations
+- `editor/local_ai/catalog.json` for reusable local meshes
 
-Un ajout doit figurer dans le catalogue ou passer par un import pris en charge.
-Déposer un fichier quelconque dans un dossier d'images ne crée pas à lui seul
-une entrée d'asset avec ID, nom et provenance.
+The SHA-256 revision reflects the file contents even when size and modification time are unchanged. A concurrent modification triggers a reread. Invalid JSON raises a visible error. The module does not silently use stale cached data and never writes to the three source catalogues.
 
-## Meshes OBJ importés
+An addition must be recorded in the catalogue or go through a supported import. Placing a file in an image folder alone cannot create an asset entry with an ID, name, and provenance.
 
-`register_mesh(imported, root=...)` enregistre le résultat validé de `import_obj`.
-L'identité locale `local-<hash du fichier source>` reste stable quand le même OBJ
-est importé à nouveau. La géométrie est enregistrée dans un fichier adressé par
-son contenu sous `editor/local_ai/meshes/`. Un verrou entre processus protège
-l'index, puis une écriture atomique le remplace ; les imports simultanés ne
-perdent pas d'entrées.
+## Imported OBJ meshes
 
-Sauvegarder un effet contenant un mesh connu conserve son nom de bibliothèque,
-sa licence, son créateur et sa provenance d'enregistrement. Un nom différent
-de couche devient un alias recherchable. Une sauvegarde inchangée ne réécrit pas
-l'index et ne change pas sa révision. Les tags explicitement fournis et les
-associations MeshId/TextureID non vides sont mis à jour quand ils changent.
-Les associations sont partagées par toutes les générations utilisant cet OBJ :
-un ID renseigné doit bien représenter la même géométrie dans Studio. Une ancienne
-recette non mappée n'efface pas une association explicite déjà enregistrée.
-Vider le MeshId d'une instance de projet ne retire donc pas l'association
-globale connue ; une correction ou suppression globale concerne l'entrée
-correspondante dans `editor/local_ai/catalog.json`.
-Cette association ne prouve pas les droits d'accès et ne publie aucun asset.
+`register_mesh(imported, root=...)` registers the validated result of `import_obj`. The local ID, `local-<source file hash>`, is stable when the same OBJ is imported again. Geometry is stored under `editor/local_ai/meshes/` using its content hash. An interprocess lock protects the index and atomic writes replace it, so concurrent imports retain every entry.
 
-Un mesh local peut être recherché et réutilisé sans MeshId pour l'aperçu. Il doit
-recevoir un MeshId Roblox explicite après import autorisé dans Studio avant
-export natif. Le catalogue ne publie jamais un asset et ne télécharge ni n'exécute
-de scripts tiers. Une miniature d'un mesh Roblox n'est pas sa géométrie 3D :
-sans géométrie locale, seul Studio peut rendre sa forme native exacte.
+Saving an effect with a known mesh preserves the mesh's library name, licence, creator, and registration provenance. A different layer name becomes a searchable alias. An unchanged save leaves the index and revision as they are. Explicit tags and nonempty MeshId and TextureID mappings are updated when they change.
 
-Le registre accepte jusqu'à 256 meshes locaux. Les limites de géométrie et de
-composition de l'éditeur s'appliquent toujours aux effets générés.
+Effects that use the same OBJ share those mappings. The assigned ID must represent the same geometry in Studio. An old, unmapped recipe does not clear a registered mapping. Clearing the MeshId in a project instance leaves the global mapping intact. To change or remove it globally, edit its entry in `editor/local_ai/catalog.json`. A mapping does not establish access rights or publish an asset.
 
-## API Python
+You can find and reuse a local mesh without a MeshId for preview. Native export requires an explicit Roblox MeshId after an authorised import in Studio. The catalogue never publishes assets or downloads or executes third-party scripts. A Roblox thumbnail contains no mesh geometry. Without a local mesh, only Studio can render its exact native shape.
+
+The registry supports up to 256 local meshes. The editor's geometry and composition limits still apply.
+
+## Python API
 
 ```python
 from tool import fx_ai_catalog as catalog
 
 snapshot = catalog.snapshot(root=application_folder)
-found = catalog.search("anneau magique", collection="meshes", snapshot=snapshot)
+found = catalog.search("magic ring", collection="meshes", snapshot=snapshot)
 asset = catalog.get_asset(found["items"][0]["key"], snapshot=snapshot)
-geometry = catalog.load_geometry(asset, root=application_folder)  # None pour un ID distant
+geometry = catalog.load_geometry(asset, root=application_folder)  # None for a remote ID
 ```
 
-`snapshot` fournit `revision`, `counts`, `raw_counts`, `assets` et `warnings`.
-`search` fournit les résultats paginés, leur total et la même révision. Une
-génération peut réutiliser un snapshot unique pour lier ses candidats et son
-export à une source cohérente. La demande suivante crée un nouveau snapshot.
+`snapshot` returns `revision`, `counts`, `raw_counts`, `assets`, and `warnings`. `search` returns paginated results, the total, and the same revision. Reuse a snapshot to keep candidate selection and export tied to one consistent source. The next request can create a fresh snapshot.
 
-Tests : `python -m unittest discover -s tool -p test_fx_ai_catalog.py`. Ils
-vérifient fraîcheur, lecture concurrente, JSON invalide, pagination, synonymes,
-provenance, grilles, références de meshes, absence de miniature, sécurité des
-chemins, empreintes et enregistrements atomiques entre processus indépendants.
+Run `python -m unittest discover -s tool -p test_fx_ai_catalog.py` to verify freshness, concurrent reads, invalid JSON handling, pagination, synonyms, provenance, grids, mesh references, missing thumbnails, file path constraints, fingerprints, and atomic registration across processes.

@@ -1,3 +1,17 @@
+# Development requests, 22 October 2026
+
+This brief covers the first batch of editor and runtime changes.
+
+- **Emulator and Studio correctness.** Match the measured Roblox Squash orientation, respect the recipe’s background, and keep the plugin connection message out of Play sessions.
+- **Manual editing.** Add a Free mode with direct emission, temporary Enabled controls, and keyboard shortcuts for preview, timeline navigation, framing, and export.
+- **Gameplay playback.** Add a multi-instance kit for world transforms, following, independent handles, cleanup, library export, and a configurable radius.
+- **Authoring and verification.** Add Python recipe helpers, recipe inclusion, Roblox-specific warnings, texture search, rendering improvements, and native preview guidance. Record which claims still need an in-engine check.
+
+[Delivery report](RAPPORT_DEMANDES_CLAUDE.md).
+
+<details>
+<summary>Original French record</summary>
+
 # Dataky FX Studio · demandes de Claude (2026-10-22)
 
 Fiche pour Codex. Elle vient de l'usage réel de Dataky FX par Claude sur quatre unités Roblox du jeu Brainrot TD (Pop Pop Sahur, Corn Corn Corn Sahur, Tractoro Dinosauro2, Bulbito Bandito Traktorito). Chaque fois, la méthode était la même :
@@ -231,3 +245,5 @@ Tant que le point 7 n'existe pas, dis clairement que l'export `.lua` ne joue qu'
 - Ce qui n'est pas fait ou pas sûr, et pourquoi.
 - Les tests lancés et leur résultat (sortie réelle).
 - Comment tester à la main : quel bouton, quelle commande.
+
+</details>
